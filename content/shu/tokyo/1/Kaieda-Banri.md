@@ -2,19 +2,16 @@
 title: "海江田万里"
 url: /shu/tokyo/1/Kaieda-Banri
 ---
+# 海江田万里
 
-
-
-[選挙公報](https://www.senkyo.metro.tokyo.lg.jp/documents/d/senkyo/R6syuinsen_syosenkyo_01)
-
-安心な生活のための５つの経済対策
+## 安心な生活のための５つの経済対策
 - 今こそ安心の年金改革
 - 税金のムダづかいを徹底的に削減
 - 中小企業を支援し地域経済を活性化
 - 最低賃金1500円以上で賃金を底上げ
 - 公正な課税で格差是正
 
-持続可能な将来のための７つの基本政策
+## 持続可能な将来のための７つの基本政策
 - 裏金・脱税を許さず政治の信頼回復
 - 家計・賃上げ支援で現役世代を支える
 - 積極的な平和創造外交・現実的安全保障を推進
@@ -25,3 +22,5 @@ url: /shu/tokyo/1/Kaieda-Banri
 
 公約は
 最低賃金1500円以上
+
+[選挙公報](https://www.senkyo.metro.tokyo.lg.jp/documents/d/senkyo/R6syuinsen_syosenkyo_01)
