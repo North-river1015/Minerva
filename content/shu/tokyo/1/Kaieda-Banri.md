@@ -20,7 +20,5 @@ url: /shu/tokyo/1/Kaieda-Banri
 - 自身・自然災害に強いまちづくり
 - 選択的夫婦別姓・多様性を認め合える共生社会の実現
 
-公約は
-最低賃金1500円以上
 
 [選挙公報](https://www.senkyo.metro.tokyo.lg.jp/documents/d/senkyo/R6syuinsen_syosenkyo_01)
