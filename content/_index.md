@@ -8,7 +8,7 @@ layout: "home"
 <?xml version="1.0" encoding="utf-8"?>
 <svg class="geolonia-svg-map" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <style type="text/css"> <![CDATA[
-.geolonia-svg-map .prefecture polygon, .geolonia-svg-map .prefecture path { fill: #EEEEEE; transition: fill .2s; } .geolonia-svg-map .prefecture:hover polygon, .geolonia-svg-map .prefecture:hover path { fill: #00ff99ff !important; }] 
+.geolonia-svg-map .prefecture polygon, .geolonia-svg-map .prefecture path { fill: #EEEEEE; transition: fill .2s; } .geolonia-svg-map .prefecture:hover polygon, .geolonia-svg-map .prefecture:hover path { fill: #00ff99ff !important; }
 ]]></style>
 
   <title>Japanese Prefectures</title>
@@ -220,4 +220,3 @@ layout: "home"
   </g>
 </svg>
 
-比例区は、個人よりも政党に投票される上小選挙区との重複も存在する。限られた時間の中で比例区もカバーすることは困難なため、小選挙区にフォーカスする。
