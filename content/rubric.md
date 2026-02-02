@@ -1,5 +1,5 @@
 ---
-title: "「公約」とは"
+title: "公約の判定基準"
 url: "/rubric"
 ---
 

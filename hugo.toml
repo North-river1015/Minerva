@@ -13,7 +13,8 @@ title = 'Minerva'
     url = "/search"
     weight = 5 
 
-    name = "「公約」とは？"
+[[menu.main]]
+    name = "公約の判定基準"
     url = "/rubric"
     weight = 10
 
