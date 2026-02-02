@@ -3,6 +3,20 @@ baseURL = "https://north-river1015.github.io/Minerva/"
 languageCode = 'en-us'
 title = 'Minerva'
 
+# for search function
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+# for search function
+
+[[menu.main]]
+    name = "Search"
+    url = "/search"
+    weight = 5 
+
+    name = "「公約」とは？"
+    url = "/rubric"
+    weight = 10
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
