@@ -2,7 +2,8 @@ theme = "PaperMod"
 baseURL = "https://north-river1015.github.io/Minerva/"
 languageCode = 'en-us'
 title = 'Minerva'
-paginate = 1000
+#右下のNextボタンを消したい。
+pagination.pagerSize = 1000
 
 
 # for search function
@@ -22,9 +23,6 @@ paginate = 1000
     url = "/rubric"
     weight = 10
 
-# 右下のNextボタンを消したい。
-[params]
-    hideHomeList = true
 
 [caches]
   [caches.images]
@@ -88,11 +86,9 @@ paginate = 1000
         title = true
     [markup.goldmark.renderHooks]
       [markup.goldmark.renderHooks.image]
-        enableDefault = false
-        useEmbedded = 'auto'
+        useEmbedded = never
       [markup.goldmark.renderHooks.link]
-        enableDefault = false
-        useEmbedded = 'auto'
+        useEmbedded = never
     [markup.goldmark.renderer]
       hardWraps = false
       unsafe = true
