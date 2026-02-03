@@ -8,6 +8,8 @@ title = 'Minerva'
     home = ["HTML", "RSS", "JSON"]
 # for search function
 
+
+
 [[menu.main]]
     name = "Search"
     url = "/search"
@@ -17,6 +19,10 @@ title = 'Minerva'
     name = "公約の判定基準"
     url = "/rubric"
     weight = 10
+
+# 右下のNextボタンを消したい。
+[params]
+    hideHomeList = true
 
 [caches]
   [caches.images]
