@@ -86,9 +86,9 @@ pagination.pagerSize = 1000
         title = true
     [markup.goldmark.renderHooks]
       [markup.goldmark.renderHooks.image]
-        useEmbedded = never
+        useEmbedded = "never"
       [markup.goldmark.renderHooks.link]
-        useEmbedded = never
+        useEmbedded = "never"
     [markup.goldmark.renderer]
       hardWraps = false
       unsafe = true
