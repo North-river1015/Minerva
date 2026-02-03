@@ -2,6 +2,8 @@ theme = "PaperMod"
 baseURL = "https://north-river1015.github.io/Minerva/"
 languageCode = 'en-us'
 title = 'Minerva'
+paginate = 1000
+
 
 # for search function
 [outputs]
