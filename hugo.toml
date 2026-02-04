@@ -11,7 +11,10 @@ pagination.pagerSize = 1000
     home = ["HTML", "RSS", "JSON"]
 # for search function
 
-
+[[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 1
 
 [[menu.main]]
     name = "Search"
