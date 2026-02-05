@@ -2,7 +2,6 @@
 title: 滋賀
 url: /prefectures/shiga/
 ---
-
 ## 滋賀の小選挙区
 
 - [滋賀1区](./1/)
