@@ -2,7 +2,6 @@
 title: 神奈川
 url: /prefectures/kanagawa/
 ---
-
 ## 神奈川の小選挙区
 
 - [神奈川1区](./1/)
