@@ -66,7 +66,7 @@ function generateMinervaMarkdown() {
       }
     }
     
-    if (kouho_link && kouho_link.toString().trim() !== "") {
+  if (kouho_link && kouho_link.toString().trim() !== "") {
       md += `\n[選挙公報](${kouho_link.toString().trim()})\n`;
     }
   }
