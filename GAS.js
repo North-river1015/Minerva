@@ -659,6 +659,12 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
     }
   }
 
+  const rawOcr = focusedOcrText || ocrText;
+  const candidatePolicyText = rawOcr ? buildPolicyCandidateText_(rawOcr) : "";
+  if (candidatePolicyText) {
+    console.log("OCR policy candidate lines: " + candidatePolicyText.split("\n").length);
+  }
+
   if (debugPdfText) {
     try {
       if (useDriveOcr && ocrText) {
@@ -667,6 +673,10 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
         if (focusedOcrText) {
           console.log("Drive OCR focused text (head):");
           console.log(focusedOcrText.length > 2000 ? focusedOcrText.slice(0, 2000) : focusedOcrText);
+        }
+        if (candidatePolicyText) {
+          console.log("Drive OCR policy candidates (head):");
+          console.log(candidatePolicyText.length > 2000 ? candidatePolicyText.slice(0, 2000) : candidatePolicyText);
         }
       } else {
         const pdfText = extractPdfTextForDebug_(kohoPdfUrl);
@@ -765,8 +775,9 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
 出力はJSONのみ。`;
 
   const model = getScriptProp_("OPENAI_MODEL", "gpt-4o-mini");
-  const rawOcr = focusedOcrText || ocrText;
-  const ocrTextForPrompt = rawOcr ? (rawOcr.length > 12000 ? rawOcr.slice(0, 12000) : rawOcr) : "";
+  const ocrTextForPrompt = candidatePolicyText
+    ? (candidatePolicyText.length > 12000 ? candidatePolicyText.slice(0, 12000) : candidatePolicyText)
+    : (rawOcr ? (rawOcr.length > 12000 ? rawOcr.slice(0, 12000) : rawOcr) : "");
   const resp = callOpenAIResponses_({
     model,
     text: { format: { name: "minerva_koho_extract", type: "json_schema", strict: true, schema: schema.schema } },
@@ -925,6 +936,39 @@ function buildCandidateFocusedText_(ocrText, nameJa, partyJa) {
   }
 
   return picked.join("\n");
+}
+
+function buildPolicyCandidateText_(ocrText) {
+  const lines = (ocrText || "").split(/\r?\n/).map(l => l.trim()).filter(l => l !== "");
+  if (lines.length === 0) return "";
+
+  const candidates = [];
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    if (!isLikelyPolicyLine_(line)) continue;
+
+    let merged = line;
+    const next = i + 1 < lines.length ? lines[i + 1] : "";
+    if (next && next.length <= 20 && !isLikelyPolicyLine_(next)) {
+      merged = line + " " + next;
+    }
+    merged = merged.replace(/^\s*[●・\-*\d\.\)\(]+\s*/, "").trim();
+    if (merged.length < 8) continue;
+    candidates.push(merged);
+  }
+
+  return candidates.slice(0, 40).join("\n");
+}
+
+function isLikelyPolicyLine_(line) {
+  const s = (line || "").toString().trim();
+  if (!s) return false;
+  if (/プロフィール|経歴|略歴|実績|就任|当選|生まれ|卒業|年齢|歳|趣味|スローガン|しんぶん|赤旗/.test(s)) return false;
+  if (/実現!|成功|達成/.test(s)) return false;
+
+  const hasBullet = /^\s*[●・\-*\d\.\)\(]+/.test(s);
+  const hasFuture = /目指|進め|推進|拡充|整備|支援|実施|充実|確立|改善|強化|促進|導入/.test(s);
+  return hasBullet || hasFuture;
 }
 
 function extractOtherCandidateNamesFromOcr_(lines, winnerNameKey) {
