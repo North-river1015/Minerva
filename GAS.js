@@ -54,8 +54,14 @@ function generateMinervaMarkdown() {
 
 
   // 比例
-  if (hasProportional === "はい" || (prop_name_ja && prop_name_ja.toString().trim() !== "")) {
-    md += `\n\n\n# [${prop_name_ja}](/shu/${pref_raw}/${district}/${prop_name_en})\n\n`;
+  const propNameJaClean = prop_name_ja ? prop_name_ja.toString().trim() : "";
+  const propNameEnClean = prop_name_en ? prop_name_en.toString().trim() : "";
+  const propSlugOk = /^[a-z0-9-]+$/.test(propNameEnClean);
+
+  if ((hasProportional === "はい" || propNameJaClean !== "")
+      && propNameJaClean !== ""
+      && propSlugOk) {
+    md += `\n\n\n# [${propNameJaClean}](/shu/${pref_raw}/${district}/${propNameEnClean})\n\n`;
     md += `${party_prop}\n\n`; 
 
     for (let j = 24; j <= 32; j += 2) {
