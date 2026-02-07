@@ -2,7 +2,6 @@
 title: 岐阜
 url: /prefectures/gifu/
 ---
-
 ## 岐阜の小選挙区
 
 - [岐阜1区](./1/)
