@@ -2,7 +2,6 @@
 title: 岡山
 url: /prefectures/okayama/
 ---
-
 ## 岡山の小選挙区
 
 - [岡山1区](./1/)
