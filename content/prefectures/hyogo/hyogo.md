@@ -2,7 +2,6 @@
 title: 兵庫
 url: /prefectures/hyogo/
 ---
-
 ## 兵庫の小選挙区
 
 - [兵庫1区](./1/)
