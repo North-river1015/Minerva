@@ -94,7 +94,11 @@ function generateMinervaMarkdown() {
     
     const prUrl = createGitHubPullRequestWithLink(filePath, md, displayTitle, pref_raw, pref_ja, district);
     if (prUrl) {
-      SpreadsheetApp.getUi().alert("GitHubにプルリクエストを作成\n" + prUrl);
+      try {
+        SpreadsheetApp.getUi().alert("GitHubにプルリクエストを作成\n" + prUrl);
+      } catch (e) {
+        console.log("UI alert skipped: " + e.message);
+      }
     }
   } catch (err) {
     console.log("エラー: " + err.message);
@@ -444,7 +448,11 @@ function processSenkyokuQueueBatch() {
     }
   }
 
-  SpreadsheetApp.getUi().alert(`処理完了: ${processed}件（BATCH_SIZE=${batchSize}）`);
+  try {
+    SpreadsheetApp.getUi().alert(`処理完了: ${processed}件（BATCH_SIZE=${batchSize}）`);
+  } catch (e) {
+    console.log("UI alert skipped: " + e.message);
+  }
 }
 
 /**
@@ -783,7 +791,7 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
 - policy は「これから実行すること/実現すること/進めること」。achievement は「実績/達成済み/経歴/プロフィール/活動」。
 - 各項目に type を必ず付ける（policy または achievement）。
 - 1項目は短く（30〜60文字程度）。重複はまとめる。
-- evidence はPDF内の原文から短く「完全一致」で引用（20〜40文字程度）。
+- evidence はPDF内の原文から短く「完全一致」で引用（20〜40文字程度）。見出しだけの引用は不可。
 - evidence を原文から抜き出せない場合、その項目は出力しない。
 - policy が無ければ policies は空配列にし、confidence は low。
 - main は小選挙区の当選者（ヒント: ${winnerNameJa || "不明"} / ${winnerParty || "不明"}）。
@@ -1277,6 +1285,9 @@ function hasEvidence_(item, sourceText) {
   const evidence = (item.evidence || "").toString().trim();
   if (!evidence) return false;
   if (evidence.includes("…") || evidence.includes("...")) return false;
+  if (evidence.length < 12) return false;
+  if (isHeadingLine_(evidence)) return false;
+  if (!hasFutureVerb_(evidence) && !/(ます|する|目指)/.test(evidence)) return false;
   return sourceText.indexOf(evidence) >= 0;
 }
 
