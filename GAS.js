@@ -456,6 +456,7 @@ function appendEmptyResponseRow_(formSheet) {
  *******************************************************/
 function parseSenkyokuPageRich_(senkyokuUrl) {
   const html = fetchHtml_(senkyokuUrl);
+  const candidateNames = extractCandidateNames_(html);
 
   // タイトルや見出しに「北海道12区」等が含まれる前提で抽出（ゆらぎに強め）
   const titleMatch = html.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
@@ -487,23 +488,28 @@ function parseSenkyokuPageRich_(senkyokuUrl) {
 
   if (!winner || !revival) {
     const text = stripTags_(html);
-    if (!winner) {
-      const winnerMatch = text.match(/当\s+([^\s]+(?:\s+[^\s]+)?)\s+\d+歳｜\s*([^\s]+)/);
-      if (winnerMatch) {
-        winner = {
-          name_ja: winnerMatch[1].trim(),
-          party: normalizeParty_(winnerMatch[2].trim())
-        };
-      }
+    const anchorIndex = text.indexOf("小選挙区候補者");
+    const textForSearch = anchorIndex >= 0 ? text.slice(anchorIndex) : text;
+    const badgeTextRe = /(当|比)\s+([^\s]+(?:\s+[^\s]+)?)\s+(?:\d+歳)?\s*[｜|]\s*([^\s]+)/g;
+    let m2;
+    while ((m2 = badgeTextRe.exec(textForSearch)) !== null) {
+      const badge = (m2[1] || "").trim();
+      const name_ja = (m2[2] || "").trim();
+      const party = normalizeParty_((m2[3] || "").trim());
+      if (badge === "当" && !winner) winner = { name_ja, party };
+      if (badge === "比" && !revival) revival = { name_ja, party };
+      if (winner && revival) break;
     }
-    if (!revival) {
-      const revivalMatch = text.match(/比\s+([^\s]+(?:\s+[^\s]+)?)\s+\d+歳｜\s*([^\s]+)/);
-      if (revivalMatch) {
-        revival = {
-          name_ja: revivalMatch[1].trim(),
-          party: normalizeParty_(revivalMatch[2].trim())
-        };
-      }
+  }
+
+  if (candidateNames.size > 0) {
+    if (winner && !candidateNames.has(normalizeName_(winner.name_ja))) {
+      console.log(`当選者名が候補者一覧にないため破棄: ${winner.name_ja}`);
+      winner = null;
+    }
+    if (revival && !candidateNames.has(normalizeName_(revival.name_ja))) {
+      console.log(`比例候補者名が候補者一覧にないため破棄: ${revival.name_ja}`);
+      revival = null;
     }
   }
 
@@ -520,6 +526,26 @@ function parseSenkyokuPageRich_(senkyokuUrl) {
 
 function stripTags_(s) {
   return (s || "").replace(/<[^>]*>/g, "").replace(/\s+/g, " ").trim();
+}
+
+function extractCandidateNames_(html) {
+  const text = stripTags_(html);
+  const anchorIndex = text.indexOf("小選挙区候補者");
+  const textForSearch = anchorIndex >= 0 ? text.slice(anchorIndex) : text;
+  const nameSet = new Set();
+
+  const nameRe = /([^\s]+(?:\s+[^\s]+)?)\s+\d+歳｜/g;
+  let m;
+  while ((m = nameRe.exec(textForSearch)) !== null) {
+    const name = normalizeName_(m[1]);
+    if (name) nameSet.add(name);
+  }
+
+  return nameSet;
+}
+
+function normalizeName_(name) {
+  return (name || "").toString().replace(/\s+/g, "").trim();
 }
 
 function prefJaToRaw_(pref_ja) {
@@ -758,9 +784,7 @@ function writePoliciesToRow_(sheet, rowIndex, out) {
   const main = out.main;
 
   if (main) {
-    if (main.name_ja && !existingNameJa && !isPlaceholderValue_(main.name_ja)) sheet.getRange(rowIndex, 4).setValue(main.name_ja);
-    if (main.name_en && !isPlaceholderValue_(main.name_en)) sheet.getRange(rowIndex, 5).setValue(main.name_en);
-    if (main.party && !existingPartyMain && !isPlaceholderValue_(main.party)) sheet.getRange(rowIndex, 36).setValue(normalizeParty_(main.party));
+    if (main.name_en && existingNameJa && !isPlaceholderValue_(main.name_en)) sheet.getRange(rowIndex, 5).setValue(main.name_en);
 
     const policies = Array.isArray(main.policies) ? main.policies : [];
     for (let k = 0; k < 8; k++) {
@@ -773,9 +797,7 @@ function writePoliciesToRow_(sheet, rowIndex, out) {
   const prop = out.prop;
   if (prop && prop !== null) {
     sheet.getRange(rowIndex, 22).setValue("はい");
-    if (prop.name_ja && !existingPropNameJa && !isPlaceholderValue_(prop.name_ja)) sheet.getRange(rowIndex, 23).setValue(prop.name_ja);
-    if (prop.name_en && !isPlaceholderValue_(prop.name_en)) sheet.getRange(rowIndex, 24).setValue(prop.name_en);
-    if (prop.party && !existingPartyProp && !isPlaceholderValue_(prop.party)) sheet.getRange(rowIndex, 37).setValue(normalizeParty_(prop.party));
+    if (prop.name_en && existingPropNameJa && !isPlaceholderValue_(prop.name_en)) sheet.getRange(rowIndex, 24).setValue(prop.name_en);
 
     const policies = Array.isArray(prop.policies) ? prop.policies : [];
     for (let k = 0; k < 5; k++) {
