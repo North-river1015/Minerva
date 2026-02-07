@@ -2,7 +2,6 @@
 title: 愛媛
 url: /prefectures/ehime/
 ---
-
 ## 愛媛の小選挙区
 
 - [愛媛1区](./1/)
