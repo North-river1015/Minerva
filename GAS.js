@@ -944,7 +944,7 @@ function buildPolicyCandidateText_(ocrText) {
   if (lines.length === 0) return "";
 
   const capCount = inferPolicyCountCap_(lines);
-  const blocks = [];
+  const sections = [];
   let currentHeading = "";
   let currentItems = [];
   let prevWasBullet = false;
@@ -952,8 +952,7 @@ function buildPolicyCandidateText_(ocrText) {
   const flush = () => {
     if (currentItems.length === 0) return;
     const title = currentHeading ? currentHeading : "その他";
-    blocks.push("## " + title);
-    for (const item of currentItems) blocks.push("- " + item);
+    sections.push({ heading: title, items: currentItems.slice() });
     currentItems = [];
   };
 
@@ -984,17 +983,29 @@ function buildPolicyCandidateText_(ocrText) {
 
   flush();
 
-  const cappedLines = [];
-  let policyCount = 0;
-  for (const line of blocks) {
-    if (line.startsWith("- ")) {
-      if (capCount && policyCount >= capCount) continue;
-      policyCount += 1;
+  const blocks = [];
+  if (capCount && sections.length > 0) {
+    const perHeading = Math.max(1, Math.floor(capCount / sections.length));
+    let remaining = capCount - perHeading * sections.length;
+
+    for (const section of sections) {
+      const picked = section.items.slice(0, perHeading);
+      if (remaining > 0 && section.items.length > perHeading) {
+        picked.push(section.items[perHeading]);
+        remaining -= 1;
+      }
+      if (picked.length === 0) continue;
+      blocks.push("## " + section.heading);
+      for (const item of picked) blocks.push("- " + item);
     }
-    cappedLines.push(line);
+  } else {
+    for (const section of sections) {
+      blocks.push("## " + section.heading);
+      for (const item of section.items) blocks.push("- " + item);
+    }
   }
 
-  return cappedLines.slice(0, 120).join("\n");
+  return blocks.slice(0, 120).join("\n");
 }
 
 function isLikelyPolicyLine_(line) {
