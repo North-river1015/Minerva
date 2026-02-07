@@ -1068,7 +1068,7 @@ function focusVisionBlocks_(blockTexts, winnerKey, beforeCount, afterCount) {
   const band = findCandidateBandForBlock_(blockTexts, anchor);
   if (!band) return "";
 
-  const focusedBlocks = blockTexts.filter(b => boxesOverlapY_(b.box, band));
+  const focusedBlocks = blockTexts.filter(b => boxesOverlapY_(b.box, band) && !isElectionNoticeBlock_(b.text));
   if (focusedBlocks.length === 0) return "";
 
   const focused = focusedBlocks.map(b => b.text).join("\n");
@@ -1249,6 +1249,10 @@ function buildPolicyCandidateText_(ocrText) {
       continue;
     }
 
+    if (isElectionNoticeLine_(workLine)) {
+      continue;
+    }
+
     if (prevWasBullet && currentItems.length > 0 && !isBulletLine_(workLine) && isLikelyContinuationLine_(workLine)) {
       const last = currentItems[currentItems.length - 1];
       if (last.indexOf(workLine) === -1) {
@@ -1345,6 +1349,7 @@ function removeCandidateListLines_(text) {
   const kept = [];
   for (const line of lines) {
     if (isCandidateListLine_(line)) continue;
+    if (isElectionNoticeLine_(line)) continue;
     kept.push(line);
   }
   return kept.join("\n");
@@ -1505,6 +1510,26 @@ function isCandidateListLine_(line) {
   if (shortTokens < 3) return false;
   if (/[。．\.！？!]/.test(s)) return false;
   return true;
+}
+
+function isElectionNoticeLine_(line) {
+  const s = (line || "").toString().trim();
+  if (!s) return false;
+  if (/(投票日|期日前投票|投票時間|選挙管理委員会|小選挙区は|比例代表は|投票に参加|期日前投票制度)/.test(s)) return true;
+  if (/(午前\s*\d+時|午後\s*\d+時|\d{1,2}\/\d{1,2})/.test(s) && /(投票|期日前)/.test(s)) return true;
+  if (/(touhyo1027\.com|投票所|ご注意ください)/.test(s)) return true;
+  return false;
+}
+
+function isElectionNoticeBlock_(text) {
+  const s = (text || "").toString().trim();
+  if (!s) return false;
+  const lines = s.split(/\r?\n/);
+  for (const line of lines) {
+    if (isElectionNoticeLine_(line)) return true;
+  }
+  if (/(投票日|期日前投票|投票時間|選挙管理委員会)/.test(s)) return true;
+  return false;
 }
 
 function extractOtherCandidateNamesFromOcr_(lines, winnerNameKey) {
