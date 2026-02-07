@@ -9,4 +9,3 @@ url: /prefectures/nagasaki/
 - [長崎2区](./2/)
 - [長崎3区](./3/)
 
-今後追加！
