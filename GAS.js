@@ -636,16 +636,28 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
   if (!kohoPdfUrl) throw new Error("選挙公報PDF URL（row[34]）が空です。");
 
   const debugPdfText = getScriptProp_("DEBUG_PDF_TEXT", "false").toString().toLowerCase() === "true";
+  const useVisionOcr = getScriptProp_("USE_VISION_OCR", "false").toString().toLowerCase() === "true";
   const useDriveOcr = getScriptProp_("USE_DRIVE_OCR", "false").toString().toLowerCase() === "true";
   let ocrText = "";
+  let ocrSource = "";
   const winnerNameJa = (row[3] || "").toString().trim();
   const winnerParty = (row[35] || "").toString().trim();
   const revivalNameJa = (row[22] || "").toString().trim();
   const revivalParty = (row[36] || "").toString().trim();
 
-  if (useDriveOcr) {
+  if (useVisionOcr) {
+    try {
+      ocrText = extractPdfTextWithVisionOcr_(kohoPdfUrl);
+      ocrSource = "vision";
+    } catch (e) {
+      console.log("Vision OCR failed: " + e.message);
+    }
+  }
+
+  if (!ocrText && useDriveOcr) {
     try {
       ocrText = extractPdfTextWithDriveOcr_(kohoPdfUrl);
+      ocrSource = "drive";
     } catch (e) {
       console.log("Drive OCR failed: " + e.message);
     }
@@ -667,7 +679,10 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
 
   if (debugPdfText) {
     try {
-      if (useDriveOcr && ocrText) {
+      if (ocrText && ocrSource === "vision") {
+        console.log("Vision OCR text (head):");
+        console.log(ocrText.length > 4000 ? ocrText.slice(0, 4000) : ocrText);
+      } else if (useDriveOcr && ocrText) {
         console.log("Drive OCR text (head):");
         console.log(ocrText.length > 4000 ? ocrText.slice(0, 4000) : ocrText);
         if (focusedOcrText) {
@@ -879,6 +894,49 @@ function extractPdfTextWithDriveOcr_(kohoPdfUrl) {
       }
     }
   }
+}
+
+function extractPdfTextWithVisionOcr_(kohoPdfUrl) {
+  const apiKey = getScriptProp_("VISION_API_KEY", "");
+  if (!apiKey) throw new Error("ScriptProperties に VISION_API_KEY を設定してください。");
+
+  const blob = UrlFetchApp.fetch(kohoPdfUrl).getBlob();
+  const content = Utilities.base64Encode(blob.getBytes());
+
+  const payload = {
+    requests: [
+      {
+        inputConfig: {
+          content: content,
+          mimeType: "application/pdf"
+        },
+        features: [
+          { type: "DOCUMENT_TEXT_DETECTION" }
+        ]
+      }
+    ]
+  };
+
+  const res = UrlFetchApp.fetch("https://vision.googleapis.com/v1/files:annotate?key=" + apiKey, {
+    method: "post",
+    contentType: "application/json",
+    payload: JSON.stringify(payload),
+    muteHttpExceptions: true
+  });
+
+  const code = res.getResponseCode();
+  const body = res.getContentText();
+  if (code >= 300) throw new Error("Vision API error: " + code + " " + body);
+
+  const json = JSON.parse(body);
+  if (!json.responses || !Array.isArray(json.responses)) return "";
+  const texts = [];
+  for (const r of json.responses) {
+    if (r.fullTextAnnotation && r.fullTextAnnotation.text) {
+      texts.push(r.fullTextAnnotation.text);
+    }
+  }
+  return texts.join("\n");
 }
 
 function buildCandidateFocusedText_(ocrText, nameJa, partyJa) {
