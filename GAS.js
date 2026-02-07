@@ -965,6 +965,7 @@ function buildPolicyCandidateText_(ocrText) {
     }
 
     if (!isLikelyPolicyLine_(line)) continue;
+    if (!isBulletLine_(line)) continue;
 
     let merged = line;
     const next = i + 1 < lines.length ? lines[i + 1] : "";
@@ -1000,6 +1001,11 @@ function isLikelyPolicyLine_(line) {
   const hasBullet = /^\s*[●・\-*\d\.\)\(]+/.test(s);
   const hasFuture = /目指|進め|推進|拡充|整備|支援|実施|充実|確立|改善|強化|促進|導入/.test(s);
   return hasBullet || hasFuture;
+}
+
+function isBulletLine_(line) {
+  const s = (line || "").toString().trim();
+  return /^\s*(●|・|-|\d+[\.\)]?)\s+/.test(s);
 }
 
 function isHeadingLine_(line) {
