@@ -656,7 +656,15 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
             party:   { type: "string" },
             policies: {
               type: "array",
-              items: { type: "string" },
+              items: {
+                type: "object",
+                additionalProperties: false,
+                properties: {
+                  policy: { type: "string" },
+                  evidence: { type: "string" }
+                },
+                required: ["policy", "evidence"]
+              },
               maxItems: 8
             },
             confidence: { type: "string", enum: ["high", "medium", "low"] }
@@ -675,7 +683,15 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
                 party:   { type: "string" },
                 policies: {
                   type: "array",
-                  items: { type: "string" },
+                  items: {
+                    type: "object",
+                    additionalProperties: false,
+                    properties: {
+                      policy: { type: "string" },
+                      evidence: { type: "string" }
+                    },
+                    required: ["policy", "evidence"]
+                  },
                   maxItems: 5
                 },
                 confidence: { type: "string", enum: ["high", "medium", "low"] }
@@ -693,8 +709,9 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
 `あなたは日本の選挙公報（PDF）から、候補者の「公約/重点政策/やること」を抽出し、Google Form入力用に短い箇条書きへ整形します。
 
 ルール:
-- 「公約」として読み取れる“実行宣言/実施する/実現する/やる”系を優先。スローガンのみは避ける（ただし政策がそれしか無い場合は採用可）。
+- PDFに明記された政策のみ抽出。推測・一般論は禁止。該当がなければ policies は空配列にし、confidence は low。
 - 1項目は短く（30〜60文字程度）。重複はまとめる。
+- evidence はPDF内の根拠フレーズを短く引用（20〜40文字程度）。
 - main は小選挙区の当選者（ヒント: ${winnerNameJa || "不明"} / ${winnerParty || "不明"}）。
 - prop は比例復活がいる場合のみ（ヒント: ${revivalNameJa || "なし"} / ${revivalParty || "なし"}）。いなければ null。
 - name_en は URL スラッグ形式: 例 "takebe-arata"（小文字・ハイフン区切り、英字のみ）。
@@ -820,8 +837,14 @@ function writePoliciesToRow_(sheet, rowIndex, out) {
     const policies = Array.isArray(main.policies) ? main.policies : [];
     for (let k = 0; k < 8; k++) {
       const col = 6 + k * 2; // policy列
-      sheet.getRange(rowIndex, col).setValue(policies[k] || "");
-      sheet.getRange(rowIndex, col + 1).setValue(""); // evidence列は空
+      const item = policies[k] || "";
+      if (item && typeof item === "object") {
+        sheet.getRange(rowIndex, col).setValue(item.policy || "");
+        sheet.getRange(rowIndex, col + 1).setValue(item.evidence || "");
+      } else {
+        sheet.getRange(rowIndex, col).setValue(item || "");
+        sheet.getRange(rowIndex, col + 1).setValue("");
+      }
     }
   }
 
@@ -833,8 +856,14 @@ function writePoliciesToRow_(sheet, rowIndex, out) {
     const policies = Array.isArray(prop.policies) ? prop.policies : [];
     for (let k = 0; k < 5; k++) {
       const col = 25 + k * 2;
-      sheet.getRange(rowIndex, col).setValue(policies[k] || "");
-      sheet.getRange(rowIndex, col + 1).setValue("");
+      const item = policies[k] || "";
+      if (item && typeof item === "object") {
+        sheet.getRange(rowIndex, col).setValue(item.policy || "");
+        sheet.getRange(rowIndex, col + 1).setValue(item.evidence || "");
+      } else {
+        sheet.getRange(rowIndex, col).setValue(item || "");
+        sheet.getRange(rowIndex, col + 1).setValue("");
+      }
     }
   }
 }
