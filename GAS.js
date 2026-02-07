@@ -215,6 +215,33 @@ function createGitHubPullRequestWithLink(path, content, title, pref_en, pref_ja,
   return JSON.parse(resPr.getContentText()).html_url;
 }
 
+/**
+ * GitHub上に選挙区ファイルが既に存在するかチェック
+ */
+function checkDistrictFileExists_(pref_raw, district) {
+  const props = PropertiesService.getScriptProperties();
+  const token = props.getProperty('GITHUB_TOKEN');
+  const user  = props.getProperty('GITHUB_USER');
+  const repo  = props.getProperty('GITHUB_REPO');
+
+  const filePath = `content/prefectures/${pref_raw}/${pref_raw}-district/${district}.md`;
+  const url = `https://api.github.com/repos/${user}/${repo}/contents/${filePath}`;
+
+  try {
+    const res = UrlFetchApp.fetch(url, {
+      method: "get",
+      headers: {
+        "Authorization": "token " + token,
+        "Accept": "application/vnd.github.v3+json"
+      },
+      muteHttpExceptions: true
+    });
+    return res.getResponseCode() === 200;
+  } catch (e) {
+    return false;
+  }
+}
+
 /*******************************************************
  * 追加：キュー（SenkyokuQueue）関連
  *******************************************************/
@@ -244,10 +271,15 @@ function enqueueAllSenkyokuUrls() {
   const queueSheet = ensureQueueSheet_();
   const existing = loadQueueUrlSet_(queueSheet);
 
+  // GitHub上の既存選挙区ファイルを一括取得
+  const existingFiles = getExistingDistrictFiles_();
+  console.log(`既存ファイル: ${existingFiles.size}件`);
+
   const base = "https://shugiin.go2senkyo.com";
   const prefBase = "https://shugiin.go2senkyo.com/50/prefecture/";
 
   let added = 0;
+  let skipped = 0;
 
   for (let prefId = 1; prefId <= 47; prefId++) {
     const url = prefBase + prefId;
@@ -258,6 +290,21 @@ function enqueueAllSenkyokuUrls() {
 
       for (const senkyokuUrl of uniq) {
         if (!existing.has(senkyokuUrl)) {
+          // 選挙区ページからpref/districtを簡易チェック（軽量）
+          try {
+            const parsed = parseSenkyokuPageRich_(senkyokuUrl);
+            if (parsed.pref_raw && parsed.district) {
+              const key = `${parsed.pref_raw}/${parsed.district}`;
+              if (existingFiles.has(key)) {
+                console.log(`SKIP ${senkyokuUrl}: 既存ファイル ${key}`);
+                skipped++;
+                continue;
+              }
+            }
+          } catch (e) {
+            console.log(`選挙区ページ解析エラー ${senkyokuUrl}: ${e.message}`);
+          }
+
           queueSheet.appendRow([senkyokuUrl, "PENDING", "", "", new Date()]);
           existing.add(senkyokuUrl);
           added++;
@@ -269,7 +316,7 @@ function enqueueAllSenkyokuUrls() {
     }
   }
 
-  SpreadsheetApp.getUi().alert(`キュー追加完了: ${added}件`);
+  SpreadsheetApp.getUi().alert(`キュー追加完了: ${added}件 (既存スキップ: ${skipped}件)`);
 }
 
 function loadQueueUrlSet_(queueSheet) {
