@@ -635,6 +635,17 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
   const kohoPdfUrl = (row[34] || "").toString().trim();
   if (!kohoPdfUrl) throw new Error("選挙公報PDF URL（row[34]）が空です。");
 
+  const debugPdfText = getScriptProp_("DEBUG_PDF_TEXT", "false").toString().toLowerCase() === "true";
+  if (debugPdfText) {
+    try {
+      const pdfText = extractPdfTextForDebug_(kohoPdfUrl);
+      console.log("PDF extracted text (head):");
+      console.log(pdfText);
+    } catch (e) {
+      console.log("PDF text debug failed: " + e.message);
+    }
+  }
+
   const winnerNameJa = (row[3] || "").toString().trim();
   const winnerParty = (row[35] || "").toString().trim();
   const revivalNameJa = (row[22] || "").toString().trim();
@@ -711,7 +722,8 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
 ルール:
 - PDFに明記された政策のみ抽出。推測・一般論は禁止。該当がなければ policies は空配列にし、confidence は low。
 - 1項目は短く（30〜60文字程度）。重複はまとめる。
-- evidence はPDF内の根拠フレーズを短く引用（20〜40文字程度）。
+- evidence はPDF内の原文から短く「完全一致」で引用（20〜40文字程度）。
+- evidence を原文から抜き出せない場合、その policy は出力しない。
 - main は小選挙区の当選者（ヒント: ${winnerNameJa || "不明"} / ${winnerParty || "不明"}）。
 - prop は比例復活がいる場合のみ（ヒント: ${revivalNameJa || "なし"} / ${revivalParty || "なし"}）。いなければ null。
 - name_en は URL スラッグ形式: 例 "takebe-arata"（小文字・ハイフン区切り、英字のみ）。
@@ -769,6 +781,26 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
   }
 
   return out;
+}
+
+function extractPdfTextForDebug_(kohoPdfUrl) {
+  const model = getScriptProp_("OPENAI_MODEL", "gpt-4o-mini");
+  const resp = callOpenAIResponses_({
+    model,
+    input: [
+      {
+        role: "user",
+        content: [
+          { type: "input_file", file_url: kohoPdfUrl },
+          { type: "input_text", text: "PDFの本文をテキスト化して、先頭4000文字だけを出力してください。出力は本文テキストのみ。" }
+        ]
+      }
+    ]
+  });
+
+  const text = extractOutputText_(resp);
+  if (!text) return "";
+  return text.length > 4000 ? text.slice(0, 4000) : text;
 }
 
 function callOpenAIResponses_(payload) {
