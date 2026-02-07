@@ -1005,7 +1005,7 @@ function isLikelyPolicyLine_(line) {
 
 function isBulletLine_(line) {
   const s = (line || "").toString().trim();
-  return /^\s*(●|・|-|\d+[\.\)]?)\s+/.test(s);
+  return /^\s*(●|・|•|-|\d+[\.\)]?)\s*/.test(s);
 }
 
 function isHeadingLine_(line) {
@@ -1014,6 +1014,7 @@ function isHeadingLine_(line) {
   if (/^\d+\s*つの策/.test(s)) return true;
   if (/のために$/.test(s)) return true;
   if (/^\d+\s*$/.test(s)) return true;
+  if (/^\d+\s+/.test(s) && !/[。．\.]/.test(s) && !/(ます|する|目指|推進|拡充|整備|支援|実施|充実|確立|改善|強化|促進|導入)/.test(s)) return true;
   if (!/[。．\.]/.test(s) && !/(ます|する|目指|推進|拡充|整備|支援|実施|充実|確立|改善|強化|促進|導入)/.test(s) && s.length <= 22) return true;
   return false;
 }
