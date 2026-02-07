@@ -629,7 +629,7 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
   const model = getScriptProp_("OPENAI_MODEL", "gpt-4o-mini");
   const resp = callOpenAIResponses_({
     model,
-    response_format: { type: "json_schema", json_schema: schema },
+    text: { format: { name: "minerva_koho_extract", type: "json_schema", strict: true, schema: schema.schema } },
     input: [
       {
         role: "user",
@@ -641,9 +641,8 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
     ]
   });
 
-  // Responses API: output_text にJSONが入る想定
-  const jsonText = (resp.output_text || "").trim();
-  if (!jsonText) throw new Error("OpenAI response.output_text が空です。");
+  const jsonText = extractOutputText_(resp);
+  if (!jsonText) throw new Error("OpenAIの出力が空です。");
   const out = JSON.parse(jsonText);
 
   // 行へ書き込み
@@ -654,7 +653,7 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
     const fallbackModel = "gpt-4.1-mini";
     const resp2 = callOpenAIResponses_({
       model: fallbackModel,
-      response_format: { type: "json_schema", json_schema: schema },
+      text: { format: { name: "minerva_koho_extract", type: "json_schema", strict: true, schema: schema.schema } },
       input: [
         {
           role: "user",
