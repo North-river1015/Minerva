@@ -638,12 +638,24 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
   const debugPdfText = getScriptProp_("DEBUG_PDF_TEXT", "false").toString().toLowerCase() === "true";
   const useDriveOcr = getScriptProp_("USE_DRIVE_OCR", "false").toString().toLowerCase() === "true";
   let ocrText = "";
+  const winnerNameJa = (row[3] || "").toString().trim();
+  const winnerParty = (row[35] || "").toString().trim();
+  const revivalNameJa = (row[22] || "").toString().trim();
+  const revivalParty = (row[36] || "").toString().trim();
 
   if (useDriveOcr) {
     try {
       ocrText = extractPdfTextWithDriveOcr_(kohoPdfUrl);
     } catch (e) {
       console.log("Drive OCR failed: " + e.message);
+    }
+  }
+
+  let focusedOcrText = "";
+  if (ocrText && winnerNameJa) {
+    focusedOcrText = buildCandidateFocusedText_(ocrText, winnerNameJa, winnerParty);
+    if (focusedOcrText) {
+      console.log("OCR focused text length: " + focusedOcrText.length);
     }
   }
 
@@ -661,11 +673,6 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
       console.log("PDF text debug failed: " + e.message);
     }
   }
-
-  const winnerNameJa = (row[3] || "").toString().trim();
-  const winnerParty = (row[35] || "").toString().trim();
-  const revivalNameJa = (row[22] || "").toString().trim();
-  const revivalParty = (row[36] || "").toString().trim();
 
   const schema = {
     name: "minerva_koho_extract",
@@ -749,7 +756,8 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
 出力はJSONのみ。`;
 
   const model = getScriptProp_("OPENAI_MODEL", "gpt-4o-mini");
-  const ocrTextForPrompt = ocrText ? (ocrText.length > 12000 ? ocrText.slice(0, 12000) : ocrText) : "";
+  const rawOcr = focusedOcrText || ocrText;
+  const ocrTextForPrompt = rawOcr ? (rawOcr.length > 12000 ? rawOcr.slice(0, 12000) : rawOcr) : "";
   const resp = callOpenAIResponses_({
     model,
     text: { format: { name: "minerva_koho_extract", type: "json_schema", strict: true, schema: schema.schema } },
@@ -844,6 +852,38 @@ function extractPdfTextWithDriveOcr_(kohoPdfUrl) {
       }
     }
   }
+}
+
+function buildCandidateFocusedText_(ocrText, nameJa, partyJa) {
+  const lines = (ocrText || "").split(/\r?\n/).map(l => l.trim()).filter(l => l !== "");
+  if (lines.length === 0) return "";
+
+  const nameKey = normalizeName_(nameJa);
+  const partyKey = (partyJa || "").toString().trim();
+  const hitIndexes = [];
+
+  for (let i = 0; i < lines.length; i++) {
+    const lineKey = normalizeName_(lines[i]);
+    if (nameKey && lineKey.includes(nameKey)) hitIndexes.push(i);
+    else if (partyKey && lines[i].includes(partyKey)) hitIndexes.push(i);
+  }
+
+  if (hitIndexes.length === 0) return "";
+
+  const windowBefore = 5;
+  const windowAfter = 20;
+  const picked = [];
+  let lastEnd = -1;
+
+  for (const idx of hitIndexes) {
+    const start = Math.max(0, idx - windowBefore);
+    const end = Math.min(lines.length - 1, idx + windowAfter);
+    if (start <= lastEnd) continue;
+    for (let j = start; j <= end; j++) picked.push(lines[j]);
+    lastEnd = end;
+  }
+
+  return picked.join("\n");
 }
 
 function callOpenAIResponses_(payload) {
