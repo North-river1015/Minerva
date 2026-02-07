@@ -462,7 +462,7 @@ function appendEmptyResponseRow_(formSheet) {
 function parseSenkyokuPageRich_(senkyokuUrl) {
   const html = fetchHtml_(senkyokuUrl);
   const candidateSectionText = getCandidateSectionText_(html);
-  const candidateNames = extractCandidateNames_(candidateSectionText);
+  const candidateNames = extractCandidateNamesFromHtml_(html);
 
   // タイトルや見出しに「北海道12区」等が含まれる前提で抽出（ゆらぎに強め）
   const titleMatch = html.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
@@ -477,16 +477,18 @@ function parseSenkyokuPageRich_(senkyokuUrl) {
   const pdfMatch = html.match(/https:\/\/prod-cdn\.go2senkyo\.com\/public\/senkyo_koho\/[^\s"'<>]+\.pdf[^\s"'<>]*/);
   const kohoPdfUrl = pdfMatch ? pdfMatch[0] : "";
 
-  // 当/比の候補者名・党（ページ構造が変わる可能性があるので、見つかる範囲で）
-  const badgeRe = /(当|比)[\s\S]{0,400}?Image:\s*([^†\n]+)[\s\S]{0,200}?\n\s*\2\s*[\s\S]{0,200}?\n\s*\d+歳｜\s*([^\n<]+)/g;
+  // 当/比の候補者名・党（結果グラフのブロックを優先）
+  const graphBlockRe = /p_senkyoku_graph_block_elected[\s\S]*?<span>\s*(当|比)\s*<\/span>[\s\S]*?p_senkyoku_graph_block_profile_ttl[^>]*>[\s\S]*?<a[^>]*>([^<]+)<\/a>[\s\S]*?p_senkyoku_graph_block_profile_data_para[^>]*>([^<]+)<\/div>/g;
 
   let winner = null;
   let revival = null;
   let m;
-  while ((m = badgeRe.exec(html)) !== null) {
+  while ((m = graphBlockRe.exec(html)) !== null) {
     const badge = (m[1] || "").trim();
-    const name_ja = (m[2] || "").trim();
-    const party = normalizeParty_((m[3] || "").trim());
+    const name_ja = stripTags_(m[2] || "").trim();
+    const dataPara = stripTags_(m[3] || "").trim();
+    const partyMatch = dataPara.match(/｜\s*([^\s]+)/);
+    const party = normalizeParty_(partyMatch ? partyMatch[1].trim() : "");
 
     if (badge === "当" && !winner) winner = { name_ja, party };
     if (badge === "比" && !revival) revival = { name_ja, party };
@@ -546,14 +548,19 @@ function getCandidateSectionText_(html) {
   return section;
 }
 
-function extractCandidateNames_(text) {
-  const textForSearch = text || "";
+function extractCandidateNamesFromHtml_(html) {
   const nameSet = new Set();
+  const listNameRe = /p_senkyoku_list_block_name[^>]*>[\s\S]*?<p class="text">([\s\S]*?)<\/p>/g;
+  const graphNameRe = /p_senkyoku_graph_block_profile_ttl[^>]*>[\s\S]*?<a[^>]*>([^<]+)<\/a>/g;
 
-  const nameRe = /([^\s]+(?:\s+[^\s]+)?)\s+\d+歳｜/g;
   let m;
-  while ((m = nameRe.exec(textForSearch)) !== null) {
-    const name = normalizeName_(m[1]);
+  while ((m = listNameRe.exec(html)) !== null) {
+    const name = normalizeName_(stripTags_(m[1] || ""));
+    if (name) nameSet.add(name);
+  }
+
+  while ((m = graphNameRe.exec(html)) !== null) {
+    const name = normalizeName_(stripTags_(m[1] || ""));
     if (name) nameSet.add(name);
   }
 
