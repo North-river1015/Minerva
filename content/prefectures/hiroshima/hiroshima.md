@@ -2,7 +2,6 @@
 title: 広島
 url: /prefectures/hiroshima/
 ---
-
 ## 広島の小選挙区
 
 - [広島1区](./1/)
