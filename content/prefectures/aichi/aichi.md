@@ -2,7 +2,6 @@
 title: 愛知
 url: /prefectures/aichi/
 ---
-
 ## 愛知の小選挙区
 
 - [愛知1区](./1/)

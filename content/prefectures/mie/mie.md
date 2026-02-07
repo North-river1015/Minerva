@@ -2,7 +2,6 @@
 title: 三重
 url: /prefectures/mie/
 ---
-
 ## 三重の小選挙区
 
 - [三重1区](./1/)
