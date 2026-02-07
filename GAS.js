@@ -151,54 +151,8 @@ function createGitHubPullRequestWithLink(path, content, title, pref_en, pref_ja,
     })
   });
 
-  //都道府県インデックス (tokyo.md等) の読み取りとソート・追記
-  const prefPath = `content/prefectures/${pref_en}/${pref_en}.md`;
+
   
-  try {
-    const resPref = UrlFetchApp.fetch(`${baseUrl}/contents/${prefPath}?ref=${branchName}`, {headers: headers});
-    const prefData = JSON.parse(resPref.getContentText());
-    let prefContent = Utilities.newBlob(Utilities.base64Decode(prefData.content)).getDataAsString();
-    
-    // 現在の新しいリンク
-    const newLinkLine = `- [${pref_ja}${district}区](./${district}/)`;
-    
-    // 1. 内容を行ごとに分割
-    let lines = prefContent.split("\n");
-    
-    // 2. 既存の選挙区リンク行と、それ以外（ヘッダーや「今後追加！」）を分ける
-    let districtLines = lines.filter(line => line.match(/- \[.*?\d+区\]/));
-    let otherLines = lines.filter(line => !line.match(/- \[.*?\d+区\]/) && line.trim() !== "" && line !== "今後追加！");
-
-    // 3. 新しいリンクをリストに追加（重複がなければ）
-    if (districtLines.indexOf(newLinkLine) === -1) {
-      districtLines.push(newLinkLine);
-    }
-
-    // 4. 数字の順番でソート
-    districtLines.sort((a, b) => {
-      const numA = parseInt(a.match(/\d+/)[0]);
-      const numB = parseInt(b.match(/\d+/)[0]);
-      return numA - numB;
-    });
-
-    // 5. 全体を再構築（ヘッダー + ソート済みリスト + 今後追加！）
-    let newContent = otherLines.join("\n") + "\n\n" + districtLines.join("\n") + "\n\n今後追加！\n";
-
-    // 以前の内容と変わっている場合のみ更新
-    if (newContent !== prefContent) {
-      UrlFetchApp.fetch(`${baseUrl}/contents/${prefPath}`, {
-        method: "put", headers: headers,
-        payload: JSON.stringify({
-          message: `fix: sort and update ${pref_ja} index links`,
-          content: Utilities.base64Encode(newContent, Utilities.Charset.UTF_8),
-          branch: branchName,
-          sha: prefData.sha
-        })
-      });
-    }
-  } catch (e) {
-    console.log("都道府県MDの更新スキップ: " + e.message);
-  }
 
   // 4. まとめてPRを作成
   const resPr = UrlFetchApp.fetch(`${baseUrl}/pulls`, {
