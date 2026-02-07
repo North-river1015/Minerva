@@ -522,6 +522,20 @@ function parseSenkyokuPageRich_(senkyokuUrl) {
     }
   }
 
+  if (!winner || !revival) {
+    const fullText = stripTags_(html);
+    const badgeTextRe = /(当|比)\s*([^\s｜|]{2,10}(?:\s+[^\s｜|]{2,10})?)\s*(?:\d+歳)?\s*[｜|]\s*([^\s]+)/g;
+    let m3;
+    while ((m3 = badgeTextRe.exec(fullText)) !== null) {
+      const badge = (m3[1] || "").trim();
+      const name_ja = (m3[2] || "").trim();
+      const party = normalizeParty_((m3[3] || "").trim());
+      if (badge === "当" && !winner) winner = { name_ja, party };
+      if (badge === "比" && !revival) revival = { name_ja, party };
+      if (winner && revival) break;
+    }
+  }
+
   if (candidateNames.size > 0) {
     if (winner && !candidateNames.has(normalizeName_(winner.name_ja))) {
       console.log(`当選者名が候補者一覧にないため破棄: ${winner.name_ja}`);
@@ -694,6 +708,14 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
       if (ocrText && ocrSource === "vision") {
         console.log("Vision OCR text (head):");
         console.log(ocrText.length > 4000 ? ocrText.slice(0, 4000) : ocrText);
+        if (focusedOcrText) {
+          console.log("Vision OCR focused text (head):");
+          console.log(focusedOcrText.length > 2000 ? focusedOcrText.slice(0, 2000) : focusedOcrText);
+        }
+        if (candidatePolicyText) {
+          console.log("Vision OCR policy candidates (head):");
+          console.log(candidatePolicyText.length > 2000 ? candidatePolicyText.slice(0, 2000) : candidatePolicyText);
+        }
       } else if (useDriveOcr && ocrText) {
         console.log("Drive OCR text (head):");
         console.log(ocrText.length > 4000 ? ocrText.slice(0, 4000) : ocrText);
@@ -793,7 +815,8 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
 - 1項目は短く（30〜60文字程度）。重複はまとめる。
 - evidence はPDF内の原文から短く「完全一致」で引用（20〜40文字程度）。見出しだけの引用は不可。
 - evidence を原文から抜き出せない場合、その項目は出力しない。
-- policy が無ければ policies は空配列にし、confidence は low。
+  - policy が無ければ policies は空配列にし、confidence は low。
+  - 見出しが複数ある場合は、可能なら見出しごとに1件ずつ抽出する（合計は最大8件）。
 - main は小選挙区の当選者（ヒント: ${winnerNameJa || "不明"} / ${winnerParty || "不明"}）。
 - prop は比例復活がいる場合のみ（ヒント: ${revivalNameJa || "なし"} / ${revivalParty || "なし"}）。いなければ null。
 - name_en は URL スラッグ形式: 例 "takebe-arata"（小文字・ハイフン区切り、英字のみ）。
@@ -834,6 +857,9 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
   }
   if (rawOcr) {
     validatePoliciesWithEvidence_(out, rawOcr);
+  }
+  if (rawOcr && candidatePolicyText) {
+    fillPoliciesFromCandidates_(out, candidatePolicyText, rawOcr);
   }
 
   // 行へ書き込み
@@ -1004,9 +1030,10 @@ function buildCandidateFocusedText_(ocrText, nameJa, partyJa) {
   if (hitIndex < 0) return "";
 
   const windowBefore = 0;
-  const windowAfter = 200;
+  const windowAfter = otherNames.size > 0 ? 900 : 1200;
   const picked = [];
   const start = Math.max(0, hitIndex - windowBefore);
+  let sawPolicySection = false;
 
   for (let j = start; j < lines.length && j <= hitIndex + windowAfter; j++) {
     const lineKey = normalizeName_(lines[j]);
@@ -1015,7 +1042,13 @@ function buildCandidateFocusedText_(ocrText, nameJa, partyJa) {
       picked.push(lines[j]);
       continue;
     }
-    if (otherNames.size > 0) {
+    if (/8つの策|\d+つの策/.test(lines[j]) || /^[①-⑳]/.test(lines[j])) {
+      sawPolicySection = true;
+    }
+    if (sawPolicySection && /プロフィール/.test(lines[j])) {
+      return picked.join("\n");
+    }
+    if (!sawPolicySection && otherNames.size > 0) {
       for (const other of otherNames) {
         if (lineKey.includes(other)) {
           return picked.join("\n");
@@ -1037,6 +1070,7 @@ function buildPolicyCandidateText_(ocrText) {
   let currentHeading = "";
   let currentItems = [];
   let prevWasBullet = false;
+  let skipSection = false;
 
   const flush = () => {
     if (currentItems.length === 0) return;
@@ -1048,11 +1082,17 @@ function buildPolicyCandidateText_(ocrText) {
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
     if (isHeadingLine_(line)) {
+      if (currentHeading && currentItems.length === 0 && isNumberedHeading_(currentHeading) && isLabelHeading_(line)) {
+        continue;
+      }
       flush();
       currentHeading = line.replace(/\s+/g, " ").trim();
+      skipSection = /(実績|プロフィール|経歴|略歴)/.test(currentHeading);
       prevWasBullet = false;
       continue;
     }
+
+    if (skipSection) continue;
 
     if (!isLikelyPolicyLine_(line)) continue;
     const isBullet = isBulletLine_(line);
@@ -1065,6 +1105,7 @@ function buildPolicyCandidateText_(ocrText) {
       merged = line + " " + next;
     }
     merged = merged.replace(/^\s*[●・•\-*\d\.\)\(①-⑳]+\s*/, "").trim();
+    if (/(実現|成功|達成)/.test(merged)) continue;
     if (merged.length < 8) continue;
     currentItems.push(merged);
     prevWasBullet = isBullet;
@@ -1097,6 +1138,34 @@ function buildPolicyCandidateText_(ocrText) {
   return blocks.slice(0, 120).join("\n");
 }
 
+function fillPoliciesFromCandidates_(out, candidateText, sourceText) {
+  if (!out || !out.main || !Array.isArray(out.main.policies)) return;
+  const existing = new Set(out.main.policies.map(item => (item.evidence || "").toString().trim()).filter(v => v !== ""));
+  const candidates = extractPolicyLinesFromCandidates_(candidateText);
+  for (const line of candidates) {
+    if (out.main.policies.length >= 8) break;
+    if (existing.has(line)) continue;
+    const item = { policy: line, evidence: line, type: "policy" };
+    if (hasEvidence_(item, sourceText)) {
+      out.main.policies.push(item);
+      existing.add(line);
+    }
+  }
+}
+
+function extractPolicyLinesFromCandidates_(candidateText) {
+  const lines = (candidateText || "").split(/\r?\n/);
+  const out = [];
+  for (const line of lines) {
+    const trimmed = (line || "").trim();
+    if (trimmed.startsWith("- ")) {
+      const body = trimmed.slice(2).trim();
+      if (body) out.push(body);
+    }
+  }
+  return out;
+}
+
 function isLikelyPolicyLine_(line) {
   const s = (line || "").toString().trim();
   if (!s) return false;
@@ -1115,19 +1184,40 @@ function hasFutureVerb_(line) {
 
 function isBulletLine_(line) {
   const s = (line || "").toString().trim();
-  return /^\s*(●|・|•|-|\d+[\.\)]|[①-⑳])\s*/.test(s);
+  return /^\s*(●|・|•|-|\d+[\.\)])\s*/.test(s);
 }
 
 function isHeadingLine_(line) {
   const s = (line || "").toString().trim();
   if (!s) return false;
+  if (isBulletLine_(s)) return false;
+  if (/実現|成功|達成/.test(s)) return false;
+  if (/[。．\.！？!]/.test(s)) return false;
+  if (s.length <= 3 && !/^[①-⑳]|^\d+/.test(s)) return false;
   if (/^[①-⑳]/.test(s)) return true;
   if (/^\d+\s*つの策/.test(s)) return true;
   if (/のために$/.test(s)) return true;
   if (/へ$/.test(s) && s.length <= 20) return true;
   if (/^\d+\s*$/.test(s)) return true;
   if (/^\d+\s+/.test(s) && !/[。．\.]/.test(s)) return true;
-  if (!/[。．\.]/.test(s) && !/(ます|する|目指|推進|拡充|整備|支援|実施|充実|確立|改善|強化|促進|導入)/.test(s) && s.length <= 22) return true;
+  if (!/[。．\.]/.test(s) && !/(ます|する|目指|推進|拡充|支援|実施|充実|確立|改善|強化|促進|導入|進め)/.test(s) && s.length <= 22) return true;
+  return false;
+}
+
+function isNumberedHeading_(heading) {
+  const s = (heading || "").toString().trim();
+  return /^[①-⑳]/.test(s) || /^\d+/.test(s);
+}
+
+function isLabelHeading_(line) {
+  const s = (line || "").toString().trim();
+  if (!s) return false;
+  if (/のために$/.test(s)) return false;
+  if (/へ$/.test(s)) return false;
+  if (/\d+つの策/.test(s)) return false;
+  if (/^[①-⑳]/.test(s)) return false;
+  if (s.length <= 6 && !/\s/.test(s)) return true;
+  if (s.length <= 12 && /[\(（].+[\)）]/.test(s)) return true;
   return false;
 }
 
@@ -1287,7 +1377,7 @@ function hasEvidence_(item, sourceText) {
   if (evidence.includes("…") || evidence.includes("...")) return false;
   if (evidence.length < 12) return false;
   if (isHeadingLine_(evidence)) return false;
-  if (!hasFutureVerb_(evidence) && !/(ます|する|目指)/.test(evidence)) return false;
+  if (!/(ます|する)/.test(evidence)) return false;
   return sourceText.indexOf(evidence) >= 0;
 }
 
