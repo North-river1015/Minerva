@@ -1105,9 +1105,19 @@ function focusVisionBlocks_(blockTexts, winnerKey, winnerParty, beforeCount, aft
   if (!scoredBand) return "";
 
   const otherNames = extractOtherCandidateNamesFromOcr_(blockTexts.map(b => b.text || ""), winnerKey);
-  const focusedBlocks = blockTexts.filter(b => boxesOverlapY_(b.box, scoredBand)
+  const winnerXBand = findWinnerXBand_(blockTexts, winnerKey, 0.08);
+  let focusedBlocks = blockTexts.filter(b => boxesOverlapY_(b.box, scoredBand)
+    && (!winnerXBand || boxesOverlapX_(b.box, winnerXBand))
     && !isElectionNoticeBlock_(b.text)
     && !isOtherCandidateBlock_(b.text, winnerKey, winnerParty, otherNames));
+  if (winnerXBand) {
+    const focusedTextLen = focusedBlocks.map(b => (b.text || "")).join("\n").replace(/\s+/g, "").length;
+    if (focusedBlocks.length < 3 || focusedTextLen < 200) {
+      focusedBlocks = blockTexts.filter(b => boxesOverlapY_(b.box, scoredBand)
+        && !isElectionNoticeBlock_(b.text)
+        && !isOtherCandidateBlock_(b.text, winnerKey, winnerParty, otherNames));
+    }
+  }
   if (focusedBlocks.length === 0) return "";
 
   const hasWinnerName = focusedBlocks.some(b => normalizeName_(b.text).includes(winnerKey));
@@ -1362,6 +1372,79 @@ function expandStarBulletLines_(lines) {
   return out;
 }
 
+function expandNumberedBulletLines_(lines) {
+  const out = [];
+  for (const line of lines) {
+    const parts = splitLineIntoNumberedItems_(line);
+    if (parts.length <= 1) {
+      const only = (parts[0] || "").trim();
+      const original = (line || "").trim();
+      if (only && only !== original && (isNumberedPolicyLine_(only) || /^[①-⑳]/.test(only))) {
+        out.push(only);
+      } else {
+        out.push(line);
+      }
+      continue;
+    }
+    for (const part of parts) {
+      const trimmed = (part || "").trim();
+      if (trimmed) out.push(trimmed);
+    }
+  }
+  return out;
+}
+
+function splitLineIntoNumberedItems_(line) {
+  const s = (line || "").toString();
+  const matches = [...s.matchAll(/[0-9０-９]{1,2}\s*[\.\)．](?!\d)/g)];
+  if (matches.length === 0) return [s];
+  const parts = [];
+  const firstIndex = matches[0].index;
+  if (typeof firstIndex === "number" && firstIndex > 0) {
+    const prefix = s.slice(0, firstIndex).trim();
+    if (prefix && /(政策|公約|ビジョン|重点)/.test(prefix)) {
+      parts.push(prefix);
+    } else if (prefix && (containsAnyPartyName_(prefix) || /(支部長|公認|候補)/.test(prefix))) {
+      parts.push(prefix);
+    }
+  }
+  for (let i = 0; i < matches.length; i++) {
+    const start = matches[i].index;
+    const end = (i + 1 < matches.length) ? matches[i + 1].index : s.length;
+    const slice = s.slice(start, end).trim();
+    if (slice) parts.push(slice);
+  }
+  if (parts.length === 1 && typeof firstIndex === "number" && firstIndex > 0) {
+    const numbered = s.slice(firstIndex).trim();
+    if (numbered) return [numbered];
+  }
+  return parts.length > 0 ? parts : [s];
+}
+
+function containsAnyPartyName_(text) {
+  const s = (text || "").toString();
+  if (!s) return false;
+  const normalized = normalizePartyText_(s);
+  const parties = [
+    "自由民主党",
+    "自民党",
+    "公明党",
+    "立憲民主党",
+    "日本維新の会",
+    "日本維新会",
+    "日本共産党",
+    "国民民主党",
+    "れいわ新選組",
+    "社会民主党",
+    "参政党"
+  ];
+  for (const party of parties) {
+    const key = normalizePartyText_(party);
+    if (key && normalized.indexOf(key) >= 0) return true;
+  }
+  return false;
+}
+
 function findNameBandFromBlocks_(blockTexts, winnerKey, padRatio) {
   let minY = Infinity;
   let maxY = -Infinity;
@@ -1564,6 +1647,32 @@ function boxesOverlapY_(box, band) {
   return box.maxY >= band.minY && box.minY <= band.maxY;
 }
 
+function boxesOverlapX_(box, band) {
+  if (!box || !band) return false;
+  return box.maxX >= band.minX && box.minX <= band.maxX;
+}
+
+function findWinnerXBand_(blockTexts, winnerKey, padRatio) {
+  let minX = Infinity;
+  let maxX = -Infinity;
+  let pageWidth = 0;
+  for (const block of blockTexts) {
+    const key = normalizeName_(block.text);
+    if (!key.includes(winnerKey)) continue;
+    if (!block.box) continue;
+    minX = Math.min(minX, block.box.minX);
+    maxX = Math.max(maxX, block.box.maxX);
+    if (block.pageWidth) pageWidth = block.pageWidth;
+  }
+  if (!isFinite(minX) || !isFinite(maxX)) return null;
+  const ratio = typeof padRatio === "number" ? padRatio : 0.08;
+  const pad = pageWidth > 0 ? pageWidth * ratio : 40;
+  return {
+    minX: Math.max(0, minX - pad),
+    maxX: maxX + pad
+  };
+}
+
 function isPolicyCueText_(text) {
   const s = (text || "").toString();
   return /政策|重点政策|大政策|つの挑戦|ビジョン|公約|\d+つの策|挑戦|計画|推進|目指|実現|\u2460|\u2461|\u2462|\u2463|\u2464/.test(s);
@@ -1660,11 +1769,40 @@ function buildCandidateFocusedText_(ocrText, nameJa, partyJa) {
 }
 
 function buildPolicyCandidateText_(ocrText, winnerNameJa, winnerParty) {
+  const strict = buildPolicyCandidateTextCore_(ocrText, winnerNameJa, winnerParty, false);
+  const strictCount = countPolicyCandidateItems_(strict);
+  const relaxed = (winnerNameJa && winnerParty)
+    ? buildPolicyCandidateTextCore_(ocrText, winnerNameJa, winnerParty, true)
+    : "";
+  const relaxedCount = countPolicyCandidateItems_(relaxed);
+  const fallback = buildNumberedPolicyFallback_(ocrText, winnerParty);
+  const fallbackCount = countPolicyCandidateItems_(fallback);
+
+  let best = strict;
+  let bestCount = strictCount;
+  if (relaxedCount > bestCount) {
+    best = relaxed;
+    bestCount = relaxedCount;
+  }
+  if (fallbackCount > bestCount || (fallbackCount >= 2 && bestCount <= 2)) {
+    best = fallback;
+    bestCount = fallbackCount;
+  }
+  if (best === fallback && bestCount > 0) {
+    console.log("Policy candidate fallback: numbered=" + fallbackCount);
+    return best;
+  }
+  if (bestCount > 0) return best;
+  return relaxedCount > 0 ? relaxed : strict;
+}
+
+function buildPolicyCandidateTextCore_(ocrText, winnerNameJa, winnerParty, relaxPartyLock) {
   const rawLines = (ocrText || "").split(/\r?\n/).map(l => l.trim()).filter(l => l !== "");
-  const lines = expandStarBulletLines_(rawLines);
+  const lines = expandNumberedBulletLines_(expandStarBulletLines_(rawLines));
   if (lines.length === 0) return "";
 
   const winnerKey = normalizeName_(winnerNameJa);
+  const winnerPartyKey = winnerParty ? normalizePartyText_(winnerParty) : "";
   const otherNames = winnerKey ? extractOtherCandidateNamesFromOcr_(lines, winnerKey) : new Set();
 
   const capCount = inferPolicyCountCap_(lines);
@@ -1672,18 +1810,33 @@ function buildPolicyCandidateText_(ocrText, winnerNameJa, winnerParty) {
   let currentHeading = "";
   let currentItems = [];
   let prevWasBullet = false;
+  let prevWasNumbered = false;
   let skipSection = false;
   let currentLimit = 0;
   let sawPolicyItem = false;
   let inStarSection = false;
   let nonBulletAfterStar = 0;
+  let noticeStreak = 0;
   let otherPartyLock = false;
+  let winnerPartySeen = false;
 
   const hasWinnerInLine = (idx) => {
     if (!winnerKey) return false;
     const lineKey = normalizeName_(lines[idx]);
     const nextKey = idx + 1 < lines.length ? normalizeName_(lines[idx + 1]) : "";
     return (lineKey + nextKey).includes(winnerKey) || lineKey.includes(winnerKey);
+  };
+
+  const hasWinnerPartyNearby = (idx) => {
+    if (relaxPartyLock) return true;
+    if (!winnerPartyKey) return false;
+    const start = Math.max(0, idx - 1);
+    const end = Math.min(lines.length - 1, idx + 2);
+    for (let k = start; k <= end; k++) {
+      const normalized = normalizePartyText_(lines[k]);
+      if (normalized.indexOf(winnerPartyKey) >= 0) return true;
+    }
+    return false;
   };
 
   const flush = () => {
@@ -1715,8 +1868,20 @@ function buildPolicyCandidateText_(ocrText, winnerNameJa, winnerParty) {
       continue;
     }
 
+    if (!winnerPartySeen && hasWinnerPartyNearby(i)) {
+      winnerPartySeen = true;
+    }
+
     if (hasWinnerInLine(i)) {
+      if (!otherPartyLock || hasWinnerPartyNearby(i)) {
+        otherPartyLock = false;
+      }
+    } else if (otherPartyLock && hasWinnerPartyNearby(i)) {
       otherPartyLock = false;
+    }
+
+    if (!relaxPartyLock && !winnerPartySeen && !hasWinnerPartyNearby(i)) {
+      continue;
     }
 
     if (winnerKey && isOtherPartyCueLine_(workLine, winnerParty)) {
@@ -1741,10 +1906,21 @@ function buildPolicyCandidateText_(ocrText, winnerNameJa, winnerParty) {
     }
 
     if (isElectionNoticeLine_(workLine)) {
+      if (sawPolicyItem) {
+        noticeStreak += 1;
+        if (noticeStreak >= 2) {
+          flush();
+          break;
+        }
+      }
       continue;
     }
+    noticeStreak = 0;
 
     if (prevWasBullet && currentItems.length > 0 && !isBulletLine_(workLine) && isLikelyContinuationLine_(workLine)) {
+      if (prevWasNumbered && !isLikelyPolicyLine_(workLine) && !hasFutureVerb_(workLine)) {
+        continue;
+      }
       const last = currentItems[currentItems.length - 1];
       if (last.indexOf(workLine) === -1) {
         currentItems[currentItems.length - 1] = (last + " " + workLine).trim();
@@ -1762,7 +1938,7 @@ function buildPolicyCandidateText_(ocrText, winnerNameJa, winnerParty) {
     }
 
     const treatCircledAsBullet = policyHeading && /^[①-⑳]/.test(workLine);
-    const treatNumberedAsBullet = policyHeading && isNumberedPolicyLine_(workLine);
+    const treatNumberedAsBullet = isNumberedPolicyLine_(workLine);
     if (!forceSingleSection && !treatCircledAsBullet && !treatNumberedAsBullet && isHeadingLine_(workLine)) {
       if (currentHeading && currentItems.length === 0 && isNumberedHeading_(currentHeading) && isLabelHeading_(line)) {
         continue;
@@ -1777,7 +1953,16 @@ function buildPolicyCandidateText_(ocrText, winnerNameJa, winnerParty) {
       continue;
     }
 
-    if (skipSection) continue;
+    if (skipSection) {
+      const isNumberedStart = isNumberedPolicyLine_(workLine) || /^[①-⑳]/.test(workLine);
+      if (isNumberedStart) {
+        skipSection = false;
+        currentHeading = "";
+        currentLimit = 0;
+      } else {
+        continue;
+      }
+    }
 
     const isBullet = treatCircledAsBullet || treatNumberedAsBullet || isBulletLine_(workLine);
     if (inStarSection) {
@@ -1792,6 +1977,15 @@ function buildPolicyCandidateText_(ocrText, winnerNameJa, winnerParty) {
       }
     }
     if (!isBullet && prevWasBullet && currentItems.length > 0 && !isHeadingLine_(workLine)) {
+      if (prevWasNumbered && !isLikelyPolicyLine_(workLine) && !hasFutureVerb_(workLine)) {
+        continue;
+      }
+      if (isElectionNoticeLine_(workLine) || isCandidateListLine_(workLine)) {
+        continue;
+      }
+      if (winnerKey && isOtherPartyCueLine_(workLine, winnerParty)) {
+        continue;
+      }
       currentItems[currentItems.length - 1] = (currentItems[currentItems.length - 1] + " " + workLine).trim();
       continue;
     }
@@ -1801,10 +1995,21 @@ function buildPolicyCandidateText_(ocrText, winnerNameJa, winnerParty) {
 
     let merged = workLine;
     const next = i + 1 < lines.length ? lines[i + 1] : "";
-    if (next && next.length <= 20 && !isLikelyPolicyLine_(next) && !isHeadingLine_(next)) {
+    if (next
+      && next.length <= 20
+      && !isLikelyPolicyLine_(next)
+      && !isHeadingLine_(next)
+      && !isElectionNoticeLine_(next)
+      && !isCandidateListLine_(next)
+      && !(winnerKey && isOtherPartyCueLine_(next, winnerParty))) {
       merged = line + " " + next;
     }
+    merged = stripElectionNoticeTail_(merged);
     merged = merged.replace(/^\s*[★●・•\-*\d\.\)\(①-⑳]+\s*/, "").trim();
+    if (treatCircledAsBullet || treatNumberedAsBullet || /^\d{1,2}/.test(line)) {
+      merged = trimNonPolicyTail_(merged);
+    }
+    if (!merged) continue;
     if (winnerKey && (sawPolicyItem || inStarSection) && isOtherPartyCueLine_(merged, winnerParty)) {
       flush();
       break;
@@ -1815,6 +2020,7 @@ function buildPolicyCandidateText_(ocrText, winnerNameJa, winnerParty) {
     sawPolicyItem = true;
     if (/^★/.test(workLine)) inStarSection = true;
     prevWasBullet = isBullet;
+    prevWasNumbered = treatCircledAsBullet || treatNumberedAsBullet;
     if (currentLimit > 0 && currentItems.length >= currentLimit) {
       flush();
       currentHeading = "";
@@ -1849,6 +2055,63 @@ function buildPolicyCandidateText_(ocrText, winnerNameJa, winnerParty) {
   }
 
   return blocks.slice(0, 120).join("\n");
+}
+
+function buildNumberedPolicyFallback_(ocrText, winnerParty) {
+  const items = extractNumberedPolicyLines_(ocrText, winnerParty);
+  if (items.length === 0) return "";
+  const blocks = ["## その他"];
+  for (const item of items.slice(0, 12)) {
+    blocks.push("- " + item);
+  }
+  return blocks.join("\n");
+}
+
+function countPolicyCandidateItems_(candidateText) {
+  if (!candidateText) return 0;
+  return extractPolicyLinesFromCandidates_(candidateText).length;
+}
+
+function extractNumberedPolicyLines_(ocrText, winnerParty) {
+  const rawLines = (ocrText || "").split(/\r?\n/).map(l => l.trim()).filter(l => l !== "");
+  const lines = expandNumberedBulletLines_(expandStarBulletLines_(rawLines));
+  const out = [];
+
+  const isNumberedStart = (line) => isNumberedPolicyLine_(line) || /^[①-⑳]/.test(line);
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    if (isElectionNoticeLine_(line)) continue;
+    if (winnerParty && isOtherPartyCueLine_(line, winnerParty)) continue;
+    if (!isNumberedStart(line)) continue;
+
+    let merged = line.replace(/^\s*[★●・•\-*\d\.\)\(①-⑳]+\s*/, "").trim();
+    let consumed = 0;
+
+    for (let k = 1; k <= 2 && i + k < lines.length; k++) {
+      const next = lines[i + k];
+      if (isElectionNoticeLine_(next)) break;
+      if (winnerParty && isOtherPartyCueLine_(next, winnerParty)) break;
+      if (isNumberedStart(next)) break;
+      const nextClean = next.trim();
+      if (!nextClean) continue;
+      if (/党\s*員|支部\s*長|候補|公認|議員/.test(nextClean) || isCandidateListLine_(nextClean)) continue;
+      merged = merged ? (merged + " " + nextClean).trim() : nextClean;
+      consumed = k;
+    }
+
+    if (consumed > 0) i += consumed;
+    if (!merged) continue;
+
+    merged = trimNonPolicyTail_(merged);
+    if (merged.length < 6) continue;
+    if (/%/.test(merged)) continue;
+    if (isCandidateListLine_(merged) && !isLikelyPolicyLine_(merged) && !hasFutureVerb_(merged)) continue;
+    if (/(党\s*員|支部\s*長|候補|公認|議員)/.test(merged)) continue;
+    out.push(merged);
+  }
+
+  return out;
 }
 
 function removeCandidateListLines_(text) {
@@ -2008,12 +2271,13 @@ function findPolicyHeadingCountInLine_(line) {
 
 function isNumberedPolicyLine_(line) {
   const s = (line || "").toString().trim();
-  return /^\d{1,2}\b/.test(s) || /^0\d\b/.test(s);
+  return /^[0-9０-９]{1,2}(\s*[\.\)．](?!\d)|\s+)/.test(s) || /^0\d\b/.test(s);
 }
 
 function isCandidateListLine_(line) {
   const s = (line || "").toString().trim();
   if (!s) return false;
+  if (/[0-9０-９]{1,2}\s*[\.\)．](?!\d)|[①-⑳]/.test(s)) return false;
   if (/(党|公認|政策|重点政策|プロフィール|経歴|略歴|実績|歳)/.test(s)) return false;
   const tokens = s.split(/\s+/).filter(t => t !== "");
   if (tokens.length < 3) return false;
@@ -2026,10 +2290,52 @@ function isCandidateListLine_(line) {
 function isElectionNoticeLine_(line) {
   const s = (line || "").toString().trim();
   if (!s) return false;
-  if (/(投票日|期日前投票|投票時間|選挙管理委員会|小選挙区は|比例代表は|投票に参加|期日前投票制度)/.test(s)) return true;
-  if (/(午前\s*\d+時|午後\s*\d+時|\d{1,2}\/\d{1,2})/.test(s) && /(投票|期日前)/.test(s)) return true;
-  if (/(touhyo1027\.com|投票所|ご注意ください)/.test(s)) return true;
+  const normalized = s.replace(/[\s\u3000]+/g, "");
+  if (/(投票日|期日前投票|投票時間|選挙管理委員会|小選挙区は|比例代表は|投票に参加|期日前投票制度)/.test(normalized)) return true;
+  if (/(午前\d+時|午後\d+時|\d{1,2}\/\d{1,2})/.test(normalized) && /(投票|期日前)/.test(normalized)) return true;
+  if (/(touhyo1027\.com|投票所|ご注意ください)/.test(normalized)) return true;
   return false;
+}
+
+function stripElectionNoticeTail_(text) {
+  const s = (text || "").toString();
+  if (!s) return "";
+  const patterns = [
+    /[○◎]\s*小\s*選挙\s*区/,
+    /[○◎]\s*比例\s*代表/,
+    /期日\s*前\s*投票/,
+    /投票\s*時間/,
+    /投票\s*所/,
+    /選挙\s*管理\s*委員\s*会/,
+    /この\s*選挙\s*公報/,
+    /ご\s*注意/,
+    /投票\s*日/
+  ];
+  let cut = -1;
+  for (const pattern of patterns) {
+    const m = s.match(pattern);
+    if (m && typeof m.index === "number") {
+      if (cut < 0 || m.index < cut) cut = m.index;
+    }
+  }
+  if (cut < 0) {
+    const markerIndex = s.search(/[○◎]/);
+    if (markerIndex >= 15) cut = markerIndex;
+  }
+  if (cut >= 0) return s.slice(0, cut).trim();
+  return s.trim();
+}
+
+function trimNonPolicyTail_(text) {
+  const s = (text || "").toString().trim();
+  if (!s) return "";
+  const m = s.match(/[。．\.]/);
+  if (!m || typeof m.index !== "number") return s;
+  const head = s.slice(0, m.index + 1).trim();
+  const tail = s.slice(m.index + 1).trim();
+  if (!tail) return head;
+  if (isLikelyPolicyLine_(tail) || hasFutureVerb_(tail)) return s;
+  return head;
 }
 
 function isElectionNoticeBlock_(text) {
@@ -2231,7 +2537,7 @@ function hasEvidence_(item, sourceText) {
   const evidence = (item.evidence || "").toString().trim();
   if (!evidence) return false;
   if (evidence.includes("…") || evidence.includes("...")) return false;
-  if (evidence.length < 8) return false;
+  if (evidence.length < 6) return false;
   if (isHeadingLine_(evidence)) return false;
   if (sourceText.indexOf(evidence) >= 0) return true;
   const normalizedSource = normalizeEvidenceText_(sourceText);
