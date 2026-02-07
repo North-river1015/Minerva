@@ -21,6 +21,7 @@ function generateMinervaMarkdown() {
   const kouho_link = row[34]; 
   const party_main = row[35]; 
   const party_prop = row[36]; 
+  const policy_reason = row[37];
 
  
   const prefMap = {
@@ -43,11 +44,13 @@ function generateMinervaMarkdown() {
   md += `# [${name_ja}](/shu/${pref_raw}/${district}/${name_en})\n\n`;
   md += `${party_main}\n\n`; 
 
+  let hasMainPolicy = false;
   for (let i = 5; i <= 20; i += 2) {
     let policy = row[i];
     let evidence = row[i+1];
     if (policy && policy.toString().trim() !== "") {
       md += formatPolicyLine(policy, evidence);
+      hasMainPolicy = true;
     }
   }
   
@@ -72,9 +75,15 @@ function generateMinervaMarkdown() {
       }
     }
     
+  }
+
+  const reasonText = policy_reason ? policy_reason.toString().trim() : "";
+  if (!hasMainPolicy && reasonText) {
+    md += `\n（公約抽出: ${reasonText}）\n`;
+  }
+
   if (kouho_link && kouho_link.toString().trim() !== "") {
-      md += `\n[選挙公報](${kouho_link.toString().trim()})\n`;
-    }
+    md += `\n[選挙公報](${kouho_link.toString().trim()})\n`;
   }
 
   // 表示
@@ -856,12 +865,31 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
   if (!revivalNameJa) {
     out.prop = null;
   }
+  const beforeMainPolicies = (out.main && Array.isArray(out.main.policies)) ? out.main.policies.length : 0;
+  const beforePropPolicies = (out.prop && Array.isArray(out.prop.policies)) ? out.prop.policies.length : 0;
+  let removedByEvidence = { main: 0, prop: 0 };
   if (rawOcr) {
-    validatePoliciesWithEvidence_(out, rawOcr);
+    removedByEvidence = validatePoliciesWithEvidence_(out, rawOcr);
   }
+  let addedFromCandidates = { main: 0, prop: 0 };
   if (rawOcr && candidatePolicyText) {
-    fillPoliciesFromCandidates_(out, candidatePolicyText, rawOcr);
+    addedFromCandidates = fillPoliciesFromCandidates_(out, candidatePolicyText, rawOcr);
   }
+  const policyContext = {
+    winnerNameJa,
+    winnerParty,
+    ocrSource,
+    hasOcrText: !!ocrText,
+    hasFocusedText: !!focusedOcrText,
+    candidateLineCount: candidatePolicyText ? candidatePolicyText.split("\n").length : 0,
+    beforeMainPolicies,
+    beforePropPolicies,
+    removedByEvidence,
+    addedFromCandidates
+  };
+  logPolicyExtractionSummary_(out, policyContext);
+  const policyReason = computePolicyExtractionReason_(out, policyContext);
+  sheet.getRange(rowIndex, 38).setValue(policyReason || "");
 
   // 行へ書き込み
   writePoliciesToRow_(sheet, rowIndex, out);
@@ -1082,6 +1110,9 @@ function focusVisionBlocks_(blockTexts, winnerKey, winnerParty, beforeCount, aft
     && !isOtherCandidateBlock_(b.text, winnerKey, winnerParty, otherNames));
   if (focusedBlocks.length === 0) return "";
 
+  const hasWinnerName = focusedBlocks.some(b => normalizeName_(b.text).includes(winnerKey));
+  if (!hasWinnerName) return "";
+
   if (winnerParty) {
     const winnerPartyKey = normalizePartyText_(winnerParty);
     let hasWinnerParty = false;
@@ -1194,9 +1225,12 @@ function scoreCandidateBand_(band, blockTexts, winnerKey, winnerParty) {
   let partyHits = 0;
   let otherPartyHits = 0;
 
+  const winnerPartyKey = winnerParty ? normalizePartyText_(winnerParty) : "";
+
   for (const block of blocks) {
     const text = (block.text || "").toString();
     const key = normalizeName_(text);
+    const normalizedText = normalizePartyText_(text);
     if (key.includes(winnerKey)) winnerHit = true;
     if (otherNames.size > 0) {
       for (const other of otherNames) {
@@ -1212,7 +1246,7 @@ function scoreCandidateBand_(band, blockTexts, winnerKey, winnerParty) {
     if (/プロフィール|経歴|略歴|実績/.test(text)) noiseHits += 1;
 
     if (winnerParty) {
-      if (text.indexOf(winnerParty) >= 0) partyHits += 1;
+      if (winnerPartyKey && normalizedText.indexOf(winnerPartyKey) >= 0) partyHits += 1;
       const otherParty = findOtherPartyInText_(text, winnerParty);
       if (otherParty) otherPartyHits += 1;
     }
@@ -1643,6 +1677,14 @@ function buildPolicyCandidateText_(ocrText, winnerNameJa, winnerParty) {
   let sawPolicyItem = false;
   let inStarSection = false;
   let nonBulletAfterStar = 0;
+  let otherPartyLock = false;
+
+  const hasWinnerInLine = (idx) => {
+    if (!winnerKey) return false;
+    const lineKey = normalizeName_(lines[idx]);
+    const nextKey = idx + 1 < lines.length ? normalizeName_(lines[idx + 1]) : "";
+    return (lineKey + nextKey).includes(winnerKey) || lineKey.includes(winnerKey);
+  };
 
   const flush = () => {
     if (currentItems.length === 0) return;
@@ -1673,11 +1715,20 @@ function buildPolicyCandidateText_(ocrText, winnerNameJa, winnerParty) {
       continue;
     }
 
+    if (hasWinnerInLine(i)) {
+      otherPartyLock = false;
+    }
+
     if (winnerKey && isOtherPartyCueLine_(workLine, winnerParty)) {
-      if (sawPolicyItem || inStarSection) {
+      if (hasWinnerInLine(i) || sawPolicyItem || inStarSection) {
         flush();
         break;
       }
+      otherPartyLock = true;
+      continue;
+    }
+
+    if (otherPartyLock) {
       continue;
     }
 
@@ -1813,9 +1864,10 @@ function removeCandidateListLines_(text) {
 }
 
 function fillPoliciesFromCandidates_(out, candidateText, sourceText) {
-  if (!out || !out.main || !Array.isArray(out.main.policies)) return;
+  if (!out || !out.main || !Array.isArray(out.main.policies)) return { main: 0, prop: 0 };
   const existing = new Set(out.main.policies.map(item => (item.evidence || "").toString().trim()).filter(v => v !== ""));
   const candidates = extractPolicyLinesFromCandidates_(candidateText);
+  let addedMain = 0;
   for (const line of candidates) {
     if (out.main.policies.length >= 8) break;
     if (existing.has(line)) continue;
@@ -1823,8 +1875,10 @@ function fillPoliciesFromCandidates_(out, candidateText, sourceText) {
     if (hasEvidence_(item, sourceText)) {
       out.main.policies.push(item);
       existing.add(line);
+      addedMain += 1;
     }
   }
+  return { main: addedMain, prop: 0 };
 }
 
 function extractPolicyLinesFromCandidates_(candidateText) {
@@ -2109,18 +2163,61 @@ function writePoliciesToRow_(sheet, rowIndex, out) {
 }
 
 function validatePoliciesWithEvidence_(out, sourceText) {
-  if (!out || !sourceText) return;
+  if (!out || !sourceText) return { main: 0, prop: 0 };
   const src = sourceText.replace(/\s+/g, " ");
+  let removedMain = 0;
+  let removedProp = 0;
 
   if (out.main && Array.isArray(out.main.policies)) {
+    const before = out.main.policies.length;
     out.main.policies = out.main.policies.filter(item => isPolicyItem_(item) && hasEvidence_(item, src));
+    removedMain = Math.max(0, before - out.main.policies.length);
     if (out.main.policies.length === 0) out.main.confidence = "low";
   }
 
   if (out.prop && Array.isArray(out.prop.policies)) {
+    const before = out.prop.policies.length;
     out.prop.policies = out.prop.policies.filter(item => isPolicyItem_(item) && hasEvidence_(item, src));
+    removedProp = Math.max(0, before - out.prop.policies.length);
     if (out.prop.policies.length === 0) out.prop.confidence = "low";
   }
+  return { main: removedMain, prop: removedProp };
+}
+
+function logPolicyExtractionSummary_(out, context) {
+  const reason = computePolicyExtractionReason_(out, context);
+  if (!reason) return;
+
+  console.log(
+    "Policy extraction empty: reason=" + reason
+      + ", winner=" + (context.winnerNameJa || "")
+      + ", party=" + (context.winnerParty || "")
+      + ", ocr=" + (context.ocrSource || "")
+      + ", candidateLines=" + (context.candidateLineCount || 0)
+      + ", openaiMain=" + (context.beforeMainPolicies || 0)
+      + ", removedByEvidence=" + (context.removedByEvidence.main || 0)
+      + ", addedFromCandidates=" + (context.addedFromCandidates.main || 0)
+  );
+}
+
+function computePolicyExtractionReason_(out, context) {
+  const mainPolicies = out && out.main && Array.isArray(out.main.policies) ? out.main.policies.length : 0;
+  const propPolicies = out && out.prop && Array.isArray(out.prop.policies) ? out.prop.policies.length : 0;
+  if (mainPolicies > 0 || propPolicies > 0) return "";
+
+  if (!context.hasOcrText) {
+    return "ocr_empty";
+  }
+  if (!context.hasFocusedText && !context.candidateLineCount) {
+    return "no_policy_candidates";
+  }
+  if (context.beforeMainPolicies === 0 && context.addedFromCandidates.main === 0) {
+    return "openai_empty";
+  }
+  if (context.beforeMainPolicies > 0 && context.removedByEvidence.main >= context.beforeMainPolicies) {
+    return "evidence_rejected";
+  }
+  return "no_verified_policy";
 }
 
 function isPolicyItem_(item) {
