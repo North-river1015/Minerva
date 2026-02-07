@@ -2233,7 +2233,20 @@ function hasEvidence_(item, sourceText) {
   if (evidence.includes("…") || evidence.includes("...")) return false;
   if (evidence.length < 8) return false;
   if (isHeadingLine_(evidence)) return false;
-  return sourceText.indexOf(evidence) >= 0;
+  if (sourceText.indexOf(evidence) >= 0) return true;
+  const normalizedSource = normalizeEvidenceText_(sourceText);
+  const normalizedEvidence = normalizeEvidenceText_(evidence);
+  if (!normalizedEvidence) return false;
+  return normalizedSource.indexOf(normalizedEvidence) >= 0;
+}
+
+function normalizeEvidenceText_(text) {
+  return (text || "")
+    .toString()
+    .replace(/[\s\u3000]+/g, "")
+    .replace(/[、。，．・…\.\-—–―〜~]/g, "")
+    .replace(/[\(\)（）\[\]【】「」『』]/g, "")
+    .trim();
 }
 
 function fetchHtml_(url) {
