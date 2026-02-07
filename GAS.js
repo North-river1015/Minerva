@@ -942,10 +942,13 @@ function buildPolicyCandidateText_(ocrText) {
   const lines = (ocrText || "").split(/\r?\n/).map(l => l.trim()).filter(l => l !== "");
   if (lines.length === 0) return "";
 
+  const capCount = inferPolicyCountCap_(lines);
+
   const candidates = [];
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
     if (!isLikelyPolicyLine_(line)) continue;
+    if (isHeadingOnlyLine_(line)) continue;
 
     let merged = line;
     const next = i + 1 < lines.length ? lines[i + 1] : "";
@@ -957,7 +960,8 @@ function buildPolicyCandidateText_(ocrText) {
     candidates.push(merged);
   }
 
-  return candidates.slice(0, 40).join("\n");
+  const capped = capCount ? candidates.slice(0, capCount) : candidates.slice(0, 40);
+  return capped.join("\n");
 }
 
 function isLikelyPolicyLine_(line) {
@@ -969,6 +973,24 @@ function isLikelyPolicyLine_(line) {
   const hasBullet = /^\s*[●・\-*\d\.\)\(]+/.test(s);
   const hasFuture = /目指|進め|推進|拡充|整備|支援|実施|充実|確立|改善|強化|促進|導入/.test(s);
   return hasBullet || hasFuture;
+}
+
+function isHeadingOnlyLine_(line) {
+  const s = (line || "").toString().trim();
+  if (!s) return false;
+  if (/^\d+\s*つの策/.test(s)) return true;
+  if (/のために$/.test(s)) return true;
+  if (/^\d+\s*$/.test(s)) return true;
+  return false;
+}
+
+function inferPolicyCountCap_(lines) {
+  const joined = lines.join(" ");
+  const m = joined.match(/(\d+)\s*つの策/);
+  if (!m) return 0;
+  const n = parseInt(m[1], 10);
+  if (Number.isNaN(n) || n <= 0) return 0;
+  return Math.min(n, 12);
 }
 
 function extractOtherCandidateNamesFromOcr_(lines, winnerNameKey) {
