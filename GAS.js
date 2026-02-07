@@ -636,11 +636,27 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
   if (!kohoPdfUrl) throw new Error("選挙公報PDF URL（row[34]）が空です。");
 
   const debugPdfText = getScriptProp_("DEBUG_PDF_TEXT", "false").toString().toLowerCase() === "true";
+  const useDriveOcr = getScriptProp_("USE_DRIVE_OCR", "false").toString().toLowerCase() === "true";
+  let ocrText = "";
+
+  if (useDriveOcr) {
+    try {
+      ocrText = extractPdfTextWithDriveOcr_(kohoPdfUrl);
+    } catch (e) {
+      console.log("Drive OCR failed: " + e.message);
+    }
+  }
+
   if (debugPdfText) {
     try {
-      const pdfText = extractPdfTextForDebug_(kohoPdfUrl);
-      console.log("PDF extracted text (head):");
-      console.log(pdfText);
+      if (useDriveOcr && ocrText) {
+        console.log("Drive OCR text (head):");
+        console.log(ocrText.length > 4000 ? ocrText.slice(0, 4000) : ocrText);
+      } else {
+        const pdfText = extractPdfTextForDebug_(kohoPdfUrl);
+        console.log("PDF extracted text (head):");
+        console.log(pdfText);
+      }
     } catch (e) {
       console.log("PDF text debug failed: " + e.message);
     }
@@ -733,6 +749,7 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
 出力はJSONのみ。`;
 
   const model = getScriptProp_("OPENAI_MODEL", "gpt-4o-mini");
+  const ocrTextForPrompt = ocrText ? (ocrText.length > 12000 ? ocrText.slice(0, 12000) : ocrText) : "";
   const resp = callOpenAIResponses_({
     model,
     text: { format: { name: "minerva_koho_extract", type: "json_schema", strict: true, schema: schema.schema } },
@@ -740,8 +757,12 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
       {
         role: "user",
         content: [
-          { type: "input_file", file_url: kohoPdfUrl },
-          { type: "input_text", text: instruction }
+          ...(ocrTextForPrompt
+            ? [{ type: "input_text", text: instruction + "\n\n[OCR_TEXT]\n" + ocrTextForPrompt }]
+            : [
+                { type: "input_file", file_url: kohoPdfUrl },
+                { type: "input_text", text: instruction }
+              ])
         ]
       }
     ]
@@ -801,6 +822,29 @@ function extractPdfTextForDebug_(kohoPdfUrl) {
   const text = extractOutputText_(resp);
   if (!text) return "";
   return text.length > 4000 ? text.slice(0, 4000) : text;
+}
+
+function extractPdfTextWithDriveOcr_(kohoPdfUrl) {
+  const blob = UrlFetchApp.fetch(kohoPdfUrl).getBlob().setName("koho.pdf");
+  const resource = {
+    title: "koho_ocr_" + new Date().getTime(),
+    mimeType: MimeType.GOOGLE_DOCS
+  };
+
+  let docId = "";
+  try {
+    const file = Drive.Files.insert(resource, blob, { ocr: true, ocrLanguage: "ja" });
+    docId = file.id;
+    return DocumentApp.openById(docId).getBody().getText();
+  } finally {
+    if (docId) {
+      try {
+        Drive.Files.remove(docId);
+      } catch (e) {
+        console.log("Drive OCR cleanup failed: " + e.message);
+      }
+    }
+  }
 }
 
 function callOpenAIResponses_(payload) {
