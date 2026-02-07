@@ -2,7 +2,6 @@
 title: 奈良
 url: /prefectures/nara/
 ---
-
 ## 奈良の小選挙区
 
 - [奈良1区](./1/)
