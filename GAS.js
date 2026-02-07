@@ -409,6 +409,11 @@ function processSenkyokuQueueBatch() {
       const parsed = parseSenkyokuPageRich_(senkyokuUrl);
       applyParsedToResponseRow_(formSheet, newRowIndex, parsed);
 
+      const winnerNameJa = (formSheet.getRange(newRowIndex, 4).getValue() || "").toString().trim();
+      if (!winnerNameJa) {
+        throw new Error("当選者名が取得できません。候補者一覧と照合してください。");
+      }
+
       // 3) 公報PDFから公約抽出（OpenAI）→行に入力
       const out = extractPoliciesFromKohoPdfAndFillRow_(formSheet, newRowIndex);
 
@@ -456,7 +461,8 @@ function appendEmptyResponseRow_(formSheet) {
  *******************************************************/
 function parseSenkyokuPageRich_(senkyokuUrl) {
   const html = fetchHtml_(senkyokuUrl);
-  const candidateNames = extractCandidateNames_(html);
+  const candidateSectionText = getCandidateSectionText_(html);
+  const candidateNames = extractCandidateNames_(candidateSectionText);
 
   // タイトルや見出しに「北海道12区」等が含まれる前提で抽出（ゆらぎに強め）
   const titleMatch = html.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
@@ -487,9 +493,7 @@ function parseSenkyokuPageRich_(senkyokuUrl) {
   }
 
   if (!winner || !revival) {
-    const text = stripTags_(html);
-    const anchorIndex = text.indexOf("小選挙区候補者");
-    const textForSearch = anchorIndex >= 0 ? text.slice(anchorIndex) : text;
+    const textForSearch = candidateSectionText;
     const badgeTextRe = /(当|比)\s+([^\s]+(?:\s+[^\s]+)?)\s+(?:\d+歳)?\s*[｜|]\s*([^\s]+)/g;
     let m2;
     while ((m2 = badgeTextRe.exec(textForSearch)) !== null) {
@@ -528,10 +532,22 @@ function stripTags_(s) {
   return (s || "").replace(/<[^>]*>/g, "").replace(/\s+/g, " ").trim();
 }
 
-function extractCandidateNames_(html) {
+function getCandidateSectionText_(html) {
   const text = stripTags_(html);
   const anchorIndex = text.indexOf("小選挙区候補者");
-  const textForSearch = anchorIndex >= 0 ? text.slice(anchorIndex) : text;
+  let section = anchorIndex >= 0 ? text.slice(anchorIndex) : text;
+  const endMarkers = ["この選挙区の前回の結果", "前回の結果", "選挙区をデータで見る", "候補者アンケートについて"];
+  let endIndex = section.length;
+  for (const marker of endMarkers) {
+    const idx = section.indexOf(marker);
+    if (idx >= 0 && idx < endIndex) endIndex = idx;
+  }
+  section = section.slice(0, endIndex);
+  return section;
+}
+
+function extractCandidateNames_(text) {
+  const textForSearch = text || "";
   const nameSet = new Set();
 
   const nameRe = /([^\s]+(?:\s+[^\s]+)?)\s+\d+歳｜/g;
