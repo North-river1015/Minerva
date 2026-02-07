@@ -664,6 +664,10 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
       if (useDriveOcr && ocrText) {
         console.log("Drive OCR text (head):");
         console.log(ocrText.length > 4000 ? ocrText.slice(0, 4000) : ocrText);
+        if (focusedOcrText) {
+          console.log("Drive OCR focused text (head):");
+          console.log(focusedOcrText.length > 2000 ? focusedOcrText.slice(0, 2000) : focusedOcrText);
+        }
       } else {
         const pdfText = extractPdfTextForDebug_(kohoPdfUrl);
         console.log("PDF extracted text (head):");
@@ -781,6 +785,12 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
   console.log("OpenAI raw output JSON:");
   console.log(jsonText);
   const out = JSON.parse(jsonText);
+  if (!revivalNameJa) {
+    out.prop = null;
+  }
+  if (rawOcr) {
+    validatePoliciesWithEvidence_(out, rawOcr);
+  }
 
   // 行へ書き込み
   writePoliciesToRow_(sheet, rowIndex, out);
@@ -859,31 +869,79 @@ function buildCandidateFocusedText_(ocrText, nameJa, partyJa) {
   if (lines.length === 0) return "";
 
   const nameKey = normalizeName_(nameJa);
-  const partyKey = (partyJa || "").toString().trim();
-  const hitIndexes = [];
+  if (!nameKey) return "";
+
+  const nameParts = (nameJa || "").toString().trim().split(/\s+/).filter(p => p !== "");
+  const otherNames = extractOtherCandidateNamesFromOcr_(lines, nameKey);
+  let hitIndex = -1;
 
   for (let i = 0; i < lines.length; i++) {
     const lineKey = normalizeName_(lines[i]);
-    if (nameKey && lineKey.includes(nameKey)) hitIndexes.push(i);
-    else if (partyKey && lines[i].includes(partyKey)) hitIndexes.push(i);
+    const nextKey = i + 1 < lines.length ? normalizeName_(lines[i + 1]) : "";
+    if ((lineKey + nextKey).includes(nameKey)) {
+      hitIndex = i;
+      break;
+    }
+    if (lineKey.includes(nameKey)) {
+      hitIndex = i;
+      break;
+    }
+    if (nameParts.length >= 2) {
+      const partMatch = nameParts.some(part => lineKey.includes(part));
+      if (partMatch) {
+        hitIndex = i;
+        break;
+      }
+    }
   }
 
-  if (hitIndexes.length === 0) return "";
+  if (hitIndex < 0) return "";
 
-  const windowBefore = 5;
-  const windowAfter = 20;
+  const windowBefore = 3;
+  const windowAfter = 40;
   const picked = [];
-  let lastEnd = -1;
+  const start = Math.max(0, hitIndex - windowBefore);
 
-  for (const idx of hitIndexes) {
-    const start = Math.max(0, idx - windowBefore);
-    const end = Math.min(lines.length - 1, idx + windowAfter);
-    if (start <= lastEnd) continue;
-    for (let j = start; j <= end; j++) picked.push(lines[j]);
-    lastEnd = end;
+  for (let j = start; j < lines.length && j <= hitIndex + windowAfter; j++) {
+    const lineKey = normalizeName_(lines[j]);
+    const nextKey = j + 1 < lines.length ? normalizeName_(lines[j + 1]) : "";
+    if (lineKey && (lineKey + nextKey).includes(nameKey)) {
+      picked.push(lines[j]);
+      continue;
+    }
+    if (otherNames.size > 0) {
+      for (const other of otherNames) {
+        if (lineKey.includes(other)) {
+          return picked.join("\n");
+        }
+      }
+    }
+    picked.push(lines[j]);
   }
 
   return picked.join("\n");
+}
+
+function extractOtherCandidateNamesFromOcr_(lines, winnerNameKey) {
+  const nameSet = new Set();
+  const profileRe = /(.+?)(?:の)?プロフィール/;
+  const policyRe = /(.+?)(?:の)?政策/;
+
+  for (const line of lines) {
+    let m = line.match(profileRe);
+    if (m && m[1]) {
+      const name = normalizeName_(m[1]);
+      if (name && name !== winnerNameKey) nameSet.add(name);
+      continue;
+    }
+    m = line.match(policyRe);
+    if (m && m[1]) {
+      const name = normalizeName_(m[1]);
+      if (name && name !== winnerNameKey) nameSet.add(name);
+    }
+  }
+
+  return nameSet;
 }
 
 function callOpenAIResponses_(payload) {
@@ -981,6 +1039,29 @@ function writePoliciesToRow_(sheet, rowIndex, out) {
       }
     }
   }
+}
+
+function validatePoliciesWithEvidence_(out, sourceText) {
+  if (!out || !sourceText) return;
+  const src = sourceText.replace(/\s+/g, " ");
+
+  if (out.main && Array.isArray(out.main.policies)) {
+    out.main.policies = out.main.policies.filter(item => hasEvidence_(item, src));
+    if (out.main.policies.length === 0) out.main.confidence = "low";
+  }
+
+  if (out.prop && Array.isArray(out.prop.policies)) {
+    out.prop.policies = out.prop.policies.filter(item => hasEvidence_(item, src));
+    if (out.prop.policies.length === 0) out.prop.confidence = "low";
+  }
+}
+
+function hasEvidence_(item, sourceText) {
+  if (!item || typeof item !== "object") return false;
+  const evidence = (item.evidence || "").toString().trim();
+  if (!evidence) return false;
+  if (evidence.includes("…") || evidence.includes("...")) return false;
+  return sourceText.indexOf(evidence) >= 0;
 }
 
 function fetchHtml_(url) {
