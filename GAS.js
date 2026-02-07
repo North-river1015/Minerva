@@ -672,7 +672,7 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
   if (useVisionOcr) {
     console.log("Vision OCR start");
     try {
-      ocrText = extractPdfTextWithVisionOcr_(kohoPdfUrl, winnerNameJa);
+      ocrText = extractPdfTextWithVisionOcr_(kohoPdfUrl, winnerNameJa, winnerParty);
       ocrSource = "vision";
       if (!ocrText) console.log("Vision OCR returned empty text");
     } catch (e) {
@@ -699,7 +699,7 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
 
   const rawOcr = focusedOcrText || ocrText;
   const cleanedOcr = rawOcr ? removeCandidateListLines_(rawOcr) : "";
-  const candidatePolicyText = cleanedOcr ? buildPolicyCandidateText_(cleanedOcr) : "";
+  const candidatePolicyText = cleanedOcr ? buildPolicyCandidateText_(cleanedOcr, winnerNameJa, winnerParty) : "";
   if (candidatePolicyText) {
     console.log("OCR policy candidate lines: " + candidatePolicyText.split("\n").length);
   }
@@ -935,7 +935,7 @@ function extractPdfTextWithDriveOcr_(kohoPdfUrl) {
   }
 }
 
-function extractPdfTextWithVisionOcr_(kohoPdfUrl, winnerNameJa) {
+function extractPdfTextWithVisionOcr_(kohoPdfUrl, winnerNameJa, winnerParty) {
   const apiKey = getScriptProp_("VISION_API_KEY", "");
   if (!apiKey) throw new Error("ScriptProperties に VISION_API_KEY を設定してください。");
 
@@ -991,7 +991,7 @@ function extractPdfTextWithVisionOcr_(kohoPdfUrl, winnerNameJa) {
         }
         if (!focusedText && winnerKey && page.fullTextAnnotation && page.fullTextAnnotation.pages) {
           const blockTexts = extractVisionBlockTexts_(page.fullTextAnnotation.pages);
-          const focus = focusVisionBlocks_(blockTexts, winnerKey, 2, 8);
+          const focus = focusVisionBlocks_(blockTexts, winnerKey, winnerParty, 2, 8);
           if (focus) {
             focusedText = focus;
             if (debug) console.log("Vision OCR block focus: page=" + (pageIndex + 1));
@@ -1044,7 +1044,7 @@ function extractVisionBlockText_(block) {
   return parts.join(" ").trim();
 }
 
-function focusVisionBlocks_(blockTexts, winnerKey, beforeCount, afterCount) {
+function focusVisionBlocks_(blockTexts, winnerKey, winnerParty, beforeCount, afterCount) {
   if (!blockTexts || blockTexts.length === 0 || !winnerKey) return "";
   const hits = [];
   for (let i = 0; i < blockTexts.length; i++) {
@@ -1065,15 +1065,417 @@ function focusVisionBlocks_(blockTexts, winnerKey, beforeCount, afterCount) {
   }
 
   const anchor = blockTexts[anchorIndex];
-  const band = findCandidateBandForBlock_(blockTexts, anchor);
-  if (!band) return "";
+  const bandsFromFrames = collectCandidateBandsFromFrames_(blockTexts, 0.05);
+  const fallbackBands = [];
+  const winnerBand = findCandidateBandByWinnerFrame_(blockTexts, winnerKey);
+  if (winnerBand) fallbackBands.push(winnerBand);
+  const anchorBand = findCandidateBandForBlock_(blockTexts, anchor);
+  if (anchorBand) fallbackBands.push(anchorBand);
 
-  const focusedBlocks = blockTexts.filter(b => boxesOverlapY_(b.box, band) && !isElectionNoticeBlock_(b.text));
+  const candidateBands = bandsFromFrames.length > 0 ? bandsFromFrames : fallbackBands;
+  const scoredBand = pickBestBandByScore_(candidateBands, blockTexts, winnerKey, winnerParty);
+  if (!scoredBand) return "";
+
+  const otherNames = extractOtherCandidateNamesFromOcr_(blockTexts.map(b => b.text || ""), winnerKey);
+  const focusedBlocks = blockTexts.filter(b => boxesOverlapY_(b.box, scoredBand)
+    && !isElectionNoticeBlock_(b.text)
+    && !isOtherCandidateBlock_(b.text, winnerKey, winnerParty, otherNames));
   if (focusedBlocks.length === 0) return "";
 
-  const focused = focusedBlocks.map(b => b.text).join("\n");
+  if (winnerParty) {
+    const winnerPartyKey = normalizePartyText_(winnerParty);
+    let hasWinnerParty = false;
+    let hasOtherParty = false;
+    for (const block of focusedBlocks) {
+      const text = (block.text || "").toString();
+      if (!hasWinnerParty && winnerPartyKey && normalizePartyText_(text).indexOf(winnerPartyKey) >= 0) {
+        hasWinnerParty = true;
+      }
+      if (!hasOtherParty && findOtherPartyInText_(text, winnerParty)) {
+        hasOtherParty = true;
+      }
+    }
+    if (hasOtherParty && !hasWinnerParty) return "";
+  }
+
+  let pickedBlocks = focusedBlocks;
+  const nameBand = findNameBandFromBlocks_(blockTexts, winnerKey, 0.06);
+  if (nameBand) {
+    const narrowed = focusedBlocks.filter(b => boxesOverlapY_(b.box, nameBand));
+    if (narrowed.length > 0) {
+      const narrowedText = narrowed.map(b => b.text).join("\n");
+      const hasPolicyCue = narrowed.some(b => isPolicyCueText_(b.text));
+      if (narrowedText.replace(/\s+/g, "").length >= 200 || hasPolicyCue) {
+        pickedBlocks = narrowed;
+      }
+    }
+  }
+
+  const focused = pickedBlocks.map(b => b.text).join("\n");
   if (focused.replace(/\s+/g, "").length < 200) return "";
   return focused;
+}
+
+function collectCandidateBandsFromFrames_(blockTexts, toleranceRatio) {
+  if (!blockTexts || blockTexts.length === 0) return [];
+  const pageHeight = blockTexts[0].pageHeight || 0;
+  const pageWidth = blockTexts[0].pageWidth || 0;
+  if (!pageHeight || !pageWidth) return [];
+
+  const lineBlocks = blockTexts.filter(block => {
+    if (!block.box || block.pageHeight !== pageHeight) return false;
+    const widthRatio = (block.box.width || 0) / pageWidth;
+    const heightRatio = (block.box.height || 0) / pageHeight;
+    if (widthRatio < 0.7) return false;
+    if (heightRatio > 0.05) return false;
+    return true;
+  }).sort((a, b) => a.box.minY - b.box.minY);
+
+  if (lineBlocks.length < 2) return [];
+
+  const frames = [];
+  for (let i = 0; i < lineBlocks.length - 1; i++) {
+    const top = lineBlocks[i];
+    const bottom = lineBlocks[i + 1];
+    const height = bottom.box.maxY - top.box.minY;
+    const heightRatio = height / pageHeight;
+    if (heightRatio < 0.08 || heightRatio > 0.7) continue;
+    frames.push({
+      minY: top.box.minY,
+      maxY: bottom.box.maxY,
+      heightRatio: heightRatio,
+      pageHeight: pageHeight
+    });
+  }
+  if (frames.length === 0) return [];
+
+  let bestHeight = null;
+  let bestCount = 0;
+  for (const frame of frames) {
+    let count = 0;
+    for (const other of frames) {
+      if (Math.abs(other.heightRatio - frame.heightRatio) <= toleranceRatio) count++;
+    }
+    if (count > bestCount || (count === bestCount && (!bestHeight || frame.heightRatio < bestHeight))) {
+      bestCount = count;
+      bestHeight = frame.heightRatio;
+    }
+  }
+
+  return frames.filter(frame => Math.abs(frame.heightRatio - bestHeight) <= toleranceRatio);
+}
+
+function pickBestBandByScore_(bands, blockTexts, winnerKey, winnerParty) {
+  if (!bands || bands.length === 0) return null;
+  let best = null;
+  let bestScore = -Infinity;
+  for (const band of bands) {
+    const score = scoreCandidateBand_(band, blockTexts, winnerKey, winnerParty);
+    if (score > bestScore) {
+      bestScore = score;
+      best = band;
+    }
+  }
+  return best;
+}
+
+function scoreCandidateBand_(band, blockTexts, winnerKey, winnerParty) {
+  if (!band) return -Infinity;
+  const blocks = blockTexts.filter(b => b.box && boxesOverlapY_(b.box, band));
+  if (blocks.length === 0) return -Infinity;
+
+  const otherNames = extractOtherCandidateNamesFromOcr_(blockTexts.map(b => b.text || ""), winnerKey);
+
+  let score = 0;
+  let policyHits = 0;
+  let noiseHits = 0;
+  let winnerHit = false;
+  let otherNameHits = 0;
+  let partyHits = 0;
+  let otherPartyHits = 0;
+
+  for (const block of blocks) {
+    const text = (block.text || "").toString();
+    const key = normalizeName_(text);
+    if (key.includes(winnerKey)) winnerHit = true;
+    if (otherNames.size > 0) {
+      for (const other of otherNames) {
+        if (other && key.includes(other)) {
+          otherNameHits += 1;
+          break;
+        }
+      }
+    }
+    if (isPolicyCueText_(text)) policyHits += 1;
+    if (isCandidateListBlock_(text)) noiseHits += 1;
+    if (isElectionNoticeBlock_(text)) noiseHits += 2;
+    if (/プロフィール|経歴|略歴|実績/.test(text)) noiseHits += 1;
+
+    if (winnerParty) {
+      if (text.indexOf(winnerParty) >= 0) partyHits += 1;
+      const otherParty = findOtherPartyInText_(text, winnerParty);
+      if (otherParty) otherPartyHits += 1;
+    }
+  }
+
+  if (winnerHit) score += 120;
+  score += policyHits * 12;
+  score -= noiseHits * 10;
+  score -= otherNameHits * 18;
+  score += partyHits * 15;
+  score -= otherPartyHits * 20;
+
+  if (band.heightRatio && band.pageHeight) {
+    const heightScore = Math.max(0, 20 - Math.round(band.heightRatio * 100));
+    score += heightScore;
+  }
+
+  return score;
+}
+
+function findOtherPartyInText_(text, winnerParty) {
+  const s = (text || "").toString();
+  if (!s) return "";
+  const normalized = normalizePartyText_(s);
+  const parties = [
+    "自由民主党",
+    "自民党",
+    "公明党",
+    "立憲民主党",
+    "日本維新の会",
+    "日本維新会",
+    "日本共産党",
+    "国民民主党",
+    "れいわ新選組",
+    "社会民主党",
+    "参政党"
+  ];
+  const winnerKey = normalizePartyText_(winnerParty);
+  for (const party of parties) {
+    const partyKey = normalizePartyText_(party);
+    if (!partyKey) continue;
+    if (partyKey === winnerKey) continue;
+    if (normalized.indexOf(partyKey) >= 0) return party;
+  }
+  return "";
+}
+
+function normalizePartyText_(text) {
+  return (text || "").toString().replace(/[\s\u3000]+/g, "").replace(/[・·･]/g, "").trim();
+}
+
+function isOtherPartyCueLine_(line, winnerParty) {
+  const s = (line || "").toString();
+  if (!s) return false;
+  if (findOtherPartyInText_(s, winnerParty)) return true;
+  if (/(共産主義|赤旗)/.test(s)) return true;
+  if (/SANSEITO/i.test(s)) return true;
+  return false;
+}
+
+function isOtherCandidateBlock_(text, winnerKey, winnerParty, otherNames) {
+  const s = (text || "").toString();
+  if (!s) return false;
+  const key = normalizeName_(s);
+  if (winnerKey && key.includes(winnerKey)) return false;
+  if (winnerParty) {
+    const normalized = normalizePartyText_(s);
+    const winnerPartyKey = normalizePartyText_(winnerParty);
+    if (winnerPartyKey && normalized.indexOf(winnerPartyKey) >= 0) return false;
+  }
+
+  if (otherNames && otherNames.size > 0) {
+    for (const other of otherNames) {
+      if (other && key.includes(other)) return true;
+    }
+  }
+
+  if (winnerParty) {
+    const otherParty = findOtherPartyInText_(s, winnerParty);
+    if (otherParty) {
+      if (/(公認|比例|公約|党\s*公約|党\s*比例|党\s*へ|SANSEITO)/.test(s)) return true;
+      if (isCandidateListBlock_(s)) return true;
+    }
+  }
+
+  return false;
+}
+
+function isAcademicProfileLine_(line) {
+  const s = (line || "").toString().trim();
+  if (!s) return false;
+  const hasSchool = /(大学院|大学|学部|高校|中学校|小学校)/.test(s);
+  const hasBio = /(卒業|修了|教授|准教授|講師|研究)/.test(s);
+  return hasSchool && hasBio;
+}
+
+function expandStarBulletLines_(lines) {
+  const out = [];
+  for (const line of lines) {
+    if (line.indexOf("★") === -1) {
+      out.push(line);
+      continue;
+    }
+    const parts = line.split("★");
+    const prefix = (parts[0] || "").trim();
+    if (prefix.length >= 20) out.push(prefix);
+    for (let i = 1; i < parts.length; i++) {
+      const body = (parts[i] || "").trim();
+      if (!body) continue;
+      out.push("★ " + body);
+    }
+  }
+  return out;
+}
+
+function findNameBandFromBlocks_(blockTexts, winnerKey, padRatio) {
+  let minY = Infinity;
+  let maxY = -Infinity;
+  let pageHeight = 0;
+  for (const block of blockTexts) {
+    const key = normalizeName_(block.text);
+    if (!key.includes(winnerKey)) continue;
+    if (!block.box) continue;
+    minY = Math.min(minY, block.box.minY);
+    maxY = Math.max(maxY, block.box.maxY);
+    if (block.pageHeight) pageHeight = block.pageHeight;
+  }
+  if (!isFinite(minY) || !isFinite(maxY)) return null;
+  const ratio = typeof padRatio === "number" ? padRatio : 0.2;
+  const pad = pageHeight > 0 ? pageHeight * ratio : 200;
+  return {
+    minY: Math.max(0, minY - pad),
+    maxY: maxY + pad
+  };
+}
+
+function findCandidateBandByWinnerFrame_(blockTexts, winnerKey) {
+  const winnerBlocks = blockTexts.filter(block => {
+    if (!block.box) return false;
+    const key = normalizeName_(block.text);
+    return key.includes(winnerKey);
+  });
+  if (winnerBlocks.length === 0) return null;
+
+  let winnerCenter = 0;
+  for (const block of winnerBlocks) {
+    winnerCenter += (block.box.minY + block.box.maxY) / 2;
+  }
+  winnerCenter = winnerCenter / winnerBlocks.length;
+
+  let best = null;
+  let fallback = null;
+  for (const block of blockTexts) {
+    if (!block.box || !block.pageHeight) continue;
+    const pageWidth = block.pageWidth || 0;
+    const pageHeight = block.pageHeight || 0;
+    const width = block.box.width || 0;
+    const height = block.box.height || 0;
+    const widthRatio = pageWidth > 0 ? width / pageWidth : 0;
+    const heightRatio = pageHeight > 0 ? height / pageHeight : 0;
+    if (widthRatio < 0.7) continue;
+    if (heightRatio < 0.08 || heightRatio > 0.6) continue;
+    const band = { minY: block.box.minY, maxY: block.box.maxY, heightRatio: heightRatio, pageHeight: pageHeight };
+    const hasWinner = winnerBlocks.some(w => boxesOverlapY_(w.box, band));
+    const bandBlocks = blockTexts.filter(b => b.box && boxesOverlapY_(b.box, band));
+    const hasPolicy = bandBlocks.some(b => isPolicyCueText_(b.text) && !isCandidateListBlock_(b.text) && !isElectionNoticeBlock_(b.text));
+    if (hasWinner && hasPolicy) {
+      if (!best || heightRatio < best.heightRatio) best = band;
+      continue;
+    }
+    if (!hasPolicy) continue;
+    const distance = band.minY >= winnerCenter
+      ? band.minY - winnerCenter
+      : (winnerCenter - band.maxY) + pageHeight;
+    if (!fallback || distance < fallback.distance) fallback = { band: band, distance: distance };
+  }
+  if (!best && fallback) best = fallback.band;
+  if (!best) return null;
+  const pageHeight = best.pageHeight || 0;
+  const pad = pageHeight > 0 ? pageHeight * 0.04 : 40;
+  return { minY: Math.max(0, best.minY - pad), maxY: best.maxY + pad };
+}
+
+function findCandidateBandByFrameLines_(blockTexts, winnerKey, toleranceRatio) {
+  const winnerBlocks = blockTexts.filter(block => {
+    if (!block.box) return false;
+    const key = normalizeName_(block.text);
+    return key.includes(winnerKey);
+  });
+  if (winnerBlocks.length === 0) return null;
+
+  const pageHeight = winnerBlocks[0].pageHeight || 0;
+  const pageWidth = winnerBlocks[0].pageWidth || 0;
+  if (!pageHeight || !pageWidth) return null;
+
+  const lineBlocks = blockTexts.filter(block => {
+    if (!block.box || block.pageHeight !== pageHeight) return false;
+    const widthRatio = (block.box.width || 0) / pageWidth;
+    const heightRatio = (block.box.height || 0) / pageHeight;
+    if (widthRatio < 0.7) return false;
+    if (heightRatio > 0.05) return false;
+    return true;
+  }).sort((a, b) => a.box.minY - b.box.minY);
+
+  if (lineBlocks.length < 2) return null;
+
+  const frames = [];
+  for (let i = 0; i < lineBlocks.length - 1; i++) {
+    const top = lineBlocks[i];
+    const bottom = lineBlocks[i + 1];
+    const height = bottom.box.maxY - top.box.minY;
+    const heightRatio = height / pageHeight;
+    if (heightRatio < 0.08 || heightRatio > 0.7) continue;
+    frames.push({
+      minY: top.box.minY,
+      maxY: bottom.box.maxY,
+      heightRatio: heightRatio
+    });
+  }
+  if (frames.length === 0) return null;
+
+  let bestHeight = null;
+  let bestCount = 0;
+  for (const frame of frames) {
+    let count = 0;
+    for (const other of frames) {
+      if (Math.abs(other.heightRatio - frame.heightRatio) <= toleranceRatio) count++;
+    }
+    if (count > bestCount || (count === bestCount && (!bestHeight || frame.heightRatio < bestHeight))) {
+      bestCount = count;
+      bestHeight = frame.heightRatio;
+    }
+  }
+
+  const accepted = frames.filter(frame => Math.abs(frame.heightRatio - bestHeight) <= toleranceRatio);
+  if (accepted.length === 0) return null;
+
+  const winnerCenter = winnerBlocks.reduce((sum, block) => sum + (block.box.minY + block.box.maxY) / 2, 0) / winnerBlocks.length;
+  let best = null;
+  for (const frame of accepted) {
+    const hasWinner = winnerBlocks.some(block => boxesOverlapY_(block.box, frame));
+    if (hasWinner) {
+      if (!best || frame.heightRatio < best.heightRatio) best = frame;
+    }
+  }
+  if (!best) {
+    let closest = null;
+    let bestDistance = Infinity;
+    for (const frame of accepted) {
+      const distance = frame.minY <= winnerCenter && frame.maxY >= winnerCenter
+        ? 0
+        : Math.min(Math.abs(frame.minY - winnerCenter), Math.abs(frame.maxY - winnerCenter));
+      if (distance < bestDistance) {
+        bestDistance = distance;
+        closest = frame;
+      }
+    }
+    best = closest;
+  }
+  if (!best) return null;
+
+  const pad = pageHeight * 0.02;
+  return { minY: Math.max(0, best.minY - pad), maxY: best.maxY + pad };
 }
 
 function normalizeVisionBlockBox_(boundingBox) {
@@ -1176,11 +1578,21 @@ function buildCandidateFocusedText_(ocrText, nameJa, partyJa) {
 
   if (hitIndex < 0) return "";
 
-  const windowBefore = 0;
-  const windowAfter = otherNames.size > 0 ? 900 : 1200;
+  let windowBefore = 60;
+  let windowAfter = otherNames.size > 0 ? 900 : 1200;
   const picked = [];
-  const start = Math.max(0, hitIndex - windowBefore);
+  let start = Math.max(0, hitIndex - windowBefore);
   let sawPolicySection = false;
+
+  const starScanLimit = Math.min(lines.length, hitIndex + 120);
+  for (let k = hitIndex; k < starScanLimit; k++) {
+    if (/^\s*★/.test(lines[k])) {
+      start = k;
+      windowBefore = 0;
+      windowAfter = Math.min(windowAfter, 300);
+      break;
+    }
+  }
 
   for (let j = start; j < lines.length && j <= hitIndex + windowAfter; j++) {
     const lineKey = normalizeName_(lines[j]);
@@ -1195,6 +1607,11 @@ function buildCandidateFocusedText_(ocrText, nameJa, partyJa) {
     if (sawPolicySection && /プロフィール/.test(lines[j])) {
       return picked.join("\n");
     }
+    if (partyJa && isOtherPartyCueLine_(lines[j], partyJa)) {
+      if (sawPolicySection) return picked.join("\n");
+      continue;
+    }
+
     if (!sawPolicySection && otherNames.size > 0) {
       for (const other of otherNames) {
         if (lineKey.includes(other)) {
@@ -1208,9 +1625,13 @@ function buildCandidateFocusedText_(ocrText, nameJa, partyJa) {
   return picked.join("\n");
 }
 
-function buildPolicyCandidateText_(ocrText) {
-  const lines = (ocrText || "").split(/\r?\n/).map(l => l.trim()).filter(l => l !== "");
+function buildPolicyCandidateText_(ocrText, winnerNameJa, winnerParty) {
+  const rawLines = (ocrText || "").split(/\r?\n/).map(l => l.trim()).filter(l => l !== "");
+  const lines = expandStarBulletLines_(rawLines);
   if (lines.length === 0) return "";
+
+  const winnerKey = normalizeName_(winnerNameJa);
+  const otherNames = winnerKey ? extractOtherCandidateNamesFromOcr_(lines, winnerKey) : new Set();
 
   const capCount = inferPolicyCountCap_(lines);
   const sections = [];
@@ -1219,6 +1640,9 @@ function buildPolicyCandidateText_(ocrText) {
   let prevWasBullet = false;
   let skipSection = false;
   let currentLimit = 0;
+  let sawPolicyItem = false;
+  let inStarSection = false;
+  let nonBulletAfterStar = 0;
 
   const flush = () => {
     if (currentItems.length === 0) return;
@@ -1244,6 +1668,22 @@ function buildPolicyCandidateText_(ocrText) {
       }
     }
     const policyHeading = currentHeading && /(政策|重点政策|大政策|つの政策|つの挑戦|ビジョン)/.test(currentHeading);
+
+    if (isAcademicProfileLine_(workLine)) {
+      continue;
+    }
+
+    if (winnerKey && isOtherPartyCueLine_(workLine, winnerParty)) {
+      if (sawPolicyItem || inStarSection) {
+        flush();
+        break;
+      }
+      continue;
+    }
+
+    if (winnerKey && isOtherCandidateBlock_(workLine, winnerKey, winnerParty, otherNames)) {
+      continue;
+    }
 
     if (isCandidateListLine_(workLine)) {
       continue;
@@ -1289,6 +1729,17 @@ function buildPolicyCandidateText_(ocrText) {
     if (skipSection) continue;
 
     const isBullet = treatCircledAsBullet || treatNumberedAsBullet || isBulletLine_(workLine);
+    if (inStarSection) {
+      if (!isBullet) {
+        nonBulletAfterStar += 1;
+        if (nonBulletAfterStar >= 2) {
+          flush();
+          break;
+        }
+      } else {
+        nonBulletAfterStar = 0;
+      }
+    }
     if (!isBullet && prevWasBullet && currentItems.length > 0 && !isHeadingLine_(workLine)) {
       currentItems[currentItems.length - 1] = (currentItems[currentItems.length - 1] + " " + workLine).trim();
       continue;
@@ -1302,10 +1753,16 @@ function buildPolicyCandidateText_(ocrText) {
     if (next && next.length <= 20 && !isLikelyPolicyLine_(next) && !isHeadingLine_(next)) {
       merged = line + " " + next;
     }
-    merged = merged.replace(/^\s*[●・•\-*\d\.\)\(①-⑳]+\s*/, "").trim();
+    merged = merged.replace(/^\s*[★●・•\-*\d\.\)\(①-⑳]+\s*/, "").trim();
+    if (winnerKey && (sawPolicyItem || inStarSection) && isOtherPartyCueLine_(merged, winnerParty)) {
+      flush();
+      break;
+    }
     if (/(実現|成功|達成)/.test(merged)) continue;
     if (merged.length < 8) continue;
     currentItems.push(merged);
+    sawPolicyItem = true;
+    if (/^★/.test(workLine)) inStarSection = true;
     prevWasBullet = isBullet;
     if (currentLimit > 0 && currentItems.length >= currentLimit) {
       flush();
@@ -1389,7 +1846,7 @@ function isLikelyPolicyLine_(line) {
   if (/プロフィール|経歴|略歴|実績|就任|当選|生まれ|卒業|年齢|歳|趣味|スローガン|しんぶん|赤旗/.test(s)) return false;
   if (/実現!|成功|達成/.test(s)) return false;
 
-  const hasBullet = /^\s*[●・\-*\d\.\)\(]+/.test(s);
+  const hasBullet = /^\s*[★●・\-*\d\.\)\(]+/.test(s);
   const hasFuture = hasFutureVerb_(s);
   return hasBullet || hasFuture;
 }
@@ -1401,7 +1858,7 @@ function hasFutureVerb_(line) {
 
 function isBulletLine_(line) {
   const s = (line || "").toString().trim();
-  return /^\s*(●|・|•|-|\d+[\.\)])\s*/.test(s);
+  return /^\s*(★|●|・|•|-|\d+[\.\)])\s*/.test(s);
 }
 
 function isHeadingLine_(line) {
@@ -1677,9 +2134,8 @@ function hasEvidence_(item, sourceText) {
   const evidence = (item.evidence || "").toString().trim();
   if (!evidence) return false;
   if (evidence.includes("…") || evidence.includes("...")) return false;
-  if (evidence.length < 12) return false;
+  if (evidence.length < 8) return false;
   if (isHeadingLine_(evidence)) return false;
-  if (!/(ます|する)/.test(evidence)) return false;
   return sourceText.indexOf(evidence) >= 0;
 }
 
