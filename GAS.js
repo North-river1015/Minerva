@@ -216,6 +216,52 @@ function createGitHubPullRequestWithLink(path, content, title, pref_en, pref_ja,
 }
 
 /**
+ * GitHub上の既存選挙区ファイル一覧を取得
+ * @return {Set<string>} "pref_raw/district" 形式のセット
+ */
+function getExistingDistrictFiles_() {
+  const props = PropertiesService.getScriptProperties();
+  const token = props.getProperty('GITHUB_TOKEN');
+  const user  = props.getProperty('GITHUB_USER');
+  const repo  = props.getProperty('GITHUB_REPO');
+
+  const baseUrl = `https://api.github.com/repos/${user}/${repo}`;
+  const headers = {
+    "Authorization": "token " + token,
+    "Accept": "application/vnd.github.v3+json"
+  };
+
+  try {
+    // mainブランチのツリーを再帰的に取得
+    const resMain = UrlFetchApp.fetch(`${baseUrl}/git/ref/heads/main`, {headers: headers});
+    const mainSha = JSON.parse(resMain.getContentText()).object.sha;
+
+    const resTree = UrlFetchApp.fetch(`${baseUrl}/git/trees/${mainSha}?recursive=1`, {headers: headers});
+    const tree = JSON.parse(resTree.getContentText()).tree;
+
+    const existingSet = new Set();
+    // content/prefectures/{pref}/{pref}-district/{district}.md のパターンを抽出
+    const pattern = /^content\/prefectures\/([^\/]+)\/\1-district\/([^\/]+)\.md$/;
+
+    for (const item of tree) {
+      if (item.type === "blob") {
+        const match = item.path.match(pattern);
+        if (match) {
+          const pref = match[1];
+          const district = match[2];
+          existingSet.add(`${pref}/${district}`);
+        }
+      }
+    }
+
+    return existingSet;
+  } catch (e) {
+    console.log(`既存ファイル一覧の取得失敗: ${e.message}`);
+    return new Set();
+  }
+}
+
+/**
  * GitHub上に選挙区ファイルが既に存在するかチェック
  */
 function checkDistrictFileExists_(pref_raw, district) {
