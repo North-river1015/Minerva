@@ -947,6 +947,7 @@ function buildPolicyCandidateText_(ocrText) {
   const blocks = [];
   let currentHeading = "";
   let currentItems = [];
+  let prevWasBullet = false;
 
   const flush = () => {
     if (currentItems.length === 0) return;
@@ -961,20 +962,24 @@ function buildPolicyCandidateText_(ocrText) {
     if (isHeadingLine_(line)) {
       flush();
       currentHeading = line.replace(/\s+/g, " ").trim();
+      prevWasBullet = false;
       continue;
     }
 
     if (!isLikelyPolicyLine_(line)) continue;
-    if (!isBulletLine_(line)) continue;
+    const isBullet = isBulletLine_(line);
+    const hasFuture = hasFutureVerb_(line);
+    if (!isBullet && !(prevWasBullet && hasFuture)) continue;
 
     let merged = line;
     const next = i + 1 < lines.length ? lines[i + 1] : "";
     if (next && next.length <= 20 && !isLikelyPolicyLine_(next) && !isHeadingLine_(next)) {
       merged = line + " " + next;
     }
-    merged = merged.replace(/^\s*[●・\-*\d\.\)\(]+\s*/, "").trim();
+    merged = merged.replace(/^\s*[●・•\-*\d\.\)\(]+\s*/, "").trim();
     if (merged.length < 8) continue;
     currentItems.push(merged);
+    prevWasBullet = isBullet;
   }
 
   flush();
@@ -999,13 +1004,18 @@ function isLikelyPolicyLine_(line) {
   if (/実現!|成功|達成/.test(s)) return false;
 
   const hasBullet = /^\s*[●・\-*\d\.\)\(]+/.test(s);
-  const hasFuture = /目指|進め|推進|拡充|整備|支援|実施|充実|確立|改善|強化|促進|導入/.test(s);
+  const hasFuture = hasFutureVerb_(s);
   return hasBullet || hasFuture;
+}
+
+function hasFutureVerb_(line) {
+  const s = (line || "").toString().trim();
+  return /目指|進め|推進|拡充|整備|支援|実施|充実|確立|改善|強化|促進|導入/.test(s);
 }
 
 function isBulletLine_(line) {
   const s = (line || "").toString().trim();
-  return /^\s*(●|・|•|-|\d+[\.\)]?)\s*/.test(s);
+  return /^\s*(●|・|•|-|\d+[\.\)])\s*/.test(s);
 }
 
 function isHeadingLine_(line) {
@@ -1013,8 +1023,9 @@ function isHeadingLine_(line) {
   if (!s) return false;
   if (/^\d+\s*つの策/.test(s)) return true;
   if (/のために$/.test(s)) return true;
+  if (/へ$/.test(s) && s.length <= 20) return true;
   if (/^\d+\s*$/.test(s)) return true;
-  if (/^\d+\s+/.test(s) && !/[。．\.]/.test(s) && !/(ます|する|目指|推進|拡充|整備|支援|実施|充実|確立|改善|強化|促進|導入)/.test(s)) return true;
+  if (/^\d+\s+/.test(s) && !/[。．\.]/.test(s)) return true;
   if (!/[。．\.]/.test(s) && !/(ます|する|目指|推進|拡充|整備|支援|実施|充実|確立|改善|強化|促進|導入)/.test(s) && s.length <= 22) return true;
   return false;
 }
