@@ -720,6 +720,8 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
 
   const jsonText = extractOutputText_(resp);
   if (!jsonText) throw new Error("OpenAIの出力が空です。");
+  console.log("OpenAI raw output JSON:");
+  console.log(jsonText);
   const out = JSON.parse(jsonText);
 
   // 行へ書き込み
