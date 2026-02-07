@@ -897,8 +897,8 @@ function buildCandidateFocusedText_(ocrText, nameJa, partyJa) {
 
   if (hitIndex < 0) return "";
 
-  const windowBefore = 3;
-  const windowAfter = 40;
+  const windowBefore = 0;
+  const windowAfter = 50;
   const picked = [];
   const start = Math.max(0, hitIndex - windowBefore);
 
