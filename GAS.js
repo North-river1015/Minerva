@@ -699,9 +699,10 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
                 additionalProperties: false,
                 properties: {
                   policy: { type: "string" },
-                  evidence: { type: "string" }
+                  evidence: { type: "string" },
+                  type: { type: "string", enum: ["policy", "achievement"] }
                 },
-                required: ["policy", "evidence"]
+                required: ["policy", "evidence", "type"]
               },
               maxItems: 8
             },
@@ -726,9 +727,10 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
                     additionalProperties: false,
                     properties: {
                       policy: { type: "string" },
-                      evidence: { type: "string" }
+                      evidence: { type: "string" },
+                      type: { type: "string", enum: ["policy", "achievement"] }
                     },
-                    required: ["policy", "evidence"]
+                    required: ["policy", "evidence", "type"]
                   },
                   maxItems: 5
                 },
@@ -747,10 +749,13 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
 `あなたは日本の選挙公報（PDF）から、候補者の「公約/重点政策/やること」を抽出し、Google Form入力用に短い箇条書きへ整形します。
 
 ルール:
-- PDFに明記された政策のみ抽出。推測・一般論は禁止。該当がなければ policies は空配列にし、confidence は low。
+- PDFに明記された内容のみ抽出。推測・一般論は禁止。
+- policy は「これから実行すること/実現すること/進めること」。achievement は「実績/達成済み/経歴/プロフィール/活動」。
+- 各項目に type を必ず付ける（policy または achievement）。
 - 1項目は短く（30〜60文字程度）。重複はまとめる。
 - evidence はPDF内の原文から短く「完全一致」で引用（20〜40文字程度）。
-- evidence を原文から抜き出せない場合、その policy は出力しない。
+- evidence を原文から抜き出せない場合、その項目は出力しない。
+- policy が無ければ policies は空配列にし、confidence は low。
 - main は小選挙区の当選者（ヒント: ${winnerNameJa || "不明"} / ${winnerParty || "不明"}）。
 - prop は比例復活がいる場合のみ（ヒント: ${revivalNameJa || "なし"} / ${revivalParty || "なし"}）。いなければ null。
 - name_en は URL スラッグ形式: 例 "takebe-arata"（小文字・ハイフン区切り、英字のみ）。
@@ -1046,14 +1051,20 @@ function validatePoliciesWithEvidence_(out, sourceText) {
   const src = sourceText.replace(/\s+/g, " ");
 
   if (out.main && Array.isArray(out.main.policies)) {
-    out.main.policies = out.main.policies.filter(item => hasEvidence_(item, src));
+    out.main.policies = out.main.policies.filter(item => isPolicyItem_(item) && hasEvidence_(item, src));
     if (out.main.policies.length === 0) out.main.confidence = "low";
   }
 
   if (out.prop && Array.isArray(out.prop.policies)) {
-    out.prop.policies = out.prop.policies.filter(item => hasEvidence_(item, src));
+    out.prop.policies = out.prop.policies.filter(item => isPolicyItem_(item) && hasEvidence_(item, src));
     if (out.prop.policies.length === 0) out.prop.confidence = "low";
   }
+}
+
+function isPolicyItem_(item) {
+  if (!item || typeof item !== "object") return false;
+  const t = (item.type || "").toString().trim().toLowerCase();
+  return t === "policy";
 }
 
 function hasEvidence_(item, sourceText) {
