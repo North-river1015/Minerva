@@ -1056,7 +1056,7 @@ function buildPolicyCandidateText_(ocrText) {
     if (next && next.length <= 20 && !isLikelyPolicyLine_(next) && !isHeadingLine_(next)) {
       merged = line + " " + next;
     }
-    merged = merged.replace(/^\s*[●・•\-*\d\.\)\(]+\s*/, "").trim();
+    merged = merged.replace(/^\s*[●・•\-*\d\.\)\(①-⑳]+\s*/, "").trim();
     if (merged.length < 8) continue;
     currentItems.push(merged);
     prevWasBullet = isBullet;
@@ -1107,12 +1107,13 @@ function hasFutureVerb_(line) {
 
 function isBulletLine_(line) {
   const s = (line || "").toString().trim();
-  return /^\s*(●|・|•|-|\d+[\.\)])\s*/.test(s);
+  return /^\s*(●|・|•|-|\d+[\.\)]|[①-⑳])\s*/.test(s);
 }
 
 function isHeadingLine_(line) {
   const s = (line || "").toString().trim();
   if (!s) return false;
+  if (/^[①-⑳]/.test(s)) return true;
   if (/^\d+\s*つの策/.test(s)) return true;
   if (/のために$/.test(s)) return true;
   if (/へ$/.test(s) && s.length <= 20) return true;
