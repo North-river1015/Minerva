@@ -672,7 +672,7 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
   if (useVisionOcr) {
     console.log("Vision OCR start");
     try {
-      ocrText = extractPdfTextWithVisionOcr_(kohoPdfUrl);
+      ocrText = extractPdfTextWithVisionOcr_(kohoPdfUrl, winnerNameJa);
       ocrSource = "vision";
       if (!ocrText) console.log("Vision OCR returned empty text");
     } catch (e) {
@@ -698,7 +698,8 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
   }
 
   const rawOcr = focusedOcrText || ocrText;
-  const candidatePolicyText = rawOcr ? buildPolicyCandidateText_(rawOcr) : "";
+  const cleanedOcr = rawOcr ? removeCandidateListLines_(rawOcr) : "";
+  const candidatePolicyText = cleanedOcr ? buildPolicyCandidateText_(cleanedOcr) : "";
   if (candidatePolicyText) {
     console.log("OCR policy candidate lines: " + candidatePolicyText.split("\n").length);
   }
@@ -934,7 +935,7 @@ function extractPdfTextWithDriveOcr_(kohoPdfUrl) {
   }
 }
 
-function extractPdfTextWithVisionOcr_(kohoPdfUrl) {
+function extractPdfTextWithVisionOcr_(kohoPdfUrl, winnerNameJa) {
   const apiKey = getScriptProp_("VISION_API_KEY", "");
   if (!apiKey) throw new Error("ScriptProperties に VISION_API_KEY を設定してください。");
 
@@ -972,18 +973,29 @@ function extractPdfTextWithVisionOcr_(kohoPdfUrl) {
   if (!json.responses || !Array.isArray(json.responses)) return "";
   if (debug) console.log("Vision OCR responses: " + json.responses.length);
   const texts = [];
+  let focusedText = "";
+  const winnerKey = normalizeName_(winnerNameJa);
   for (const r of json.responses) {
     if (debug && r.error && r.error.message) {
       console.log("Vision OCR response error: " + r.error.message);
     }
     if (Array.isArray(r.responses)) {
       if (debug) console.log("Vision OCR page responses: " + r.responses.length);
-      for (const page of r.responses) {
+      for (let pageIndex = 0; pageIndex < r.responses.length; pageIndex++) {
+        const page = r.responses[pageIndex];
         if (debug && page.error && page.error.message) {
           console.log("Vision OCR page error: " + page.error.message);
         }
         if (page.fullTextAnnotation && page.fullTextAnnotation.text) {
           texts.push(page.fullTextAnnotation.text);
+        }
+        if (!focusedText && winnerKey && page.fullTextAnnotation && page.fullTextAnnotation.pages) {
+          const blockTexts = extractVisionBlockTexts_(page.fullTextAnnotation.pages);
+          const focus = focusVisionBlocks_(blockTexts, winnerKey, 2, 8);
+          if (focus) {
+            focusedText = focus;
+            if (debug) console.log("Vision OCR block focus: page=" + (pageIndex + 1));
+          }
         }
       }
       continue;
@@ -993,7 +1005,142 @@ function extractPdfTextWithVisionOcr_(kohoPdfUrl) {
     }
   }
   if (debug && texts.length === 0) console.log("Vision OCR responses had no fullTextAnnotation");
+  if (focusedText) return focusedText;
   return texts.join("\n");
+}
+
+function extractVisionBlockTexts_(pages) {
+  const blocks = [];
+  for (const page of pages) {
+    const pageBlocks = page.blocks || [];
+    const pageWidth = page.width || 0;
+    const pageHeight = page.height || 0;
+    for (const block of pageBlocks) {
+      const text = extractVisionBlockText_(block);
+      if (!text) continue;
+      const info = {
+        text: text,
+        box: normalizeVisionBlockBox_(block.boundingBox),
+        pageWidth: pageWidth,
+        pageHeight: pageHeight
+      };
+      blocks.push(info);
+    }
+  }
+  return blocks;
+}
+
+function extractVisionBlockText_(block) {
+  const parts = [];
+  const paragraphs = block.paragraphs || [];
+  for (const paragraph of paragraphs) {
+    const words = paragraph.words || [];
+    for (const word of words) {
+      const symbols = word.symbols || [];
+      const wordText = symbols.map(s => s.text || "").join("");
+      if (wordText) parts.push(wordText);
+    }
+  }
+  return parts.join(" ").trim();
+}
+
+function focusVisionBlocks_(blockTexts, winnerKey, beforeCount, afterCount) {
+  if (!blockTexts || blockTexts.length === 0 || !winnerKey) return "";
+  const hits = [];
+  for (let i = 0; i < blockTexts.length; i++) {
+    const key = normalizeName_(blockTexts[i].text);
+    if (key.includes(winnerKey)) {
+      hits.push(i);
+    }
+  }
+  if (hits.length === 0) return "";
+
+  let anchorIndex = hits[0];
+  for (const idx of hits) {
+    const text = blockTexts[idx].text;
+    if (isPolicyCueText_(text) && !isCandidateListBlock_(text)) {
+      anchorIndex = idx;
+      break;
+    }
+  }
+
+  const anchor = blockTexts[anchorIndex];
+  const band = findCandidateBandForBlock_(blockTexts, anchor);
+  if (!band) return "";
+
+  const focusedBlocks = blockTexts.filter(b => boxesOverlapY_(b.box, band));
+  if (focusedBlocks.length === 0) return "";
+
+  const focused = focusedBlocks.map(b => b.text).join("\n");
+  if (focused.replace(/\s+/g, "").length < 200) return "";
+  return focused;
+}
+
+function normalizeVisionBlockBox_(boundingBox) {
+  const vertices = (boundingBox && boundingBox.vertices) ? boundingBox.vertices : [];
+  let minX = Infinity;
+  let minY = Infinity;
+  let maxX = -Infinity;
+  let maxY = -Infinity;
+  for (const v of vertices) {
+    const x = typeof v.x === "number" ? v.x : 0;
+    const y = typeof v.y === "number" ? v.y : 0;
+    if (x < minX) minX = x;
+    if (y < minY) minY = y;
+    if (x > maxX) maxX = x;
+    if (y > maxY) maxY = y;
+  }
+  if (!isFinite(minX) || !isFinite(minY) || !isFinite(maxX) || !isFinite(maxY)) {
+    return { minX: 0, minY: 0, maxX: 0, maxY: 0, width: 0, height: 0 };
+  }
+  return { minX: minX, minY: minY, maxX: maxX, maxY: maxY, width: maxX - minX, height: maxY - minY };
+}
+
+function findCandidateBandForBlock_(blocks, anchor) {
+  if (!anchor || !anchor.box || !anchor.pageHeight) return null;
+  const pageHeight = anchor.pageHeight;
+  const pageWidth = anchor.pageWidth || 0;
+  const anchorCenter = (anchor.box.minY + anchor.box.maxY) / 2;
+  let best = null;
+  for (const block of blocks) {
+    if (!block.box || !block.pageHeight) continue;
+    const width = block.box.width || 0;
+    const height = block.box.height || 0;
+    const widthRatio = pageWidth > 0 ? width / pageWidth : 0;
+    const heightRatio = pageHeight > 0 ? height / pageHeight : 0;
+    if (widthRatio < 0.7) continue;
+    if (heightRatio < 0.08 || heightRatio > 0.45) continue;
+    if (anchorCenter < block.box.minY || anchorCenter > block.box.maxY) continue;
+    if (!best || heightRatio > best.heightRatio) {
+      best = { minY: block.box.minY, maxY: block.box.maxY, heightRatio: heightRatio };
+    }
+  }
+  if (!best) {
+    const pad = pageHeight * 0.12;
+    return { minY: Math.max(0, anchor.box.minY - pad), maxY: anchor.box.maxY + pad };
+  }
+  const pad = pageHeight * 0.04;
+  return { minY: Math.max(0, best.minY - pad), maxY: best.maxY + pad };
+}
+
+function boxesOverlapY_(box, band) {
+  if (!box || !band) return false;
+  return box.maxY >= band.minY && box.minY <= band.maxY;
+}
+
+function isPolicyCueText_(text) {
+  const s = (text || "").toString();
+  return /政策|重点政策|大政策|つの挑戦|ビジョン|公約|\d+つの策|挑戦|計画|推進|目指|実現|\u2460|\u2461|\u2462|\u2463|\u2464/.test(s);
+}
+
+function isCandidateListBlock_(text) {
+  const s = (text || "").toString();
+  if (isPolicyCueText_(s)) return false;
+  const tokens = s.split(/\s+/).filter(t => t !== "");
+  if (tokens.length < 6) return false;
+  const shortCount = tokens.filter(t => t.length <= 3).length;
+  if (shortCount >= 6 && !/[。．\.！？!]/.test(s)) return true;
+  return false;
 }
 
 function buildCandidateFocusedText_(ocrText, nameJa, partyJa) {
@@ -1071,6 +1218,7 @@ function buildPolicyCandidateText_(ocrText) {
   let currentItems = [];
   let prevWasBullet = false;
   let skipSection = false;
+  let currentLimit = 0;
 
   const flush = () => {
     if (currentItems.length === 0) return;
@@ -1079,27 +1227,73 @@ function buildPolicyCandidateText_(ocrText) {
     currentItems = [];
   };
 
+  const hasAnyHeading = lines.some(line => isHeadingLine_(line));
+  const forceSingleSection = !hasAnyHeading;
+
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
-    if (isHeadingLine_(line)) {
+    let workLine = line;
+    const inlineHeading = findPolicyHeadingCountInLine_(workLine);
+    if (inlineHeading.count) {
+      if (!currentHeading) currentHeading = inlineHeading.heading;
+      currentLimit = inlineHeading.count;
+      if (inlineHeading.cleanedLine) {
+        workLine = inlineHeading.cleanedLine;
+      } else {
+        continue;
+      }
+    }
+    const policyHeading = currentHeading && /(政策|重点政策|大政策|つの政策|つの挑戦|ビジョン)/.test(currentHeading);
+
+    if (isCandidateListLine_(workLine)) {
+      continue;
+    }
+
+    if (prevWasBullet && currentItems.length > 0 && !isBulletLine_(workLine) && isLikelyContinuationLine_(workLine)) {
+      const last = currentItems[currentItems.length - 1];
+      if (last.indexOf(workLine) === -1) {
+        currentItems[currentItems.length - 1] = (last + " " + workLine).trim();
+      }
+      continue;
+    }
+
+    const strippedHeading = workLine.replace(/^\s*[・●•\-]\s*/, "").trim();
+    if (/政策/.test(strippedHeading) && strippedHeading.length <= 30 && !/[。．\.]/.test(strippedHeading)) {
+      flush();
+      currentHeading = strippedHeading;
+      skipSection = /(実績|プロフィール|経歴|略歴)/.test(currentHeading);
+      prevWasBullet = false;
+      continue;
+    }
+
+    const treatCircledAsBullet = policyHeading && /^[①-⑳]/.test(workLine);
+    const treatNumberedAsBullet = policyHeading && isNumberedPolicyLine_(workLine);
+    if (!forceSingleSection && !treatCircledAsBullet && !treatNumberedAsBullet && isHeadingLine_(workLine)) {
       if (currentHeading && currentItems.length === 0 && isNumberedHeading_(currentHeading) && isLabelHeading_(line)) {
         continue;
       }
       flush();
-      currentHeading = line.replace(/\s+/g, " ").trim();
-      skipSection = /(実績|プロフィール|経歴|略歴)/.test(currentHeading);
+      currentHeading = workLine.replace(/\s+/g, " ").trim();
+      currentLimit = inferPolicyCountFromHeading_(currentHeading);
+      const nextLine = i + 1 < lines.length ? lines[i + 1] : "";
+      skipSection = /(実績|プロフィール|経歴|略歴)/.test(currentHeading)
+        || (isProfileHeadingCandidate_(currentHeading) && isLikelyProfileLine_(nextLine));
       prevWasBullet = false;
       continue;
     }
 
     if (skipSection) continue;
 
-    if (!isLikelyPolicyLine_(line)) continue;
-    const isBullet = isBulletLine_(line);
-    const hasFuture = hasFutureVerb_(line);
+    const isBullet = treatCircledAsBullet || treatNumberedAsBullet || isBulletLine_(workLine);
+    if (!isBullet && prevWasBullet && currentItems.length > 0 && !isHeadingLine_(workLine)) {
+      currentItems[currentItems.length - 1] = (currentItems[currentItems.length - 1] + " " + workLine).trim();
+      continue;
+    }
+    if (!treatCircledAsBullet && !treatNumberedAsBullet && !isLikelyPolicyLine_(workLine)) continue;
+    const hasFuture = hasFutureVerb_(workLine);
     if (!isBullet && !(prevWasBullet && hasFuture)) continue;
 
-    let merged = line;
+    let merged = workLine;
     const next = i + 1 < lines.length ? lines[i + 1] : "";
     if (next && next.length <= 20 && !isLikelyPolicyLine_(next) && !isHeadingLine_(next)) {
       merged = line + " " + next;
@@ -1109,6 +1303,13 @@ function buildPolicyCandidateText_(ocrText) {
     if (merged.length < 8) continue;
     currentItems.push(merged);
     prevWasBullet = isBullet;
+    if (currentLimit > 0 && currentItems.length >= currentLimit) {
+      flush();
+      currentHeading = "";
+      currentLimit = 0;
+      skipSection = false;
+      prevWasBullet = false;
+    }
   }
 
   flush();
@@ -1136,6 +1337,17 @@ function buildPolicyCandidateText_(ocrText) {
   }
 
   return blocks.slice(0, 120).join("\n");
+}
+
+function removeCandidateListLines_(text) {
+  if (!text) return "";
+  const lines = text.split(/\r?\n/);
+  const kept = [];
+  for (const line of lines) {
+    if (isCandidateListLine_(line)) continue;
+    kept.push(line);
+  }
+  return kept.join("\n");
 }
 
 function fillPoliciesFromCandidates_(out, candidateText, sourceText) {
@@ -1190,8 +1402,11 @@ function isBulletLine_(line) {
 function isHeadingLine_(line) {
   const s = (line || "").toString().trim();
   if (!s) return false;
+  if (/、$/.test(s)) return false;
   if (isBulletLine_(s)) return false;
+  if (/^(と|に|を|へ|で|から|より|また|さらに|そして|そのため|このため|これにより)/.test(s) && s.length <= 30) return false;
   if (/実現|成功|達成/.test(s)) return false;
+  if (s.length <= 10 && !/(ます|する|目指|推進|拡充|整備|支援|実施|充実|確立|改善|強化|促進|導入|進め)/.test(s)) return false;
   if (/[。．\.！？!]/.test(s)) return false;
   if (s.length <= 3 && !/^[①-⑳]|^\d+/.test(s)) return false;
   if (/^[①-⑳]/.test(s)) return true;
@@ -1202,6 +1417,32 @@ function isHeadingLine_(line) {
   if (/^\d+\s+/.test(s) && !/[。．\.]/.test(s)) return true;
   if (!/[。．\.]/.test(s) && !/(ます|する|目指|推進|拡充|支援|実施|充実|確立|改善|強化|促進|導入|進め)/.test(s) && s.length <= 22) return true;
   return false;
+}
+
+function isLikelyContinuationLine_(line) {
+  const s = (line || "").toString().trim();
+  if (!s) return false;
+  if (s.length <= 10) return true;
+  if (s.length <= 25 && !/[。．\.！？!]/.test(s)) return true;
+  if (/^(と|に|を|へ|で|から|より|また|さらに|そして|そのため|このため|これにより)/.test(s)) return true;
+  if (/(に備えた|により|など)/.test(s)) return true;
+  if (/^ます[。．\.]?$/.test(s)) return true;
+  return false;
+}
+
+function isProfileHeadingCandidate_(heading) {
+  const s = (heading || "").toString().trim();
+  if (!s) return false;
+  if (s.length > 12) return false;
+  if (/[\(\)（）]/.test(s)) return false;
+  if (/(政策|重点政策|大政策|実績|プロフィール|経歴|略歴)/.test(s)) return false;
+  return true;
+}
+
+function isLikelyProfileLine_(line) {
+  const s = (line || "").toString().trim();
+  if (!s) return false;
+  return /(薬剤師|弁護士|医師|議員|元|卒|生まれ|年|歳|資格|趣味|事務所|SNS)/.test(s);
 }
 
 function isNumberedHeading_(heading) {
@@ -1228,6 +1469,42 @@ function inferPolicyCountCap_(lines) {
   const n = parseInt(m[1], 10);
   if (Number.isNaN(n) || n <= 0) return 0;
   return Math.min(n, 12);
+}
+
+function inferPolicyCountFromHeading_(heading) {
+  const s = (heading || "").toString();
+  const m = s.match(/(\d+)\s*(つ|項|本|大|個)\s*(の)?\s*(政策|重点政策|挑戦|ビジョン)/);
+  if (!m) return 0;
+  const n = parseInt(m[1], 10);
+  if (Number.isNaN(n) || n <= 0) return 0;
+  return Math.min(n, 12);
+}
+
+function findPolicyHeadingCountInLine_(line) {
+  const s = (line || "").toString();
+  const m = s.match(/(\d+)\s*つ\s*の\s*(政策|重点政策|挑戦|ビジョン)/);
+  if (!m) return { count: 0, heading: "", cleanedLine: "" };
+  const n = parseInt(m[1], 10);
+  if (Number.isNaN(n) || n <= 0) return { count: 0, heading: "", cleanedLine: "" };
+  const cleaned = s.replace(/\s*.*?目指す\s*\d+\s*つ\s*の\s*(政策|重点政策|挑戦|ビジョン).*$/, "").trim();
+  return { count: Math.min(n, 12), heading: `${Math.min(n, 12)}つの政策`, cleanedLine: cleaned };
+}
+
+function isNumberedPolicyLine_(line) {
+  const s = (line || "").toString().trim();
+  return /^\d{1,2}\b/.test(s) || /^0\d\b/.test(s);
+}
+
+function isCandidateListLine_(line) {
+  const s = (line || "").toString().trim();
+  if (!s) return false;
+  if (/(党|公認|政策|重点政策|プロフィール|経歴|略歴|実績|歳)/.test(s)) return false;
+  const tokens = s.split(/\s+/).filter(t => t !== "");
+  if (tokens.length < 3) return false;
+  const shortTokens = tokens.filter(t => t.length <= 4).length;
+  if (shortTokens < 3) return false;
+  if (/[。．\.！？!]/.test(s)) return false;
+  return true;
 }
 
 function extractOtherCandidateNamesFromOcr_(lines, winnerNameKey) {
