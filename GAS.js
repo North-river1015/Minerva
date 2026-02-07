@@ -827,13 +827,12 @@ function extractPdfTextForDebug_(kohoPdfUrl) {
 function extractPdfTextWithDriveOcr_(kohoPdfUrl) {
   const blob = UrlFetchApp.fetch(kohoPdfUrl).getBlob().setName("koho.pdf");
   const resource = {
-    title: "koho_ocr_" + new Date().getTime(),
-    mimeType: MimeType.GOOGLE_DOCS
+    title: "koho_ocr_" + new Date().getTime()
   };
 
   let docId = "";
   try {
-    const file = Drive.Files.insert(resource, blob, { ocr: true, ocrLanguage: "ja" });
+    const file = Drive.Files.insert(resource, blob, { ocr: true, ocrLanguage: "ja", convert: true });
     docId = file.id;
     return DocumentApp.openById(docId).getBody().getText();
   } finally {
