@@ -729,12 +729,16 @@ function getScriptProp_(key, defaultValue) {
  * - prop_name_enは row[23]（シート列24）
  */
 function writePoliciesToRow_(sheet, rowIndex, out) {
+  const existingNameJa = (sheet.getRange(rowIndex, 4).getValue() || "").toString().trim();
+  const existingPartyMain = (sheet.getRange(rowIndex, 36).getValue() || "").toString().trim();
+  const existingPropNameJa = (sheet.getRange(rowIndex, 23).getValue() || "").toString().trim();
+  const existingPartyProp = (sheet.getRange(rowIndex, 37).getValue() || "").toString().trim();
   const main = out.main;
 
   if (main) {
-    if (main.name_ja) sheet.getRange(rowIndex, 4).setValue(main.name_ja);
+    if (main.name_ja && !existingNameJa) sheet.getRange(rowIndex, 4).setValue(main.name_ja);
     if (main.name_en) sheet.getRange(rowIndex, 5).setValue(main.name_en);
-    if (main.party)   sheet.getRange(rowIndex, 36).setValue(normalizeParty_(main.party));
+    if (main.party && !existingPartyMain) sheet.getRange(rowIndex, 36).setValue(normalizeParty_(main.party));
 
     const policies = Array.isArray(main.policies) ? main.policies : [];
     for (let k = 0; k < 8; k++) {
@@ -747,9 +751,9 @@ function writePoliciesToRow_(sheet, rowIndex, out) {
   const prop = out.prop;
   if (prop && prop !== null) {
     sheet.getRange(rowIndex, 22).setValue("はい");
-    if (prop.name_ja) sheet.getRange(rowIndex, 23).setValue(prop.name_ja);
+    if (prop.name_ja && !existingPropNameJa) sheet.getRange(rowIndex, 23).setValue(prop.name_ja);
     if (prop.name_en) sheet.getRange(rowIndex, 24).setValue(prop.name_en);
-    if (prop.party)   sheet.getRange(rowIndex, 37).setValue(normalizeParty_(prop.party));
+    if (prop.party && !existingPartyProp) sheet.getRange(rowIndex, 37).setValue(normalizeParty_(prop.party));
 
     const policies = Array.isArray(prop.policies) ? prop.policies : [];
     for (let k = 0; k < 5; k++) {
