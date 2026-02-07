@@ -638,6 +638,8 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
   const debugPdfText = getScriptProp_("DEBUG_PDF_TEXT", "false").toString().toLowerCase() === "true";
   const useVisionOcr = getScriptProp_("USE_VISION_OCR", "false").toString().toLowerCase() === "true";
   const useDriveOcr = getScriptProp_("USE_DRIVE_OCR", "false").toString().toLowerCase() === "true";
+  const hasVisionKey = !!getScriptProp_("VISION_API_KEY", "");
+  console.log("OCR flags: useVisionOcr=" + useVisionOcr + ", useDriveOcr=" + useDriveOcr + ", debugPdfText=" + debugPdfText + ", hasVisionKey=" + hasVisionKey);
   let ocrText = "";
   let ocrSource = "";
   const winnerNameJa = (row[3] || "").toString().trim();
@@ -646,9 +648,11 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
   const revivalParty = (row[36] || "").toString().trim();
 
   if (useVisionOcr) {
+    console.log("Vision OCR start");
     try {
       ocrText = extractPdfTextWithVisionOcr_(kohoPdfUrl);
       ocrSource = "vision";
+      if (!ocrText) console.log("Vision OCR returned empty text");
     } catch (e) {
       console.log("Vision OCR failed: " + e.message);
     }
@@ -900,6 +904,8 @@ function extractPdfTextWithVisionOcr_(kohoPdfUrl) {
   const apiKey = getScriptProp_("VISION_API_KEY", "");
   if (!apiKey) throw new Error("ScriptProperties に VISION_API_KEY を設定してください。");
 
+  const debug = getScriptProp_("DEBUG_PDF_TEXT", "false").toString().toLowerCase() === "true";
+
   const blob = UrlFetchApp.fetch(kohoPdfUrl).getBlob();
   const content = Utilities.base64Encode(blob.getBytes());
 
@@ -930,12 +936,29 @@ function extractPdfTextWithVisionOcr_(kohoPdfUrl) {
 
   const json = JSON.parse(body);
   if (!json.responses || !Array.isArray(json.responses)) return "";
+  if (debug) console.log("Vision OCR responses: " + json.responses.length);
   const texts = [];
   for (const r of json.responses) {
+    if (debug && r.error && r.error.message) {
+      console.log("Vision OCR response error: " + r.error.message);
+    }
+    if (Array.isArray(r.responses)) {
+      if (debug) console.log("Vision OCR page responses: " + r.responses.length);
+      for (const page of r.responses) {
+        if (debug && page.error && page.error.message) {
+          console.log("Vision OCR page error: " + page.error.message);
+        }
+        if (page.fullTextAnnotation && page.fullTextAnnotation.text) {
+          texts.push(page.fullTextAnnotation.text);
+        }
+      }
+      continue;
+    }
     if (r.fullTextAnnotation && r.fullTextAnnotation.text) {
       texts.push(r.fullTextAnnotation.text);
     }
   }
+  if (debug && texts.length === 0) console.log("Vision OCR responses had no fullTextAnnotation");
   return texts.join("\n");
 }
 
@@ -973,7 +996,7 @@ function buildCandidateFocusedText_(ocrText, nameJa, partyJa) {
   if (hitIndex < 0) return "";
 
   const windowBefore = 0;
-  const windowAfter = 50;
+  const windowAfter = 200;
   const picked = [];
   const start = Math.max(0, hitIndex - windowBefore);
 
