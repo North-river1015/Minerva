@@ -760,6 +760,7 @@ function extractPoliciesFromKohoPdfAndFillRow_(sheet, rowIndex) {
 
 ルール:
 - PDFに明記された内容のみ抽出。推測・一般論は禁止。
+- 入力テキストには見出しと箇条書きが混在する。見出しと箇条書きの関係を解釈して政策か実績かを判断する。
 - policy は「これから実行すること/実現すること/進めること」。achievement は「実績/達成済み/経歴/プロフィール/活動」。
 - 各項目に type を必ず付ける（policy または achievement）。
 - 1項目は短く（30〜60文字程度）。重複はまとめる。
@@ -943,25 +944,51 @@ function buildPolicyCandidateText_(ocrText) {
   if (lines.length === 0) return "";
 
   const capCount = inferPolicyCountCap_(lines);
+  const blocks = [];
+  let currentHeading = "";
+  let currentItems = [];
 
-  const candidates = [];
+  const flush = () => {
+    if (currentItems.length === 0) return;
+    const title = currentHeading ? currentHeading : "その他";
+    blocks.push("## " + title);
+    for (const item of currentItems) blocks.push("- " + item);
+    currentItems = [];
+  };
+
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
+    if (isHeadingLine_(line)) {
+      flush();
+      currentHeading = line.replace(/\s+/g, " ").trim();
+      continue;
+    }
+
     if (!isLikelyPolicyLine_(line)) continue;
-    if (isHeadingOnlyLine_(line)) continue;
 
     let merged = line;
     const next = i + 1 < lines.length ? lines[i + 1] : "";
-    if (next && next.length <= 20 && !isLikelyPolicyLine_(next)) {
+    if (next && next.length <= 20 && !isLikelyPolicyLine_(next) && !isHeadingLine_(next)) {
       merged = line + " " + next;
     }
     merged = merged.replace(/^\s*[●・\-*\d\.\)\(]+\s*/, "").trim();
     if (merged.length < 8) continue;
-    candidates.push(merged);
+    currentItems.push(merged);
   }
 
-  const capped = capCount ? candidates.slice(0, capCount) : candidates.slice(0, 40);
-  return capped.join("\n");
+  flush();
+
+  const cappedLines = [];
+  let policyCount = 0;
+  for (const line of blocks) {
+    if (line.startsWith("- ")) {
+      if (capCount && policyCount >= capCount) continue;
+      policyCount += 1;
+    }
+    cappedLines.push(line);
+  }
+
+  return cappedLines.slice(0, 120).join("\n");
 }
 
 function isLikelyPolicyLine_(line) {
@@ -975,12 +1002,13 @@ function isLikelyPolicyLine_(line) {
   return hasBullet || hasFuture;
 }
 
-function isHeadingOnlyLine_(line) {
+function isHeadingLine_(line) {
   const s = (line || "").toString().trim();
   if (!s) return false;
   if (/^\d+\s*つの策/.test(s)) return true;
   if (/のために$/.test(s)) return true;
   if (/^\d+\s*$/.test(s)) return true;
+  if (!/[。．\.]/.test(s) && !/(ます|する|目指|推進|拡充|整備|支援|実施|充実|確立|改善|強化|促進|導入)/.test(s) && s.length <= 22) return true;
   return false;
 }
 
