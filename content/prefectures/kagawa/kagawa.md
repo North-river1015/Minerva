@@ -2,7 +2,6 @@
 title: 香川
 url: /prefectures/kagawa/
 ---
-
 ## 香川の小選挙区
 
 - [香川1区](./1/)
