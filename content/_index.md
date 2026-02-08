@@ -26,6 +26,31 @@ layout: "home"
 .geolonia-svg-map .prefecture polygon, .geolonia-svg-map .prefecture path { fill: #EEEEEE; transition: fill .2s; } .geolonia-svg-map .prefecture:hover polygon, .geolonia-svg-map .prefecture:hover path { fill: #00ff99ff !important; }] 
 ]]></style>
 
+
+
+<style>/* 完了した都道府県の基本色（緑） */
+.okinawa, .kagoshima, .miyazaki, .oita, .nagasaki, .saga, .fukuoka, 
+.kochi, .ehime, .tokushima, .yamaguchi, .hiroshima, .shimane, 
+.tottori, .shiga, .tokyo {
+    fill: #2ecc71 !important; /* 完了を示す緑色 */
+}
+
+/* 完了した都道府県の境界線を少し太くして強調（任意） */
+.okinawa, .kagoshima, .miyazaki, .oita, .nagasaki, .saga, .fukuoka, 
+.kochi, .ehime, .tokushima, .yamaguchi, .hiroshima, .shimane, 
+.tottori, .shiga, .tokyo {
+    stroke: #27ae60;
+    stroke-width: 1.5;
+}
+
+/* ホバー時の挙動（完了済みは少し明るく、未完了は青緑に） */
+.prefecture:hover polygon, .prefecture:hover path {
+    fill: #00ff99 !important;
+}
+
+</style>
+
+
   <title>Japanese Prefectures</title>
   <desc>Created by Geolonia (https://geolonia.com/).</desc>
   <g class="svg-map" transform="matrix(1.453488, 0, 0, 1.453488, -435.334259, -216.944946)">
