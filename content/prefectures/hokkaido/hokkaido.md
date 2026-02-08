@@ -5,6 +5,8 @@ url: /prefectures/hokkaido/
 
 ## 北海道の小選挙区
 
+ごめんなさい！データが未入力です。こちらの[Google form](https://forms.gle/nTNdjvc7GQ6yqPB4A)から入力できます。
+
 - [北海道1区](./1/)
 - [北海道2区](./2/)
 - [北海道3区](./3/)

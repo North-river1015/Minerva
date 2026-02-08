@@ -4,6 +4,8 @@ url: /prefectures/kyoto/
 ---
 ## 京都の小選挙区
 
+ごめんなさい！データが未入力です。こちらの[Google form](https://forms.gle/nTNdjvc7GQ6yqPB4A)から入力できます。
+
 - [京都1区](./1/)
 - [京都2区](./2/)
 - [京都3区](./3/)

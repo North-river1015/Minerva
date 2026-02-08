@@ -4,6 +4,8 @@ url: /prefectures/shizuoka/
 ---
 ## 静岡の小選挙区
 
+ごめんなさい！データが未完全です。こちらの[Google form](https://forms.gle/nTNdjvc7GQ6yqPB4A)から入力できます。
+
 - [静岡1区](./1/)
 - [静岡2区](./2/)
 - [静岡3区](./3/)

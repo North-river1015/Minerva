@@ -5,6 +5,8 @@ url: /prefectures/saitama/
 
 ## 埼玉の小選挙区
 
+ごめんなさい！データが未入力です。こちらの[Google form](https://forms.gle/nTNdjvc7GQ6yqPB4A)から入力できます。
+
 - [埼玉1区](./1/)
 - [埼玉2区](./2/)
 - [埼玉3区](./3/)

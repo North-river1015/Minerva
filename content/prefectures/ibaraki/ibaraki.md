@@ -5,6 +5,8 @@ url: /prefectures/ibaraki/
 
 ## 茨城の小選挙区
 
+ごめんなさい！データが未入力です。こちらの[Google form](https://forms.gle/nTNdjvc7GQ6yqPB4A)から入力できます。
+
 - [茨城1区](./1/)
 - [茨城2区](./2/)
 - [茨城3区](./3/)

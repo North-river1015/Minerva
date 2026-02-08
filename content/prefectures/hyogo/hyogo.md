@@ -4,6 +4,8 @@ url: /prefectures/hyogo/
 ---
 ## 兵庫の小選挙区
 
+ごめんなさい！データが未完全です。こちらの[Google form](https://forms.gle/nTNdjvc7GQ6yqPB4A)から入力できます。
+
 - [兵庫1区](./1/)
 - [兵庫2区](./2/)
 - [兵庫3区](./3/)

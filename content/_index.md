@@ -2,6 +2,9 @@
 title: "Minerva"
 layout: "home"
 ---
+
+<!-- 何人の方に見ていただいたのか知りたい -->
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FC2DGVYLF5"></script>
 <script>

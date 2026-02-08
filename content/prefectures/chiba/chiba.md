@@ -5,6 +5,8 @@ url: /prefectures/chiba/
 
 ## 千葉の小選挙区
 
+ごめんなさい！データが未入力です。こちらの[Google form](https://forms.gle/nTNdjvc7GQ6yqPB4A)から入力できます。
+
 - [千葉1区](./1/)
 - [千葉2区](./2/)
 - [千葉3区](./3/)

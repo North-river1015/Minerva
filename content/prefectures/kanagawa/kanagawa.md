@@ -4,6 +4,8 @@ url: /prefectures/kanagawa/
 ---
 ## 神奈川の小選挙区
 
+ごめんなさい！3区以外のデータが未入力です。こちらの[Google form](https://forms.gle/nTNdjvc7GQ6yqPB4A)から入力できます。
+
 - [神奈川1区](./1/)
 - [神奈川2区](./2/)
 - [神奈川3区](./3/)

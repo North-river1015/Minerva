@@ -4,6 +4,8 @@ url: /prefectures/aichi/
 ---
 ## 愛知の小選挙区
 
+ごめんなさい！データが未完全です。こちらの[Google form](https://forms.gle/nTNdjvc7GQ6yqPB4A)から入力できます。
+
 - [愛知1区](./1/)
 - [愛知2区](./2/)
 - [愛知3区](./3/)

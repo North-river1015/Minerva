@@ -5,6 +5,8 @@ url: /prefectures/osaka/
 
 ## 大阪の小選挙区
 
+ごめんなさい！6区以降は未入力です。こちらの[Google form](https://forms.gle/nTNdjvc7GQ6yqPB4A)から入力できます。
+
 - [大阪1区](./1/)
 - [大阪2区](./2/)
 - [大阪3区](./3/)
