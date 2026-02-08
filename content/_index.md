@@ -2,7 +2,15 @@
 title: "Minerva"
 layout: "home"
 ---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FC2DGVYLF5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-FC2DGVYLF5');
+</script>
 
 # 2026年衆議院選挙
 <?xml version="1.0" encoding="utf-8"?>
