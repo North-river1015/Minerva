@@ -52,7 +52,12 @@ layout: "home"
 
 
   <title>Japanese Prefectures</title>
-  <desc>Created by Geolonia (https://geolonia.com/).</desc>
+  
+
+
+<!--  <desc>Created by Geolonia (https://geolonia.com/).</desc> -->
+
+
   <g class="svg-map" transform="matrix(1.453488, 0, 0, 1.453488, -435.334259, -216.944946)">
     <g class="prefectures" transform="matrix(1, 0, 0, 1, 6, 18)">
       <a class="okinawa kyushu-okinawa prefecture" data-code="47" stroke-linejoin="round" transform="matrix(0.999391, -0.0349, 0.0349, 0.999391, 219.771561, 844.318481)" fill="#EEEEEE" fill-rule="nonzero" stroke="#000000" stroke-width="1.0" xlink:href="/prefectures/okinawa" href="/prefectures/okinawa">
