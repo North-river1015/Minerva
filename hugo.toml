@@ -1,7 +1,7 @@
 theme = "PaperMod"
 baseURL = "https://north-river1015.github.io/Minerva/"
 languageCode = 'en-us'
-title = 'Minerva'
+title = 'Minerva 衆議院選挙2026 公約・実績比較'
 #右下のNextボタンを消したい。
 pagination.pagerSize = 1000
 
