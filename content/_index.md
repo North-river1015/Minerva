@@ -1,5 +1,5 @@
 ---
-title: "Minerva"
+title: "Minerva 衆議院選挙2026 公約・実績比較"
 layout: "home"
 ---
 <!-- 何人の方に見ていただいたのか知りたい -->
