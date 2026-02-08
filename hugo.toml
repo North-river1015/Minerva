@@ -28,7 +28,7 @@ pagination.pagerSize = 1000
     weight = 10
 
 [[menu.main]]
-    name = "リポート"
+    name = "ミスの報告"
     url = "https://forms.gle/kGAFfXspVisRCNRVA"
     weight = 15
 
