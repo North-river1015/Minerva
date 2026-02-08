@@ -2,8 +2,8 @@
 title: "Minerva"
 layout: "home"
 ---
-
 <!-- 何人の方に見ていただいたのか知りたい -->
+<meta name="google-site-verification" content="R8TsqlgfjN1Gk8IQMNQn85xnDKqc2p8LuTK9ruVw4xs" />
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FC2DGVYLF5"></script>
