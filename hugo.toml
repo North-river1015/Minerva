@@ -32,6 +32,11 @@ pagination.pagerSize = 1000
     url = "https://forms.gle/kGAFfXspVisRCNRVA"
     weight = 15
 
+[[menu.main]]
+    name = "Archive"
+    url = "/archive/"
+    weight = 20
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'

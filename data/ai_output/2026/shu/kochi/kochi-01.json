@@ -1,0 +1,12 @@
+{
+  "district": null,
+  "candidates": [
+    {
+      "name": "中谷元",
+      "party": "自由民主党",
+      "step1_ocr_raw_text": "など、。あ・ラ整に配分\nに直結経済へ材料高を高め、\nそのう・同盟ます。\nラインITやみま循環す",
+      "step2_selected_pledges": [],
+      "full_text": "【経済対策】\nなど、。\nあ・ラ整に配分\n\n【物価高対策】\nに直結\n経済へ\n材料高\nを高め、\n\n【外交・安全保障】\nそのう・同盟\nます。\n\n【デジタル・地方創生】\nライン\nITや\nみま\n循環す"
+    }
+  ]
+}

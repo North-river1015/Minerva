@@ -39,7 +39,7 @@ function generateMinervaMarkdown() {
   const displayTitle = `${pref_ja}${district}区`;
 
   // 小選挙区
-  let md = `---\ntitle: "${displayTitle}"\nurl: prefectures/${pref_raw}/${district}\n---\n\n`;
+  let md = `---\ntitle: "${displayTitle}"\nurl: archive/2024/prefectures/${pref_raw}/${district}\n---\n\n`;
   md += `# [${name_ja}](/shu/${pref_raw}/${district}/${name_en})\n\n`;
   md += `${party_main}\n\n`; 
 
