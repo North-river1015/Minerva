@@ -16,6 +16,26 @@ def update_md_with_json(json_file):
     district_num = re.search(r'\d+', data["district"]).group()
     winner = data["candidates"][0] # 当選者のみのJSONなので0番目を取得
     
+    raw_text = winner['full_text']
+    
+    paragraphs = raw_text.split("\n\n")
+    formatted_list = []
+
+    for p in paragraphs:
+        lines = p.strip().split("\n")
+        if lines:
+            # 2. 1行目を見出し(#### )にし、最後に本物の改行(\n)を入れる
+            header = f"#### {lines[0]}\n"
+            # 3. 2行目以降を <br> でつなぐ
+            body = "<br>\n".join(lines[1:])
+            formatted_list.append(header + body)
+
+    # 4. 最後に段落同士を空行でつなぐ
+    formatted_text = "\n\n".join(formatted_list)
+    two_digit_district_num = district_num.zfill(2)  # 1 → 01, 2 → 02 のようにゼロ埋め
+    pdf_url = f"/pdf/2026/shu/tokyo/tokyo-{two_digit_district_num}.pdf"
+
+   
     # 既存のmdファイルを探す (1.md)
     md_path = CONTENT_DIR / f"{district_num}.md"
 
@@ -36,7 +56,10 @@ last_updated: "2026-03-16"
 ---
 
 ### 選挙公報での政策
-{winner['full_text']}
+{formatted_text}
+
+
+[選挙公報を開く(PDF)]({pdf_url})
 """
 
     with open(md_path, "w", encoding="utf-8") as f:
