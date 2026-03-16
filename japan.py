@@ -11,8 +11,9 @@ LAYOUT_WEIRD = [
 ]
 
 
+
 ALL_WINNERS = {
- 'tochigi': {1: '船田元', 2: '五十嵐清', 3: '渡邊真太朗', 4: '石坂太', 5: '茂木敏充'}, 'tokushima': {1: '仁木博文', 2: '山口俊一'}, 'tottori': {1: '石破茂', 2: '赤沢亮正'}, 'toyama': {1: '中田宏', 2: '上田英俊', 3: '橘慶一郎'}, 'wakayama': {1: '山本大地', 2: '世耕弘成'}, 'yamagata': {1: '遠藤寛明', 2: '鈴木憲和', 3: '加藤鮎子'}, 'yamaguchi': {1: '高村正大', 2: '岸信千世', 3: '林芳正'}, 'yamanashi': {1: '中谷真一', 2: '堀内詔子'}}
+'wakayama': {1: '山本大地', 2: '世耕弘成'}, 'yamagata': {1: '遠藤寛明', 2: '鈴木憲和', 3: '加藤鮎子'}, 'yamaguchi': {1: '高村正大', 2: '岸信千世', 3: '林芳正'}, 'yamanashi': {1: '中谷真一', 2: '堀内詔子'}}
 # --- 設定 ---
 client = genai.Client(api_key="AIzaSyBN_oeavULmi8Y--9bCEMUHuNk281mKd5Y")
 
@@ -235,3 +236,5 @@ def process_all_japan():
 if __name__ == "__main__":
     import re
     process_all_japan()
+
+

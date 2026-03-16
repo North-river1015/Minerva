@@ -25,6 +25,8 @@ PREFECTURES = [
     "kumamoto", "oita", "miyazaki", "kagoshima", "okinawa"
 ]
 
+
+
 def get_all_japan_pdf():
     # 1番(北海道)から47番(沖縄)までループ
     for i, pref_name in enumerate(PREFECTURES, 1):
@@ -70,6 +72,8 @@ def process_prefecture(url, pref_name, save_dir):
                         'url': full_url,
                         'num': dist_num
                     })
+
+
 
     # 番号順にソート
     district_tasks.sort(key=lambda x: x['num'])
