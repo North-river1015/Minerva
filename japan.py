@@ -12,8 +12,16 @@ LAYOUT_WEIRD = [
 
 
 
+
 ALL_WINNERS = {
-'wakayama': {1: '山本大地', 2: '世耕弘成'}, 'yamagata': {1: '遠藤寛明', 2: '鈴木憲和', 3: '加藤鮎子'}, 'yamaguchi': {1: '高村正大', 2: '岸信千世', 3: '林芳正'}, 'yamanashi': {1: '中谷真一', 2: '堀内詔子'}}
+    'tokyo': {
+        26: '今岡植',
+        27: '黒崎祐一',
+        28: '安藤高夫',
+        29: '長澤興祐',
+        30: '長島昭久'
+    }
+}
 # --- 設定 ---
 client = genai.Client(api_key="AIzaSyBN_oeavULmi8Y--9bCEMUHuNk281mKd5Y")
 
