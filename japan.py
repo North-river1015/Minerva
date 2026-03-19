@@ -4,6 +4,9 @@ import time
 import google.genai as genai
 from pathlib import Path
 import fitz
+from dotenv import load_dotenv 
+
+load_dotenv()
 
 LAYOUT_WEIRD = [
     "kyoto", "gifu", "kagawa", "kochi", 
@@ -12,7 +15,7 @@ LAYOUT_WEIRD = [
 
 
 
-
+#選挙ごとにWikiから当選者を取り出し用意
 ALL_WINNERS = {
     'tokyo': {
         26: '今岡植',
@@ -22,14 +25,17 @@ ALL_WINNERS = {
         30: '長島昭久'
     }
 }
-# --- 設定 ---
-client = genai.Client(api_key="AIzaSyBN_oeavULmi8Y--9bCEMUHuNk281mKd5Y")
+
+#GoogleのGeminiを使いました。
+key = os.environ.get('GEMINI_API')
+
+client = genai.Client(api_key= key)
 
 PDF_DIR = Path("data/raw_pdf/2026/shu/")
 OUT_DIR = Path("data/ai_output/2026/shu/")
-OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# 判定基準（rubric.mdの内容を要約して指示に組み込む）
+# RubricからPromptに入れて見ましたが、公約判断の精度は非常に低いです。
+#AIに選挙区を書かせましたが、Nullや誤りが多いので今後改善（自動で？）
 PROMPT = """
 あなたは選挙公報の解析を専門とする政治データアナリストです。
 
@@ -85,7 +91,7 @@ OCRプロトコル: 左上から右下へ、視覚的なブロック（枠線）
 
 def find_candidate_page_and_coords(image_files, winner_name):
 
-    # ページ番号を付与してプロンプトを作成
+    
     prompt = f"""
     添付された複数の画像の中から「{winner_name}」の選挙公報が含まれるページを特定してください。
     
@@ -99,16 +105,16 @@ def find_candidate_page_and_coords(image_files, winner_name):
     リストで出力しないように。
     """
     
-    # 画像リストとプロンプトを同時に投げる
+   
     response = client.models.generate_content(
         model='gemini-3.1-flash-lite-preview',
-        contents=[prompt] + image_files, # 全ページの画像を渡す
+        contents=[prompt] + image_files,
         config={"response_mime_type": "application/json"}
     )
     
     result = json.loads(response.text)
-    print(result)
-    # もし結果がリストで返ってきたら、その最初の1つ（中身の辞書）を取り出す
+
+   #何度かリストで返されたので、念のため
     if isinstance(result, list) and len(result) > 0:
         result = result[0]
         
@@ -122,23 +128,24 @@ def crop_by_gemini_coords(pdf_path, page_num, coords, winner_name, pref_name):
     
     ymin, xmin, ymax, xmax = coords
     
-   # 1. 横幅の判定
+ 
     if pref_name in LAYOUT_WEIRD:
-        # 2列構成の県は、AIの判定（xmin, xmax）を信じる
-        # ただし、少しだけ左右にマージン（3%ずつ）を持たせる
+        # これらの県は二人ずつ並んでいる
+        # 少しだけ左右にマージンを
         new_xmin = max(0, xmin - 30)
         new_xmax = min(1000, xmax + 30)
     else:
-        # 1列構成の県（地方部など）は、端から端まで
+        # 1列構成の県は、端から端まで
         new_xmin = 0
         new_xmax = 1000
     
-    # 2. 上下の判定
-    # 上下はどの県でもAIの回答より少し広め（2%ずつ）確保する
+  
+    # 上下はどの県でもAIの回答より少し広めに確保
     new_ymin = max(0, ymin - 20) 
     new_ymax = min(1000, ymax + 20) 
     
-    # ------------------
+  
+
 
     rect = fitz.Rect(
         new_xmin * w / 1000, 
@@ -147,7 +154,7 @@ def crop_by_gemini_coords(pdf_path, page_num, coords, winner_name, pref_name):
         new_ymax * h / 1000
     )
     
-    # 高解像度で書き出し（zoom=400/72 は約300dpi相当）
+    # 高解像度で
     zoom = 400 / 72
     pix = page.get_pixmap(matrix=fitz.Matrix(zoom, zoom), clip=rect)
     output_path = f"temp_cropped_{pdf_path.stem}.png"
@@ -156,7 +163,7 @@ def crop_by_gemini_coords(pdf_path, page_num, coords, winner_name, pref_name):
     return output_path
 
 def process_all_japan():
-    # 都道府県ごとのフォルダを巡回
+    # 都道府県ごとのフォルダ
     for pref_dir in sorted(PDF_DIR.iterdir()):
         if not pref_dir.is_dir(): continue
 
@@ -167,24 +174,24 @@ def process_all_japan():
         out_pref_dir = OUT_DIR / pref_name
         out_pref_dir.mkdir(parents=True, exist_ok=True)
         
-        print(f"\n🌍 都道府県: {pref_name.upper()} を処理中...")
+        print(f"都道府県: {pref_name.upper()} を処理中...")
 
         # 各PDF（選挙区）を処理
         for pdf_path in sorted(pref_dir.glob("*.pdf")):
             try:
-                # ファイル名 "tokyo-01.pdf" から区番号を取得
+                # ファイル名から区を取得
                 dist_num = int(re.search(r'-(\d+)', pdf_path.stem).group(1))
                 winner_name = pref_winners.get(dist_num)
             except (AttributeError, ValueError):
                 continue
 
             if not winner_name:
-                print(f"   ⏩ スキップ: {pdf_path.name} (当選者データなし)")
+                print(f"スキップ: {pdf_path.name} (当選者データなし)")
                 continue
 
-            print(f"⌛ 解析中: {pdf_path.name} [{winner_name}]")
+            print(f"解析中: {pdf_path.name} [{winner_name}]")
             
-            # --- 解析フロー ---
+
             doc = fitz.open(pdf_path)
             scan_files = []
             temp_images = []
@@ -197,21 +204,21 @@ def process_all_japan():
                 scan_files.append(client.files.upload(file=img_path))
                 temp_images.append(img_path)
 
-            # ファイルがACTIVEになるまで待機
+         
             for f in scan_files:
                 while client.files.get(name=f.name).state.name != "ACTIVE": time.sleep(1)
 
             find_result = find_candidate_page_and_coords(scan_files, winner_name)
             
-            # スキャン用ゴミ捨て
+           
             for f in scan_files: client.files.delete(name=f.name)
             for p in temp_images: Path(p).unlink()
 
             if not find_result.get("found"):
-                print(f"   ⚠️ {winner_name} が見つかりませんでした。")
+                print(f"{winner_name} が見つかりませんでした。")
                 continue
 
-            # 2. 高解像度切り出し & 詳細解析
+            # 2. 切り出し・詳細解析
             crop_path = crop_by_gemini_coords(pdf_path, find_result['page_index'], find_result['coords'],winner_name, pref_name)
             crop_file = client.files.upload(file=crop_path)
             while client.files.get(name=crop_file.name).state.name != "ACTIVE": time.sleep(1)
@@ -233,9 +240,9 @@ def process_all_japan():
             with open(out_file, "w", encoding="utf-8") as f:
                 f.write(response.text)
             
-            print(f"✅ 保存完了: {out_file.relative_to(OUT_DIR)}")
+            print(f"保存完了: {out_file.relative_to(OUT_DIR)}")
 
-            # 後片付け
+            
             client.files.delete(name=crop_file.name)
             Path(crop_path).unlink()
             doc.close()

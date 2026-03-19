@@ -59,7 +59,7 @@ def create_district_folders():
         pref_slug = config["en"]
         pref_dir = BASE_CONTENT_DIR / pref_slug
         
-        # 都道府県フォルダが存在する場合のみ実行
+
         if pref_dir.exists():
             # 新しいフォルダ名: tokyo-district など
             district_folder_name = f"{pref_slug}-district"
