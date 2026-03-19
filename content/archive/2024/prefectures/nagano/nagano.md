@@ -1,6 +1,6 @@
 ---
 title: 長野
-url: /prefectures/nagano/
+url: prefectures/nagano/
 ---
 
 ## 長野の小選挙区

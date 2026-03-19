@@ -1,6 +1,6 @@
 ---
 title: 青森
-url: /prefectures/aomori/
+url: prefectures/aomori/
 ---
 
 ## 青森の小選挙区

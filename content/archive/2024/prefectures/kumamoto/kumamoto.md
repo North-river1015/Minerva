@@ -1,6 +1,6 @@
 ---
 title: 熊本
-url: /prefectures/kumamoto/
+url: prefectures/kumamoto/
 ---
 
 ## 熊本の小選挙区

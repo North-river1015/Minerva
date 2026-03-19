@@ -1,6 +1,6 @@
 ---
 title: 東京都
-url: /prefectures/tokyo/
+url: prefectures/tokyo/
 ---
 ## 東京都の小選挙区
 

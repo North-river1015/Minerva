@@ -5,7 +5,7 @@ cascade:
   ShowToc: false     
   robotsNoIndex: true 
 
-url: "/archive/2024/"
+url: "archive/2024/"
 ---
 2024年に実施された衆議院選挙の公約・実績データです。
 

@@ -1,6 +1,6 @@
 ---
 title: 京都
-url: /prefectures/kyoto/
+url: prefectures/kyoto/
 ---
 ## 京都の小選挙区
 

@@ -1,6 +1,6 @@
 ---
 title: 長崎
-url: /prefectures/nagasaki/
+url: prefectures/nagasaki/
 ---
 
 ## 長崎の小選挙区

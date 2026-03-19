@@ -1,6 +1,6 @@
 ---
 title: 宮崎
-url: /prefectures/miyazaki/
+url: prefectures/miyazaki/
 ---
 
 ## 宮崎の小選挙区

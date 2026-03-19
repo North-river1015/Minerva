@@ -1,6 +1,6 @@
 ---
 title: 沖縄
-url: /prefectures/okinawa/
+url: prefectures/okinawa/
 ---
 
 ## 沖縄の小選挙区

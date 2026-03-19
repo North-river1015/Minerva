@@ -1,6 +1,6 @@
 ---
 title: 徳島
-url: /prefectures/tokushima/
+url: prefectures/tokushima/
 ---
 
 ## 徳島の小選挙区

@@ -1,6 +1,6 @@
 ---
 title: 広島県
-url: /prefectures/hiroshima/
+url: prefectures/hiroshima/
 ---
 
 ## 広島県の小選挙区

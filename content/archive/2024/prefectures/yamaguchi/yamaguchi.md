@@ -1,6 +1,6 @@
 ---
 title: 山口
-url: /prefectures/yamaguchi/
+url: prefectures/yamaguchi/
 ---
 
 ## 山口の小選挙区

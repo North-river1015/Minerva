@@ -1,6 +1,6 @@
 ---
 title: 鹿児島
-url: /prefectures/kagoshima/
+url: prefectures/kagoshima/
 ---
 
 ## 鹿児島の小選挙区

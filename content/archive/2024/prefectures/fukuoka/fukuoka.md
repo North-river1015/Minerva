@@ -1,6 +1,6 @@
 ---
 title: 福岡
-url: /prefectures/fukuoka/
+url: prefectures/fukuoka/
 ---
 
 ## 福岡の小選挙区

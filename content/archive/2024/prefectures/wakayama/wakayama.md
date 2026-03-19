@@ -1,6 +1,6 @@
 ---
 title: 和歌山
-url: /prefectures/wakayama/
+url: prefectures/wakayama/
 ---
 ## 和歌山の小選挙区
 

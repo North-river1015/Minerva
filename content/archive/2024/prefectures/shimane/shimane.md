@@ -1,6 +1,6 @@
 ---
 title: 島根
-url: /prefectures/shimane/
+url: prefectures/shimane/
 ---
 ## 島根の小選挙区
 

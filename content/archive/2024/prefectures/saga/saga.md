@@ -1,6 +1,6 @@
 ---
 title: 佐賀
-url: /prefectures/saga/
+url: prefectures/saga/
 ---
 
 ## 佐賀の小選挙区

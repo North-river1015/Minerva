@@ -1,6 +1,6 @@
 ---
 title: 高知
-url: /prefectures/kochi/
+url: prefectures/kochi/
 ---
 ## 高知の小選挙区
 

@@ -1,6 +1,6 @@
 ---
 title: 静岡
-url: /prefectures/shizuoka/
+url: prefectures/shizuoka/
 ---
 ## 静岡の小選挙区
 

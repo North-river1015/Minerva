@@ -1,6 +1,6 @@
 ---
 title: 鳥取
-url: /prefectures/tottori/
+url: prefectures/tottori/
 ---
 ## 鳥取の小選挙区
 

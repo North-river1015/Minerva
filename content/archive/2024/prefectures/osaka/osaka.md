@@ -1,6 +1,6 @@
 ---
 title: 大阪
-url: /prefectures/osaka/
+url: prefectures/osaka/
 ---
 
 ## 大阪の小選挙区
