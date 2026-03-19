@@ -1,0 +1,12 @@
+{
+  "district": null,
+  "candidates": [
+    {
+      "name": "上田英俊",
+      "party": "自由民主党",
+      "step1_ocr_raw_text": "自由民主党公認\n上田英俊(えいしゅん)",
+      "step2_selected_pledges": [],
+      "full_text": "自由民主党公認\n上田英俊(えいしゅん)"
+    }
+  ]
+}
