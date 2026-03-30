@@ -1,6 +1,6 @@
 ---
 title: "公約の判定基準"
-url: "/rubric"
+url: "/draft-rubric"
 ---
 
 # Rubricの案、変更点(緑の部分)
