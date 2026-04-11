@@ -1,0 +1,67 @@
+{
+  "district": "東京4区",
+  "candidates": [
+    {
+      "name": "平将明",
+      "party": "自由民主党",
+      "manifesto": [
+        {
+          "title": "70歳以上の医療費窓口負担引き上げ",
+          "reason": "「引き上げ」という具体的な制度変更の意思表示であり、実行の可否が明確に判断可能であるため。",
+          "sources": ["https://www.yomiuri.co.jp/election/shugiin/2026/YA13XXXXXX000/135713/"],
+          "quote_text": "70歳以上の医療費窓口負担を所得に応じ3割に引き上げること 1.賛成"
+        },
+        {
+          "title": "防衛関連費GDP比2%目標の維持",
+          "reason": "「GDP比2%程度」という具体的な数値目標へのコミットメントであり、予算統計で検証可能であるため。",
+          "sources": ["https://www.yomiuri.co.jp/election/shugiin/2026/YA13XXXXXX000/135713/"],
+          "quote_text": "ＧＤＰ比2%程度とすべきだ"
+        },
+        {
+          "title": "衆院議員の定数削減",
+          "reason": "定数という具体的な数値の削減を明言しており、法改正の是非で達成度が検証可能であるため。",
+          "sources": ["https://www.yomiuri.co.jp/election/shugiin/2026/YA13XXXXXX000/135713/"],
+          "quote_text": "衆院議員の定数削減について 1.賛成"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "title": "暮らしを守る物価高対策",
+          "reason": "「守る」という抽象的なスローガンであり、操作対象となる変数や具体的な法的措置が明示されていないため。",
+          "sources": ["https://www.taira-m.jp/2026/01/-2026.html"],
+          "quote_text": "暮らしを守る物価高対策"
+        },
+        {
+          "title": "AI等最先端技術で課題解決",
+          "reason": "「課題解決」という目的のみが掲げられ、どのような法的枠組みや予算措置を講じるかの具体的手段が欠落しているため。",
+          "sources": ["https://www.taira-m.jp/2026/01/-2026.html"],
+          "quote_text": "AI等最先端技術で課題解決"
+        },
+        {
+          "title": "給付システムの構築に向けた緊急提言",
+          "reason": "「提言」は政治的行動の意思表示ではなく、検討・議論の段階に留まるため。",
+          "sources": ["https://www.taira-m.jp/2025/12/post-369.html"],
+          "quote_text": "給付システムの構築に向けた緊急提言"
+        },
+        {
+          "title": "ＡＩセーフティ・インスティテュートの機能強化",
+          "reason": "「機能強化」という表現が抽象的であり、具体的にどのような予算配分や人員増、法整備を指すのか不明確であるため。",
+          "sources": ["https://www.taira-m.jp/vision.html"],
+          "quote_text": "ＡＩセーフティ・インスティテュート（ＡＩＳＩ）の機能強化に係る緊急提言"
+        },
+        {
+          "title": "地方創生２．０の取組の普遍化",
+          "reason": "「普遍化」という概念が抽象的であり、観測可能な行政数値や具体的な法制度変更に紐付いていないため。",
+          "sources": ["https://www.cas.go.jp/jp/seisaku/digital_gyozaikaikaku/kaigi10/kaigi10_siryou11.pdf"],
+          "quote_text": "新地方創生交付金も活用した地方創生２．０の取組の普遍化"
+        },
+        {
+          "title": "憲法改正への賛成",
+          "reason": "憲法改正は国民投票という特殊な手続きを必要とする憲法事項であり、議員単独でのコミットメント（断定的実行）の範疇を超えているため。",
+          "sources": ["https://www.yomiuri.co.jp/election/shugiin/2026/YA13XXXXXX000/135713/"],
+          "quote_text": "憲法改正について 1.賛成"
+        }
+      ]
+    }
+  ]
+}

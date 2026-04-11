@@ -1,0 +1,67 @@
+{
+  "district": "東京6区",
+  "candidates": [
+    {
+      "name": "畦元将吾",
+      "party": "自由民主党",
+      "manifesto": [
+        {
+          "title": "全国の医療機関で電子カルテ100%統一化（2030年まで）",
+          "reason": "「100%統一化」という数値目標と期限が明確であり、達成度が観測可能であるため。",
+          "sources": ["https://storage.jimin.jp/pdf/sansen27/hirei_azemoto-shogo.pdf"],
+          "quote_text": "全国の医療機関で電子カルテ100%統一化（2030年まで）"
+        },
+        {
+          "title": "AIによる受付システムの導入で診察の待ち時間50%削減",
+          "reason": "「50%削減」という明確な数値目標があり、検証が可能なため。",
+          "sources": ["https://storage.jimin.jp/pdf/sansen27/hirei_azemoto-shogo.pdf"],
+          "quote_text": "AIによる受付システムの導入で診察の待ち時間50%削減"
+        },
+        {
+          "title": "安全保障関連費のGDP比2%程度への維持",
+          "reason": "「GDP比2%」という具体的な数値目標へのコミットであるため。",
+          "sources": ["https://www.yomiuri.co.jp/election/shugiin/2026/YA13XXXXXX000/138981/"],
+          "quote_text": "安全保障関連費の適切な規模はＧＤＰ比2%程度とすべきだ"
+        },
+        {
+          "title": "緊急事態条項の憲法への追加",
+          "reason": "憲法改正という明確な法的行動への賛意を示しており、達成状況が明白であるため。",
+          "sources": ["https://www.yomiuri.co.jp/election/shugiin/2026/YA13XXXXXX000/138981/"],
+          "quote_text": "大災害などで国政選挙を実施できない緊急事態の際、国会議員の任期を延長できるよう憲法に特例規定を追加すべきだという意見に賛成"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "title": "認知症検診の導入や治療強化",
+          "reason": "「推進」「強化」といった抽象的な表現に留まり、具体的な数値基準や法的変更内容が不明確であるため。",
+          "sources": ["https://storage.jimin.jp/pdf/sansen27/hirei_azemoto-shogo.pdf"],
+          "quote_text": "認知症の予防・治療を推進し、健康寿命の延伸を実現します"
+        },
+        {
+          "title": "次世代放射線がん治療の普及",
+          "reason": "「普及」という達成度が不明確な表現であり、具体的なアクションが伴っていないため。",
+          "sources": ["https://storage.jimin.jp/pdf/sansen27/hirei_azemoto-shogo.pdf"],
+          "quote_text": "アクチニウム（Ac-２２５）を用いた次世代放射線がん治療の普及"
+        },
+        {
+          "title": "医療専門職の待遇改善",
+          "reason": "「待遇改善」という表現は具体的な給与改定や法的改正を伴う手段が不明確なため。",
+          "sources": ["https://storage.jimin.jp/pdf/sansen27/hirei_azemoto-shogo.pdf"],
+          "quote_text": "医療専門職の待遇改善と業務環境の整備"
+        },
+        {
+          "title": "給付水準を維持するために負担を増やす",
+          "reason": "政治的な価値観・方向性を示すものであり、具体的な法改正や税率変更のコミットではないため。",
+          "sources": ["https://www.yomiuri.co.jp/election/shugiin/2026/YA13XXXXXX000/138981/"],
+          "quote_text": "給付水準を維持するために負担を増やすべきだ"
+        },
+        {
+          "title": "未成年に見えるキャラクター表現の法律禁止",
+          "reason": "特定の表現物に対する禁止を掲げているが、公約の判定基準である「公共性」や法的な制度の論点として、具体的な立法案（条文案）の明示がないため。",
+          "sources": ["https://shuinsen2026.afee.jp/"],
+          "quote_text": "未成年に見えるキャラクターに対する性的・暴力的な表現がある作品の創作・公開・所持について法律で禁止するべき"
+        }
+      ]
+    }
+  ]
+}

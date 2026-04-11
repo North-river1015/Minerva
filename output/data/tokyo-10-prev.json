@@ -1,0 +1,55 @@
+{
+  "district": "東京10区",
+  "candidates": [
+    {
+      "name": "鈴木隼人",
+      "party": "自由民主党",
+      "manifesto": [
+        {
+          "title": "飲食料品の消費税ゼロ",
+          "reason": "「消費税をゼロにする」という税率の操作を明言しており、実施の可否が客観的に検証可能なため。",
+          "sources": [
+            "https://www.youtube.com/shorts/trxaKuO6nk0"
+          ],
+          "quote_text": "飲食料品の消費税をゼロにしていきます"
+        },
+        {
+          "title": "憲法改正",
+          "reason": "憲法改正という具体的かつ断定的な法的アクションを明示しているため。",
+          "sources": [
+            "https://www.yomiuri.co.jp/election/shugiin/2026/YC84XXXXXX000/135609/"
+          ],
+          "quote_text": "憲法改正：賛成"
+        },
+        {
+          "title": "緊急事態における国会議員の任期延長",
+          "reason": "憲法上の制度変更という具体的かつ検証可能な政治行動を明示しているため。",
+          "sources": [
+            "https://www.yomiuri.co.jp/election/shugiin/2026/YC84XXXXXX000/135609/"
+          ],
+          "quote_text": "緊急事態における国会議員の任期延長：賛成"
+        },
+        {
+          "title": "自衛隊の憲法明記",
+          "reason": "憲法条文への明記という具体的かつ検証可能な法改正プロセスを明示しているため。",
+          "sources": [
+            "https://www.ntv.co.jp/election2024/research/candidate/001669"
+          ],
+          "quote_text": "自衛隊の存在を憲法に明記すること：賛成"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "title": "消費税以外の政策全般",
+          "reason": "「検討」「強化すべき」「目指す」「力を入れる」「取組を抜本的に強化」といった、定性的な意欲や検討段階の表現に留まっており、操作する変数が特定できないか、政治的アクションとして抽象的すぎるため。",
+          "sources": [
+            "https://www.suzukihayato.jp/",
+            "https://www.yomiuri.co.jp/election/shugiin/2026/YC84XXXXXX000/135609/",
+            "https://www.ntv.co.jp/election2024/research/candidate/001669"
+          ],
+          "quote_text": "賃上げ支援策を抜本的に強化すべきだと考えています／外国人政策に関するグランドデザインを描いていきます／子育て支援費を増やす／科学技術費を増やす／医療・介護費を増やす"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "district": "東京7区",
+  "candidates": [
+    {
+      "name": "丸川珠代",
+      "party": "自由民主党",
+      "manifesto": [
+        {
+          "title": "対外情報機関の設置",
+          "reason": "総理官邸への国家情報局創設および対外情報機関の設置という、組織の新規設立という具体的かつ達成度が観測可能な措置であるため。",
+          "sources": ["https://partsa.nikkei.com/parts/ds/shuin2026/pdf/bulletin/237.pdf"],
+          "quote_text": "総理官邸に国家情報局を創設し、 対外情報機関を設置します。"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "title": "賃上げ、投資減税、社会保障改革による手取りの増加",
+          "reason": "「強力に推進」「取り組みます」といった抽象的な意気込みであり、具体的な数値や法的変更の操作が特定されていないため。",
+          "sources": ["https://partsa.nikkei.com/parts/ds/shuin2026/pdf/bulletin/237.pdf"],
+          "quote_text": "社会保障制度改革とあわせて手取りを増やし、 家計のゆとり最優先で政策に取組みます。"
+        },
+        {
+          "title": "ディープテックの事業化・社会実装の加速",
+          "reason": "「加速」という主観的なスローガンであり、具体的な規制緩和や予算措置の詳細が不明。",
+          "sources": ["https://t-marukawa.jp/wp2/wp-content/uploads/2026/01/MX-6151_20260128_113448.pdf"],
+          "quote_text": "ディープテックの事業化・社会実装を港区・渋谷区から加速。"
+        },
+        {
+          "title": "人材育成・リスキリングの強化",
+          "reason": "「強化」という曖昧な表現であり、具体的な法改正や予算規模の提示がないため。",
+          "sources": ["https://prod-cdn.go2senkyo.com/uploads/cms/politician_file/name/2055/93b713c3-9a52-429d-8e0b-39cc93fad820.pdf"],
+          "quote_text": "リスキリングを国主導で強化。"
+        },
+        {
+          "title": "国際秩序の先導",
+          "reason": "外交上の意気込みであり、具体的な法的措置ではないため。",
+          "sources": ["https://prod-cdn.go2senkyo.com/uploads/cms/politician_file/name/2055/93b713c3-9a52-429d-8e0b-39cc93fad820.pdf"],
+          "quote_text": "大国に振り回されない国際秩序を日本が先導します。"
+        },
+        {
+          "title": "大学授業料の無償化",
+          "reason": "「目指します」という意気込みに留まっており、断定的な制度導入のコミットメントではないため。",
+          "sources": ["https://t-marukawa.jp/wp2/wp-content/uploads/2026/01/MX-6151_20260128_113448.pdf"],
+          "quote_text": "大学の授業料2人目までの無償化を目指します。"
+        },
+        {
+          "title": "飲食料品の消費税率0%の実現",
+          "reason": "具体的な税法改正のスケジュールや対案がない状況での「実現します」は、政策実現可能性が極めて低いスローガン的表現のため。",
+          "sources": ["https://t-marukawa.jp/wp2/wp-content/uploads/2026/01/MX-6151_20260128_113448.pdf"],
+          "quote_text": "高市内閣の掲げる「飲食料品の消費税率 0% 」 を早期に実現します。"
+        },
+        {
+          "title": "社会保障制度改革の議論",
+          "reason": "「議論を行います」は手続き的な言及であり、具体的な制度変更のコミットメントではないため。",
+          "sources": ["https://t-marukawa.jp/wp2/wp-content/uploads/2026/01/MX-6151_20260128_113448.pdf"],
+          "quote_text": "社会保障国民会議で開かれた議論を行います。"
+        }
+      ]
+    }
+  ]
+}

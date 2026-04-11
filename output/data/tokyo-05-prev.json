@@ -1,0 +1,67 @@
+{
+  "district": "東京5区",
+  "candidates": [
+    {
+      "name": "若宮健嗣",
+      "party": "自由民主党",
+      "manifesto": [
+        {
+          "title": "防衛関連費のGDP比2%超への増額",
+          "reason": "具体的な数値目標（GDP比2%超）を明示しており、予算措置による達成度が客観的に検証可能であるため。",
+          "sources": ["https://www.yomiuri.co.jp/election/shugiin/2026/YA13XXXXXX000/135676/"],
+          "quote_text": "ＧＤＰ比2%より増やすべきだ"
+        },
+        {
+          "title": "憲法への自衛隊の根拠規定追加",
+          "reason": "憲法改正という具体的かつ法的に確定可能なアクションを明示しているため。",
+          "sources": ["https://www.yomiuri.co.jp/election/shugiin/2026/YA13XXXXXX000/135676/"],
+          "quote_text": "自衛隊の根拠規定。緊急事態条項の創設"
+        },
+        {
+          "title": "憲法への緊急事態条項の創設",
+          "reason": "憲法改正という具体的かつ法的に確定可能なアクションを明示しているため。",
+          "sources": ["https://www.yomiuri.co.jp/election/shugiin/2026/YA13XXXXXX000/135676/"],
+          "quote_text": "自衛隊の根拠規定。緊急事態条項の創設"
+        },
+        {
+          "title": "衆院議員定数の削減",
+          "reason": "公職選挙法等の改正による具体的な数値（定数）の変更アクションであるため。",
+          "sources": ["https://www.yomiuri.co.jp/election/shugiin/2026/YA13XXXXXX000/135676/"],
+          "quote_text": "衆院議員の定数を削減することに賛成ですか、反対ですか。賛成"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "title": "賃上げ促進税制の拡充",
+          "reason": "「拡充」という言葉が曖昧であり、具体的にどの税率や対象要件をどう変更するかのコミットメントが含まれていないため。",
+          "sources": ["https://go2senkyo.com/seijika/124051"],
+          "quote_text": "法人や個人事業主の皆様が利用しやすい制度の拡充に向けて取り組んでまいります。"
+        },
+        {
+          "title": "経済安全保障の強化",
+          "reason": "スローガン的であり、具体的にどの法的措置や規制を導入するのかが不明瞭であるため。",
+          "sources": ["https://ii-seiji.com/representatives/85"],
+          "quote_text": "戦略分野での官民連携で経済安全保障を強化"
+        },
+        {
+          "title": "名目GDP1000兆円を見据えた成長戦略の推進",
+          "reason": "「推進」という表現は行動の意思を示しているものの、具体的な政策手段を特定しておらず、目標への到達度も検証不能であるため。",
+          "sources": ["https://k-wakamiya.com/data/wakamiyakenji_tsushin_No19.pdf"],
+          "quote_text": "名目GDP1000兆円を見据えた成長戦略を力強く推進いたします。"
+        },
+        {
+          "title": "有事を想定したシェルター施設の確保・建設の推進",
+          "reason": "「推進」という表現が使われており、具体的予算措置や法改正などの断定的なコミットメントではないため。",
+          "sources": ["https://ii-seiji.com/representatives/85"],
+          "quote_text": "国民の生命を守るため、有事を想定したシェルター施設の確保・建設を推進。"
+        },
+        {
+          "title": "SNSの規制強化および収益化の規制",
+          "reason": "「規制を強化するべき」「規制するべき」という意見表明に留まっており、どのような法案をいつ提出するかのコミットメントではないため。",
+          "sources": ["https://www.yomiuri.co.jp/election/shugiin/2026/YA13XXXXXX000/135676/"],
+          "quote_text": "弊害を防ぐため、規制を強化するべきだ"
+        }
+      ]
+    }
+  ]
+}

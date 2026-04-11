@@ -1,0 +1,67 @@
+{
+  "district": "東京3区",
+  "candidates": [
+    {
+      "name": "石原宏高",
+      "party": "自由民主党",
+      "manifesto": [
+        {
+          "title": "ガソリンの暫定税率を撤廃",
+          "reason": "「撤廃」という明確な法的ステータスの変更であり、実施の有無が客観的に検証可能であるため。",
+          "sources": ["https://ii-seiji.com/representatives/83"],
+          "quote_text": "ガソリンの暫定税率を撤廃。"
+        },
+        {
+          "title": "高校の授業料・小学校給食の無償化",
+          "reason": "「無償化」という明確な制度導入であり、法令および予算措置として達成が検証可能なため。",
+          "sources": ["https://ii-seiji.com/representatives/83"],
+          "quote_text": "高校の授業料・小学校給食の無償化。"
+        },
+        {
+          "title": "収支報告書に不記載の資金は国庫返納",
+          "reason": "具体的な資金処理のルール変更であり、制度としての運用状況を検証できるため。",
+          "sources": ["https://ii-seiji.com/representatives/83"],
+          "quote_text": "収支報告書に不記載の資金は国庫返納。"
+        },
+        {
+          "title": "防衛関連費のGDP比2%超への増額",
+          "reason": "数値目標（GDP比）を明示した予算増額のコミットメントであるため。",
+          "sources": ["https://www.yomiuri.co.jp/election/shugiin/2026/YA13XXXXXX000/135716/"],
+          "quote_text": "防衛関連費 (Q10): GDP比2%より「増やすべきだ」としています。"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "title": "所得税負担の軽減と年収の壁の引き上げ",
+          "reason": "具体的にどの控除額を何円引き上げるか等の操作変数が不明であり、抽象的なスローガンに留まるため。",
+          "sources": ["https://ii-seiji.com/representatives/83"],
+          "quote_text": "所得税負担を軽減し、年収の壁を引き上げ。"
+        },
+        {
+          "title": "責任ある積極財政による債務残高対GDP比の低下",
+          "reason": "財政規律と経済成長という複数の変数が絡み合う指標であり、政策の結果として捉えるべき目標値であって直接的な手段・コミットメントではないため。",
+          "sources": ["https://ii-seiji.com/representatives/83"],
+          "quote_text": "責任ある積極財政の方針の下、政府債務残高の対GDP比を着実に低下。"
+        },
+        {
+          "title": "GX・DXへの集中投資",
+          "reason": "「集中投資」という表現は予算配分の姿勢を示すに過ぎず、具体的な制度変更や法的措置ではないため。",
+          "sources": ["https://ii-seiji.com/representatives/83"],
+          "quote_text": "GX（洋上風力・次世代太陽電池・水素等）、DX（AI・データセンター等）への集中投資。"
+        },
+        {
+          "title": "安全保障環境の抜本強化",
+          "reason": "「抜本強化」は抽象的なスローガンであり、具体的な法令改正や制度構築を示していないため。",
+          "sources": ["https://ii-seiji.com/representatives/83"],
+          "quote_text": "安全保障環境の激変を踏まえて、防衛力を抜本強化。"
+        },
+        {
+          "title": "子育て支援の強化",
+          "reason": "「強化」は行政の意欲を示す表現であり、具体的な制度や数値が伴わないため。",
+          "sources": ["https://www.ishihara-hirotaka.com/wp-content/uploads/2024/10/%E7%AC%AC50%E5%9B%9E%E8%A1%86%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E7%B7%8F%E9%81%B8%E6%8C%99-%E7%9F%B3%E5%8E%9F%E5%AE%8F%E9%AB%98%E4%BA%8B%E5%8B%99%E6%89%80%E6%94%BF%E7%AD%96%E3%83%81%E3%83%A9%E3%82%B7.pdf"],
+          "quote_text": "子育て支援 を強化。"
+        }
+      ]
+    }
+  ]
+}

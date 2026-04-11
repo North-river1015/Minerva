@@ -1,0 +1,73 @@
+{
+  "district": "東京9区",
+  "candidates": [
+    {
+      "name": "菅原一秀",
+      "party": "自由民主党",
+      "manifesto": [
+        {
+          "title": "食料品の消費税ゼロパーセント実現",
+          "reason": "消費税率という具体的な数値パラメータの変更であり、施行の有無が客観的に検証可能であるため。",
+          "sources": ["https://ii-seiji.com/representatives/89"],
+          "quote_text": "食料品の消費税ゼロパーセント実現！"
+        },
+        {
+          "title": "給付付き税額控除の導入",
+          "reason": "税制上の新規制度設立であり、その導入有無が明確に判定できるため。",
+          "sources": ["https://ii-seiji.com/representatives/89"],
+          "quote_text": "給付付き税額控除実現！"
+        },
+        {
+          "title": "家賃減税の創設",
+          "reason": "新規の税制措置の導入を明確にコミットしているため。",
+          "sources": ["https://ii-seiji.com/representatives/89"],
+          "quote_text": "家賃減税を創設！"
+        },
+        {
+          "title": "憲法改正への自衛隊根拠規定の追加",
+          "reason": "憲法条文への具体的な項目追加という、法的かつ客観的に検証可能なアクションであるため。",
+          "sources": ["https://www.yomiuri.co.jp/election/shugiin/2026/YA13XXXXXX000/137301/"],
+          "quote_text": "SQ 改正・追加すべき具体的な項目：3.自衛隊の根拠規定"
+        },
+        {
+          "title": "憲法改正への緊急事態条項の創設",
+          "reason": "法制度の新規創設に関する具体的なコミットであるため。",
+          "sources": ["https://www.yomiuri.co.jp/election/shugiin/2026/YA13XXXXXX000/137301/"],
+          "quote_text": "SQ 改正・追加すべき具体的な項目：18.緊急事態条項の創設"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "title": "最低賃金を業種年に法改正",
+          "reason": "「業種年」という用語が不明瞭かつ制度設計として具体性を欠くため。",
+          "sources": ["https://ii-seiji.com/representatives/89"],
+          "quote_text": "最低賃金を業種年に法改正！"
+        },
+        {
+          "title": "食料自給率7割",
+          "reason": "目標値を示すのみで、それを達成するための具体的な政策手段（法改正等）が示されていないため。",
+          "sources": ["https://ii-seiji.com/representatives/89"],
+          "quote_text": "食料自給率7割で物価安定へ！"
+        },
+        {
+          "title": "都市農地を守り練馬の野菜等を世界へ",
+          "reason": "具体的な政策的行動が不明なスローガンであるため。",
+          "sources": ["https://ii-seiji.com/representatives/89"],
+          "quote_text": "都市農地を守り練馬の野菜等を世界へ！"
+        },
+        {
+          "title": "地域へのインフラ・病院誘致",
+          "reason": "特定地域への利益誘導に該当するため。",
+          "sources": ["https://ii-seiji.com/representatives/89"],
+          "quote_text": "石神井・関～大泉地域に救急医療を備えた総合病院を誘致！大江戸線大泉学園延伸の国費確保で工事加速！"
+        },
+        {
+          "title": "海外投資家の投資目的での不動産取得を規制",
+          "reason": "「規制」の内容（法律名、対象範囲）が具体的に示されておらず、観測可能なコミットではないため。",
+          "sources": ["https://ii-seiji.com/representatives/89"],
+          "quote_text": "海外投資家の投資目的での不動産取得を規制！"
+        }
+      ]
+    }
+  ]
+}
