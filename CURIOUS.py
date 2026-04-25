@@ -1033,7 +1033,7 @@ def process(district,winner,num,official):
 
 
 if __name__ == "__main__":
-    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
         for district, winners in ALL_WINNERS.items():
             for num, info in winners.items():
                 name = info["name"]
