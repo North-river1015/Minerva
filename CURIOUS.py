@@ -117,7 +117,7 @@ def overlapping (district, num):
    (b) sourcesが複数あるもの
    (c) より具体的な記述のもの
 3. reasonは統合して簡潔に1つにまとめる
-4. sourcesはすべて結合し、重複URLは削除する
+4. sourcesも一つにし、重複URLは削除する
 5. quote_textは最も代表的なもの1つのみ残す（任意で最新ソース優先）
 6. JSON構造は絶対に変更しない（manifesto以外は触らない）
 
@@ -1020,7 +1020,7 @@ def process(district,winner,num,official):
     #research1(district,winner,num)
     #research2(district,winner,num)
     #get_manifesto(district, winner, num)
-    overlapping(district, winner, num)
+    overlapping(district, num)
 
 
 '''if __name__ == "__main__":
