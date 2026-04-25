@@ -47,7 +47,7 @@ def overlapping (district, num):
             print("JSON読み込み失敗",e)
             return
 
-        data_str = json.dumps(data, ensure_ascii=False)
+        data_str = json.dumps(data["manifesto"], ensure_ascii=False)
 
         prompt= """JsonファイルのManifestoの欄を確認し、重複が存在するかをチェックしてください。
         同じ内容の公約がJsonに重複して存在する場合、is_overlappingはTrueです。存在しない場合、is_overlappingはFalseです。
@@ -78,6 +78,7 @@ def overlapping (district, num):
 
 
         print("ai fin")
+        print(response.text)
         try:
             raw = response.text
             cleaned = clean_json_text(raw)
@@ -98,7 +99,7 @@ def overlapping (district, num):
 
         if is_overlapping:
             print(f"重複あり: {district} {num}区")
-            overlapping_prompt= f"""
+            overlapping_prompt= """
 あなたはJSONデータクリーナーです。
 以下のJSONの "manifesto" 配列を処理してください。
 
@@ -117,7 +118,7 @@ def overlapping (district, num):
    (b) sourcesが複数あるもの
    (c) より具体的な記述のもの
 3. reasonは統合して簡潔に1つにまとめる
-4. sourcesも一つにし、重複URLは削除する
+4. sourcesは最も代表的なもの1つのみ残す
 5. quote_textは最も代表的なもの1つのみ残す（任意で最新ソース優先）
 6. JSON構造は絶対に変更しない（manifesto以外は触らない）
 
@@ -125,18 +126,17 @@ def overlapping (district, num):
 - JSON形式のみ出力する
 - 説明文は禁止
 
-【入力データ】
-{data_str}
+
             """
 
             response = safe_generate_content(
                 client=client,
                 model='gemini-3.1-flash-lite-preview',
-                contents=[overlapping_prompt],
+                contents=[overlapping_prompt,data_str],
                 config={"response_mime_type": "application/json"}
         )
             print("呼び出し終了")
-
+            print(response.text)
             
             OUT_DIR = Path("output/final/")
             OUT_DIR.mkdir(parents=True, exist_ok=True)
