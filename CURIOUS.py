@@ -119,7 +119,7 @@ def overlapping (district, num):
        
  
             with open(out_file, "w", encoding="utf-8") as f:
-                json.dump({"urls": response}, f, ensure_ascii=False, indent=2)
+                json.dump({"urls": response.text}, f, ensure_ascii=False, indent=2)
 
             time.sleep(5)
 
@@ -655,6 +655,7 @@ def get_manifesto(district,winner,num):
         
         clean_text = soup.get_text(separator=' ', strip=True)
 
+        clean_text = clean_text[:30000]
         print(clean_text)
 
         
@@ -765,8 +766,6 @@ def filter_manifesto(district,winner,num,input,url):
 - 曖昧な意気込み（例：しっかりと取り組んでまいります）
 - 他者のコメントの引用など、{winner}自身の政策表明とみなせないもの
 
-# Input Data (ウェブサイトの全文)
-{input}
 
 # Task
 上記基準をクリアした「真の公約」のみを抽出し、以下のJSON形式で出力してください。
@@ -952,7 +951,7 @@ JSONとして正しい形で返してください。
         
         #model='gemma-4-31b-it',
         model='gemini-3.1-flash-lite-preview',
-        contents=PROMPT_FILTER,
+        contents=[PROMPT_FILTER,input],
         config={"response_mime_type": "application/json"}
     )
     print("呼び出し終了")
