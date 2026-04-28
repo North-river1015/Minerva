@@ -891,8 +891,8 @@ def get_manifesto(district,winner,num):
 
             print(f"  -> 政策ページを確認。抽出を実行します。")
 
-            clean_text
             organized_text = organize_text(clean_text)
+
             print(organized_text)
 
             manifesto_url.append(url)
@@ -920,14 +920,13 @@ def get_manifesto(district,winner,num):
 
 
 def organize_text(text):
+    print("organize text")
     prompt = f"""
     以下のテキストを、政治家の政策抽出に適した形式に整理してください。
     1. 政策ごとに段落を分ける
     2. 不要な空白や改行を削除する
     3. 政策ではなくヘッダーや自己紹介などの部分が存在すればカットしてください
- 
-    テキスト:
-    {text}
+
 
     応答は、整理されたテキストのみを返してください。解説や挨拶、Markdown装飾（```json等）は一切禁止します。
     """
@@ -935,10 +934,11 @@ def organize_text(text):
     response = safe_generate_content(
         client=client,
         model='gemma-4-31b-it',
-        contents=[prompt],
-        config={"response_mime_type": "json"}
+        contents=[prompt,text],
+        config={"response_mime_type": "text/plain"}
     )
-
+    print("organize text fin")
+    print(response.text)
     return response.text.strip()
 
 
