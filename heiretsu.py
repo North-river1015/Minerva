@@ -305,19 +305,6 @@ def safe_generate_content(client, model, contents, config):
 
 save_lock = threading.Lock()
 
-def wait_for_research(client, interaction_id):
-    while True:
-        interaction = client.interactions.get(interaction_id)
-        if interaction.status == "completed":
-            print("research completed")
-            final_result = interaction.outputs[-1].text
-            return final_result
-
-        elif interaction.status == "failed":
-            print(f"Research failed: {interaction.error}")
-            break
-        time.sleep(10)
-
 def save_append_data(out_file, district, num, winner, new_manifesto, new_not_manifesto):
     with save_lock: 
         data = {"district": f"{district}{num}区", "candidates": [{"name": winner, "party": "", "manifesto": [], "not-manifesto": []}]}
@@ -360,152 +347,6 @@ ALL_WINNERS = {
 }
 
 
-'''    
- 3: {
-            "name": "石原宏高",
-            "official": "https://www.ishihara-hirotaka.com/",
-            "party": "自由民主党"
-        },
-      4: {
-            "name": "平将明",
-            "official": "https://www.taira-m.jp/",
-            "party": "自由民主党"
-        },
-        5: {
-            "name": "若宮健嗣",
-            "official": "https://k-wakamiya.com/",
-            "party": "自由民主党"
-        },
-        6: {
-            "name": "畦元将吾",
-            "official": "https://azemoto.jp/",
-            "party": "自由民主党"
-        },
-        7: {
-            "name": "丸川珠代",
-            "official": "https://t-marukawa.jp/",
-            "party": "自由民主党"
-        },
-        8: {
-            "name": "門寛子",
-            "official": "https://kado-hiroko.jp/",
-            "party": "自由民主党"
-        },
-        9: {
-            "name": "菅原一秀",
-            "official": "https://isshu.online/",
-            "party": "自由民主党"
-        },
-        10: {
-            "name": "鈴木隼人",
-            "official": "https://www.suzukihayato.jp/",
-            "party": "自由民主党"
-        },
-        11: {
-            "name": "下村博文",
-            "official": "https://www.hakubun.biz/",
-            "party": "自由民主党"
-        },
-        12: {
-            "name": "高木啓",
-            "official": "https://takagi-kei.com/",
-            "party": "自由民主党"
-        },
-        13: {
-            "name": "土田慎",
-            "official": "http://www.tsuchida-shin.jp/",
-            "party": "自由民主党"
-        },
-        14: {
-            "name": "松島みどり",
-            "official": "https://www.matsushima-midori.jp/",
-            "party": "自由民主党"
-        },
-        15: {
-            "name": "大空幸星",
-            "official": "https://ozorakoki.com/",
-            "party": "自由民主党"
-        },
-        16: {
-            "name": "大西洋平",
-            "official": "https://youhei.me/",
-            "party": "自由民主党"
-        },
-        17: {
-            "name": "平沢勝栄",
-            "official": "https://hirasawa.net/",
-            "party": "自由民主党"
-        },
-        18: {
-            "name": "福田かおる",
-            "official": "https://fukuda-kaoru.com/",
-            "party": "自由民主党"
-        },
-        19: {
-            "name": "松本洋平",
-            "official": "https://matsumoto-yohei.com/",
-            "party": "自由民主党"
-        },
-        20: {
-            "name": "木原誠二",
-            "official": "https://kiharaseiji.com/",
-            "party": "自由民主党"
-        },
-        21: {
-            "name": "小田原潔",
-            "official": "https://odawarakiyoshi.jp/",
-            "party": "自由民主党"
-        },
-        22: {
-            "name": "伊藤達也",
-            "official": "https://www.tatsuyaito.com/",
-            "party": "自由民主党"
-        },
-        23: {
-            "name": "川松真一朗",
-            "official": "https://kawamatsu2011.com/",
-            "party": "自由民主党"
-        },
-        24: {
-            "name": "萩生田光一",
-            "official": "https://www.ko-1.jp/",
-            "party": "自由民主党"
-        },
-        25: {
-            "name": "井上信治",
-            "official": "https://www.inoue-s.jp/",
-            "party": "自由民主党"
-        },
-        26: {
-            "name": "今岡植",
-            "official": "https://imaoka-ueki.com/",
-            "party": "自由民主党"
-        },
-        27: {
-            "name": "黒崎祐一",
-            "official": "https://kuro1.jp/",
-            "party": "自由民主党"
-        },
-        28: {
-            "name": "安藤高夫",
-            "official": "https://andotakao.jp/",
-            "party": "自由民主党"
-        },
-        29: {
-            "name": "長澤興祐",
-            "official": "http://www.kosukenagasawa.com/",
-            "party": "自由民主党"
-        },
-        30: {
-            "name": "長島昭久",
-            "official": "https://nagashima30.com/",
-            "party": "自由民主党"
-        }
-
-        '''
-
-
-
 
 
 def clean_json_text(text):
@@ -513,254 +354,6 @@ def clean_json_text(text):
     text = re.sub(r'^```(json)?\s*', '', text)
     text = re.sub(r'\s*```$', '', text)
     return text
-
-
-def research1(district,winner,num,official):
-    print("research1 started")
-    #official="https://miki-yamada.com/"
-    PROMPT = f"""
-    1. 応答の開始から終了まで、一切の説明文、挨拶、レポート、Markdown装飾（```json等）を禁止します。
-    2. 出力は、以下のJSONフォーマットに従った純粋なデータ構造のみとしてください。
-    3. もしレポートや文章が含まれた場合、システムエラーとして処理されます。
-    
-
-    # Role
-    あなたは政治学とデータ分析に精通した、極めて執念深いJSONデータ抽出エンジンです。
-    指定された政治家の政策を含んだページのURLを最低20個抽出してください。
-    後で選別するため、少しでも「具体的」と感じるものはすべて含めてください。質より量を求めています。
-    「実現可能性」や「重要度」をあなたが判断して**切り捨てることを厳禁**します。
-    具体的であれば、たとえ小さな項目であっても全てリストアップしてください。複数ページのURLを取り出すだけで、満足しないでください。最低でも30個のリンクを期待します。しつこく執念深く検索を続けてください。
-   
-   「政策ページ」とは以下を全て含む：
-        明示的な政策・公約ページ
-        活動報告・ブログ・お知らせ内で具体的施策に言及しているページ
-        記者会見・演説・インタビュー記事
-        PDF形式の政策資料・提言書
-        予算・法案・制度に関する具体的記述があるページ
-    政策と明記されていないページでも、具体的施策・数値・制度・予算・法案への言及があれば必ず含めること
-
-    # Task
-    公式サイト{official}のみを対象にクロールを行う。
-    1. Google Search Groundingを使用し、{official}内で、政策や公約が記載されている可能性のあるページを**全て**クロールしてください。
-
-    「公約」とのページ以外にも、ブログの欄などに政策がある可能性もあるため、公式ウェブサイトのリンクから政策がある可能性があるページをクロールしてください。公式ウェブサイトに関してはサイトマップを執念深く確認してください。
-    
-    2. 以下のクエリを一つずつGoogle search groundingを使用し検索すること。その上で、見つけたページに政策が含まれている場合はURLを保存すること。
-
-    経済・税制・物価高 after:2025-03-30 site:{official}
-    外交・安保・憲法 after:2025-03-30 site:{official}
-    教育・子育て・デジタル after:2025-03-30 site:{official}
-    厚生労働・医療・地域課題 after:2025-03-30 site:{official}
-    - "{winner} 政策 after:2025-03-30 site:{official}"
-    - "{winner} 公約 after:2025-03-30 site:{official}"
-    - "{winner} マニフェスト site:{official}"
-    - "site:{official} 政策"
-    - "site:{official} 公約"
-
-    3.以上のクエリ検索終了後、独自に site:{official} を含めた検索クエリを20個以上作ってください。一つずつGoogle search groundingを使用し検索すること。
-    その上で、見つけたページに政策が含まれている場合はURLを保存すること。
-    
-
-    
-
-    4. 抽出したURLを、必ず以下のJSONフォーマットの形式でリスト化してください。発見したURLは全てJsonにまとめてください。
-    5. 今回の選挙・選挙区の考察や挨拶などは不要のため、プロンプトに対しJsonのみで返答してください。レポートを求めていません。あくまでURLの抽出が目的です。
-    6. 「似たような内容だから」という理由でURLを統合することを厳禁します。URLが異なれば、それは別のソースとして全て出力してください。
-
-   
-    
-# Target
-    対象議員：{winner}
-    対象期間：2026年2月の衆議院選挙に際して、{winner}が{official}に発表したもののリンクを検索してください。
-    
-
-
-
-JSONフォーマット：
-
-{{
-  "urls": [
-    "URL1",
-    "URL2",
-    "URL3"
-  ]
-}}
-
-
-※重要：３つ以上ある際は全てjsonで乗せてください。
-※重要：キー名に日本語や具体的な公約内容を入れず、必ず上記の見本と同じキー名（urls）を使用してください。
-見つかった全てのURLを、上記のJSONと同じ構造でリスト内に追加してください。
-JSONとして正しい形で返してください。
-最低でも20個のURLを返してください。
-    """
-
-
-
-    interaction = client.interactions.create(
-        input=PROMPT,
-        agent='deep-research-pro-preview-12-2025',
-        background=True
-    )
-
-    print(f"started researching {winner} in {district} {num} district")
-    interaction_id = interaction.id
-    final_result = wait_for_research(client,interaction_id)
-
-    OUT_DIR = Path("output/draftresearch/")
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    out_file = OUT_DIR / f"{district}-{num:02d}-final.json"
-            
-
-    try:
-        new_data = json.loads(clean_json_text(final_result))
-        new_urls = new_data.get("urls", [])
-    except Exception as e:
-        print(f"JSON parse error: {e}")
-        new_urls = []
-
-    OUT_DIR = Path("output/draftresearch/")
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    out_file = OUT_DIR / f"{district}-{num:02d}-final.json"
-
-
-    with save_lock:
-        existing_urls = []
-        if out_file.exists():
-            with open(out_file, "r", encoding="utf-8") as f:
-                try:
-                    existing_data = json.load(f)
-                    existing_urls = existing_data.get("urls", [])
-                except Exception as e:
-                    print(f"File load error: {e}")
-                    existing_urls = []
-
-       
-        combined_urls = list(set(existing_urls + new_urls))
-
- 
-        with open(out_file, "w", encoding="utf-8") as f:
-            json.dump({"urls": combined_urls}, f, ensure_ascii=False, indent=2)
-
-    print(f"New URLs found: {len(new_urls)}")
-    print("research 1 finished")
-
-     
-
-
-
-def research2(district,winner,num):
-    print("research 2 started")
-    PROMPT = f"""
-    1. 応答の開始から終了まで、一切の説明文、挨拶、レポート、Markdown装飾（```json等）を禁止します。
-    2. 出力は、以下のJSONフォーマットに従った純粋なデータ構造のみとしてください。
-    3. もしレポートや文章が含まれた場合、システムエラーとして処理されます。
-    
-    # Role
-    あなたは政治学とデータ分析に精通した、極めて執念深いJSONデータ抽出エンジンです。
-    指定された政治家の政策を含んだページのURLを抽出してください。
-    後で選別するため、少しでも「具体的」と感じるものはすべて含めてください。
-    「実現可能性」や「重要度」をあなたが判断して**切り捨てることを厳禁**します。
-    具体的であれば、たとえ小さな項目であっても全てリストアップしてください。複数ページのURLを取り出すだけで、満足しないでください。しつこく執念深く検索を続けてください。
-   
-    # Task
-    1. Google Search Groundingを使用し、対象者の政策や公約が記載されている可能性のあるページを**全て**クロールしてください。
-    なお、{winner}のNote.comをafter:2025-03-30で検索した際に、対象者のNoteアカウントが見つかった場合は、Note.comも同様に分析してください。
-    また、{winner}のブログをafter:2025-03-30で検索した際に、対象者のブログが見つかった場合は、ブログも同様に分析してください。
-
-    対象者の公式ウェブサイトは確認しないでください。
-    
-    2. 検索クエリを20個以上作ってください。その際、以下のクエリを必ず含めること。
-
-    経済・税制・物価高 after:2025-03-30
-    外交・安保・憲法 after:2025-03-30
-    教育・子育て・デジタル after:2025-03-30
-    厚生労働・医療・地域課題 after:2025-03-30
-    - "{winner} 政策 after:2025-03-30"
-    - "{winner} 公約 after:2025-03-30"
-    - "{winner} マニフェスト"
-    - "{winner} ブログ 政策"
-    - "{winner} note 政策"
-    - "{winner} インタビュー 政策"
-    - "{winner} NHK アンケート"
-    - "{winner} 朝日新聞 候補者アンケート"
-
-    3. 抽出したURLを、必ず以下のJSONフォーマットの形式でリスト化してください。発見したURLは全てJsonにまとめてください。
-    4. 今回の選挙・選挙区の考察や挨拶などは不要のため、プロンプトに対しJsonのみで返答してください。レポートを求めていません。あくまでURLの抽出が目的です。
-    5. 「似たような内容だから」という理由でURLを統合することを厳禁します。URLが異なれば、それは別のソースとして全て出力してください。
-
-    - JSON以外の説明文、挨拶、Markdownの装飾は一切含めず、純粋なJSON文字列のみを返してください。
-    - プロフィールや挨拶などは省いてください。
-
-
-
-    
-# Target
-    対象議員：{winner}
-    対象期間：2026年2月の衆議院選挙に際して、{winner}が発表した政策内容をソースとしてください。
-    
-
-
-
-JSONフォーマット：
-
-{{
-  "urls": [
-    "URL1",
-    "URL2",
-    "URL3"
-  ]
-}}
-
-
-※重要：３つ以上ある際は全てjsonで乗せてください。
-※重要：キー名に日本語や具体的な公約内容を入れず、必ず上記の見本と同じキー名（urls）を使用してください。
-見つかった全てのURLを、上記のJSONと同じ構造でリスト内に追加してください。
-JSONとして正しい形で返してください。
-    """
-
-
-
-    interaction = client.interactions.create(
-        input=PROMPT,
-        agent='deep-research-pro-preview-12-2025',
-        background=True
-    )
-
-    print(f"started researching {winner} in {district} {num} district")
-
-    interaction_id = interaction.id
-    final_result= wait_for_research(client,interaction_id)
-
-    OUT_DIR = Path("output/draftresearch/")
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    out_file = OUT_DIR / f"{district}-{num:02d}-final.json"
-            
-    try:
-        new_data = json.loads(clean_json_text(final_result))
-        new_urls = new_data.get("urls", [])
-    except Exception as e:
-        new_urls = []
-
-
-    if out_file.exists():
-        with open(out_file, "r", encoding="utf-8") as f:
-            try:
-                existing_data = json.load(f)
-                existing_urls = existing_data.get("urls", [])
-            except Exception as e:
-                existing_urls = []
-    else:
-        existing_urls = []
-
-    combined_urls = list(set(existing_urls + new_urls))
-
-
-    with open(out_file, "w", encoding="utf-8") as f:
-        json.dump({"urls": combined_urls}, f, ensure_ascii=False, indent=2)
-
-    print(f"New URLs found: {len(new_urls)}")
-    print("research 2 finished")
-
 
 
 def get_manifesto(district,winner,num,party):
@@ -792,28 +385,27 @@ def get_manifesto(district,winner,num,party):
 
 
     manifesto_url=[]
-
-    for url in urls:
+    def process_url(url):
         print(f"  -> チェック中: {url}")
 
         if url.lower().endswith(('.pdf', '.doc', '.docx', '.xlsx', '.ppt', '.pptx')):
             print(f"  -> スキップ（PDF/文書ファイル）")
-            continue
+            return
 
         start = time.time()
         try:
             print(f"  -> ページを取得しています: {url}")
             res = safe_request_get(url)
-           
+            
 
 
         except Exception as e:
             print(f"  -> ページ取得失敗: {url} | {e}")
 
-            continue
+            return
         
 
- 
+
         
         date=find_date(res.text)
         if date is not None:
@@ -821,7 +413,7 @@ def get_manifesto(district,winner,num,party):
 
             if year < 2025:
                 print(f"  -> スキップ（{year}年のページ）: {url}")
-                continue
+                return
         
         else:
             print(f"  -> 日付が特定できませんでした（判定を続行）: {url}")
@@ -830,7 +422,7 @@ def get_manifesto(district,winner,num,party):
 
         if "text/html" not in res.headers.get("Content-Type", ""):
             print("  -> HTML以外なのでスキップ:", res.headers.get("Content-Type"))
-            continue
+            return
         print("PAGE 取れた")
         soup = BeautifulSoup(res.content, 'html.parser')
         for script in soup(["script", "style"]):
@@ -846,9 +438,9 @@ def get_manifesto(district,winner,num,party):
         prompt= f"""初めにページが{winner}についてのページか考えてください。ページが{winner}についてではなければFalseと返しここで考えを止めてください,{winner}についてであればTrueと返してください。
         {winner}についてである、かつページが2026年以前のものであれば、Falseと返してください。{winner}についてである、さらに2026年であれば、入力されたページの全文を読み込み、公約について少しでも書いているページか判断してください。
     公約を書いていればTrue,書いていなければFalseと返答してください。なお、政策は存在するが、ページではなくメニューページの場合もFalseとしてください。
- 
+
     応答は必ず以下のJSON形式のみとし、一切の解説や挨拶、Markdown装飾（```json 等）を禁止します。
-    
+
     {{"is_policy": true}} または {{"is_policy": false}}
 
     """
@@ -859,7 +451,7 @@ def get_manifesto(district,winner,num,party):
             contents=[prompt, clean_text],
             config={
         "response_mime_type": "application/json",
-       
+        
         "response_schema": {
             "type": "OBJECT",
             "properties": {
@@ -884,9 +476,9 @@ def get_manifesto(district,winner,num,party):
             elif isinstance(val, str):
                 is_policy = val.lower() == "true"
             #else:
-               # is_policy = False
-      
-      
+                # is_policy = False
+        
+        
         except Exception as e:
             is_policy = False
 
@@ -908,15 +500,17 @@ def get_manifesto(district,winner,num,party):
                 new_manifesto = candidate.get("manifesto", [])
                 new_not_manifesto = candidate.get("not-manifesto", [])
                 
-         
-                save_append_data(out_file, district, num, winner, new_manifesto, new_not_manifesto)
-                print(f"  -> {url} の保存完了！")
+                with save_lock:
+                    save_append_data(out_file, district, num, winner, new_manifesto, new_not_manifesto)
+                    print(f"  -> {url} の保存完了！")
         elif not is_policy:
-            continue
+            return
         else:
             print("format function has error, response is not True or False")
             print(response.text)
 
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+        executor.map(process_url, urls)
     print(f"finished {district} {num} district")
     print(manifesto_url)
 
@@ -944,6 +538,8 @@ def organize_text(text):
     print("organize text fin")
     print(response.text)
     return response.text.strip()
+
+
 
 
 def filter_manifesto(district,winner,num,input,url):
