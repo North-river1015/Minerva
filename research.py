@@ -39,7 +39,7 @@ load_dotenv()
 #また別の機会にします
 def overlapping (district, num):
     
-    manifesto_file = Path(f"output/finaldata/{district}-{num:02d}-final.json")
+    manifesto_file = Path(f"output/final/{district}-{num:02d}-overlapping.json")
     print("overlapping start", manifesto_file.exists())
     with open(manifesto_file, "r", encoding="utf-8") as f:
         try:
@@ -52,6 +52,128 @@ def overlapping (district, num):
         data_str = json.dumps(data["candidates"][0]["manifesto"], ensure_ascii=False)
 
         prompt= """JsonファイルのManifestoの欄を確認し、重複が存在するかをチェックしてください。
+        同じ内容の公約がJsonに重複して存在する場合、is_overlappingはTrueです。存在しない場合、is_overlappingはFalseです。
+        同じ文字でなくとも内容が同じであれば重複と見做してください。
+        応答は必ず以下のJSON形式のみとし、一切の解説や挨拶、Markdown装飾（```json 等）を禁止します。
+        
+        {"is_overlapping": true} または {"is_overlapping": false}
+
+        """
+
+
+        print("AI")
+        response = safe_generate_content(
+            client=client,
+            model='gemini-3.1-flash-lite-preview',
+            contents=[prompt, data_str],
+            config={
+        "response_mime_type": "application/json",
+        
+        "response_schema": {
+            "type": "OBJECT",
+            "properties": {
+                "is_overlapping": {"type": "BOOLEAN"} 
+            },
+            "required": ["is_overlapping"]
+        }
+    }
+        )
+
+
+        print("ai fin")
+        print(response.text)
+        try:
+            raw = response.text
+            cleaned = clean_json_text(raw)
+            json_text = extract_json(cleaned)
+            res_data = json.loads(json_text)
+
+            val = res_data.get("is_overlapping")
+            if isinstance(val, bool):
+                is_overlapping = val
+            elif isinstance(val, str):
+                is_overlapping = val.lower() == "true"
+            #else:
+                # is_policy = False
+        
+        
+        except Exception as e:
+            is_overlapping = False
+
+        if is_overlapping:
+            print(f"重複あり: {district} {num}区")
+            overlapping_prompt= """
+あなたはJSONデータクリーナーです。
+以下のJsonを処理してください。
+
+【目的】
+重複している公約を統合し、冗長なデータを削除する。
+
+【重複判定ルール】
+- titleが完全一致するものは同一とする
+- titleが意味的に同じ（表記ゆれ・略称・同義）ものも同一とする
+  例：「憲法への自衛隊明記」と「憲法改正による自衛隊明記」
+
+【統合ルール】
+1. 各グループから1件だけ残す
+2. 残す基準は以下の優先順：
+   (a) sourcesの情報がより新しいもの
+   (b) sourcesが複数あるもの
+   (c) より具体的な記述のもの
+3. reasonは統合して簡潔に1つにまとめる
+4. sourcesは最も代表的なもの1つのみ残す
+5. quote_textは最も代表的なもの1つのみ残す（任意で最新ソース優先）
+6. JSON構造は絶対に変更しない（manifesto以外は触らない）
+
+【出力ルール】
+- JSON形式のみ出力する
+- 説明文は禁止
+
+
+            """
+
+            response = safe_generate_content(
+                client=client,
+                model='gemini-3.1-flash-lite-preview',
+                contents=[overlapping_prompt,data_str],
+                config={"response_mime_type": "application/json"}
+        )
+
+
+        
+            print("呼び出し終了")
+            print(response.text)
+            
+
+
+            OUT_DIR = Path("output/final/")
+            OUT_DIR.mkdir(parents=True, exist_ok=True)
+            out_file = OUT_DIR / f"{district}-{num:02d}-overlapping.json"
+            
+            result = json.loads(clean_json_text(response.text))
+            print(result)
+
+            data["candidates"][0]["manifesto"] = result
+            
+          # with open(out_file, "w", encoding="utf-8") as f:
+           #     json.dump({"manifesto": result}, f, ensure_ascii=False, indent=2)
+
+            with open(out_file, "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+            time.sleep(5)
+    with open(manifesto_file, "r", encoding="utf-8") as f:
+        try:
+            data = json.load(f)
+
+        except Exception as e:
+            print("JSON読み込み失敗",e)
+            return
+
+        data_str = json.dumps(data["candidates"][0]["not-manifesto"], ensure_ascii=False)
+
+        prompt= """Jsonファイルのnot-manifestoの欄を確認し、重複が存在するかをチェックしてください。
         同じ内容の公約がJsonに重複して存在する場合、is_overlappingはTrueです。存在しない場合、is_overlappingはFalseです。
         応答は必ず以下のJSON形式のみとし、一切の解説や挨拶、Markdown装飾（```json 等）を禁止します。
         
@@ -152,7 +274,7 @@ def overlapping (district, num):
             result = json.loads(clean_json_text(response.text))
             print(result)
 
-            data["candidates"][0]["manifesto"] = result
+            data["candidates"][0]["not-manifesto"] = result
             
           # with open(out_file, "w", encoding="utf-8") as f:
            #     json.dump({"manifesto": result}, f, ensure_ascii=False, indent=2)
