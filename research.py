@@ -888,12 +888,16 @@ def get_manifesto(district,winner,num):
 
 
         if is_policy:
+
             print(f"  -> 政策ページを確認。抽出を実行します。")
-  
+
+            clean_text
+            organized_text = organize_text(clean_text)
+            print(organized_text)
 
             manifesto_url.append(url)
         
-            extracted_data = filter_manifesto(district, winner, num, clean_text, url)
+            extracted_data = filter_manifesto(district, winner, num, organized_text, url)
             
             if extracted_data and "candidates" in extracted_data:
                 candidate = extracted_data["candidates"][0]
@@ -915,7 +919,27 @@ def get_manifesto(district,winner,num):
 
 
 
+def organize_text(text):
+    prompt = f"""
+    以下のテキストを、政治家の政策抽出に適した形式に整理してください。
+    1. 政策ごとに段落を分ける
+    2. 不要な空白や改行を削除する
+    3. 政策ではなくヘッダーや自己紹介などの部分が存在すればカットしてください
+ 
+    テキスト:
+    {text}
 
+    応答は、整理されたテキストのみを返してください。解説や挨拶、Markdown装飾（```json等）は一切禁止します。
+    """
+    
+    response = safe_generate_content(
+        client=client,
+        model='gemma-4-31b-it',
+        contents=[prompt],
+        config={"response_mime_type": "json"}
+    )
+
+    return response.text.strip()
 
 
 def filter_manifesto(district,winner,num,input,url):
@@ -1155,7 +1179,8 @@ def process(district,winner,num,official):
       #  concurrent.futures.wait([future1, future2])
     #research1(district,winner,num)
     #research2(district,winner,num)
-    #get_manifesto(district, winner, num)
+    get_manifesto(district, winner, num)
+    overlapping(district, num)
     overlapping(district, num)
 
 
