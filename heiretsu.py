@@ -39,7 +39,7 @@ load_dotenv()
 #また別の機会にします
 def overlapping (district, num):
     
-    manifesto_file = Path(f"output/finaldata/{district}-{num:02d}-final.json")
+    manifesto_file = Path(f"output/fin/{district}-{num:02d}-final.json")
     print("overlapping start", manifesto_file.exists())
     with open(manifesto_file, "r", encoding="utf-8") as f:
         try:
@@ -146,7 +146,7 @@ def overlapping (district, num):
             
 
 
-            OUT_DIR = Path("output/finaldata/")
+            OUT_DIR = Path("output/fin/")
             OUT_DIR.mkdir(parents=True, exist_ok=True)
             out_file = OUT_DIR / f"{district}-{num:02d}-final.json"
             
@@ -267,7 +267,7 @@ def overlapping (district, num):
             
 
 
-            OUT_DIR = Path("output/finadata/")
+            OUT_DIR = Path("output/fin/")
             OUT_DIR.mkdir(parents=True, exist_ok=True)
             out_file = OUT_DIR / f"{district}-{num:02d}-final.json"
             
@@ -357,7 +357,7 @@ def clean_json_text(text):
 
 
 def get_manifesto(district,winner,num,party):
-    out_file = Path(f"output/finaldata/{district}-{num:02d}-final.json")
+    out_file = Path(f"output/fin/{district}-{num:02d}-final.json")
     out_file.parent.mkdir(parents=True, exist_ok=True)
     final_data = {
         "district": f"東京{num}区",
