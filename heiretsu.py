@@ -510,7 +510,7 @@ def get_manifesto(district,winner,num,party):
             print("format function has error, response is not True or False")
             print(response.text)
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
         executor.map(process_url, urls)
     print(f"finished {district} {num} district")
     print(manifesto_url)
@@ -819,13 +819,15 @@ def process(district,winner,num,official,party):
 
 if __name__ == "__main__":
     with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
-        futures=[]
+        futures = []
         for district, winners in ALL_WINNERS.items():
             for num, info in winners.items():
                 name = info["name"]
                 official = info["official"]
-                party= info["party"]
-                executor.submit(process, district, name, num, official,party)
+                party = info["party"]
+                # 修正: futureを変数に入れ、futuresリストに追加（append）します
+                future = executor.submit(process, district, name, num, official, party)
+                futures.append(future)
 
         for future in concurrent.futures.as_completed(futures):
             try:
