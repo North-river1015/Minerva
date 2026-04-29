@@ -120,7 +120,7 @@ def overlapping (district, num):
    (a) sourcesの情報がより新しいもの
    (b) sourcesが複数あるもの
    (c) より具体的な記述のもの
-3. reasonは統合して簡潔に1つにまとめる(統合の有無は書かなくてよい)
+3. reasonは統合して簡潔に1つにまとめる(統合の有無や理由は書かなくてよい。なぜ公約と言えるかの理由を書くこと)
 4. sourcesは最も代表的なもの1つのみ残す
 5. quote_textは最も代表的なもの1つのみ残す（任意で最新ソース優先）
 6. JSON構造は絶対に変更しない（manifesto以外は触らない）
@@ -234,6 +234,7 @@ def overlapping (district, num):
 - titleが完全一致するものは同一とする
 - titleが意味的に同じ（表記ゆれ・略称・同義）ものも同一とする
   例：「憲法への自衛隊明記」と「憲法改正による自衛隊明記」
+- カテゴリは同じ（物価高対策、安全保障など）であるが内容が異なる際は統合しないでください。
 
 【統合ルール】
 1. 各グループから1件だけ残す
@@ -241,7 +242,7 @@ def overlapping (district, num):
    (a) sourcesの情報がより新しいもの
    (b) sourcesが複数あるもの
    (c) より具体的な記述のもの
-3. reasonは統合して簡潔に1つにまとめる(統合の有無は書かなくてよい)
+3. reasonは統合して簡潔に1つにまとめる(統合の有無や理由は書かなくてよい。なぜ公約と言えないかの理由を書くこと)
 4. sourcesは最も代表的なもの1つのみ残す
 5. quote_textは最も代表的なもの1つのみ残す（任意で最新ソース優先）
 6. JSON構造は絶対に変更しない（not-manifesto以外は触らない）
@@ -351,7 +352,11 @@ ALL_WINNERS = {
             "official": "https://www.miki-yamada.com/",
             "party": "自由民主党"
         },
-
+        2: {
+            "name": "辻清人",
+            "official": "https://k-tsuji.jp/",
+            "party": "自由民主党"
+        }
     }
 }
 
@@ -844,9 +849,8 @@ def get_manifesto(district,winner,num,party):
 
         
         print("AI")
-        prompt= f"""初めにページが{winner}についてのページか考えてください。ページが{winner}についてではなければFalseと返しここで考えを止めてください,{winner}についてであればTrueと返してください。
-        {winner}についてである、かつページが2026年以前のものであれば、Falseと返してください。{winner}についてである、さらに2026年であれば、入力されたページの全文を読み込み、公約について少しでも書いているページか判断してください。
-    公約を書いていればTrue,書いていなければFalseと返答してください。なお、政策は存在するが、ページではなくメニューページの場合もFalseとしてください。
+        prompt= f"""初めにページが{winner}についてのページか考えてください。ページが{winner}についてではなければFalseと返しここで考えを止めてください。{winner}についてであれば、入力されたページの全文を読み込み、公約について少しでも書いているページか判断してください。
+    公約を書いていればTrue,書いていなければFalseと返答してください。なお、政策は存在するが、ページではなくメニューページや過去の実績について書いてある場合もFalseとしてください。
  
     応答は必ず以下のJSON形式のみとし、一切の解説や挨拶、Markdown装飾（```json 等）を禁止します。
     
@@ -946,7 +950,7 @@ def organize_text(text):
         config={"response_mime_type": "text/plain"}
     )
     print("organize text fin")
-    print(response.text)
+
     return response.text.strip()
 
 
