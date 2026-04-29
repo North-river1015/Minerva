@@ -338,14 +338,15 @@ ALL_WINNERS = {
             "official": "https://www.miki-yamada.com/",
             "party": "自由民主党"
         },
-        2: {
-            "name": "辻清人",
-            "official": "https://k-tsuji.jp/",
-            "party": "自由民主党"
-        },
+
     }
 }
 
+'''        2: {
+            "name": "辻清人",
+            "official": "https://k-tsuji.jp/",
+            "party": "自由民主党"
+        }, '''
 
 
 
