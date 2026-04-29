@@ -904,14 +904,15 @@ def get_manifesto(district,winner,num,party):
         
             extracted_data = filter_manifesto(district, winner, num, organized_text, url)
             
-       
-            if extracted_data and "candidates" in extracted_data:
-                candidate = extracted_data["candidates"][0]
-                # ここで save_append_data を呼ぶのではなく、final_data に溜める
-                final_data["candidates"][0]["manifesto"].extend(candidate.get("manifesto", []))
-                final_data["candidates"][0]["not-manifesto"].extend(candidate.get("not-manifesto", []))
-                print(f"  -> {url} のデータをメモリに追加しました")
-
+            if extracted_data:
+            # AIのレスポンスから直接取得する
+                manifesto_list = extracted_data.get("manifesto", [])
+                not_manifesto_list = extracted_data.get("not-manifesto", [])
+                
+                final_data["candidates"][0]["manifesto"].extend(manifesto_list)
+                final_data["candidates"][0]["not-manifesto"].extend(not_manifesto_list)
+                print(f"  -> {url} のデータをメモリに追加しました（公約: {len(manifesto_list)}件）")
+           
 
         elif not is_policy:
             continue
@@ -1022,8 +1023,7 @@ JSONとして正しい形で返してください。
 
 
 
-
-- sourcesを勝手に「提供テキスト」などと捏造せず、必ずurlを記載してください。
+- sources フィールドには、必ず解析対象として入力されたURL（{url}）を、一字一句変えずにそのままフルパスで記載してください。
 
 # JSONフォーマット
 
