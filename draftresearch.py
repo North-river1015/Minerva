@@ -904,15 +904,15 @@ def get_manifesto(district,winner,num,party):
         
             extracted_data = filter_manifesto(district, winner, num, organized_text, url)
             
+       
             if extracted_data and "candidates" in extracted_data:
-                candidate_data = extracted_data["candidates"][0]
-                new_m = candidate_data.get("manifesto", [])
-                new_nm = candidate_data.get("not-manifesto", [])
-                
-                final_data["candidates"][0]["manifesto"].extend(new_m)
-                final_data["candidates"][0]["not-manifesto"].extend(new_nm)
-                
-             
+                candidate = extracted_data["candidates"][0]
+                # ここで save_append_data を呼ぶのではなく、final_data に溜める
+                final_data["candidates"][0]["manifesto"].extend(candidate.get("manifesto", []))
+                final_data["candidates"][0]["not-manifesto"].extend(candidate.get("not-manifesto", []))
+                print(f"  -> {url} のデータをメモリに追加しました")
+
+
         elif not is_policy:
             continue
         else:
