@@ -120,7 +120,7 @@ def overlapping (district, num):
    (a) sourcesの情報がより新しいもの
    (b) sourcesが複数あるもの
    (c) より具体的な記述のもの
-3. reasonは統合して簡潔に1つにまとめる(統合の有無は書かなくてよい)
+3. reasonは統合して簡潔に1つにまとめる(統合の有無や理由は書かなくてよい。なぜ公約と言えるかの理由を書くこと)
 4. sourcesは最も代表的なもの1つのみ残す
 5. quote_textは最も代表的なもの1つのみ残す（任意で最新ソース優先）
 6. JSON構造は絶対に変更しない（manifesto以外は触らない）
@@ -234,6 +234,7 @@ def overlapping (district, num):
 - titleが完全一致するものは同一とする
 - titleが意味的に同じ（表記ゆれ・略称・同義）ものも同一とする
   例：「憲法への自衛隊明記」と「憲法改正による自衛隊明記」
+- カテゴリは同じ（物価高対策、安全保障など）であるが内容が異なる際は統合しないでください。
 
 【統合ルール】
 1. 各グループから1件だけ残す
@@ -241,7 +242,7 @@ def overlapping (district, num):
    (a) sourcesの情報がより新しいもの
    (b) sourcesが複数あるもの
    (c) より具体的な記述のもの
-3. reasonは統合して簡潔に1つにまとめる(統合の有無は書かなくてよい)
+3. reasonは統合して簡潔に1つにまとめる(統合の有無や理由は書かなくてよい。なぜ公約と言えないかの理由を書くこと)
 4. sourcesは最も代表的なもの1つのみ残す
 5. quote_textは最も代表的なもの1つのみ残す（任意で最新ソース優先）
 6. JSON構造は絶対に変更しない（not-manifesto以外は触らない）
@@ -351,7 +352,11 @@ ALL_WINNERS = {
             "official": "https://www.miki-yamada.com/",
             "party": "自由民主党"
         },
-
+        2: {
+            "name": "辻清人",
+            "official": "https://k-tsuji.jp/",
+            "party": "自由民主党"
+        }
     }
 }
 
@@ -844,9 +849,8 @@ def get_manifesto(district,winner,num,party):
 
         
         print("AI")
-        prompt= f"""初めにページが{winner}についてのページか考えてください。ページが{winner}についてではなければFalseと返しここで考えを止めてください,{winner}についてであればTrueと返してください。
-        {winner}についてである、かつページが2026年以前のものであれば、Falseと返してください。{winner}についてである、さらに2026年であれば、入力されたページの全文を読み込み、公約について少しでも書いているページか判断してください。
-    公約を書いていればTrue,書いていなければFalseと返答してください。なお、政策は存在するが、ページではなくメニューページの場合もFalseとしてください。
+        prompt= f"""初めにページが{winner}についてのページか考えてください。ページが{winner}についてではなければFalseと返しここで考えを止めてください。{winner}についてであれば、入力されたページの全文を読み込み、公約について少しでも書いているページか判断してください。
+    公約を書いていればTrue,書いていなければFalseと返答してください。なお、政策は存在するが、ページではなくメニューページや過去の実績について書いてある場合もFalseとしてください。
  
     応答は必ず以下のJSON形式のみとし、一切の解説や挨拶、Markdown装飾（```json 等）を禁止します。
     
@@ -904,20 +908,23 @@ def get_manifesto(district,winner,num,party):
         
             extracted_data = filter_manifesto(district, winner, num, organized_text, url)
             
-            if extracted_data and "candidates" in extracted_data:
-                candidate = extracted_data["candidates"][0]
-                new_manifesto = candidate.get("manifesto", [])
-                new_not_manifesto = candidate.get("not-manifesto", [])
+            if extracted_data:
+            # AIのレスポンスから直接取得する
+                manifesto_list = extracted_data.get("manifesto", [])
+                not_manifesto_list = extracted_data.get("not-manifesto", [])
                 
-         
-                save_append_data(out_file, district, num, winner, new_manifesto, new_not_manifesto)
-                print(f"  -> {url} の保存完了！")
+                final_data["candidates"][0]["manifesto"].extend(manifesto_list)
+                final_data["candidates"][0]["not-manifesto"].extend(not_manifesto_list)
+                print(f"  -> {url} のデータをメモリに追加しました（公約: {len(manifesto_list)}件）")
+           
+
         elif not is_policy:
             continue
         else:
             print("format function has error, response is not True or False")
             print(response.text)
-
+    with open(out_file, "w", encoding="utf-8") as f:
+        json.dump(final_data, f, ensure_ascii=False, indent=2)
     print(f"finished {district} {num} district")
     print(manifesto_url)
 
@@ -935,15 +942,15 @@ def organize_text(text):
 
     応答は、整理されたテキストのみを返してください。解説や挨拶、Markdown装飾（```json等）は一切禁止します。
     """
-    
+    #gemma-4-31b-it
     response = safe_generate_content(
         client=client,
-        model='gemma-4-31b-it',
+        model='gemini-3.1-flash-lite-preview',
         contents=[prompt,text],
         config={"response_mime_type": "text/plain"}
     )
     print("organize text fin")
-    print(response.text)
+
     return response.text.strip()
 
 
@@ -1020,157 +1027,142 @@ JSONとして正しい形で返してください。
 
 
 
-
-- sourcesを勝手に「提供テキスト」などと捏造せず、必ずurlを記載してください。
+- sources フィールドには、必ず解析対象として入力されたURL（{url}）を、一字一句変えずにそのままフルパスで記載してください。
 
 # JSONフォーマット
+
+"manifesto": [
 {{
-  "district": "東京{num}区",
-  "candidates": [
-    {{
-      "name": "{winner}",
-      "party": "政党名",
-      "manifesto": [
-        {{
-          "title": "（具体的施策の要約）",
-          "reason": "（なぜ公約なのか？）",
-          "sources": ["{url}"],
-          "quote_text": "（断定的な意思表明が含まれる部分を引用）"
-        }}
-      ],
-      "not-manifesto": [
-        {{
-          "title": "（公約から除外された政策の要約）",
-          "reason": "（なぜ公約としてみなせないのか？） ",
-          "sources": ["{url}"],
-          "quote_text": "（）"
-        }}
-      ]
-    }}
-  ]
+    "title": "（具体的施策の要約）",
+    "reason": "（なぜ公約なのか？）",
+    "sources": ["{url}"],
+    "quote_text": "（断定的な意思表明が含まれる部分を引用）"
 }}
+],
+"not-manifesto": [
+{{
+    "title": "（公約から除外された政策の要約）",
+    "reason": "（なぜ公約としてみなせないのか？） ",
+    "sources": ["{url}"],
+    "quote_text": "（）"
+}}
+]
+
 
 
 
 リスポンスの例：
-{{
-  "district": "東京1区",
-  "candidates": [
-    {{
-      "name": "山田みき",
-      "party": "自由民主党",
-      "manifesto": [
-        {{
-          "title": "価格転嫁ガイドラインの法的拘束力強化",
-          "reason": "「法的拘束力の付与」という制度的変更（ステータスの変更）を指しており、法改正という具体的なアクションを伴うため。",
-          "sources": [
-            "{{url}}"
-          ],
-          "quote_text": "価格転嫁ガイドラインの法的拘束力強化"
-        }},
-        {{
-          "title": "税・社会保険料未納情報の共有および在留審査への活用",
-          "reason": "行政機関間での「データ共有」と「審査への反映」という、システムの運用ルール変更を具体的に指しているため。",
-          "sources": [
-            "{{url}}"
-          ],
-          "quote_text": "税や社会保険料の未納情報を行政機関間で共有し、その情報を在留審査に活用する"
-        }},
-        {{
-          "title": "国土全域での土地実質的支配者情報の把握と公開",
-          "reason": "情報の「公開」および「把握」という、透明性向上のための制度設計を指しており、公報等で実施が確認可能であるため。",
-          "sources": [
-            "{{url}}"
-          ],
-          "quote_text": "国土全域で土地等の実質的支配者情報等を把握し国民に公開"
-        }},
-        {{
-          "title": "AI・データサイエンス教育の早期必修化",
-          "reason": "公教育における「必修化」という、学習指導要領の変更という具体的かつ観測可能な制度変更を指しているため。",
-          "sources": [
-            "{{url}}"
-          ],
-          "quote_text": "AIやデータサイエンスに関する教育を早期から必修化"
-        }},
-        {{
-          "title": "対日外国投資委員会（日本版CFIUS）の創設",
-          "reason": "特定の新規制度の設立を明言しており、その存否が客観的に確認可能なため。",
-          "sources": [
-            "https://go2senkyo.com/seijika/142007"
-          ],
-          "quote_text": "対日外国投資委員会（日本版CFIUS）を創設"
-        }},
-        {{
-          "title": "住宅ローン減税の床面積要件を緩和",
-          "reason": "「床面積要件」という税制上の具体的なパラメータの変更を明示しており、法改正が実施されたかによって検証が可能であるため。",
-          "sources": [
-            "{{url}}"
-          ],
-          "quote_text": "住宅ローン減税の床面積要件を緩和"
-        }},
-        {{
-          "title": "日本版DBS（性犯罪歴確認仕組み）の導入",
-          "reason": "「日本版DBS」という特定の新規制度の設立を指しており、その存否によって実施の有無を明確に判定できるため。",
-          "sources": [
-            "{{url}}"
-          ],
-          "quote_text": "教育・保育・医療等の業務従事者の性犯罪歴を確認する仕組み（日本版DBS）を導入"
-        }},
-        {{
-          "title": "憲法への「自衛隊」明記",
-          "reason": "「憲法改正」という最高法規の条文変更という、究極的に具体的かつ断定的な政治アクションを指しているため。",
-          "sources": [
-            "{{url}}"
-          ],
-          "quote_text": "憲法改正により「自衛隊」を明記"
-        }}
-      ]
-      "not-manifesto": [
-        {{
-          "title": "燃料油価格の定額引下げ",
-          "reason": "「価格の引下げ」という、数値や制度の裏付けのない目標であり実施の有無が客観的に判断できないため。",
-          "sources": [
-            "{{URL}}"
-          ],
-          "quote_text": "燃料油価格の定額引下げ"
-        }},
-        {{
-          "title": "高等教育の授業料等減免の対象拡大",
-          "reason": "対象拡大、は具体的にどの変数を変更するのかが不明（世帯年収の基準、多子家庭への支援の増加など） ",
-          "sources": ["https://miki-yamada.com/blog/12591.html"],
-          "quote_text": "高等教育の授業料等減免の対象拡大"
-        }}
-        {{
-          "title": "都心部における固定資産税や相続税などについて、税負担の軽減",
-          "reason": "「軽減」とあるが何を変更することにより税負担を軽減させるのかが不明。",
-          "sources": ["https://miki-yamada.com/blog/12601.html"],
-          "quote_text": "都心部における固定資産税や相続税などについて、税負担の軽減"
-        }}
-        {{
-          "title": "福祉分野を含む全産業の労務費転嫁と処遇改善を後押しします",
-          "reason": "「後押し」の有無は客観的に判断することができない。また、「後押し」は結果へのコミットではない。",
-          "sources": ["https://miki-yamada.com/blog/12572.html"],
-          "quote_text": "福祉分野を含む全産業の労務費転嫁と処遇改善を後押しします"
-        }}
-        {{
-          "title": "保険料と公費負担のバランスを見直し",
-          "reason": "「バランスの見直し」が何を意味するのか不明瞭であり、具体的にどの変数をどのように変更するのかが示されていない。また、「見直し」が実際に行われたかどうかの判断も主観的であるうえ、結果へのコミットではないため。",
-          "sources": ["https://miki-yamada.com/blog/12587.html"],
-          "quote_text": "保険料と公費負担のバランスを見直し、全世代で公平に支える財源を安定させます"
-        }}
-        {{
-          "title": "下請Gメンや公正取引委員会の人材（定員）の拡充",
-          "reason": "「拡充」の有無が客観的に判断できない。また、水準が不明であるため。",
-          "sources": [
-            "{{url}}"
-          ],
-          "quote_text": "下請Gメンや公正取引委員会の人材拡充"
-        }},
 
-      ]
-    }}
-  ]
+"manifesto": [
+{{
+    "title": "価格転嫁ガイドラインの法的拘束力強化",
+    "reason": "「法的拘束力の付与」という制度的変更（ステータスの変更）を指しており、法改正という具体的なアクションを伴うため。",
+    "sources": [
+    "{{url}}"
+    ],
+    "quote_text": "価格転嫁ガイドラインの法的拘束力強化"
+}},
+{{
+    "title": "税・社会保険料未納情報の共有および在留審査への活用",
+    "reason": "行政機関間での「データ共有」と「審査への反映」という、システムの運用ルール変更を具体的に指しているため。",
+    "sources": [
+    "{{url}}"
+    ],
+    "quote_text": "税や社会保険料の未納情報を行政機関間で共有し、その情報を在留審査に活用する"
+}},
+{{
+    "title": "国土全域での土地実質的支配者情報の把握と公開",
+    "reason": "情報の「公開」および「把握」という、透明性向上のための制度設計を指しており、公報等で実施が確認可能であるため。",
+    "sources": [
+    "{{url}}"
+    ],
+    "quote_text": "国土全域で土地等の実質的支配者情報等を把握し国民に公開"
+}},
+{{
+    "title": "AI・データサイエンス教育の早期必修化",
+    "reason": "公教育における「必修化」という、学習指導要領の変更という具体的かつ観測可能な制度変更を指しているため。",
+    "sources": [
+    "{{url}}"
+    ],
+    "quote_text": "AIやデータサイエンスに関する教育を早期から必修化"
+}},
+{{
+    "title": "対日外国投資委員会（日本版CFIUS）の創設",
+    "reason": "特定の新規制度の設立を明言しており、その存否が客観的に確認可能なため。",
+    "sources": [
+    "https://go2senkyo.com/seijika/142007"
+    ],
+    "quote_text": "対日外国投資委員会（日本版CFIUS）を創設"
+}},
+{{
+    "title": "住宅ローン減税の床面積要件を緩和",
+    "reason": "「床面積要件」という税制上の具体的なパラメータの変更を明示しており、法改正が実施されたかによって検証が可能であるため。",
+    "sources": [
+    "{{url}}"
+    ],
+    "quote_text": "住宅ローン減税の床面積要件を緩和"
+}},
+{{
+    "title": "日本版DBS（性犯罪歴確認仕組み）の導入",
+    "reason": "「日本版DBS」という特定の新規制度の設立を指しており、その存否によって実施の有無を明確に判定できるため。",
+    "sources": [
+    "{{url}}"
+    ],
+    "quote_text": "教育・保育・医療等の業務従事者の性犯罪歴を確認する仕組み（日本版DBS）を導入"
+}},
+{{
+    "title": "憲法への「自衛隊」明記",
+    "reason": "「憲法改正」という最高法規の条文変更という、究極的に具体的かつ断定的な政治アクションを指しているため。",
+    "sources": [
+    "{{url}}"
+    ],
+    "quote_text": "憲法改正により「自衛隊」を明記"
 }}
+]
+"not-manifesto": [
+{{
+    "title": "燃料油価格の定額引下げ",
+    "reason": "「価格の引下げ」という、数値や制度の裏付けのない目標であり実施の有無が客観的に判断できないため。",
+    "sources": [
+    "{{URL}}"
+    ],
+    "quote_text": "燃料油価格の定額引下げ"
+}},
+{{
+    "title": "高等教育の授業料等減免の対象拡大",
+    "reason": "対象拡大、は具体的にどの変数を変更するのかが不明（世帯年収の基準、多子家庭への支援の増加など） ",
+    "sources": ["https://miki-yamada.com/blog/12591.html"],
+    "quote_text": "高等教育の授業料等減免の対象拡大"
+}}
+{{
+    "title": "都心部における固定資産税や相続税などについて、税負担の軽減",
+    "reason": "「軽減」とあるが何を変更することにより税負担を軽減させるのかが不明。",
+    "sources": ["https://miki-yamada.com/blog/12601.html"],
+    "quote_text": "都心部における固定資産税や相続税などについて、税負担の軽減"
+}}
+{{
+    "title": "福祉分野を含む全産業の労務費転嫁と処遇改善を後押しします",
+    "reason": "「後押し」の有無は客観的に判断することができない。また、「後押し」は結果へのコミットではない。",
+    "sources": ["https://miki-yamada.com/blog/12572.html"],
+    "quote_text": "福祉分野を含む全産業の労務費転嫁と処遇改善を後押しします"
+}}
+{{
+    "title": "保険料と公費負担のバランスを見直し",
+    "reason": "「バランスの見直し」が何を意味するのか不明瞭であり、具体的にどの変数をどのように変更するのかが示されていない。また、「見直し」が実際に行われたかどうかの判断も主観的であるうえ、結果へのコミットではないため。",
+    "sources": ["https://miki-yamada.com/blog/12587.html"],
+    "quote_text": "保険料と公費負担のバランスを見直し、全世代で公平に支える財源を安定させます"
+}}
+{{
+    "title": "下請Gメンや公正取引委員会の人材（定員）の拡充",
+    "reason": "「拡充」の有無が客観的に判断できない。また、水準が不明であるため。",
+    "sources": [
+    "{{url}}"
+    ],
+    "quote_text": "下請Gメンや公正取引委員会の人材拡充"
+}},
+
+]
+
 
 """
 
