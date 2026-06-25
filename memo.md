@@ -1,5 +1,223 @@
 ALL_WINNERS = {
-    "北海道": {
+    "gunma": {
+        1: {
+            "name": "中曽根康隆",
+            "official": "https://www.yasu-nakasone.jp/",
+            "party": "自由民主党"
+        },
+        2: {
+            "name": "井野俊郎",
+            "official": "https://www.inooffice.jp/",
+            "party": "自由民主党"
+        },
+        3: {
+            "name": "笹川博義",
+            "official": "https://www.sasagawa-hiroyoshi.com/",
+            "party": "自由民主党"
+        },
+        4: {
+            "name": "福田達夫",
+            "official": "https://tatsuo-f.jp/",
+            "party": "自由民主党"
+        },
+        5: {
+            "name": "小渕優子",
+            "official": "https://www.obuchiyuko.com/",
+            "party": "自由民主党"
+        }
+    },
+    "saitama": {
+        1: {
+            "name": "村井英樹",
+            "official": "https://muraihideki.com/",
+            "party": "自由民主党"
+        },
+        2: {
+            "name": "新藤義孝",
+            "official": "https://www.shindo.gr.jp/",
+            "party": "自由民主党"
+        },
+        3: {
+            "name": "黄川田仁志",
+            "official": "https://www.kikawadahitoshi.jp/",
+            "party": "自由民主党"
+        },
+        4: {
+            "name": "穂坂泰",
+            "official": "https://www.hosakayasushi.com/",
+            "party": "自由民主党"
+        },
+        5: {
+            "name": "井原隆",
+            "official": "https://yutakaihara.jp/",
+            "party": "自由民主党"
+        },
+        6: {
+            "name": "尾花瑛仁",
+            "official": "https://note.com/obanaakihito",
+            "party": "自由民主党"
+        },
+        7: {
+            "name": "中野英幸",
+            "official": "https://h-nakano.jp/",
+            "party": "自由民主党"
+        },
+        8: {
+            "name": "柴山昌彦",
+            "official": "https://www.shibamasa.net/",
+            "party": "自由民主党"
+        },
+        9: {
+            "name": "大塚拓",
+            "official": "https://otsukataku.jp/",
+            "party": "自由民主党"
+        },
+        10: {
+            "name": "山口晋",
+            "official": "https://yamaguchisusumu.jp/",
+            "party": "自由民主党"
+        },
+        11: {
+            "name": "小泉龍司",
+            "official": "https://www.ryuji.org/",
+            "party": "自由民主党"
+        },
+        12: {
+            "name": "野中厚",
+            "official": "https://www.nonaka-atsushi.com/",
+            "party": "自由民主党"
+        },
+        13: {
+            "name": "三ッ林裕巳",
+            "official": "https://www.h-mitsubayashi.com/",
+            "party": "自由民主党"
+        },
+        14: {
+            "name": "藤田誠",
+            "official": "https://fujitamakoto.com/",
+            "party": "自由民主党"
+        },
+        15: {
+            "name": "田中良生",
+            "official": "https://tanaka-ryosei.com/",
+            "party": "自由民主党"
+        },
+        16: {
+            "name": "土屋品子",
+            "official": "https://owls.jp/shinako/",
+            "party": "自由民主党"
+        }
+    }
+}
+
+ALL_WINNERS = {
+    "yamagata": {
+        1: {
+            "name": "遠藤寛明",
+            "official": "https://e-hiroaki.jp/",
+            "party": "自由民主党"
+        },
+        2: {
+            "name": "鈴木憲和",
+            "official": "https://suzuki-norikazu.com/",
+            "party": "自由民主党"
+        },
+        3: {
+            "name": "加藤鮎子",
+            "official": "https://kato-ayuko.net/",
+            "party": "自由民主党"
+        }
+    },
+    "fukushima": {
+        1: {
+            "name": "西山尚利",
+            "official": "http://www2.gol.com/users/ip1105202620/",
+            "party": "自由民主党"
+        },
+        2: {
+            "name": "根本拓",
+            "official": "https://taku-nemoto.com/",
+            "party": "自由民主党"
+        },
+        3: {
+            "name": "上杉謙太郎",
+            "official": "https://uesugi.fukushima.jp/",
+            "party": "自由民主党"
+        },
+        4: {
+            "name": "坂本竜太郎",
+            "official": "https://sakamoto-ryutaro.jp/",
+            "party": "自由民主党"
+        }
+    },
+    "ibaraki": {
+        1: {
+            "name": "田所嘉徳",
+            "official": "https://tadokoro-yoshinori.com/",
+            "party": "自由民主党"
+        },
+        2: {
+            "name": "額賀福志郎",
+            "official": "https://www.nukaga-fukushiro.jp/",
+            "party": "自由民主党"
+        },
+        3: {
+            "name": "葉梨康弘",
+            "official": "N/A",
+            "party": "自由民主党"
+        },
+        4: {
+            "name": "梶山弘志",
+            "official": "https://www.kajiyama-office.com/",
+            "party": "自由民主党"
+        },
+        5: {
+            "name": "浅野哲",
+            "official": "https://asanosatoshi.com/",
+            "party": "国民民主党"
+        },
+        6: {
+            "name": "国光文乃",
+            "official": "https://kunimitsu-ayano.jp/",
+            "party": "自由民主党"
+        },
+        7: {
+            "name": "中村勇太",
+            "official": "N/A",
+            "party": "無所属"
+        }
+    },
+    "tochigi": {
+        1: {
+            "name": "船田元",
+            "official": "https://funada.org/",
+            "party": "自由民主党"
+        },
+        2: {
+            "name": "五十嵐清",
+            "official": "https://kiyoshi-igarashi.com/",
+            "party": "自由民主党"
+        },
+        3: {
+            "name": "渡邊真太朗",
+            "official": "https://shintaro-w.jp/",
+            "party": "無所属"
+        },
+        4: {
+            "name": "石坂太",
+            "official": "https://m-ishizaka.com/",
+            "party": "自由民主党"
+        },
+        5: {
+            "name": "茂木敏充",
+            "official": "https://motegi.gr.jp/",
+            "party": "自由民主党"
+        }
+    }
+}
+
+ALL_WINNERS = {
+    "hokkaido": {
         1: {
             "name": "加藤貴弘",
             "official": "https://kato-takahiro.jp/",
@@ -61,7 +279,7 @@ ALL_WINNERS = {
             "party": "自由民主党"
         }
     },
-    "青森県": {
+    "aomori": {
         1: {
             "name": "津島淳",
             "official": "https://tsushimajun.com/",
@@ -78,7 +296,7 @@ ALL_WINNERS = {
             "party": "自由民主党"
         }
     },
-    "岩手県": {
+    "iwate": {
         1: {
             "name": "階猛",
             "official": "https://shina.jp/",
@@ -95,7 +313,7 @@ ALL_WINNERS = {
             "party": "自由民主党"
         }
     },
-    "宮城県": {
+    "miyagi": {
         1: {
             "name": "土井亨",
             "official": "https://doi-toru.com/",
@@ -122,7 +340,7 @@ ALL_WINNERS = {
             "party": "自由民主党"
         }
     },
-    "秋田県": {
+    "akita": {
         1: {
             "name": "冨樫博之",
             "official": "https://www.togachan.jp/",

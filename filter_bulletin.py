@@ -31,7 +31,7 @@ def safe_generate_content(client, model, contents, config):
             messages=[{"role": "user", "content": full_text}],
             response_format=config ,
             server_url=url,
-            #max_tokens=5000 
+            max_tokens=10000 
         )
         
         content = response.choices[0].message.content
@@ -46,22 +46,85 @@ def safe_generate_content(client, model, contents, config):
 
 
 ALL_WINNERS = {
-    "miyagi": {
-        5: {
-            "name": "小野寺五典",
-            "official": "https://www.itsunori.com/",
+
+    "kanagawa": {
+
+        7: {
+            "name": "鈴木馨祐",
+            "official": "https://www.suzukikeisuke.jp/",
+            "party": "自由民主党"
+        },
+        8: {
+            "name": "三谷英弘",
+            "official": "https://mitani-h.net/",
+            "party": "自由民主党"
+        },
+  
+        10: {
+            "name": "田中和徳",
+            "official": "https://www.k-tanaka.gr.jp/",
+            "party": "自由民主党"
+        },
+        11: {
+            "name": "小泉進次郎",
+            "official": "https://shinjiro.info/",
+            "party": "自由民主党"
+        },
+        12: {
+            "name": "星野剛士",
+            "official": "https://www.hoshino-tsuyoshi.com/",
+            "party": "自由民主党"
+        },
+        13: {
+            "name": "丸田康一郎",
+            "official": "https://maruta-koichiro.jp/",
+            "party": "自由民主党"
+        },
+        14: {
+            "name": "赤間二郎",
+            "official": "https://www.akama.jp/",
+            "party": "自由民主党"
+        },
+        15: {
+            "name": "河野太郎",
+            "official": "https://www.taro.org/",
+            "party": "自由民主党"
+        },
+        16: {
+            "name": "佐藤主迪",
+            "official": "https://satoumasashi.com/",
+            "party": "自由民主党"
+        },
+        17: {
+            "name": "牧島かれん",
+            "official": "https://makishimakaren.com/",
+            "party": "自由民主党"
+        },
+        18: {
+            "name": "山際大志郎",
+            "official": "https://yamagiwa-daishiro.jp/",
+            "party": "自由民主党"
+        },
+        19: {
+            "name": "草間剛",
+            "official": "https://kusamatsuyoshi.com/",
+            "party": "自由民主党"
+        },
+        20: {
+            "name": "金澤結衣",
+            "official": "https://kanazawa-yui.jp/",
             "party": "自由民主党"
         }
     },
-    "akita": {
+    "yamanashi": {
         1: {
-            "name": "冨樫博之",
-            "official": "https://www.togachan.jp/",
+            "name": "中谷真一",
+            "official": "https://nakatani-shinichi.jp/",
             "party": "自由民主党"
         },
         2: {
-            "name": "福原淳嗣",
-            "official": "https://fukuhara-junji.jp/",
+            "name": "堀内詔子",
+            "official": "https://www.horiuchinoriko.jp/",
             "party": "自由民主党"
         }
     }
@@ -468,7 +531,7 @@ JSONとして正しい形で返してください。
 
 if __name__ == "__main__":
     print("start")
-    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
         futures=[]
         for district, winners in ALL_WINNERS.items():
             for num, info in winners.items():
