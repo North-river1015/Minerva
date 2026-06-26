@@ -1322,21 +1322,21 @@ JSONとして正しい形で返してください。
 
 
 def process(district,winner,num,official,party):
-    with concurrent.futures.ThreadPoolExecutor(max_workers=30) as executor:
-        future1 = executor.submit(research1, district, winner, num, official)
-        future2 = executor.submit(research2, district, winner, num)
-        concurrent.futures.wait([future1, future2])
-        print(f"{district, num} research finished")
+    #with concurrent.futures.ThreadPoolExecutor(max_workers=30) as executor:
+     #   future1 = executor.submit(research1, district, winner, num, official)
+      #  future2 = executor.submit(research2, district, winner, num)
+       # concurrent.futures.wait([future1, future2])
+        #print(f"{district, num} research finished")
 
-    #get_manifesto(district, winner, num,party)
-    #overlapping(district, num)
-    #overlapping(district, num)
+    get_manifesto(district, winner, num,party)
+    overlapping(district, num)
+    overlapping(district, num)
 
 
 
 
 if __name__ == "__main__":
-    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
         futures=[]
         for district, winners in ALL_WINNERS.items():
             for num, info in winners.items():
