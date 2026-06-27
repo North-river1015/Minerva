@@ -8,6 +8,11 @@ from dotenv import load_dotenv
 from tenacity import retry, stop_after_attempt, wait_fixed
 from openrouter import OpenRouter
 
+
+#finaldataが前にPref作ったので反映されていないかもしれない
+
+
+
 # 環境変数の読み込み
 load_dotenv()
 api_key_openrouter = os.environ.get('OPENROUTER')
@@ -188,7 +193,7 @@ if __name__ == "__main__":
             print(f"\n=== 【都道府県一括モード】{pref} の全ファイルを処理します ===")
             pref_files = []
             for filename in all_files:
-                if filename.startswith(f"{pref}-") and filename.endswith("-api.json"):
+                if filename.startswith(f"{pref}/{pref}-") and filename.endswith("-api.json"):
                     pref_files.append(filename)
             
             pref_files.sort(key=lambda x: int(re.search(r'-(\d+)-', x).group(1)) if re.search(r'-(\d+)-', x) else 0)

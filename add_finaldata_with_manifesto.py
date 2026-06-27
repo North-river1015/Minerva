@@ -7,10 +7,10 @@ from pathlib import Path
 # ウェブ公約のデータ (assign_ids.py で処理した後のデータ)
 WEB_DATA_DIR = Path("output/finaldata")  # または output/finaldata
 # 選挙公報のテキストデータ
-BULLETIN_DATA_DIR = Path("data/ai_output/2026/shu/tokyo")
-BULLETIN_MANIFESTO_DIR = Path("output/manifesto/tokyo/")  # 公約抽出後のデータ
+BULLETIN_DATA_DIR = Path("data/ai_output/2026/shu")
+BULLETIN_MANIFESTO_DIR = Path("output/manifesto")  # 公約抽出後のデータ
 # 統合後のJSONを保存するフォルダ (Hugoが読み込む場所)
-OUTPUT_DIR = Path("data/2026/shu/tokyo")
+OUTPUT_DIR = Path("data/2026/shu")
 
 def load_json(filepath):
     if filepath.exists():
@@ -44,16 +44,16 @@ def format_bulletin_text(raw_text):
             })
     return blocks
 
-def merge_district_data(district_num):
+def merge_district_data(district, district_num):
     # ファイル名の作成 (例: tokyo-01)
-    filename_base = f"tokyo-{district_num:02d}"
+    filename_base = f"{district}-{district_num:02d}"
     
     # データ読み込み
-    web_data = load_json(WEB_DATA_DIR / f"{filename_base}-api.json")
-    bulletin_data = load_json(BULLETIN_DATA_DIR / f"{filename_base}.json")
+    web_data = load_json(WEB_DATA_DIR / f"{district}/{filename_base}-api.json")
+    bulletin_data = load_json(BULLETIN_DATA_DIR / f"{district}/{filename_base}.json")
     
     # 【修正】公約抽出済みの選挙公報JSON（output/manifesto/tokyo/tokyo-01.json）を読み込む
-    bulletin_manifesto_data = load_json(BULLETIN_MANIFESTO_DIR / f"{filename_base}.json")
+    bulletin_manifesto_data = load_json(BULLETIN_MANIFESTO_DIR / f"{district}/{filename_base}.json")
     
     if not web_data or not bulletin_data:
         print(f"スキップ: {filename_base} の基本データ（WEBまたは公報テキスト）が揃っていません。")
@@ -62,7 +62,7 @@ def merge_district_data(district_num):
     # 統合先の枠組みを作成
     merged = {
         "district": web_data.get("district", ""),
-        "district_code": f"2026-shu-tokyo-{district_num}",
+        "district_code": f"2026-shu-{district}-{district_num}",
         "candidates": []
     }
 
@@ -107,11 +107,13 @@ def merge_district_data(district_num):
         merged["candidates"].append(merged_candidate)
 
     # 統合したデータを保存
-    output_path = OUTPUT_DIR / f"{filename_base}.json"
+    output_path = OUTPUT_DIR / f"{district}/{filename_base}.json"
     save_json(output_path, merged)
     print(f"保存完了: {output_path}")
 
 if __name__ == "__main__":
     # 東京1区と2区を処理する (必要に応じて範囲を広げてください)
-    for i in range(2, 31):
-        merge_district_data(i)
+    district_list=["tokyo", "hokkaido"]
+    for district in district_list:
+        for i in range(2, 31):
+            merge_district_data(district,i)

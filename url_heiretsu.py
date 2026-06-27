@@ -39,7 +39,7 @@ load_dotenv()
 #manifesto, not-manifestoそれぞれでAIに重複を確認させています
 def overlapping (district, num):
     
-    manifesto_file = Path(f"output/finaldata/{district}-{num:02d}-api.json")
+    manifesto_file = Path(f"output/finaldata/{district}/{district}-{num:02d}-api.json")
     print("overlapping start", manifesto_file.exists())
     with open(manifesto_file, "r", encoding="utf-8") as f:
         try:
@@ -165,7 +165,7 @@ def overlapping (district, num):
             
 
 
-            OUT_DIR = Path("output/finaldata/")
+            OUT_DIR = Path(f"output/finaldata/{district}")
             OUT_DIR.mkdir(parents=True, exist_ok=True)
             out_file = OUT_DIR / f"{district}-{num:02d}-api.json"
             
@@ -294,7 +294,7 @@ def overlapping (district, num):
             
 
 
-            OUT_DIR = Path("output/finaldata/")
+            OUT_DIR = Path(f"output/finaldata/{district}")
             OUT_DIR.mkdir(parents=True, exist_ok=True)
             out_file = OUT_DIR / f"{district}-{num:02d}-api.json"
             
@@ -428,26 +428,6 @@ def save_append_data(out_file, district, num, winner, new_manifesto, new_not_man
 
 ALL_WINNERS = {
     "hokkaido": {
-        1: {
-            "name": "加藤貴弘",
-            "official": "https://kato-takahiro.jp/",
-            "party": "自由民主党"
-        },
-        2: {
-            "name": "高橋祐介",
-            "official": "https://takahashi-yusuke.jp/",
-            "party": "自由民主党"
-        },
-        3: {
-            "name": "高木宏壽",
-            "official": "https://www.hirohisa-takagi.jp/",
-            "party": "自由民主党"
-        },
-        4: {
-            "name": "中村裕之",
-            "official": "https://www.hiro-nakamura.jp/",
-            "party": "自由民主党"
-        },
         5: {
             "name": "和田義明",
             "official": "https://yoshiakiwada.com/",
@@ -491,6 +471,9 @@ ALL_WINNERS = {
     }
 }
 ''' 
+
+ 
+
 
     "aomori": {
         1: {
@@ -836,7 +819,7 @@ JSONとして正しい形で返してください。
 
 
 def get_manifesto(district,winner,num,party):
-    out_file = Path(f"output/finaldata/{district}-{num:02d}-api.json")
+    out_file = Path(f"output/finaldata/{district}/{district}-{num:02d}-api.json")
     out_file.parent.mkdir(parents=True, exist_ok=True)
     final_data = {
         "district": f"東京{num}区",

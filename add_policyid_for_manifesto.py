@@ -7,6 +7,8 @@ from pathlib import Path
 from dotenv import load_dotenv 
 from openrouter import OpenRouter
 
+#manifestoにprefつけたので反映が必要かもしれない
+
 # 環境変数の読み込み
 load_dotenv()
 api_key_openrouter = os.environ.get('OPENROUTER')
