@@ -1,0 +1,132 @@
+{
+  "district": "福島4区",
+  "candidates": [
+    {
+      "name": "坂本竜太郎",
+      "party": "自由民主党",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "title": "廃炉、処理水海洋放出、除去土壌復興再生利用の完遂",
+          "reason": "既に実施中の政策の継続・完遂を述べるにとどまり、新規の制度変更や具体的で客観的に判定できる政治アクションを伴わないため。",
+          "sources": "https://go2senkyo.com/seijika/30364",
+          "quote_text": "廃炉、処理水海洋放出、除去土壌復興再生利用の完遂"
+        },
+        {
+          "title": "強い経済による強い外交の展開",
+          "reason": "「強い経済」「強い外交」は抽象的なスローガンであり、具体的に操作する変数や特定の実証可能なアクションが存在しないため。",
+          "sources": "https://go2senkyo.com/seijika/30364",
+          "quote_text": "強い経済による強い外交の展開"
+        },
+        {
+          "title": "災害対策と責任あるエネルギー政策の確立",
+          "reason": "「災害対策」「責任あるエネルギー政策の確立」は定義が曖昧な概念であり、達成度が第三者によって客観的に判定できる指標がないため。",
+          "sources": "https://go2senkyo.com/seijika/30364",
+          "quote_text": "災害対策と責任あるエネルギー政策の確立"
+        },
+        {
+          "title": "復興の財源確保と効果的な予算の使い方の構築",
+          "reason": "「構築」の対象が「予算の使い方」という抽象的な概念であり、客観的に達成度を検証できる変数が存在しないため。",
+          "sources": "https://www.seikeitohoku.com/member-of-the-house-of-representatives-ryutaro-sakamoto-2026/",
+          "quote_text": "復興の財源を確たるものにするとともに、広域的、長期的、戦略的な視点を持って、浜通り全体の長期的課題の克服と創造的復興を進めるための効果的な予算の使い方を構築する。"
+        },
+        {
+          "title": "除去土壌の再生利用と全国的な理解醸成",
+          "reason": "「進める」「努める」という単なる手続きや意欲表現であり、客観的に検証可能な結果へのコミットメントではないため。",
+          "sources": "https://www.seikeitohoku.com/member-of-the-house-of-representatives-ryutaro-sakamoto-2026/",
+          "quote_text": "再生利用を進めるとともに、党派を超えた国会議員のネットワークを活用して全国的な理解醸成に努める。"
+        },
+        {
+          "title": "エフレイを中心とした連携強化と中核拠点化の推進",
+          "reason": "「強化」「進める」という言葉が含まれ、かつ対象が「連携」や「拠点化」という抽象的で測れない概念であるため。",
+          "sources": "https://www.seikeitohoku.com/member-of-the-house-of-representatives-ryutaro-sakamoto-2026/",
+          "quote_text": "中心に、最先端の研究開発の成果が地元に根付き、地域住民が担い手となれるよう連携を強化し、創造的復興の中核拠点化を進める。"
+        },
+        {
+          "title": "農産物の輸出拡大と流通網の整備",
+          "reason": "「推進」が含まれていること、および「整備する」対象が「流通網」という抽象的な概念にとどまり、制度や数値の変数が不明であるため。",
+          "sources": "https://www.seikeitohoku.com/member-of-the-house-of-representatives-ryutaro-sakamoto-2026/",
+          "quote_text": "成田空港の利用推進などを通じて農産物の輸出拡大に取り組み、「常磐もの」をはじめとする良質な魚介類の流通網を整備する。"
+        },
+        {
+          "title": "水産業の担い手確保と発展",
+          "reason": "「力を尽くす」という曖昧な意気込みに過ぎず、具体的な行動や制度のステータス変更が伴っていないため。",
+          "sources": "https://www.seikeitohoku.com/member-of-the-house-of-representatives-ryutaro-sakamoto-2026/",
+          "quote_text": "水産業の担い手確保と発展に力を尽くす。"
+        },
+        {
+          "title": "責任あるエネルギー政策の推進",
+          "reason": "「推進する」という手続き・意欲表現が含まれており、どのような法や制度を変更するか明言されていないため。",
+          "sources": "https://www.seikeitohoku.com/member-of-the-house-of-representatives-ryutaro-sakamoto-2026/",
+          "quote_text": "震災・原発事故の経験と教訓を活かした責任あるエネルギー政策を推進する。"
+        },
+        {
+          "title": "日本を強く豊かにする",
+          "reason": "「日本を強く豊かにする」という典型的な抽象的スローガンであり、達成度を第三者が判定不可能であるため。",
+          "sources": "https://www.seikeitohoku.com/member-of-the-house-of-representatives-ryutaro-sakamoto-2026/",
+          "quote_text": "地元のインフラ、ノウハウ、人材をフル活用し、食料安全保障およびエネルギー安全保障の両面から、浜通りを起点として日本を強く豊かにする。"
+        },
+        {
+          "title": "原発事故の収束作業の取り組み推進と理解醸成",
+          "reason": "「推進」や「図る」という意欲・手続き表現であり、具体的な制度変更や数値目標を含まないため。",
+          "sources": "https://www.seikeitohoku.com/member-of-the-house-of-representatives-ryutaro-sakamoto/",
+          "quote_text": "原発事故の収束作業（廃炉作業、ALPS処理水の海洋放出、除去土壌の県外最終処分）において、省庁の垣根を越えた取り組みを推進し、国民全体の理解醸成を図る。"
+        },
+        {
+          "title": "農地再生を含む包括的な支援の実施",
+          "reason": "「支援を行う」という抽象的な表現であり、具体的にどの制度や変数を操作するのかが特定できず、客観的な検証が不可能なため。",
+          "sources": "https://www.seikeitohoku.com/member-of-the-house-of-representatives-ryutaro-sakamoto/",
+          "quote_text": "除去土壌の処理だけでなく、農地の再生まで含めた包括的な支援を行う。"
+        },
+        {
+          "title": "国民の命を守る政治の推進",
+          "reason": "「推進」という手続き・意欲表現に加え、「強化」「確立」「充実」「整備」などの抽象概念のみであり、結果の検証ができないため。",
+          "sources": "https://www.seikeitohoku.com/member-of-the-house-of-representatives-ryutaro-sakamoto/",
+          "quote_text": "防災・減災対策の強化、エネルギー政策の確立、経済安全保障、医療福祉の充実、教育環境の整備、食料安全保障などの幅広い分野において、国民の命を守る政治を推進する。"
+        },
+        {
+          "title": "エネルギー政策の確立と環境問題対応の両立",
+          "reason": "「確立」「両立させる」という抽象的な意気込みやスローガンにとどまり、客観的に観測可能な制度変更を伴わないため。",
+          "sources": "https://www.seikeitohoku.com/member-of-the-house-of-representatives-ryutaro-sakamoto/",
+          "quote_text": "原発事故を経験した地域として、責任あるエネルギー政策の確立と環境問題への対応を両立させる。"
+        },
+        {
+          "title": "イノベーション・コースト構想の推進とエフレイの成果拡大",
+          "reason": "「推進」「進める」という手続き表現であり、達成の有無を明確な数値や条文等で判断できないため。",
+          "sources": "https://www.seikeitohoku.com/member-of-the-house-of-representatives-ryutaro-sakamoto/",
+          "quote_text": "イノベーション・コースト構想の推進、福島国際研究教育機構（エフレイ）の成果拡大や研究結果の地域還元などを、最先端の技術開発と人材育成を通じて進める。"
+        },
+        {
+          "title": "物価高対策",
+          "reason": "「対策」は具体的にどの制度や数値を操作するのかが全く示されておらず、抽象的な意気込みに過ぎないため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51222",
+          "quote_text": "物価高対策（坂本 竜太郎）"
+        },
+        {
+          "title": "国民目線の経済政策の提案・実行と物価高への対応",
+          "reason": "「提案・実行」「立て直し」「対応」といった表現は極めて抽象的な目標や意気込みであり、客観的に達成判定が可能な政治的アクションではないため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51222",
+          "quote_text": "国民目線の経済政策の提案・実行、積極的な経済政策による日本経済の立て直し、緊急的な物価高への対応（山口 洋太）"
+        },
+        {
+          "title": "社会保障制度に関する国民的議論の推進と仕組みづくり",
+          "reason": "「議論の推進」は排除基準に該当する単なる手続き表現であり、また「仕組みづくり」も具体的な制度変更の中身や変数が不明瞭であるため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51222",
+          "quote_text": "社会保障費が120兆円から130兆円規模になる中での、応能負担を含めた制度維持のための国民的議論の推進、および若い世代と高齢世代が社会保障制度を相互に維持できる仕組みづくり（斎藤 ゆうき）"
+        },
+        {
+          "title": "医師偏在対策の推進と医療体制の充実",
+          "reason": "「推進」は明確に公約から除外されるべき手続き表現であり、「充実」もどのような法改定や予算措置を伴うのか不透明で検証不能なため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51222",
+          "quote_text": "福島浜通りの医師不足解消に向けた医師偏在対策の推進、および医療体制の充実による福島の復興（山口 洋太）"
+        },
+        {
+          "title": "ヒト中心の政策実現による地方および日本全体の衰退防止",
+          "reason": "「衰退防止」や「ヒト中心の政策実現」など、全体が抽象的なスローガンで構成されており、実施の有無を客観的に検証できる措置や制度変更を伴わないため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51222",
+          "quote_text": "都市部一極集中を避け、地方の企業で働き、地域で子育てをし、地域を担っていけるヒト中心の政策実現による、地方および日本全体の衰退防止（斎藤 ゆうき）"
+        }
+      ]
+    }
+  ]
+}

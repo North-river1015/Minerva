@@ -1,0 +1,18 @@
+{
+  "district": "栃木4区",
+  "candidates": [
+    {
+      "name": "石坂太",
+      "party": "自由民主党",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "title": "働き方改革の見直し",
+          "reason": "「見直し」という動詞が含まれており、排除基準に該当するため。また、具体的にどの法律や数値をどのように変更するのか客観的な変数が示されていないため。",
+          "sources": "https://www.tochigi-tv.jp/news2/page.php?id=295175",
+          "quote_text": "働きたい意志を尊重できる働き方改革の見直し"
+        }
+      ]
+    }
+  ]
+}

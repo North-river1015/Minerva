@@ -64,7 +64,7 @@ def overlapping (district, num):
         print("AI")
         response = openrouter_gemma(
             client=client,
-            model='gemma-4-31b-it',
+            model='deepseek/deepseek-v4-flash',
             contents=[prompt, data_str],
             config = {
                "type": "json_schema",
@@ -84,6 +84,7 @@ def overlapping (district, num):
                     }
                 }
             },
+            max_tokens=500
         )
     
 
@@ -204,9 +205,9 @@ def overlapping (district, num):
         print("AI")
         response = openrouter_gemma(
             client=client,
-            model='gemma-4-31b-it',
+            model='deepseek/deepseek-v4-flash',
             contents=[prompt, data_str],
-           config = {
+            config = {
                "type": "json_schema",
                "json_schema": {
                     "name": "overlapping_check", 
@@ -223,7 +224,8 @@ def overlapping (district, num):
                         "additionalProperties": False
                     }
                 }
-            }
+            },
+            max_tokens=500
         )
 
 
@@ -337,7 +339,7 @@ def safe_generate_content(client, model, contents, config):
 
     with OpenRouter(api_key=api_key_openrouter) as client:
         response = client.chat.send(
-            model="~google/gemini-pro-latest",
+            model="google/gemini-3.1-pro-preview",
             messages=[{"role": "user", "content": full_text}],
             response_format=config ,
             server_url=url ,
@@ -422,138 +424,223 @@ def save_append_data(out_file, district, num, winner, new_manifesto, new_not_man
         with open(out_file, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
 
-
-
-
-
 ALL_WINNERS = {
-    "hokkaido": {
+    "gunma": {
+        1: {
+            "name": "中曽根康隆",
+            "official": "https://www.yasu-nakasone.jp/",
+            "party": "自由民主党"
+        },
+        2: {
+            "name": "井野俊郎",
+            "official": "https://www.inooffice.jp/",
+            "party": "自由民主党"
+        },
+        3: {
+            "name": "笹川博義",
+            "official": "https://www.sasagawa-hiroyoshi.com/",
+            "party": "自由民主党"
+        },
+        4: {
+            "name": "福田達夫",
+            "official": "https://tatsuo-f.jp/",
+            "party": "自由民主党"
+        },
         5: {
-            "name": "和田義明",
-            "official": "https://yoshiakiwada.com/",
-            "party": "自由民主党"
-        },
-        6: {
-            "name": "東国幹",
-            "official": "https://azumakuniyoshi.com/",
-            "party": "自由民主党"
-        },
-        7: {
-            "name": "鈴木貴子",
-            "official": "https://www.suzuki-takako.jp/",
-            "party": "自由民主党"
-        },
-        8: {
-            "name": "向山淳",
-            "official": "https://mukaiyama-jun.com/",
-            "party": "自由民主党"
-        },
-        9: {
-            "name": "松下英樹",
-            "official": "https://www.hideki-matsushita.com/",
-            "party": "自由民主党"
-        },
-        10: {
-            "name": "神谷裕",
-            "official": "https://kamiyahiroshi.jp/",
-            "party": "立憲民主党"
-        },
-        11: {
-            "name": "中川紘一",
-            "official": "https://nakagawakoichi.jp/",
-            "party": "自由民主党"
-        },
-        12: {
-            "name": "武部新",
-            "official": "http://takebe-arata.jp/",
+            "name": "小渕優子",
+            "official": "https://www.obuchiyuko.com/",
             "party": "自由民主党"
         }
     }
 }
+
+
+
+
 ''' 
 
- 
-
-
-    "aomori": {
+"saitama": {
         1: {
-            "name": "津島淳",
-            "official": "https://tsushimajun.com/",
+            "name": "村井英樹",
+            "official": "https://muraihideki.com/",
             "party": "自由民主党"
         },
         2: {
-            "name": "神田潤一",
-            "official": "https://kandajunichi.jp/",
+            "name": "新藤義孝",
+            "official": "https://www.shindo.gr.jp/",
             "party": "自由民主党"
         },
         3: {
-            "name": "木村次郎",
-            "official": "https://kimurajiro.jp/",
-            "party": "自由民主党"
-        }
-    },
-    "iwate": {
-        1: {
-            "name": "階猛",
-            "official": "https://shina.jp/",
-            "party": "立憲民主党"
-        },
-        2: {
-            "name": "鈴木俊一",
-            "official": "http://suzuki-shunichi.jp/",
-            "party": "自由民主党"
-        },
-        3: {
-            "name": "藤原崇",
-            "official": "https://fujiwaratakashi.jp/",
-            "party": "自由民主党"
-        }
-    },
-    "miyagi": {
-        1: {
-            "name": "土井亨",
-            "official": "https://doi-toru.com/",
-            "party": "自由民主党"
-        },
-        2: {
-            "name": "渡辺勝幸",
-            "official": "https://watanabekatsuyuki.com/",
-            "party": "自由民主党"
-        },
-        3: {
-            "name": "西村明宏",
-            "official": "https://www.nishimura-akihiro.jp/",
+            "name": "黄川田仁志",
+            "official": "https://www.kikawadahitoshi.jp/",
             "party": "自由民主党"
         },
         4: {
-            "name": "森下千里",
-            "official": "https://morishitachisato.com/",
+            "name": "穂坂泰",
+            "official": "https://www.hosakayasushi.com/",
             "party": "自由民主党"
         },
         5: {
-            "name": "小野寺五典",
-            "official": "https://www.itsunori.com/",
+            "name": "井原隆",
+            "official": "https://yutakaihara.jp/",
+            "party": "自由民主党"
+        },
+        6: {
+            "name": "尾花瑛仁",
+            "official": "https://note.com/obanaakihito",
+            "party": "自由民主党"
+        },
+        7: {
+            "name": "中野英幸",
+            "official": "https://h-nakano.jp/",
+            "party": "自由民主党"
+        },
+        8: {
+            "name": "柴山昌彦",
+            "official": "https://www.shibamasa.net/",
+            "party": "自由民主党"
+        },
+        9: {
+            "name": "大塚拓",
+            "official": "https://otsukataku.jp/",
+            "party": "自由民主党"
+        },
+        10: {
+            "name": "山口晋",
+            "official": "https://yamaguchisusumu.jp/",
+            "party": "自由民主党"
+        },
+        11: {
+            "name": "小泉龍司",
+            "official": "https://www.ryuji.org/",
+            "party": "自由民主党"
+        },
+        12: {
+            "name": "野中厚",
+            "official": "https://www.nonaka-atsushi.com/",
+            "party": "自由民主党"
+        },
+        13: {
+            "name": "三ッ林裕巳",
+            "official": "https://www.h-mitsubayashi.com/",
+            "party": "自由民主党"
+        },
+        14: {
+            "name": "藤田誠",
+            "official": "https://fujitamakoto.com/",
+            "party": "自由民主党"
+        },
+        15: {
+            "name": "田中良生",
+            "official": "https://tanaka-ryosei.com/",
+            "party": "自由民主党"
+        },
+        16: {
+            "name": "土屋品子",
+            "official": "https://owls.jp/shinako/",
             "party": "自由民主党"
         }
-    },
-    "akita": {
+
+
+
+
+
+
+
+
+
+3: {
+            "name": "葉梨康弘",
+            "official": "N/A",
+            "party": "自由民主党"
+        },
+        4: {
+            "name": "梶山弘志",
+            "official": "https://www.kajiyama-office.com/",
+            "party": "自由民主党"
+        },
+        5: {
+            "name": "浅野哲",
+            "official": "https://asanosatoshi.com/",
+            "party": "国民民主党"
+        },
+        6: {
+            "name": "国光文乃",
+            "official": "https://kunimitsu-ayano.jp/",
+            "party": "自由民主党"
+        },
+        7: {
+            "name": "中村勇太",
+            "official": "N/A",
+            "party": "無所属"
+        }
+
+
+
+    "ibaraki": {
         1: {
-            "name": "冨樫博之",
-            "official": "https://www.togachan.jp/",
+            "name": "田所嘉徳",
+            "official": "https://tadokoro-yoshinori.com/",
             "party": "自由民主党"
         },
         2: {
-            "name": "福原淳嗣",
-            "official": "https://fukuhara-junji.jp/",
+            "name": "額賀福志郎",
+            "official": "https://www.nukaga-fukushiro.jp/",
             "party": "自由民主党"
         },
         3: {
-            "name": "村岡敏英",
-            "official": "https://muraokatoshihide.jp/",
+            "name": "葉梨康弘",
+            "official": "N/A",
+            "party": "自由民主党"
+        },
+        4: {
+            "name": "梶山弘志",
+            "official": "https://www.kajiyama-office.com/",
+            "party": "自由民主党"
+        },
+        5: {
+            "name": "浅野哲",
+            "official": "https://asanosatoshi.com/",
+            "party": "国民民主党"
+        },
+        6: {
+            "name": "国光文乃",
+            "official": "https://kunimitsu-ayano.jp/",
+            "party": "自由民主党"
+        },
+        7: {
+            "name": "中村勇太",
+            "official": "N/A",
+            "party": "無所属"
+        }
+    },
+    "tochigi": {
+        1: {
+            "name": "船田元",
+            "official": "https://funada.org/",
+            "party": "自由民主党"
+        },
+        2: {
+            "name": "五十嵐清",
+            "official": "https://kiyoshi-igarashi.com/",
+            "party": "自由民主党"
+        },
+        3: {
+            "name": "渡邊真太朗",
+            "official": "https://shintaro-w.jp/",
+            "party": "無所属"
+        },
+        4: {
+            "name": "石坂太",
+            "official": "https://m-ishizaka.com/",
+            "party": "自由民主党"
+        },
+        5: {
+            "name": "茂木敏充",
+            "official": "https://motegi.gr.jp/",
             "party": "自由民主党"
         }
     }
-
 
 '''
 
@@ -821,8 +908,26 @@ JSONとして正しい形で返してください。
 def get_manifesto(district,winner,num,party):
     out_file = Path(f"output/finaldata/{district}/{district}-{num:02d}-api.json")
     out_file.parent.mkdir(parents=True, exist_ok=True)
+    
+    mapping = {
+        'hokkaido': '北海道', 'aomori': '青森', 'iwate': '岩手', 'miyagi': '宮城', 'akita': '秋田',
+        'yamagata': '山形', 'fukushima': '福島', 'ibaraki': '茨城', 'tochigi': '栃木', 'gunma': '群馬',
+        'saitama': '埼玉', 'chiba': '千葉', 'tokyo': '東京', 'kanagawa': '神奈川', 'niigata': '新潟',
+        'toyama': '富山', 'ishikawa': '石川', 'fukui': '福井', 'yamanashi': '山梨', 'nagano': '長野',
+        'gifu': '岐阜', 'shizuoka': '静岡', 'aichi': '愛知', 'mie': '三重', 'shiga': '滋賀',
+        'kyoto': '京都', 'osaka': '大阪', 'hyogo': '兵庫', 'nara': '奈良', 'wakayama': '和歌山',
+        'tottori': '鳥取', 'shimane': '島根', 'okayama': '岡山', 'hiroshima': '広島', 'yamaguchi': '山口',
+        'tokushima': '徳島', 'kagawa': '香川', 'ehime': '愛媛', 'kochi': '高知', 'fukuoka': '福岡',
+        'saga': '佐賀', 'nagasaki': '長崎', 'kumamoto': '熊本', 'oita': '大分', 'miyazaki': '宮崎',
+        'kagoshima': '鹿児島', 'okinawa': '沖縄'
+    }
+
+    # 変換（例：tokyo や hokkaido を入れる）
+    jpn_district=mapping.get(f'{district}')
+ 
+
     final_data = {
-        "district": f"東京{num}区",
+        "district": f"{jpn_district}{num}区",
         "candidates": [
             {
                 "name": winner,
@@ -941,9 +1046,9 @@ def get_manifesto(district,winner,num,party):
         
         response = openrouter_gemma(
             client=client,
-            model='gemma-4-31b-it',
+            model='deepseek/deepseek-v4-flash',
             contents=[prompt, clean_text],
-           config = {
+            config = {
                "type": "json_schema",
                "json_schema": {
                     "name": "policy_or_not", 
@@ -960,7 +1065,8 @@ def get_manifesto(district,winner,num,party):
                         "additionalProperties": False
                     }
                 }
-            }
+            },
+            max_tokens=500
             #response_format={
             #    "type": "OBJECT",
              #   "mime_type": "application/json", 
@@ -1024,7 +1130,7 @@ def get_manifesto(district,winner,num,party):
             print("format function has error, response is not True or False")
             print(response.text)
  
-    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=30) as executor:
         futures = [executor.submit(each_url_process, url) for url in urls]
         concurrent.futures.wait(futures)
         print(f"finished {district} {num} district")
@@ -1307,8 +1413,8 @@ JSONとして正しい形で返してください。
 def process(district,winner,num,official,party):
     #with concurrent.futures.ThreadPoolExecutor(max_workers=30) as executor:
      #   future1 = executor.submit(research1, district, winner, num, official)
-      #  future2 = executor.submit(research2, district, winner, num)
-       # concurrent.futures.wait([future1, future2])
+       # future2 = executor.submit(research2, district, winner, num)
+      #  concurrent.futures.wait([future1, future2])
         #print(f"{district, num} research finished")
 
     get_manifesto(district, winner, num,party)
@@ -1319,7 +1425,7 @@ def process(district,winner,num,official,party):
 
 
 if __name__ == "__main__":
-    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
         futures=[]
         for district, winners in ALL_WINNERS.items():
             for num, info in winners.items():

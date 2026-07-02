@@ -1,0 +1,90 @@
+{
+  "district": "茨城2区",
+  "candidates": [
+    {
+      "name": "額賀福志郎",
+      "party": "自由民主党",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "title": "人材育成と未来への投資の推進",
+          "reason": "対象が抽象的であり、かつ「進めていく」という意欲・手続き表現であるため、具体的な第三者検証が不可能。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51238",
+          "quote_text": "日本経済の再成長を実現するため、人材育成と未来への投資を進めていく"
+        },
+        {
+          "title": "「生活者ファースト」の政策への転換",
+          "reason": "他候補（小沼たくみ）の記述であり、額賀福志郎自身の政策表明とみなせないため（かつ抽象的なスローガン・意欲表現）。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51238",
+          "quote_text": "「生活者ファースト」の政策への転換を図ります。"
+        },
+        {
+          "title": "物価対策の急務",
+          "reason": "他候補（小沼たくみ）の記述であり額賀福志郎自身の公約ではないため。また、単なる現状認識の表明であるため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51238",
+          "quote_text": "まずは物価対策が急務です。"
+        },
+        {
+          "title": "食料品消費税ゼロの実行",
+          "reason": "他候補（小沼たくみ）の政策であり、排除基準である「額賀福志郎自身の政策表明とみなせないもの」に該当するため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51238",
+          "quote_text": "「食料品消費税ゼロ」を実行し、暮らしを支えます。"
+        },
+        {
+          "title": "政府系ファンドの創設や基金の活用による財源確保",
+          "reason": "他候補（小沼たくみ）の政策であり、排除基準である「額賀福志郎自身の政策表明とみなせないもの」に該当するため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51238",
+          "quote_text": "財源は政府系ファンドの創設や基金の活用により確保することで、財政に対する責任を果たします。"
+        },
+        {
+          "title": "食料自給率の向上と農地・食料を守る農政の実現",
+          "reason": "他候補（小沼たくみ）の政策であり、額賀福志郎自身の政策表明とみなせないため（また抽象的なスローガンのため）。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51238",
+          "quote_text": "食料自給率の向上と農地と食料を守る農政を実現します。"
+        },
+        {
+          "title": "コメ農家と農地の保護、稼げる農業の育成",
+          "reason": "他候補（小沼たくみ）の政策であり、額賀福志郎自身の政策表明とみなせないため（また具体性に欠けるため）。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51238",
+          "quote_text": "コメ農家と農地を守り、稼げる農業を育てます。"
+        },
+        {
+          "title": "農業後継者育成と「食農支払制度」の導入",
+          "reason": "他候補（小沼たくみ）の政策であり、排除基準の「額賀福志郎自身の政策表明とみなせないもの」に該当するため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51238",
+          "quote_text": "農業の後継者が育つしくみをつくり、農業者個別所得補償制度を発展させた「食農支払制度」を導入します。"
+        },
+        {
+          "title": "人材の育成",
+          "reason": "「育成」は抽象的な取り組みであり、具体的な制度変更や数値目標が示されておらず客観的な検証が不可能なため。",
+          "sources": "https://www.nukaga-fukushiro.jp/special/1581/",
+          "quote_text": "未来をつくる人材育成"
+        },
+        {
+          "title": "農水産業の育成",
+          "reason": "「育成」は抽象的な目標に過ぎず、どの法律や予算を変更するか等、客観的に確認できる具体的な変数が存在しないため。",
+          "sources": "https://www.nukaga-fukushiro.jp/special/1581/",
+          "quote_text": "稼げる農水産業の育成"
+        },
+        {
+          "title": "医療体制の構築",
+          "reason": "対象が「体制」という抽象的な概念であり、実行の有無を第三者が条文や数字で100%客観的に判定することができないため。",
+          "sources": "https://www.nukaga-fukushiro.jp/special/1581/",
+          "quote_text": "安心できる医療体制の構築"
+        },
+        {
+          "title": "東関道の延伸",
+          "reason": "特定の地域を対象としたインフラ整備による利益誘導であり、全国的な制度変更を含む公共性のある取り組みではないため。",
+          "sources": "https://www.nukaga-fukushiro.jp/special/1581/",
+          "quote_text": "東関道の延伸"
+        },
+        {
+          "title": "茨城空港の国際化",
+          "reason": "特定の地域に対する利益誘導に該当し、全国的な制度のステータス変更などを伴う公共性を欠いているため。",
+          "sources": "https://www.nukaga-fukushiro.jp/special/1581/",
+          "quote_text": "茨城空港の国際化"
+        }
+      ]
+    }
+  ]
+}

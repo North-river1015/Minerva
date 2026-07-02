@@ -1,0 +1,91 @@
+{
+  "district": "秋田1区",
+  "candidates": [
+    {
+      "name": "冨樫博之",
+      "party": "自由民主党",
+      "manifesto": [
+        {
+          "title": "子供1人当たり15歳まで月10万円の投資",
+          "reason": "「15歳まで月10万円」という具体的な数値、かつ「投資」という形での予算措置を断定しており、検証可能であるため。",
+          "sources": "https://www.fnn.jp/articles/-/995051?display=full",
+          "quote_text": "子供1人当たり15歳まで月10万円の投資を行い"
+        },
+        {
+          "title": "農業におけるコメの価格補償や所得補償の実施",
+          "reason": "「コメの価格補償」「所得補償」という具体的な予算配分と制度の導入を「行う」と断定的に明言しているため。",
+          "sources": "https://www.fnn.jp/articles/-/995051?display=full",
+          "quote_text": "農業においては、コメの価格補償や所得補償を行い"
+        },
+        {
+          "title": "食料品の消費税の2年間免除",
+          "reason": "「食料品の消費税」「2年間」「ゼロ」という操作する変数および数値目標が明確であり、法改正の有無で実施を客観的に判定できるため。",
+          "sources": "https://www.fnn.jp/articles/-/995051?display=full",
+          "quote_text": "食料品の消費税を2年間ゼロにする。"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "title": "再生可能エネルギーの特区指定と企業誘致",
+          "reason": "地の利を生かした特定の地域への利益誘導の可能性が高く、企業誘致は達成が確約できない努力目標であるため。",
+          "sources": "https://www.fnn.jp/articles/-/995051?display=full",
+          "quote_text": "地の利を生かした産業の集積、特に再生可能エネルギーの特区指定による企業の誘致を行い"
+        },
+        {
+          "title": "農産物の生産推進と農業所得の倍増",
+          "reason": "「推進」「図る」という意欲表現が含まれており、政策の実現に向けた具体的な変数操作が示されていないため。",
+          "sources": "https://www.fnn.jp/articles/-/995051?display=full",
+          "quote_text": "付加価値の高い農産物の生産を推進し、農業所得の倍増を図る"
+        },
+        {
+          "title": "帰郷人材や新たな政治参加の流れをつくる",
+          "reason": "「流れをつくる」という抽象的なスローガンであり、具体的な行動が定義されていないため。",
+          "sources": "https://www.fnn.jp/articles/-/995051?display=full",
+          "quote_text": "東京から帰郷する人材や新たな政治参加の流れをつくることで、地域を変えていく。"
+        },
+        {
+          "title": "消費税の負担軽減",
+          "reason": "軽減に関する具体的な数値や方法が不明確であり、何を操作するのかが客観的に判断できないため。",
+          "sources": "https://www.fnn.jp/articles/-/995051?display=full",
+          "quote_text": "消費税の負担軽減、および外国人問題への対応。"
+        },
+        {
+          "title": "外国人問題への対応",
+          "reason": "抽象的な意気込みに留まっており、具体的にどのような制度変更を行うかが不明であるため。",
+          "sources": "https://www.fnn.jp/articles/-/995051?display=full",
+          "quote_text": "外国人問題への対応。"
+        },
+        {
+          "title": "消費税対策の実施",
+          "reason": "「対策」は具体的に何を行うのかが不明確であり、達成されたかの検証が不可能なため。",
+          "sources": "https://www.fnn.jp/articles/-/995051?display=full",
+          "quote_text": "中小企業の保護のため消費税対策を行い"
+        },
+        {
+          "title": "最低賃金の全国一律化を進め",
+          "reason": "内容は具体的だが、「進め」は「推進」と同義の手続き・意欲表現であり、断定的なコミットメントとはみなせないため。",
+          "sources": "https://www.fnn.jp/articles/-/995051?display=full",
+          "quote_text": "最低賃金の全国一律化を進め"
+        },
+        {
+          "title": "若者が安心して働ける環境を整備する",
+          "reason": "整備する対象が「環境」という抽象的な概念であり、実行の有無を客観的に判断できないため。",
+          "sources": "https://www.fnn.jp/articles/-/995051?display=full",
+          "quote_text": "若者が安心して働ける環境を整備する。"
+        },
+        {
+          "title": "年金制度への見直しを行う",
+          "reason": "「見直し」が含まれており、どのような制度変更を行うかの方向性が不明確であるため。",
+          "sources": "https://www.fnn.jp/articles/-/995051?display=full",
+          "quote_text": "安心して暮らせる信頼できる年金制度への見直しを行う。"
+        },
+        {
+          "title": "企業300社の誘致と雇用・人口増",
+          "reason": "「誘致」や「実現する」は社会的な結果を目標としたものであり、達成を直接的に操作できる制度変更ではないため。また「目指し」という意欲表現も含まれる。",
+          "sources": "https://www.fnn.jp/articles/-/995051?display=full",
+          "quote_text": "人口増と経済成長を目指し、中小企業や"
+        }
+      ]
+    }
+  ]
+}

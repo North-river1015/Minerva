@@ -1,0 +1,126 @@
+{
+  "district": "宮城4区",
+  "candidates": [
+    {
+      "name": "森下千里",
+      "party": "自由民主党",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "title": "担い手の育成と生産基盤の強化充実",
+          "reason": "「強化充実」という客観的に検証不能な抽象的な表現であり、操作する変数が不明なため。",
+          "sources": "https://politician.cafe/politician/1309/measures/",
+          "quote_text": "担い手の育成と生産基盤の強化充実"
+        },
+        {
+          "title": "IT化による遠隔医療の推進",
+          "reason": "「推進」という表現は排除基準の手続き・意欲表現に該当し、断定的なコミットメントでないため。",
+          "sources": "https://politician.cafe/politician/1309/measures/",
+          "quote_text": "IT化よる遠隔医療の推進"
+        },
+        {
+          "title": "被災者支援の継続強化",
+          "reason": "「継続」および「強化」という検証不能な動詞が含まれており、明確なステータス変更がないため。",
+          "sources": "https://politician.cafe/politician/1309/measures/",
+          "quote_text": "心の復興等の被災者支援の継続強化"
+        },
+        {
+          "title": "予防医学の拡大確保",
+          "reason": "「拡大確保」が具体的にどの制度や数値を指すのか不明瞭であり、第三者による達成の有無の判定が不可能なため。",
+          "sources": "https://politician.cafe/politician/1309/measures/",
+          "quote_text": "予防医学の拡大確保"
+        },
+        {
+          "title": "利便性の高い交通インフラの構築",
+          "reason": "対象が「交通インフラ」という抽象的な概念に留まり、具体的な法律や予算の成立が明示されていないため。",
+          "sources": "https://politician.cafe/politician/1309/measures/",
+          "quote_text": "利便性の高い交通インフラの構築"
+        },
+        {
+          "title": "魅力ある観光インフラの整備",
+          "reason": "対象が抽象的な「観光インフラ」であり、具体的にどの場所で何を行うかが明確でないため。",
+          "sources": "https://politician.cafe/politician/1309/measures/",
+          "quote_text": "魅力ある観光インフラの整備"
+        },
+        {
+          "title": "性差をなくすルールの浸透推進",
+          "reason": "「推進」が含まれており、実質的な制度のステータス変更が伴わないため。",
+          "sources": "https://politician.cafe/politician/1309/measures/",
+          "quote_text": "性差をなくすルールの浸透推進"
+        },
+        {
+          "title": "福祉・介護職の地位向上と人材確保",
+          "reason": "抽象的な概念であり、変数が不明で達成の有無が客観的に判断できないため。",
+          "sources": "https://politician.cafe/politician/1309/measures/",
+          "quote_text": "福祉、介護職の地位向上と人材の確保"
+        },
+        {
+          "title": "地方創生に向けたSDGsの推進",
+          "reason": "「推進」という手続き・意欲表現が含まれており、具体的な施策ではないため。",
+          "sources": "https://politician.cafe/politician/1309/measures/",
+          "quote_text": "地方創生に向けたSDGsの推進"
+        },
+        {
+          "title": "結婚、妊娠、出産、子育てに対する切れ目のない支援",
+          "reason": "支援の具体的な内容（数値・変更点）が不明であるため。",
+          "sources": "https://politician.cafe/politician/1309/measures/",
+          "quote_text": "結婚、妊娠、出産、子育てに対する切れ目のない支援"
+        },
+        {
+          "title": "稼げる農林水産業、暮らしの成り立つ地域産業",
+          "reason": "具体的な施策が含まれない抽象的なスローガンであるため。",
+          "sources": "https://politician.cafe/politician/1309/measures/",
+          "quote_text": "稼げる農林水産業、暮らしの成り立つ地域産業"
+        },
+        {
+          "title": "医療重点区域の設置等による地域医療の充実",
+          "reason": "手段が「等」と曖昧であり、最終目的が「充実」という抽象的表現であるため。",
+          "sources": "https://politician.cafe/politician/1309/measures/",
+          "quote_text": "医療重点区域の設置等による地域医療の充実"
+        },
+        {
+          "title": "気候変動に備えた防災インフラの整備",
+          "reason": "「防災インフラ」が何を指すのか曖昧であり、客観的な検証ができないため。",
+          "sources": "https://politician.cafe/politician/1309/measures/",
+          "quote_text": "気候変動に備えた防災インフラの整備"
+        },
+        {
+          "title": "シングルマザー・ファーザーへの社会的支援",
+          "reason": "「社会的支援」の具体的な内容が定義されておらず、結果が判断できないため。",
+          "sources": "https://politician.cafe/politician/1309/measures/",
+          "quote_text": "シングルマザー・ファーザーへの社会的支援"
+        },
+        {
+          "title": "東日本大震災からの復興完遂",
+          "reason": "「完遂」の基準が数値や制度で定義されておらず、抽象的な意気込みに過ぎないため。",
+          "sources": "https://politician.cafe/politician/1309/measures/",
+          "quote_text": "東日本大震災からの復興を完遂"
+        },
+        {
+          "title": "被災自治体への復興財源の確保",
+          "reason": "「財源の確保」は抽象的な概念であり、実行されたかどうかが不明瞭であるため。",
+          "sources": "https://politician.cafe/politician/1309/measures/",
+          "quote_text": "被災自治体への復興財源の確保"
+        },
+        {
+          "title": "製造、加工、販売に関わる企業の連携推進",
+          "reason": "「推進」という手続き的な表現であり、具体的なコミットメントでないため。",
+          "sources": "https://politician.cafe/politician/1309/measures/",
+          "quote_text": "製造、加工、販売に関わる企業の連携推進"
+        },
+        {
+          "title": "教育分野への投資拡大",
+          "reason": "「拡大」の具体的な金額や紐づく予算科目の言及がなく客観的に判断できないため。",
+          "sources": "https://politician.cafe/politician/1309/measures/",
+          "quote_text": "教育分野への投資拡大"
+        },
+        {
+          "title": "国から地方への権限、財源の移譲",
+          "reason": "具体的な権限や移譲先、法律の変更箇所が明示されておらず、漠然としているため。",
+          "sources": "https://politician.cafe/politician/1309/measures/",
+          "quote_text": "国から地方への権限、財源の移譲"
+        }
+      ]
+    }
+  ]
+}

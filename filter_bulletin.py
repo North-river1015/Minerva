@@ -44,95 +44,38 @@ def safe_generate_content(client, model, contents, config):
         return SimpleResponse(content)
 
 
-
 ALL_WINNERS = {
-
-    "kanagawa": {
-
-        7: {
-            "name": "鈴木馨祐",
-            "official": "https://www.suzukikeisuke.jp/",
-            "party": "自由民主党"
-        },
-        8: {
-            "name": "三谷英弘",
-            "official": "https://mitani-h.net/",
-            "party": "自由民主党"
-        },
-  
-        10: {
-            "name": "田中和徳",
-            "official": "https://www.k-tanaka.gr.jp/",
-            "party": "自由民主党"
-        },
-        11: {
-            "name": "小泉進次郎",
-            "official": "https://shinjiro.info/",
-            "party": "自由民主党"
-        },
-        12: {
-            "name": "星野剛士",
-            "official": "https://www.hoshino-tsuyoshi.com/",
-            "party": "自由民主党"
-        },
-        13: {
-            "name": "丸田康一郎",
-            "official": "https://maruta-koichiro.jp/",
-            "party": "自由民主党"
-        },
-        14: {
-            "name": "赤間二郎",
-            "official": "https://www.akama.jp/",
-            "party": "自由民主党"
-        },
-        15: {
-            "name": "河野太郎",
-            "official": "https://www.taro.org/",
-            "party": "自由民主党"
-        },
-        16: {
-            "name": "佐藤主迪",
-            "official": "https://satoumasashi.com/",
-            "party": "自由民主党"
-        },
-        17: {
-            "name": "牧島かれん",
-            "official": "https://makishimakaren.com/",
-            "party": "自由民主党"
-        },
-        18: {
-            "name": "山際大志郎",
-            "official": "https://yamagiwa-daishiro.jp/",
-            "party": "自由民主党"
-        },
-        19: {
-            "name": "草間剛",
-            "official": "https://kusamatsuyoshi.com/",
-            "party": "自由民主党"
-        },
-        20: {
-            "name": "金澤結衣",
-            "official": "https://kanazawa-yui.jp/",
-            "party": "自由民主党"
-        }
-    },
-    "yamanashi": {
+    "gunma": {
         1: {
-            "name": "中谷真一",
-            "official": "https://nakatani-shinichi.jp/",
+            "name": "中曽根康隆",
+            "official": "https://www.yasu-nakasone.jp/",
             "party": "自由民主党"
         },
         2: {
-            "name": "堀内詔子",
-            "official": "https://www.horiuchinoriko.jp/",
+            "name": "井野俊郎",
+            "official": "https://www.inooffice.jp/",
+            "party": "自由民主党"
+        },
+        3: {
+            "name": "笹川博義",
+            "official": "https://www.sasagawa-hiroyoshi.com/",
+            "party": "自由民主党"
+        },
+        4: {
+            "name": "福田達夫",
+            "official": "https://tatsuo-f.jp/",
+            "party": "自由民主党"
+        },
+        5: {
+            "name": "小渕優子",
+            "official": "https://www.obuchiyuko.com/",
             "party": "自由民主党"
         }
     }
 }
 
 
-
-'''    
+'''
 
         2: {
             "name": "辻清人",
@@ -280,7 +223,7 @@ ALL_WINNERS = {
             "party": "自由民主党"
         }
 
-        '''
+'''
 
 
 def filter_manifesto(district,winner,num):

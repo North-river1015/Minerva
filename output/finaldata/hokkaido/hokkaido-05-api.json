@@ -1,0 +1,277 @@
+{
+  "district": "東京5区",
+  "candidates": [
+    {
+      "name": "和田義明",
+      "party": "自由民主党",
+      "manifesto": [
+        {
+          "title": "介護士・公務員等の給与改善",
+          "reason": "介護報酬制度や公務員給与法などの法的・制度的な変更を伴うため、報酬改定や法改正の有無によって実行されたかが客観的に検証可能であるため。",
+          "sources": "https://yoshiakiwada.com/policy/society/",
+          "quote_text": "介護士・公務員等の給与改善"
+        },
+        {
+          "title": "育児・介護休業法の改正",
+          "reason": "「法の改正」という具体的な制度変更を断定的にコミットメントしており、法改正の有無によって客観的に実施が検証可能であるため。",
+          "sources": "https://say-g.com/interview-wada-yoshiaki-8965",
+          "quote_text": "男性の育児休業を推進するため、育児・介護休業法を改正する。"
+        },
+        {
+          "title": "130万円の壁（健康保険・年金）の大幅引上げ",
+          "reason": "「130万円の壁」という具体的な制度（健康保険・年金の被扶養者認定基準）の数値を「引上げ」るというパラメータ変更を明示しており、法改正や制度変更の有無で実施を客観的に検証できるため。",
+          "sources": "https://go2senkyo.com/seijika/163112",
+          "quote_text": "130万円の壁（健康保険・年金）の大幅引上げ"
+        },
+        {
+          "title": "自衛隊員の処遇改善",
+          "reason": "処遇（給与等）の改善は、関連法改正の有無によって実行されたかが客観的に判断可能であるため。",
+          "sources": "https://yoshiakiwada.com/policy/",
+          "quote_text": "自衛隊員の処遇の抜本改善"
+        },
+        {
+          "title": "安保法制の廃止",
+          "reason": "特定の法律の廃止という具体的なステータス変更を伴う断定的なコミットメントであり、達成度が客観的に検証可能であるため。",
+          "sources": "https://www.yomiuri.co.jp/local/hokkaido/news/20260122-GYTNT00239/",
+          "quote_text": "安保法制の廃止"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "title": "抽象的なスローガン・意欲表現の羅列",
+          "reason": "抽象的なスローガン、挨拶、または意欲・期待を示す表現にとどまり、制度的変更や具体的な変数操作が含まれていないため、客観的な検証が不可能な公約と言えない内容である。",
+          "sources": "https://yoshiakiwada.com/policy/legacy/",
+          "quote_text": "国民の旗手 / 生活・雇用・経済を守り抜く / くらしとなりわいの課題に寄り添う / こども・家族を守り抜く / 夫婦が共に夢を実現 / 地域を守り抜く / 地域の未来を切りひらく / 北海道の農林水産業を守る"
+        },
+        {
+          "title": "防衛省の地域協力および防音対策の強化",
+          "reason": "「強化」「協力」は程度や内容が不明確であり、達成度を客観的に判定できる変数や数値目標が欠如しているため。",
+          "sources": "https://yoshiakiwada.com/policy/security/",
+          "quote_text": "防衛省の地域協力、防音対策を強化"
+        },
+        {
+          "title": "自衛隊員の処遇改善",
+          "reason": "「抜本改善」や「処遇の改善」という表現は抽象的であり、具体的にどの法制度や給与項目をどのように操作するかが不明確で、達成判断が主観的になるため。",
+          "sources": "https://yoshiakiwada.com/policy/legacy/",
+          "quote_text": "自衛隊員の処遇の抜本改善"
+        },
+        {
+          "title": "石油・灯油支援の継続",
+          "reason": "既存政策の継続を述べているに過ぎず、新規の制度変更やアクションを伴うコミットメントではないため。",
+          "sources": "https://yoshiakiwada.com/policy/legacy/",
+          "quote_text": "石油・灯油支援継続"
+        },
+        {
+          "title": "電気代引き下げ",
+          "reason": "具体的な制度操作や法改正の手段が示されておらず、単なる結果目標の提示にとどまっているため。",
+          "sources": "https://yoshiakiwada.com/policy/legacy/",
+          "quote_text": "電気代引き下げ"
+        },
+        {
+          "title": "賃上げおよび企業の適正利益の確保",
+          "reason": "賃上げの具体的な政策手段が欠けており、かつ「適正利益」の定義が曖昧なため、政治的に介入・検証することが不可能であるため。",
+          "sources": "https://yoshiakiwada.com/policy/legacy/",
+          "quote_text": "賃上げ、企業の適正利益の確保"
+        },
+        {
+          "title": "こども・子育て支援の拡充",
+          "reason": "「拡充」「支援」は程度が不明確な抽象概念であり、具体的な要件変更や数値目標がないため客観的検証ができないため。",
+          "sources": "https://yoshiakiwada.com/policy/legacy/",
+          "quote_text": "こども子育て支援のさらなる拡充"
+        },
+        {
+          "title": "「共働き・共育て」の推進",
+          "reason": "「推進」は具体的なアクションを伴わない手続き・意欲表現であり、政策的コミットメントとみなせないため。",
+          "sources": "https://yoshiakiwada.com/policy/legacy/",
+          "quote_text": "「共働き・共育て」推進"
+        },
+        {
+          "title": "「こども誰でも通園制度」による主婦の負担軽減",
+          "reason": "負担軽減は副次的な効果に過ぎず、制度の目的達成に対する明確なコミットメントとして機能していないため。",
+          "sources": "https://yoshiakiwada.com/policy/legacy/",
+          "quote_text": "「こども誰でも通園制度」で主婦の負担も軽減"
+        },
+        {
+          "title": "肥料・機械等に対する政府支援",
+          "reason": "「支援」の方法が抽象的であり、対象となる変数や支援の基準が不明確なため検証不可能であるため。",
+          "sources": "https://yoshiakiwada.com/policy/legacy/",
+          "quote_text": "肥料、機械など、物価に応じた政府支援"
+        },
+        {
+          "title": "人材不足対策および災害対策の強化",
+          "reason": "「強化」は中身が不透明な動詞であり、行動への具体的なコミットメントとみなせないため。",
+          "sources": "https://yoshiakiwada.com/policy/legacy/",
+          "quote_text": "人材不足対策強化 / 災害対策強化"
+        },
+        {
+          "title": "千歳川流域の治水対策",
+          "reason": "特定地域への利益誘導であり、全国的な制度変更ではないため。",
+          "sources": "https://yoshiakiwada.com/policy/legacy/",
+          "quote_text": "千歳川流域の治水対策等"
+        },
+        {
+          "title": "北海道バレー構想の実現",
+          "reason": "特定地域・特定企業（ラピダス等）への利益誘導であり、法制度的な達成基準が不明確なため。",
+          "sources": "https://yoshiakiwada.com/policy/legacy/",
+          "quote_text": "ラビダスを中核とした北海道バレー構想の実現"
+        },
+        {
+          "title": "関連産業集積と雇用・所得の向上",
+          "reason": "予測される結果の目標に過ぎず、操作可能な制度的変数が明示されていないため。",
+          "sources": "https://yoshiakiwada.com/policy/legacy/",
+          "quote_text": "関連産業を集積して雇用増加、所得向上"
+        },
+        {
+          "title": "産学連携による人材育成",
+          "reason": "内容が極めて曖昧であり、検証可能な政策手段が提示されていないため。",
+          "sources": "https://yoshiakiwada.com/policy/legacy/",
+          "quote_text": "産学連携による人材育成"
+        },
+        {
+          "title": "特定インフラの整備・強化",
+          "reason": "新千歳空港、道央圏連絡道路、ボールパーク等の特定施設・地域への利益誘導であり、全国的な公共性を欠くため。",
+          "sources": "https://yoshiakiwada.com/policy/legacy/",
+          "quote_text": "新千歳空港、道央圏連絡道路、ボールパーク新駅等のインフラ強化"
+        },
+        {
+          "title": "文化・家庭環境に関する施策",
+          "reason": "「目指す」「図る」という意欲表現に終始しており、具体的なアクションが伴っていないため。",
+          "sources": "https://say-g.com/interview-wada-yoshiaki-8965",
+          "quote_text": "文化やマインドの変革を目指すとともに、父親の育児参加を促すことで、産後うつによる母親の自殺防止などの家庭環境の安定を図る。"
+        },
+        {
+          "title": "防衛産業の育成と海外移転の促進",
+          "reason": "「促進」という結果へのコミットのない手続き表現であり、客観的検証ができないため。",
+          "sources": "https://say-g.com/interview-wada-yoshiaki-8965",
+          "quote_text": "防衛力の強化に向けた防衛産業の育成と、防衛装備の海外移転を促進する。"
+        },
+        {
+          "title": "次世代軍用機の共同開発と抑止力の向上",
+          "reason": "「抑止力を高める」という抽象的なスローガンであり、具体的にどの制度を操作するのかが不明なため。",
+          "sources": "https://say-g.com/interview-wada-yoshiaki-8965",
+          "quote_text": "次世代軍用機の共同開発や、諸外国との防衛協力・交渉を通じて、日本の抑止力を高める。"
+        },
+        {
+          "title": "経済安全保障・スタートアップ育成関連",
+          "reason": "「推進」「環境整備」「見直し」等の手続き表現が多く、具体的な変数の変更内容が特定できないため。",
+          "sources": "https://say-g.com/interview-wada-yoshiaki-8965",
+          "quote_text": "経済安全保障の観点から、半導体の国産化を推進する。スタートアップの育成を推進する。日本版SBIR制度による技術の早期社会実装や、ストックオプション税制の見直しなど。"
+        },
+        {
+          "title": "食料安全保障の強化",
+          "reason": "「強化」「検討」「加速」といった手続き表現のみで、法改正や具体的な政策アクションを伴わないため。",
+          "sources": "https://say-g.com/interview-wada-yoshiaki-8965",
+          "quote_text": "食料安全保障を強化する。"
+        },
+        {
+          "title": "防衛体制の構築",
+          "reason": "対象が「体制」という抽象概念であり、構築の成否を客観的に判定できないため。",
+          "sources": "https://yoshiakiwada.com/policy/security/",
+          "quote_text": "真に国家国民をまもれる防衛体制構築"
+        },
+        {
+          "title": "インド太平洋地域の平和の旗手",
+          "reason": "単なる自己規定のスローガンであり、政策と呼べるアクションではないため。",
+          "sources": "https://yoshiakiwada.com/policy/security/",
+          "quote_text": "インド太平洋地域の平和の旗手"
+        },
+        {
+          "title": "介護士・公務員等の給与改善",
+          "reason": "「改善」の具体的な数値や適用制度が不明で、客観的な検証ができないため。",
+          "sources": "https://yoshiakiwada.com/policy/security/",
+          "quote_text": "介護士・公務員等の給与改善"
+        },
+        {
+          "title": "地域固有のインフラ誘致・利益誘導",
+          "reason": "第二青函トンネル、国道275、石狩湾風力、石狩警察署等、特定の地域やプロジェクトに対する利益誘導であり、全国的な政策ではないため。",
+          "sources": "https://yoshiakiwada.com/policy/security/",
+          "quote_text": "第二青函トンネルのプロジェクト承認獲得、国道275の4車線化早期完成、石狩湾沖洋上風力発電事業、石狩警察署設置等"
+        },
+        {
+          "title": "農業政策の構築",
+          "reason": "抽象的な概念の「構築」を掲げているだけで、実質的なアクションが不明なため。",
+          "sources": "https://yoshiakiwada.com/policy/security/",
+          "quote_text": "農家さんが安心して営農できる農業政策の構築"
+        },
+        {
+          "title": "土地改良事業整備計画",
+          "reason": "具体的なアクションを伴わない単なる名詞句であるため。",
+          "sources": "https://yoshiakiwada.com/policy/security/",
+          "quote_text": "土地改良事業整備計画"
+        },
+        {
+          "title": "地域再開発および都市活性化",
+          "reason": "新札幌駅、上野幌駅、北広島団地等の再開発は特定地域への利益誘導であり、公共性を欠くため。",
+          "sources": "https://yoshiakiwada.com/policy/security/",
+          "quote_text": "新札幌駅周辺再開発の推進支援、JR上野幌駅前設備・再開発、北広島団地の活性化推進"
+        },
+        {
+          "title": "物価高騰対策・持続可能な交通網",
+          "reason": "「対策」「構築」などの抽象表現にとどまり、具体的な制度変更が示されていないため。",
+          "sources": "https://go2senkyo.com/seijika/163112",
+          "quote_text": "物価高騰対策、持続可能な地方公共交通網の構築"
+        },
+        {
+          "title": "教育への徹底投資",
+          "reason": "「徹底」等の主観的修飾語が含まれており、客観的な達成度を測れないため。",
+          "sources": "https://go2senkyo.com/seijika/163112",
+          "quote_text": "こども・若者の「教育」への徹底投資"
+        },
+        {
+          "title": "医療・介護・教育の報酬改善",
+          "reason": "報酬改善の具体的な制度や引き上げ幅が不明で検証不能であるため。",
+          "sources": "https://go2senkyo.com/seijika/163112",
+          "quote_text": "医療・介護・保育・幼児教育の更なる報酬改善"
+        },
+        {
+          "title": "農林水産業の設備補助強化",
+          "reason": "「強化」という検証不能な動詞を含んでいるため。",
+          "sources": "https://yoshiakiwada.com/policy/security/",
+          "quote_text": "農林水産業の設備補助事業強化"
+        },
+        {
+          "title": "安全保障・脅威国対応",
+          "reason": "「脱却」「確立」等の精神論的な目標であり、具体的な外交・経済制度の変更ではないため。",
+          "sources": "https://go2senkyo.com/seijika/163112",
+          "quote_text": "脅威国への経済的依存からの脱却、国家安全保障の確立"
+        },
+        {
+          "title": "多文化共生社会の実現",
+          "reason": "「社会の実現」という抽象スローガンであり、観測可能な政治的手段がないため。",
+          "sources": "https://go2senkyo.com/seijika/163112",
+          "quote_text": "国が厳格に管理する、責任・節度ある多文化共生社会の実現"
+        },
+        {
+          "title": "社会保障政策・安全保障議論",
+          "reason": "「推進」「議論」といった手続き表現であり、具体的な政策変更とはみなせないため。",
+          "sources": "https://www.yomiuri.co.jp/local/hokkaido/news/20260122-GYTNT00239/",
+          "quote_text": "社会保障政策の推進、現実的な国の安全保障に関する議論"
+        },
+        {
+          "title": "中小企業の利益向上",
+          "reason": "抽象的な結果目標であり、政治主体がどう介入するかが不明なため。",
+          "sources": "https://www.yomiuri.co.jp/local/hokkaido/news/20260122-GYTNT00239/",
+          "quote_text": "中小企業の利益向上"
+        },
+        {
+          "title": "原発ゼロ",
+          "reason": "具体的な法整備のロードマップを伴わないスローガンのため。",
+          "sources": "https://www.yomiuri.co.jp/local/hokkaido/news/20260122-GYTNT00239/",
+          "quote_text": "原発ゼロ"
+        },
+        {
+          "title": "高市政権の支援",
+          "reason": "個別の政治家への支援は、公約ではなく政治的信条の表明に当たるため。",
+          "sources": "https://www.yomiuri.co.jp/local/hokkaido/news/20260122-GYTNT00239/",
+          "quote_text": "高市政権の支援"
+        },
+        {
+          "title": "生活困窮者への法的支援",
+          "reason": "具体的にどの法制度を変更するかが明示されていないため。",
+          "sources": "https://www.yomiuri.co.jp/local/hokkaido/news/20260122-GYTNT00239/",
+          "quote_text": "生活困窮者への法的支援"
+        }
+      ]
+    }
+  ]
+}
