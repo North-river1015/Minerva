@@ -1,4 +1,83 @@
 ALL_WINNERS = {
+    "niigata": {
+        1: {
+            "name": "内山航",
+            "official": "https://kou-uchiyama.com/",
+            "party": "自由民主党"
+        },
+        2: {
+            "name": "国定勇人",
+            "official": "N/A",
+            "party": "自由民主党"
+        },
+        3: {
+            "name": "斎藤洋明",
+            "official": "https://www.saitoh-hiroaki.jp/",
+            "party": "自由民主党"
+        },
+        4: {
+            "name": "鷲尾英一郎",
+            "official": "https://washio-e.jp/",
+            "party": "自由民主党"
+        },
+        5: {
+            "name": "高鳥修一",
+            "official": "https://takatori.jp/",
+            "party": "自由民主党"
+        }
+    },
+    "toyama": {
+        1: {
+            "name": "中田宏",
+            "official": "https://nakada.net/",
+            "party": "自由民主党"
+        },
+        2: {
+            "name": "上田英俊",
+            "official": "https://ueda-eishun.com/",
+            "party": "自由民主党"
+        },
+        3: {
+            "name": "橘慶一郎",
+            "official": "https://www.t-k1.net/",
+            "party": "自由民主党"
+        }
+    },
+    "ishikawa": {
+        1: {
+            "name": "小森卓郎",
+            "official": "https://komoritakuo.jp/",
+            "party": "自由民主党"
+        },
+        2: {
+            "name": "佐々木紀",
+            "official": "https://sasaki-hajime.jp/",
+            "party": "自由民主党"
+        },
+        3: {
+            "name": "西田昭二",
+            "official": "https://www.nishida-syoji.jp/",
+            "party": "自由民主党"
+        }
+    },
+    "fukui": {
+        1: {
+            "name": "稲田朋美",
+            "official": "https://www.inada-tomomi.com/",
+            "party": "自由民主党"
+        },
+        2: {
+            "name": "斉木武志",
+            "official": "https://saikitakeshi.jp/",
+            "party": "無所属"
+        }
+    }
+}
+
+
+
+
+ALL_WINNERS = {
     "gunma": {
         1: {
             "name": "中曽根康隆",

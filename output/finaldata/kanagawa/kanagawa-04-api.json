@@ -1,0 +1,745 @@
+{
+  "district": "神奈川4区",
+  "candidates": [
+    {
+      "name": "永田磨梨奈",
+      "party": "自由民主党",
+      "manifesto": [
+        {
+          "title": "核融合炉実用化に向けた年間1000億円の研究投資",
+          "reason": "具体的な予算枠と期限を定めた研究投資のコミットメントであり、実行の有無が観測可能なため。",
+          "sources": "https://nagata-marina.com/manifest/environment/",
+          "quote_text": "2035年を目標に、核融合炉の実用化に向け年間1000億円の研究投資を実施し"
+        },
+        {
+          "title": "ペロブスカイト太陽光・洋上風力発電設置への最大50%補助金支給",
+          "reason": "具体的な補助金率という数値条件を伴う制度の資金提供であり、実行の有無が客観的に検証可能なため。",
+          "sources": "https://nagata-marina.com/manifest/environment/",
+          "quote_text": "ペロブスカイト太陽光・洋上風力発電の設置に最大50%の補助金を支給し"
+        },
+        {
+          "title": "断熱素材の建築基準の法制化",
+          "reason": "明確な法制度のステータス変更を指し、法案制定の有無で客観的に検証可能であるため。",
+          "sources": "https://nagata-marina.com/manifest/environment/",
+          "quote_text": "断熱素材の建築基準を法制化して"
+        },
+        {
+          "title": "法定雇用率の3.0%への引き上げ",
+          "reason": "法定雇用率という法要件を具体的な数値に変更するコミットメントであり、客観的に検証可能なため。",
+          "sources": "https://nagata-marina.com/manifest/welfare/",
+          "quote_text": "法定雇用率を3.0%に引き上げ（2030年目標）。"
+        },
+        {
+          "title": "企業への障害者雇用促進税制優遇の30%増",
+          "reason": "制度における具体的な数値の変更を伴う意思表明であり、客観的に検証可能なため。",
+          "sources": "https://nagata-marina.com/manifest/welfare/",
+          "quote_text": "企業に障害者雇用を促す税制優遇を30%増。"
+        },
+        {
+          "title": "60歳以上の再雇用・副業支援補助金の導入",
+          "reason": "新規制度の設立を断定しており、要綱や予算の存在によって客観的に検証可能なため。",
+          "sources": "https://nagata-marina.com/manifest/welfare/",
+          "quote_text": "60歳以上の再雇用や副業を支援する補助金を導入。"
+        },
+        {
+          "title": "プライバシー保護の法制化",
+          "reason": "法律の制定という制度変更を明約しており、条文の有無で客観的に達成状況を判定できるため。",
+          "sources": "https://nagata-marina.com/manifest/welfare/",
+          "quote_text": "プライバシー保護を法制化し、安心を確保。"
+        },
+        {
+          "title": "サイバーセキュリティ予算の倍増",
+          "reason": "具体的な予算増額目標を掲げており、達成の有無が客観的に検証可能であるため。",
+          "sources": "https://nagata-marina.com/manifest/defense/",
+          "quote_text": "2028年までにサイバーセキュリティ予算を2倍（年間5000億円）に増額し"
+        },
+        {
+          "title": "AIを活用した攻撃検知システムの全国展開",
+          "reason": "システム導入という事実を明記しており、Yes/Noによる客観的な検証が可能であるため。",
+          "sources": "https://nagata-marina.com/manifest/defense/",
+          "quote_text": "AIを活用した攻撃検知システムを全国展開する。"
+        },
+        {
+          "title": "大学・専門学校でのサイバーセキュリティコース必修化",
+          "reason": "公教育における学習カリキュラムの制度変更を断定しているため。",
+          "sources": "https://nagata-marina.com/manifest/defense/",
+          "quote_text": "大学・専門学校でのサイバーセキュリティコースの必修化"
+        },
+        {
+          "title": "サイバー防御基準の法制化",
+          "reason": "法的措置を伴っており、法律の有無で検証が可能であるため。",
+          "sources": "https://nagata-marina.com/manifest/defense/",
+          "quote_text": "電力、通信、金融システムへのサイバー防御基準の法制化を行い"
+        },
+        {
+          "title": "サイバー防衛協定の締結",
+          "reason": "外交上の枠組み構築であり、条約・協定の存在によって客観的に確認できるため。",
+          "sources": "https://nagata-marina.com/manifest/defense/",
+          "quote_text": "グローバルサウスやNATOとサイバー防衛協定を締結し"
+        },
+        {
+          "title": "防衛費のGDP比2%への引き上げ",
+          "reason": "防衛予算に関する具体的な数値目標であり、実行の有無が客観的に判断可能であるため。",
+          "sources": "https://nagata-marina.com/manifest/defense/",
+          "quote_text": "防衛費をGDP比2%（12兆円）に引き上げ"
+        },
+        {
+          "title": "日米共同演習の年間10回への拡大",
+          "reason": "具体的な実施回数指標への変更であり、客観的検証が可能なコミットメントであるため。",
+          "sources": "https://nagata-marina.com/manifest/defense/",
+          "quote_text": "日米共同演習を年間10回に拡大し"
+        },
+        {
+          "title": "グローバルサウス50カ国での平和教育の展開",
+          "reason": "具体的な数値目標を伴う事業実施であり、客観的に活動展開の有無が検証可能であるため。",
+          "sources": "https://nagata-marina.com/manifest/defense/",
+          "quote_text": "広島・長崎の平和教育を2030年までにグローバルサウスの50カ国で展開する。"
+        },
+        {
+          "title": "大学評価基準の卒業生生産性や社会貢献度への変更",
+          "reason": "教育行政の客観的評価指標に関するステータス変更を断定しているため。",
+          "sources": "https://nagata-marina.com/manifest/education/",
+          "quote_text": "大学の評価を偏差値から、卒業生の生産性（給与水準、起業率）や社会貢献度（例：地域課題解決）に変更。"
+        },
+        {
+          "title": "補助金配分の基準変更と成果不良校の統合・閉鎖",
+          "reason": "具体的なルール改定および行政的措置を明言しており、検証可能であるため。",
+          "sources": "https://nagata-marina.com/manifest/education/",
+          "quote_text": "補助金を就職率や新産業貢献度（例：AI企業への就職数）に連動し、成果不良校は統合・閉鎖。"
+        },
+        {
+          "title": "AI・デジタルリテラシーの必修化",
+          "reason": "教育課程や設置基準の制度変更を指しており、客観的に観測可能なため。",
+          "sources": "https://nagata-marina.com/manifest/education/",
+          "quote_text": "AI・デジタルリテラシーをすべての学部で必修化（確率統計、データ分析、プログラミング、AIツール活用）し"
+        },
+        {
+          "title": "大学内での2年制ディプロマ提供の制度化",
+          "reason": "新規の制度的枠組みの変更を示しており、実施の有無が客観的に判定できるため。",
+          "sources": "https://nagata-marina.com/manifest/education/",
+          "quote_text": "AIエンジニアや観光プランナーの2年制ディプロマを大学内で提供します。"
+        },
+        {
+          "title": "短期集中コースの全国100校での展開",
+          "reason": "期限と具体的な数値目標が設定されており、達成度が客観的に検証可能であるため。",
+          "sources": "https://nagata-marina.com/manifest/education/",
+          "quote_text": "30〜50代向けに、AI、バイオ、観光のスキルを短期間で習得する短期集中コースを2030年までに全国100校で展開します。"
+        },
+        {
+          "title": "最低賃金1500円への引き上げ",
+          "reason": "具体的な賃金目標を用いた設定変更であり、実施の有無が確認可能であるため。",
+          "sources": "https://nagata-marina.com/manifest/",
+          "quote_text": "最低賃金を2030年までに1500円へ。"
+        },
+        {
+          "title": "全国オンライン教育プラットフォームの展開",
+          "reason": "新規システムの構築と開始時期を明言しており、実施が客観的に確認できるため。",
+          "sources": "https://nagata-marina.com/manifest/",
+          "quote_text": "生涯学習の機会として全国オンライン教育プラットフォームを2028年展開。"
+        },
+        {
+          "title": "教育投資のGDP比5%への引き上げ",
+          "reason": "政府予算規模の具体的な数値変更であり、達成度が客観的に検証可能なため。",
+          "sources": "https://nagata-marina.com/manifest/",
+          "quote_text": "教育投資をGDP比3.5%から5%へ引き上げ。"
+        },
+        {
+          "title": "AIセキュリティ専門家10万人の育成",
+          "reason": "具体的な人材育成の数値目標であり、検証が可能であるため。",
+          "sources": "https://nagata-marina.com/manifest/",
+          "quote_text": "サイバー人材育成としてAIセキュリティの専門家を10万人育成。"
+        },
+        {
+          "title": "公共施設・交通機関のバリアフリー化100%達成",
+          "reason": "明確な数値基準に基づく状態の実現を約束しており、整備状況が数字で確認できるため。",
+          "sources": "https://nagata-marina.com/manifest/",
+          "quote_text": "バリアフリーとして公共施設・交通機関のバリアフリー化を100%達成。"
+        },
+        {
+          "title": "行政コスト20%削減",
+          "reason": "具体的な経費削減目標を掲げており、決算等で客観的に判定できるため。",
+          "sources": "https://nagata-marina.com/manifest/",
+          "quote_text": "行政コスト削減として2030年までに行政コストを20%削減。"
+        },
+        {
+          "title": "行政手続きのオンライン化100%",
+          "reason": "行政システムのステータス変更を明示しており、明確かつ観測可能な目標設定であるため。",
+          "sources": "https://nagata-marina.com/manifest/",
+          "quote_text": "マイナンバー活用で行政手続きをオンライン化100%。"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "title": "国を前に進める道筋の創設",
+          "reason": "抽象的なスローガンであり、具体的にどの法律をどのように変更するのかといった客観的に判定可能な変数が存在しないため。",
+          "sources": "https://nagata-marina.com/",
+          "quote_text": "前例主義にとらわれ硬直した法律を、現代を生きる私たちのために、そして未来を生きる人々のために適応させ、この国を右でも左でもなく前に進める道筋を創ります。"
+        },
+        {
+          "title": "誰もが公平にスタートラインに立てる社会の実現",
+          "reason": "「社会を実現する」という抽象的なスローガンであり、具体的にどの制度を変更するか客観的に検証可能なアクションが含まれないため。",
+          "sources": "https://say-g.com/nagata-marina-12243",
+          "quote_text": "誰もが公平にスタートラインに立てる社会をつくり、一人ひとりの選択肢が無限に広がる社会を実現する。"
+        },
+        {
+          "title": "選択肢やセーフティーネットの構築",
+          "reason": "「構築」という動詞が使われているが、対象が「選択肢やセーフティーネット」という抽象的な概念であり、客観的に達成を判定できる具体性がないため。",
+          "sources": "https://say-g.com/nagata-marina-12243",
+          "quote_text": "制度の狭間でこぼれ落ちる人や、困っていても声を上げられない人が、自身の能力を活かして挑戦できるための選択肢やセーフティーネットを構築する。"
+        },
+        {
+          "title": "国家ビジョンから逆算した教育施策への取り組み",
+          "reason": "「取り組む」という曖昧な意気込みであり、具体的にどのような制度・法律・予算を変更するかが一切明示されていないため。",
+          "sources": "https://say-g.com/nagata-marina-12243",
+          "quote_text": "教育をあらゆる政策の土台に据え、国家ビジョンから逆算した教育施策に取り組む。"
+        },
+        {
+          "title": "公教育の質の向上と「余白」を許容する社会的な意識の醸成",
+          "reason": "「目指す」という手続き・意欲表現が含まれており、かつ「意識の醸成」など客観的に検証が不可能な内容であるため。",
+          "sources": "https://say-g.com/nagata-marina-12243",
+          "quote_text": "制度の形を整えるだけでなく、公教育そのものの質を高めること、そして効率やタイパ（タイムパフォーマンス）だけで測れない、試行錯誤のための「余白」を許容する社会的な意識の醸成を目指す。"
+        },
+        {
+          "title": "心のゆとりを生み出す土台作り",
+          "reason": "経済を立て直し、国を豊かにするなどの具体的な法改正や予算措置を伴わない抽象的なスローガンであるため。",
+          "sources": "https://say-g.com/nagata-marina-12243",
+          "quote_text": "経済を立て直し、国を豊かにすることで、他者を思いやる心のゆとりを生み出す土台を作る。"
+        },
+        {
+          "title": "地に足の着いた社会のグランドデザインを描く",
+          "reason": "グランドデザインを描くという客観的な評価が不可能な方針・計画作成への意気込みであり、具体的なアクションではないため。",
+          "sources": "https://say-g.com/nagata-marina-12243",
+          "quote_text": "トレンドに流されるだけでなく、それぞれの特性に応じた役割分担ができる、地に足の着いた社会のグランドデザインを描く。"
+        },
+        {
+          "title": "現場の感覚を重視した政治の実行",
+          "reason": "パイプ役として政治を行うといった、立候補者としての一般的な姿勢や意気込みを示すものに過ぎないため。",
+          "sources": "https://say-g.com/nagata-marina-12243",
+          "quote_text": "地方の切実な声と国の政策をつなぐパイプ役として、現場の感覚を重視した政治を行う。"
+        },
+        {
+          "title": "鎌倉における雇用の場の創出",
+          "reason": "雇用の場をつくるという抽象的な表現であり、何をもって達成とするか客観的検証が不能であるため。",
+          "sources": "https://nagata-marina.com/policy/",
+          "quote_text": "様々な形の「働く」のために、神奈川県のネットワークや制度を活用し、鎌倉に雇用の場をつくります。"
+        },
+        {
+          "title": "働き方改革やテレワークの推進、様々な働き方の応援",
+          "reason": "推進・取り組み・応援という手続き・意欲表現のみであり、具体的な制度変更のアクションを示していないため。",
+          "sources": "https://nagata-marina.com/policy/",
+          "quote_text": "国の進める働き方改革やテレワークの推進に取り組み、様々な働き方を応援します。"
+        },
+        {
+          "title": "女性就労に関する課題解決",
+          "reason": "取り組みますという曖昧な意気込みであり、具体的な制度的変更やコミットメントが含まれていないため。",
+          "sources": "https://nagata-marina.com/policy/",
+          "quote_text": "女性就労に関する課題解決に取り組みます。"
+        },
+        {
+          "title": "産前産後ケアの充実と子育て環境の整備",
+          "reason": "充実・環境を整えるといった単なるスローガン・意欲表現であり、検証可能な政策手段が提示されていないため。",
+          "sources": "https://nagata-marina.com/policy/",
+          "quote_text": "子どもを産みたい、育てたいまちになるために、産前産後ケアの充実に取り組み子どもを産み育てる環境を整えます。"
+        },
+        {
+          "title": "教育環境の充実",
+          "reason": "充実に取り組みますという曖昧な表現であり、具体的にどの変数をどのように変更するのか明示されていないため。",
+          "sources": "https://nagata-marina.com/policy/",
+          "quote_text": "教育環境（学校設備、学童、特別支援学級）の充実に取り組みます。"
+        },
+        {
+          "title": "困難な立場にある女性の相談体制の充実",
+          "reason": "体制の充実は内容が不透明で検証不能であり、単なる意図の表明に過ぎないため。",
+          "sources": "https://nagata-marina.com/policy/",
+          "quote_text": "予期せぬ妊娠など困難な立場にある女性の相談体制の充実に取り組みます。"
+        },
+        {
+          "title": "海岸の環境や鎌倉の緑の保全",
+          "reason": "守りますという概念的なスローガンであり、具体的にどの政策や制度を通じて実現するのか客観的に判断できないため。",
+          "sources": "https://nagata-marina.com/policy/",
+          "quote_text": "市民の安全安心・鎌倉の環境を守るために、海岸の環境、鎌倉の緑を守ります。"
+        },
+        {
+          "title": "道路整備・渋滞解消への取り組み",
+          "reason": "取り組みますという手続き的表現であり、特定の行動や結果への明確な断定的コミットメントとみなせないため。",
+          "sources": "https://nagata-marina.com/policy/",
+          "quote_text": "神奈川県と連携し道路整備・渋滞解消に取り組みます。"
+        },
+        {
+          "title": "緊急輸送道路の整備や浸水・災害対策の推進",
+          "reason": "進め・取り組みますという意欲・手続き表現が含まれており、結果に対する具体的なコミットとみなせないため。",
+          "sources": "https://nagata-marina.com/policy/",
+          "quote_text": "神奈川県管轄である緊急輸送道路の整備、河川の浸水対策を進め、広域での災害対策に取り組みます。"
+        },
+        {
+          "title": "不登校や留学支援など子どもの未来のための支援充実",
+          "reason": "支援充実に取り組みますは具体的に操作する変数が示されておらず、客観的に検証不能な意気込みであるため。",
+          "sources": "https://nagata-marina.com/policy/",
+          "quote_text": "未来へ、不登校支援、留学支援を始め子どもの未来のための支援充実に取り組みます。"
+        },
+        {
+          "title": "高齢者・障害者福祉の充実、多様な生き方への理解促進",
+          "reason": "目指し・努めます・促進といった手続き・意欲表現が含まれており、明確な制度変更などの政治的行動への意思ではないため。",
+          "sources": "https://nagata-marina.com/policy/",
+          "quote_text": "共生社会を目指し、高齢者、障がい者福祉の充実、またLGBTQなど、多様な生き方への正しい理解の促進に努めます。"
+        },
+        {
+          "title": "技術開発の加速",
+          "reason": "加速しますという曖昧な意気込みにとどまっており、具体的な変数がないため。",
+          "sources": "https://nagata-marina.com/manifest/environment/",
+          "quote_text": "国際協力（ITERプロジェクト）や民間企業と連携して技術開発を加速します。"
+        },
+        {
+          "title": "エネルギーコスト30%削減・企業競争力の向上",
+          "reason": "政策アクション自体ではなく、期待される結果予測・目標を叙述したに過ぎないため。",
+          "sources": "https://nagata-marina.com/manifest/environment/",
+          "quote_text": "核融合炉の実用化により、2040年までにエネルギーコストを30%削減し、企業競争力を高めます。"
+        },
+        {
+          "title": "再生可能エネルギーの推進",
+          "reason": "推進という表現が含まれるため、直ちに排除基準に該当する。",
+          "sources": "https://nagata-marina.com/manifest/environment/",
+          "quote_text": "太陽光、風力、バイオマスなどの再生可能エネルギーを推進し"
+        },
+        {
+          "title": "電力の40%を再生可能エネルギーに引き上げ",
+          "reason": "引き上げますという結果の目標を示しているのみで、それを実現する具体的な政策手段が見えないため。",
+          "sources": "https://nagata-marina.com/manifest/environment/",
+          "quote_text": "2030年までに電力の40%を再生可能エネルギーに引き上げます。"
+        },
+        {
+          "title": "初期建設費用の削減",
+          "reason": "補助金支給によって生じる結果の予測を述べているのみであり、独立した政治的アクションではないため。",
+          "sources": "https://nagata-marina.com/manifest/environment/",
+          "quote_text": "需要拡大と量産効果によって初期建設費用を下げます。"
+        },
+        {
+          "title": "海洋エネルギー発電の全国沿岸地域への展開",
+          "reason": "展開しは具体的な資金や制度の裏付けがなく、どう展開するかが不明瞭で検証不能なため。",
+          "sources": "https://nagata-marina.com/manifest/environment/",
+          "quote_text": "海洋エネルギーを活用した発電を全国の沿岸地域に展開し"
+        },
+        {
+          "title": "スマートグリッド導入とエネルギーコスト15%削減",
+          "reason": "導入対象がスマートグリッドという抽象概念であり、且つコスト削減は結果目標に過ぎないため。",
+          "sources": "https://nagata-marina.com/manifest/environment/",
+          "quote_text": "AIを活用したスマートグリッドの導入により、2030年までにエネルギーコストを15%削減します。"
+        },
+        {
+          "title": "再生可能エネルギー企業への税制優遇",
+          "reason": "対象税種や減税幅等の操作すべき変数が特定されておらず、税制優遇だけでは客観的に検証できないため。",
+          "sources": "https://nagata-marina.com/manifest/environment/",
+          "quote_text": "また、再生可能エネルギー企業に税制優遇を提供します。"
+        },
+        {
+          "title": "CO2排出量の46%削減",
+          "reason": "目指しという意欲・手続き表現が含まれるため、排除基準に完全に該当する。",
+          "sources": "https://nagata-marina.com/manifest/environment/",
+          "quote_text": "2030年までにCO2排出量を2013年比で46%削減することを目指し"
+        },
+        {
+          "title": "排出権取引制度の強化とクリーン技術投資の促進",
+          "reason": "強化・促進という動詞が含まれており、排除基準に直ちに該当するため。",
+          "sources": "https://nagata-marina.com/manifest/environment/",
+          "quote_text": "企業への排出権取引制度を強化してクリーン技術投資を促進します。"
+        },
+        {
+          "title": "都市部で1℃の気温低下の目標設定",
+          "reason": "目標に設定しますという宣言にとどまり、制度変更を伴う具体的な政治アクションではないため。",
+          "sources": "https://nagata-marina.com/manifest/environment/",
+          "quote_text": "ヒートアイランド現象による気温上昇を抑制するため、2030年までに都市部で1℃の気温低下を目標に設定します。"
+        },
+        {
+          "title": "都市緑化の50%増進",
+          "reason": "増進させは具体的な法制度や予算を伴わない結果目標であり、客観的な観測が不可能であるため。",
+          "sources": "https://nagata-marina.com/manifest/environment/",
+          "quote_text": "都市緑化を全国の都市部で50%増進させ"
+        },
+        {
+          "title": "冷暖房の放熱の30%削減",
+          "reason": "法制化によって期待される物的効果および結果予測であり、それ自体が政治的制度変更ではないため。",
+          "sources": "https://nagata-marina.com/manifest/environment/",
+          "quote_text": "冷暖房の放熱を30%削減します。"
+        },
+        {
+          "title": "緑化ボランティア・省エネ活動への税制優遇提供",
+          "reason": "税制の具体的なパラメータが存在せず検証不可能なため。",
+          "sources": "https://nagata-marina.com/manifest/environment/",
+          "quote_text": "緑化ボランティアや省エネ活動に税制優遇を提供し"
+        },
+        {
+          "title": "住民参加の促進",
+          "reason": "促しますという曖昧な表現であり、実行の有無を数字や制度で客観的検証ができないため。",
+          "sources": "https://nagata-marina.com/manifest/environment/",
+          "quote_text": "住民参加を促します。"
+        },
+        {
+          "title": "プラスチックリサイクル率の60%への引き上げ",
+          "reason": "結果目標としての数値を掲げているだけで、それを達成するための施策自体が語られていないため。",
+          "sources": "https://nagata-marina.com/manifest/environment/",
+          "quote_text": "プラスチックリサイクル率を2030年までに60%に引き上げ"
+        },
+        {
+          "title": "リユース容器普及への補助金支援",
+          "reason": "支援しますという曖昧な動詞が使われており、補助金の規模や具体的な条件の変数が示されていないため。",
+          "sources": "https://nagata-marina.com/manifest/environment/",
+          "quote_text": "リユース容器の全国普及を補助金で支援します。"
+        },
+        {
+          "title": "新素材開発やアップサイクル企業への税制優遇",
+          "reason": "どのような税制のステータスや条件を変更するかが示されておらず、結果が検証できないため。",
+          "sources": "https://nagata-marina.com/manifest/environment/",
+          "quote_text": "廃棄物を活用した新素材開発やアップサイクル企業に税制優遇を行い"
+        },
+        {
+          "title": "循環型ビジネスの支援",
+          "reason": "支援しますという極めて抽象的な意欲を述べているに過ぎないため。",
+          "sources": "https://nagata-marina.com/manifest/environment/",
+          "quote_text": "循環型ビジネスを支援します。"
+        },
+        {
+          "title": "市町村連携モデルの全国展開",
+          "reason": "展開しは具体的な政策上の変数を操作するものではなく、進めるという排除条件に抵触するため。",
+          "sources": "https://nagata-marina.com/manifest/environment/",
+          "quote_text": "ごみ分別やリサイクルインフラの整備を進める市町村連携モデルを全国展開し"
+        },
+        {
+          "title": "障害者や高齢者の活躍環境整備と選択肢の拡大",
+          "reason": "環境を整備・選択肢を拡大がいずれも抽象的なスローガンであり、具体的に操作する変数が示されていないため。",
+          "sources": "https://nagata-marina.com/manifest/welfare/",
+          "quote_text": "障害者や高齢者が社会で活躍できる環境を整備し、選択肢を拡大します。"
+        },
+        {
+          "title": "税収増の福祉への再投資",
+          "reason": "再投資という言葉は抽象的な意気込みに過ぎず、具体的な予算措置や制度の確立が含まれていないため。",
+          "sources": "https://nagata-marina.com/manifest/welfare/",
+          "quote_text": "マニフェストの「強い経済」と連携し、税収増を福祉に再投資。"
+        },
+        {
+          "title": "鎌倉の観光業での接客トレーニングモデル化",
+          "reason": "特定の地域を挙げた枠組みのモデル化であり、全国レベルの制度変更ではなく利益誘導や事業例の提示に過ぎないため。",
+          "sources": "https://nagata-marina.com/manifest/welfare/",
+          "quote_text": "鎌倉の観光業で障害者向け接客トレーニングをモデル化。"
+        },
+        {
+          "title": "2030年までの高齢者就労率35%の達成",
+          "reason": "就労率自体は結果として現れる数値目標であり、政府が直接操作可能な変数ではないため。",
+          "sources": "https://nagata-marina.com/manifest/welfare/",
+          "quote_text": "2030年までに高齢者就労率を35%に。"
+        },
+        {
+          "title": "新産業や地域企業でのインターンシップ提供",
+          "reason": "提供・実施というアクションが曖昧であり、どのようなシステム操作によって実現するかが不明なため。",
+          "sources": "https://nagata-marina.com/manifest/welfare/",
+          "quote_text": "新産業（AI、観光、環境）や地域企業でのインターンシップを障害者・高齢者に提供。2028年までに全国1000社で実施。"
+        },
+        {
+          "title": "鎌倉のバリアフリー観光の全国展開",
+          "reason": "展開という検証不能な動詞が用いられており、客観的な制度変更を指示するものではないため。",
+          "sources": "https://nagata-marina.com/manifest/welfare/",
+          "quote_text": "地域モデル : 鎌倉のバリアフリー観光（例：由比ヶ浜の車椅子アクセス）を全国50都市に展開。福祉と経済を両立。"
+        },
+        {
+          "title": "AIとデジタル技術を活用した支援提供と他分野への連携",
+          "reason": "支援を提供・連携は抽象的なアクションであり、具体的な制度変更のコミットメントがないため。",
+          "sources": "https://nagata-marina.com/manifest/welfare/",
+          "quote_text": "AIとデジタル技術を活用し、障害者や高齢者のニーズに応じた支援を提供。マニフェストの「デジタルトランスフォーメーション（DX）」と「教育改革」に連携。"
+        },
+        {
+          "title": "AI翻訳ツールやナビゲーションアプリの開発",
+          "reason": "開発は事業としての取組であり、公約として検証されるべき法律や制度のステータス変更とは異なるため。",
+          "sources": "https://nagata-marina.com/manifest/welfare/",
+          "quote_text": "視覚・聴覚障害者向けのAI翻訳ツールや、認知症高齢者向けのナビゲーションアプリを開発。2028年までに100万ユーザーを目標。"
+        },
+        {
+          "title": "オンライン講座の無料提供",
+          "reason": "講座の提供は事業活動そのものであり、新規制度の設立や法改正などの政治的な意思表明に該当しないため。",
+          "sources": "https://nagata-marina.com/manifest/welfare/",
+          "quote_text": "障害者や高齢者向けに、AIリテラシーや観光・環境ビジネスのオンライン講座を無料提供。30〜50代の福祉従事者も対象に。"
+        },
+        {
+          "title": "福祉施設のデジタル化の補助金での支援",
+          "reason": "支援という曖昧な表現であり、補助金を新設するのか既存枠を拡充するのかが不明確なため。",
+          "sources": "https://nagata-marina.com/manifest/welfare/",
+          "quote_text": "デジタルアクセシビリティ : 福祉施設のデジタル化（例：遠隔医療、オンライン相談）を補助金で支援。鎌倉の福祉施設をモデルに、2030年までに全国50%デジタル化。"
+        },
+        {
+          "title": "AIによる個人ニーズの分析と最適化",
+          "reason": "最適化という言葉は極めて主観的で曖昧であり、客観的・定量的に実施の有無が判定できないため。",
+          "sources": "https://nagata-marina.com/manifest/welfare/",
+          "quote_text": "個人ニーズをAIで分析し、就労や生活支援を最適化。"
+        },
+        {
+          "title": "地域のバリアフリー環境整備と共生社会",
+          "reason": "具体的な政策の中身が存在せず、単なる見出しや抽象的なスローガンの域を出ないため。",
+          "sources": "https://nagata-marina.com/manifest/welfare/",
+          "quote_text": "地域のバリアフリー環境整備：共生社会"
+        },
+        {
+          "title": "安全なサイバー環境の構築",
+          "reason": "構築の対象が環境という抽象的な概念であり、客観的な達成の検証が不可能なため。",
+          "sources": "https://nagata-marina.com/manifest/defense/",
+          "quote_text": "安全な環境を構築する。"
+        },
+        {
+          "title": "5万人のサイバーセキュリティ専門家の育成",
+          "reason": "育成するは達成度の判断が極めて恣意的になりやすく、制度的なステータスの変更や100%客観的な事実判定が難しいため。",
+          "sources": "https://nagata-marina.com/manifest/defense/",
+          "quote_text": "30〜50代のリスキリングを通じて2030年までに5万人の専門家を育成する。"
+        },
+        {
+          "title": "重要インフラの保護",
+          "reason": "政策の方向性を示す抽象的なスローガンにとどまり、客観的な検証指標が存在しないため。",
+          "sources": "https://nagata-marina.com/manifest/defense/",
+          "quote_text": "重要インフラを保護する。"
+        },
+        {
+          "title": "国際的な技術信頼性の向上",
+          "reason": "高めるの対象が信頼性という定性的な概念であり、達成度が客観的に判断できないため。",
+          "sources": "https://nagata-marina.com/manifest/defense/",
+          "quote_text": "国際的な技術信頼性を高める。"
+        },
+        {
+          "title": "通常兵器とミサイル防衛による抑止力の確保",
+          "reason": "確保するの対象が抑止力という抽象的概念であり、政策として検証不可能なため。",
+          "sources": "https://nagata-marina.com/manifest/defense/",
+          "quote_text": "通常兵器とミサイル防衛により抑止力を確保する。"
+        },
+        {
+          "title": "イージス・アショアやTHAADの強化",
+          "reason": "強化という排除基準に直結する動詞が使われており、即座に却下されるべき内容であるため。",
+          "sources": "https://nagata-marina.com/manifest/defense/",
+          "quote_text": "イージス・アショアやTHAADを強化することで"
+        },
+        {
+          "title": "ミサイル迎撃率95%を目指す",
+          "reason": "目指すという意欲・手続き表現が含まれており、コミットメントとしての公約要件を満たさないため。",
+          "sources": "https://nagata-marina.com/manifest/defense/",
+          "quote_text": "2030年までに北朝鮮のミサイル脅威への迎撃率を95%にすることを目指す。"
+        },
+        {
+          "title": "通常兵器の近代化",
+          "reason": "近代化の意味が曖昧で、具体的にどの変数をどのように変更するのか客観的判定ができないため。",
+          "sources": "https://nagata-marina.com/manifest/defense/",
+          "quote_text": "海上自衛隊の艦船や航空自衛隊の次世代戦闘機（F-3）などの通常兵器を近代化し"
+        },
+        {
+          "title": "海洋防衛の強化",
+          "reason": "強化という動詞が含まれており、結果としての達成度が判断不可能であるため。",
+          "sources": "https://nagata-marina.com/manifest/defense/",
+          "quote_text": "横須賀基地を活用した海洋防衛を強化する。"
+        },
+        {
+          "title": "「クアッド」枠組みの強化",
+          "reason": "強化という動詞が含まれており、内容の達成基準も抽象的であるため。",
+          "sources": "https://nagata-marina.com/manifest/defense/",
+          "quote_text": "豪州、インド、ASEANとの「クアッド」枠組みを強化することで"
+        },
+        {
+          "title": "バランス外交と地域安定化の推進",
+          "reason": "推進という手続き・意欲表現が含まれており即座に却下。",
+          "sources": "https://nagata-marina.com/manifest/defense/",
+          "quote_text": "対中・対北朝鮮のバランス外交と地域安定化を推進する。"
+        },
+        {
+          "title": "非核三原則の堅持",
+          "reason": "堅持はすでに実施中の政策の継続・確認であり、新規の政策的アクションとは言えないため。",
+          "sources": "https://nagata-marina.com/manifest/defense/",
+          "quote_text": "非核三原則（持たず、作らず、持ち込ませず）を堅持し"
+        },
+        {
+          "title": "核兵器削減に向けた外交の強化",
+          "reason": "強化という動詞を含み、かつ手段が抽象的であるため。",
+          "sources": "https://nagata-marina.com/manifest/defense/",
+          "quote_text": "日本の被爆国としての役割から核兵器削減に向けた外交を強化する。"
+        },
+        {
+          "title": "NPT枠組みでの核軍縮の主導",
+          "reason": "主導しという意欲の表明にとどまり、客観的に検証可能な固有の政治的コミットメントがないため。",
+          "sources": "https://nagata-marina.com/manifest/defense/",
+          "quote_text": "NPT枠組みでの核軍縮を主導し"
+        },
+        {
+          "title": "核融合炉の平和利用限定",
+          "reason": "平和利用に限定された政策であり、現状の再確認・現状維持に留まるため。",
+          "sources": "https://nagata-marina.com/manifest/defense/",
+          "quote_text": "核融合炉の研究開発については平和利用に限定し"
+        },
+        {
+          "title": "クリーンエネルギーとしての核融合活用推進",
+          "reason": "推進という手続き・意欲表現が含まれており、排除基準により直ちに却下されるため。",
+          "sources": "https://nagata-marina.com/manifest/defense/",
+          "quote_text": "2035年の実用化に向けてクリーンエネルギーとしての活用を推進する。"
+        },
+        {
+          "title": "核シェアリングの議論",
+          "reason": "単なる議論への言及に留まっており、政策の断定的なコミットメントが存在しないため。",
+          "sources": "https://nagata-marina.com/manifest/defense/",
+          "quote_text": "核シェアリングの議論については、国民的合意と国際"
+        },
+        {
+          "title": "新産業と伝統技術の担い手の育成",
+          "reason": "雇用のミスマッチを解消し・育成します等、具体的な手段が定義されていない抽象的なスローガンのため。",
+          "sources": "https://nagata-marina.com/manifest/education/",
+          "quote_text": "Fランク文系大学（偏差値50以下）の教育内容の陳腐化や雇用のミスマッチを解消し、新産業（AI、バイオ、核融合炉、再生可能エネルギー、観光など）と伝統技術の担い手を育成します。"
+        },
+        {
+          "title": "Fランク大学の30%再編",
+          "reason": "再編の定義が不明確であり、具体的な法律やルールの変更箇所が指し示されていないため、検証が困難。",
+          "sources": "https://nagata-marina.com/manifest/education/",
+          "quote_text": "2030年までにFランク大学の30%を再編します。"
+        },
+        {
+          "title": "30〜50代のリスキリングへの対応",
+          "reason": "対応しますという表現は曖昧な意気込みに留まっており、変数を操作する具体的アクションではないため。",
+          "sources": "https://nagata-marina.com/manifest/education/",
+          "quote_text": "30〜50代のリスキリングにも対応します。"
+        },
+        {
+          "title": "新産業特化コースの新設と実践的カリキュラムの開発",
+          "reason": "開発は結果に対する明確な基準がなく、内容が不透明で客観的に判定できないため。",
+          "sources": "https://nagata-marina.com/manifest/education/",
+          "quote_text": "また、AI工学、核融合炉工学、循環型経済、インバウンド観光マネジメントなどの新産業特化コースを新設し、企業と共同で実践的カリキュラムを開発します。"
+        },
+        {
+          "title": "専門コースの設置と地域経済の活性化",
+          "reason": "地域経済を活性化させますは抽象的なスローガンであり、国としてどう法・制度を変更するか特定できないため。",
+          "sources": "https://nagata-marina.com/manifest/education/",
+          "quote_text": "地方には匠職人やグルメ職人の技を学ぶ専門コースや高専の新規専門コースを設置し、伝統技術を新産業に融合させ地域経済を活性化します。"
+        },
+        {
+          "title": "課題解決型学習（PBL）の導入",
+          "reason": "導入の対象が教育手法の概念であり、客観的にYes/Noで判断できる法律やシステム変更ではないため。",
+          "sources": "https://nagata-marina.com/manifest/education/",
+          "quote_text": "さらに、学生が地域課題や新産業の課題に取り組む課題解決型学習（PBL）を導入し、批判的思考と実践力を養います。"
+        },
+        {
+          "title": "柔軟で実践的な教育機関の構築",
+          "reason": "構築の対象が教育機関という抽象的な概念であり、客観的検証が不可能であるため。",
+          "sources": "https://nagata-marina.com/manifest/education/",
+          "quote_text": "大学と専門学校の强みを統合し、柔軟で実践的な教育機関を構築します。"
+        },
+        {
+          "title": "大学の地域教育ハブ化の推進と起業支援の提供",
+          "reason": "進めという手続き的・意欲的表現が含まれており、起業支援の具体的な内容も不明瞭なため。",
+          "sources": "https://nagata-marina.com/manifest/education/",
+          "quote_text": "大学を地域の新産業・観光拠点とする地域教育ハブ化を進め、地元企業と連携したインターンシップや起業支援を提供します。"
+        },
+        {
+          "title": "人生100年",
+          "reason": "ただのフレーズであり、具体的な現状認識やスローガンの一部にすぎないため。",
+          "sources": "https://nagata-marina.com/manifest/education/",
+          "quote_text": "人生100年"
+        },
+        {
+          "title": "2040年実質GDP1000兆円の実現",
+          "reason": "GDPは様々な経済動向の波及を受けた結果指標であり、政府が直接操作可能な変数ではないため。",
+          "sources": "https://nagata-marina.com/manifest/",
+          "quote_text": "2040年実質GDP1000兆円の実現。"
+        },
+        {
+          "title": "物価の安定化",
+          "reason": "安定化などの抽象的動詞が連続しており、具体的な操作変数が不明であるため。",
+          "sources": "https://nagata-marina.com/manifest/",
+          "quote_text": "物価高騰対策として金融政策の調整、サプライチェーン強化により物価を安定化。"
+        },
+        {
+          "title": "賃上げ企業への税制優遇",
+          "reason": "税制のどの数値をどの程度変更するのかという変数が明快ではなく、客観的な達成判定が不可能なため。",
+          "sources": "https://nagata-marina.com/manifest/",
+          "quote_text": "実質給与増政策として賃上げ企業への税制優遇"
+        },
+        {
+          "title": "DXとAI導入の加速",
+          "reason": "加速という手続き的な表現が含まれており、排除基準に該当する曖昧な言葉に留まるため。",
+          "sources": "https://nagata-marina.com/manifest/",
+          "quote_text": "生産性向上としてDXとAI導入の加速"
+        },
+        {
+          "title": "労働市場の流動化による生産性20%向上",
+          "reason": "生産性向上は結果目標であり、流動化も制度的変更を伴う具体的なステータス変更ではないため。",
+          "sources": "https://nagata-marina.com/manifest/",
+          "quote_text": "労働市場の流動化で生産性20%向上。"
+        },
+        {
+          "title": "評価基準の生産性への移行",
+          "reason": "偏差値から生産性へという文言は抽象的なスローガンにすぎず、検証可能な具体的政策手段に欠けるため。",
+          "sources": "https://nagata-marina.com/manifest/",
+          "quote_text": "高等教育改革として評価基準を偏差値から生産性へ"
+        },
+        {
+          "title": "2030年までのCO2排出46%削減",
+          "reason": "CO2排出量は法律などで直接指定できる政府の操作変数ではなく、社会全体の結果指標であるため。",
+          "sources": "https://nagata-marina.com/manifest/",
+          "quote_text": "温室効果ガス削減として2030年までにCO2排出を46%削減（2013年比）。"
+        },
+        {
+          "title": "電力の40%を再生可能エネルギーで供給",
+          "reason": "直接的な法制度や予算枠の変更を伴う変数ではなく、市場やインフラ全体の複合的結果目標にすぎないため。",
+          "sources": "https://nagata-marina.com/manifest/",
+          "quote_text": "再生可能エネルギーとして2030年に電力の40%を再生可能エネルギーで供給。"
+        },
+        {
+          "title": "核融合炉の2035年実用化を目指す",
+          "reason": "目指すという意欲表現が含まれており、ただちに公約基準から排除されるべき言葉であるため。",
+          "sources": "https://nagata-marina.com/manifest/",
+          "quote_text": "核融合炉開発として2035年実用化を目指し、クリーンエネルギーの未来を開く。"
+        },
+        {
+          "title": "グローバルサウスとの経済協力の拡大",
+          "reason": "拡大という、達成されたかどうかYes/Noで客観的に判定不能である抽象的な動詞を使用しているため。",
+          "sources": "https://nagata-marina.com/manifest/",
+          "quote_text": "グローバルサウス連携としてアフリカ・南米・東南アジアとの経済協力を拡大。"
+        },
+        {
+          "title": "サプライチェーン多様化、エネルギー・食料の安定供給確保",
+          "reason": "多様化や確保は程度が不明確であり、具体的な制度変更のアクションが欠如した抽象的なスローガンであるため。",
+          "sources": "https://nagata-marina.com/manifest/",
+          "quote_text": "経済安全保障としてサプライチェーン多様化、エネルギー・食料の安定供給確保。"
+        },
+        {
+          "title": "核廃絶と紛争解決に向けた国際協力の推進",
+          "reason": "推進という手続き・意欲表現が含まれており、排除基準に明示的に該当するため。",
+          "sources": "https://nagata-marina.com/manifest/",
+          "quote_text": "平和構築として核廃絶と紛争解決に向けた国際協力を推進。"
+        },
+        {
+          "title": "サイバーセキュリティの強化",
+          "reason": "強化という主観的な解釈が含まれる動詞を用いており、公約とはみなすことができないため。",
+          "sources": "https://nagata-marina.com/manifest/",
+          "quote_text": "サイバーセキュリティの強化。"
+        },
+        {
+          "title": "サイバー攻撃への対応力強化",
+          "reason": "強化という排除対象の動詞であり、変数の明示や制度変更が見られないため。",
+          "sources": "https://nagata-marina.com/manifest/",
+          "quote_text": "サイバー攻撃への対応力強化。"
+        },
+        {
+          "title": "抑止力の強化",
+          "reason": "強化という曖昧で検証不能な動詞が用いられているため。",
+          "sources": "https://nagata-marina.com/manifest/",
+          "quote_text": "抑止力を強化。"
+        },
+        {
+          "title": "産前産後ケアの充実",
+          "reason": "充実は主観的な表現であり、どの制度のパラメータを操作するのかが不明極まりないため。",
+          "sources": "https://nagata-marina.com/manifest/",
+          "quote_text": "子育て支援として産前産後ケア充実"
+        },
+        {
+          "title": "保育所待機児童ゼロ",
+          "reason": "待機児童数は需要と供給の結果生じる現象の指標であり、直接の制度や数値の変数として書き換えられるものではないため。",
+          "sources": "https://nagata-marina.com/manifest/",
+          "quote_text": "保育所待機児童ゼロへ。"
+        },
+        {
+          "title": "不要な規制の見直しと経済成長の促進",
+          "reason": "見直し・促進という排除基準の動詞が二重に使われており、対象も不要な規制と極めて恣意的であるため。",
+          "sources": "https://nagata-marina.com/manifest/",
+          "quote_text": "規制緩和として投資を阻害する不要な規制を見直し、経済成長を促進。"
+        }
+      ]
+    }
+  ]
+}

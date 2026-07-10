@@ -181,6 +181,8 @@ if __name__ == "__main__":
     
     # =================【設定エリア】=================
     PREFECTURES = ["tokyo"] 
+
+    #"hokkaido","akita","aomori","chiba","fukushima","gunma","ibaraki","iwate","kanagawa","miyagi","saitama","tochigi","yamagata"
     ALL_DISTRICTS = True
     START_DISTRICT = 1
     END_DISTRICT = 1

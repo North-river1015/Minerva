@@ -1,0 +1,74 @@
+{
+  "district": "神奈川20区",
+  "district_code": "2026-shu-kanagawa-20",
+  "candidates": [
+    {
+      "name": "金澤結衣",
+      "party": "自由民主党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "金澤ゆいの政策",
+            "body": ""
+          },
+          {
+            "header": "■自立と誇りを守る国づくり",
+            "body": "持続的成長／財政健全化／現実的外交・安全保障<br>時代に即した憲法・法整備"
+          },
+          {
+            "header": "■成長と挑戦を支える",
+            "body": "頑張る人が報われる社会／教育と人づくり<br>科学技術・スタートアップ投資／民間の当たり前を行政へ"
+          },
+          {
+            "header": "■命と暮らしを支える地域・福祉",
+            "body": "子育ての安心／持続可能な社会保障<br>自立を支える福祉／防災・減災と命を守るまちづくり"
+          },
+          {
+            "header": "■日本の誇りと未来をつなぐ",
+            "body": "第一次産業の継承／創造性を育む文化・芸術"
+          },
+          {
+            "header": "■相模原・座間から始まる日本再生",
+            "body": "住民とともに進める地域づくり／企業誘致"
+          }
+        ],
+        "manifesto": []
+      },
+      "web": {
+        "manifesto": [
+          {
+            "title": "アニマルポリスの創設",
+            "reason": "特定の新規組織・制度の設立を断定的に明言しており、その存否によって実施の有無を明確かつ客観的に判定できるため。",
+            "sources": "https://politician.cafe/politician/213/activity/",
+            "quote_text": "虐待を監視するアニマルポリスを創設します。"
+          },
+          {
+            "title": "消費税減税",
+            "reason": "「消費税」という具体的な税率の引き下げを指しており、法改正の有無によって実行されたかが客観的に判断可能であるため。",
+            "sources": "https://yuruyuru-max.com/kanazawa-yui-profile/",
+            "quote_text": "消費税減税"
+          },
+          {
+            "title": "教育の無償化",
+            "reason": "教育費の負担割合をゼロにするという具体的な数値条件の変更を伴う制度変更であり、実施の有無が客観的に確認可能なため。",
+            "sources": "https://yuruyuru-max.com/kanazawa-yui-profile/",
+            "quote_text": "教育の無償化"
+          },
+          {
+            "title": "憲法改正",
+            "reason": "「憲法改正」という最高法規の条文変更という、究極的に具体的かつ断定的な政治アクションを指しているため。",
+            "sources": "https://yuruyuru-max.com/kanazawa-yui-profile/",
+            "quote_text": "憲法改正"
+          },
+          {
+            "title": "選択的夫婦別姓制度の創設",
+            "reason": "「創設」という断定的なコミットメントであり、新規制度の設立および法的効力の付与が客観的に検証可能であるため。",
+            "sources": "https://politician.cafe/politician/213/",
+            "quote_text": "旧姓使用にも一般的な法的効力を与える選択的夫婦別姓制度を創設。"
+          }
+        ],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

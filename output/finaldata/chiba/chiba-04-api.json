@@ -1,0 +1,229 @@
+{
+  "district": "千葉4区",
+  "candidates": [
+    {
+      "name": "鹿嶋祐介",
+      "party": "日本維新の会",
+      "manifesto": [
+        {
+          "title": "多世代居住促進モデル地区の設定",
+          "reason": "「モデル地区の設定」という制度的なステータス変更を指しており、実施の有無が客観的に判定できるため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "多世代居住促進モデル地区を設定し"
+        },
+        {
+          "title": "原子力発電の再稼働",
+          "reason": "「再稼働」という具体的なアクションであり、その実施の有無が客観的に施設稼働の許可等で判定可能なため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "原子力発電の再稼働"
+        },
+        {
+          "title": "給食費無償化",
+          "reason": "費用をゼロにするという具体的な数値条件の変更であり、実施の有無が明確に判定できるため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "給食費無償化"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "title": "コンテンツ産業の海外売上20兆円の達成",
+          "reason": "「目指す」という意欲表現であり、具体的な制度変更や法改正などの客観的に検証可能なコミットメントではないため。",
+          "sources": "https://go2senkyo.com/seijika/197037/posts/1425611",
+          "quote_text": "コンテンツ産業を日本の成長産業としてさらに発展させ、2033年までに海外売上20兆円を目指す。"
+        },
+        {
+          "title": "作品づくりへの支援、人材育成、海外展開の強化などの推進",
+          "reason": "「強化」などの言葉が含まれており、かつ「進めていく」という手続き・意欲表現にとどまり、具体的にどの変数を操作するのか特定できないため。",
+          "sources": "https://go2senkyo.com/seijika/197037/posts/1425611",
+          "quote_text": "そのために、作品づくりへの支援やクリエイターの人材育成、海外展開の強化、海賊版対策、AI技術の活用などを国が一体となって進めていく。"
+        },
+        {
+          "title": "混雑駅の構内整備促進",
+          "reason": "「促進」は手続・意欲表現であり、かつ特定駅への利益誘導にあたる可能性があるため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "混雑駅の構内整備促進による通勤の快適性向上"
+        },
+        {
+          "title": "新湾岸・北千葉道路開通を見越した地域内道路の渋滞対策",
+          "reason": "特定地域への利益誘導であり、かつ変更される制度的変数が不明確であるため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "新湾岸・北千葉道路開通を見越した地域内道路の渋滞対策"
+        },
+        {
+          "title": "高齢者の社会参加、就労支援、買い物弱者支援の促進",
+          "reason": "「促進」は手続・意欲表現であり、実施の有無が客観的に判断できないため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "高齢者の社会参加、就労支援、買い物弱者支援の促進"
+        },
+        {
+          "title": "穏やかな最期を迎えるための訪問診療・在宅終末期ケア",
+          "reason": "単なる名詞の列挙であり、具体的な制度変更やコミットメントがないため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "穏やかな最期を迎えるための訪問診療・在宅終末期ケア"
+        },
+        {
+          "title": "子育て支援と介護支援両立",
+          "reason": "「両立」は方針にとどまり、客観的な検証ができないため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "子育て支援と介護支援両立"
+        },
+        {
+          "title": "政治資金の透明化のためのDX推進と連座制の強化",
+          "reason": "「推進」「強化」という除外対象となる手続・意欲表現が含まれており、客観的な判定が困難であるため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "DX推進と連座制の強化による政治資金の透明化"
+        },
+        {
+          "title": "多文化共生仕組み作り",
+          "reason": "「仕組み作り」は内容が抽象的であり、達成の有無を数字や条文で客観的に判定できないため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "地域住民が安心して暮らせる多文化共生仕組み作り"
+        },
+        {
+          "title": "農作物の価格安定供給と農家保護の制度・組織を整備",
+          "reason": "「制度・組織を整備」という抽象的な記述であり、どの変数を操作するかが特定できないため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "米を含む農作物の価格安定供給と農家保護の制度・組織を整備"
+        },
+        {
+          "title": "日本経済の再起動",
+          "reason": "抽象的なスローガンであり、具体的な政策を含まないため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "地域から始まる日本経済の再起動"
+        },
+        {
+          "title": "財政支出による経済成長促進",
+          "reason": "「促進」は手続・意欲表現であり、具体的なアクションではないため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "戦略的かつ積極的な財政支出による経済成長促進"
+        },
+        {
+          "title": "デジタル化促進",
+          "reason": "「促進」は手続・意欲表現であり、具体的なアクションではないため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "デジタル化促進"
+        },
+        {
+          "title": "人材育成費用控除で企業の挑戦と成長を後押し",
+          "reason": "税制に関する言及はあるものの「後押し」という明確な除外対象ワードが含まれているため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "人材育成費用控除で地元企業の挑戦と成長を後押し"
+        },
+        {
+          "title": "知財戦略で地元ブランド・若者起業支援",
+          "reason": "抽象的な「支援」であり、具体的な制度設計や変数が不明であるため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "企業の“強み”を守る知財戦略で地元ブランド・若者起業支援"
+        },
+        {
+          "title": "氷河期世代への就職支援",
+          "reason": "具体的にどの支援制度をどう変更するのかが不明であり、客観的に評価不能であるため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "氷河期世代への就職支援で人材力底上げ"
+        },
+        {
+          "title": "文化財や地域資源を観光や産業へ発展",
+          "reason": "「発展」という抽象的な表現に留まっており、また特定地域への利益誘導にも該当するため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "法華経寺や船橋大神宮など文化財や地域資源を観光や産業へ発展"
+        },
+        {
+          "title": "子どもを産み育てることが負担にならない社会へ",
+          "reason": "抽象的なスローガンであり、具体的な政策を含まないため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "子どもを産み育てることが負担にならない社会へ"
+        },
+        {
+          "title": "子育て費用の軽減と出産支援制度の拡充",
+          "reason": "「軽減」「拡充」は変更の程度や手段が不明確であり、客観的に判定できないため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "子育て費用の軽減と出産支援制度の拡充"
+        },
+        {
+          "title": "「結婚・出産・育児」を前向きに選択できる社会基盤の整備",
+          "reason": "「社会基盤の整備」が抽象的であり、何をどう変更するのかが不明なため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "「結婚・出産・育児」を前向きに選択できる社会基盤の整備"
+        },
+        {
+          "title": "保育・教育の質と量の両面を支援",
+          "reason": "「支援」の意味するところが抽象的であり、変数が不明なため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "働く親の立場に立ち、保育・教育の質と量の両面を支援"
+        },
+        {
+          "title": "保育士の配置基準改善と待遇改善",
+          "reason": "「改善」は変更の程度や目標となる具体的な数値のコミットメントがなく、実施の有無を客観的に判定できないため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "保育士の配置基準改善と待遇改善による人材確保"
+        },
+        {
+          "title": "学校と学童保育の機能強化",
+          "reason": "「強化」という明確な除外対象ワードが含まれているため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "学校と学童保育の機能強化による夜間、長期休暇対応"
+        },
+        {
+          "title": "教育こそ最大の投資、学力向上だけではない「人材育成」",
+          "reason": "抽象的なスローガンであり、具体的な政策コミットメントがないため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "教育こそ最大の投資、学力向上だけではない「人材育成」"
+        },
+        {
+          "title": "国費留学を拡充し、国内活躍を推進",
+          "reason": "「拡充」「推進」は手続・意欲表現であり、除外対象であるため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "帰国前提での国費留学を拡充し、世界で戦える人材の国内活躍を推進"
+        },
+        {
+          "title": "部活動、習い事、塾代の負担軽減",
+          "reason": "具体的にどの制度を操作し負担を軽減するのかが不明であり、客観的に判定できないため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "子どもたちの「得意」を伸ばす（部活動、習い事、塾代の負担軽減）"
+        },
+        {
+          "title": "日本人のアイデンティティを育成する教育",
+          "reason": "「育成」という表現にとどまり、指導要領の変更等、具体的な制度変更の言及がないため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "歴史・文化・伝統に根ざした教育で、日本人のアイデンティティを育成"
+        },
+        {
+          "title": "教員の多忙化対策で教育の質を向上",
+          "reason": "「対策」「向上」といった抽象的かつ意欲的な表現のみで、具体性が欠如しているため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "アウトソーシングによる教員の多忙化対策で教育の質を向上"
+        },
+        {
+          "title": "警察官OBの活用によるいじめ対策の促進",
+          "reason": "「促進」は手続・意欲表現であり、具体的な実施コミットメントと言えないため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "警察官OBの活用による、いじめ対策の促進"
+        },
+        {
+          "title": "災害に強い、犯罪を許さない、安全・安心なまちづくり",
+          "reason": "抽象的なスローガンであり、具体的な政策内容が存在しないため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "災害に強い、犯罪を許さない、安全・安心なまちづくり"
+        },
+        {
+          "title": "公助政策の強化",
+          "reason": "「強化」という明確な除外対象ワードが含まれているため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "災害派遣経験をもとに現場目線で公助政策を強化"
+        },
+        {
+          "title": "防潮堤・水門の整備継続",
+          "reason": "「継続」は既存の政策の現状維持であり、新たな政治的なコミットメントとはみなされないため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "防潮堤・水門の整備継続"
+        },
+        {
+          "title": "地震・液状化対策",
+          "reason": "単語の列挙に過ぎず、具体的な政策の意思表明がないため。",
+          "sources": "https://kashimayusuke.jp/activities/",
+          "quote_text": "地震・液状化"
+        }
+      ]
+    }
+  ]
+}

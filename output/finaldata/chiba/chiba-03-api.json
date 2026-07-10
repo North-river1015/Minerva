@@ -1,0 +1,42 @@
+{
+  "district": "千葉3区",
+  "candidates": [
+    {
+      "name": "松野博一",
+      "party": "自由民主党",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "title": "物価高対策や経済安全保障の強化",
+          "reason": "「強化」という言葉が含まれており、特定の変数を操作する記述がない抽象的なスローガンであるため。",
+          "sources": "https://www.jimin.jp/news/information/212982.html",
+          "quote_text": "（1）経済：物価高対策や経済安全保障の強化"
+        },
+        {
+          "title": "地方行政の推進または支援",
+          "reason": "単なる政策分野の列挙であり、具体的な制度変更やアクションが一切提示されていないため。",
+          "sources": "https://www.jimin.jp/news/information/212982.html",
+          "quote_text": "（2）地方"
+        },
+        {
+          "title": "外交力と防衛力の強化",
+          "reason": "「強化」という動詞が含まれており、排除基準により直ちに却下されるべき抽象的な目標であるため。",
+          "sources": "https://www.jimin.jp/news/information/212982.html",
+          "quote_text": "（3）外交・安全保障：外交力と防衛力の強化"
+        },
+        {
+          "title": "全世代の安心に関する外国人政策等",
+          "reason": "単なる名詞の提示にとどまり、客観的に観測可能な政治的行動へのコミットメントがないため。",
+          "sources": "https://www.jimin.jp/news/information/212982.html",
+          "quote_text": "（4）全世代の安心：外国人政策等"
+        },
+        {
+          "title": "憲法改正原案の国会提出と実現",
+          "reason": "「目指す」という明らかな意欲表現が含まれており、結果を確約する断定的な意思表明とみなせないため。",
+          "sources": "https://www.jimin.jp/news/information/212982.html",
+          "quote_text": "憲法改正原案を国会に提出し、早期の憲法改正実現を目指す"
+        }
+      ]
+    }
+  ]
+}

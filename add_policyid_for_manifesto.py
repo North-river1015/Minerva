@@ -169,8 +169,8 @@ if __name__ == "__main__":
     # =================【設定セクション】=================
 
     TARGET_PREFECTURE = "tokyo" 
-
-    TARGET_DISTRICTS = list(range(2, 31))  # 1区〜1区を処理（自由に変更可能）
+#"hokkaido","akita","aomori","chiba","fukushima","gunma","ibaraki","iwate","kanagawa","miyagi","saitama","tochigi","yamagata"
+    TARGET_DISTRICTS = list(range(1, 31))  
 
     # ===================================================
     

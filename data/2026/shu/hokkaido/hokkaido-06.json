@@ -1,0 +1,27 @@
+{
+  "district": "東京6区",
+  "district_code": "2026-shu-hokkaido-6",
+  "candidates": [
+    {
+      "name": "東国幹",
+      "party": "自由民主党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "暮らしを守る！",
+            "body": "・消費減税を進めます。<br>・社会保障の改革を進めます。<br>・物価高騰対策を更に進めます。"
+          },
+          {
+            "header": "日本を北海道を",
+            "body": "・日本国、そして北海道の安全保障を強化します<br>・観光振興で郷土上川の未来を拓きます<br>・レアアースの採掘開発で経済安全保障を強化します"
+          }
+        ],
+        "manifesto": []
+      },
+      "web": {
+        "manifesto": [],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

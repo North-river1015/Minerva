@@ -1,0 +1,42 @@
+{
+  "district": "千葉7区",
+  "candidates": [
+    {
+      "name": "齋藤健",
+      "party": "自由民主党",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "title": "徹底した物価対策",
+          "reason": "「徹底」が含まれており、かつ操作する具体的な変数や法案が不明であるため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51243",
+          "quote_text": "生活に密着した視点からの徹底した物価対策。"
+        },
+        {
+          "title": "賃上げ・設備投資の好循環の継続と日本経済の改善",
+          "reason": "既存の枠組みの「継続」であり現状維持の表明に過ぎず、「取り戻したい」は政治的行動の断定ではない意欲表現であるため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51243",
+          "quote_text": "また、３０数年ぶりの賃上げ、設備投資の好循環を何としても継続させ、日本経済に勢いを取り戻したい。"
+        },
+        {
+          "title": "日本の若者の優秀への言及",
+          "reason": "単なる現状認識や感想にとどまっており、政策的な意図やコミットメントが含まれていないため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51243",
+          "quote_text": "日本の若者は優秀です。"
+        },
+        {
+          "title": "英語教育の改善やスタートアップ支援",
+          "reason": "「改善」や「支援」という曖昧な表現であり、「増やしたい」という単なる意欲表現であるため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51243",
+          "quote_text": "英語教育の改善やスタートアップ支援など、国の内外でのチャンスを増やしたい。"
+        },
+        {
+          "title": "子育てしやすい環境づくりと少子化対策",
+          "reason": "「引き続き」は既存の取組の継続を意味し、「環境」は抽象的概念。また「かけたい」は意欲表現であるため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51243",
+          "quote_text": "また、引き続き、子育てしやすい環境を作り、少子化に歯止めをかけたい。"
+        }
+      ]
+    }
+  ]
+}

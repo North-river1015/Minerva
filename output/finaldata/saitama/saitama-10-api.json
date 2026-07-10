@@ -1,0 +1,174 @@
+{
+  "district": "埼玉10区",
+  "candidates": [
+    {
+      "name": "山口晋",
+      "party": "自由民主党",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "title": "手取りと可処分時間の増加",
+          "reason": "具体的な手段や操作する変数（税率や労働規制の法律など）が示されておらず、結果のみを述べる抽象的な目標やスローガンであるため。",
+          "sources": "https://go2senkyo.com/seijika/195306/posts/1275355",
+          "quote_text": "手取りを増やし、可処分時間を増やすことで"
+        },
+        {
+          "title": "頑張れば報われる社会の構築",
+          "reason": "「社会を作り上げる」という極めて抽象的な目標であり、検証可能な政策アクションとしての意思表明ではないため。",
+          "sources": "https://go2senkyo.com/seijika/195306/posts/1275355",
+          "quote_text": "頑張れば報われるんだと実感できる社会を作り上げる。"
+        },
+        {
+          "title": "政治改革の推進と日本の未来の構築",
+          "reason": "「日本の未来を築く」「政治改革の先頭に立つ」といった抽象的なスローガンであり、操作可能な変数や法改正等の具体的手段が示されていないため。",
+          "sources": "https://yamaguchisusumu.jp/",
+          "quote_text": "先ず自らを律し、国民に信頼される政党・政治改革の先頭に立ち、日本の未来を築く。"
+        },
+        {
+          "title": "物価高を上回る所得の実現や全世代が輝く社会の実現",
+          "reason": "抽象的な目標の羅列であり、具体的にどの制度や数値を変更して達成するかが全く不明確であるため。",
+          "sources": "https://yamaguchisusumu.jp/",
+          "quote_text": "物価高を上回る所得の実現、将来世代の明るい未来の実現、全世代が活き活き輝く社会の実現"
+        },
+        {
+          "title": "強い日本経済の実現とインド太平洋地域の平和・安定、エネルギー安定供給",
+          "reason": "「平和と安定」「安定供給」など抽象的な概念や目標を提示するのみで、検証可能な法的拘束力のある措置や制度の変更が示されていないため。",
+          "sources": "https://yamaguchisusumu.jp/",
+          "quote_text": "強い日本経済を実現、インド太平洋地域の平和と安定、食料自給率向上とｴﾈﾙｷﾞｰの安定供給"
+        },
+        {
+          "title": "防災・減災・国土強靭化と地域経済の活性化、資源循環型社会の実現",
+          "reason": "「強靭化」や「活性化」といった抽象的な言葉にとどまり、客観的に観測可能な制度のステータス変更や数値目標が含まれていないため。",
+          "sources": "https://yamaguchisusumu.jp/",
+          "quote_text": "防災・減災・国土強靭化、地域経済の活性化を実現、資源循環型の社会を実現"
+        },
+        {
+          "title": "社会保障負担の増額",
+          "reason": "「負担を増やす」という表現は抽象的であり、どの税や保険料をどの程度変更するのかが不明なため。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YC83XXXXXX000/135726/",
+          "quote_text": "社会保障制度の維持に関して、給付水準を維持するために負担を増やす考え。"
+        },
+        {
+          "title": "70歳以上の医療費窓口負担3割への引き上げ反対",
+          "reason": "「反対の立場」は現状維持の意思表示であり、新たな制度変更に向けた断定的なコミットメントではないため。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YC83XXXXXX000/135726/",
+          "quote_text": "70歳以上の医療費窓口負担を所得に応じて現役世代と同じ3割に引き上げることに反対の立場。"
+        },
+        {
+          "title": "外国人受け入れ人数の削減",
+          "reason": "「減らす考え」は意欲の表明に過ぎず、具体的な制度（ビザ要件等）の変更を示す断定的な行動ではないため。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YC83XXXXXX000/135726/",
+          "quote_text": "日本に在留する外国人について、受け入れ人数を減らす考え。"
+        },
+        {
+          "title": "消費税の現状維持または減税",
+          "reason": "「現状維持または減税」と方針が曖昧であり、客観的に観測可能な特定の制度変更を断定していないため。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YC83XXXXXX000/135726/",
+          "quote_text": "消費税について、現状維持または減税の考え。"
+        },
+        {
+          "title": "財政出動を優先した景気の下支え",
+          "reason": "「景気を支える」という抽象的なスローガンにとどまり、客観的な検証が不能であるため。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YC83XXXXXX000/135726/",
+          "quote_text": "政府の経済政策について、財政出動を優先し、景気を支える考え。"
+        },
+        {
+          "title": "経済の「成長」重視",
+          "reason": "「成長を重視する」という抽象的な方針の表明であり、特定の法的・制度的なアクションではないため。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YC83XXXXXX000/135726/",
+          "quote_text": "経済全体の規模を大きくする「成長」を重視する考え。"
+        },
+        {
+          "title": "原子力発電の継続活用",
+          "reason": "「今後も活用する」という現状維持の立場であり、公約としての新規性や観測可能なステータス変更がないため。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YC83XXXXXX000/135726/",
+          "quote_text": "原子力発電について、今後も活用する考え。"
+        },
+        {
+          "title": "各種公共支出の増額または現状維持",
+          "reason": "「増やす、または現状を維持」と変数の操作が不確定であり、単なる意欲の表明に過ぎないため。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YC83XXXXXX000/135726/",
+          "quote_text": "歳出に関する考えとして、公共事業費、医療・介護費、科学技術費、公務員の人件費、生活保護費、子育て支援費の各項目において、増やす、または現状を維持する考え。"
+        },
+        {
+          "title": "防衛費等のGDP比2%程度以上への増額",
+          "reason": "「程度、またはそれ以上」と変数が確定しておらず、「増やす考え」という意向・意欲の表明にとどまるため。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YC83XXXXXX000/135726/",
+          "quote_text": "防衛費や安全保障関連費について、GDP比2%程度、またはそれ以上に増やす考え。"
+        },
+        {
+          "title": "防衛装備品の輸出拡大の賛成",
+          "reason": "「賛成の立場」という態度の表明であり、自身が実施する具体的な政治的アクションのコミットメントではないため。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YC83XXXXXX000/135726/",
+          "quote_text": "防衛装備品の輸出拡大に賛成の立場。"
+        },
+        {
+          "title": "米国との関係強化",
+          "reason": "「関係強化」は抽象的なスローガンであり、客観的に観測可能な制度変更等の変数を含まないため。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YC83XXXXXX000/135726/",
+          "quote_text": "米国との関係強化に賛成の立場。"
+        },
+        {
+          "title": "中国との関係強化の反対",
+          "reason": "「反対の立場」は抽象的な方針の表明であり、具体的な制度的措置やアクションの提案ではないため。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YC83XXXXXX000/135726/",
+          "quote_text": "中国との関係強化には反対の立場。"
+        },
+        {
+          "title": "韓国との関係強化",
+          "reason": "「関係強化」は抽象的な方針であり、客観的に観測可能または検証可能な達成基準がないため。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YC83XXXXXX000/135726/",
+          "quote_text": "韓国との関係強化に賛成の立場。"
+        },
+        {
+          "title": "男系男子による皇位継承制度の維持",
+          "reason": "「維持する」という現状維持の立場であり、制度の新規な変更行動を伴わないため。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YC83XXXXXX000/135726/",
+          "quote_text": "皇位継承権について、現在の男系男子による制度を維持する考え。"
+        },
+        {
+          "title": "憲法改正への賛成",
+          "reason": "「賛成の立場」というスタンスの表明に過ぎず、断定的な法改正の実行のコミットメントではないため。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YC83XXXXXX000/135726/",
+          "quote_text": "憲法改正に賛成の立場。"
+        },
+        {
+          "title": "夫婦同姓制度の維持",
+          "reason": "「制度を維持する」という現状維持の回答であり、政治的な新規公約としての要件を満たさないため。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YC83XXXXXX000/135726/",
+          "quote_text": "夫婦の名字について、現在の同じ名字とする制度を維持する考え。"
+        },
+        {
+          "title": "企業・団体献金の存続と透明性向上",
+          "reason": "「存続」は現状維持であり、「透明性を高める」は達成度が検証不能な抽象的概念であるため。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YC83XXXXXX000/135726/",
+          "quote_text": "企業・団体献金について、存続させた上で透明性を高める考え。"
+        },
+        {
+          "title": "SNSの偽・誤情報拡散に対する発信の自由尊重",
+          "reason": "「自由を尊重する」は抽象的な意識の表明であり、具体的なルールの変更や法的措置を含まないため。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YC83XXXXXX000/135726/",
+          "quote_text": "選挙時のSNSによる偽・誤情報の拡散への対応について、発信の自由を尊重する考え。"
+        },
+        {
+          "title": "SNS発信の収益化の容認",
+          "reason": "「規制を設けずに認める」は現状維持の立場であり、新たな制度的変更を伴わないため。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YC83XXXXXX000/135726/",
+          "quote_text": "選挙時のSNSの発信の収益化について、できる限り規制を設けずに認める考え。"
+        },
+        {
+          "title": "衆院議員の定数削減への反対",
+          "reason": "「反対の立場」は単なるスタンスの表明および現状維持であり、実行可能なアクションではないため。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YC83XXXXXX000/135726/",
+          "quote_text": "衆院議員の定数削減に反対の立場。"
+        },
+        {
+          "title": "2大政党制への賛同",
+          "reason": "「適しているという考え」は単なる現状認識や個人的見解であり、政策としての行動表明が含まれないため。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YC83XXXXXX000/135726/",
+          "quote_text": "日本の政治のあり方について、2大政党制が適しているという考え。"
+        }
+      ]
+    }
+  ]
+}

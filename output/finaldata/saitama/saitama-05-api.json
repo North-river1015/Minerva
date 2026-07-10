@@ -1,0 +1,264 @@
+{
+  "district": "埼玉5区",
+  "candidates": [
+    {
+      "name": "井原隆",
+      "party": "自由民主党",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "title": "物価高対策とまちづくり",
+          "reason": "「取り組む」という曖昧な意気込み表現であり、具体的な制度変更や操作する変数が特定できない抽象的なスローガンであるため。",
+          "sources": "https://www.jimin.jp/news/information/212450.html",
+          "quote_text": "物価高対策や「失われた30年を取り戻すまちづくり」に取り組む。"
+        },
+        {
+          "title": "次世代技術開発の推進",
+          "reason": "「推進する」という手続き・意欲表現にとどまっており、具体的な予算確保や法改正など検証可能なアクションが含まれていないため。",
+          "sources": "https://www.jimin.jp/news/information/212450.html",
+          "quote_text": "宇宙や量子といった次世代技術の開発を推進する。"
+        },
+        {
+          "title": "官公庁・企業のサイバーセキュリティ対策強化",
+          "reason": "「強化」は排除基準に該当し、具体的にどの変数をどのように変更するのかが特定できず、客観的に検証不可能であるため。",
+          "sources": "https://note.com/ocomoco/n/n2487a2015390",
+          "quote_text": "官公庁・企業のサイバーセキュリティ対策強化"
+        },
+        {
+          "title": "人工衛星データを活用した災害検知",
+          "reason": "具体的な法体系の変更や予算措置などの観測可能な政治アクションが明示されておらず、結果の達成を客観的に判定できないため。",
+          "sources": "https://note.com/ocomoco/n/n2487a2015390",
+          "quote_text": "人工衛星データを活用した災害検知"
+        },
+        {
+          "title": "デジタル技術を活用した行政効率化",
+          "reason": "「効率化」という曖昧な状態目標のみであり、達成基準となる操作変数が不明瞭であるため。",
+          "sources": "https://note.com/ocomoco/n/n2487a2015390",
+          "quote_text": "デジタル技術を活用した行政効率化"
+        },
+        {
+          "title": "各種インフラ整備の実施",
+          "reason": "交差点等、抽象的なインフラ整備の列挙に留まり、全国的な制度変更や明確な観測可能な変数変更を伴わないため。",
+          "sources": "https://note.com/ocomoco/n/n2487a2015390",
+          "quote_text": "インフラ整備：交差点改良、歩道整備、駅周辺の区画整理、街並み環境整備"
+        },
+        {
+          "title": "大宮駅周辺の再開発",
+          "reason": "「大宮駅周辺」という特定地域への利益誘導に該当するため。",
+          "sources": "https://note.com/ocomoco/n/n2487a2015390",
+          "quote_text": "大宮駅周辺の交通結節点としての再開発（GCS構想）"
+        },
+        {
+          "title": "若者世代の可処分所得増加を目指す物価高対策",
+          "reason": "「目指す」という単なる意欲表現であり、かつ具体的にどの制度の変数を操作するかが明示されていないため。",
+          "sources": "https://note.com/ocomoco/n/n2487a2015390",
+          "quote_text": "若者世代の可処分所得増加を目指す物価高対策"
+        },
+        {
+          "title": "持続可能な社会保障制度の構築",
+          "reason": "「構築」の対象が「持続可能な社会保障制度」という抽象的な概念であり、客観的な判定・検証ができないため。",
+          "sources": "https://note.com/ocomoco/n/n2487a2015390",
+          "quote_text": "持続可能な社会保障制度の構築"
+        },
+        {
+          "title": "医療費負担の適正化",
+          "reason": "「適正化」は曖昧な表現であり、具体的にどの変数をどのように変更するのかが特定されていないため。",
+          "sources": "https://note.com/ocomoco/n/n2487a2015390",
+          "quote_text": "医療費負担の適正化"
+        },
+        {
+          "title": "高齢者への配慮",
+          "reason": "「配慮」という抽象的なスローガン・意気込みに過ぎず、観測可能な政治的行動に該当しないため。",
+          "sources": "https://note.com/ocomoco/n/n2487a2015390",
+          "quote_text": "高齢者への配慮"
+        },
+        {
+          "title": "大宮駅グランドステーション化構想の推進",
+          "reason": "「推進」は排除基準に該当する手続き・意欲表現であり、特定地域への利益誘導にも該当するため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "大宮駅グランドステーション化構想の推進"
+        },
+        {
+          "title": "大宮駅周辺の交流人口増加を目指した都市計画の実施",
+          "reason": "「目指す」は単なる意欲表現であり、「都市計画」という対象の抽象概念に対しての「実施」は客観的判定ができないため。かつ特定地域への利益誘導。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "大宮駅周辺の交流人口増加を目指した都市計画の実施"
+        },
+        {
+          "title": "首都高速埼玉大宮線を圏央道・東北道に接続",
+          "reason": "新線建設の事業は客観的に判断可能であるが、特定地域・特定路線に限定されており排除基準「利益誘導」に完全合致するため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "首都高速埼玉大宮線を圏央道・東北道に接続"
+        },
+        {
+          "title": "JR埼京線の利便性向上",
+          "reason": "「向上」は客観的な達成基準や変数がなく、達成度が検証不可能なため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "JR埼京線の利便性向上"
+        },
+        {
+          "title": "JR川越線の複線化",
+          "reason": "複線化という手段は観測可能だが、特定地域での特定インフラ整備に関する典型的な「特定地域への利益誘導」であるため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "JR川越線の複線化"
+        },
+        {
+          "title": "JR埼京線・湘南新宿ラインの増便による混雑緩和",
+          "reason": "特定路線の「増便」という典型的利益誘導であり、「混雑緩和」も客観的判断が不可能な単なる目標に過ぎないため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "JR埼京線・湘南新宿ラインの増便による通勤・通学時の混雑緩和"
+        },
+        {
+          "title": "宇宙法の整備促進",
+          "reason": "「促進」は排除基準に該当する意欲表現であり、結果の確約ではないため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "宇宙法の整備促進"
+        },
+        {
+          "title": "宇宙港・産業集積拠点の整備",
+          "reason": "「整備」対象が拠点という抽象的・複合的な概念であり、達成を客観的に判定する変数が存在しないため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "宇宙港・産業集積拠点の整備"
+        },
+        {
+          "title": "成長産業への投資を通じた技術力の強化",
+          "reason": "「強化」は排除基準に該当し、数値や制度による明確な確約がないため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "成長産業への投資を通じた技術力の強化"
+        },
+        {
+          "title": "研究者への奨励金制度の拡充",
+          "reason": "「拡充」は恣意的な基準であり、100%客観的かつ明確にYes/Noで判断できる変数を含まないため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "研究者への奨励金制度の拡充"
+        },
+        {
+          "title": "体験型教育の推進と課外活動支援",
+          "reason": "「推進」は意欲表現であり、「支援」も曖昧な概念であるため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "体験型教育の推進と課外活動支援"
+        },
+        {
+          "title": "子どもたちの海外留学支援制度の拡充",
+          "reason": "「拡充」の有無が恣意的であり、具体的な数値やステータス変更の言及がないため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "子どもたちの海外留学支援制度の拡充"
+        },
+        {
+          "title": "いじめや不登校の問題解決のためのサポート強化",
+          "reason": "「強化」は即座に却下対象であり、具体的にどの制度を変更するのか変数が存在しないため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "いじめや不登校の問題解決のためのサポート強化"
+        },
+        {
+          "title": "国道17号の渋滞解消",
+          "reason": "特定地域の特定交差点に関する「利益誘導」であり、「渋滞解消」は達成が予測不能な目標であるため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "国道17号の渋滞解消（桜木町交差点・三橋5丁目）"
+        },
+        {
+          "title": "荒川のさいたま築堤の早期実現による水害対策の推進",
+          "reason": "特定地域への「利益誘導」であり、かつ「推進」という手続き・意欲表現であるため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "荒川のさいたま築堤の早期実現による水害対策の推進"
+        },
+        {
+          "title": "人工衛星データを活用した災害検知と支援体制の構築",
+          "reason": "構築しようとしている「体制」が抽象的な概念であり、客観的検証ができないため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "人工衛星データを活用した災害検知と支援体制の構築"
+        },
+        {
+          "title": "官公庁および企業のサイバーセキュリティ対策の強化",
+          "reason": "「強化」は排除基準であり、対象や変更すべき制度等の変数が曖昧であるため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "官公庁および企業のサイバーセキュリティ対策の強化"
+        },
+        {
+          "title": "パトロール体制の強化",
+          "reason": "「体制の強化」は中身が不透明で検証不能であり、特定駅周辺に限定した利益誘導施策であるため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "大宮駅周辺繁華街の警察と連携したパトロール体制の強化"
+        },
+        {
+          "title": "出産一時金・不妊治療支援の拡充",
+          "reason": "「拡充」は100%客観的に判断することができない意欲表現であり、具体値の確約がないため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "出産一時金の拡充や不妊治療支援の拡充"
+        },
+        {
+          "title": "保育士・介護士の処遇改善",
+          "reason": "「改善」は何をもって改善とするかの基準が存在せず、制度のステータス変更が検証不可能なため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "保育士・介護士の処遇改善"
+        },
+        {
+          "title": "学童保育の拡充と人材育成",
+          "reason": "「拡充」「育成」の有無は恣意的であり、第三者が明確に変数を判定できないため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "学童保育の拡充と人材育成"
+        },
+        {
+          "title": "自治体間の補助制度格差の是正",
+          "reason": "「是正」が何を指し、具体的にどのような措置が取られたか判定できる変数が明示されていないため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "自治体間の補助制度格差の是正"
+        },
+        {
+          "title": "男性の育児参加促進と職場環境整備",
+          "reason": "「促進」は却下基準であり、「環境整備」も抽象的な整備対象概念であるため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "男性の育児参加促進と職場環境整備"
+        },
+        {
+          "title": "年金制度の持続可能性確保と分かりやすい説明",
+          "reason": "「確保」は抽象的な目標であり、「説明」も制度の具体的変更を含まないため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "年金制度の持続可能性確保と分かりやすい説明"
+        },
+        {
+          "title": "医療費負担の適正化と高齢者への配慮",
+          "reason": "「適正化」「配慮」は変数が一切不明であり、達成の有無が判断不能であるため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "医療費負担の適正化と高齢者への配慮"
+        },
+        {
+          "title": "健康寿命延伸と高齢者雇用の促進",
+          "reason": "「延伸」は単なる努力目標であり、「促進」も排除事由となる手続き・意欲表現であるため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "健康寿命延伸と高齢者雇用の促進"
+        },
+        {
+          "title": "AI・デジタル技術を活用した医療・介護支援",
+          "reason": "「支援」という曖昧な表現であり、どの制度をどのように変更するのかという観測可能なアクションがないため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "AI・デジタル技術を活用した医療・介護支援"
+        },
+        {
+          "title": "マイナンバー活用による医療保険の不正利用防止",
+          "reason": "「防止」という結果は抽象的な目標であり、どのような制度や仕組みの変更を行うかが明記されていないため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "マイナンバー活用による医療保険の不正利用防止"
+        },
+        {
+          "title": "自衛隊の装備・人員の充実と待遇改善",
+          "reason": "「充実」「改善」は客観的に達成したと言い切れる基準がなく、変数や数値を用いた確約がないため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "自衛隊の装備・人員の充実と待遇改善"
+        },
+        {
+          "title": "日米同盟を基軸とした多国間連携の推進",
+          "reason": "「推進」は手続き・意欲表現であり、公約とはみなせないため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "日米同盟を基軸とした多国間連携の推進"
+        },
+        {
+          "title": "サイバー・宇宙",
+          "reason": "単なる名詞の列挙であり、政治的行動への意思や具体的公約内容が確認できないため。",
+          "sources": "https://yutakaihara.jp/category/policy",
+          "quote_text": "サイバー・宇宙"
+        }
+      ]
+    }
+  ]
+}

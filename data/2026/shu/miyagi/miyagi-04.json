@@ -1,0 +1,27 @@
+{
+  "district": "宮城4区",
+  "district_code": "2026-shu-miyagi-4",
+  "candidates": [
+    {
+      "name": "森下千里",
+      "party": "自由民主党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "国政の光を宮城4区に!",
+            "body": "＼もりした千里は目指します!／<br>1. あらゆる手段で物価高対策<br>2. 地域産業、農林水産業の活性化<br>3. 女性活躍社会と子育て支援の向上<br>4. 今と未来を結ぶ環境対策<br>5. 移民政策にしっかりした基準を"
+          },
+          {
+            "header": "現場第一主義を貫き、初心者忘れず宮城に熱血!!",
+            "body": ""
+          }
+        ],
+        "manifesto": []
+      },
+      "web": {
+        "manifesto": [],
+        "not_manifesto": []
+      }
+    }
+  ]
+}
