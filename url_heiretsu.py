@@ -425,154 +425,32 @@ def save_append_data(out_file, district, num, winner, new_manifesto, new_not_man
         with open(out_file, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
 
+
+
+
+
 ALL_WINNERS = {
-    "yamanashi": {
+    "shiga": {
         2: {
-            "name": "堀内詔子",
-            "official": "https://genkihoriuchi.com/",
+            "name": "上野賢一郎",
+            "official": "https://www.ueno-kenichiro.jp/",
+            "party": "自由民主党"
+        },
+        3: {
+            "name": "武村展英",
+            "official": "https://takemura-nobuhide.com/",
             "party": "自由民主党"
         }
+    },
     }
-}
 
-#yamanashi,manifesto移す
+
+
 
 
 ''' 
-
-
-
-ALL_WINNERS = {
-    "niigata": {
-        1: {
-            "name": "内山航",
-            "official": "https://kou-uchiyama.com/",
-            "party": "自由民主党"
-        },
-        2: {
-            "name": "国定勇人",
-            "official": "https://kunisada-sanjo.com/",
-            "party": "自由民主党"
-        },
-        3: {
-            "name": "斎藤洋明",
-            "official": "https://www.saitoh-hiroaki.jp/",
-            "party": "自由民主党"
-        },
-        4: {
-            "name": "鷲尾英一郎",
-            "official": "https://washio-e.jp/",
-            "party": "自由民主党"
-        },
-        5: {
-            "name": "高鳥修一",
-            "official": "https://takatori.jp/",
-            "party": "自由民主党"
-        }
-    },
-    "toyama": {
-        1: {
-            "name": "中田宏",
-            "official": "https://nakada.net/",
-            "party": "自由民主党"
-        },
-        2: {
-            "name": "上田英俊",
-            "official": "https://ueda-eishun.com/",
-            "party": "自由民主党"
-        },
-        3: {
-            "name": "橘慶一郎",
-            "official": "https://www.t-k1.net/",
-            "party": "自由民主党"
-        }
-    },
-    "ishikawa": {
-        1: {
-            "name": "小森卓郎",
-            "official": "https://komoritakuo.jp/",
-            "party": "自由民主党"
-        },
-        2: {
-            "name": "佐々木紀",
-            "official": "https://sasaki-hajime.jp/",
-            "party": "自由民主党"
-        },
-        3: {
-            "name": "西田昭二",
-            "official": "https://www.nishida-syoji.jp/",
-            "party": "自由民主党"
-        }
-    },
-    "fukui": {
-        1: {
-            "name": "稲田朋美",
-            "official": "https://www.inada-tomomi.com/",
-            "party": "自由民主党"
-        },
-        2: {
-            "name": "斉木武志",
-            "official": "https://saikitakeshi.jp/",
-            "party": "自由民主党"
-        }
-    }
-}
-
-ALL_WINNERS = {
-    "nagano": {
-        1: {
-            "name": "若林健太",
-            "official": "http://wakabayashikenta.com/",
-            "party": "自由民主党"
-        },
-        2: {
-            "name": "藤田ひかる",
-            "official": "https://hikarufujita.com/",
-            "party": "自由民主党"
-        },
-        3: {
-            "name": "井出庸生",
-            "official": "https://yousei-ide.com/",
-            "party": "自由民主党"
-        },
-        4: {
-            "name": "後藤茂之",
-            "official": "https://www.510.to/",
-            "party": "自由民主党"
-        },
-        5: {
-            "name": "宮下一郎",
-            "official": "https://m-ichiro-blog.net/",
-            "party": "自由民主党"
-        }
-    },
-    "gifu": {
-        1: {
-            "name": "野田聖子",
-            "official": "https://www.noda-seiko.gr.jp/",
-            "party": "自由民主党"
-        },
-        2: {
-            "name": "棚橋泰文",
-            "official": "https://www.tanahashi-yasufumi.com/",
-            "party": "自由民主党"
-        },
-        3: {
-            "name": "武藤容治",
-            "official": "https://mutou-youji.jp/",
-            "party": "自由民主党"
-        },
-        4: {
-            "name": "加藤大博",
-            "official": "https://kato-tomohiro.com/",
-            "party": "自由民主党"
-        },
-        5: {
-            "name": "古屋圭司",
-            "official": "https://sites.google.com/view/furuya-keiji/",
-            "party": "自由民主党"
-        }
-    },
+   
+    
     "shizuoka": {
         1: {
             "name": "上川陽子",
@@ -614,11 +492,7 @@ ALL_WINNERS = {
             "official": "https://inabadaisuke.com/",
             "party": "自由民主党"
         }
-    }
-}
-
-
-ALL_WINNERS = {
+    },
     "aichi": {
         1: {
             "name": "河村たかし",
@@ -701,7 +575,6 @@ ALL_WINNERS = {
             "party": "自由民主党"
         }
     }
-}
 
 ALL_WINNERS = {
     "mie": {
@@ -775,6 +648,17 @@ ALL_WINNERS = {
             "party": "自由民主党"
         }
     }
+
+}
+    
+
+ALL_WINNERS = {
+    
+}
+
+
+ALL_WINNERS = {
+    
 }
 
 
@@ -1565,10 +1449,10 @@ JSONとして正しい形で返してください。
 
 def process(district,winner,num,official,party):
    # with concurrent.futures.ThreadPoolExecutor(max_workers=30) as executor:
-    #    future1 = executor.submit(research1, district, winner, num, official)
-     #   future2 = executor.submit(research2, district, winner, num)
-      #  concurrent.futures.wait([future1, future2])
-       # print(f"{district, num} research finished")
+   #     future1 = executor.submit(research1, district, winner, num, official)
+    #    future2 = executor.submit(research2, district, winner, num)
+     #   concurrent.futures.wait([future1, future2])
+      #  print(f"{district, num} research finished")
 
     get_manifesto(district, winner, num,party)
     overlapping(district, num)

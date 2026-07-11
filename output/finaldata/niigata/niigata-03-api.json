@@ -1,0 +1,42 @@
+{
+  "district": "新潟3区",
+  "candidates": [
+    {
+      "name": "斎藤洋明",
+      "party": "自由民主党",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "title": "防衛力の抜本強化",
+          "reason": "「強化」という言葉は抽象的な表現であり、具体的にどの数値を変更するのか、またはどの制度を変更するのかが明確でなく、客観的に評価できないため。",
+          "sources": "https://politician.cafe/politician/958/",
+          "quote_text": "防衛力の抜本強化"
+        },
+        {
+          "title": "拉致問題の交渉・解決",
+          "reason": "具体的な法措置や制度の確立についての言及がなく、解決に至るための変数が不明確であるため。",
+          "sources": "https://politician.cafe/politician/958/",
+          "quote_text": "拉致問題の交渉・解決"
+        },
+        {
+          "title": "経済安全保障",
+          "reason": "政策分野の羅列に過ぎず、具体的な制度変更や断定的な政治的コミットメントが示されていないため。",
+          "sources": "https://politician.cafe/politician/958/",
+          "quote_text": "経済安全保障（レアアース、半導体、電気通信技術）"
+        },
+        {
+          "title": "食料安全保障",
+          "reason": "「振興」や「安定」といった抽象的な目標にとどまり、客観的な検証が可能な制度の特定の変更を含まないため。",
+          "sources": "https://politician.cafe/politician/958/",
+          "quote_text": "食料安全保障（農林水産業振興、米価安定、ほ場整備）"
+        },
+        {
+          "title": "中国、ロシア、北朝鮮と対峙し国益を守る",
+          "reason": "「国益を守る」という抽象的なスローガンであり、具体的にどの制度を変更するのかが不明なため。",
+          "sources": "https://politician.cafe/politician/958/",
+          "quote_text": "中国、ロシア、北朝鮮と対峙し国益を守る"
+        }
+      ]
+    }
+  ]
+}

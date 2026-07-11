@@ -1,0 +1,114 @@
+{
+  "district": "岐阜2区",
+  "candidates": [
+    {
+      "name": "棚橋泰文",
+      "party": "自由民主党",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "title": "西濃の強化と豊かさの実現",
+          "reason": "「強く豊かに」という抽象的なスローガンに過ぎず、具体的な政策内容や観測可能な変数が存在しないため。",
+          "sources": "https://www.tanahashi-yasufumi.com/",
+          "quote_text": "01 西濃を、強く豊かに。"
+        },
+        {
+          "title": "くらしの保護",
+          "reason": "「くらしを守る」という抽象的なスローガンであり、どのような制度変更を行うのか不明確なため。",
+          "sources": "https://www.tanahashi-yasufumi.com/",
+          "quote_text": "02 くらしを守る。"
+        },
+        {
+          "title": "災害からの国民の保護",
+          "reason": "「災害から国民を守る」という抽象的なスローガンであり、具体的な行動や法改正が示されていないため。",
+          "sources": "https://www.tanahashi-yasufumi.com/",
+          "quote_text": "03 災害から国民を守る。"
+        },
+        {
+          "title": "社会保障の維持",
+          "reason": "「社会保障を守る」という抽象的なスローガンであり、社会保障制度のどの変数をどう変更するかが一切不明なため。",
+          "sources": "https://www.tanahashi-yasufumi.com/",
+          "quote_text": "04 社会保障を守る。"
+        },
+        {
+          "title": "平和の維持",
+          "reason": "「平和を守る」という抽象的なスローガンであり、具体的な施策やコミットメントが確認できないため。",
+          "sources": "https://www.tanahashi-yasufumi.com/",
+          "quote_text": "05 平和を守る。"
+        },
+        {
+          "title": "伝統の保護",
+          "reason": "「伝統を守る」という抽象的なスローガンであり、具体的な対象やアプローチが不明確で検証不能なため。",
+          "sources": "https://www.tanahashi-yasufumi.com/",
+          "quote_text": "06 伝統を守る。"
+        },
+        {
+          "title": "食の保護",
+          "reason": "「食を守る」という抽象的なスローガンであり、具体的な数値目標や制度変更のコミットメントがないため。",
+          "sources": "https://www.tanahashi-yasufumi.com/",
+          "quote_text": "07 食を守る。"
+        },
+        {
+          "title": "道路網整備や治水対策、公共施設改善などの着実な推進",
+          "reason": "「推し進めます」という意欲表現が含まれており、また西濃という特定地域への利益誘導であるため。",
+          "sources": "https://www.tanahashi-yasufumi.com/policy/",
+          "quote_text": "西濃を、強く豊かに。東海環状自動車道をはじめとした道路網の整備、暮らしを守る治水対策、学校等公共施設の改善や農業の持続的な発展などを、これからも着実に推し進めます。"
+        },
+        {
+          "title": "経済の好循環の実現",
+          "reason": "「目指します」という明確な手続き・意欲表現であり、結果の達成が客観的に検証不能なスローガンのため。",
+          "sources": "https://www.tanahashi-yasufumi.com/policy/",
+          "quote_text": "所得を増やし、消費を活性化させ、税収を増加させる好循環の実現を目指します。"
+        },
+        {
+          "title": "賃上げ企業への後押しと雇用の安定確保",
+          "reason": "「後押し」という抽象的な表現が含まれ、かつ「進め」「確保」という結果を客観的に判定できない意欲表現に留まっているため。",
+          "sources": "https://www.tanahashi-yasufumi.com/policy/",
+          "quote_text": "物価上昇を上回る賃上げ、いわゆる実質賃金の上昇に向けて、賃上げに取り組む企業を後押しします。そして中小企業・小規模事業者への支援、成長分野への投資を進め、同時に雇用の安定を確保します。"
+        },
+        {
+          "title": "防災庁の設置進行および防災体制の強化",
+          "reason": "「着実に進め」「強化します」という意欲・手続き表現であり、具体的なアクションの断言ではないため。",
+          "sources": "https://www.tanahashi-yasufumi.com/policy/",
+          "quote_text": "防災庁設置を着実に進め防災体制を強化します。"
+        },
+        {
+          "title": "国土強靭化の推進と災害に屈しない国土づくり",
+          "reason": "「推進」「目指す」という手続き・意欲表現が含まれており、抽象的なスローガンに該当するため。",
+          "sources": "https://www.tanahashi-yasufumi.com/policy/",
+          "quote_text": "また、国土強靭化をさらに推進し、災害に屈しない国土づくりを目指します。"
+        },
+        {
+          "title": "税と社会保障の一体改革の進行",
+          "reason": "「進めます」という単なる意欲表現であり、具体的にどの制度をどう操作するか明示されていないため。",
+          "sources": "https://www.tanahashi-yasufumi.com/policy/",
+          "quote_text": "持続可能な全世代型社会保障制度の確立に向けて、税と社会保障の一体改革を進めます。"
+        },
+        {
+          "title": "医療等の人材処遇改善と保険料負担の抑制",
+          "reason": "どの制度や変数を操作して処遇改善と負担抑制を実現するかが不明であり、客観的な判定ができないため。",
+          "sources": "https://www.tanahashi-yasufumi.com/policy/",
+          "quote_text": "医療・介護・福祉人材の処遇を改善し、現役世代の保険料負担を抑えます。"
+        },
+        {
+          "title": "防衛力の抜本的強化と外交力の向上",
+          "reason": "「進める」「強化し」「高めます」といった効果の測定が曖昧で主観的な表現のみで構成されているため。",
+          "sources": "https://www.tanahashi-yasufumi.com/policy/",
+          "quote_text": "防衛力の抜本的強化を進めるとともに、自由で開かれたインド太平洋を柱に基本的価値を共有する国々との連携を強化し外交力を高めます。"
+        },
+        {
+          "title": "一部外国人への対応と土地取得などの検討",
+          "reason": "「検討を進めます」という手続き表現が含まれるほか、「毅然と対応」という観測不可能な曖昧な表現であるため。",
+          "sources": "https://www.tanahashi-yasufumi.com/policy/",
+          "quote_text": "一部の外国人による違法行為やルールの逸脱については国として毅然と対応し、土地取得等の在り方についても検討を進めます。"
+        },
+        {
+          "title": "食料安全保障の確立と生産基盤強化の推進",
+          "reason": "「推進」および「強化」という意欲表現が含まれており、具体的な制度変更の断言がないため直ちに却下対象となる。",
+          "sources": "https://www.tanahashi-yasufumi.com/policy/",
+          "quote_text": "食料安全保障の確立と生産基盤強化を推進します。"
+        }
+      ]
+    }
+  ]
+}
