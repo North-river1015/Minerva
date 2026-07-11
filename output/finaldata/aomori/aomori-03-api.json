@@ -9,13 +9,15 @@
           "title": "消費税の廃止（0パーセント）",
           "reason": "消費税率を0%にする（廃止する）という具体的な数値設定を伴う断定的なコミットメントであり、実施の有無が法改正により100%客観的に検証可能であるため。",
           "sources": "https://www.aba-net.com/news/news-172427.html",
-          "quote_text": "消費税を廃止（0パーセント）し"
+          "quote_text": "消費税を廃止（0パーセント）し",
+          "policy_id": "policy_100"
         },
         {
           "title": "季節ごとの10万円給付の実施",
           "reason": "「10万円給付」という具体的な金額と給付というアクションが明示されており、実行されたかどうかが予算によって客観的に判定できるため。",
           "sources": "https://www.aba-net.com/news/news-172427.html",
-          "quote_text": "あわせて、季節ごとの10万円給付を行う。"
+          "quote_text": "あわせて、季節ごとの10万円給付を行う。",
+          "policy_id": "policy_197"
         }
       ],
       "not-manifesto": [

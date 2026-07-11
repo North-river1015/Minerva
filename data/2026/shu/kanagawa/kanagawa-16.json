@@ -32,12 +32,14 @@
           {
             "title": "第1子からの保育料無償化",
             "reason": "「保育料0円」という具体的な数値を含み、制度変更の実施有無が客観的に判定できるため。",
-            "quote_text": "第1子から保育料「0円」"
+            "quote_text": "第1子から保育料「0円」",
+            "policy_id": "policy_194"
           },
           {
             "title": "防衛費のGDP比2%確保",
             "reason": "予算規模の具体的な数値(GDP比2%)を明示しており、予算措置が行われたか客観的な検証が可能であるため。",
-            "quote_text": "防衛費「GDP比2%」確保"
+            "quote_text": "防衛費「GDP比2%」確保",
+            "policy_id": "policy_195"
           }
         ]
       },
@@ -47,13 +49,15 @@
             "title": "食料品の消費税率の時限的引き下げまたはゼロ化",
             "reason": "食料品の消費税率という具体的な数値・条件の変更を伴い、法改正の有無によって実行されたかどうかが第三者に客観的に判定できるため。",
             "sources": "https://go2senkyo.com/seijika/197004/posts/1281721",
-            "quote_text": "食料品の消費税については時限的なゼロを。"
+            "quote_text": "食料品の消費税については時限的なゼロを。",
+            "policy_id": "policy_197"
           },
           {
             "title": "第1子からの保育料無償化",
             "reason": "「0円」という具体的な数値の変更を明言しており、実施の有無が客観的に判定できるため。",
             "sources": "https://satoumasashi.com/policy.html",
-            "quote_text": "第１子から保育料を「0円」にします。"
+            "quote_text": "第１子から保育料を「0円」にします。",
+            "policy_id": "policy_194"
           }
         ],
         "not_manifesto": []

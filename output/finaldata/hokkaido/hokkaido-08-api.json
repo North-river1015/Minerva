@@ -9,83 +9,97 @@
           "title": "食料品の消費税の無期限ゼロ化",
           "reason": "「消費税をゼロにする」という具体的な数値での税率変更を明言しており、法改正の有無によって客観的に採否が検証可能なコミットメントであるため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51043",
-          "quote_text": "食料品の消費税を期限なしでゼロにする"
+          "quote_text": "食料品の消費税を期限なしでゼロにする",
+          "policy_id": "policy_197"
         },
         {
           "title": "給付付き税額控除の導入",
           "reason": "「給付付き税額控除」という新規の税制設立（実現）を明確に方針として掲げており、新法の制定等により客観的に実施が判断できるため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51043",
-          "quote_text": "中低所得者に有利な「給付付き税額控除」の早期実現"
+          "quote_text": "中低所得者に有利な「給付付き税額控除」の早期実現",
+          "policy_id": "policy_004"
         },
         {
           "title": "所得補償制度の導入",
           "reason": "「所得補償制度」という特定の新規制度の設立を断定的に明記しており、制度の存否によって実施の有無を100%客観的に判断できるため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51043",
-          "quote_text": "所得補償制度の導入"
+          "quote_text": "所得補償制度の導入",
+          "policy_id": "policy_197"
         },
         {
           "title": "国家安全保障戦略を含む「三文書」の改定",
           "reason": "政府の公式文書である「三文書」の改定という、客観的に観測可能な文書のステータス変更を約束しているため。",
           "sources": "https://note.com/junemukoyama/n/n22143eb1fbcc",
-          "quote_text": "国家安全保障戦略を含む「三文書」を改定し"
+          "quote_text": "国家安全保障戦略を含む「三文書」を改定し",
+          "policy_id": "policy_044"
         },
         {
           "title": "防衛装備移転三原則の運用指針における5類型の撤廃",
           "reason": "「運用指針の5類型撤廃」という、明確な運用ルールの変更(ステータスの変更)を断定的にコミットしており、検証可能であるため。",
           "sources": "https://note.com/junemukoyama/n/n22143eb1fbcc",
-          "quote_text": "防衛装備移転三原則の運用指針の5類型を撤廃するとともに"
+          "quote_text": "防衛装備移転三原則の運用指針の5類型を撤廃するとともに",
+          "policy_id": "policy_197"
         },
         {
           "title": "政治資金の現金授受の廃止",
           "reason": "政治資金の授受に関する法的なルール変更という客観的に検証可能なアクションであるため。",
           "sources": "https://politician.cafe/politician/332/measures/",
-          "quote_text": "政治資金の現金授受を廃止し"
+          "quote_text": "政治資金の現金授受を廃止し",
+          "policy_id": "policy_197"
         },
         {
           "title": "政治資金収支報告書のオンライン集計・チェックの導入",
           "reason": "収支報告書の提出・公開に関する運用ルールの変更（オンライン化）という、システム導入の有無が確認可能なため。",
           "sources": "https://politician.cafe/politician/332/measures/",
-          "quote_text": "収支報告書もオンラインで集計・チェック可能な形に"
+          "quote_text": "収支報告書もオンラインで集計・チェック可能な形に",
+          "policy_id": "policy_197"
         },
         {
           "title": "旧文通費・政策活動費の内容公開と政治資金規正法の再改正",
           "reason": "「内容公開」という情報ステータスの変更、および「政治資金規正法の再改正」という具体的な法改正を明示しているため。",
           "sources": "https://politician.cafe/politician/332/measures/",
-          "quote_text": "旧文通費・政策活動費の内容公開を含む、政治資金規正法の再改正"
+          "quote_text": "旧文通費・政策活動費の内容公開を含む、政治資金規正法の再改正",
+          "policy_id": "policy_197"
         },
         {
           "title": "電子投票の実現（導入）",
           "reason": "「電子投票の実現」は、公職選挙法の改正などによる明確な制度の導入を指し、客観的に実施の有無が検証可能であるため。",
           "sources": "https://politician.cafe/politician/332/measures/",
-          "quote_text": "電子投票も課題を乗り越え実現へ"
+          "quote_text": "電子投票も課題を乗り越え実現へ",
+          "policy_id": "policy_062"
         },
         {
           "title": "政治資金監査を行う第三者機関の設置",
           "reason": "「第三者機関の設置」という新規制度・組織の創設を指しており、その存否が100%客観的に確認可能なため。",
           "sources": "https://politician.cafe/politician/332/measures/",
-          "quote_text": "政治資金監査を行う第三者機関の設置"
+          "quote_text": "政治資金監査を行う第三者機関の設置",
+          "policy_id": "policy_105"
         },
         {
           "title": "中学校への教科「情報」の新設",
           "reason": "学習指導要領・カリキュラムにおける「新設」という拘束力のある制度的ステータス変更を指しており、客観的に確認可能なため。",
           "sources": "https://policy.team-mir.ai/policies",
-          "quote_text": "中学校に教科「情報」を新設し、授業時間を増やします。"
+          "quote_text": "中学校に教科「情報」を新設し、授業時間を増やします。",
+          "policy_id": "policy_197"
         },
         {
           "title": "AI特化型先進校（SAIS）の設立",
           "reason": "「AI特化型先進校」という特定の新規制度・枠組みの設立を断定しており、その立ち上げが客観的に検証可能なため。",
           "sources": "https://policy.team-mir.ai/policies",
-          "quote_text": "AIの利活用に特化した高校（Super AI High Schools）を設立し、尖った才能や興味のある生徒を集めます。"
+          "quote_text": "AIの利活用に特化した高校（Super AI High Schools）を設立し、尖った才能や興味のある生徒を集めます。",
+          "policy_id": "policy_197"
         },
         {
           "title": "教員採用における「地域枠・スペシャリスト枠」の創設",
           "reason": "教員採用制度における「新規枠の創設」という明確な制度・ステータス変更を明記しているため。",
           "sources": "https://policy.team-mir.ai/policies",
-          "quote_text": "基礎自治体が独自に選考・配置できる枠を設け、専門人材の登用を可能にします。"
+          "quote_text": "基礎自治体が独自に選考・配置できる枠を設け、専門人材の登用を可能にします。",
+          "policy_id": "policy_197"
         },
         {
           "title": "国立国会図書館等のすべての国民への開放",
-          "reason": "特定の国立施設に対する「利用資格の開放」という、ルールの明示的なステータス変更にコミ"
+          "reason": "特定の国立施設に対する「利用資格の開放」という、ルールの明示的なステータス変更にコミ",
+          "policy_id": "policy_197"
         }
       ],
       "not-manifesto": [

@@ -9,31 +9,36 @@
           "title": "高齢者施設・住まいの相談センターへの「コーディネーター」新規配置",
           "reason": "「コーディネーターの配置」という、客観的に評価可能な具体的な行動（人事・体制の新規設置）を断定的に明言しているため。",
           "sources": "https://www.townnews.co.jp/one-page/entry?id=826482&utm_source=FB&utm_medium=social",
-          "quote_text": "高齢者施設・住まいの相談センターに４月から新たに「コーディネーター」を配置する。"
+          "quote_text": "高齢者施設・住まいの相談センターに４月から新たに「コーディネーター」を配置する。",
+          "policy_id": "policy_197"
         },
         {
           "title": "特別養護老人ホームの入所待機期間の短縮",
           "reason": "「4カ月に短縮」という具体的な数値目標が明示されており、実施後の達成度を客観的に判定できる断定的なコミットメントであるため。",
           "sources": "https://www.townnews.co.jp/one-page/entry?id=826407&utm_source=FB&utm_medium=social",
-          "quote_text": "特別養護老人ホーム（特養）の入所待機期間を、現在の平均およそ7カ月から4カ月に短縮する。"
+          "quote_text": "特別養護老人ホーム（特養）の入所待機期間を、現在の平均およそ7カ月から4カ月に短縮する。",
+          "policy_id": "policy_197"
         },
         {
           "title": "食料品の消費税ゼロ達成",
           "reason": "「消費税ゼロ」という具体的な数値の変更（税率変更）であり、法改正の有無によって客観的に達成判定が可能で断定的なコミットメントであるため。",
           "sources": "https://www.townnews.co.jp/one-page/entry?id=822570&utm_source=FB&utm_medium=social",
-          "quote_text": "物価高対策として、食料品の消費税ゼロを実現する。"
+          "quote_text": "物価高対策として、食料品の消費税ゼロを実現する。",
+          "policy_id": "policy_003"
         },
         {
           "title": "年金受給額の物価連動による定期調整改定制度の導入",
           "reason": "年1回または半年に1回の頻度という明確な条件設定を伴う「改定制度の導入」であり、新規制度設立の有無が第三者によって客観的に確認できるため。",
           "sources": "https://www.townnews.co.jp/one-page/entry?id=822570&utm_source=FB&utm_medium=social",
-          "quote_text": "年金受給額について、物価変動を反映させ、年1回または半年に1回の頻度で調整を行う改定制度の導入。"
+          "quote_text": "年金受給額について、物価変動を反映させ、年1回または半年に1回の頻度で調整を行う改定制度の導入。",
+          "policy_id": "policy_197"
         },
         {
           "title": "消費税の廃止および売上税への切り替え",
           "reason": "「消費税の廃止」と「売上税への切り替え」という税制面での具体的な制度のステータス変更と新設を明示しており、法令の制定および改廃で直接確認可能なため。",
           "sources": "https://www.townnews.co.jp/one-page/entry?id=822570&utm_source=FB&utm_medium=social",
-          "quote_text": "消費税を廃止し、売上税に切り替えることによる税制の簡素化。"
+          "quote_text": "消費税を廃止し、売上税に切り替えることによる税制の簡素化。",
+          "policy_id": "policy_197"
         }
       ],
       "not-manifesto": [

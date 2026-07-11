@@ -24,17 +24,20 @@
           {
             "title": "ガソリン減税",
             "reason": "減税という具体的な税制上の変更を提示しており、法改正によって実施されたかどうかが客観的に検証可能であるため。",
-            "quote_text": "ガソリン減税"
+            "quote_text": "ガソリン減税",
+            "policy_id": "policy_172"
           },
           {
             "title": "食料品の消費税を2年間ゼロにする",
             "reason": "「2年」という明確な期間と「消費税ゼロ」という具体的な数値・条件の変更を明言しており、実施の有無が客観的に判定できるため。",
-            "quote_text": "食料品2年消費税ゼロ"
+            "quote_text": "食料品2年消費税ゼロ",
+            "policy_id": "policy_113"
           },
           {
             "title": "憲法改正",
             "reason": "最高法規である憲法を改正するという、具体的かつ断定的な政治的アクションを明示しており、条文の有無で客観的に立証可能なため。",
-            "quote_text": "未来見据え憲法改正"
+            "quote_text": "未来見据え憲法改正",
+            "policy_id": "policy_039"
           }
         ]
       },
@@ -44,37 +47,43 @@
             "title": "教育無償化",
             "reason": "教育、保育、給食等の費用を無償化することは、制度のステータス変更や予算措置として客観的に達成が判断可能であるため。",
             "sources": "https://go2senkyo.com/seijika/192817",
-            "quote_text": "出産・教育・保育・給食の無償化"
+            "quote_text": "出産・教育・保育・給食の無償化",
+            "policy_id": "policy_197"
           },
           {
             "title": "ガソリン減税",
             "reason": "「減税」という具体的な税制変更を伴うものであり、実施の有無が法改正等を通じて客観的に検証可能であるため。",
             "sources": "https://go2senkyo.com/seijika/192817",
-            "quote_text": "ガソリン減税。"
+            "quote_text": "ガソリン減税。",
+            "policy_id": "policy_172"
           },
           {
             "title": "食料品の2年間消費税ゼロ",
             "reason": "期間（2年）、対象（食料品）、税率（ゼロ）という明確な数値・条件の設定であり、達成の有無が客観的に判定できるため。",
             "sources": "https://go2senkyo.com/seijika/192817",
-            "quote_text": "食料品2年消費税ゼロ"
+            "quote_text": "食料品2年消費税ゼロ",
+            "policy_id": "policy_113"
           },
           {
             "title": "年収の壁の完全撤廃",
             "reason": "「年収の壁」という税制・社会保険制度の要件を「完全撤廃」するという、明確な制度のステータス変更が含まれているため。",
             "sources": "https://go2senkyo.com/seijika/192817",
-            "quote_text": "年収の壁を完全撤廃"
+            "quote_text": "年収の壁を完全撤廃",
+            "policy_id": "policy_197"
           },
           {
             "title": "出産の無償化",
             "reason": "費用の負担をなくすという観測可能な数値の変更（無償化）と制度変更を伴うため。",
             "sources": "https://go2senkyo.com/seijika/192817",
-            "quote_text": "出産・教育・保育・給食の無償化"
+            "quote_text": "出産・教育・保育・給食の無償化",
+            "policy_id": "policy_174"
           },
           {
             "title": "自衛官の待遇改善",
             "reason": "待遇（給与等）の改善は、法定された給与法などの改正をもって客観的に実施できたかが判定可能であるため。",
             "sources": "https://go2senkyo.com/seijika/192817",
-            "quote_text": "自衛官の待遇を改善"
+            "quote_text": "自衛官の待遇を改善",
+            "policy_id": "policy_154"
           }
         ],
         "not_manifesto": []

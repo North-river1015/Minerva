@@ -9,31 +9,36 @@
           "title": "介護士・公務員等の給与改善",
           "reason": "介護報酬制度や公務員給与法などの法的・制度的な変更を伴うため、報酬改定や法改正の有無によって実行されたかが客観的に検証可能であるため。",
           "sources": "https://yoshiakiwada.com/policy/society/",
-          "quote_text": "介護士・公務員等の給与改善"
+          "quote_text": "介護士・公務員等の給与改善",
+          "policy_id": "policy_197"
         },
         {
           "title": "育児・介護休業法の改正",
           "reason": "「法の改正」という具体的な制度変更を断定的にコミットメントしており、法改正の有無によって客観的に実施が検証可能であるため。",
           "sources": "https://say-g.com/interview-wada-yoshiaki-8965",
-          "quote_text": "男性の育児休業を推進するため、育児・介護休業法を改正する。"
+          "quote_text": "男性の育児休業を推進するため、育児・介護休業法を改正する。",
+          "policy_id": "policy_197"
         },
         {
           "title": "130万円の壁（健康保険・年金）の大幅引上げ",
           "reason": "「130万円の壁」という具体的な制度（健康保険・年金の被扶養者認定基準）の数値を「引上げ」るというパラメータ変更を明示しており、法改正や制度変更の有無で実施を客観的に検証できるため。",
           "sources": "https://go2senkyo.com/seijika/163112",
-          "quote_text": "130万円の壁（健康保険・年金）の大幅引上げ"
+          "quote_text": "130万円の壁（健康保険・年金）の大幅引上げ",
+          "policy_id": "policy_152"
         },
         {
           "title": "自衛隊員の処遇改善",
           "reason": "処遇（給与等）の改善は、関連法改正の有無によって実行されたかが客観的に判断可能であるため。",
           "sources": "https://yoshiakiwada.com/policy/",
-          "quote_text": "自衛隊員の処遇の抜本改善"
+          "quote_text": "自衛隊員の処遇の抜本改善",
+          "policy_id": "policy_154"
         },
         {
           "title": "安保法制の廃止",
           "reason": "特定の法律の廃止という具体的なステータス変更を伴う断定的なコミットメントであり、達成度が客観的に検証可能であるため。",
           "sources": "https://www.yomiuri.co.jp/local/hokkaido/news/20260122-GYTNT00239/",
-          "quote_text": "安保法制の廃止"
+          "quote_text": "安保法制の廃止",
+          "policy_id": "policy_197"
         }
       ],
       "not-manifesto": [

@@ -9,13 +9,15 @@
           "title": "法人税の累進課税化",
           "reason": "「法人税を累進課税とする」という税制の具体的な制度変更を明示しており、法改正の有無によって実施が客観的に判定できるため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51039",
-          "quote_text": "法人税を累進課税として、利益の再配分を行なう。"
+          "quote_text": "法人税を累進課税として、利益の再配分を行なう。",
+          "policy_id": "policy_197"
         },
         {
           "title": "金融所得課税の累進化",
           "reason": "「金融所得課税の累進化」という具体的なステータス変更を指しており、法改正が行われたか明確に検証可能であるため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51039",
-          "quote_text": "金融所得課税の累進化により、公平な税制度を確立する。"
+          "quote_text": "金融所得課税の累進化により、公平な税制度を確立する。",
+          "policy_id": "policy_197"
         }
       ],
       "not-manifesto": [

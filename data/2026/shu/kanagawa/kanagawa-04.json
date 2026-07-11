@@ -32,163 +32,190 @@
             "title": "核融合炉実用化に向けた年間1000億円の研究投資",
             "reason": "具体的な予算枠と期限を定めた研究投資のコミットメントであり、実行の有無が観測可能なため。",
             "sources": "https://nagata-marina.com/manifest/environment/",
-            "quote_text": "2035年を目標に、核融合炉の実用化に向け年間1000億円の研究投資を実施し"
+            "quote_text": "2035年を目標に、核融合炉の実用化に向け年間1000億円の研究投資を実施し",
+            "policy_id": "policy_197"
           },
           {
             "title": "ペロブスカイト太陽光・洋上風力発電設置への最大50%補助金支給",
             "reason": "具体的な補助金率という数値条件を伴う制度の資金提供であり、実行の有無が客観的に検証可能なため。",
             "sources": "https://nagata-marina.com/manifest/environment/",
-            "quote_text": "ペロブスカイト太陽光・洋上風力発電の設置に最大50%の補助金を支給し"
+            "quote_text": "ペロブスカイト太陽光・洋上風力発電の設置に最大50%の補助金を支給し",
+            "policy_id": "policy_197"
           },
           {
             "title": "断熱素材の建築基準の法制化",
             "reason": "明確な法制度のステータス変更を指し、法案制定の有無で客観的に検証可能であるため。",
             "sources": "https://nagata-marina.com/manifest/environment/",
-            "quote_text": "断熱素材の建築基準を法制化して"
+            "quote_text": "断熱素材の建築基準を法制化して",
+            "policy_id": "policy_197"
           },
           {
             "title": "法定雇用率の3.0%への引き上げ",
             "reason": "法定雇用率という法要件を具体的な数値に変更するコミットメントであり、客観的に検証可能なため。",
             "sources": "https://nagata-marina.com/manifest/welfare/",
-            "quote_text": "法定雇用率を3.0%に引き上げ（2030年目標）。"
+            "quote_text": "法定雇用率を3.0%に引き上げ（2030年目標）。",
+            "policy_id": "policy_197"
           },
           {
             "title": "企業への障害者雇用促進税制優遇の30%増",
             "reason": "制度における具体的な数値の変更を伴う意思表明であり、客観的に検証可能なため。",
             "sources": "https://nagata-marina.com/manifest/welfare/",
-            "quote_text": "企業に障害者雇用を促す税制優遇を30%増。"
+            "quote_text": "企業に障害者雇用を促す税制優遇を30%増。",
+            "policy_id": "policy_197"
           },
           {
             "title": "60歳以上の再雇用・副業支援補助金の導入",
             "reason": "新規制度の設立を断定しており、要綱や予算の存在によって客観的に検証可能なため。",
             "sources": "https://nagata-marina.com/manifest/welfare/",
-            "quote_text": "60歳以上の再雇用や副業を支援する補助金を導入。"
+            "quote_text": "60歳以上の再雇用や副業を支援する補助金を導入。",
+            "policy_id": "policy_197"
           },
           {
             "title": "プライバシー保護の法制化",
             "reason": "法律の制定という制度変更を明約しており、条文の有無で客観的に達成状況を判定できるため。",
             "sources": "https://nagata-marina.com/manifest/welfare/",
-            "quote_text": "プライバシー保護を法制化し、安心を確保。"
+            "quote_text": "プライバシー保護を法制化し、安心を確保。",
+            "policy_id": "policy_197"
           },
           {
             "title": "サイバーセキュリティ予算の倍増",
             "reason": "具体的な予算増額目標を掲げており、達成の有無が客観的に検証可能であるため。",
             "sources": "https://nagata-marina.com/manifest/defense/",
-            "quote_text": "2028年までにサイバーセキュリティ予算を2倍（年間5000億円）に増額し"
+            "quote_text": "2028年までにサイバーセキュリティ予算を2倍（年間5000億円）に増額し",
+            "policy_id": "policy_197"
           },
           {
             "title": "AIを活用した攻撃検知システムの全国展開",
             "reason": "システム導入という事実を明記しており、Yes/Noによる客観的な検証が可能であるため。",
             "sources": "https://nagata-marina.com/manifest/defense/",
-            "quote_text": "AIを活用した攻撃検知システムを全国展開する。"
+            "quote_text": "AIを活用した攻撃検知システムを全国展開する。",
+            "policy_id": "policy_197"
           },
           {
             "title": "大学・専門学校でのサイバーセキュリティコース必修化",
             "reason": "公教育における学習カリキュラムの制度変更を断定しているため。",
             "sources": "https://nagata-marina.com/manifest/defense/",
-            "quote_text": "大学・専門学校でのサイバーセキュリティコースの必修化"
+            "quote_text": "大学・専門学校でのサイバーセキュリティコースの必修化",
+            "policy_id": "policy_197"
           },
           {
             "title": "サイバー防御基準の法制化",
             "reason": "法的措置を伴っており、法律の有無で検証が可能であるため。",
             "sources": "https://nagata-marina.com/manifest/defense/",
-            "quote_text": "電力、通信、金融システムへのサイバー防御基準の法制化を行い"
+            "quote_text": "電力、通信、金融システムへのサイバー防御基準の法制化を行い",
+            "policy_id": "policy_197"
           },
           {
             "title": "サイバー防衛協定の締結",
             "reason": "外交上の枠組み構築であり、条約・協定の存在によって客観的に確認できるため。",
             "sources": "https://nagata-marina.com/manifest/defense/",
-            "quote_text": "グローバルサウスやNATOとサイバー防衛協定を締結し"
+            "quote_text": "グローバルサウスやNATOとサイバー防衛協定を締結し",
+            "policy_id": "policy_197"
           },
           {
             "title": "防衛費のGDP比2%への引き上げ",
             "reason": "防衛予算に関する具体的な数値目標であり、実行の有無が客観的に判断可能であるため。",
             "sources": "https://nagata-marina.com/manifest/defense/",
-            "quote_text": "防衛費をGDP比2%（12兆円）に引き上げ"
+            "quote_text": "防衛費をGDP比2%（12兆円）に引き上げ",
+            "policy_id": "policy_195"
           },
           {
             "title": "日米共同演習の年間10回への拡大",
             "reason": "具体的な実施回数指標への変更であり、客観的検証が可能なコミットメントであるため。",
             "sources": "https://nagata-marina.com/manifest/defense/",
-            "quote_text": "日米共同演習を年間10回に拡大し"
+            "quote_text": "日米共同演習を年間10回に拡大し",
+            "policy_id": "policy_197"
           },
           {
             "title": "グローバルサウス50カ国での平和教育の展開",
             "reason": "具体的な数値目標を伴う事業実施であり、客観的に活動展開の有無が検証可能であるため。",
             "sources": "https://nagata-marina.com/manifest/defense/",
-            "quote_text": "広島・長崎の平和教育を2030年までにグローバルサウスの50カ国で展開する。"
+            "quote_text": "広島・長崎の平和教育を2030年までにグローバルサウスの50カ国で展開する。",
+            "policy_id": "policy_197"
           },
           {
             "title": "大学評価基準の卒業生生産性や社会貢献度への変更",
             "reason": "教育行政の客観的評価指標に関するステータス変更を断定しているため。",
             "sources": "https://nagata-marina.com/manifest/education/",
-            "quote_text": "大学の評価を偏差値から、卒業生の生産性（給与水準、起業率）や社会貢献度（例：地域課題解決）に変更。"
+            "quote_text": "大学の評価を偏差値から、卒業生の生産性（給与水準、起業率）や社会貢献度（例：地域課題解決）に変更。",
+            "policy_id": "policy_197"
           },
           {
             "title": "補助金配分の基準変更と成果不良校の統合・閉鎖",
             "reason": "具体的なルール改定および行政的措置を明言しており、検証可能であるため。",
             "sources": "https://nagata-marina.com/manifest/education/",
-            "quote_text": "補助金を就職率や新産業貢献度（例：AI企業への就職数）に連動し、成果不良校は統合・閉鎖。"
+            "quote_text": "補助金を就職率や新産業貢献度（例：AI企業への就職数）に連動し、成果不良校は統合・閉鎖。",
+            "policy_id": "policy_197"
           },
           {
             "title": "AI・デジタルリテラシーの必修化",
             "reason": "教育課程や設置基準の制度変更を指しており、客観的に観測可能なため。",
             "sources": "https://nagata-marina.com/manifest/education/",
-            "quote_text": "AI・デジタルリテラシーをすべての学部で必修化（確率統計、データ分析、プログラミング、AIツール活用）し"
+            "quote_text": "AI・デジタルリテラシーをすべての学部で必修化（確率統計、データ分析、プログラミング、AIツール活用）し",
+            "policy_id": "policy_197"
           },
           {
             "title": "大学内での2年制ディプロマ提供の制度化",
             "reason": "新規の制度的枠組みの変更を示しており、実施の有無が客観的に判定できるため。",
             "sources": "https://nagata-marina.com/manifest/education/",
-            "quote_text": "AIエンジニアや観光プランナーの2年制ディプロマを大学内で提供します。"
+            "quote_text": "AIエンジニアや観光プランナーの2年制ディプロマを大学内で提供します。",
+            "policy_id": "policy_197"
           },
           {
             "title": "短期集中コースの全国100校での展開",
             "reason": "期限と具体的な数値目標が設定されており、達成度が客観的に検証可能であるため。",
             "sources": "https://nagata-marina.com/manifest/education/",
-            "quote_text": "30〜50代向けに、AI、バイオ、観光のスキルを短期間で習得する短期集中コースを2030年までに全国100校で展開します。"
+            "quote_text": "30〜50代向けに、AI、バイオ、観光のスキルを短期間で習得する短期集中コースを2030年までに全国100校で展開します。",
+            "policy_id": "policy_197"
           },
           {
             "title": "最低賃金1500円への引き上げ",
             "reason": "具体的な賃金目標を用いた設定変更であり、実施の有無が確認可能であるため。",
             "sources": "https://nagata-marina.com/manifest/",
-            "quote_text": "最低賃金を2030年までに1500円へ。"
+            "quote_text": "最低賃金を2030年までに1500円へ。",
+            "policy_id": "policy_071"
           },
           {
             "title": "全国オンライン教育プラットフォームの展開",
             "reason": "新規システムの構築と開始時期を明言しており、実施が客観的に確認できるため。",
             "sources": "https://nagata-marina.com/manifest/",
-            "quote_text": "生涯学習の機会として全国オンライン教育プラットフォームを2028年展開。"
+            "quote_text": "生涯学習の機会として全国オンライン教育プラットフォームを2028年展開。",
+            "policy_id": "policy_197"
           },
           {
             "title": "教育投資のGDP比5%への引き上げ",
             "reason": "政府予算規模の具体的な数値変更であり、達成度が客観的に検証可能なため。",
             "sources": "https://nagata-marina.com/manifest/",
-            "quote_text": "教育投資をGDP比3.5%から5%へ引き上げ。"
+            "quote_text": "教育投資をGDP比3.5%から5%へ引き上げ。",
+            "policy_id": "policy_197"
           },
           {
             "title": "AIセキュリティ専門家10万人の育成",
             "reason": "具体的な人材育成の数値目標であり、検証が可能であるため。",
             "sources": "https://nagata-marina.com/manifest/",
-            "quote_text": "サイバー人材育成としてAIセキュリティの専門家を10万人育成。"
+            "quote_text": "サイバー人材育成としてAIセキュリティの専門家を10万人育成。",
+            "policy_id": "policy_197"
           },
           {
             "title": "公共施設・交通機関のバリアフリー化100%達成",
             "reason": "明確な数値基準に基づく状態の実現を約束しており、整備状況が数字で確認できるため。",
             "sources": "https://nagata-marina.com/manifest/",
-            "quote_text": "バリアフリーとして公共施設・交通機関のバリアフリー化を100%達成。"
+            "quote_text": "バリアフリーとして公共施設・交通機関のバリアフリー化を100%達成。",
+            "policy_id": "policy_197"
           },
           {
             "title": "行政コスト20%削減",
             "reason": "具体的な経費削減目標を掲げており、決算等で客観的に判定できるため。",
             "sources": "https://nagata-marina.com/manifest/",
-            "quote_text": "行政コスト削減として2030年までに行政コストを20%削減。"
+            "quote_text": "行政コスト削減として2030年までに行政コストを20%削減。",
+            "policy_id": "policy_197"
           },
           {
             "title": "行政手続きのオンライン化100%",
             "reason": "行政システムのステータス変更を明示しており、明確かつ観測可能な目標設定であるため。",
             "sources": "https://nagata-marina.com/manifest/",
-            "quote_text": "マイナンバー活用で行政手続きをオンライン化100%。"
+            "quote_text": "マイナンバー活用で行政手続きをオンライン化100%。",
+            "policy_id": "policy_197"
           }
         ],
         "not_manifesto": []

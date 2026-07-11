@@ -9,19 +9,22 @@
           "title": "食料品消費税のゼロ化",
           "reason": "食料品にかかる消費税をゼロとする具体的な税制変更の目標であり、実行の有無が客観的に検証可能であるため。",
           "sources": "https://note.com/mediage/n/nd5c15cd9f7ea",
-          "quote_text": "物価高騰対策として、食料品の消費税ゼロを実現する。"
+          "quote_text": "物価高騰対策として、食料品の消費税ゼロを実現する。",
+          "policy_id": "policy_003"
         },
         {
           "title": "奨学金の貸与制から給付型への移行",
           "reason": "貸与型から給付型への制度変更を明言しており、教育支援の枠組みにおける明確な政策目標であるため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51068",
-          "quote_text": "奨学金は貸与制から給付型へ。"
+          "quote_text": "奨学金は貸与制から給付型へ。",
+          "policy_id": "policy_197"
         },
         {
           "title": "1子あたり10万円の給付",
           "reason": "1人あたり10万円という具体的な給付額と対象が示されており、政策の実行の有無が客観的に判定可能であるため。",
           "sources": "https://note.com/mediage/n/nd5c15cd9f7ea",
-          "quote_text": "子ども1人当たり10万円の給付を実現する。"
+          "quote_text": "子ども1人当たり10万円の給付を実現する。",
+          "policy_id": "policy_197"
         }
       ],
       "not-manifesto": [

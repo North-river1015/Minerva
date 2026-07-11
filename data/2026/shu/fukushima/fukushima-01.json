@@ -20,13 +20,15 @@
             "title": "食料品の恒久的な消費税の撤廃",
             "reason": "「消費税ゼロ」という明確な数値の変更を明示しており、「実現する」という断定的なコミットメントであるため。",
             "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51206",
-            "quote_text": "食料品の恒久的な消費税ゼロを実現する。"
+            "quote_text": "食料品の恒久的な消費税ゼロを実現する。",
+            "policy_id": "policy_197"
           },
           {
             "title": "農地維持に対する直接支払制度の創設",
             "reason": "「直接支払制度を創設し」と特定の新規制度の設立を明言しており、その存否が客観的に確認可能なため。",
             "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51206",
-            "quote_text": "農地維持に対する直接支払制度を創設し"
+            "quote_text": "農地維持に対する直接支払制度を創設し",
+            "policy_id": "policy_197"
           }
         ],
         "not_manifesto": []

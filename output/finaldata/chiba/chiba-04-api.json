@@ -9,19 +9,22 @@
           "title": "多世代居住促進モデル地区の設定",
           "reason": "「モデル地区の設定」という制度的なステータス変更を指しており、実施の有無が客観的に判定できるため。",
           "sources": "https://kashimayusuke.jp/activities/",
-          "quote_text": "多世代居住促進モデル地区を設定し"
+          "quote_text": "多世代居住促進モデル地区を設定し",
+          "policy_id": "policy_197"
         },
         {
           "title": "原子力発電の再稼働",
           "reason": "「再稼働」という具体的なアクションであり、その実施の有無が客観的に施設稼働の許可等で判定可能なため。",
           "sources": "https://kashimayusuke.jp/activities/",
-          "quote_text": "原子力発電の再稼働"
+          "quote_text": "原子力発電の再稼働",
+          "policy_id": "policy_166"
         },
         {
           "title": "給食費無償化",
           "reason": "費用をゼロにするという具体的な数値条件の変更であり、実施の有無が明確に判定できるため。",
           "sources": "https://kashimayusuke.jp/activities/",
-          "quote_text": "給食費無償化"
+          "quote_text": "給食費無償化",
+          "policy_id": "policy_205"
         }
       ],
       "not-manifesto": [

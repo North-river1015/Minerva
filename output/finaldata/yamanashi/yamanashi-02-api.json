@@ -5,7 +5,92 @@
       "name": "堀内詔子",
       "party": "自由民主党",
       "manifesto": [],
-      "not-manifesto": []
+      "not-manifesto": [
+        {
+          "title": "観光産業への予算要求",
+          "reason": "予算の「要求」はプロセスの実行意欲を示すに過ぎず、「予算の確保」という客観的な結果へのコミットではないため。",
+          "sources": "https://say-g.com/interview-covid-19-inbound-6277",
+          "quote_text": "観光産業の人手不足対策として、来年度に向けた予算要求を行い"
+        },
+        {
+          "title": "観光業の職場を守る体制づくりの推進",
+          "reason": "「体制」という不透明で抽象的な概念が対象であり、「推進」という無検証な手続き表現が含まれるため。",
+          "sources": "https://say-g.com/interview-covid-19-inbound-6277",
+          "quote_text": "観光業に関わる方々の職場を守る体制づくりを推進する。"
+        },
+        {
+          "title": "観光のデジタル化推進",
+          "reason": "「推進」という手続き表現であり、具体的なアクションや制度変更を伴わないため。",
+          "sources": "https://say-g.com/interview-covid-19-inbound-6277",
+          "quote_text": "観光のデジタル化を推進する。"
+        },
+        {
+          "title": "観光地のWi-Fi環境整備と接続状況の明確化",
+          "reason": "「環境の整備」および「状況の明確化」という対象がいずれも抽象的な概念であり、100%客観的な判定ができないため。",
+          "sources": "https://say-g.com/interview-covid-19-inbound-6277",
+          "quote_text": "観光地のWi-Fi環境の整備や、インターネット接続状況の明確化を行う。"
+        },
+        {
+          "title": "デジタルシステムの構築",
+          "reason": "「目指す」という意図表現であり、実現への断定的なコミットメントではないため。",
+          "sources": "https://say-g.com/interview-covid-19-inbound-6277",
+          "quote_text": "スムーズな移動を実現するデジタルシステムの構築を目指す。"
+        },
+        {
+          "title": "インバウンドの高付加価値化推進",
+          "reason": "「推進」という言葉が用いられており、直ちに却下される手続き表現であるため。",
+          "sources": "https://say-g.com/interview-covid-19-inbound-6277",
+          "quote_text": "インバウンドの回復に向けた「高付加価値化」を推進する。"
+        },
+        {
+          "title": "体験価値を高める施策の実施",
+          "reason": "「体験価値を高める施策」という内容が抽象的であり、達成水準の数値化や制度有無での検証が不可能なため。",
+          "sources": "https://say-g.com/interview-covid-19-inbound-6277",
+          "quote_text": "観光客一人あたりの消費額を上げるため、体験価値を高める施策を行う。"
+        },
+        {
+          "title": "地域の「稼ぐ力」強化",
+          "reason": "既存事業を列挙しつつ結果として「強化する」としており、客観的な判定が不可能なため。",
+          "sources": "https://say-g.com/interview-covid-19-inbound-6277",
+          "quote_text": "国が支援する「地域一体となった観光地の再生・観光サービスの高付加価値化事業」などを通じて、地域の「稼ぐ力」を強化する。"
+        },
+        {
+          "title": "観光資源の発掘と発信",
+          "reason": "対象が抽象的であり、実行の有無を客観的に検証できるパラメータや制度がないため。",
+          "sources": "https://say-g.com/interview-covid-19-inbound-6277",
+          "quote_text": "日本独特の歴史や文化、観光資源を発掘し、適切に発信する。"
+        },
+        {
+          "title": "山梨県の文化や歴史の世界的アピール",
+          "reason": "「アピールし、地域を世界に拓く」という抽象的なスローガンに終始しているため。",
+          "sources": "https://say-g.com/interview-covid-19-inbound-6277",
+          "quote_text": "御師料理などの未だ知られていない文化や歴史を世界へ向けてアピールし、地域を世界に拓く。"
+        },
+        {
+          "title": "女性目線の政治推進",
+          "reason": "「推進」という手続き・意欲表現が含まれており、公約とは見なせないため。",
+          "sources": "https://say-g.com/interview-covid-19-inbound-6277",
+          "quote_text": "女性目線の政治を推進する。"
+        },
+        {
+          "title": "支援策策定への積極的参加",
+          "reason": "「参加する」というプロセスへの関与を述べるのみで、具体的な制度導入や法的措置へのコミットメントではないため。",
+          "sources": "https://say-g.com/interview-covid-19-inbound-6277",
+          "quote_text": "より充実した支援策の策定に積極的に参加する。"
+        },
+        {
+          "title": "気候変動への対策推進",
+          "reason": "「推進」という言葉が用いられており、直ちに却下される手続き表現であるため。",
+          "sources": "https://say-g.com/interview-covid-19-inbound-6277",
+          "quote_text": "地球環境問題、特に気候変動への対策を推進する。"
+        },
+        {
+          "title": "熱中症対策の推進および関連法整備・食品ロス削減への取り組み",
+          "reason": "「関連法」が具体的に特定されておらず、文末が「積極的に進める」という意欲・手続き表現で帰結しているため。",
+          "sources": "https://say-g.com/interview-covid-19-inbound-6277",
+          "quote_text": "熱中症対策の推進や関連法の整備に加え、社会福祉的な観点からも食品ロス削減に向けた取り組みを積極的に進める。"
+        }
+      ]
     }
   ]
 }

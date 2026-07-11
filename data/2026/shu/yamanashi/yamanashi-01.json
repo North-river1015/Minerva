@@ -1,0 +1,98 @@
+{
+  "district": "山梨1区",
+  "district_code": "2026-shu-yamanashi-1",
+  "candidates": [
+    {
+      "name": "中谷真一",
+      "party": "自由民主党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "日本・山梨を強く豊かに。",
+            "body": ""
+          },
+          {
+            "header": "・物価高から暮らし、職場を守る",
+            "body": "・危機管理投資、成長投資で強い経済<br>・国民の安全と繁栄を支える外交安全保障<br>・全世代へ届ける社会保障<br>・新たな時代を切り開く憲法改正<br>・故郷山梨を強く豊かに"
+          }
+        ],
+        "manifesto": [
+          {
+            "title": "憲法改正の実施",
+            "reason": "「憲法改正」という最高法規の条文変更に向けた、客観的に確認可能な具体的ステータス変更を伴う政治アクションを指しているため。",
+            "quote_text": "新たな時代を切り開く憲法改正",
+            "policy_id": "policy_039"
+          }
+        ]
+      },
+      "web": {
+        "manifesto": [
+          {
+            "title": "食料品の消費税を2年間ゼロにする",
+            "reason": "消費税率の「ゼロ（0%）」への引き下げと期間（2年間）という具体的数値が明示されており、検証可能なため。",
+            "sources": "https://go2senkyo.com/seijika/142041",
+            "quote_text": "食料品の消費税２年間ゼロ",
+            "policy_id": "policy_113"
+          },
+          {
+            "title": "ガソリン・軽油の暫定税率廃止",
+            "reason": "「暫定税率の廃止」という具体的な制度のステータス変更を指しており、法改正により実施が確認できるため。",
+            "sources": "https://go2senkyo.com/seijika/142041",
+            "quote_text": "ガソリン軽油の暫定税率廃止",
+            "policy_id": "policy_167"
+          },
+          {
+            "title": "基礎控除の178万円への引き上げ",
+            "reason": "「178万円」という具体的な金額パラメーターの変更が明示されており、税制改正の有無で客観的に判定できるため。",
+            "sources": "https://go2senkyo.com/seijika/142041",
+            "quote_text": "１７８万円へ基礎控除を引き上げ",
+            "policy_id": "policy_197"
+          },
+          {
+            "title": "児童手当の一人2万円上乗せ",
+            "reason": "「一人2万円」という具体的な金額数値の変更が明示されており、検証可能であるため。",
+            "sources": "https://go2senkyo.com/seijika/142041",
+            "quote_text": "児童手当一人２万円上乗せ",
+            "policy_id": "policy_197"
+          },
+          {
+            "title": "医療機関への1.4兆円支援",
+            "reason": "「1.4兆円」という具体的な予算規模が明記されており、予算措置の有無で実行が確認できるため。",
+            "sources": "https://go2senkyo.com/seijika/142041",
+            "quote_text": "医療機関へ１.４兆円支援",
+            "policy_id": "policy_197"
+          },
+          {
+            "title": "情報組織の創設",
+            "reason": "特定の新規組織の創設を明言しており、その組織の存否によって客観的に確認可能なため。",
+            "sources": "https://go2senkyo.com/seijika/142041",
+            "quote_text": "情報組織の創設",
+            "policy_id": "policy_197"
+          },
+          {
+            "title": "高等教育及び学校給食費の無償化",
+            "reason": "「無償化」という制度のステータス変更を具体的に指しており、要件の変更として確認可能なため。",
+            "sources": "https://go2senkyo.com/seijika/142041",
+            "quote_text": "高等教育、学校給食費の無償化",
+            "policy_id": "policy_197"
+          },
+          {
+            "title": "憲法への自衛隊明記",
+            "reason": "「憲法改正による条文変更」という、究極的に具体的かつ断定的な政治アクションを指しているため。",
+            "sources": "https://go2senkyo.com/seijika/142041",
+            "quote_text": "自衛隊の明記",
+            "policy_id": "policy_015"
+          },
+          {
+            "title": "参議院選挙における合区の解消",
+            "reason": "選挙区割りを規定する公職選挙法等の改正という具体的な制度変更を明記しており実施検証が可能なため。",
+            "sources": "https://go2senkyo.com/seijika/142041",
+            "quote_text": "合区の解消",
+            "policy_id": "policy_052"
+          }
+        ],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

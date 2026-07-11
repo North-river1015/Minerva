@@ -9,31 +9,36 @@
           "title": "ガソリン・軽油の暫定税率廃止",
           "reason": "「暫定税率の廃止」という具体的な制度変更を明示しており、法改正の有無によって客観的に検証可能なため。",
           "sources": "https://go2senkyo.com/seijika/141982",
-          "quote_text": "ガソリン・軽油の暫定税率廃止"
+          "quote_text": "ガソリン・軽油の暫定税率廃止",
+          "policy_id": "policy_167"
         },
         {
           "title": "所得税の「年収の壁」を178万円へ引き上げ",
           "reason": "「178万円」という具体的な数値の変更を明示しており、条件変更が実施されたかを明確に判定できるため。",
           "sources": "https://go2senkyo.com/seijika/141982",
-          "quote_text": "所得税の「年収の壁」を178万円への引き上げ"
+          "quote_text": "所得税の「年収の壁」を178万円への引き上げ",
+          "policy_id": "policy_199"
         },
         {
           "title": "高校授業料や公立小学校給食費の実質無償化",
           "reason": "「無償化（0円）」という具体的なパラメータ変更を伴う制度変更であり、実施の有無が客観的に検証可能なため。",
           "sources": "https://go2senkyo.com/seijika/141982",
-          "quote_text": "高校授業料や公立小学校給食費の実質無償化"
+          "quote_text": "高校授業料や公立小学校給食費の実質無償化",
+          "policy_id": "policy_197"
         },
         {
           "title": "「国家情報局」の創設",
           "reason": "「国家情報局」という特定の新規組織・制度の設立を明言しており、その存否が客観的に確認可能なため。",
           "sources": "https://go2senkyo.com/seijika/141982",
-          "quote_text": "情報収集・分析体制を強化するための「国家情報局」の創設"
+          "quote_text": "情報収集・分析体制を強化するための「国家情報局」の創設",
+          "policy_id": "policy_025"
         },
         {
           "title": "JESTA（電子渡航認証制度）の早期導入",
           "reason": "「JESTA」という特定の新規制度の導入を明言しており、実施されたかが客観的に判定できるため。",
           "sources": "https://go2senkyo.com/seijika/141982",
-          "quote_text": "JESTA（電子渡航認証制度）の早期導入"
+          "quote_text": "JESTA（電子渡航認証制度）の早期導入",
+          "policy_id": "policy_197"
         }
       ],
       "not-manifesto": [

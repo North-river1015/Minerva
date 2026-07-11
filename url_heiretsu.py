@@ -435,7 +435,7 @@ ALL_WINNERS = {
     }
 }
 
-
+#yamanashi,manifesto移す
 
 
 ''' 

@@ -9,25 +9,29 @@
           "title": "憲法改正の実現",
           "reason": "憲法改正という最高法規の条文変更を断定的に公約しており、自衛隊違憲論の解消という目的達成を含め、客観的に実施の有無が検証可能な政治アクションであるため。",
           "sources": "https://www.hideki-matsushita.com/",
-          "quote_text": "市民との対話をしながら憲法改正を実現し、自衛隊違憲論を解消します。"
+          "quote_text": "市民との対話をしながら憲法改正を実現し、自衛隊違憲論を解消します。",
+          "policy_id": "policy_039"
         },
         {
           "title": "消費税の廃止",
           "reason": "「廃止一択」として消費税の廃止という制度のステータス変更を断定的に意思表明しており、客観的に達成の有無が検証可能であるため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51044",
-          "quote_text": "中小企業を苦しめる消費税は廃止一択！"
+          "quote_text": "中小企業を苦しめる消費税は廃止一択！",
+          "policy_id": "policy_027"
         },
         {
           "title": "国民負担率の上限35%設定",
           "reason": "「上限35パーセント」という具体的な数値を明示しており、達成基準が極めて明白で客観的な実行有無の判定が可能であるため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51044",
-          "quote_text": "国民負担率を上限35パーセントに留め"
+          "quote_text": "国民負担率を上限35パーセントに留め",
+          "policy_id": "policy_197"
         },
         {
           "title": "0〜15歳の子どもへの月10万円給付",
           "reason": "対象年齢（0から15歳）と給付額（月10万円）という具体的な変数と条件を提示しており、制度設立の有無が完全に客観的検証に耐えうるため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51044",
-          "quote_text": "0~15歳までの子ども1人につき、月10万円給付。"
+          "quote_text": "0~15歳までの子ども1人につき、月10万円給付。",
+          "policy_id": "policy_197"
         }
       ],
       "not-manifesto": [

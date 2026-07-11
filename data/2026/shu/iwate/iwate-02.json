@@ -32,31 +32,36 @@
             "title": "消費税の廃止・減税",
             "reason": "消費税率の変更や法律の廃止といった制度の改変を伴うものであり、実行の有無が客観的な統計や法令の改正によって検証可能であるため。",
             "sources": "https://www.jiji.com/jc/article?k=2026011800197&g=pol",
-            "quote_text": "消費税廃止"
+            "quote_text": "消費税廃止",
+            "policy_id": "policy_068"
           },
           {
             "title": "政府系投資ファンドの創設",
             "reason": "「政府系投資ファンド」という新規制度・組織の設立を明言しており、その存否が客観的に確認可能なため。",
             "sources": "https://www.jiji.com/jc/article?k=2026011800197&g=pol",
-            "quote_text": "政府系投資ファンドを創設し"
+            "quote_text": "政府系投資ファンドを創設し",
+            "policy_id": "policy_197"
           },
           {
             "title": "食品消費税ゼロ",
             "reason": "食品に関する消費税率を0%にするという、具体的な数値の変更を明記しており、客観的に達成判定が可能であるため。",
             "sources": "https://www.jiji.com/jc/article?k=2026011800197&g=pol",
-            "quote_text": "食品消費税ゼロの実現"
+            "quote_text": "食品消費税ゼロの実現",
+            "policy_id": "policy_003"
           },
           {
             "title": "再エネ賦課金の廃止",
             "reason": "「廃止」という制度のステータス変更をともなう具体的なアクションであり、法改正の有無によって明確に判定できるため。",
             "sources": "https://www.jiji.com/jc/article?k=2026011800197&g=pol",
-            "quote_text": "再エネ賦課金廃止"
+            "quote_text": "再エネ賦課金廃止",
+            "policy_id": "policy_197"
           },
           {
             "title": "防衛費削減",
             "reason": "防衛予算の縮減という、国家予算という明確な変数を用いて予算案の数字から客観的に達成度が検証可能なため。",
             "sources": "https://www.jiji.com/jc/article?k=2026011800197&g=pol",
-            "quote_text": "防衛費削減"
+            "quote_text": "防衛費削減",
+            "policy_id": "policy_197"
           }
         ],
         "not_manifesto": []

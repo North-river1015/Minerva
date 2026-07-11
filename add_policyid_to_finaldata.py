@@ -77,7 +77,7 @@ def get_policy_id(new_policy_title, master_policies):
     if not master_policies:
         return "NEW"
 
-    master_text = "\n".join([f"ID: {pid} | タイトル: {info['title']}" for pid, info in master_policies.items()])
+    master_text = "\n".join([f"ID: {pid} | タイトル: {info.get('title', '⚠️タイトル未設定')}" for pid, info in master_policies.items()])
 
     prompt = f"""
     あなたは厳密な政治公約の分類アシスタントです。
@@ -117,9 +117,9 @@ def get_policy_id(new_policy_title, master_policies):
         print(f"エラーが発生したため、判定を保留(ERROR)にします: {e}")
         return "ERROR"
 
-def process_district_file(filename, master_policies):
+def process_district_file(prefecture,filename, master_policies):
     """1つの選挙区ファイルを処理する (manifesto 直下を処理)"""
-    input_path = os.path.join(INPUT_DIR, filename)
+    input_path = os.path.join(INPUT_DIR, prefecture, filename)
     
     if not os.path.exists(input_path):
         print(f"スキップ: ファイルが存在しません -> {input_path}")
@@ -180,38 +180,40 @@ if __name__ == "__main__":
     master_policies = load_json(POLICIES_FILE)
     
     # =================【設定エリア】=================
-    PREFECTURES = ["tokyo"] 
+    PREFECTURES = ["hokkaido","akita","aomori","chiba","fukushima","gunma","ibaraki","iwate","kanagawa","miyagi","saitama","tochigi","yamagata","yamanashi"] 
 
     #"hokkaido","akita","aomori","chiba","fukushima","gunma","ibaraki","iwate","kanagawa","miyagi","saitama","tochigi","yamagata"
     ALL_DISTRICTS = True
     START_DISTRICT = 1
-    END_DISTRICT = 1
+    END_DISTRICT = 30
     # ===============================================
     
     all_files = os.listdir(INPUT_DIR) if os.path.exists(INPUT_DIR) else []
     
     for pref in PREFECTURES:
+        # 1. 各都道府県のフォルダパスを正確に作る (例: output/finaldata/hokkaido)
+        pref_dir = os.path.join(INPUT_DIR, pref)
+        
         if ALL_DISTRICTS:
             print(f"\n=== 【都道府県一括モード】{pref} の全ファイルを処理します ===")
-            pref_files = []
-            for filename in all_files:
-                if filename.startswith(f"{pref}/{pref}-") and filename.endswith("-api.json"):
-                    pref_files.append(filename)
             
-            pref_files.sort(key=lambda x: int(re.search(r'-(\d+)-', x).group(1)) if re.search(r'-(\d+)-', x) else 0)
-            
-            if not pref_files:
-                print(f"警告: {pref} に該当するファイルが {INPUT_DIR} 内に見つかりませんでした。")
+            # フォルダ自体が存在しない場合はスキップする防衛策
+            if not os.path.exists(pref_dir):
+                print(f"警告: フォルダが存在しません -> {pref_dir}")
                 continue
                 
-            for filename in pref_files:
-                master_policies = process_district_file(filename, master_policies)
-                
+            # 2. 都道府県フォルダの「中身」を直接スキャンする
+            # (中身は ['hokkaido-01-api.json', 'hokkaido-02-api.json'] のようになっている)
+            pref_files = []
+            for filename in os.listdir(pref_dir):
+                if filename.startswith(f"{pref}-") and filename.endswith("-api.json"):
+                    master_policies = process_district_file(pref, filename, master_policies)
+
         else:
             print(f"\n=== 【選挙区範囲指定モード】{pref} の {START_DISTRICT:02}区 ～ {END_DISTRICT:02}区 を処理します ===")
             for dist_num in range(START_DISTRICT, END_DISTRICT + 1):
                 filename = f"{pref}-{dist_num:02}-api.json"
-                master_policies = process_district_file(filename, master_policies)
+                master_policies = process_district_file(pref,filename, master_policies)
     
     # 最終的なマスタデータを保存
     save_json(POLICIES_FILE, master_policies)

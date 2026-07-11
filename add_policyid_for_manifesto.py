@@ -69,7 +69,7 @@ def get_policy_id(new_policy_title, master_policies):
     if not master_policies:
         return "NEW"
 
-    master_text = "\n".join([f"ID: {pid} | タイトル: {info['title']}" for pid, info in master_policies.items()])
+    master_text = "\n".join([f"ID: {pid} | タイトル: {info.get('title', '⚠️タイトル未設定')}" for pid, info in master_policies.items()])
 
     prompt = f"""
     あなたは厳密な政治公約の分類アシスタントです。
@@ -140,11 +140,16 @@ def process_single_file(prefecture, filename, master_policies):
             continue
             
         if matched_id == "NEW":
-            new_id = f"policy_{len(master_policies) + 1:03}"
+            # 現在のマスタ内、および今回生成されたIDも含めて最大の数値を探す
+            existing_ids = [int(pid.split('_')[1]) for pid in master_policies.keys() if re.match(r"^policy_\d+$", pid)]
+            next_num = max(existing_ids) + 1 if existing_ids else 1
+            new_id = f"policy_{next_num:03d}"
+            
+            # マスタに即時追加（これで次のループの max() は 140 を検知できるようになります）
             master_policies[new_id] = {
                 "title": title, 
                 "status": "未確認",
-                "last_updated": "2026-05-05",
+                "last_updated": "2026-07-11",
                 "evidence": ""
             }      
             manifesto["policy_id"] = new_id
@@ -168,7 +173,7 @@ if __name__ == "__main__":
     
     # =================【設定セクション】=================
 
-    TARGET_PREFECTURE = "tokyo" 
+    TARGET_PREFECTURE = ["akita","aomori","chiba","fukushima","gunma","ibaraki","iwate","kanagawa","miyagi","saitama","tochigi","yamagata","yamanashi"]
 #"hokkaido","akita","aomori","chiba","fukushima","gunma","ibaraki","iwate","kanagawa","miyagi","saitama","tochigi","yamagata"
     TARGET_DISTRICTS = list(range(1, 31))  
 
@@ -176,13 +181,15 @@ if __name__ == "__main__":
     
     print(f"【指定範囲の処理を開始】対象: {TARGET_PREFECTURE} の {TARGET_DISTRICTS} 区")
 
-    for district_num in TARGET_DISTRICTS:
-        # 例: tokyo-01.json
-        filename = f"{TARGET_PREFECTURE}-{district_num:02d}.json"
+    for prefecture in TARGET_PREFECTURE:
+
+        for district_num in TARGET_DISTRICTS:
+            # 例: tokyo-01.json
+            filename = f"{prefecture}-{district_num:02d}.json"
+            
+            # ファイルを処理し、マスタデータを更新
+            master_policies = process_single_file(prefecture, filename, master_policies)
         
-        # ファイルを処理し、マスタデータを更新
-        master_policies = process_single_file(TARGET_PREFECTURE, filename, master_policies)
-    
-    # すべての処理が終わったら、最後にマスタデータを保存
-    save_json(POLICIES_FILE, master_policies)
-    print("\n指定された範囲の処理がすべて完了し、マスタデータを更新しました！")
+        # すべての処理が終わったら、最後にマスタデータを保存
+        save_json(POLICIES_FILE, master_policies)
+        print("\n指定された範囲の処理がすべて完了し、マスタデータを更新しました！")

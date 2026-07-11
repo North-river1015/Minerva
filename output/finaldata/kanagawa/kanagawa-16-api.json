@@ -9,13 +9,15 @@
           "title": "食料品の消費税率の時限的引き下げまたはゼロ化",
           "reason": "食料品の消費税率という具体的な数値・条件の変更を伴い、法改正の有無によって実行されたかどうかが第三者に客観的に判定できるため。",
           "sources": "https://go2senkyo.com/seijika/197004/posts/1281721",
-          "quote_text": "食料品の消費税については時限的なゼロを。"
+          "quote_text": "食料品の消費税については時限的なゼロを。",
+          "policy_id": "policy_197"
         },
         {
           "title": "第1子からの保育料無償化",
           "reason": "「0円」という具体的な数値の変更を明言しており、実施の有無が客観的に判定できるため。",
           "sources": "https://satoumasashi.com/policy.html",
-          "quote_text": "第１子から保育料を「0円」にします。"
+          "quote_text": "第１子から保育料を「0円」にします。",
+          "policy_id": "policy_194"
         }
       ],
       "not-manifesto": [

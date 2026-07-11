@@ -9,25 +9,29 @@
           "title": "介護士・公務員等の給与改善",
           "reason": "給与法や介護報酬改定といった法制度の改正を伴うため、その実施の有無が客観的に検証可能であるため。",
           "sources": "https://yoshiakiwada.com/policy/childcare/",
-          "quote_text": "介護士・公務員等の給与改善"
+          "quote_text": "介護士・公務員等の給与改善",
+          "policy_id": "policy_197"
         },
         {
           "title": "130万円の壁（健康保険・年金）の引上げ",
           "reason": "「130万円」という健康保険・年金における具体的な基準額の操作を明言しており、法改正等により引上げが実施されたかを客観的に検証可能であるため。",
           "sources": "https://go2senkyo.com/seijika/163112",
-          "quote_text": "130万円の壁（健康保険・年金）の大幅引上げ"
+          "quote_text": "130万円の壁（健康保険・年金）の大幅引上げ",
+          "policy_id": "policy_152"
         },
         {
           "title": "自衛隊員の処遇の抜本改善",
           "reason": "給与法などの条文改正や防衛省職員給与法等の法改正を伴うため、客観的に実行の有無が判断可能であるため。",
           "sources": "https://yoshiakiwada.com/policy/economy/",
-          "quote_text": "自衛隊員の処遇の抜本改善"
+          "quote_text": "自衛隊員の処遇の抜本改善",
+          "policy_id": "policy_154"
         },
         {
           "title": "石油・灯油支援の継続",
           "reason": "激変緩和措置（補助金）という時限的な立法の延長を指しており、予算・制度の期限設定という観測可能なアクションであるため。",
           "sources": "https://yoshiakiwada.com/policy/economy/",
-          "quote_text": "石油・灯油支援継続"
+          "quote_text": "石油・灯油支援継続",
+          "policy_id": "policy_197"
         }
       ],
       "not-manifesto": [

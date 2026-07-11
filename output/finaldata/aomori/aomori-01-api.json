@@ -9,31 +9,36 @@
           "title": "原発の早期再稼動",
           "reason": "「原発再稼動」というステータスの明確な変更を示す具体的な政治アクションであり、客観的に検証可能なため。",
           "sources": "https://tsushima-jun.com/%E6%94%BF%E7%AD%96/",
-          "quote_text": "安全を確保した上で早期の原発再稼動"
+          "quote_text": "安全を確保した上で早期の原発再稼動",
+          "policy_id": "policy_166"
         },
         {
           "title": "保育・幼児教育の完全無償化",
           "reason": "利用者の費用負担をゼロにするという具体的な数値条件の変更（100%減免）であり、達成の有無が客観的に判断できるため。",
           "sources": "https://tsushima-jun.com/%E6%94%BF%E7%AD%96/",
-          "quote_text": "保育・幼児教育の完全無償化"
+          "quote_text": "保育・幼児教育の完全無償化",
+          "policy_id": "policy_197"
         },
         {
           "title": "子育てを支援する税制度の創設",
           "reason": "「税制度の創設」という新規制度の設立を明言しており、法改正による実施の有無が客観的に判定できるため。",
           "sources": "https://tsushima-jun.com/%E6%94%BF%E7%AD%96/",
-          "quote_text": "子育てを支援する税制度の創設"
+          "quote_text": "子育てを支援する税制度の創設",
+          "policy_id": "policy_164"
         },
         {
           "title": "積み立て型の準公的年金の創設",
           "reason": "「準公的年金の創設」という特定の新規制度の設立を指しており、法律や制度の存否によって客観的に検証可能なため。",
           "sources": "https://tsushima-jun.com/%E6%94%BF%E7%AD%96/",
-          "quote_text": "積み立て型の準公的年金の創設"
+          "quote_text": "積み立て型の準公的年金の創設",
+          "policy_id": "policy_197"
         },
         {
           "title": "地域独自のカリキュラムを可能とする教育制度導入",
           "reason": "「教育制度導入」という制度の設立を明言しており、実現したかどうかが制度の有無で客観的に判断できるため。",
           "sources": "https://tsushima-jun.com/%E6%94%BF%E7%AD%96/",
-          "quote_text": "1人1人の個性・能力を開花させる地域独自のカリキュラムを可能とする教育制度導入"
+          "quote_text": "1人1人の個性・能力を開花させる地域独自のカリキュラムを可能とする教育制度導入",
+          "policy_id": "policy_197"
         }
       ],
       "not-manifesto": [

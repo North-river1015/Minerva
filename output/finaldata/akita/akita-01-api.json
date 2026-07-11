@@ -9,19 +9,22 @@
           "title": "子供1人当たり15歳まで月10万円の投資",
           "reason": "「15歳まで月10万円」という具体的な数値、かつ「投資」という形での予算措置を断定しており、検証可能であるため。",
           "sources": "https://www.fnn.jp/articles/-/995051?display=full",
-          "quote_text": "子供1人当たり15歳まで月10万円の投資を行い"
+          "quote_text": "子供1人当たり15歳まで月10万円の投資を行い",
+          "policy_id": "policy_197"
         },
         {
           "title": "農業におけるコメの価格補償や所得補償の実施",
           "reason": "「コメの価格補償」「所得補償」という具体的な予算配分と制度の導入を「行う」と断定的に明言しているため。",
           "sources": "https://www.fnn.jp/articles/-/995051?display=full",
-          "quote_text": "農業においては、コメの価格補償や所得補償を行い"
+          "quote_text": "農業においては、コメの価格補償や所得補償を行い",
+          "policy_id": "policy_197"
         },
         {
           "title": "食料品の消費税の2年間免除",
           "reason": "「食料品の消費税」「2年間」「ゼロ」という操作する変数および数値目標が明確であり、法改正の有無で実施を客観的に判定できるため。",
           "sources": "https://www.fnn.jp/articles/-/995051?display=full",
-          "quote_text": "食料品の消費税を2年間ゼロにする。"
+          "quote_text": "食料品の消費税を2年間ゼロにする。",
+          "policy_id": "policy_113"
         }
       ],
       "not-manifesto": [

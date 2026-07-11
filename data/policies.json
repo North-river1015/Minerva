@@ -1,7 +1,6 @@
 {
   "policy_status_include": {
-    "status": "実施済み,法案成立,類似法案成立,未確認,停滞,否決,廃案,審議中,妥協,調整中,方針決定", 
-
+    "status": "実施済み,法案成立,類似法案成立,未確認,停滞,否決,廃案,審議中,妥協,調整中,方針決定",
     "未確認": "公約発表以降、具体的な法案提出や予算要求などの公的な動きが一切確認できない状態",
     "審議中": "法案が審議されている状態",
     "調整中": "法案提出前の段階で、政府内や与党内での調整が行われている状態",
@@ -11,7 +10,7 @@
     "妥協": "法案は成立したが、他党との修正協議などにより、当初の公約とは内容が後退している状態",
     "否決": "提出された法案が、議会の採決によって明確に拒絶された状態",
     "廃案": "会期切れや解散により、審議が未了のまま法案そのものが消滅した状態",
-    "方針決定":"方針として決定され、実現に向けての行動が行われている段階。調整中ではないが実施されたとも言えない状況の際にこれを使用することを想定",
+    "方針決定": "方針として決定され、実現に向けての行動が行われている段階。調整中ではないが実施されたとも言えない状況の際にこれを使用することを想定",
     "実施済み": "法案の施行、または予算の執行が始まり、公約の内容が実際に社会で実行されている状態"
   },
   "policy_001": {
@@ -122,14 +121,12 @@
     "last_updated": "2026-06-13",
     "evidence": "https://www.nta.go.jp/users/gensen/2026kiso/index.htm"
   },
-
   "policy_021": {
     "title": "低所得者給付",
     "status": "調整中",
     "last_updated": "2026-06-13",
     "evidence": "https://www.jiji.com/jc/article?k=2026052700720&g=pol"
   },
-
   "policy_022": {
     "title": "価格転嫁ガイドラインの法的拘束力強化",
     "status": "未確認",
@@ -785,10 +782,10 @@
     "evidence": "https://www.sankei.com/article/20260213-J6TMQXNL5FEFPNMS3S6DKRHRG4/"
   },
   "policy_140": {
-    "title": "日本の文化やルールを学ぶプログラムの創設",
-    "status": "調整中",
-    "last_updated": "2026-06-13",
-    "evidence": "https://www.jiji.com/jc/article?k=2026042800877&g=pol"
+    "title": "有人国境離島法の改正",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
   },
   "policy_141": {
     "title": "在職老齢年金制度の廃止",
@@ -843,5 +840,347 @@
     "status": "実施済み",
     "last_updated": "2026-06-13",
     "evidence": "https://www.sankei.com/article/20260503-JX7FUXVQWRORTDIG73ZRNK7UBE/"
+  },
+  "policy_150": {
+    "title": "自主憲法の制定",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_151": {
+    "title": "DXハイスクールの創設",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_152": {
+    "title": "130万円の壁（健康保険・年金）の引上げ",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_153": {
+    "title": "医療・介護・保育・幼児教育の報酬改善",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_154": {
+    "title": "自衛隊員の処遇改善",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_155": {
+    "title": "授業料の無償化",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_156": {
+    "title": "家賃の補助の実施",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_157": {
+    "title": "食料品における暫定的な消費税の減税",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_158": {
+    "title": "社会保険料の削減や所得税の減税",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_159": {
+    "title": "新たな物価スライド制度の導入",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_160": {
+    "title": "出産費用の国負担",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_161": {
+    "title": "軽油引取税暫定税率(17.1円)の廃止",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_162": {
+    "title": "年収の壁103万円から178万円への引き上げ",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_163": {
+    "title": "教育国債の創設",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_164": {
+    "title": "子育てを支援する税制度の創設",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_165": {
+    "title": "勤労者に対し1万円、低所得者に対し2万円の減税・給付",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_166": {
+    "title": "原発再稼働",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_167": {
+    "title": "ガソリン税・軽油引取税の暫定税率廃止",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_168": {
+    "title": "食料品に対する消費税率の一時的撤廃",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_169": {
+    "title": "企業の設備投資優遇措置の創設",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_170": {
+    "title": "有事の自衛隊活動のための憲法改正",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_171": {
+    "title": "政治資金不記載に応じた公民権停止措置の創設",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_172": {
+    "title": "ガソリン減税",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_173": {
+    "title": "国防に関わる憲法改正",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_174": {
+    "title": "出産費用の無償化",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_175": {
+    "title": "最低保障年金の導入",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_176": {
+    "title": "2026年1〜3月における電気・ガス料金の補助",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_177": {
+    "title": "重点支援地方交付金等による生活者支援手当の給付",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_178": {
+    "title": "所得税の減税（3万〜6万円）",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_179": {
+    "title": "食料品の消費税減税",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_180": {
+    "title": "自動車取得時の環境性能割の廃止",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_181": {
+    "title": "憲法への自衛隊明記および緊急事態条項などの憲法改正",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_182": {
+    "title": "憲法改正の発議と国民投票の実施",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_183": {
+    "title": "中小企業・小規模事業者の固定資産税のゼロ化",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_184": {
+    "title": "事業承継時の相続税のゼロ化",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_185": {
+    "title": "子育て世帯へのこども1人当たり2万円の支給",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_186": {
+    "title": "残業規制の緩和",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_187": {
+    "title": "年収の壁解消",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_188": {
+    "title": "消費税減税",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_189": {
+    "title": "授業料・給食費の無償化",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_190": {
+    "title": "プッシュ型支援を行うデジタルセーフティネットの創設",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_191": {
+    "title": "あらゆる行政手続きのスマートフォン対応",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_192": {
+    "title": "「書かないワンストップ窓口」の導入",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_193": {
+    "title": "カルテや薬情報のスマートフォン閲覧システムの導入",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_194": {
+    "title": "第1子からの保育料無償化",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_195": {
+    "title": "防衛費のGDP比2%確保",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_196": {
+    "title": "高校無償化・子ども医療費助成の国による一律化",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_197": {
+    "title": "高等教育及び学校給食費の無償化",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_198": {
+    "title": "生活必需品等の消費税減税",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_199": {
+    "title": "「年収の壁」を178万円に引き上げ",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_200": {
+    "title": "政治資金等の監督・処分権限を持つ独立機関の設立",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_201": {
+    "title": "高校生年代までの子どもを対象とした「物価高子育て応援手当」（こども1人当たり一律2万円）の支給",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_202": {
+    "title": "2025年度補正予算での約6兆4,330億円の計上",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_203": {
+    "title": "飲食料品の消費税率の2年間ゼロ化",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_204": {
+    "title": "飲食料品の消費税を2年間に限り減税",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_205": {
+    "title": "給食費の無償化",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_206": {
+    "title": "電気・ガス代支援の7,300円補助（1月～3月）",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
   }
 }

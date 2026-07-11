@@ -9,19 +9,22 @@
           "title": "食品の消費税を2年間ゼロにし、恒久化を目指す",
           "reason": "食料品に対する消費税の減免という具体的な税制改正を掲げており、法改正の成否により実行を客観的に検証可能であるため。",
           "sources": "https://www.otaru-journal.com/2026/01/post-111607/",
-          "quote_text": "食料品消費税ゼロを恒久的に継続する"
+          "quote_text": "食料品消費税ゼロを恒久的に継続する",
+          "policy_id": "policy_197"
         },
         {
           "title": "肥料等の生産コストへの国費補填",
           "reason": "「国費補填」という補助制度・予算措置を断定的に明言しており、国庫からの支出の有無で客観的に検証可能であるため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51037",
-          "quote_text": "肥料等の「生産コストを国費補填」し"
+          "quote_text": "肥料等の「生産コストを国費補填」し",
+          "policy_id": "policy_197"
         },
         {
           "title": "消費税の一律5％減税",
           "reason": "「５％減税」という具体的な数値の変更を伴う税制変更を表明しており、実施の有無が第三者から見ても客観的に検証可能であるため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51037",
-          "quote_text": "消費税を一律５％減税します。"
+          "quote_text": "消費税を一律５％減税します。",
+          "policy_id": "policy_197"
         }
       ],
       "not-manifesto": [
