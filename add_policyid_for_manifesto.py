@@ -173,9 +173,13 @@ if __name__ == "__main__":
     
     # =================【設定セクション】=================
 
-    TARGET_PREFECTURE = ["akita","aomori","chiba","fukushima","gunma","ibaraki","iwate","kanagawa","miyagi","saitama","tochigi","yamagata","yamanashi"]
+    TARGET_PREFECTURE = ["fukui","gifu","ishikawa","nagano","niigata","toyama"]
 #"hokkaido","akita","aomori","chiba","fukushima","gunma","ibaraki","iwate","kanagawa","miyagi","saitama","tochigi","yamagata"
+    # fukui gifu  ishikawa    nagano niigata  shiga  toyama  
+
+    #shiga まだ！
     TARGET_DISTRICTS = list(range(1, 31))  
+
 
     # ===================================================
     
