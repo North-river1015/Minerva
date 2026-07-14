@@ -9,25 +9,29 @@
           "title": "食品の消費税2年間0％",
           "reason": "「消費税0%」「2年間」という具体的な数値と期間による制度変更であり、実施の有無が明確に判定できるため。",
           "sources": "https://kato-tomohiro.com/",
-          "quote_text": "食品の消費税2年間0％を実現"
+          "quote_text": "食品の消費税2年間0％を実現",
+          "policy_id": "policy_197"
         },
         {
           "title": "ガソリン税の暫定税率廃止",
           "reason": "「暫定税率廃止」という具体的な税制上の法律・制度のステータス変更を指しており、検証が可能であるため。",
           "sources": "https://kato-tomohiro.com/",
-          "quote_text": "ガソリン税の暫定税率廃止"
+          "quote_text": "ガソリン税の暫定税率廃止",
+          "policy_id": "policy_047"
         },
         {
           "title": "所得税減税",
           "reason": "法改正の有無によって実行されたかが客観的に判断可能である具体的なアクションであるため。",
           "sources": "https://kato-tomohiro.com/",
-          "quote_text": "所得税減税を断行し"
+          "quote_text": "所得税減税を断行し",
+          "policy_id": "policy_020"
         },
         {
           "title": "政治資金収支のデジタル公開",
           "reason": "政治資金規正法の改正等を伴う「デジタル公開」という制度的変更であり、客観的に観測可能なため。",
           "sources": "https://kato-tomohiro.com/",
-          "quote_text": "政治資金の透明性を確保するため収支のデジタル公開"
+          "quote_text": "政治資金の透明性を確保するため収支のデジタル公開",
+          "policy_id": "policy_197"
         }
       ],
       "not-manifesto": [

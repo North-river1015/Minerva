@@ -428,21 +428,32 @@ def save_append_data(out_file, district, num, winner, new_manifesto, new_not_man
 
 
 
-
 ALL_WINNERS = {
-    "shiga": {
+    "mie": {
+        1: {
+            "name": "田村憲久",
+            "official": "https://www.tamura-norihisa.jp/",
+            "party": "自由民主党"
+        },
         2: {
-            "name": "上野賢一郎",
-            "official": "https://www.ueno-kenichiro.jp/",
+            "name": "川崎秀人",
+            "official": "https://www.kawasakihideto.com/",
             "party": "自由民主党"
         },
         3: {
-            "name": "武村展英",
-            "official": "https://takemura-nobuhide.com/",
+            "name": "石原正敬",
+            "official": "https://fu-un.org/",
+            "party": "自由民主党"
+        },
+        4: {
+            "name": "鈴木英敬",
+            "official": "https://eikei-suzuki.jp/",
             "party": "自由民主党"
         }
-    },
-    }
+    }}
+
+
+    
 
 
 
@@ -451,48 +462,7 @@ ALL_WINNERS = {
 ''' 
    
     
-    "shizuoka": {
-        1: {
-            "name": "上川陽子",
-            "official": "http://www.kamikawayoko.net/",
-            "party": "自由民主党"
-        },
-        2: {
-            "name": "井林辰憲",
-            "official": "https://t-ibayashi.com/",
-            "party": "自由民主党"
-        },
-        3: {
-            "name": "山本裕三",
-            "official": "https://www.jimin-shizuoka3.com/",
-            "party": "自由民主党"
-        },
-        4: {
-            "name": "深澤陽一",
-            "official": "https://fukazawayoichi.jp/",
-            "party": "自由民主党"
-        },
-        5: {
-            "name": "細野豪志",
-            "official": "https://www.gohosono.com/",
-            "party": "自由民主党"
-        },
-        6: {
-            "name": "勝俣孝明",
-            "official": "https://www.t-katsumata.com/",
-            "party": "自由民主党"
-        },
-        7: {
-            "name": "城内実",
-            "official": "https://www.m-kiuchi.com/",
-            "party": "自由民主党"
-        },
-        8: {
-            "name": "稲葉大輔",
-            "official": "https://inabadaisuke.com/",
-            "party": "自由民主党"
-        }
-    },
+    
     "aichi": {
         1: {
             "name": "河村たかし",
@@ -576,46 +546,7 @@ ALL_WINNERS = {
         }
     }
 
-ALL_WINNERS = {
-    "mie": {
-        1: {
-            "name": "田村憲久",
-            "official": "https://www.tamura-norihisa.jp/",
-            "party": "自由民主党"
-        },
-        2: {
-            "name": "川崎秀人",
-            "official": "https://www.kawasakihideto.com/",
-            "party": "自由民主党"
-        },
-        3: {
-            "name": "石原正敬",
-            "official": "https://fu-un.org/",
-            "party": "自由民主党"
-        },
-        4: {
-            "name": "鈴木英敬",
-            "official": "https://eikei-suzuki.jp/",
-            "party": "自由民主党"
-        }
-    },
-    "shiga": {
-        1: {
-            "name": "大岡敏孝",
-            "official": "https://oooka.com/",
-            "party": "自由民主党"
-        },
-        2: {
-            "name": "上野賢一郎",
-            "official": "https://www.ueno-kenichiro.jp/",
-            "party": "自由民主党"
-        },
-        3: {
-            "name": "武村展英",
-            "official": "https://takemura-nobuhide.com/",
-            "party": "自由民主党"
-        }
-    },
+    
     "kyoto": {
         1: {
             "name": "勝目康",
@@ -650,34 +581,6 @@ ALL_WINNERS = {
     }
 
 }
-    
-
-ALL_WINNERS = {
-    
-}
-
-
-ALL_WINNERS = {
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
 
 '''
 

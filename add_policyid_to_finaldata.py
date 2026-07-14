@@ -180,9 +180,10 @@ if __name__ == "__main__":
     master_policies = load_json(POLICIES_FILE)
     
     # =================【設定エリア】=================
-    PREFECTURES = ["fukui","gifu","ishikawa","nagano","niigata","toyama"] 
+    PREFECTURES = [""] 
+#gunma 3,5 まだ
 
-    #"hokkaido","akita","aomori","chiba","fukushima","gunma","ibaraki","iwate","kanagawa","miyagi","saitama","tochigi","yamagata"
+    #"hokkaido","akita","aomori","chiba","fukushima","gunma","ibaraki","iwate","kanagawa","miyagi","saitama","tochigi","yamagata""fukui","gifu","ishikawa","nagano","niigata","toyama",
     ALL_DISTRICTS = True
     START_DISTRICT = 1
     END_DISTRICT = 30

@@ -9,13 +9,15 @@
           "title": "ガソリン・軽油の暫定税率廃止",
           "reason": "「暫定税率の廃止」という具体的な税制上の変数の変更（ステータス変更）を明示しており、法制化の有無によって達成が100%客観的に検証可能であるため。",
           "sources": "https://saikitakeshi.jp/archives/3317",
-          "quote_text": "ガソリン・軽油の暫定税率廃止の実現。"
+          "quote_text": "ガソリン・軽油の暫定税率廃止の実現。",
+          "policy_id": "policy_167"
         },
         {
           "title": "食品消費税0%の実現",
           "reason": "「0%」という具体的な数値目標が明示されており、税率変更という客観的に観測可能な制度変更を断定的にコミットしているため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51236",
-          "quote_text": "まず食品消費税0%を実現する。"
+          "quote_text": "まず食品消費税0%を実現する。",
+          "policy_id": "policy_003"
         }
       ],
       "not-manifesto": [

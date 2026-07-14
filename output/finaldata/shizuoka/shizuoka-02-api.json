@@ -1,0 +1,269 @@
+{
+  "district": "静岡2区",
+  "candidates": [
+    {
+      "name": "井林辰憲",
+      "party": "自由民主党",
+      "manifesto": [
+        {
+          "title": "ひとり親家庭減税の実現",
+          "reason": "「減税」という税制上の具体的なパラメータの変更を明示しており、法改正が実施されたかによって実行が客観的に検証可能であるため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "ひとり親家庭減税の実現"
+        },
+        {
+          "title": "相続税及び贈与税の税制改正",
+          "reason": "「税制改正」という法律の変更という具体的かつ断定的な政治アクションが含まれており、法改正の有無によって100%客観的に判断可能であるため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "相続税及び贈与税の税制改正"
+        },
+        {
+          "title": "危険運転致死傷罪の厳罰化",
+          "reason": "「厳罰化」という法定刑の変更を明言しており、法改正が行われたかどうかで達成度が客観的に判断できるため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "危険運転致死傷罪の厳罰化"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "title": "公共交通リ・デザイン",
+          "reason": "「リ・デザイン」という抽象的なスローガンであり、達成基準が客観的に判断できないため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "公共交通リ・デザイン"
+        },
+        {
+          "title": "豪雨予測・災害対策の強化",
+          "reason": "「強化」という動詞が含まれており、直ちに却下されるべき基準に該当するため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "豪雨予測・災害対策の強化"
+        },
+        {
+          "title": "海水の温度上昇への対策",
+          "reason": "「対策」という抽象的な表現に過ぎず、具体的な行動基準や変数が示されていないため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "海水の温度上昇への対策"
+        },
+        {
+          "title": "花粉症対策",
+          "reason": "「対策」という表現のみであり、具体的なアクションや観測可能な指標が存在しないため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "花粉症対策"
+        },
+        {
+          "title": "所有者不明土地問題の解決（不要な土地の引き取り等）",
+          "reason": "「解決」という結果の提示であり、具体的な法律やシステムのステータス変更として検証不能なため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "所有者不明土地問題の解決（不要な土地の引き取り等）"
+        },
+        {
+          "title": "こども未来戦略の加速化および方針策定",
+          "reason": "「加速化」「策定」という手続き・意欲的表現が含まれており、政策の確実な実行コミットメントとはみなせないため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "こども未来戦略の加速化および方針策定"
+        },
+        {
+          "title": "フードロス半減に向けた取り組み",
+          "reason": "「向けた」「取り組み」という曖昧な意気込みに過ぎず、客観的に観測可能な制度変更ではないため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "フードロス半減に向けた取り組み"
+        },
+        {
+          "title": "公的年金の加算制度の整備",
+          "reason": "対象となるアクションが「整備」という抽象的な概念としての動詞であり、客観的に成否を判定できないため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "公的年金の加算制度の整備"
+        },
+        {
+          "title": "通学路の交通安全対策",
+          "reason": "「対策」という抽象的なスローガンであり、具体的にどの制度を変更するかが不明瞭なため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "通学路の交通安全対策"
+        },
+        {
+          "title": "電気・ガス値上げ対策による生活防衛",
+          "reason": "「対策」「防衛」という抽象用語の羅列であり、操作すべき具体的な変数が特定できないため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "電気・ガス値上げ対策による生活防衛"
+        },
+        {
+          "title": "小麦価格の据え置き",
+          "reason": "価格という結果へのスローガンであり、具体的にどの制度をどう操作して実現するのか明示されていないため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "小麦価格の据え置き"
+        },
+        {
+          "title": "無電柱化の推進",
+          "reason": "「推進」という手続き・意欲表現が含まれるため、直ちに却下すべき対象であるため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "無電柱化の推進"
+        },
+        {
+          "title": "前払式プリペイドカード対策（キャッシュレス社会の安心基盤整備）",
+          "reason": "「対策」や「基盤整備」という抽象的な表現が含まれ、公約達成の有無が第三者によって判定できないため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "前払式プリペイドカード対策（キャッシュレス社会の安心基盤整備）"
+        },
+        {
+          "title": "アフターメタルプロジェクト（都市鉱山からの資源リサイクル）",
+          "reason": "プロジェクト名の掲示であり、具体的な制度変更やステータス変更を伴うコミットメントではないため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "アフターメタルプロジェクト（都市鉱山からの資源リサイクル）"
+        },
+        {
+          "title": "ワクチン確保および接種体制の整備",
+          "reason": "「体制」および「整備」という抽象的な概念が含まれており、実行されたかの客観的な検証が不可能なため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "ワクチン確保および接種体制の整備"
+        },
+        {
+          "title": "ソフトインフラの整備",
+          "reason": "「整備」という動詞が「ソフトインフラ」という抽象的な対象に用いられており、客観的な判定が困難であるため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "ソフトインフラの整備"
+        },
+        {
+          "title": "大学・高校入試日程の決定（子どもの学びの保証）",
+          "reason": "「決定」は行政や機関の通常業務であり、新規の法制度の設立やステータス変更を意味するものではないため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "大学・高校入試日程の決定（子どもの学びの保証）"
+        },
+        {
+          "title": "コロナ対策支援",
+          "reason": "「支援」という曖昧で抽象的な表現であり、明確な判断材料となる変数を欠いているため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "コロナ対策支援"
+        },
+        {
+          "title": "過疎地域における雇用創出（特定地域づくり事業協同組合制度の活用）",
+          "reason": "「創出」や「活用」という抽象的な表現に終始しており、明確な政策的アクションが伴っていないため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "過疎地域における雇用創出（特定地域づくり事業協同組合制度の活用）"
+        },
+        {
+          "title": "GIGAスクール構想の推進（PC一人一台・高速ネットワーク）",
+          "reason": "「推進」という手続き・意欲表現が含まれており、公約とは見なせないため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "GIGAスクール構想の推進（PC一人一台・高速ネットワーク）"
+        },
+        {
+          "title": "液体ミルクの導入による子育て環境改善",
+          "reason": "「環境改善」という抽象的な結果を目標としたものであり、どの制度・変数を変更するのかが不明なため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "液体ミルクの導入による子育て環境改善"
+        },
+        {
+          "title": "地球温暖化対策（2℃目標・適応策）",
+          "reason": "「対策」という抽象表現であり、法律の制定や直接的なステータス変更といった行動基準が含まれないため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "地球温暖化対策（2℃目標・適応策）"
+        },
+        {
+          "title": "団地の再生",
+          "reason": "「再生」という抽象的なスローガンであり、実施の有無を客観的に判定することができないため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "団地の再生"
+        },
+        {
+          "title": "海洋ゴミ対策",
+          "reason": "「対策」という曖昧な表現であり、具体的にどのような政策的変数操作を行うかが言及されていないため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "海洋ゴミ対策"
+        },
+        {
+          "title": "位置情報システムの活用",
+          "reason": "「活用」は単なる方法論の提示であり、具体的な制度変更やコミットメントには当たらないため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "位置情報システムの活用"
+        },
+        {
+          "title": "リサイクル・都市鉱山活用プロジェクト",
+          "reason": "「プロジェクト」というスローガンであり、達成の有無を数字や条文の有無で客観的に立証できないため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "リサイクル・都市鉱山活用プロジェクト"
+        },
+        {
+          "title": "新東名における自動運転の導入",
+          "reason": "新東名という特定地域に向けた導入であり、公共性という全国・全般的な制度変更の基準から逸脱するため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "新東名における自動運転の導入"
+        },
+        {
+          "title": "家庭裁判所の充実",
+          "reason": "「充実」という抽象的な意気込み表現であり、制度的、客観的な判定が全く不可能なため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "家庭裁判所の充実"
+        },
+        {
+          "title": "奨学金制度の改善",
+          "reason": "「改善」という主観的な表現が含まれており、具体的に何を改めるかが示されていないため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "奨学金制度の改善"
+        },
+        {
+          "title": "「103万の壁」の打破",
+          "reason": "「打破」という抽象的なスローガンに過ぎず、税制や社会保険制度のどの変数をどう変更するかが不明確なため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "「103万の壁」の打破"
+        },
+        {
+          "title": "小学校トイレの環境改善",
+          "reason": "「環境改善」という抽象的な概念が含まれており、達成されたかを客観的、例外なく検証できないため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "小学校トイレの環境改善"
+        },
+        {
+          "title": "志太・榛原地域の地域整備",
+          "reason": "特定地域への利益誘導に当たる事項であり、排除基準（全国的・公共性）に反するため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "志太・榛原地域の地域整備"
+        },
+        {
+          "title": "観光立国宣言による地域成長",
+          "reason": "「宣言」および「地域成長」という抽象的なスローガンであり、具体的なアクションの立証が不能なため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "観光立国宣言による地域成長"
+        },
+        {
+          "title": "景気回復および給与引き上げの実現",
+          "reason": "「実現」とあるが、景気回復という結果であり具体的政策によるコミットメントではないため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "景気回復および給与引き上げの実現"
+        },
+        {
+          "title": "「小1の壁」打破に向けた縦割り排除と子育て支援",
+          "reason": "「打破」「排除」「支援」という抽象的な意欲・スローガンで構成されており、具体的な枠組み変更が不明なため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "「小1の壁」打破に向けた縦割り排除と子育て支援"
+        },
+        {
+          "title": "リニア新幹線の始動",
+          "reason": "特定地域のインフラに関するものであり、また「始動」という言葉は抽象的で第三者による明確な判定ができないため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "リニア新幹線の始動"
+        },
+        {
+          "title": "地球温暖化対策（フロン問題への対応）",
+          "reason": "「対策」「対応」という抽象的な表現であり、具体的なアクションや法律の改正が伴うかが不明であるため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "地球温暖化対策（フロン問題への対応）"
+        },
+        {
+          "title": "財政規律と財政出動の両立による経済成長",
+          "reason": "「両立」「成長」という抽象的なスローガンのみで、どの予算や制度を変更するか明示されていないため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "財政規律と財政出動の両立による経済成長"
+        },
+        {
+          "title": "高校無償化および給食無償化の推進",
+          "reason": "「推進」という手続き・意欲表現が含まれているため、内容の如何に関わらず直ちに除外されるため。",
+          "sources": "https://t-ibayashi.com/activity/17/",
+          "quote_text": "高校無償化および給食無償化の推進"
+        },
+        {
+          "title": "茶業政策の推進",
+          "reason": "「推進」という言葉が含まれており、具体的な"
+        }
+      ]
+    }
+  ]
+}

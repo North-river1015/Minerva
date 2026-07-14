@@ -1,0 +1,36 @@
+{
+  "district": "静岡6区",
+  "candidates": [
+    {
+      "name": "勝俣孝明",
+      "party": "自由民主党",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "title": "防衛施設の強靭化等、富士山噴火に備えた対策の強化",
+          "reason": "「強化」という抽象的な動詞が含まれており直ちに却下となる基準に該当するため。また、具体的にどのような指標や法律を変更するのかが不明確であり、客観的な検証ができないため。",
+          "sources": "https://ameblo.jp/t-katsumata/entry-12911973603.html",
+          "quote_text": "防衛施設の強靭化等、富士山噴火に備えた対策の強化"
+        },
+        {
+          "title": "給付付き税額控除等による負担軽減",
+          "reason": "名詞で終わっており、「導入する」などの断定的な意思表明やコミットメントが存在しないため。",
+          "sources": "https://look.satv.co.jp/content_news/politics_economic/79641",
+          "quote_text": "給付付き税額控除などで現役世代の負担を減らす政策"
+        },
+        {
+          "title": "防災力強化や国土強靭化",
+          "reason": "「強化」という検証不可能な抽象的表現であり、具体的な立法や制度変更などの政治的コミットメントが含まれていないため。",
+          "sources": "https://look.satv.co.jp/content_news/politics_economic/79641",
+          "quote_text": "防災力強化や国土強靭化政策"
+        },
+        {
+          "title": "積極財政の推進",
+          "reason": "「推し進める」は単なる手続き・意欲表現であり、「責任ある積極財政」という客観的に達成度が検証不能な抽象的概念であるため。",
+          "sources": "https://look.satv.co.jp/content_news/politics_economic/79641",
+          "quote_text": "政権の政策である「責任ある積極財政」を共に推し進める"
+        }
+      ]
+    }
+  ]
+}
