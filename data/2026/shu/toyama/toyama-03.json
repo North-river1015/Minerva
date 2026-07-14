@@ -1,0 +1,23 @@
+{
+  "district": "富山3区",
+  "district_code": "2026-shu-toyama-3",
+  "candidates": [
+    {
+      "name": "橘慶一郎",
+      "party": "自由民主党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "政策1 安全・安心の国づくり",
+            "body": ""
+          }
+        ],
+        "manifesto": []
+      },
+      "web": {
+        "manifesto": [],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

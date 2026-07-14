@@ -1,0 +1,23 @@
+{
+  "district": "岐阜2区",
+  "district_code": "2026-shu-gifu-2",
+  "candidates": [
+    {
+      "name": "棚橋泰文",
+      "party": "自由民主党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "岐阜県第二区",
+            "body": "自民党公認<br>たなはし泰文<br>62歳"
+          }
+        ],
+        "manifesto": []
+      },
+      "web": {
+        "manifesto": [],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

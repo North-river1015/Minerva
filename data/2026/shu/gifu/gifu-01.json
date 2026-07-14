@@ -1,0 +1,23 @@
+{
+  "district": "岐阜1区",
+  "district_code": "2026-shu-gifu-1",
+  "candidates": [
+    {
+      "name": "野田聖子",
+      "party": "自由民主党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "自由民主党公認",
+            "body": "野田聖子"
+          }
+        ],
+        "manifesto": []
+      },
+      "web": {
+        "manifesto": [],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

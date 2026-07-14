@@ -1,0 +1,23 @@
+{
+  "district": "富山2区",
+  "district_code": "2026-shu-toyama-2",
+  "candidates": [
+    {
+      "name": "上田英俊",
+      "party": "自由民主党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "自由民主党公認",
+            "body": "上田英俊(えいしゅん)"
+          }
+        ],
+        "manifesto": []
+      },
+      "web": {
+        "manifesto": [],
+        "not_manifesto": []
+      }
+    }
+  ]
+}
