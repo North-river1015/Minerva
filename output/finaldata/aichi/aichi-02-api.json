@@ -1,0 +1,133 @@
+{
+  "district": "愛知2区",
+  "candidates": [
+    {
+      "name": "古川元久",
+      "party": "国民民主党",
+      "manifesto": [
+        {
+          "title": "ガソリンの暫定税率廃止",
+          "reason": "暫定税率という特定の税制パラメータの廃止という明確なステータス変更であり、法改正の有無で客観的に判定できるため。",
+          "sources": "https://new-kokumin.jp/news/business/20250330_3",
+          "quote_text": "ガソリンの暫定税率廃止"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "title": "「住まい」の社会保障化",
+          "reason": "「位置づける」という表現は抽象的な方針にすぎず、具体的にどの法律や予算を操作するのか観測可能な変数が示されていないため。",
+          "sources": "https://go2senkyo.com/seijika/122008",
+          "quote_text": "「住まい」の提供を、年金・医療・介護・子育てと並ぶ社会保障の一分野に位置づけます。"
+        },
+        {
+          "title": "広い住宅建設や二拠点居住の推進",
+          "reason": "「目標」や「推進」という言葉が使用されており、明確な結果へのコミットメントを持たない手続き・意欲表現であるため。",
+          "sources": "https://go2senkyo.com/seijika/122008",
+          "quote_text": "一人当たりの「居住面積倍増」を目標に、広い住宅建設や二拠点居住を推進します。"
+        },
+        {
+          "title": "「東京大引っ越し作戦」の実行",
+          "reason": "「作戦の実行」という動詞・名詞の組み合わせではあるが、内容が抽象的であり、達成の有無を第三者が数字や条文で客観的に検証できないため。",
+          "sources": "https://go2senkyo.com/seijika/122008",
+          "quote_text": "「住まい」の地方移転をうながす「東京大引っ越し作戦」を実行します。"
+        },
+        {
+          "title": "「103万円の壁」の突破",
+          "reason": "「突破」というスローガン的な表現であり、具体的にどの制度をどのように変更するのかが不明確であるため。",
+          "sources": "https://new-kokumin.jp/news/business/20250330_3",
+          "quote_text": "「103万円の壁」の突破"
+        },
+        {
+          "title": "さらなる課税最低限の引き上げ",
+          "reason": "「引き上げ」という方向性は示されているが、具体的な数値が示されておらず実施水準の客観的な判断ができないため。",
+          "sources": "https://new-kokumin.jp/news/business/20250330_3",
+          "quote_text": "さらなる課税最低限の引き上げ"
+        },
+        {
+          "title": "成長戦略「新・三本の矢」",
+          "reason": "パッケージ名やスローガンに過ぎず、具体的な制度変更や法的措置を特定できないため。",
+          "sources": "https://new-kokumin.jp/news/business/20250330_3",
+          "quote_text": "成長戦略「新・三本の矢」"
+        },
+        {
+          "title": "人づくりこそ、国づくり",
+          "reason": "抽象的なスローガンであり、具体的な政策や客観的指標を含んでいないため。",
+          "sources": "https://new-kokumin.jp/news/business/20250330_3",
+          "quote_text": "人づくりこそ、国づくり"
+        },
+        {
+          "title": "自分の国は自分で守る",
+          "reason": "抽象的な理念・スローガンであり、客観的に観測可能な制度変更を含まないため。",
+          "sources": "https://new-kokumin.jp/news/business/20250330_3",
+          "quote_text": "自分の国は自分で守る"
+        },
+        {
+          "title": "正直な政治をつらぬく",
+          "reason": "政治的姿勢を示す抽象的なスローガンであり、第三者が判定できる具体的施策ではないため。",
+          "sources": "https://new-kokumin.jp/news/business/20250330_3",
+          "quote_text": "正直な政治をつらぬく"
+        },
+        {
+          "title": "医療制度改革",
+          "reason": "政策分野の提示に留まり、具体的にどのような医療制度の変数を変更するのかが全く示されていないため。",
+          "sources": "https://new-kokumin.jp/news/business/20250330_3",
+          "quote_text": "医療制度改革"
+        },
+        {
+          "title": "就職氷河期世代政策",
+          "reason": "政策課題の名前を挙げているだけであり、具体的なアクションや制度変更が記載されていないため。",
+          "sources": "https://new-kokumin.jp/news/business/20250330_3",
+          "quote_text": "就職氷河期世代政策"
+        },
+        {
+          "title": "中小企業・非正規賃上げ応援10策",
+          "reason": "政策パッケージの名称であり、具体的な施策内容が示されておらず実施の客観的な検証が不可能なため。",
+          "sources": "https://new-kokumin.jp/news/business/20250330_3",
+          "quote_text": "中小企業・非正規賃上げ応援10策"
+        },
+        {
+          "title": "緊急経済対策",
+          "reason": "具体的な施策が伴わないパッケージ名であり、政治的コミットメントとして検証できないため。",
+          "sources": "https://new-kokumin.jp/news/business/20250330_3",
+          "quote_text": "緊急経済対策"
+        },
+        {
+          "title": "子ども・子育て・若者",
+          "reason": "単なる対象分野の羅列であり、具体的な制度変更やアクションが一切不明であるため。",
+          "sources": "https://new-kokumin.jp/news/business/20250330_3",
+          "quote_text": "子ども・子育て・若者"
+        },
+        {
+          "title": "憲法",
+          "reason": "単なる分野名であり、改正や見直しなどの具体的なアクションが示されていないため。",
+          "sources": "https://new-kokumin.jp/news/business/20250330_3",
+          "quote_text": "憲法"
+        },
+        {
+          "title": "安全保障政策",
+          "reason": "政策立案の抽象的な領域を示すのみで、具体的な制度的変更が皆無であるため。",
+          "sources": "https://new-kokumin.jp/news/business/20250330_3",
+          "quote_text": "安全保障政策"
+        },
+        {
+          "title": "農業政策",
+          "reason": "政策立案の抽象的な領域を示すのみで、検証可能なアクションが記述されていないため。",
+          "sources": "https://new-kokumin.jp/news/business/20250330_3",
+          "quote_text": "農業政策"
+        },
+        {
+          "title": "政治改革",
+          "reason": "抽象的なスローガンであり、具体的な法律やシステムの変更が特定できないため。",
+          "sources": "https://new-kokumin.jp/news/business/20250330_3",
+          "quote_text": "政治改革"
+        },
+        {
+          "title": "企業団体献金の規制",
+          "reason": "規制という言葉は幅が広く、全面禁止なのか上限変更なのかなど具体的な制度変更の変数が不明確であり客観的判定が難しいため。",
+          "sources": "https://new-kokumin.jp/news/business/20250330_3",
+          "quote_text": "企業団体献金の規制"
+        }
+      ]
+    }
+  ]
+}

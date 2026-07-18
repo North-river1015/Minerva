@@ -1,0 +1,103 @@
+{
+  "district": "愛知8区",
+  "candidates": [
+    {
+      "name": "伊藤忠彦",
+      "party": "自由民主党",
+      "manifesto": [
+        {
+          "title": "高校授業料無償化",
+          "reason": "「無償化」という明確な数値変更（ゼロ）を伴う制度変更であり、実施の有無が客観的に検証可能なため。",
+          "sources": "https://tadahiko-itoh.com/determination",
+          "quote_text": "教育では、高校授業料無償化・学校給食費の負担軽減を実現。"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "title": "中部国際空港第2滑走路の早期実現と24時間運用の開始",
+          "reason": "特定地域への利益誘導であり、かつ「目指し」という手続き・意欲表現が含まれているため。",
+          "sources": "https://tadahiko-itoh.com/determination",
+          "quote_text": "念願の「中部国際空港第2滑走路」を早期実現。完全24時間運用の空港を目指し、知多半島の農産品や水産品、工業製品の輸出拡大、そして観光集客力向上につなげます。"
+        },
+        {
+          "title": "西知多道路の早期全線開通",
+          "reason": "特定地域への利益誘導であり、かつ「尽力します」という曖昧な意気込みに留まるため。",
+          "sources": "https://tadahiko-itoh.com/determination",
+          "quote_text": "中部国際空港と名古屋駅の連携強化に不可欠な「西知多道路」。地域経済の活性化、災害時の緊急輸送路確保など、広域交通網の要として早期の全線开通に尽力します。"
+        },
+        {
+          "title": "家計負担の軽減を促進",
+          "reason": "「軽減」の程度が不明であり、かつ排除基準である「促進」という動詞が含まれているため。",
+          "sources": "https://tadahiko-itoh.com/determination",
+          "quote_text": "物価高対策「生活に寄り添う」家計負担の軽減を促進。"
+        },
+        {
+          "title": "家計負担軽減政策（ガソリン税暫定税率廃止や所得税減税など）の推進",
+          "reason": "具体的な施策を含むものの、「推進」という言葉で結ばれており、手続き・意欲表現として排除基準に該当するため。",
+          "sources": "https://tadahiko-itoh.com/determination",
+          "quote_text": "電気・ガス代支援をはじめ、子育て応援手当、ガソリン税暫定税率廃止、所得税減税など、幅広い家計負担軽減政策を推進。"
+        },
+        {
+          "title": "必要に応じた対策の実行",
+          "reason": "「必要に応じた対策」が何を指すか不明であり、達成基準が存在しない曖昧な意気込みであるため。",
+          "sources": "https://tadahiko-itoh.com/determination",
+          "quote_text": "今後も必要に応じた対策を迅速に、積極的に実行していきます。"
+        },
+        {
+          "title": "命を守る備えを加速",
+          "reason": "抽象的なスローガンであり、具体的な変数やアクションを欠くため。",
+          "sources": "https://tadahiko-itoh.com/determination",
+          "quote_text": "事前防災強化「災害に強い街」命を守る備えを加速。"
+        },
+        {
+          "title": "知多半島全域の防災・減災対策と国土強靭化",
+          "reason": "特定地域（知多半島）への利益誘導であり、客観的な変数が不明確なため。",
+          "sources": "https://tadahiko-itoh.com/determination",
+          "quote_text": "差し迫る脅威に対処するため、知多半島全域の防災・減災対策、国土強靭化を速やかに進めていきます。"
+        },
+        {
+          "title": "医療・介護における処遇改善・経営改善支援",
+          "reason": "「支援を実施」という表現では具体的にどの法制度や数値を操作するかが不明であり、検証不可能であるため。",
+          "sources": "https://tadahiko-itoh.com/determination",
+          "quote_text": "医療や介護における人材確保を促すため、処遇改善・経営改善支援を実施。"
+        },
+        {
+          "title": "学校給食費の負担軽減",
+          "reason": "「負担軽減」では具体的にどの変数をどの程度変更するのかが定義されておらず、客観的な判定ができないため。",
+          "sources": "https://tadahiko-itoh.com/determination",
+          "quote_text": "教育では、高校授業料無償化・学校給食費の負担軽減を実現。"
+        },
+        {
+          "title": "安心して暮らせる社会づくりの強化",
+          "reason": "「強化」という動詞が含まれており、事後的に達成を客観判定できないため。",
+          "sources": "https://tadahiko-itoh.com/determination",
+          "quote_text": "安心して暮らせる社会づくりをさらに強化します。"
+        },
+        {
+          "title": "賃上げ促進税制の継続と事業者の成長投資支援",
+          "reason": "「継続」は既存政策の現状維持であり、「支援などを実施」も具体的に変更される変数が存在しないため。",
+          "sources": "https://tadahiko-itoh.com/determination",
+          "quote_text": "賃上げ促進税制の継続をはじめ、省力化・生産性向上のための設備投資など、中小・小規模事業者の成長投資支援などを実施。"
+        },
+        {
+          "title": "環境整備の力強い推進",
+          "reason": "「推進します」という手続き・意欲表現が含まれており、排除基準に該当するため。",
+          "sources": "https://tadahiko-itoh.com/determination",
+          "quote_text": "働きやすい、働きがいのある環境整備を力強く推進します。"
+        },
+        {
+          "title": "GXやフュージョンエネルギーなどの技術革新支援",
+          "reason": "「支援」するという表現であり、どの制度や数値を変更するのかといった具体的な変数が存在しないため。",
+          "sources": "https://tadahiko-itoh.com/determination",
+          "quote_text": "カーボンニュートラルの実現に向け、グリーントランスフォーメーション(GX)やフュージョンエネルギーなどの技術革新を支援。"
+        },
+        {
+          "title": "脱炭素化と経済成長の両立",
+          "reason": "「目指します」という手続き・意欲表現が含まれており、直ちに排除されるため。",
+          "sources": "https://tadahiko-itoh.com/determination",
+          "quote_text": "次世代に誇れる脱炭素化と経済成長の両立を目指します。"
+        }
+      ]
+    }
+  ]
+}

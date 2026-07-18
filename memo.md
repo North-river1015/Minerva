@@ -1,4 +1,106 @@
 ALL_WINNERS = {
+    "osaka": {
+        1: {
+            "name": "井上英孝",
+            "official": "https://hidetaka-inoue.com",
+            "party": "日本維新の会"
+        },
+        2: {
+            "name": "高見亮",
+            "official": "https://takamiryo.com",
+            "party": "日本維新の会"
+        },
+        3: {
+            "name": "東徹",
+            "official": "https://azuma-toru.com",
+            "party": "日本維新の会"
+        },
+        4: {
+            "name": "美延映夫",
+            "official": "https://minobe-teruo.com",
+            "party": "日本維新の会"
+        },
+        5: {
+            "name": "梅村聡",
+            "official": "https://umemurasatoshi.com",
+            "party": "日本維新の会"
+        },
+        6: {
+            "name": "西田薫",
+            "official": "https://go-west.tv",
+            "party": "日本維新の会"
+        },
+        7: {
+            "name": "奥下剛光",
+            "official": "https://okushita.jp",
+            "party": "日本維新の会"
+        },
+        8: {
+            "name": "漆間譲司",
+            "official": "https://uruma.osaka.jp",
+            "party": "日本維新の会"
+        },
+        9: {
+            "name": "萩原佳",
+            "official": "https://hagiharakei.com",
+            "party": "日本維新の会"
+        },
+        10: {
+            "name": "池下卓",
+            "official": "https://iketaku.jp",
+            "party": "日本維新の会"
+        },
+        11: {
+            "name": "中司宏",
+            "official": "https://nakatsukahiroshi.jp",
+            "party": "日本維新の会"
+        },
+        12: {
+            "name": "藤田文武",
+            "official": "https://fumitakefujita.com",
+            "party": "日本維新の会"
+        },
+        13: {
+            "name": "岩谷良平",
+            "official": "https://r-iwatani.com",
+            "party": "日本維新の会"
+        },
+        14: {
+            "name": "青柳仁士",
+            "official": "https://aoyagi-h.com",
+            "party": "日本維新の会"
+        },
+        15: {
+            "name": "浦野靖人",
+            "official": "https://uranoyasuto.net",
+            "party": "日本維新の会"
+        },
+        16: {
+            "name": "黒田征樹",
+            "official": "https://kuroda-masaki.com",
+            "party": "日本維新の会"
+        },
+        17: {
+            "name": "馬場伸幸",
+            "official": "https://baba-nobuyuki.com/",
+            "party": "日本維新の会"
+        },
+        18: {
+            "name": "遠藤敬",
+            "official": "https://endo-takashi.jp/",
+            "party": "自由民主党"
+        },
+        19: {
+            "name": "谷川とむ",
+            "official": "https://www.tanigawatom.com/",
+            "party": "自由民主党"
+        }
+    }
+}
+
+
+
+ALL_WINNERS = {
     "niigata": {
         1: {
             "name": "内山航",

@@ -1,0 +1,169 @@
+{
+  "district": "愛知14区",
+  "candidates": [
+    {
+      "name": "今枝宗一郎",
+      "party": "自由民主党",
+      "manifesto": [
+        {
+          "title": "食料品の消費税を0％に減税",
+          "reason": "食料品の消費税を0%とする具体的な数値目標であり、税率変更の事実をもって客観的に検証可能であるため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51021",
+          "quote_text": "食費消費税ゼロ。"
+        },
+        {
+          "title": "給付付き税額控除の導入",
+          "reason": "給付付き税額控除という新制度の設立を断定的にコミットしており、その存否が客観的に確認可能なため。",
+          "sources": "https://higashiaichi.jp/news/detail.php?id=26594",
+          "quote_text": "給付付き税額控除を実現する。"
+        },
+        {
+          "title": "野菜振興法の制定",
+          "reason": "法律の制定を明確に指しており、法律の存否で実行が客観的に判断できるため。",
+          "sources": "https://higashiaichi.jp/news/detail.php?id=26594",
+          "quote_text": "野菜振興法の制定。"
+        },
+        {
+          "title": "消費税の5%への減税",
+          "reason": "消費税率を5%にするという具体的な数値目標であり、実行の有無が客観的に判断できるため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51021",
+          "quote_text": "今すぐ５％減税に。"
+        },
+        {
+          "title": "最低賃金の1700円への引き上げ",
+          "reason": "最低賃金を「1700円」に引き上げるという明確な数値目標に基づく政策であり、達成の有無が客観的に判定できるため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51021",
+          "quote_text": "最低賃金１７００円に。"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "title": "政治改革と国会の徹底改革",
+          "reason": "「ぶっ壊す」「徹底改革を」といった抽象的なスローガンであり、具体的な法律や予算の変更などの客観的に観測可能な変数が示されていないため。",
+          "sources": "https://www.imaeda-sou.com/activity/12263/",
+          "quote_text": "とにかく政治改革！自民党本部や国会の古い部分をぶっ壊す！信頼できる政治へ、国民目線で徹底改革を！"
+        },
+        {
+          "title": "賃上げとデフレからの脱却",
+          "reason": "「目指す」という手続き・意欲表現が使われている上、具体的にどの制度や数値を操作するかが明示されていないため。",
+          "sources": "https://www.imaeda-sou.com/activity/12263/",
+          "quote_text": "とにかく賃上げ！賃上げ・中小企業支援で可処分所得の増加、継続的賃上げ・消費増による「真の」デフレからの脱却を目指す。"
+        },
+        {
+          "title": "教育無償化推進と人口減少対策",
+          "reason": "「推進」という手続き表現が含まれており、また「人を大切にする政治」などの抽象的なスローガンであるため。",
+          "sources": "https://www.imaeda-sou.com/activity/12263/",
+          "quote_text": "教育無償化推進と質の向上、人口減少対策！"
+        },
+        {
+          "title": "分散型国づくりによる脱東京一極集中",
+          "reason": "「国家ビジョン」の提示にとどまっており、それを実現するための具体的な制度的変更や法的措置へのコミットメントがないため。",
+          "sources": "https://www.imaeda-sou.com/activity/12263/",
+          "quote_text": "人を大切にする政治！脱東京一極集中し、分散型国づくりこそ国家ビジョン！"
+        },
+        {
+          "title": "外交・安全保障、憲法、環境などでの活動",
+          "reason": "活動する分野を列挙しているだけであり、具体的に何を変更するのかというアクションの表明が一切含まれていないため。",
+          "sources": "https://www.imaeda-sou.com/activity/12263/",
+          "quote_text": "他にも、外交・安全保障、憲法、環境などさまざまな分野で活動して参ります。"
+        },
+        {
+          "title": "愛知14区への産業誘致",
+          "reason": "特定地域への「利益誘導」であり、かつ「目指す」という意図の表現であるため。",
+          "sources": "https://higashiaichi.jp/news/detail.php?id=26594",
+          "quote_text": "愛知14区に半導体やデータセンターなどの新しい産業の誘致を目指す。"
+        },
+        {
+          "title": "給料と年金が上がる社会の実現",
+          "reason": "具体的な制度変更を伴わない抽象的なスローガンであり、操作する変数が不明であるため。",
+          "sources": "https://higashiaichi.jp/news/detail.php?id=26594",
+          "quote_text": "給料と年金が上がっていく社会を実現する。"
+        },
+        {
+          "title": "助成金の拡充",
+          "reason": "「拡充」は具体的水準が不明であり、客観的に達成状況を判定できないため。",
+          "sources": "https://higashiaichi.jp/news/detail.php?id=26594",
+          "quote_text": "中小企業支援として賃上げや生産性向上の助成金の拡充"
+        },
+        {
+          "title": "価格転嫁しやすい環境づくり",
+          "reason": "対象が「環境づくり」という抽象的な概念であり、実行の有無を客観的・定量的に判定できないため。",
+          "sources": "https://higashiaichi.jp/news/detail.php?id=26594",
+          "quote_text": "価格転嫁しやすい環境づくりなどをしていく。"
+        },
+        {
+          "title": "農家の後継者育成支援制度の拡充",
+          "reason": "「拡充」という表現によって、具体的にどのような変数を操作するのかが不明であり、客観的検証が不可であるため。",
+          "sources": "https://higashiaichi.jp/news/detail.php?id=26594",
+          "quote_text": "農家の後継者育成支援制度の拡充"
+        },
+        {
+          "title": "食の安全保障の推進",
+          "reason": "「推進」という手続き・意欲表現が含まれており、具体的な制度的裏付けがないため。",
+          "sources": "https://higashiaichi.jp/news/detail.php?id=26594",
+          "quote_text": "食の安全保障の推進。"
+        },
+        {
+          "title": "現役世代、特に子育て世帯への給付",
+          "reason": "いくら給付するのか、具体的な条件などの変数が示されておらず、客観的に達成を検証できないため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51021",
+          "quote_text": "現役世代、特に子育て世帯にきちんと給付をお届けします。"
+        },
+        {
+          "title": "供給力の強化",
+          "reason": "「強化」という排除基準に該当する動詞が含まれており、具体的な制度的変更を伴わない抽象的な概念であるため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51021",
+          "quote_text": "「責任ある積極財政」で供給力を強化します。"
+        },
+        {
+          "title": "物価上昇を超える賃金アップ",
+          "reason": "具体的な法改正や予算措置が示されておらず、単なる目標や結果の提示に過ぎないため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51021",
+          "quote_text": "物価上昇を超える賃金アップ。"
+        },
+        {
+          "title": "大企業・富裕層への適正な課税",
+          "reason": "「適正な」という表現が主観的であり、具体的にどの税率をどのように変更するのかが不明であるため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51021",
+          "quote_text": "儲け過ぎの大企業・富裕層への適正な課税で確保できる。"
+        },
+        {
+          "title": "消費税の廃止",
+          "reason": "「めざし」という手続的、意欲的な表現が含まれており、断定的なコミットメントではないため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51021",
+          "quote_text": "消費税の廃止をめざし"
+        },
+        {
+          "title": "軍事費の医療・介護予算への振り向け",
+          "reason": "具体的にどの程度の予算（数値）を振り向けるのかが不明瞭であり、「〜べきだ」という主張に留まっているため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51021",
+          "quote_text": "国は、軍事費９兆円より、医療・介護の予算に振り向けるべきだ。"
+        },
+        {
+          "title": "給食の質の向上",
+          "reason": "「向上」の基準が抽象的かつ主観的であり、客観的に達成度が検証できないため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51021",
+          "quote_text": "給食の質の向上（地産地消、オーガニック）"
+        },
+        {
+          "title": "返済不要な奨学金制度による大学進学支援",
+          "reason": "「〜行けるように」という曖昧な意気込みであり、断定的な制度設立や変更のコミットメントではないため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51021",
+          "quote_text": "返済不要な奨学金で誰でも大学に行けるように。"
+        },
+        {
+          "title": "妊婦健診、出産の無償化、学童保育、送り迎え支援の強化",
+          "reason": "排除基準である「強化」という動詞が含まれており、直ちに却下されるべき内容であるため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51021",
+          "quote_text": "妊婦健診強化、出産の無償化、学童保育、送り迎え支援まで強化する。"
+        },
+        {
+          "title": "保育職や教育職の加配および処遇改善",
+          "reason": "「加配」や「処遇改善」の具体的な数値や基準がなく、「支援」という曖昧な動詞で締めくくられているため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51021",
+          "quote_text": "保育職や教育職の加配、保育職の処遇改善、不登校の子どもの学びの場を支援"
+        }
+      ]
+    }
+  ]
+}

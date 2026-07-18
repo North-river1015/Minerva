@@ -1,0 +1,157 @@
+{
+  "district": "愛知11区",
+  "candidates": [
+    {
+      "name": "丹野みどり",
+      "party": "国民民主党",
+      "manifesto": [
+        {
+          "title": "障害者福祉および子育て支援にかかる所得制限の撤廃",
+          "reason": "障害者福祉と子育て支援の両分野において所得制限の撤廃を掲げており、法制度の変更を通じて客観的に検証可能なため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51016",
+          "quote_text": "障害者福祉や子育て支援にかかる所得制限撤廃"
+        },
+        {
+          "title": "消費税の5%への変更",
+          "reason": "「5%」という具体的な数値目標を示した税率の変更であり、法改正の有無によって客観的に検証可能なため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51016",
+          "quote_text": "消費税5%"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "title": "国民のための政治、正直・偏らない・現実的な政治の実現",
+          "reason": "抽象的なスローガンおよび曖昧な意気込みであり、具体的な政策的アクションを含まないため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51016",
+          "quote_text": "国民のための政治をします！日本の政治に足りない３つ、正直な政治、偏らない政治、現実的な政治を貫きます。あなたの大切な暮らし、かけがえのない人生をより良くする政治をさせて下さい！"
+        },
+        {
+          "title": "手取りの増加",
+          "reason": "「増やす」という抽象的な目標の提示にとどまり、具体的にどの制度のどの変数を変更するのかが不明なため。",
+          "sources": "https://new-kokumin.jp/news/election/20260207_1",
+          "quote_text": "「もっと」手取りを増やす"
+        },
+        {
+          "title": "社会保険料の引き下げ",
+          "reason": "具体的にどのような制度変更を行うのか、どの数値を操作するのかが不明であり、客観的な検証ができないため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51016",
+          "quote_text": "社会保険料を下げる"
+        },
+        {
+          "title": "電気代の引き下げ",
+          "reason": "どの制度をどう操作して実現するかが不明であり、具体的な政治的コミットメントとみなせないため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51016",
+          "quote_text": "電気代を下げる"
+        },
+        {
+          "title": "成長戦略「新・三本の矢」",
+          "reason": "抽象的な政策パッケージ名に過ぎず、具体的な制度的変更や法的措置を含まないため。",
+          "sources": "https://new-kokumin.jp/news/election/20260207_1",
+          "quote_text": "成長戦略「新・三本の矢」"
+        },
+        {
+          "title": "人づくりこそ、国づくり",
+          "reason": "抽象的なスローガンであり、第三者が客観的に判定できる具体的なコミットメントがないため。",
+          "sources": "https://new-kokumin.jp/news/election/20260207_1",
+          "quote_text": "人づくりこそ、国づくり"
+        },
+        {
+          "title": "自分の国は自分で守る",
+          "reason": "抽象的なスローガンであり、具体的な政治的行動への意思が確認できないため。",
+          "sources": "https://new-kokumin.jp/news/election/20260207_1",
+          "quote_text": "自分の国は自分で守る"
+        },
+        {
+          "title": "医療制度改革",
+          "reason": "単なる政策分野名であり、具体的にどの変数をどのように変更するのかが全く示されていないため。",
+          "sources": "https://new-kokumin.jp/news/election/20260207_1",
+          "quote_text": "医療制度改革"
+        },
+        {
+          "title": "就職氷河期世代政策",
+          "reason": "単なる分野の羅列であり、具体的な制度設立等のアクションを含まないため。",
+          "sources": "https://new-kokumin.jp/news/election/20260207_1",
+          "quote_text": "就職氷河期世代政策"
+        },
+        {
+          "title": "中小企業・非正規賃上げ応援10策",
+          "reason": "施策のタイトルに過ぎず、各制度の具体的な変更・導入についての明言がないため。",
+          "sources": "https://new-kokumin.jp/news/election/20260207_1",
+          "quote_text": "中小企業・非正規賃上げ応援10策"
+        },
+        {
+          "title": "緊急経済対策",
+          "reason": "単なる見出しであり、具体的な制度変更や行動への断定的なコミットメントが存在しないため。",
+          "sources": "https://new-kokumin.jp/news/election/20260207_1",
+          "quote_text": "緊急経済対策"
+        },
+        {
+          "title": "子ども・子育て・若者",
+          "reason": "単なる対象分野の提示であり、政治的なアクションや制度変更の意思表明を含まないため。",
+          "sources": "https://new-kokumin.jp/news/election/20260207_1",
+          "quote_text": "子ども・子育て・若者"
+        },
+        {
+          "title": "憲法",
+          "reason": "単なるテーマの提示であり、条文の変更など具体的なアクションへの言及が一切ないため。",
+          "sources": "https://new-kokumin.jp/news/election/20260207_1",
+          "quote_text": "憲法"
+        },
+        {
+          "title": "安全保障政策",
+          "reason": "単なるテーマの提示であり、具体的な枠組み構築や法整備へのコミットメントがないため。",
+          "sources": "https://new-kokumin.jp/news/election/20260207_1",
+          "quote_text": "安全保障政策"
+        },
+        {
+          "title": "農業政策",
+          "reason": "単なるテーマの提示であり、具体的な予算確保や法改正の有無が判定可能な公約が示されていないため。",
+          "sources": "https://new-kokumin.jp/news/election/20260207_1",
+          "quote_text": "農業政策"
+        },
+        {
+          "title": "政治改革",
+          "reason": "抽象的な目標であり、具体的にどの法やルールを変えるかの指定がなく客観的に検証不能なため。",
+          "sources": "https://new-kokumin.jp/news/election/20260207_1",
+          "quote_text": "政治改革"
+        },
+        {
+          "title": "育児・介護を応援する社会の仕組みづくりと病児保育の整備推進",
+          "reason": "「推進」という手続き・意欲表現が含まれており、具体的な政治的・法的なアクションへのコミットメントではないため。",
+          "sources": "https://say-g.com/inerview-tanno-midori-9396",
+          "quote_text": "育児や介護を抱えながらも多様な生き方を応援する社会の仕組みづくり、および病児保育の整備を推進する。"
+        },
+        {
+          "title": "保育士の待遇改善と保育環境の整備を通じた活躍できる社会の実現",
+          "reason": "給与引き上げに関する具体的な数値変数や制度変更の明記がなく、曖昧な意気込みに留まっているため。",
+          "sources": "https://say-g.com/inerview-tanno-midori-9396",
+          "quote_text": "保育士の地位向上と給与引き上げ、保育環境の整備をセットで進めることで、真に活躍できる社会を実現する。"
+        },
+        {
+          "title": "中小企業の適正取引のための自浄作用を生む制度の構築",
+          "reason": "その対象が「自浄作用を生むような制度」という抽象的な概念であり、実行されたかどうかを客観的に判定できないため。",
+          "sources": "https://say-g.com/inerview-tanno-midori-9396",
+          "quote_text": "中小企業の適正取引を実現するため、単なる取り締まりではなく自浄作用を生むような制度を構築する。"
+        },
+        {
+          "title": "成長産業分野への積極的な大型投資とバックアップ体制の構築",
+          "reason": "「大型投資」の具体的な数値目標がなく、「仕組みを作る」という表現も抽象的であり検証変数が存在しないため。",
+          "sources": "https://say-g.com/inerview-tanno-midori-9396",
+          "quote_text": "全固体電池などのポテンシャルの高い産業分野に対して国が積極的に大型投資を行い、成長産業をバックアップする仕組みを作る。"
+        },
+        {
+          "title": "税制調査会の内容のオープン化と政策決定の透明性向上",
+          "reason": "「開かれた議論」「透明性を高める」といった抽象的スローガンであり、具体的にどのルールの変更や法的措置を行うのかが不明確なため。",
+          "sources": "https://say-g.com/inerview-tanno-midori-9396",
+          "quote_text": "税制調査会の内容をオープンにし、開かれた議論を行うことで、政策決定の透明性を高める。"
+        },
+        {
+          "title": "理念に基づく健全な政治勢力の拡大",
+          "reason": "「目指す」という意欲表現が含まれており、具体的な政策的コミットメントではないため。",
+          "sources": "https://say-g.com/inerview-tanno-midori-9396",
+          "quote_text": "政党の理念や政策に共感する人々を増やしていくことで、理念に基づいた健全な政治勢力の拡大を目指す。"
+        }
+      ]
+    }
+  ]
+}

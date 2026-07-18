@@ -44,79 +44,33 @@ def safe_generate_content(client, model, contents, config):
         return SimpleResponse(content)
 
 
+#まだ以下のはできてない。これで39個はできた。
 ALL_WINNERS = {
-    "mie": {
-        1: {
-            "name": "田村憲久",
-            "official": "https://www.tamura-norihisa.jp/",
-            "party": "自由民主党"
-        },
-        2: {
-            "name": "川崎秀人",
-            "official": "https://www.kawasakihideto.com/",
-            "party": "自由民主党"
-        },
+
+    "miyazaki": {
+
         3: {
-            "name": "石原正敬",
-            "official": "https://fu-un.org/",
-            "party": "自由民主党"
-        },
-        4: {
-            "name": "鈴木英敬",
-            "official": "https://eikei-suzuki.jp/",
+            "name": "古川禎久",
+            "official": "https://furukawa-yoshihisa.com",
             "party": "自由民主党"
         }
     },
-    "shiga": {
-        1: {
-            "name": "大岡敏孝",
-            "official": "https://oooka.com/",
-            "party": "自由民主党"
-        },
-        2: {
-            "name": "上野賢一郎",
-            "official": "https://www.ueno-kenichiro.jp/",
-            "party": "自由民主党"
-        },
+   
+    "okinawa": {
         3: {
-            "name": "武村展英",
-            "official": "https://takemura-nobuhide.com/",
+            "name": "島尻安伊子",
+            "official": "https://shimajiriaiko.com",
             "party": "自由民主党"
-        }
-    },
-    "kyoto": {
-        1: {
-            "name": "勝目康",
-            "official": "https://katsume-yasushi.jp/",
-            "party": "自由民主党"
-        },
-        2: {
-            "name": "前原誠司",
-            "official": "https://www.maehara21.com/",
-            "party": "日本維新の会"
-        },
-        3: {
-            "name": "泉健太",
-            "official": "https://www.izumi-kenta.net/",
-            "party": "立憲民主党"
         },
         4: {
-            "name": "北神圭朗",
-            "official": "https://www.kitagami.gr.jp/",
-            "party": "有志の会"
-        },
-        5: {
-            "name": "本田太郎",
-            "official": "https://honda-taro.jp/",
-            "party": "自由民主党"
-        },
-        6: {
-            "name": "園崎弘道",
-            "official": "https://sonosakimirai.com/",
+            "name": "西銘恒三郎",
+            "official": "http://nishime-k.com/",
             "party": "自由民主党"
         }
     }
 }
+
+
 
 '''
 

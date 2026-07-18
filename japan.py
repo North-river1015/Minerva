@@ -17,21 +17,18 @@ LAYOUT_WEIRD = [
 
 #選挙ごとにWikiから当選者を取り出し用意
 ALL_WINNERS = {
-    'tokyo': {
-        26: '今岡植',
-        27: '黒崎祐一',
-        28: '安藤高夫',
-        29: '長澤興祐',
-        30: '長島昭久'
+    'miyazaki': {
+        3: '古川禎久'
     }
 }
+
 
 #GoogleのGeminiを使いました。
 key = os.environ.get('GEMINI_API')
 
 client = genai.Client(api_key= key)
 
-PDF_DIR = Path("data/raw_pdf/2026/shu/")
+PDF_DIR = Path("static/pdf/2026/shu/")
 OUT_DIR = Path("data/ai_output/2026/shu/")
 
 # RubricからPromptに入れて見ましたが、公約判断の精度は非常に低いです。
