@@ -1,0 +1,185 @@
+{
+  "district": "島根2区",
+  "candidates": [
+    {
+      "name": "高見康裕",
+      "party": "自由民主党",
+      "manifesto": [
+        {
+          "title": "消費税とインボイス制度の廃止",
+          "reason": "「消費税」および「インボイス制度」という特定の制度に対する「廃止」という明確なステータス変更を指しており、法改正により実施されたかが客観的に判定できるため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51112",
+          "quote_text": "消費税とインボイス制度をなくすことで、頑張る人が報われる社会を取り戻したい。皆さんの日々の生活と、地域の商売を守るために廃止を訴えます。"
+        },
+        {
+          "title": "フリースクールの予算化",
+          "reason": "「予算化」という特定の対象（フリースクール）に対する具体的な数値を伴う予算措置を明言しており、実施の有無が検証可能であるため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51112",
+          "quote_text": "不登校の子どもたちを受け入れるフリースクールの予算化や子ども手当の拡充などの教育改革や第一次産業従事者の準公務員化など雇用と教育の環境を整えます。"
+        },
+        {
+          "title": "第一次産業従事者の準公務員化",
+          "reason": "「準公務員化」という雇用ステータスに関する具体的な制度変更を明示しており、法整備等によって実施が確認可能であるため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51112",
+          "quote_text": "第一次産業従事者の準公務員化など雇用と教育の環境を整えます。"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "title": "危機管理投資や成長投資などの推進",
+          "reason": "具体的にどの変数を操作するのかが不明であり、「推進」「取り組んでいく」という手続きや意力表現に終始しているため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51112",
+          "quote_text": "地方を巻き込みながら危機管理投資や成長投資などを推進し「日本列島を強く、豊かに。」に向けて取り組んでいく必要があります。"
+        },
+        {
+          "title": "ベーシック・サービスの拡充",
+          "reason": "「拡充」では具体的に何をどう変更するかが不明で観測不能であるうえ、「実現したい」という意力表現に留まるため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51112",
+          "quote_text": "「医療・介護・障がい福祉・教育など生きていくうえで不可欠な公的サービスへのアクセスを保障するベーシック・サービスの拡充」政策を何としてでも実現したいです"
+        },
+        {
+          "title": "福祉と教育の連携への取り組み",
+          "reason": "過去の活動実績に対する言及であり、今後の政策表明とはみなせないため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51112",
+          "quote_text": "今まで一貫して「福祉と教育の連携」に取り組んでまいりました。"
+        },
+        {
+          "title": "教育の無償化拡大や人への投資の拡充",
+          "reason": "「拡大」「向上」「拡充」は客観的に実施の有無を判定できず、「取り組んでいきたい」という意力表現であるため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51112",
+          "quote_text": "「教育の無償化拡大と質の向上、ならびに社会人・高齢者を含む学びなおし・リスキリングの制度的補償など「人への投資」の拡充はしっかり取り組んでいきたいテーマです"
+        },
+        {
+          "title": "子ども手当の拡充",
+          "reason": "「拡充」という単語では、給付額や対象年齢など具体的にどの数値を変更するのかが不明であり、客観的に達成を判断できないため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51112",
+          "quote_text": "不登校の子どもたちを受け入れるフリースクールの予算化や子ども手当の拡充などの教育改革"
+        },
+        {
+          "title": "若者が希望を持って帰ってくる温かい故郷の構築",
+          "reason": "客観的に検証が不可能な抽象的なスローガンであるため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51112",
+          "quote_text": "都会にはない地方の魅力を守り、若者が希望を持って帰ってくる、そんな温かい故郷を作ります。"
+        },
+        {
+          "title": "物価上昇を上回る所得向上を実現する",
+          "reason": "「実現する」という抽象的なスローガンであり、具体的な変数や制度の変更が伴っていないため。",
+          "sources": "https://takami-yasuhiro.com/politics/",
+          "quote_text": "物価上昇を上回る所得向上を実現する"
+        },
+        {
+          "title": "価格転嫁の実効性担保",
+          "reason": "「実効性担保」は抽象的な概念であり、達成されたかを客観的に判定できる具体的な法的措置や変数が示されていないため。",
+          "sources": "https://takami-yasuhiro.com/politics/",
+          "quote_text": "価格転嫁の実効性担保"
+        },
+        {
+          "title": "公定価格の引き上げ",
+          "reason": "「公定価格」のどの分野を対象とするのか、具体的な数値やステータス変更の指定がなく、客観的な判定が困難であるため。",
+          "sources": "https://takami-yasuhiro.com/politics/",
+          "quote_text": "公定価格の引き上げ"
+        },
+        {
+          "title": "中小企業・小規模事業者の支援",
+          "reason": "「支援」という言葉は抽象的であり、具体的にどの変数をどのように変更するのかが示されていないため。",
+          "sources": "https://takami-yasuhiro.com/politics/",
+          "quote_text": "中小企業・小規模事業者の支援"
+        },
+        {
+          "title": "エネルギーの安定供給",
+          "reason": "「安定供給」という抽象的な目標の提示にとどまり、客観的に評価可能な具体的な政策アクションではないため。",
+          "sources": "https://takami-yasuhiro.com/politics/",
+          "quote_text": "エネルギーの安定供給"
+        },
+        {
+          "title": "脱炭素化の推進",
+          "reason": "排除基準である「推進」が含まれており、手続きや意欲の表明に過ぎないため。",
+          "sources": "https://takami-yasuhiro.com/politics/",
+          "quote_text": "脱炭素化の推進"
+        },
+        {
+          "title": "地方の活力を磨き、地方への人の流れを作る",
+          "reason": "単なる抽象的なスローガンであり、検証可能な具体的な制度変更を含まないため。",
+          "sources": "https://takami-yasuhiro.com/politics/",
+          "quote_text": "地方の活力を磨き、地方への人の流れを作る"
+        },
+        {
+          "title": "農林水産業の稼ぐ力の強化",
+          "reason": "排除基準である「強化」が含まれており、目標の達成度を客観的・定量的に判定できないため。",
+          "sources": "https://takami-yasuhiro.com/politics/",
+          "quote_text": "農林水産業の稼ぐ力の強化"
+        },
+        {
+          "title": "特色を生かした観光振興・インバウンド需要の拡大",
+          "reason": "「振興」「拡大」という抽象的な方向性を示しているのみで、制度や変数の操作が明記されていないため。",
+          "sources": "https://takami-yasuhiro.com/politics/",
+          "quote_text": "特色を生かした観光振興・インバウンド需要の拡大"
+        },
+        {
+          "title": "公共交通ネットワークの確保",
+          "reason": "「確保」は抽象的な目標であり、どのような法的措置や制度設計により実現するかが不明であるため。",
+          "sources": "https://takami-yasuhiro.com/politics/",
+          "quote_text": "公共交通ネットワークの確保"
+        },
+        {
+          "title": "成長産業を中心とするクラスターの地方への立地",
+          "reason": "企業の立地という結果を述べているだけで、それを実現するための政策的なコミットメントが欠如しているため。",
+          "sources": "https://takami-yasuhiro.com/politics/",
+          "quote_text": "成長産業を中心とするクラスターの地方への立地"
+        },
+        {
+          "title": "子ども・若者が暮らしやすい環境を作る",
+          "reason": "抽象的なスローガンであり、特定のアクションや制度変更を提示していないため。",
+          "sources": "https://takami-yasuhiro.com/politics/",
+          "quote_text": "子ども・若者が暮らしやすい環境を作る"
+        },
+        {
+          "title": "若者の所得の向上",
+          "reason": "「向上」は結果の希望に過ぎず、それを達成するための具体的な政策手段が存在しないため。",
+          "sources": "https://takami-yasuhiro.com/politics/",
+          "quote_text": "若者の所得の向上"
+        },
+        {
+          "title": "子育てしやすい社会の意識醸成",
+          "reason": "「意識醸成」は達成したかどうかを第三者が客観的に判定することが不可能であるため。",
+          "sources": "https://takami-yasuhiro.com/politics/",
+          "quote_text": "子育てしやすい社会の意識醸成"
+        },
+        {
+          "title": "結婚・妊娠・出産・子育てに対する切れ目ない支援",
+          "reason": "「支援」という表現は内容が不透明であり、具体的に何を変更するのかが全く示されていないため。",
+          "sources": "https://takami-yasuhiro.com/politics/",
+          "quote_text": "結婚・妊娠・出産・子育てに対する切れ目ない支援"
+        },
+        {
+          "title": "若者や女性に選ばれる就職先の充実",
+          "reason": "「充実」という曖昧な表現にとどまり、客観的な数値や制度的ステータスの変更が伴わないため。",
+          "sources": "https://takami-yasuhiro.com/politics/",
+          "quote_text": "若者や女性に選ばれる就職先の充実"
+        },
+        {
+          "title": "人にやさしく安心して暮らせる地域を作る",
+          "reason": "単なるスローガンであり、実行を担保する具体的な手段が不明であるため。",
+          "sources": "https://takami-yasuhiro.com/politics/",
+          "quote_text": "人にやさしく安心して暮らせる地域を作る"
+        },
+        {
+          "title": "子育て支援と少子化対策",
+          "reason": "「支援」「対策」という抽象的な分野名を示しているだけで、具体的な政治的行動への意思表明がないため。",
+          "sources": "https://takami-yasuhiro.com/politics/",
+          "quote_text": "子育て支援と少子化対策"
+        },
+        {
+          "title": "教育の充実",
+          "reason": "「充実」は曖昧な方向性に過ぎず、客観的に評価可能な変数を含まないため。",
+          "sources": "https://takami-yasuhiro.com/politics/",
+          "quote_text": "教育の充実"
+        },
+        {
+          "title": "医療・介護・福祉の充実",
+          "reason": "「充実」は曖昧な方向性に過ぎず、客"
+        }
+      ]
+    }
+  ]
+}

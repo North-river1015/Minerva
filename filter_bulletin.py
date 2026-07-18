@@ -54,19 +54,6 @@ ALL_WINNERS = {
             "official": "https://furukawa-yoshihisa.com",
             "party": "自由民主党"
         }
-    },
-   
-    "okinawa": {
-        3: {
-            "name": "島尻安伊子",
-            "official": "https://shimajiriaiko.com",
-            "party": "自由民主党"
-        },
-        4: {
-            "name": "西銘恒三郎",
-            "official": "http://nishime-k.com/",
-            "party": "自由民主党"
-        }
     }
 }
 

@@ -1,0 +1,24 @@
+{
+  "district": "岡山2区",
+  "candidates": [
+    {
+      "name": "山下貴司",
+      "party": "自由民主党",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "title": "責任ある積極財政の推進",
+          "reason": "「推進」という手続き・意欲表現が含まれており、具体的な数値目標や制度変更を伴う政略的コミットメントではないため。",
+          "sources": "https://www.yomiuri.co.jp/local/kansai/news/20260209-GYO1T00078/",
+          "quote_text": "責任ある積極財政の推進"
+        },
+        {
+          "title": "強い基盤を持つ政府の構築",
+          "reason": "「構築」というアクションの対象が抽象的な概念であり、達成基準を客観的な数字や条文の有無で判断できないスローガンであるため。",
+          "sources": "https://www.yomiuri.co.jp/local/kansai/news/20260209-GYO1T00078/",
+          "quote_text": "毅然とした外交の必要性、強い基盤を持つ政府の構築"
+        }
+      ]
+    }
+  ]
+}

@@ -428,89 +428,15 @@ def save_append_data(out_file, district, num, winner, new_manifesto, new_not_man
 
 
 ALL_WINNERS = {
-    "shimane": {
-        1: {
-            "name": "高階恵美子",
-            "official": "https://www.takagai-emiko.net/",
-            "party": "自由民主党"
-        },
-        2: {
-            "name": "高見康裕",
-            "official": "https://y-takami.jp",
-            "party": "自由民主党"
-        }
-    },
-    "okayama": {
-        1: {
-            "name": "逢沢一郎",
-            "official": "https://aisawa.net",
-            "party": "自由民主党"
-        },
-        2: {
-            "name": "山下貴司",
-            "official": "https://yamashita-takashi.jp",
-            "party": "自由民主党"
-        },
-        3: {
-            "name": "加藤勝信",
-            "official": "https://katonatsunobu.com",
-            "party": "自由民主党"
-        },
-        4: {
-            "name": "橋本岳",
-            "official": "https://ga9.jp",
-            "party": "自由民主党"
-        }
-    },
-    "hiroshima": {
-        1: {
-            "name": "岸田文雄",
-            "official": "https://kishida.gr.jp",
-            "party": "自由民主党"
-        },
-        2: {
-            "name": "平口洋",
-            "official": "http://hiraguchi.com",
-            "party": "自由民主党"
-        },
-        3: {
-            "name": "石橋林太郎",
-            "official": "https://ishibashi-rintaro.com",
-            "party": "自由民主党"
-        },
-        4: {
-            "name": "新谷正義",
-            "official": "https://shintani-masayoshi.com",
-            "party": "自由民主党"
-        },
-        5: {
-            "name": "山本深",
-            "official": "https://shinyamamoto.jp/",
-            "party": "自由民主党"
-        },
-        6: {
-            "name": "小林史明",
-            "official": "https://fumiaki-kobayashi.jp",
-            "party": "自由民主党"
-        }
-    },
-    "yamaguchi": {
-        1: {
-            "name": "高村正大",
-            "official": "https://komura-masahiro.jp",
-            "party": "自由民主党"
-        },
-        2: {
-            "name": "岸信千世",
-            "official": "https://kishi-nobuchiyo.jp",
-            "party": "自由民主党"
-        },
-        3: {
-            "name": "林芳正",
-            "official": "https://yoshimasa.com",
-            "party": "自由民主党"
-        }
-    },
+
+   
+}
+
+
+
+''' 
+
+ 
     "tokushima": {
         1: {
             "name": "仁木博文",
@@ -755,13 +681,6 @@ ALL_WINNERS = {
             "party": "自由民主党"
         }
     }
-}
-
-
-
-''' 
-
-
 
 
 
@@ -2230,21 +2149,21 @@ JSONとして正しい形で返してください。
 
 
 def process(district,winner,num,official,party):
-    with concurrent.futures.ThreadPoolExecutor(max_workers=30) as executor:
-        future1 = executor.submit(research1, district, winner, num, official)
-        future2 = executor.submit(research2, district, winner, num)
-        concurrent.futures.wait([future1, future2])
-        print(f"{district, num} research finished")
+ #   with concurrent.futures.ThreadPoolExecutor(max_workers=30) as executor:
+  #      future1 = executor.submit(research1, district, winner, num, official)
+    #    future2 = executor.submit(research2, district, winner, num)
+   #     concurrent.futures.wait([future1, future2])
+     #   print(f"{district, num} research finished")
 
-   # get_manifesto(district, winner, num,party)
-    #overlapping(district, num)
-    #overlapping(district, num)
+    get_manifesto(district, winner, num,party)
+    overlapping(district, num)
+    overlapping(district, num)
 
 
 
 
 if __name__ == "__main__":
-    with concurrent.futures.ThreadPoolExecutor(max_workers=50) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
         futures=[]
         for district, winners in ALL_WINNERS.items():
             for num, info in winners.items():

@@ -1,0 +1,54 @@
+{
+  "district": "島根1区",
+  "candidates": [
+    {
+      "name": "高階恵美子",
+      "party": "自由民主党",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "title": "高速道路の全線開通および新幹線整備の推進",
+          "reason": "「推進」という手続き・意欲表現が含まれており、客観的に達成度が判定できる具体的な制度変更ではないため。",
+          "sources": "http://blog.livedoor.jp/m_nonouchi/archives/62964133.html",
+          "quote_text": "高速道路の全線開通および新幹線整備の推進。"
+        },
+        {
+          "title": "国土強靭化への取り組み",
+          "reason": "「取り組み」という曖昧な表現であり、実行の有無を客観的に検証できる具体的な変数が示されていないため。",
+          "sources": "http://blog.livedoor.jp/m_nonouchi/archives/62964133.html",
+          "quote_text": "国土強靭化への取り組み。"
+        },
+        {
+          "title": "中山間地域・離島の再生と定住促進",
+          "reason": "「促進」は公約から直ちに却下すべき動詞であり、抽象的で客観的な効果測定が不可能なため。",
+          "sources": "http://blog.livedoor.jp/m_nonouchi/archives/62964133.html",
+          "quote_text": "中山間地域・離島の再生と定住促進。"
+        },
+        {
+          "title": "島根創生・地域経済の好循環化",
+          "reason": "抽象的なスローガンであり、いかなる法的・財政的措置を行うかが特定できないため。",
+          "sources": "http://blog.livedoor.jp/m_nonouchi/archives/62964133.html",
+          "quote_text": "島根創生・地域経済の好循環化。"
+        },
+        {
+          "title": "全世代の健康・福祉・子育ての充実",
+          "reason": "「充実」は具体的な変数が特定できず、客観的に達成度を検証不能なため。",
+          "sources": "http://blog.livedoor.jp/m_nonouchi/archives/62964133.html",
+          "quote_text": "全世代の健康・福祉・子育ての充実。"
+        },
+        {
+          "title": "農林水産業の振興",
+          "reason": "「振興」は抽象的な概念であり、具体的な制度や数値の変更を伴わないため。",
+          "sources": "http://blog.livedoor.jp/m_nonouchi/archives/62964133.html",
+          "quote_text": "農林水産業の振興。"
+        },
+        {
+          "title": "島根を守る強靭化",
+          "reason": "抽象的なスローガンであり、具体的な政策的コミットメントが含まれていないため。",
+          "sources": "http://blog.livedoor.jp/m_nonouchi/archives/62964133.html",
+          "quote_text": "島根を守る強靭化。"
+        }
+      ]
+    }
+  ]
+}

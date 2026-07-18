@@ -1,0 +1,42 @@
+{
+  "district": "山口1区",
+  "candidates": [
+    {
+      "name": "高村正大",
+      "party": "自由民主党",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "title": "国益と世界平和への貢献",
+          "reason": "抽象的なスローガンであり、具体的に操作可能な変数や制度変更が含まれておらず検証できないため。",
+          "sources": "https://www.komura-masahiro.jp/",
+          "quote_text": "国益を守り、世界の平和に貢献します。"
+        },
+        {
+          "title": "力強い経済と安心・安全で豊かな日本の維持",
+          "reason": "抽象的なスローガンであり、具体的な政治アクションや制度の変更を伴わず第三者が検証不可能であるため。",
+          "sources": "https://www.komura-masahiro.jp/",
+          "quote_text": "力強い経済を実現し、安心・安全で豊かな日本を守り抜きます。"
+        },
+        {
+          "title": "子供を産み育てやすい環境の構築",
+          "reason": "「環境」という抽象的な概念を対象としており、どの制度や数値を操作するかが不明確であるため。",
+          "sources": "https://www.komura-masahiro.jp/",
+          "quote_text": "子供を産み育てやすい環境をつくります。"
+        },
+        {
+          "title": "教育問題・環境問題への取り組み",
+          "reason": "「取り組みます」は曖昧な意気込みであり、具体的な法律や予算の変更等の観測可能な行動計画が示されていないため。",
+          "sources": "https://www.komura-masahiro.jp/",
+          "quote_text": "未来の為、教育問題・環境問題に取り組みます。"
+        },
+        {
+          "title": "敬老社会の構築",
+          "reason": "抽象的なスローガンであり「社会をつくります」という表現だけでは具体的な達成度を客観的に判定できないため。",
+          "sources": "https://www.komura-masahiro.jp/",
+          "quote_text": "長生きしてよかったと思える敬老社会をつくります。"
+        }
+      ]
+    }
+  ]
+}
