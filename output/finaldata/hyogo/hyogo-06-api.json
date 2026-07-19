@@ -1,0 +1,277 @@
+{
+  "district": "兵庫6区",
+  "candidates": [
+    {
+      "name": "大串正樹",
+      "party": "自由民主党",
+      "manifesto": [
+        {
+          "quote_text": "皇族数の確保に向けた皇室典範の改正",
+          "reason": "「皇室典範の改正」という明確な法改正の有無によって客観的に達成度を検証可能なため。",
+          "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
+          "title": "皇室典範の改正"
+        },
+        {
+          "quote_text": "有人国境離島法の改正",
+          "reason": "「有人国境離島法の改正」という具体的な法改正の有無によって客観的に達成度を検証可能なため（離島・半島振興の部分は抽象的のため除外）。",
+          "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
+          "title": "有人国境離島法の改正"
+        },
+        {
+          "quote_text": "観光立国推進基本計画の策定",
+          "reason": "「基本計画の策定」という閣議決定等の有無で客観的に検証可能なアクションを指しているため（推進の部分は除外）。",
+          "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
+          "title": "観光立国推進基本計画の策定"
+        },
+        {
+          "quote_text": "自衛隊員の処遇改善",
+          "reason": "防衛省職員の給与等に関する法律の改正等、客観的に実施の有無を検証可能な措置を指しているため（防衛施設の強靭化は抽象的のため除外）。",
+          "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
+          "title": "自衛隊員の処遇改善"
+        },
+        {
+          "quote_text": "経済安全保障推進法の改正",
+          "reason": "「経済安全保障推進法の改正」という明確な法改正の有無によって客観的に達成度を検証可能なため（環境への対応の部分は除外）。",
+          "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
+          "title": "経済安全保障推進法の改正"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "quote_text": "社会保障制度の改革",
+          "reason": "「改革」という表現は抽象的であり、具体的にどの法律を改正するのか、どの制度のステータスを変更するのかが一切示されていないため、客観的に達成を判定できない。",
+          "sources": "https://www.yomiuri.co.jp/local/kansai/news/20260209-GYO1T00221/",
+          "title": "社会保障制度の改革"
+        },
+        {
+          "quote_text": "消費税そのものは社会保障財源としても重要であり維持すべきで、原則、簡素な仕組みとするべきというのが基本的なスタンスです。",
+          "reason": "「維持すべき」「基本的なスタンス」という現状維持および意欲表明であり、具体的なアクションを伴わないため。",
+          "sources": "https://ameblo.jp/m-ogushi/entry-12954651854.html",
+          "title": "消費税の維持と簡素な仕組みのスタンス"
+        },
+        {
+          "quote_text": "物価高対策として消費税の減税議論を含めるかどうか、つまり制度毎に低所得者対策を講じることは整理が必要と考えています。",
+          "reason": "「議論を含める」「整理が必要」「考えています」という手続き・意欲表現であり、断定的なコミットメントではないため。",
+          "sources": "https://ameblo.jp/m-ogushi/entry-12954651854.html",
+          "title": "消費税の減税議論の整理"
+        },
+        {
+          "quote_text": "税率を引き上げることは経済政策と逆行するので全否定しますが、贅沢品と生活必需品の税率の配分を見直す議論はあって良いと考えます。",
+          "reason": "「見直す議論はあって良い」「考えます」という手続き表現であり、税率という変数をどう変更するかの具体的なアクションではないため。",
+          "sources": "https://ameblo.jp/m-ogushi/entry-12954651854.html",
+          "title": "贅沢品と生活必需品の税率配分の見直し議論"
+        },
+        {
+          "quote_text": "食料品の税率引き下げについては、恒久的な措置か期間限定的な措置かも併せて、実務的な議論が必要と考えます。",
+          "reason": "「実務的な議論が必要」「考えます」という手続き表現であり、具体的な法改正の有無等を示していないため。",
+          "sources": "https://ameblo.jp/m-ogushi/entry-12954651854.html",
+          "title": "食料品の税率引き下げの実務的議論"
+        },
+        {
+          "quote_text": "議員定数削減は一定理解できますが、乱暴に削減すると人口の少ない地方の課題が軽視される懸念があります。",
+          "reason": "「一定理解できる」「懸念がある」という現状認識であり、具体的な政策提案ではないため。",
+          "sources": "https://ameblo.jp/m-ogushi/entry-12954651854.html",
+          "title": "議員定数削減への理解と懸念"
+        },
+        {
+          "quote_text": "本来的には憲法改正で一票の格差に地域性を考慮する文言を含ませるべきと考えています。",
+          "reason": "「含ませるべき」「考えています」という意欲表現であり、憲法改正に向けた断定的なコミットメントではないため。",
+          "sources": "https://ameblo.jp/m-ogushi/entry-12954651854.html",
+          "title": "憲法改正による一票の格差への地域性考慮"
+        },
+        {
+          "quote_text": "その上で、衆議院と参議院の選挙制度の差異を明確にして、適正な議員数を議論すべきです。",
+          "reason": "「議論すべき」という手続き表現であり、具体的な制度変更を示していないため。",
+          "sources": "https://ameblo.jp/m-ogushi/entry-12954651854.html",
+          "title": "衆参の選挙制度の差異の明確化と適正議員数の議論"
+        },
+        {
+          "quote_text": "仕事をしない議員は不要ですが、それを有権者が判断できる形で見える化することが課題です。",
+          "reason": "「課題です」という現状認識であり、具体的なアクションを伴わないため。",
+          "sources": "https://ameblo.jp/m-ogushi/entry-12954651854.html",
+          "title": "有権者による議員の見える化の課題"
+        },
+        {
+          "quote_text": "エネルギーの安定供給の観点から原発はまずは再稼働を進めるべきと考えています。",
+          "reason": "「進めるべき」「考えています」という意欲表現であり、特定の原発の再稼働という具体的な変数が特定されていないため。",
+          "sources": "https://ameblo.jp/m-ogushi/entry-12954651854.html",
+          "title": "原発の再稼働の推進"
+        },
+        {
+          "quote_text": "その上で、地元の理解が得られる前提で新増設もできればと思います。",
+          "reason": "「できればと思います」という曖昧な意欲表現であり、断定的なコミットメントではないため。",
+          "sources": "https://ameblo.jp/m-ogushi/entry-12954651854.html",
+          "title": "原発の新増設"
+        },
+        {
+          "quote_text": "新設に当たっては、安全性を高めた新型炉や小型炉なども有力な施設で、理想的には安定供給の観点からも小型炉（ＳＭＲ）のスマートグリッドが良いと考えます。",
+          "reason": "「良いと考えます」という意見表明であり、制度のステータス変更や新規制度設立などの具体的アクションではないため。",
+          "sources": "https://ameblo.jp/m-ogushi/entry-12954651854.html",
+          "title": "新型炉や小型炉のスマートグリッドの推奨"
+        },
+        {
+          "quote_text": "原子力技術の継承と人材育成は必須です。",
+          "reason": "「必須です」という現状認識であり、具体的な制度変更や数値目標を伴わないため。",
+          "sources": "https://ameblo.jp/m-ogushi/entry-12954651854.html",
+          "title": "原子力技術の継承と人材育成"
+        },
+        {
+          "quote_text": "国内に限っては通称使用の拡大で、ほぼ問題ないと考えます。",
+          "reason": "「問題ないと考えます」という現状認識・意見表明であり、具体的なアクションではないため。",
+          "sources": "https://ameblo.jp/m-ogushi/entry-12954651854.html",
+          "title": "通称使用の拡大による対応"
+        },
+        {
+          "quote_text": "別氏の選択は海外で学術的な実績を婚姻後も継続したい場合など、極めて限定的なケースを想定しています。",
+          "reason": "「想定しています」という現状認識であり、政策の実施を示すものではないため。",
+          "sources": "https://ameblo.jp/m-ogushi/entry-12954651854.html",
+          "title": "別氏選択の限定的なケースの想定"
+        },
+        {
+          "quote_text": "また、自治体システム標準化の中で、戸籍システムの見直しや、個人認証制度（戸籍抄本・住民票・マイナンバーカードの混在）の整理も含めて、デジタル化の流れの中で検討すべき課題です。",
+          "reason": "「見直し」「検討すべき課題」という手続き表現であり、具体的なシステム変更のコミットメントではないため。",
+          "sources": "https://ameblo.jp/m-ogushi/entry-12954651854.html",
+          "title": "戸籍システムの見直しと個人認証制度の整理の検討"
+        },
+        {
+          "quote_text": "子の氏の扱いに明快な結論を得ていないので、通称使用拡大の検討と併せて議論が必要と考えます。",
+          "reason": "「検討」「議論」「考えます」という手続き表現であり、法改正等の具体的な変数が特定されていないため。",
+          "sources": "https://ameblo.jp/m-ogushi/entry-12954651854.html",
+          "title": "子の氏の扱いに関する通称使用拡大の検討と議論"
+        },
+        {
+          "quote_text": "基本的には皆保険制度によるフリーアクセスを維持すべきと考えますが",
+          "reason": "「維持すべき」「考えます」という現状維持・意欲表現であり、新たな制度変更を示すものではないため。",
+          "sources": "https://ameblo.jp/m-ogushi/entry-12954651854.html",
+          "title": "皆保険制度によるフリーアクセスの維持"
+        },
+        {
+          "quote_text": "非核三原則を国是として堅持すること。",
+          "reason": "「堅持」は現状維持の再確認であり、新たな政治的アクションではないため。",
+          "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
+          "title": "非核三原則の堅持"
+        },
+        {
+          "quote_text": "退職自衛官やその家族を支援する組織の構築。",
+          "reason": "「組織の構築」は対象（名詞）が抽象的であり、どのような法人格や制度を設けるか具体的な変数が特定できないため。",
+          "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
+          "title": "退職自衛官支援組織の構築"
+        },
+        {
+          "quote_text": "伊豆湘南自動車道の建設促進。",
+          "reason": "「促進」が含まれるため手続き・意欲表現に該当し、また特定地域への利益誘導であるため。",
+          "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
+          "title": "伊豆湘南自動車道の建設促進"
+        },
+        {
+          "quote_text": "「道の駅」の重要性を踏まえた、観光・防災の拠点としての活用推進。",
+          "reason": "「推進」が含まれるため手続き・意欲表現に該当するため。",
+          "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
+          "title": "道の駅の活用推進"
+        },
+        {
+          "quote_text": "中国の軍事活動の活発化（弾道ミサイル発射等）に対する外交ルートを通じた深刻な懸念の伝達、および日米韓等の同志国との連携による安全保障の確保。",
+          "reason": "「伝達」「連携」「確保」は具体的な制度変更や法改正を伴うものではなく、達成の有無が客観的に判断できないため。",
+          "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
+          "title": "外交ルートを通じた懸念の伝達および安全保障の確保"
+        },
+        {
+          "quote_text": "自衛隊の行動におけるネガティブリストとポジティブリストの検討。",
+          "reason": ":「検討」が含まれるため手続き・意欲表現に該当するため。",
+          "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
+          "title": "ネガティブリストとポジティブリストの検討"
+        },
+        {
+          "quote_text": "経済安全保障版セキュリティ・クリアランス制度の推進。",
+          "reason": "「推進」が含まれるため手続き・意欲表現に該当するため。",
+          "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
+          "title": "経済安全保障版セキュリティ・クリアランス制度の推進"
+        },
+        {
+          "quote_text": "国家安全保障戦略（安保三文書）の提言と、我が国が主体的な役割を果たす国際秩序の創造。",
+          "reason": "「提言」「創造」は具体的な法改正や制度の設立を伴わず、達成の有無が客観的に判断できないため。",
+          "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
+          "title": "国家安全保障戦略の提言と国際秩序の創造"
+        },
+        {
+          "quote_text": "CBRNEテロ対策の強化に向けた提言。",
+          "reason": ":「提言」「強化」が含まれるため、具体的な制度変更や数値目標を伴わない手続き・意欲表現に該当するため。",
+          "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
+          "title": "CBRNEテロ対策に向けた提言"
+        },
+        {
+          "quote_text": "防衛産業の振興。",
+          "reason": "「振興」が含まれるため手続き・意欲表現に該当するため。",
+          "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
+          "title": "防衛産業の振興"
+        },
+        {
+          "quote_text": "沖縄戦の歴史的事実をアーカイブ化し、後世に伝える取り組み。",
+          "reason": ":「取り組み」は曖昧な意気込みであり、具体的な制度設計や予算措置が明示されていないため。",
+          "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
+          "title": "沖縄戦の歴史的事実をアーカイブ化する取り組み"
+        },
+        {
+          "quote_text": "航空宇宙自衛隊の発足に伴う安全保障強化と地上自衛隊運用との連携。",
+          "reason": ":「強化」「連携」が含まれ、航空宇宙自衛隊の発足自体ではなくそれに伴う連携強化を主眼としており、具体的な制度変更の変数が不明なため。",
+          "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
+          "title": "航空宇宙自衛隊の発足に伴う安全保障強化と連携"
+        },
+        {
+          "quote_text": "防衛装備品の第三国移転に関する法的根拠の明確化。",
+          "reason": ":「明確化」は結果目標であり、どの法律のどの条文をどう変更するかという具体的なアクションが特定できないため。",
+          "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
+          "title": "防衛装備品の第三国移転に関する法的根拠の明確化"
+        },
+        {
+          "quote_text": "離島・半島振興および有人国境離島法の改正。",
+          "reason": ":「離島・半島振興」は抽象的な目標であり、変数が特定できないため。（有人国境離島法の改正部分は公約として採択済み）",
+          "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
+          "title": "離島・半島振興"
+        },
+        {
+          "quote_text": "観光立国推進基本計画の策定と推進。",
+          "reason": ":「推進」が含まれるため手続き・意欲表現に該当するため。（策定部分は公約として採択済み）",
+          "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
+          "title": "観光立国推進基本計画の推進"
+        },
+        {
+          "quote_text": "自衛隊員の処遇改善および防衛施設の強靭化。",
+          "reason": ":「強靭化」の基準や対象となる法律・予算が不明であり、客観的に達成度を検証できないため。（処遇改善部分は公約として採択済み）",
+          "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
+          "title": "防衛施設の強靭化"
+        },
+        {
+          "quote_text": "日・フィリピン物品役務相互提供協定（ACSA）や日・カナダ刑事共助条約等の重要条約の推進、およびフィリピンとの関係強化。",
+          "reason": ":「推進」「強化」が含まれるため手続き・意欲表現に該当するため。",
+          "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
+          "title": "重要条約の推進およびフィリピンとの関係強化"
+        },
+        {
+          "quote_text": "憲法への自衛隊明記に留まらない、自衛のための軍隊「自衛軍」の保持。",
+          "reason": ":「保持」という結果目標は表明されているものの、憲法改正という具体的なアクションのコミットメントが明示されていないため。",
+          "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
+          "title": "自衛軍の保持"
+        },
+        {
+          "quote_text": "経済安全保障推進法の改正および経済安全保障環境への対応。",
+          "reason": ":「環境への対応」は抽象的な概念であり、具体的な変数が特定できないため。（法改正部分は公約として採択済み）",
+          "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
+          "title": "経済安全保障環境への対応"
+        },
+        {
+          "quote_text": "副首都推進法案による首都機能の分散と東京一極集中の是正。",
+          "reason": ":法案の「制定」ではなく「分散」「是正」という結果目標に終始しており、法案が提出・成立したかというコミットメントが不明なため。",
+          "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
+          "title": "副首都推進法案による首都機能の分散と是正"
+        },
+        {
+          "quote_text": "国家情報局の立ち上げによるインテリジェンスとサイバーの連携強化。",
+          "reason": ":「連携強化」が含まれ、また国家情報局の立ち上げ自体が具体的な法制定のプロセスを明示していないため。",
+          "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
+          "title": "国家情報局の立ち上げによる連携強化"
+        }
+      ]
+    }
+  ]
+}

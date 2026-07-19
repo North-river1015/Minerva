@@ -9,7 +9,7 @@ data/raw_pdf
 old_stuff/
 #output/
 draft.py
-output/api
+#output/api
 check_other_ai.py
 #node_modules/
 public

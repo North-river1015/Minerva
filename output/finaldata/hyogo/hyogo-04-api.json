@@ -1,0 +1,145 @@
+{
+  "district": "兵庫4区",
+  "candidates": [
+    {
+      "name": "藤井比早之",
+      "party": "自由民主党",
+      "manifesto": [
+        {
+          "quote_text": "「国家情報局」設置",
+          "reason": "新規の組織設立を明言しており、その存否によって客観的に確認可能であるため。",
+          "sources": "https://fujiihisayuki.jp/for-japan/policy",
+          "title": "国家情報局の設置"
+        },
+        {
+          "quote_text": "「対日外国投資委員会」創設",
+          "reason": "特定の新規制度の設立を指しており、その存否によって実施の有無を明確に判定できるため。",
+          "sources": "https://fujiihisayuki.jp/for-japan/policy",
+          "title": "対日外国投資委員会の創設"
+        },
+        {
+          "quote_text": "スパイ防止法制定",
+          "reason": "新法の制定を明言しており、法成立の有無によって客観的に検証可能であるため。",
+          "sources": "https://fujiihisayuki.jp/for-japan/policy",
+          "title": "スパイ防止法の制定"
+        },
+        {
+          "quote_text": "テレビ組合支援の新制度・新法制定",
+          "reason": "「新法制定」という具体的な立法行動を指しており、法成立の有無で判定可能であるため。",
+          "sources": "https://fujiihisayuki.jp/for-japan/policy",
+          "title": "テレビ組合支援の新法制定"
+        },
+        {
+          "quote_text": "所得税減税による「年収の壁」178万円の実現、手取りの増加",
+          "reason": "「所得税減税」という法改正と「178万円」という具体的な数値目標を明示しており、客観的な検証が可能であるため。",
+          "sources": "https://fujiihisayuki.jp/for-japan/policy",
+          "title": "所得税減税による年収の壁178万円の実現"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "quote_text": "外交・防衛・情報力を抜本強化し、領土・領海・領空を守り抜く。",
+          "reason": "「抜本強化」「守り抜く」という抽象的なスローガンであり、具体的な制度変更や数値目標が含まれていないため。",
+          "sources": "https://fujiihisayuki.jp/for-japan/policy",
+          "title": "外交・防衛・情報力の抜本強化"
+        },
+        {
+          "quote_text": "サイバー・宇宙・ドローン・ＡＩ・情報セキュリティ強化、防衛生産基盤強化。",
+          "reason": "「強化」という表現が含まれており、対象も抽象的で客観的な達成基準が不明であるため。",
+          "sources": "https://fujiihisayuki.jp/for-japan/policy",
+          "title": "サイバー・宇宙等の情報セキュリティ強化・防衛生産基盤強化"
+        },
+        {
+          "quote_text": "重要鉱物、レアアースの国産化、サプライチェーンの強化、多角化。",
+          "reason": "「国産化」「強化」「多角化」は目標を掲げているものの、法改正や具体的な予算確保といった変数が特定されていないため。",
+          "sources": "https://fujiihisayuki.jp/for-japan/policy",
+          "title": "重要鉱物、レアアースの国産化・サプライチェーン強化"
+        },
+        {
+          "quote_text": "海底ケーブル防御・データセンター分散強化。",
+          "reason": "「強化」が含まれており、具体的な制度変更や数値目標がないため。",
+          "sources": "https://fujiihisayuki.jp/for-japan/policy",
+          "title": "海底ケーブル防御・データセンター分散強化"
+        },
+        {
+          "quote_text": "日米同盟に加え、同志国連携（日米英・日米豪・日米韓・日米比、クアッド、AUKUS、ＮＡＴＯ、ファイブアイズ）およびＡＳＥＡＮ諸国とのＯＳＡ連携の強化。",
+          "reason": "「連携の強化」は国際関係の意向表明であり、客観的に実施されたか判定できる変数が存在しないため。",
+          "sources": "https://fujiihisayuki.jp/for-japan/policy",
+          "title": "同志国連携およびASEAN諸国とのOSA連携の強化"
+        },
+        {
+          "quote_text": "シェルター整備、国民保護体制強化。",
+          "reason": "「整備」「強化」の対象が抽象的であり、どの法律を改正し、どの予算を確保するかといった具体的な変数が示されていないため。",
+          "sources": "https://fujiihisayuki.jp/for-japan/policy",
+          "title": "シェルター整備・国民保護体制強化"
+        },
+        {
+          "quote_text": "全拉致被害者の即時帰国。",
+          "reason": "要望や目標であり、日本国内の法改正や制度変更といった政治的アクションの対象が特定されていないため。",
+          "sources": "https://fujiihisayuki.jp/for-japan/policy",
+          "title": "全拉致被害者の即時帰国"
+        },
+        {
+          "quote_text": "日本列島を強く豊かにするため、責任ある積極財政で列島改造を行う。",
+          "reason": "「列島改造」「積極財政」は抽象的なスローガンであり、具体的な制度変更が示されていないため。",
+          "sources": "https://fujiihisayuki.jp/for-japan/policy",
+          "title": "積極財政による列島改造"
+        },
+        {
+          "quote_text": "高速ネットワーク整備、半導体・データセンター・宇宙・サイバー・ＡＩ・ドローン生産拠点の地方立地による雇用創出。",
+          "reason": "「整備」「創出」は具体的な制度変更や法的措置を伴わず、利益誘導的かつ達成基準が曖昧であるため。",
+          "sources": "https://fujiihisayuki.jp/for-japan/policy",
+          "title": "生産拠点の地方立地による雇用創出"
+        },
+        {
+          "quote_text": "調整区域・農振地域見直しによる土地利活用促進、地域の雇用と居住空間、地域社会の担い手の確保。",
+          "reason": "「見直し」「促進」「確保」が含まれており、手続き表現または抽象的な目標であり、客観的な変数が特定できないため。",
+          "sources": "https://fujiihisayuki.jp/for-japan/policy",
+          "title": "調整区域・農振地域見直しによる土地利活用促進"
+        },
+        {
+          "quote_text": "農業構造転換（米価の「三方良し」実現）",
+          "reason": "「三方良し」は抽象的な概念であり、具体的にどの制度や法律を変更するのかが示されていないため。",
+          "sources": "https://fujiihisayuki.jp/for-japan/policy",
+          "title": "農業構造転換（米価の三方良し実現）"
+        },
+        {
+          "quote_text": "草刈り支援、ため池・水路管理支援、中山間地の生産基盤支援、スマート農業支援、有害鳥獣対策、ジャンボタニシ対策。",
+          "reason": "「支援」「対策」は抽象的であり、具体的な予算措置や法改正が明示されていないため。",
+          "sources": "https://fujiihisayuki.jp/for-japan/policy",
+          "title": "農業・農村支援各種"
+        },
+        {
+          "quote_text": "品種改良・イノベーションによる高付加価値農林水産品の生産・輸出拡大、インバウンド拡大。",
+          "reason": "「拡大」は数値目標がなく、制度変更を伴わない曖昧な意気込みであるため。",
+          "sources": "https://fujiihisayuki.jp/for-japan/policy",
+          "title": "高付加価値農林水産品の生産・輸出拡大"
+        },
+        {
+          "quote_text": "燃油・肥料・飼料・農薬・農機具等の生産資材購入支援。",
+          "reason": "「支援」という抽象的な表現であり、法改正や予算確保の具体的な変数が不明であるため。",
+          "sources": "https://fujiihisayuki.jp/for-japan/policy",
+          "title": "生産資材購入支援"
+        },
+        {
+          "quote_text": "ドローン物流革命、自動運転、地域の足の確保、ライドシェアの推進。",
+          "reason": "「推進」「確保」が含まれており、具体的な法改正や制度変更の対象が特定されていないため。",
+          "sources": "https://fujiihisayuki.jp/for-japan/policy",
+          "title": "ドローン物流革命・ライドシェアの推進"
+        },
+        {
+          "quote_text": "空き家問題解決。",
+          "reason": "「解決」という目標のみであり、どの法律を改正し、どのような制度を導入するかが示されていないため。",
+          "sources": "https://fujiihisayuki.jp/for-japan/policy",
+          "title": "空き家問題解決"
+        },
+        {
+          "quote_text": "防災・減災・国土強靭化（水害予防のための河川改修、河川の浚渫・樹木伐採、内水対策・ポンプ整備）。",
+          "reason": "「改修」「整備」は公共事業の継続・推進であり、新たな制度導入や法改正のコミットメントではないため。",
+          "sources": "https://fujiihisayuki.jp/for-japan/policy",
+          "title": "防災・減災・国土強靭化"
+        }
+      ]
+    }
+  ]
+}

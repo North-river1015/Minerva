@@ -1,0 +1,126 @@
+{
+  "district": "大阪16区",
+  "candidates": [
+    {
+      "name": "黒田征樹",
+      "party": "日本維新の会",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "quote_text": "税金の使い道をゼロからみなおす",
+          "reason": "「みなおす」は手続き・意欲表現であり、具体的な変数が不明なため。",
+          "sources": "https://www.kuroda-masaki.com/policy",
+          "title": "税金の使い道をゼロからみなおす"
+        },
+        {
+          "quote_text": "ムダを徹底的に排除し、必要なところに確実に届ける",
+          "reason": "「徹底的に排除」「確実に届ける」は抽象的なスローガンであり、客観的な判定が不可能なため。",
+          "sources": "https://www.kuroda-masaki.com/policy",
+          "title": "ムダを徹底的に排除し、必要なところに確実に届ける"
+        },
+        {
+          "quote_text": "行政の透明化を高め、説明責任をはたす",
+          "reason": "抽象的なスローガンであり、具体的な制度変更が不明なため。",
+          "sources": "https://www.kuroda-masaki.com/policy",
+          "title": "行政の透明化を高め、説明責任をはたす"
+        },
+        {
+          "quote_text": "デジタル化と業務改革で効率と質を両立させる",
+          "reason": "抽象的なスローガンであり、客観的な判定が不可能なため。",
+          "sources": "https://www.kuroda-masaki.com/policy",
+          "title": "デジタル化と業務改革で効率と質を両立させる"
+        },
+        {
+          "quote_text": "新産業・スタートアップへの参入障壁を取り払う",
+          "reason": "対象が抽象的であり、どの法律・規制を廃止・改正するかが不明なため。",
+          "sources": "https://www.kuroda-masaki.com/policy",
+          "title": "新産業・スタートアップへの参入障壁を取り払う"
+        },
+        {
+          "quote_text": "地方の資源を活かした自由な経済活動を後押しする",
+          "reason": "「後押し」が含まれており、結果へのコミットではなく客観的な判定が不可能なため。",
+          "sources": "https://www.kuroda-masaki.com/policy",
+          "title": "地方の資源を活かした自由な経済活動を後押しする"
+        },
+        {
+          "quote_text": "行政の許認可を見直し、迅速かつ柔軟な対応を可能にする",
+          "reason": "「見直し」が含まれており、具体的な変更対象が不明なため。",
+          "sources": "https://www.kuroda-masaki.com/policy",
+          "title": "行政の許認可を見直し、迅速かつ柔軟な対応を可能にする"
+        },
+        {
+          "quote_text": "働き方・雇用制度を改革し、個人の力を最大限に引き出す",
+          "reason": "対象が抽象的であり、具体的な法改正や数値目標が不明なため。",
+          "sources": "https://www.kuroda-masaki.com/policy",
+          "title": "働き方・雇用制度を改革し、個人の力を最大限に引き出す"
+        },
+        {
+          "quote_text": "災害・感染症・食料・エネルギーなど、あらゆる危機に対応できる国家の備えを強化する",
+          "reason": "「強化」が含まれており、客観的な判定が不可能なため。",
+          "sources": "https://www.kuroda-masaki.com/policy",
+          "title": "国家の備えを強化する"
+        },
+        {
+          "quote_text": "社会保障制度を持続可能な形に再設計し、世代間の公平を確保する",
+          "reason": "「再設計」は手続き的であり、具体的な制度変更が不明なため。",
+          "sources": "https://www.kuroda-masaki.com/policy",
+          "title": "社会保障制度を持続可能な形に再設計する"
+        },
+        {
+          "quote_text": "財政の健全化と必要な投資のメリハリを徹底する",
+          "reason": "「徹底」が含まれており、客観的な判定が不可能なため。",
+          "sources": "https://www.kuroda-masaki.com/policy",
+          "title": "財政の健全化と必要な投資のメリハリを徹底する"
+        },
+        {
+          "quote_text": "外交・防衛・経済安全保障を一体で捉え、抑止力と国際協力を両立する",
+          "reason": "抽象的なスローガンであり、客観的な判定が不可能なため。",
+          "sources": "https://www.kuroda-masaki.com/policy",
+          "title": "抑止力と国際協力を両立する"
+        },
+        {
+          "quote_text": "外国人の受け入れにおいて、国民生活と安全を最優先するルールを整備する",
+          "reason": "「ルールを整備する」は対象が抽象的であり、具体的な法改正が不明なため。",
+          "sources": "https://www.kuroda-masaki.com/policy",
+          "title": "外国人受け入れのルールを整備する"
+        },
+        {
+          "quote_text": "中央集権から地方分権へ。道州制を見据え、地域が自らの未来を決める仕組みにする",
+          "reason": "「仕組みにする」は抽象的であり、道州制関連法案の制定など具体的なアクションが不明なため。",
+          "sources": "https://www.kuroda-masaki.com/policy",
+          "title": "地域が自らの未来を決める仕組みにする"
+        },
+        {
+          "quote_text": "官僚主導から民主主導へ。選ばれた代表が責任を持って政策を決める政治にする",
+          "reason": "抽象的なスローガンであり、客観的な判定が不可能なため。",
+          "sources": "https://www.kuroda-masaki.com/policy",
+          "title": "官僚主導から民主主導への移行"
+        },
+        {
+          "quote_text": "行政・立法・司法の役割を明確化し、政治の透明性と説明責任を徹底する",
+          "reason": "「徹底」が含まれており、客観的な判定が不可能なため。",
+          "sources": "https://www.kuroda-masaki.com/policy",
+          "title": "政治の透明性と説明責任を徹底する"
+        },
+        {
+          "quote_text": "デジタル技術を活用し、誰もが参加できる政治を実現",
+          "reason": "抽象的なスローガンであり、客観的な判定が不可能なため。",
+          "sources": "https://www.kuroda-masaki.com/policy",
+          "title": "誰もが参加できる政治を実現"
+        },
+        {
+          "quote_text": "多極化・分散型の国家運営（道州制）を目指し、首都機能を分散する副首都構想を進める",
+          "reason": "「目指し」「進める」という手続き・意欲表現が含まれており、断定的なコミットメントではないため。",
+          "sources": "https://www.kuroda-masaki.com/policy",
+          "title": "道州制を目指し、副首都構想を進める"
+        },
+        {
+          "quote_text": "未来を見据えた構造改革と、憲法改正による現実的な安全保障体制の確立に挑む",
+          "reason": "「挑む」という意欲表現であり、具体的な条文変更の有無が確定できないため。",
+          "sources": "https://www.kuroda-masaki.com/policy",
+          "title": "憲法改正による安全保障体制の確立に挑む"
+        }
+      ]
+    }
+  ]
+}

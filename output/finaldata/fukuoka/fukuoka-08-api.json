@@ -1,0 +1,223 @@
+{
+  "district": "福岡8区",
+  "candidates": [
+    {
+      "name": "麻生太郎",
+      "party": "自由民主党",
+      "manifesto": [
+        {
+          "quote_text": "定額減税の実施",
+          "reason": "定額減税の実施は税制上の具体的な変更であり、法改正等によって客観的に実施の有無が判断可能であるため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "定額減税の実施"
+        },
+        {
+          "quote_text": "定率減税の復活",
+          "reason": "廃止された税制を復活させるという具体的な制度のステータス変更であり、法改正の有無で検証可能なため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "定率減税の復活"
+        },
+        {
+          "quote_text": "法人税減税の実施",
+          "reason": "法人税率の引き下げという具体的な数値・条件の変更であり、法改正の有無で客観的に判断できるため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "法人税減税の実施"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "quote_text": "野党が主張する消費税減税に対し、インフレ下で消費税率を下げて消費が増えた例はないとして否定的な考えを示す。また、一度下げた税率は将来的に引き上げざるを得なくなるという懸念から、減税に否定的な立場をとる。",
+          "reason": "麻生太郎自身の政策提案ではなく、野党の主張に対する否定的な考えや懸念の表明であり、具体的な法改正や新規制度の導入といった断定的なコミットメントを伴わないため。",
+          "sources": "https://www.jiji.com/jc/article?k=2025090300942&g=pol",
+          "title": "野党が主張する消費税減税への否定的立場"
+        },
+        {
+          "quote_text": "未来を見据えた景気対策（短期集中・重点特化型の立て直し、当面の歪みを正し、グローバル競争の中で駆け抜ける脚力を鍛え直す施策）",
+          "reason": "抽象的なスローガンであり、具体的なアクションや変数が示されていないため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "未来を見据えた景気対策"
+        },
+        {
+          "quote_text": "年金・医療・雇用・子育てにおける暮らしや老後の不安をなくす施策",
+          "reason": "抽象的な目標であり、具体的な法改正や数値目標が存在しないため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "年金・医療・雇用・子育てにおける不安をなくす施策"
+        },
+        {
+          "quote_text": "日本の経済が全治三年であることを前提とした治療策",
+          "reason": "現状認識および抽象的な表現であり、具体的な政策手段が不明なため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "日本の経済が全治三年であることを前提とした治療策"
+        },
+        {
+          "quote_text": "政府与党がとりまとめた経済政策の実施",
+          "reason": "既にまとめられた政策の実施という現状維持であり、新たな政治的コミットメントではないため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "政府与党がとりまとめた経済政策の実施"
+        },
+        {
+          "quote_text": "年金や医療制度を安心できるものに立て直すための施策",
+          "reason": "「立て直すための施策」という抽象的な表現であり、具体的なアクションが示されていないため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "年金や医療制度を立て直すための施策"
+        },
+        {
+          "quote_text": "希望をもって子供を産み育てることができる環境整備",
+          "reason": "「環境整備」という抽象的な概念であり、検証可能な変数が特定できないため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "子供を産み育てることができる環境整備"
+        },
+        {
+          "quote_text": "消費者庁を創設し国民の不安を解消するための施策",
+          "reason": "消費者庁はすでに創設されているため、現状維持・再確認に過ぎず新規公約ではないため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "消費者庁を創設し国民の不安を解消するための施策"
+        },
+        {
+          "quote_text": "テロとの戦いにおいて「逃げない」とされる施策",
+          "reason": "単なる意気込み・スローガンであり、具体的な政策アクションが不明なため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "テロとの戦いにおいて「逃げない」とされる施策"
+        },
+        {
+          "quote_text": "社会保障や安全網の強化策",
+          "reason": "「強化」という抽象的な表現であり、具体的にどの変数を変更するのか不明なため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "社会保障や安全網の強化策"
+        },
+        {
+          "quote_text": "ワーキングプアや悩んでいる若者への対策",
+          "reason": "「対策」という抽象的な表現であり、具体的な制度変更が示されていないため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "ワーキングプアや悩んでいる若者への対策"
+        },
+        {
+          "quote_text": "老若男女が元気に社会参加し、働きがいのある日本をつくるための施策",
+          "reason": "抽象的なスローガンであり、客観的な達成基準が存在しないため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "元気に社会参加し働きがいのある日本をつくる施策"
+        },
+        {
+          "quote_text": "活力ある明るい高齢社会をつくるための施策",
+          "reason": "抽象的なスローガンであり、具体的な政策手段が不明なため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "活力ある明るい高齢社会をつくるための施策"
+        },
+        {
+          "quote_text": "それぞれの地域が活力を持ち、誇りを持って暮らせる国にするための施策",
+          "reason": "抽象的なスローガンであり、検証可能な変数が特定できないため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "それぞれの地域が活力を持ち、誇りを持って暮らせる国にするための施策"
+        },
+        {
+          "quote_text": "「地域の元気」を応援するとともに、地域の生活を守るための施策",
+          "reason": "抽象的な表現であり、具体的な法改正や制度変更がないため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "地域の元気を応援し地域の生活を守るための施策"
+        },
+        {
+          "quote_text": "世界の平和と発展に力を尽くすための施策",
+          "reason": "抽象的な外交スローガンであり、客観的な達成基準が存在しないため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "世界の平和と発展に力を尽くすための施策"
+        },
+        {
+          "quote_text": "世界の人と企業、資金が入ってくるようにするための施策",
+          "reason": "抽象的な目標であり、具体的な政策変数が示されていないため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "世界の人と企業、資金が入ってくるようにするための施策"
+        },
+        {
+          "quote_text": "日本の文化を世界に広めるための施策",
+          "reason": "抽象的な目標であり、客観的な達成基準が存在しないため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "日本の文化を世界に広めるための施策"
+        },
+        {
+          "quote_text": "持続的かつ安定した経済成長を目指すための施策",
+          "reason": "「目指す」という手続き・意欲表現であり、具体的なコミットメントではないため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "持続的かつ安定した経済成長を目指すための施策"
+        },
+        {
+          "quote_text": "政策減税・規制改革で日本の潜在力を生かす成長政策",
+          "reason": "「成長政策」という抽象的な枠組みの表明であり、具体的な変数が特定できないため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "政策減税・規制改革で日本の潜在力を生かす成長政策"
+        },
+        {
+          "quote_text": "先端技術開発の加速に関する施策",
+          "reason": "「加速」という抽象的な表現であり、具体的な制度変更や予算措置が不明なため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "先端技術開発の加速に関する施策"
+        },
+        {
+          "quote_text": "安心できる介護保険制度の確立",
+          "reason": "「確立」という抽象的な目標であり、どの変数を変更するのか不明なため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "安心できる介護保険制度の確立"
+        },
+        {
+          "quote_text": "教員が一人ひとりの子供と向き合う環境の整備",
+          "reason": "「環境の整備」という抽象的な概念であり、検証可能な変数が特定できないため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "教員が一人ひとりの子供と向き合う環境の整備"
+        },
+        {
+          "quote_text": "教育現場の声を取り入れた学校再生策",
+          "reason": "「再生策」という抽象的な表現であり、具体的な制度変更が示されていないため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "教育現場の声を取り入れた学校再生策"
+        },
+        {
+          "quote_text": "親の負担を軽減し、学校を各家庭が選べる仕組みの構築",
+          "reason": "「仕組みの構築」という抽象的な概念であり、具体的な法改正や制度ステータスの変更が不明なため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "親の負担を軽減し、学校を各家庭が選べる仕組みの構築"
+        },
+        {
+          "quote_text": "守るだけの農業から外で闘う農業に転換するための施策",
+          "reason": "抽象的なスローガンであり、具体的な政策手段が示されていないため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "守るだけの農業から外で闘う農業に転換するための施策"
+        },
+        {
+          "quote_text": "食糧自給率引き上げのための施策",
+          "reason": "「ための施策」という抽象的な表現であり、自給率目標の変更や具体的な制度改正が不明なため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "食糧自給率引き上げのための施策"
+        },
+        {
+          "quote_text": "日本の優れた農産品の輸出に関する施策",
+          "reason": "「に関する施策」という抽象的な表現であり、具体的なアクションが存在しないため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "日本の優れた農産品の輸出に関する施策"
+        },
+        {
+          "quote_text": "建設業の新分野への転換の支援",
+          "reason": "「支援」という抽象的な表現であり、客観的な達成基準が存在しないため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "建設業の新分野への転換の支援"
+        },
+        {
+          "quote_text": "良好な環境を守り、自然と共生できる社会を子供たちに引きつぐための施策",
+          "reason": "抽象的なスローガンであり、検証可能な変数が特定できないため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "自然と共生できる社会を子供たちに引きつぐための施策"
+        },
+        {
+          "quote_text": "低炭素社会の実現に向けた施策",
+          "reason": "「向けた施策」という抽象的な表現であり、具体的な法改正や数値目標が存在しないため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "低炭素社会の実現に向けた施策"
+        },
+        {
+          "quote_text": "抜本的な少子化対策",
+          "reason": "「対策」という抽象的な表現であり、具体的な制度変更が示されていないため。",
+          "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
+          "title": "抜本的な少子化対策"
+        }
+      ]
+    }
+  ]
+}

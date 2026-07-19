@@ -1,0 +1,30 @@
+{
+  "district": "福岡6区",
+  "candidates": [
+    {
+      "name": "鳩山二郎",
+      "party": "自由民主党",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "title": "地方創生による地域の活性化",
+          "reason": "「活性化」は抽象的なスローガンであり、具体的な制度変更、法的措置、数値目標などの客観的に検証可能な変数が含まれていないため。",
+          "sources": "https://www.yomiuri.co.jp/local/kyushu/news/20260209-GYS1T00022/",
+          "quote_text": "地方創生による地域の活性化"
+        },
+        {
+          "title": "収益力のある第１次産業の構築",
+          "reason": "「構築」という動詞があるが対象が抽象的であり、法改正や予算確保など具体的かつ観測可能な変数の変更が示されていないため。",
+          "sources": "https://www.yomiuri.co.jp/local/kyushu/news/20260209-GYS1T00022/",
+          "quote_text": "収益力のある第１次産業の構築"
+        },
+        {
+          "title": "水害に強い地域作り",
+          "reason": "「地域作り」は抽象的な目標であり、具体的な制度変更や新規制度の設立など、第三者が客観的に達成度を判定できる変数が存在しないため。",
+          "sources": "https://www.yomiuri.co.jp/local/kyushu/news/20260209-GYS1T00022/",
+          "quote_text": "水害に強い地域作り"
+        }
+      ]
+    }
+  ]
+}
