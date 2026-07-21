@@ -173,7 +173,7 @@ if __name__ == "__main__":
     
     # =================【設定セクション】=================
 
-    TARGET_PREFECTURE = ["gifu"]
+    TARGET_PREFECTURE = ["nagano"]
 #"hokkaido","akita","aomori","chiba","fukushima","gunma","ibaraki","iwate","kanagawa","miyagi","saitama","tochigi","yamagata"
     # fukui gifu  ishikawa    nagano niigata  shiga  toyama  "fukui","gifu","ishikawa","nagano","niigata","toyama","shiga","kyoto","mie"
 
