@@ -113,7 +113,7 @@ def merge_district_data(district, district_num):
 
 if __name__ == "__main__":
     # 東京1区と2区を処理する (必要に応じて範囲を広げてください)
-    district_list=["nagano"]
+    district_list=["okayama"]
     for district in district_list:
         for i in range(1, 31):
             merge_district_data(district,i)
