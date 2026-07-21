@@ -1,0 +1,39 @@
+{
+  "district": "香川3区",
+  "district_code": "2026-shu-kagawa-3",
+  "candidates": [
+    {
+      "name": "大野敬太郎",
+      "party": "自由民主党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "地方中長期課題にシッカリ取り組みます！",
+            "body": ""
+          },
+          {
+            "header": "自民党公認",
+            "body": "大野敬太郎"
+          },
+          {
+            "header": "（※注：提供された画像内には、政策に関する具体的なアクションや詳細な記述は含まれておらず、断片的な文字列のみが確認できます。）",
+            "body": ""
+          }
+        ],
+        "manifesto": []
+      },
+      "web": {
+        "manifesto": [
+          {
+            "title": "防衛装備移転における「5類型」の撤廃",
+            "reason": "「5類型の撤廃」と「移転を原則可能とする」という制度のステータス変更を具体的に示しており、指針や運用方針の改定によって客観的に検証可能なため。",
+            "sources": "https://www.jimin.jp/news/information/213119.html",
+            "quote_text": "防衛装備移転における「5類型（救難・輸送・警戒・監視・掃海）」を撤廃し、全ての完成品や部品等の移転を原則可能とする",
+            "policy_id": "policy_256"
+          }
+        ],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

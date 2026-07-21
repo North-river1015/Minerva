@@ -9,61 +9,71 @@
           "title": "所得税の103万円の壁の引き上げ",
           "reason": "基礎控除等の税制上の具体的なパラメータ変更を指しており、法改正の実施有無によって客観的に検証が可能であるため。",
           "sources": "https://fumiaki-kobayashi.jp/archives/5781",
-          "quote_text": "所得税の103万円の壁を物価上昇に合わせて引き上げ"
+          "quote_text": "所得税の103万円の壁を物価上昇に合わせて引き上げ",
+          "policy_id": "policy_305"
         },
         {
           "title": "医療・介護・福祉分野の公定価格の引き上げ",
           "reason": "政府が決定する公定価格（診療報酬等）という具体的な変数の変更であり、改定の客観的な事実確認が可能なため。",
           "sources": "https://fumiaki-kobayashi.jp/archives/5781",
-          "quote_text": "政府による公定価格の引き上げを行う。"
+          "quote_text": "政府による公定価格の引き上げを行う。",
+          "policy_id": "policy_085"
         },
         {
           "title": "下請法の改正",
           "reason": "「法律の改正」という制度的変更であり、法改正の有無という明確な指標で検証できるため。",
           "sources": "https://fumiaki-kobayashi.jp/archives/5781",
-          "quote_text": "下請法の改正により"
+          "quote_text": "下請法の改正により",
+          "policy_id": "policy_273"
         },
         {
           "title": "設備投資減税の実現",
           "reason": "「減税」という具体的な税制上の変数変更を指し、関連法の改正などにより実行が客観的に判断できるため。",
           "sources": "https://fumiaki-kobayashi.jp/archives/5781",
-          "quote_text": "製造業の国内回帰に対応する大規模な設備投資減税を実現する。"
+          "quote_text": "製造業の国内回帰に対応する大規模な設備投資減税を実現する。",
+          "policy_id": "policy_305"
         },
         {
           "title": "導入台数を基準とした定量目標の設定",
           "reason": "「定量目標を設定する」という行政的アクション・ステータス変更を断定的にコミットしており、数値指標の有無によって客観的に検証可能なため。",
           "sources": "https://fumiaki-kobayashi.jp/archives/6124",
-          "quote_text": "人手不足代替率を分野別・年次別の導入台数として定量目標を設定"
+          "quote_text": "人手不足代替率を分野別・年次別の導入台数として定量目標を設定",
+          "policy_id": "policy_305"
         },
         {
           "title": "基金化を含む複数年度予算の確保",
           "reason": "「複数年度予算の確保」という具体的な政治行動を指しており、予算の成立という形で達成度が後に客観的に検証できるため。",
           "sources": "https://fumiaki-kobayashi.jp/archives/6124",
-          "quote_text": "基金化を含む複数年度予算の確保"
+          "quote_text": "基金化を含む複数年度予算の確保",
+          "policy_id": "policy_305"
         },
         {
           "title": "ヒューマノイド型・遠隔操作型ロボットの重点分野への追加",
           "reason": "「重点分野に追加する」という制度のステータス変更を明言しており、要件の変更や指定という客観的かつ明確な基準によって検証できるため。",
           "sources": "https://fumiaki-kobayashi.jp/archives/6124",
-          "quote_text": "周辺業務を担うヒューマノイド型・遠隔操作型ロボットを重点分野に追加する。"
+          "quote_text": "周辺業務を担うヒューマノイド型・遠隔操作型ロボットを重点分野に追加する。",
+          "policy_id": "policy_305"
         },
         {
           "title": "サブスクリプション形態に対応した補助制度の整備と対象指定",
           "reason": "「補助制度を整備し」「補助対象とする」という具体的な制度変更や新規適用を明記しており、月額利用料等の変数が設定されているため判定可能なコミットメントである。",
           "sources": "https://fumiaki-kobayashi.jp/archives/6124",
-          "quote_text": "サブスクリプション・サービス（RaaS）形態に対応した補助制度を整備し、月額利用料や運用設計費、定着支援費を補助対象とする。"
+          "quote_text": "サブスクリプション・サービス（RaaS）形態に対応した補助制度を整備し、月額利用料や運用設計費、定着支援費を補助対象とする。",
+          "policy_id": "policy_305"
         },
         {
           "title": "国産ロボットの優先調達制度の創設",
           "reason": "「優先調達制度」という特定の新規制度の設立を明言しており、その制度または法律が存在するかどうかによって100%客観的に判定できるため。",
           "sources": "https://fumiaki-kobayashi.jp/archives/6124",
-          "quote_text": "国産ロボットの優先調達制度を創設し"
+          "quote_text": "国産ロボットの優先調達制度を創設し",
+          "policy_id": "policy_305"
         },
         {
           "title": "ロボットを評価可能な積算基準の設計",
           "reason": "公共調達にかかる「積算基準」という特定の計算ルール・制度の設計を断定しており、文書の有無によって客観的に検証できるため。",
           "sources": "https://fumiaki-kobayashi.jp/archives/6124",
-          "quote_text": "ロボットを人手代替リソースとして正当に評価可能な積算基準を設計する。"
+          "quote_text": "ロボットを人手代替リソースとして正当に評価可能な積算基準を設計する。",
+          "policy_id": "policy_305"
         }
       ],
       "not-manifesto": [

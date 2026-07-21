@@ -17,42 +17,42 @@
           "reason": "「暫定税率の廃止」という具体的な制度のステータス変更を指しており、法改正により実施が確認できるため。",
           "sources": "https://go2senkyo.com/seijika/142041",
           "quote_text": "ガソリン軽油の暫定税率廃止",
-          "policy_id": "policy_167"
+          "policy_id": "policy_305"
         },
         {
           "title": "基礎控除の178万円への引き上げ",
           "reason": "「178万円」という具体的な金額パラメーターの変更が明示されており、税制改正の有無で客観的に判定できるため。",
           "sources": "https://go2senkyo.com/seijika/142041",
           "quote_text": "１７８万円へ基礎控除を引き上げ",
-          "policy_id": "policy_197"
+          "policy_id": "policy_162"
         },
         {
           "title": "児童手当の一人2万円上乗せ",
           "reason": "「一人2万円」という具体的な金額数値の変更が明示されており、検証可能であるため。",
           "sources": "https://go2senkyo.com/seijika/142041",
           "quote_text": "児童手当一人２万円上乗せ",
-          "policy_id": "policy_197"
+          "policy_id": "policy_305"
         },
         {
           "title": "医療機関への1.4兆円支援",
           "reason": "「1.4兆円」という具体的な予算規模が明記されており、予算措置の有無で実行が確認できるため。",
           "sources": "https://go2senkyo.com/seijika/142041",
           "quote_text": "医療機関へ１.４兆円支援",
-          "policy_id": "policy_197"
+          "policy_id": "policy_305"
         },
         {
           "title": "情報組織の創設",
           "reason": "特定の新規組織の創設を明言しており、その組織の存否によって客観的に確認可能なため。",
           "sources": "https://go2senkyo.com/seijika/142041",
           "quote_text": "情報組織の創設",
-          "policy_id": "policy_197"
+          "policy_id": "policy_305"
         },
         {
           "title": "高等教育及び学校給食費の無償化",
           "reason": "「無償化」という制度のステータス変更を具体的に指しており、要件の変更として確認可能なため。",
           "sources": "https://go2senkyo.com/seijika/142041",
           "quote_text": "高等教育、学校給食費の無償化",
-          "policy_id": "policy_197"
+          "policy_id": "policy_305"
         },
         {
           "title": "憲法への自衛隊明記",

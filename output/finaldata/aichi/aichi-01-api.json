@@ -9,37 +9,43 @@
           "title": "「103万円の壁」の178万円への引き上げ",
           "reason": "「103万円から178万円へ」という具体的な税制上のパラメーターの数値変更を明示しており、法改正や制度変更が行われたかによって客観的に達成の有無が検証可能であるため。",
           "sources": "https://go2senkyo.com/seijika/187876/posts/1316387",
-          "quote_text": "「103万円の壁」を178万円まで即座に引き上げ"
+          "quote_text": "「103万円の壁」を178万円まで即座に引き上げ",
+          "policy_id": "policy_162"
         },
         {
           "title": "高校入試の廃止",
           "reason": "「高校入試の廃止」という具体的な教育制度の廃止を断定的に明言しており、実施の有無が客観的に検証可能であるため。",
           "sources": "https://takashi-kawamura.com/",
-          "quote_text": "高校入試の廃止"
+          "quote_text": "高校入試の廃止",
+          "policy_id": "policy_305"
         },
         {
           "title": "学校における成績順位（席次）の廃止",
           "reason": "成績順位（席次）の提示という具体的な慣行の廃止を明言しており、実施の有無が客観的な事実として検証可能であるため。",
           "sources": "https://mag.minkabu.jp/politics-economy/32170/",
-          "quote_text": "学校における成績順位（席次）の廃止。"
+          "quote_text": "学校における成績順位（席次）の廃止。",
+          "policy_id": "policy_305"
         },
         {
           "title": "恒久的な市民税減税",
           "reason": "「減税」という税率パラメーターの変更を明示しており、条例等の改正によって客観的に判定可能なため。",
           "sources": "https://takashi-kawamura.com/",
-          "quote_text": "恒久的な市民税減税を実施する。"
+          "quote_text": "恒久的な市民税減税を実施する。",
+          "policy_id": "policy_305"
         },
         {
           "title": "地方議員のボランティア化",
           "reason": "議員報酬を廃止・無償化するという、明確な条例や制度ルールの変更を伴うため。",
           "sources": "https://takashi-kawamura.com/",
-          "quote_text": "地方議員のボランティア化"
+          "quote_text": "地方議員のボランティア化",
+          "policy_id": "policy_305"
         },
         {
           "title": "消費税の減税",
           "reason": "税率という具体的なパラメーターの変更を伴い、法改正の有無によって実行の判定が客観的に可能なため。",
           "sources": "https://takashi-kawamura.com/",
-          "quote_text": "消費税の減税"
+          "quote_text": "消費税の減税",
+          "policy_id": "policy_188"
         }
       ],
       "not-manifesto": [

@@ -1,0 +1,45 @@
+{
+  "district": "大阪19区",
+  "district_code": "2026-shu-osaka-19",
+  "candidates": [
+    {
+      "name": "谷川とむ",
+      "party": "自由民主党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "■主要政策",
+            "body": "「食品消費税ゼロ！」<br>「責任ある積極財政！」<br>で、日本を強く豊かに！"
+          }
+        ],
+        "manifesto": [
+          {
+            "title": "食品にかかる消費税をゼロにする",
+            "reason": "「消費税ゼロ」という明確な数値と変数の変更が示されており、税率変更の有無で実施が客観的に判定できるため。",
+            "quote_text": "食品消費税ゼロ！",
+            "policy_id": "policy_003"
+          }
+        ]
+      },
+      "web": {
+        "manifesto": [
+          {
+            "quote_text": "認知症グループホームの推進や、戸籍法改正を含む法制度の整備。",
+            "reason": "戸籍法改正の有無によって実施されたかが客観的に判断可能であり、法改正という具体的なアクションを伴うため。",
+            "sources": "https://www.tanigawatom.com/policy/welfare/",
+            "title": "戸籍法改正を含む法制度の整備",
+            "policy_id": "policy_305"
+          },
+          {
+            "quote_text": "食品消費税ゼロにします！",
+            "reason": "消費税という具体的な変数をゼロにするという断定的な意思表明であり、法改正の有無で実施が客観的に判断可能なため。",
+            "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51087",
+            "title": "食品消費税のゼロ化",
+            "policy_id": "policy_003"
+          }
+        ],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

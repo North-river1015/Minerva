@@ -1,0 +1,300 @@
+{
+  "district": "鹿児島4区",
+  "candidates": [
+    {
+      "name": "森山裕",
+      "party": "自由民主党",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "quote_text": "今後５年間で農業の構造転換を推進し",
+          "reason": "「推進」を含む手続き表現であり、具体的な変数の操作が示されていないため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51196",
+          "title": "農業の構造転換の推進"
+        },
+        {
+          "quote_text": "米の生産コストを削減し、米価の引き下げを行います",
+          "reason": "どの制度をどう操作して生産コストや米価を下げるのか具体的な方策が不明であり、客観的に達成度が判定できないため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51196",
+          "title": "米の生産コスト削減と米価の引き下げ"
+        },
+        {
+          "quote_text": "海外における米の需要を創出することにより、生産者が安心して米を生産できる環境を整備します",
+          "reason": "「環境を整備」という抽象的な概念であり、具体的な制度変更が示されていないため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51196",
+          "title": "米の需要創出と生産環境の整備"
+        },
+        {
+          "quote_text": "米以外の農畜産物についても、輸出拡大をすすめること等により、農林水産業全体の経営基盤を強化してまいります",
+          "reason": "「すすめる」「強化」という動詞を含み、具体的な目標値や制度変更が示されていないため。",
+          "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51196",
+          "title": "農畜産物の輸出拡大と経営基盤の強化"
+        },
+        {
+          "quote_text": "具体的には、子供及び住民税非課税の低所得世帯の大人には一人4万円、その他の方々には一人2万円を検討し、政調にて詳細を協議する。",
+          "reason": "「検討し」「協議する」という手続き・意欲表現が含まれており、断定的なコミットメントではないため。",
+          "sources": "https://www.jimin.jp/news/press/210883.html",
+          "title": "給付金の盛り込み（子供及び住民税非課税の低所得世帯の大人4万円、その他2万円）"
+        },
+        {
+          "quote_text": "賃上げが物価上昇を上回るまでの間の対応として、住民税非課税の低所得世帯や子どもたちへの給付を厚くするなどの迅速かつ的確な支援に取り組む。",
+          "reason": "「取り組む」という曖昧な意欲表現であり、「厚くする」という具体的な数値や制度の変数が不明であるため。",
+          "sources": "https://www.jimin.jp/news/press/210883.html",
+          "title": "低所得世帯や子どもへの給付を厚くする支援"
+        },
+        {
+          "quote_text": "日米両国の利益となる交渉が進展するよう、党として見守り、応援していく。",
+          "reason": "「見守り、応援していく」という曖昧な意欲表現であり、具体的な政治的アクションや制度変更を伴わないため。",
+          "sources": "https://www.jimin.jp/news/press/210883.html",
+          "title": "日米の関税交渉の進展への見守りと応援"
+        },
+        {
+          "quote_text": "当選無効の議員に歳費返還を義務付ける歳費法改正について、各党・各会派の考え方を調整し、ご理解をいただきながら成案を得られるよう検討を進める。",
+          "reason": "「検討を進める」という手続き・意欲表現が含まれており、法改正の断定的なコミットメントではないため。",
+          "sources": "https://www.jimin.jp/news/press/210883.html",
+          "title": "歳費法改正についての各党調整と検討"
+        },
+        {
+          "quote_text": "景気・雇用",
+          "reason": "具体的な政策アクションや法改正、数値目標が含まれておらず、単なる政策分野の列挙であるため公約としてみなせない。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YA46XXXXXX000/135434/",
+          "title": "景気・雇用"
+        },
+        {
+          "quote_text": "財政",
+          "reason": "具体的な政策アクションや法改正、数値目標が含まれておらず、単なる政策分野の列挙であるため公約としてみなせない。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YA46XXXXXX000/135434/",
+          "title": "財政"
+        },
+        {
+          "quote_text": "消費税",
+          "reason": "具体的な政策アクションや法改正、数値目標が含まれておらず、単なる政策分野の列挙であるため公約としてみなせない。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YA46XXXXXX000/135434/",
+          "title": "消費税"
+        },
+        {
+          "quote_text": "教育",
+          "reason": "具体的な政策アクションや法改正、数値目標が含まれておらず、単なる政策分野の列挙であるため公約としてみなせない。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YA46XXXXXX000/135434/",
+          "title": "教育"
+        },
+        {
+          "quote_text": "子育て支援",
+          "reason": "具体的な政策アクションや法改正、数値目標が含まれておらず、単なる政策分野の列挙であるため公約としてみなせない。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YA46XXXXXX000/135434/",
+          "title": "子育て支援"
+        },
+        {
+          "quote_text": "働き方",
+          "reason": "具体的な政策アクションや法改正、数値目標が含まれておらず、単なる政策分野の列挙であるため公約としてみなせない。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YA46XXXXXX000/135434/",
+          "title": "働き方"
+        },
+        {
+          "quote_text": "年金・医療・介護",
+          "reason": "具体的な政策アクションや法改正、数値目標が含まれておらず、単なる政策分野の列挙であるため公約としてみなせない。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YA46XXXXXX000/135434/",
+          "title": "年金・医療・介護"
+        },
+        {
+          "quote_text": "憲法",
+          "reason": "具体的な政策アクションや法改正、数値目標が含まれておらず、単なる政策分野の列挙であるため公約としてみなせない。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YA46XXXXXX000/135434/",
+          "title": "憲法"
+        },
+        {
+          "quote_text": "エネルギー・環境",
+          "reason": "具体的な政策アクションや法改正、数値目標が含まれておらず、単なる政策分野の列挙であるため公約としてみなせない。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YA46XXXXXX000/135434/",
+          "title": "エネルギー・環境"
+        },
+        {
+          "quote_text": "外交・安全保障",
+          "reason": "具体的な政策アクションや法改正、数値目標が含まれておらず、単なる政策分野の列挙であるため公約としてみなせない。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YA46XXXXXX000/135434/",
+          "title": "外交・安全保障"
+        },
+        {
+          "quote_text": "治安",
+          "reason": "具体的な政策アクションや法改正、数値目標が含まれておらず、単なる政策分野の列挙であるため公約としてみなせない。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YA46XXXXXX000/135434/",
+          "title": "治安"
+        },
+        {
+          "quote_text": "地方活性化・人口減",
+          "reason": "具体的な政策アクションや法改正、数値目標が含まれておらず、単なる政策分野の列挙であるため公約としてみなせない。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YA46XXXXXX000/135434/",
+          "title": "地方活性化・人口減"
+        },
+        {
+          "quote_text": "防災・復興",
+          "reason": "具体的な政策アクションや法改正、数値目標が含まれておらず、単なる政策分野の列挙であるため公約としてみなせない。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YA46XXXXXX000/135434/",
+          "title": "防災・復興"
+        },
+        {
+          "quote_text": "農林水産業",
+          "reason": "具体的な政策アクションや法改正、数値目標が含まれておらず、単なる政策分野の列挙であるため公約としてみなせない。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YA46XXXXXX000/135434/",
+          "title": "農林水産業"
+        },
+        {
+          "quote_text": "政治とカネ",
+          "reason": "具体的な政策アクションや法改正、数値目標が含まれておらず、単なる政策分野の列挙であるため公約としてみなせない。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YA46XXXXXX000/135434/",
+          "title": "政治とカネ"
+        },
+        {
+          "quote_text": "選挙制度",
+          "reason": "具体的な政策アクションや法改正、数値目標が含まれておらず、単なる政策分野の列挙であるため公約としてみなせない。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YA46XXXXXX000/135434/",
+          "title": "選挙制度"
+        },
+        {
+          "quote_text": "情報公開",
+          "reason": "具体的な政策アクションや法改正、数値目標が含まれておらず、単なる政策分野の列挙であるため公約としてみなせない。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YA46XXXXXX000/135434/",
+          "title": "情報公開"
+        },
+        {
+          "quote_text": "選択的夫婦別姓",
+          "reason": "具体的な政策アクションや法改正、数値目標が含まれておらず、単なる政策分野の列挙であるため公約としてみなせない。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YA46XXXXXX000/135434/",
+          "title": "選択的夫婦別姓"
+        },
+        {
+          "quote_text": "性的少数者に関する政策",
+          "reason": "具体的な政策アクションや法改正、数値目標が含まれておらず、単なる政策分野の列挙であるため公約としてみなせない。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YA46XXXXXX000/135434/",
+          "title": "性的少数者に関する政策"
+        },
+        {
+          "quote_text": "外国人政策",
+          "reason": "具体的な政策アクションや法改正、数値目標が含まれておらず、単なる政策分野の列挙であるため公約としてみなせない。",
+          "sources": "https://www.yomiuri.co.jp/election/shugiin/2026/YA46XXXXXX000/135434/",
+          "title": "外国人政策"
+        },
+        {
+          "quote_text": "安心した子育て環境をつくります。",
+          "reason": "「環境をつくる」という抽象的な目標であり、客観的に達成が検証できる変数が存在しないため。",
+          "sources": "https://yusuke-moriyama.jp/page-createfuture/",
+          "title": "安心した子育て環境の構築"
+        },
+        {
+          "quote_text": "子どもがほしいと願う夫婦の不妊治療への支援をします。",
+          "reason": "「支援をします」という曖昧な意欲表明であり、具体的な予算確保や制度改正の裏付けがないため。",
+          "sources": "https://yusuke-moriyama.jp/page-createfuture/",
+          "title": "不妊治療への支援"
+        },
+        {
+          "quote_text": "待機児童の解消と病児保育の体制整備を実現します。",
+          "reason": "「体制整備」は中身が不透明であり、「解消」「実現」の基準が客観的に数値化されていないため。",
+          "sources": "https://yusuke-moriyama.jp/page-createfuture/",
+          "title": "待機児童の解消と病児保育の体制整備"
+        },
+        {
+          "quote_text": "産前産後のお母さんの心とからだの変化をサポートします。",
+          "reason": "「サポートします」という単なる意欲表明であり、具体な制度変更や数値目標が含まれていないため。",
+          "sources": "https://yusuke-moriyama.jp/page-createfuture/",
+          "title": "産前産後のサポート"
+        },
+        {
+          "quote_text": "乳児保育、幼児教育に関わる人を支援、後押しします。",
+          "reason": "排除基準である「後押し」が含まれており、客観的な検証が不可能なため。",
+          "sources": "https://yusuke-moriyama.jp/page-createfuture/",
+          "title": "乳児保育・幼児教育の支援と後押し"
+        },
+        {
+          "quote_text": "誰も孤独を感じない生まれてきてよかったと思える福祉の実現を目指します。",
+          "reason": "「目指す」という手続き・意欲表現が含まれており、断定的なコミットメントがないため。",
+          "sources": "https://yusuke-moriyama.jp/page-createfuture/",
+          "title": "福祉の実現を目指す"
+        },
+        {
+          "quote_text": "コロナ禍でも当たり前の学校生活が送れるための環境をつくります。",
+          "reason": "「環境をつくる」という抽象的な表現であり、制度のステータス変更や数値目標が存在しないため。",
+          "sources": "https://yusuke-moriyama.jp/page-createfuture/",
+          "title": "学校生活が送れるための環境づくり"
+        },
+        {
+          "quote_text": "不登校の子どもたちと親が孤独にならない環境整備を支援します。",
+          "reason": "「環境整備」「支援」という抽象的な概念へのアクションであり、客観的な達成基準がないため。",
+          "sources": "https://yusuke-moriyama.jp/page-createfuture/",
+          "title": "不登校の子どもと親の環境整備支援"
+        },
+        {
+          "quote_text": "未来の地域・社会を牽引するリーダー育成を推進します。",
+          "reason": "「推進」という動詞が含まれており、具体的な制度変更や新規制度設立を示していないため。",
+          "sources": "https://yusuke-moriyama.jp/page-createfuture/",
+          "title": "リーダー育成の推進"
+        },
+        {
+          "quote_text": "多様性ある社会に向けての教育魅力化の推進およびＤＸによる教員の負担軽減を実現します。",
+          "reason": "「推進」「負担軽減」という曖昧な言葉が含まれており、法改正や具体的な変数変更を伴わないため。",
+          "sources": "https://yusuke-moriyama.jp/page-createfuture/",
+          "title": "教育魅力化の推進と教員負担軽減"
+        },
+        {
+          "quote_text": "全ての人が障がいを感じないまちづくりを行います。",
+          "reason": "「まちづくりを行う」という抽象的なスローガンに過ぎず、客観的に観測可能な政策アクションが特定できないため。",
+          "sources": "https://yusuke-moriyama.jp/page-createfuture/",
+          "title": "障がいを感じないまちづくり"
+        },
+        {
+          "quote_text": "教育現場、学校業務のＤＸを通じて、先生たちの負担感を減らします。",
+          "reason": "「負担感を減らす」という主観的かつ曖昧な目標であり、第三者が100%客観的に判定できる変数がないため。",
+          "sources": "https://yusuke-moriyama.jp/page-createfuture/",
+          "title": "教育現場のDXによる負担感軽減"
+        },
+        {
+          "quote_text": "若者たちに選ばれる職場づくりを応援します。",
+          "reason": "「応援します」という意思表明にとどまっており、政治的アクションが存在しないため。",
+          "sources": "https://yusuke-moriyama.jp/page-createfuture/",
+          "title": "選ばれる職場づくりの応援"
+        },
+        {
+          "quote_text": "担い手不足の解消に向け、教育機関と産業界の連携を推進します。",
+          "reason": "「推進」という動詞が含まれており、具体的な制度の設立や法改正に言及していないため。",
+          "sources": "https://yusuke-moriyama.jp/page-createfuture/",
+          "title": "教育機関と産業界の連携の推進"
+        },
+        {
+          "quote_text": "若者たちのＵＩターン・関係人口の仕組みと体制をつくります。",
+          "reason": "「仕組みと体制をつくる」という抽象的な表現であり、どのような法制度やシステムを導入するかが特定できないため。",
+          "sources": "https://yusuke-moriyama.jp/page-createfuture/",
+          "title": "UIターン・関係人口の仕組みと体制づくり"
+        },
+        {
+          "quote_text": "中小企業の事業承継のサポート、魅力発信を進めます。",
+          "reason": "「サポート」「進めます」という努力目標であり、客観的な達成指標がないため。",
+          "sources": "https://yusuke-moriyama.jp/page-createfuture/",
+          "title": "事業承継のサポートと魅力発信"
+        },
+        {
+          "quote_text": "県内企業の人材採用力・育成力を高め、若手人材の定着率向上を図ります。",
+          "reason": "「高める」「図る」という曖昧な表現であり、制度上の変更や予算措置の有無で判定できないため。",
+          "sources": "https://yusuke-moriyama.jp/page-createfuture/",
+          "title": "人材採用力・育成力の向上と定着率向上"
+        },
+        {
+          "quote_text": "兼業・副業の活用などリソースシェアリングをすすめ、人手不足解消・競争力向上をサポートします。",
+          "reason": "「すすめ」「サポートします」という意欲表現に過ぎず、法改正や制度導入のコミットメントがないため。",
+          "sources": "https://yusuke-moriyama.jp/page-createfuture/",
+          "title": "リソースシェアリングの推進とサポート"
+        },
+        {
+          "quote_text": "国内、海外からも選ばれる観光立県を目指すとともに、豊かな暮らしをつくる新しい産業創出を支援します。",
+          "reason": "「目指す」「支援します」という手続き・意欲表現が含まれており、断定的な政策アクションが存在しないため。",
+          "sources": "https://yusuke-moriyama.jp/page-createfuture/",
+          "title": "観光立県を目指す新しい産業創出の支援"
+        },
+        {
+          "quote_text": "災害から暮らしを守る県土の",
+          "reason": "文脈が途切れており、かつ特定地域（島根県）への利益誘導に繋がる可能性が高く、全国規模の制度変更を示す公約として成立しないため。",
+          "sources": "https://yusuke-moriyama.jp/page-createfuture/",
+          "title": "災害から暮らしを守る県土の〜"
+        }
+      ]
+    }
+  ]
+}

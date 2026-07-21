@@ -9,31 +9,36 @@
           "title": "食料品の消費税を0％に減税",
           "reason": "食料品の消費税を0%とする具体的な数値目標であり、税率変更の事実をもって客観的に検証可能であるため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51021",
-          "quote_text": "食費消費税ゼロ。"
+          "quote_text": "食費消費税ゼロ。",
+          "policy_id": "policy_003"
         },
         {
           "title": "給付付き税額控除の導入",
           "reason": "給付付き税額控除という新制度の設立を断定的にコミットしており、その存否が客観的に確認可能なため。",
           "sources": "https://higashiaichi.jp/news/detail.php?id=26594",
-          "quote_text": "給付付き税額控除を実現する。"
+          "quote_text": "給付付き税額控除を実現する。",
+          "policy_id": "policy_004"
         },
         {
           "title": "野菜振興法の制定",
           "reason": "法律の制定を明確に指しており、法律の存否で実行が客観的に判断できるため。",
           "sources": "https://higashiaichi.jp/news/detail.php?id=26594",
-          "quote_text": "野菜振興法の制定。"
+          "quote_text": "野菜振興法の制定。",
+          "policy_id": "policy_240"
         },
         {
           "title": "消費税の5%への減税",
           "reason": "消費税率を5%にするという具体的な数値目標であり、実行の有無が客観的に判断できるため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51021",
-          "quote_text": "今すぐ５％減税に。"
+          "quote_text": "今すぐ５％減税に。",
+          "policy_id": "policy_028"
         },
         {
           "title": "最低賃金の1700円への引き上げ",
           "reason": "最低賃金を「1700円」に引き上げるという明確な数値目標に基づく政策であり、達成の有無が客観的に判定できるため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51021",
-          "quote_text": "最低賃金１７００円に。"
+          "quote_text": "最低賃金１７００円に。",
+          "policy_id": "policy_030"
         }
       ],
       "not-manifesto": [

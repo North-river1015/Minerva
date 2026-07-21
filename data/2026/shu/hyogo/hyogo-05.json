@@ -1,0 +1,47 @@
+{
+  "district": "兵庫5区",
+  "district_code": "2026-shu-hyogo-5",
+  "candidates": [
+    {
+      "name": "谷公一",
+      "party": "自由民主党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "[谷 公一が掲げる10の公約]",
+            "body": ""
+          },
+          {
+            "header": "1 物価高騰対策と手取り所得の向上！",
+            "body": ""
+          },
+          {
+            "header": "2 地域間、男女間の格差是正！",
+            "body": ""
+          },
+          {
+            "header": "3 能登・福島の復旧・復興と防災・減災の抜本的強化！",
+            "body": ""
+          },
+          {
+            "header": "4 持続できる地域づくりと一極集中の打破！",
+            "body": ""
+          },
+          {
+            "header": "5 国民皆保険・国民皆年金の堅持！",
+            "body": ""
+          },
+          {
+            "header": "6 子ども・子育て・人づくりの大幅充実！",
+            "body": ""
+          }
+        ],
+        "manifesto": []
+      },
+      "web": {
+        "manifesto": [],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "district": "京都6区",
+  "district_code": "2026-shu-kyoto-6",
+  "candidates": [
+    {
+      "name": "園崎弘道",
+      "party": "自由民主党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "01 安全保障、経済・食料安全保障",
+            "body": "国民の命と平和、日本を護る！"
+          },
+          {
+            "header": "02 インフラ・投資",
+            "body": "京都南部から日本が動き出す！"
+          },
+          {
+            "header": "03 社会保障・福祉",
+            "body": "安心して暮らせる地域社会の構築！"
+          },
+          {
+            "header": "04 夢づくり・教育",
+            "body": "豊かな心の醸成、夢と希望にあふれる人づくり"
+          },
+          {
+            "header": "05 地域づくり、地域内循環",
+            "body": "京都南部の未来創造"
+          }
+        ],
+        "manifesto": []
+      },
+      "web": {
+        "manifesto": [],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

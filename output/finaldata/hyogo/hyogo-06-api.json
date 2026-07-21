@@ -9,31 +9,36 @@
           "quote_text": "皇族数の確保に向けた皇室典範の改正",
           "reason": "「皇室典範の改正」という明確な法改正の有無によって客観的に達成度を検証可能なため。",
           "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
-          "title": "皇室典範の改正"
+          "title": "皇室典範の改正",
+          "policy_id": "policy_109"
         },
         {
           "quote_text": "有人国境離島法の改正",
           "reason": "「有人国境離島法の改正」という具体的な法改正の有無によって客観的に達成度を検証可能なため（離島・半島振興の部分は抽象的のため除外）。",
           "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
-          "title": "有人国境離島法の改正"
+          "title": "有人国境離島法の改正",
+          "policy_id": "policy_140"
         },
         {
           "quote_text": "観光立国推進基本計画の策定",
           "reason": "「基本計画の策定」という閣議決定等の有無で客観的に検証可能なアクションを指しているため（推進の部分は除外）。",
           "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
-          "title": "観光立国推進基本計画の策定"
+          "title": "観光立国推進基本計画の策定",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "自衛隊員の処遇改善",
           "reason": "防衛省職員の給与等に関する法律の改正等、客観的に実施の有無を検証可能な措置を指しているため（防衛施設の強靭化は抽象的のため除外）。",
           "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
-          "title": "自衛隊員の処遇改善"
+          "title": "自衛隊員の処遇改善",
+          "policy_id": "policy_154"
         },
         {
           "quote_text": "経済安全保障推進法の改正",
           "reason": "「経済安全保障推進法の改正」という明確な法改正の有無によって客観的に達成度を検証可能なため（環境への対応の部分は除外）。",
           "sources": "https://systemseek.com/weblog/news.cgi?type=defence",
-          "title": "経済安全保障推進法の改正"
+          "title": "経済安全保障推進法の改正",
+          "policy_id": "policy_305"
         }
       ],
       "not-manifesto": [

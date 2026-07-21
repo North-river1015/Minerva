@@ -1,0 +1,135 @@
+{
+  "district": "鹿児島3区",
+  "candidates": [
+    {
+      "name": "野間健",
+      "party": "中道改革連合",
+      "manifesto": [
+        {
+          "title": "食品の消費税ゼロ",
+          "reason": "消費税の税率をゼロにするという具体的な数値目標の変更であり、法改正の有無によって実施されたかが客観的に判断可能であるため。",
+          "sources": "https://www.yomiuri.co.jp/local/kyushu/news/20260202-GYS1T00172/",
+          "quote_text": "食品の消費税ゼロ",
+          "policy_id": "policy_003"
+        },
+        {
+          "title": "物価上昇に合わせた年金の増額",
+          "reason": "年金額を物価上昇に合わせて増額するという制度上の具体的な変更であり、法改正や制度運用の変更によって実施されたかが客観的に判断可能であるため。",
+          "sources": "https://www.yomiuri.co.jp/local/kyushu/news/20260202-GYS1T00172/",
+          "quote_text": "物価上昇に合わせた年金の増額",
+          "policy_id": "policy_305"
+        },
+        {
+          "title": "農業の戸別所得補償",
+          "reason": "農業政策における戸別所得補償制度の導入・実施を指しており、制度の存否や予算措置の有無によって客観的に検証可能であるため。",
+          "sources": "https://www.yomiuri.co.jp/local/kyushu/news/20260202-GYS1T00172/",
+          "quote_text": "農業の戸別所得補償",
+          "policy_id": "policy_311"
+        },
+        {
+          "title": "医療・介護・福祉・保育の職員の準公務員化",
+          "reason": "特定分野の職員を準公務員とするという身分・制度のステータス変更を指しており、関連法の改正や制度設計の有無によって客観的に判断可能であるため。",
+          "sources": "https://www.yomiuri.co.jp/local/kyushu/news/20260202-GYS1T00172/",
+          "quote_text": "医療・介護・福祉・保育の職員を準公務員とすること",
+          "policy_id": "policy_313"
+        },
+        {
+          "quote_text": "食料品消費税をゼロに",
+          "reason": "「食料品消費税を0%にする」という税制上の明確な数値目標であり、法改正の有無によって実施が客観的に判断可能であるため。",
+          "sources": "https://noma-takeshi.jp/profile/",
+          "title": "食料品消費税をゼロに減税",
+          "policy_id": "policy_003"
+        },
+        {
+          "quote_text": "農林水産・畜産生産者への戸別所得補償を実現し食料自給率を50％以上に",
+          "reason": "「戸別所得補償」の実現という新規制度の設立を明言しており、その存否によって実施の有否を明確に判定できるため。",
+          "sources": "https://noma-takeshi.jp/profile/",
+          "title": "戸別所得補償の実現",
+          "policy_id": "policy_311"
+        },
+        {
+          "quote_text": "中小・小規模事業者の社会保険料会社負担を公費投入により25％に",
+          "reason": "社会保険料の会社負担割合を「25％にする」という具体的な数値の変更を示しており、法改正等で達成されたか客観的に検証可能であるため。",
+          "sources": "https://noma-takeshi.jp/profile/",
+          "title": "中小・小規模事業者の社会保険料会社負担を25％に引き下げ",
+          "policy_id": "policy_305"
+        },
+        {
+          "quote_text": "医療・介護・福祉・保育・学童保育職員を準公務員に",
+          "reason": "職員の身分を「準公務員」にするという制度のステータス変更であり、法改正の有無等で実施されたかが客観的に判断できるため。",
+          "sources": "https://noma-takeshi.jp/profile/",
+          "title": "医療・介護・福祉・保育・学童保育職員の準公務員化",
+          "policy_id": "policy_305"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "title": "迅速な物価高対策の実施",
+          "reason": "「迅速な」「対策の実施」という表現は具体的な制度変更や数値目標を伴わず、実施の有無が客観的に判断できないため。",
+          "sources": "https://www.yomiuri.co.jp/local/kyushu/news/20260202-GYS1T00172/",
+          "quote_text": "迅速な物価高対策を行いつつ強い日本経済をつくること"
+        },
+        {
+          "title": "強い日本経済をつくる",
+          "reason": "「強い日本経済をつくる」という抽象的なスローガンであり、具体的な政策手段や変数が示されていないため。",
+          "sources": "https://www.yomiuri.co.jp/local/kyushu/news/20260202-GYS1T00172/",
+          "quote_text": "迅速な物価高対策を行いつつ強い日本経済をつくること"
+        },
+        {
+          "title": "切れ目のない子育て支援の実施",
+          "reason": "「切れ目のない」「支援の実施」という表現は抽象的であり、どの制度をどう変更するのか具体的な変数が不明であるため。",
+          "sources": "https://www.yomiuri.co.jp/local/kyushu/news/20260202-GYS1T00172/",
+          "quote_text": "切れ目のない子育て支援の実施"
+        },
+        {
+          "quote_text": "年金は物価上昇に合わせて増額",
+          "reason": "「増額」の具体的な変数が不明であり、現状の物価スライド制度との明確な差異が示されていないため客観的な判定が不可能である。",
+          "sources": "https://noma-takeshi.jp/profile/",
+          "title": "年金の物価上昇に合わせた増額"
+        },
+        {
+          "quote_text": "ひとり親家庭・障がい者家庭への公的支援強化",
+          "reason": "「強化」という手続き・意欲表現が含まれており、何をどれだけ変更するか具体的な変数が示されていないため。",
+          "sources": "https://noma-takeshi.jp/profile/",
+          "title": "ひとり親家庭・障がい者家庭への公的支援強化"
+        },
+        {
+          "quote_text": "教育、給食などの無償化、給付型奨学金の拡大",
+          "reason": "「拡大」という手続き表現が含まれており、対象や金額などどの変数を変更するかが不明確であり、客観的な達成判定ができないため。",
+          "sources": "https://noma-takeshi.jp/profile/",
+          "title": "教育、給食などの無償化、給付型給付型奨学金の拡大"
+        },
+        {
+          "quote_text": "男女の賃金格差の是正",
+          "reason": "「是正」に向けた具体的な法改正や制度変更が示されておらず、何を操作して実現するかが不明であるため。",
+          "sources": "https://noma-takeshi.jp/profile/",
+          "title": "男女の賃金格差の是正"
+        },
+        {
+          "quote_text": "地域を守る郵便局ネットワークの維持",
+          "reason": "「維持」は現状維持を意味しており、新たな政治的アクションを伴わないため。",
+          "sources": "https://noma-takeshi.jp/profile/",
+          "title": "地域を守る郵便局ネットワークの維持"
+        },
+        {
+          "quote_text": "水俣病被害者の全面救済を実現",
+          "reason": "「全面救済」の具体的な基準や制度変更が示されておらず、実施されたかどうかを客観的に判定できないため。",
+          "sources": "https://noma-takeshi.jp/profile/",
+          "title": "水俣病被害者の全面救済を実現"
+        },
+        {
+          "quote_text": "南九州西回り自動車道、北薩横断道路、国道10号線白浜拡幅、宮之城・川内道路、国道447号（伊佐市・えびの市）、薩摩川内港、隼人・山田中部横断道路などの公共インフラ整備に全力で取り組む",
+          "reason": "特定地域への利益誘導であり、「全力で取り組む」という曖昧な意気込みに過ぎないため。",
+          "sources": "https://noma-takeshi.jp/profile/",
+          "title": "南九州他 各種公共インフラ整備に全力で取り組む"
+        },
+        {
+          "quote_text": "2025年8月の豪雨災害で被災した姶良市、薩摩川内市、さつま町での「改良復旧」を進める",
+          "reason": "「進める」という手続き表現が含まれており、特定地域の災害復旧という現状の行政事務の継続に過ぎないため。",
+          "sources": "https://noma-takeshi.jp/profile/",
+          "title": "2025年8月豪雨災害被災地での改良復旧の推進"
+        }
+      ]
+    }
+  ]
+}

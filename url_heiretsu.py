@@ -427,11 +427,127 @@ def save_append_data(out_file, district, num, winner, new_manifesto, new_not_man
 
 
 ALL_WINNERS = {
+    "nagasaki": {
+        1: {
+            "name": "西岡秀子",
+            "official": "https://nishiokahideko.com",
+            "party": "国民民主党"
+        },
+        2: {
+            "name": "加藤竜祥",
+            "official": "https://katoryusho.com/",
+            "party": "自由民主党"
+        },
+        3: {
+            "name": "金子容三",
+            "official": "https://kanekoyozo.jp",
+            "party": "自由民主党"
+        }
+    },
+    "kumamoto": {
+        1: {
+            "name": "木原稔",
+            "official": "https://kiharaminoru.jp",
+            "party": "自由民主党"
+        },
+        2: {
+            "name": "西野太亮",
+            "official": "https://daisukenishino.com",
+            "party": "自由民主党"
+        },
+        3: {
+            "name": "坂本哲志",
+            "official": "https://tetusi.com",
+            "party": "自由民主党"
+        },
+        4: {
+            "name": "金子恭之",
+            "official": "https://www.kaneko-yasushi.com/",
+            "party": "自由民主党"
+        }
+    },
+    "oita": {
+        1: {
+            "name": "衛藤博昭",
+            "official": "https://etohiroaki.com",
+            "party": "自由民主党"
+        },
+        2: {
+            "name": "広瀬建",
+            "official": "https://hiroseken.info",
+            "party": "自由民主党"
+        },
+        3: {
+            "name": "岩屋毅",
+            "official": "https://t-iwaya.com",
+            "party": "自由民主党"
+        }
+    },
+    "miyazaki": {
+        1: {
+            "name": "渡辺創",
+            "official": "https://watasou.org",
+            "party": "中道改革連合"
+        },
+        2: {
+            "name": "長友慎治",
+            "official": "https://nagatomoshinji.com",
+            "party": "国民民主党"
+        },
+        3: {
+            "name": "古川禎久",
+            "official": "https://furukawa-yoshihisa.com",
+            "party": "自由民主党"
+        }
+    },
+    "kagoshima": {
+        1: {
+            "name": "宮路拓馬",
+            "official": "https://miyaji-takuma.com/",
+            "party": "自由民主党"
+        },
+        2: {
+            "name": "三反園訓",
+            "official": "https://mitazono.jp",
+            "party": "自由民主党"
+        },
+        3: {
+            "name": "野間健",
+            "official": "https://noma-takeshi.jp",
+            "party": "中道改革連合"
+        },
+        4: {
+            "name": "森山裕",
+            "official": "http://moriyama-hirosi.jp",
+            "party": "自由民主党"
+        }
+    },
+    "okinawa": {
+        1: {
+            "name": "國場幸之助",
+            "official": "https://okinawa58.net/",
+            "party": "自由民主党"
+        },
+        2: {
+            "name": "宮崎政久",
+            "official": "https://www.miyazakirin.com/",
+            "party": "自由民主党"
+        },
+        3: {
+            "name": "島尻安伊子",
+            "official": "https://shimajiriaiko.com",
+            "party": "自由民主党"
+        },
+        4: {
+            "name": "西銘恒三郎",
+            "official": "http://nishime-k.com/",
+            "party": "自由民主党"
+        }
+    }
 }
 
 
 ''' 
-
  
     "nagasaki": {
         1: {

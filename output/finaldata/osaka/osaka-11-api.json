@@ -9,121 +9,141 @@
           "quote_text": "飲食料品消費税 ２年間ゼロへ",
           "reason": "税率という具体的な変数をゼロに変更することを明示しており、法改正等によって客観的に実施の有無が判定可能なため。",
           "sources": "https://go2senkyo.com/seijika/21567",
-          "title": "飲食料品消費税の2年間ゼロ化"
+          "title": "飲食料品消費税の2年間ゼロ化",
+          "policy_id": "policy_203"
         },
         {
           "quote_text": "議員定数削減と企業団体献金見直し",
           "reason": "議員定数という具体的な変数の削減を指しており、法改正によって客観的に実施の有無が判定可能なため。",
           "sources": "https://go2senkyo.com/seijika/21567",
-          "title": "議員定数削減"
+          "title": "議員定数削減",
+          "policy_id": "policy_232"
         },
         {
           "quote_text": "副首都法制定で東京一極集中を解消",
           "reason": "新規法律の制定を明言しており、法律の存否によって実施の有否が客観的に判定可能なため。",
           "sources": "https://go2senkyo.com/seijika/21567",
-          "title": "副首都法の制定"
+          "title": "副首都法の制定",
+          "policy_id": "policy_248"
         },
         {
           "quote_text": "スパイ防止法を制定し国益を守る",
           "reason": "新規法律の制定を明言しており、法律の存否によって実施の有否が客観的に判定可能なため。",
           "sources": "https://go2senkyo.com/seijika/21567",
-          "title": "スパイ防止法の制定"
+          "title": "スパイ防止法の制定",
+          "policy_id": "policy_045"
         },
         {
           "quote_text": "飲食料品の消費税を2年間ゼロにする",
           "reason": "消費税率を2年間0%にするという具体的な数値目標の設定であり、法改正の有無で客観的に検証可能であるため。",
           "sources": "https://go2senkyo.com/seijika/52152/posts/1279789",
-          "title": "飲食料品の消費税を2年間ゼロに減税"
+          "title": "飲食料品の消費税を2年間ゼロに減税",
+          "policy_id": "policy_203"
         },
         {
           "quote_text": "議員定数の削減",
           "reason": "議員定数という具体的な変数の削減を伴う法改正であり、実施の有無が客観的に判定可能であるため。",
           "sources": "https://go2senkyo.com/seijika/52152/posts/1279789",
-          "title": "議員定数の削減"
+          "title": "議員定数の削減",
+          "policy_id": "policy_232"
         },
         {
           "quote_text": "スパイ防止法の制定",
           "reason": "新法の制定という具体的な制度設立を指しており、法律の存否によって実施の有無を明確に判定できるため。",
           "sources": "https://go2senkyo.com/seijika/52152/posts/1279789",
-          "title": "スパイ防止法の制定"
+          "title": "スパイ防止法の制定",
+          "policy_id": "policy_045"
         },
         {
           "quote_text": "食料品の消費税を2年間ゼロ％にする",
           "reason": "具体的な数値目標（ゼロ％）と期間（2年間）が設定されており、税法の特例措置の有無で客観的に検証可能なため。",
           "sources": "https://go2senkyo.com/seijika/52152/posts/1296108",
-          "title": "食料品の消費税を2年間ゼロ％にする"
+          "title": "食料品の消費税を2年間ゼロ％にする",
+          "policy_id": "policy_113"
         },
         {
           "quote_text": "ガソリン暫定税率の廃止",
           "reason": "揮発油税等の暫定税率に関する法律を廃止するという具体的な法改正の有無によって達成が判定可能なため。",
           "sources": "https://go2senkyo.com/seijika/52152/posts/1296108",
-          "title": "ガソリン暫定税率の廃止"
+          "title": "ガソリン暫定税率の廃止",
+          "policy_id": "policy_047"
         },
         {
           "quote_text": "国会議員の定数を1割削減",
           "reason": "公職選挙法の改正により定数を1割削減するという数値目標が明確であり、法改正の有無と定数変化で客観的に検証可能なため。",
           "sources": "https://go2senkyo.com/seijika/52152/posts/1296108",
-          "title": "国会議員の定数を1割削減"
+          "title": "国会議員の定数を1割削減",
+          "policy_id": "policy_209"
         },
         {
           "quote_text": "企業団体献金の見直しに向けた法案提出",
           "reason": "法案提出という具体的な立法行動を明言しており、国会に法案が提出されたかどうかで客観的に達成が判定可能なため。",
           "sources": "https://go2senkyo.com/seijika/52152/posts/1296108",
-          "title": "企業団体献金の見直しに向けた法案提出"
+          "title": "企業団体献金の見直しに向けた法案提出",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "憲法改正の国会発議を実現",
           "reason": "憲法改正の国会発議という明確な手続きを目標としており、衆参両院での発議の有無で客観的に検証可能なため。",
           "sources": "https://go2senkyo.com/seijika/52152/posts/1296108",
-          "title": "憲法改正の国会発議を実現"
+          "title": "憲法改正の国会発議を実現",
+          "policy_id": "policy_133"
         },
         {
           "quote_text": "外国人政策を司る司令塔機能を設置",
           "reason": "新たな司令塔組織や機能の設置を明言しており、法制度や組織の新設の有無で客観的に検証可能なため。",
           "sources": "https://go2senkyo.com/seijika/52152/posts/1296108",
-          "title": "外国人政策を司る司令塔機能を設置"
+          "title": "外国人政策を司る司令塔機能を設置",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "衆院の議員定数を1割削減する法案を改めて提出する。",
           "reason": "法案の提出という具体的かつ観測可能な政治的アクションであり、削減の数値目標（1割）も明確で客観的に判定可能なため。",
           "sources": "https://www.fnn.jp/articles/-/1009025",
-          "title": "衆院の議員定数を1割削減する法案の提出"
+          "title": "衆院の議員定数を1割削減する法案の提出",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "食料品の消費税を2年間ゼロ％",
           "reason": "消費税法における軽減税率の特例措置の有無という具体的な変数を操作しており、実施の有無が客観的に判断可能なため。",
           "sources": "https://t-kajiya.seesaa.net/article/519912534.html",
-          "title": "食料品の消費税の2年間ゼロ％化"
+          "title": "食料品の消費税の2年間ゼロ％化",
+          "policy_id": "policy_309"
         },
         {
           "quote_text": "ガソリン暫定税率の廃止",
           "reason": "揮発油税等における暫定税率の廃止という制度のステータス変更であり、法改正の有無で客観的に判断可能なため。",
           "sources": "https://t-kajiya.seesaa.net/article/519912534.html",
-          "title": "ガソリン暫定税率の廃止"
+          "title": "ガソリン暫定税率の廃止",
+          "policy_id": "policy_047"
         },
         {
           "quote_text": "国会議員の定数を1割削減",
           "reason": "公職選挙法改正による定数削減という具体的な数値目標の変更であり、客観的に検証可能なため。",
           "sources": "https://t-kajiya.seesaa.net/article/519912534.html",
-          "title": "国会議員の定数を1割削減"
+          "title": "国会議員の定数を1割削減",
+          "policy_id": "policy_209"
         },
         {
           "quote_text": "企業団体献金の見直しに向けた法案提出",
           "reason": "法案提出という具体的かつ観測可能な政治的アクションを指しているため。",
           "sources": "https://t-kajiya.seesaa.net/article/519912534.html",
-          "title": "企業団体献金の見直しに向けた法案提出"
+          "title": "企業団体献金の見直しに向けた法案提出",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "憲法改正の国会発議の実現",
           "reason": "国会発議という具体的な手続きの実現を明言しており、その発生の有無で客観的に判断可能なため。",
           "sources": "https://t-kajiya.seesaa.net/article/519912534.html",
-          "title": "憲法改正の国会発議の実現"
+          "title": "憲法改正の国会発議の実現",
+          "policy_id": "policy_133"
         },
         {
           "quote_text": "外国人政策を司る司令塔機能を設置",
           "reason": "新規の組織・制度の設立を明言しており、その存否によって実施の有無を明確に判定できるため。",
           "sources": "https://t-kajiya.seesaa.net/article/519912534.html",
-          "title": "外国人政策を司る司令塔機能の設置"
+          "title": "外国人政策を司る司令塔機能の設置",
+          "policy_id": "policy_305"
         }
       ],
       "not-manifesto": [

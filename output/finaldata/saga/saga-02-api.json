@@ -9,19 +9,22 @@
           "quote_text": "ガソリンと軽油の暫定税率の廃止",
           "reason": "「暫定税率の廃止」という税制上の明確な制度のステータス変更を指しており、法改正の有無によって客観的に達成が検証可能であるため。",
           "sources": "https://www.fnn.jp/articles/-/997004?display=full",
-          "title": "ガソリンと軽油の暫定税率の廃止"
+          "title": "ガソリンと軽油の暫定税率の廃止",
+          "policy_id": "policy_167"
         },
         {
           "quote_text": "103万円の壁を178万円へ引き上げ",
           "reason": "「103万円の壁」という税制上の所得控除の基準を「178万円」へ変更するという具体的な数値目標の変更であり、法改正の有無によって客観的に検証可能であるため。",
           "sources": "https://www.fnn.jp/articles/-/997004?display=full",
-          "title": "103万円の壁を178万円に引き上げる"
+          "title": "103万円の壁を178万円に引き上げる",
+          "policy_id": "policy_162"
         },
         {
           "quote_text": "食料品の消費税率0％",
           "reason": "消費税率を0%に変更するという具体的な数値目標の変更であり、法改正の有無によって達成されたかどうかが明確に判定できるため。",
           "sources": "https://www.fnn.jp/articles/-/997004?display=full",
-          "title": "食料品の消費税率0％"
+          "title": "食料品の消費税率0％",
+          "policy_id": "policy_003"
         }
       ],
       "not-manifesto": [

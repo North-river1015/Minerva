@@ -9,31 +9,36 @@
           "quote_text": "「国家情報局」設置",
           "reason": "新規の組織設立を明言しており、その存否によって客観的に確認可能であるため。",
           "sources": "https://fujiihisayuki.jp/for-japan/policy",
-          "title": "国家情報局の設置"
+          "title": "国家情報局の設置",
+          "policy_id": "policy_025"
         },
         {
           "quote_text": "「対日外国投資委員会」創設",
           "reason": "特定の新規制度の設立を指しており、その存否によって実施の有無を明確に判定できるため。",
           "sources": "https://fujiihisayuki.jp/for-japan/policy",
-          "title": "対日外国投資委員会の創設"
+          "title": "対日外国投資委員会の創設",
+          "policy_id": "policy_002"
         },
         {
           "quote_text": "スパイ防止法制定",
           "reason": "新法の制定を明言しており、法成立の有無によって客観的に検証可能であるため。",
           "sources": "https://fujiihisayuki.jp/for-japan/policy",
-          "title": "スパイ防止法の制定"
+          "title": "スパイ防止法の制定",
+          "policy_id": "policy_045"
         },
         {
           "quote_text": "テレビ組合支援の新制度・新法制定",
           "reason": "「新法制定」という具体的な立法行動を指しており、法成立の有無で判定可能であるため。",
           "sources": "https://fujiihisayuki.jp/for-japan/policy",
-          "title": "テレビ組合支援の新法制定"
+          "title": "テレビ組合支援の新法制定",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "所得税減税による「年収の壁」178万円の実現、手取りの増加",
           "reason": "「所得税減税」という法改正と「178万円」という具体的な数値目標を明示しており、客観的な検証が可能であるため。",
           "sources": "https://fujiihisayuki.jp/for-japan/policy",
-          "title": "所得税減税による年収の壁178万円の実現"
+          "title": "所得税減税による年収の壁178万円の実現",
+          "policy_id": "policy_199"
         }
       ],
       "not-manifesto": [

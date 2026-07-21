@@ -61,7 +61,7 @@
             "reason": "税制上の控除額という数値パラメータの変更を明示し、法改正の有無で実施が客観的に検証可能なため。",
             "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51054",
             "quote_text": "住民税の控除額の引き上げ、社会保障の軽減、消費税減税などを行い、現役世代の可処分所得を直接増やします。",
-            "policy_id": "policy_197"
+            "policy_id": "policy_302"
           },
           {
             "title": "消費税減税",
@@ -75,14 +75,14 @@
             "reason": "「教育国債の発行」という具体的な財源確保手段の新規導入を特定して断言しているため。",
             "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51054",
             "quote_text": "教育国債を発行することで教育・科学技術予算を倍増させ",
-            "policy_id": "policy_163"
+            "policy_id": "policy_305"
           },
           {
             "title": "教育・科学技術予算の倍増",
             "reason": "特定の予算枠における「倍増」という具体的な数値の変更を明確にコミットしているため。",
             "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51054",
             "quote_text": "教育国債を発行することで教育・科学技術予算を倍増させ",
-            "policy_id": "policy_197"
+            "policy_id": "policy_304"
           },
           {
             "title": "高校までの教育費の無償化",

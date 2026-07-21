@@ -9,103 +9,120 @@
           "quote_text": "物価高を乗り越えるべく、食品消費税をゼロに。",
           "reason": "✅ 採択：食品消費税をゼロに減税（具体的な数値で実施の有無は明確）",
           "sources": "https://akihisa-shiozaki.jp/philosophy",
-          "title": "食品消費税のゼロ減税"
+          "title": "食品消費税のゼロ減税",
+          "policy_id": "policy_003"
         },
         {
           "quote_text": "憲法改正による自衛隊明記",
           "reason": "✅ 採択：憲法改正の有無によって実行されたかが客観的に判断可能",
           "sources": "https://akihisa-shiozaki.jp/philosophy",
-          "title": "憲法改正による自衛隊明記"
+          "title": "憲法改正による自衛隊明記",
+          "policy_id": "policy_015"
         },
         {
           "quote_text": "防衛大臣のCSTI参画",
           "reason": "参画の有無により制度のステータス変更が客観的に観測可能であるため。",
           "sources": "https://note.com/akihisa_shiozaki/n/n2c5cf1c51b6d",
-          "title": "防衛大臣のCSTI参画"
+          "title": "防衛大臣のCSTI参画",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "新たな研究開発税制の創設",
           "reason": "新規制度の設立であり、法改正の有無によって実施の有無を明確に判定できるため。",
           "sources": "https://note.com/akihisa_shiozaki/n/n2c5cf1c51b6d",
-          "title": "新たな研究開発税制の創設"
+          "title": "新たな研究開発税制の創設",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "リスクマネジメント指針を制定し",
           "reason": "指針の制定という具体的な新規行動であり、制定されたかどうか客観的に判定可能であるため。",
           "sources": "https://note.com/akihisa_shiozaki/n/n2c5cf1c51b6d",
-          "title": "リスクマネジメント指針の制定"
+          "title": "リスクマネジメント指針の制定",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "来春までにAI for Scienceの戦略方針を策定し",
           "reason": "「来春までに」という期限と「策定」という具体的アクションが明示されており、実施の有無が客観的に判定できるため。",
           "sources": "https://note.com/akihisa_shiozaki/n/n2c5cf1c51b6d",
-          "title": "AI for Scienceの戦略方針の策定"
+          "title": "AI for Scienceの戦略方針の策定",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "2035年までに科研費を倍増させ",
           "reason": "「2035年までに」という期限と「倍増」という明確な数値目標が設定されており、達成度が検証可能であるため。",
           "sources": "https://note.com/akihisa_shiozaki/n/n2c5cf1c51b6d",
-          "title": "科研費の倍増"
+          "title": "科研費の倍増",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "国立大学運営費交付金も令和9年度までに10％増額する",
           "reason": "「令和9年度までに10％増額」という期限付きの具体的な数値目標が明示されており、客観的な検証が可能であるため。",
           "sources": "https://note.com/akihisa_shiozaki/n/n2c5cf1c51b6d",
-          "title": "国立大学運営費交付金の10％増額"
+          "title": "国立大学運営費交付金の10％増額",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "10年以内に企業からの拠出割合を10％以上に引き上げる",
           "reason": "「10年以内」「10%以上」という期限と数値目標が明確であり、達成度が客観的に判定可能であるため。",
           "sources": "https://note.com/akihisa_shiozaki/n/n2c5cf1c51b6d",
-          "title": "企業からの拠出割合の10%以上への引き上げ"
+          "title": "企業からの拠出割合の10%以上への引き上げ",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "科研費の若手採択率向上（「若手研究」50%、「基盤研究C」30%）",
           "reason": "「50%」「30%」という具体的な数値目標が設定されており、達成の有無が客観的に検証可能であるため。",
           "sources": "https://note.com/akihisa_shiozaki/n/n2c5cf1c51b6d",
-          "title": "科研費の若手採択率向上"
+          "title": "科研費の若手採択率向上",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "若手への配分額500億円程度への増額",
           "reason": "「500億円程度」という具体的な数値目標が設定されており、予算規模により達成の有無が判定可能であるため。",
           "sources": "https://note.com/akihisa_shiozaki/n/n2c5cf1c51b6d",
-          "title": "若手への配分額500億円程度への増額"
+          "title": "若手への配分額500億円程度への増額",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "創発研究支援事業・特別研究員制度の恒久化",
           "reason": "時限立法等の「恒久化」という制度のステータス変更を指しており、法改正や予算措置の有無で客観的に判定できるため。",
           "sources": "https://note.com/akihisa_shiozaki/n/n2c5cf1c51b6d",
-          "title": "創発研究支援事業・特別研究員制度の恒久化"
+          "title": "創発研究支援事業・特別研究員制度の恒久化",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "予算倍増（合計500億円規模）",
           "reason": "「合計500億円規模」という具体的な数値目標が設定されており、予算規模により達成の有無が判定可能であるため。",
           "sources": "https://note.com/akihisa_shiozaki/n/n2c5cf1c51b6d",
-          "title": "創発研究支援事業・特別研究員制度の予算倍増"
+          "title": "創発研究支援事業・特別研究員制度の予算倍増",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "国際共著率を第7期計画期間中に50%以上に引き上げる",
           "reason": "「第7期計画期間中」「50%以上」という期限と数値目標が明確であり、客観的に検証可能であるため。",
           "sources": "https://note.com/akihisa_shiozaki/n/n2c5cf1c51b6d",
-          "title": "国際共著率の50%以上への引き上げ"
+          "title": "国際共著率の50%以上への引き上げ",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "日本人研究者の海外派遣倍増",
           "reason": "「倍増」という明確な数値目標が設定されており、達成度が客観的に判定可能であるため。",
           "sources": "https://note.com/akihisa_shiozaki/n/n2c5cf1c51b6d",
-          "title": "日本人研究者の海外派遣倍増"
+          "title": "日本人研究者の海外派遣倍増",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "国際連携基金の定常化",
           "reason": "基金の「定常化」という制度のステータス変更を指しており、設立・恒久化の有無で客観的に判定できるため。",
           "sources": "https://note.com/akihisa_shiozaki/n/n2c5cf1c51b6d",
-          "title": "国際連携基金の定常化"
+          "title": "国際連携基金の定常化",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "研究重点型大学で2035年までに高度専門人材（技術職員、URA等）を倍増し",
           "reason": "「2035年までに」「倍増」という期限と数値目標が設定されており、達成度が客観的に検証可能であるため。",
           "sources": "https://note.com/akihisa_shiozaki/n/n2c5cf1c51b6d",
-          "title": "高度専門人材の倍増"
+          "title": "高度専門人材の倍増",
+          "policy_id": "policy_305"
         }
       ],
       "not-manifesto": [

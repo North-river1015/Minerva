@@ -9,13 +9,15 @@
           "title": "食品消費税ゼロの2年間実施",
           "reason": "消費税率を0%にするという数値の変更（免税）を2年間実施すると断言しており、法改正や予算措置によって実施の有無が客観的に判断可能なため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51106",
-          "quote_text": "国民生活に直結する食品消費税ゼロを2年間実施します。"
+          "quote_text": "国民生活に直結する食品消費税ゼロを2年間実施します。",
+          "policy_id": "policy_309"
         },
         {
           "title": "国会の定数削減の実現",
           "reason": "議員定数の削減という具体的な数字・制度の変更を「必ず実現し」と断言しており、法改正によって客観的に検証可能なため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51106",
-          "quote_text": "国会でも必ず定数削減を実現し"
+          "quote_text": "国会でも必ず定数削減を実現し",
+          "policy_id": "policy_232"
         }
       ],
       "not-manifesto": [

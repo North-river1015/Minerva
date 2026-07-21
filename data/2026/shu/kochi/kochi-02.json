@@ -1,0 +1,71 @@
+{
+  "district": "高知2区",
+  "district_code": "2026-shu-kochi-2",
+  "candidates": [
+    {
+      "name": "尾﨑正直",
+      "party": "自由民主党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "1.高齢者の皆様が安心して暮らせる社会の実現",
+            "body": ""
+          },
+          {
+            "header": "3.独身者支援の強化",
+            "body": ""
+          },
+          {
+            "header": "5つの公約",
+            "body": "「生活の安心」と「地域の未来」を守り抜く<br>・トータル少子化対策で子育て世帯の経済的負担をゼロにする<br>・所得制限を撤廃する"
+          },
+          {
+            "header": "選択的夫婦別姓や同性婚の法制化に反対",
+            "body": ""
+          }
+        ],
+        "manifesto": [
+          {
+            "title": "所得制限の撤廃",
+            "reason": "「所得制限」という具体的な受給条件（パラメータ）をなくすという明確な制度変更であり、実施されたかが客観的に検証可能なため。",
+            "quote_text": "所得制限を撤廃する",
+            "policy_id": "policy_300"
+          }
+        ]
+      },
+      "web": {
+        "manifesto": [
+          {
+            "title": "子育て費用無償化のための教育国債創設",
+            "reason": "「教育国債の創設」という新規制度の設立を指しており、存否が客観的に確認可能なため。",
+            "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51139",
+            "quote_text": "子育てにかかるすべての費用を無償化する教育国債の創設を早急に実現していきたい。",
+            "policy_id": "policy_305"
+          },
+          {
+            "quote_text": "給付と減税を組み合わせた「給付付き税額控除」を導入する。",
+            "reason": "「給付付き税額控除」という新規制度の導入を明言しており、法制化等の有無によって客観的に達成度を検証可能であるため。",
+            "sources": "https://www.fnn.jp/articles/-/999458",
+            "title": "給付付き税額控除の導入",
+            "policy_id": "policy_004"
+          },
+          {
+            "quote_text": "「防災庁」を設置し",
+            "reason": "「防災庁」という新たな行政機関の設置を明言しており、設置されたかどうかで客観的に達成度を検証可能であるため。",
+            "sources": "https://www.fnn.jp/articles/-/999458",
+            "title": "「防災庁」の設置",
+            "policy_id": "policy_108"
+          },
+          {
+            "quote_text": "飲食料品の消費税0%",
+            "reason": "✅ 採択：消費税率という具体的な数値の変更（0%への減税）を指しており、法改正の有無によって達成されたかを客観的に判断可能であるため。",
+            "sources": "https://www.youtube.com/watch?v=mpjBqORtZNo",
+            "title": "飲食料品の消費税0%化",
+            "policy_id": "policy_003"
+          }
+        ],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

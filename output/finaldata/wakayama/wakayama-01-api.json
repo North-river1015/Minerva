@@ -9,13 +9,15 @@
           "quote_text": "議員の定年制（例として70歳定年制や、定年後の歳費減額など）を導入する",
           "reason": "議員の定年制の導入という具体的な制度変更を明示しており、法改正や党則変更の有無によって客観的に検証可能であるため。",
           "sources": "https://say-g.com/interview-yamamoto-daichi-9315",
-          "title": "議員の定年制の導入"
+          "title": "議員の定年制の導入",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "憲法を改正して自衛隊を明記し",
           "reason": "憲法改正という最高法規の条文変更という、究極的に具体的かつ断定的な政治アクションを指しているため。",
           "sources": "https://say-g.com/interview-yamamoto-daichi-9315",
-          "title": "憲法への自衛隊明記"
+          "title": "憲法への自衛隊明記",
+          "policy_id": "policy_015"
         }
       ],
       "not-manifesto": [

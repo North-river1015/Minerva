@@ -113,7 +113,8 @@ def merge_district_data(district, district_num):
 
 if __name__ == "__main__":
     # 東京1区と2区を処理する (必要に応じて範囲を広げてください)
-    district_list=["hokkaido","akita","aomori","chiba","fukushima","gunma","ibaraki","iwate","kanagawa","miyagi","saitama","tochigi","yamagata","fukui", "gifu",  "ishikawa","nagano","niigata","shiga","toyama","fukui","gifu","ishikawa","nagano","niigata","toyama","shiga","kyoto","mie"]
+    district_list=["hokkaido","akita","aomori","chiba","fukushima","gunma","ibaraki","iwate","kanagawa","miyagi","saitama","tochigi","yamagata","fukui", "gifu",  "ishikawa","nagano","niigata","shiga","toyama","fukui","gifu","ishikawa","nagano","niigata","toyama","shiga","kyoto","mie","gunma","yamanashi", "shizuoka", "aichi", "mie",    "shiga", "kyoto", "osaka", "hyogo", "nara", "wakayama", "tottori", "shimane", "okayama", "hiroshima", "yamaguchi",
+    "tokushima", "kagawa", "ehime", "kochi",    "fukuoka", "saga", "nagasaki", "kumamoto", "oita", "miyazaki", "kagoshima", "okinawa"]
     for district in district_list:
         for i in range(1, 31):
             merge_district_data(district,i)

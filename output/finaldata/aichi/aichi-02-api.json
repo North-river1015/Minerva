@@ -9,7 +9,8 @@
           "title": "ガソリンの暫定税率廃止",
           "reason": "暫定税率という特定の税制パラメータの廃止という明確なステータス変更であり、法改正の有無で客観的に判定できるため。",
           "sources": "https://new-kokumin.jp/news/business/20250330_3",
-          "quote_text": "ガソリンの暫定税率廃止"
+          "quote_text": "ガソリンの暫定税率廃止",
+          "policy_id": "policy_047"
         }
       ],
       "not-manifesto": [

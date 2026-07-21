@@ -1,0 +1,39 @@
+{
+  "district": "兵庫12区",
+  "district_code": "2026-shu-hyogo-12",
+  "candidates": [
+    {
+      "name": "山口壯",
+      "party": "自由民主党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "経済！",
+            "body": "それで人口減少をストップ！"
+          },
+          {
+            "header": "経済！",
+            "body": "それで年金・医療・介護を持続的に！"
+          },
+          {
+            "header": "経済！",
+            "body": ""
+          },
+          {
+            "header": "山口つよしは約束します。",
+            "body": "① 経済活性化の秘策あり！<br>② 人づくりに重点<br>③ やりがいのある農業を実現<br>④ 真の平和に向けた戦略的な外交<br>⑤ 地元関連予算の獲得"
+          },
+          {
+            "header": "高市総理の生みの親、山口つよしが実現していきます。",
+            "body": ""
+          }
+        ],
+        "manifesto": []
+      },
+      "web": {
+        "manifesto": [],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

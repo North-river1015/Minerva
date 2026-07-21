@@ -1,0 +1,98 @@
+{
+  "district": "山口3区",
+  "district_code": "2026-shu-yamaguchi-3",
+  "candidates": [
+    {
+      "name": "林芳正",
+      "party": "自由民主党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "■林よしまさが掲げる政策 林プラン",
+            "body": "・1%程度の実質賃金上昇の定着、国民所得と経済生産性の向上による成長と分配の好循環<br>・2040年代に向け、持続可能な社会保障、強靭な経済を構築するための工程表作成と推進<br>・党改革〜ゼロからの再建"
+          },
+          {
+            "header": "■重点政策分野",
+            "body": "・経済政策・成長戦略・教育改革<br>・地方創生・農林水産・防災<br>・社会保障・福祉<br>・外交・防衛<br>・党・政治・行政改革<br>・憲法改正"
+          }
+        ],
+        "manifesto": []
+      },
+      "web": {
+        "manifesto": [
+          {
+            "title": "日本版ユニバーサル・クレジットの創設",
+            "reason": "「日本版ユニバーサル・クレジット」という特定の新規給付制度の設立および運用を明言しており、その制度の存否や給付実施によって客観的に検証可能であるため。",
+            "sources": "https://diamond.jp/articles/-/373402?page=2",
+            "quote_text": "「日本版ユニバーサルクレジット」と題した社会保障改革の実施。低中所得者を中心に、収入面と支出面（子育て費用や住宅購入などの世代特有の支出）の両面を考慮し、税と社会保険料の負担感を踏まえた給付を行う。",
+            "policy_id": "policy_305"
+          },
+          {
+            "title": "郵政民営化法の改正",
+            "reason": "「郵政民営化法の改正」という具体的な法改正を断定的にコミットしており、実行されたか客観的に検証可能であるため。",
+            "sources": "https://go2senkyo.com/articles/2025/09/18/121174.html",
+            "quote_text": "郵便局ネットワークを活かすべく郵政民営化法を改正する。",
+            "policy_id": "policy_305"
+          },
+          {
+            "title": "登録災害ボランティア制度の創設",
+            "reason": "「登録災害ボランティア制度」という特定の新規制度の設立を断定的に明言しており、その存否が客観的に確認可能なため。",
+            "sources": "https://www.yoshimasa.com/policy/",
+            "quote_text": "登録災害ボランティア制度創設や災害対応の専門人材育成や組織化など、人的災害対応力の抜本的強化を行います。",
+            "policy_id": "policy_305"
+          },
+          {
+            "title": "地域の取り組みを支援する基金の設立",
+            "reason": "「基金をつくり」という特定の新規財源・制度の設立を断定的に明言しており、予算や法律で存否が客観的に確認できるため。",
+            "sources": "https://www.jimin.jp/news/information/209019.html",
+            "quote_text": "登録ボランティア制度や地域の取り組みを応援する基金を創設する。",
+            "policy_id": "policy_305"
+          },
+          {
+            "title": "防災庁の設置",
+            "reason": "「防災庁」という特定の新規組織の設立を明言しており、その存否が客観的に確認可能なため。",
+            "sources": "https://www.yoshimasa.com/sousaisen/",
+            "quote_text": "防災庁の設置",
+            "policy_id": "policy_108"
+          },
+          {
+            "title": "中選挙区制度の再導入",
+            "reason": "「中選挙区制度の再導入」という具体的な選挙制度の変更を明示しており、公職選挙法の改正の有無によって客観的に判定できるため。",
+            "sources": "https://www.yoshimasa.com/sousaisen/",
+            "quote_text": "選挙制度改革（中選挙区制度の再導入等）",
+            "policy_id": "policy_305"
+          },
+          {
+            "title": "児童手当の日本版ユニバーサルクレジットへの統合",
+            "reason": "既存制度である「児童手当」を新制度に「統合」するという、明確かつ具体的な制度のステータス変更を断言しているため。",
+            "sources": "https://diamond.jp/articles/-/373402?page=2",
+            "quote_text": "児童手当などは本制度に統合する方向で設計・実行する。",
+            "policy_id": "policy_305"
+          },
+          {
+            "title": "食品の消費税をゼロにする",
+            "reason": "「消費税ゼロ」という具体的な数値の変更を明記しており、法改正の有無によって客観的に検証可能であるため。",
+            "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51128",
+            "quote_text": "食品の消費税ゼロ",
+            "policy_id": "policy_003"
+          },
+          {
+            "title": "全ての教育課程における完全無償化",
+            "reason": "「全ての教育課程の無償化」という制度のステータス変更を明示しており、法整備や予算措置による客観的な検証が可能であるため。",
+            "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51128",
+            "quote_text": "全ての教育課程における完全無償化。",
+            "policy_id": "policy_305"
+          },
+          {
+            "title": "「ふるさと住民登録制度」の開始",
+            "reason": "特定の新規制度の設立を明言しており、実施されたかが客観的に判定できるため。",
+            "sources": "https://www.yomiuri.co.jp/local/kyushu/news/20260612-GYS1T00060/",
+            "quote_text": "居住地以外で継続的に関わる自治体を登録する「ふるさと住民登録制度」を年度内にスタートさせる。",
+            "policy_id": "policy_305"
+          }
+        ],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

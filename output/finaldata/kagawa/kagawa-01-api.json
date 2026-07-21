@@ -9,109 +9,127 @@
           "quote_text": "来年4月から飲食料品の消費税率を1％にする",
           "reason": "消費税率という明確な変数を1%に変更するという具体的な数値目標であり、法改正等によって実施の有無が客観的に判断可能なため。",
           "sources": "https://news.tnc.ne.jp/politics/917309_1.html",
-          "title": "飲食料品の消費税率の1%への減税"
+          "title": "飲食料品の消費税率の1%への減税",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "原則1年間、食料品にかかる消費税をゼロとし",
           "reason": "消費税という具体的な税率の数値をゼロに変更するという明確な変数の操作であり、達成の有無が法改正によって客観的に判定できるため。",
           "sources": "https://www.fnn.jp/articles/-/867099?display=full",
-          "title": "食料品の消費税をゼロに減税"
+          "title": "食料品の消費税をゼロに減税",
+          "policy_id": "policy_003"
         },
         {
           "quote_text": "生活必需品などの消費税にあたる分の給付や所得税の控除を行う「給付付き税額控除」に移行する",
           "reason": "「給付付き税額控除」という新制度への移行という制度的ステータスの変更を指しており、制度導入の有無によって実施が客観的に検証可能なため。",
           "sources": "https://www.fnn.jp/articles/-/867099?display=full",
-          "title": "給付付き税額控除への移行"
+          "title": "給付付き税額控除への移行",
+          "policy_id": "policy_004"
         },
         {
           "quote_text": "選択的夫婦別姓の導入に向け",
           "reason": "民法等の法改正を伴う制度変更であり、導入の有無が法律の改正という形で明確に観測可能であるため。",
           "sources": "https://www.fnn.jp/articles/-/867099?display=full",
-          "title": "選択的夫婦別姓の導入"
+          "title": "選択的夫婦別姓の導入",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "来年4月から飲食料品の消費税率を1％にする。",
           "reason": "消費税率という具体的な数値目標を1%に変更すると明記しており、法改正の有無によって客観的に実施されたかが判断可能なため。",
           "sources": "https://cont.t-com.ne.jp/politics/917309_1.html",
-          "title": "飲食料品の消費税率を1%に減税"
+          "title": "飲食料品の消費税率を1%に減税",
+          "policy_id": "policy_305"
         },
         {
           "title": "政府系ファンド（Japan Fund）の創設",
           "reason": "政府系ファンドという特定の新規制度の設立を明言しており、その存否が客観的に確認可能なため。",
           "sources": "https://note.com/craj2026/n/n2449d8dc1c2e?hl=en",
-          "quote_text": "Securing financial resources through the creation of a government-backed fund (Japan Fund) and the utilization of funds"
+          "quote_text": "Securing financial resources through the creation of a government-backed fund (Japan Fund) and the utilization of funds",
+          "policy_id": "policy_107"
         },
         {
           "title": "食品の消費税ゼロ減税",
           "reason": "食品の消費税率を0%にするという数値・条件の変更であり、税制改正法案の成立によって達成されたかが客観的に検証可能なため。",
           "sources": "https://note.com/craj2026/n/n2449d8dc1c2e?hl=en",
-          "quote_text": "zero consumption tax on food"
+          "quote_text": "zero consumption tax on food",
+          "policy_id": "policy_003"
         },
         {
           "title": "還付可能な税額控除制度の導入",
           "reason": "新規税制の「導入」を明言しており、制度設立として達成の有無が検証可能なため。",
           "sources": "https://note.com/craj2026/n/n2449d8dc1c2e?hl=en",
-          "quote_text": "Early introduction of a 'refundable tax credit system' to reduce the burden on low-to-middle income earners and correct inequality"
+          "quote_text": "Early introduction of a 'refundable tax credit system' to reduce the burden on low-to-middle income earners and correct inequality",
+          "policy_id": "policy_004"
         },
         {
           "title": "選択的夫婦別姓制度の導入",
           "reason": "民法等の改正を伴う制度のステータス変更であり、実現されたかどうかが条文の有無で客観的に判定可能なため。",
           "sources": "https://note.com/craj2026/n/n2449d8dc1c2e?hl=en",
-          "quote_text": "promoting gender equality, such as selective separate surnames for married couples"
+          "quote_text": "promoting gender equality, such as selective separate surnames for married couples",
+          "policy_id": "policy_057"
         },
         {
           "quote_text": "幹部職員は政治任用",
           "reason": "幹部職員の任用制度の変更を指しており、国家公務員法等の改正の有無によって客観的に実施が判定可能であるため。",
           "sources": "https://www.junbo.org/rinen/seisaku.htm",
-          "title": "幹部職員の政治任用"
+          "title": "幹部職員の政治任用",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "官庁による認可法人への役職員の派遣を禁止",
           "reason": ":「禁止」という明確な制度のステータス変更であり、法改正や規則改正の有無によって検証可能であるため。",
           "sources": "https://www.junbo.org/rinen/seisaku.htm",
-          "title": "官庁による認可法人への役職員派遣の禁止"
+          "title": "官庁による認可法人への役職員派遣の禁止",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "政治家と官僚の接触を原則禁止",
           "reason": ":「原則禁止」というルールの制定を指しており、法令等への明文化の有無によって客観的に判断可能であるため。",
           "sources": "https://www.junbo.org/rinen/seisaku.htm",
-          "title": "政治家と官僚の接触の原則禁止"
+          "title": "政治家と官僚の接触の原則禁止",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "会社や役所を辞めなくても立候補できる制度の創設",
           "reason": ":「制度の創設」という具体的な法改正を指しており、公職選挙法等の改正の有無で実施が判定可能であるため。",
           "sources": "https://www.junbo.org/rinen/seisaku.htm",
-          "title": "立候補時の休職制度の創設"
+          "title": "立候補時の休職制度の創設",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "供託金の引き下げ、ポスター張りの公負担",
           "reason": ":「供託金の引き下げ」および「公負担」という選挙制度の具体的なパラメータ変更であり、法改正の有無で検証可能であるため。",
           "sources": "https://www.junbo.org/rinen/seisaku.htm",
-          "title": "供託金の引き下げとポスター張りの公負担"
+          "title": "供託金の引き下げとポスター張りの公負担",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "インターネットやマニュフェスト（政権公約）を使用した選挙運動の解禁",
           "reason": ":「解禁」という禁止事項の撤廃という明確なステータス変更であり、法改正の有無で客観的に判定可能であるため。",
           "sources": "https://www.junbo.org/rinen/seisaku.htm",
-          "title": "インターネット等を用いた選挙運動の解禁"
+          "title": "インターネット等を用いた選挙運動の解禁",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "議員特権の廃止･縮小（議員年金の廃止、逮捕・起訴された議員への歳費の支給停止）",
           "reason": ":「議員年金の廃止」「歳費の支給停止」という具体的な制度のステータス変更を指しており、法改正の有無で検証可能であるため。",
           "sources": "https://www.junbo.org/rinen/seisaku.htm",
-          "title": "議員特権の廃止・縮小"
+          "title": "議員特権の廃止・縮小",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "結審期限の法定化",
           "reason": ":「法定化」という新たな法的枠組みの創設を指しており、法改正の有無によって実施が客観的に判定可能であるため。",
           "sources": "https://www.junbo.org/rinen/seisaku.htm",
-          "title": "結審期限の法定化"
+          "title": "結審期限の法定化",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "訴訟費用の公費助成（公的保険）",
           "reason": ":「公費助成」や「公的保険」という具体的な新規制度の導入を指しており、制度創設の有無で判定可能であるため。",
           "sources": "https://www.junbo.org/rinen/seisaku.htm",
-          "title": "訴訟費用の公費助成制度の導入"
+          "title": "訴訟費用の公費助成制度の導入",
+          "policy_id": "policy_305"
         }
       ],
       "not-manifesto": [

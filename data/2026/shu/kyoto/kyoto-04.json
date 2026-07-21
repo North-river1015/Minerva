@@ -1,0 +1,23 @@
+{
+  "district": "京都4区",
+  "district_code": "2026-shu-kyoto-4",
+  "candidates": [
+    {
+      "name": "北神圭朗",
+      "party": "自由民主党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "北神けいろう",
+            "body": "自民党<br>物価高で家計や中小企業、農林水産業が疲弊しています。<br>世界情勢は混迷を深めています。<br>活力ある経済と揺るぎない外交のためには、"
+          }
+        ],
+        "manifesto": []
+      },
+      "web": {
+        "manifesto": [],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

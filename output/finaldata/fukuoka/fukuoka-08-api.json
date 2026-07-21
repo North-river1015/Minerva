@@ -9,19 +9,22 @@
           "quote_text": "定額減税の実施",
           "reason": "定額減税の実施は税制上の具体的な変更であり、法改正等によって客観的に実施の有無が判断可能であるため。",
           "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
-          "title": "定額減税の実施"
+          "title": "定額減税の実施",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "定率減税の復活",
           "reason": "廃止された税制を復活させるという具体的な制度のステータス変更であり、法改正の有無で検証可能なため。",
           "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
-          "title": "定率減税の復活"
+          "title": "定率減税の復活",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "法人税減税の実施",
           "reason": "法人税率の引き下げという具体的な数値・条件の変更であり、法改正の有無で客観的に判断できるため。",
           "sources": "https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a170029.htm",
-          "title": "法人税減税の実施"
+          "title": "法人税減税の実施",
+          "policy_id": "policy_305"
         }
       ],
       "not-manifesto": [

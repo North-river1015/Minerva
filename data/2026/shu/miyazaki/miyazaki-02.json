@@ -1,0 +1,190 @@
+{
+  "district": "宮崎2区",
+  "district_code": "2026-shu-miyazaki-2",
+  "candidates": [
+    {
+      "name": "長友慎治",
+      "party": "国民民主党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "【長友しんじが目指す5つの未来】",
+            "body": "1. 畜産関係者と本音の対話<br>宮崎牛のブランド力強化・消費拡大"
+          },
+          {
+            "header": "2. 農業・漁業・林業の担い手不足を解消",
+            "body": "宮崎・国の食料自給率をアップ"
+          },
+          {
+            "header": "3. 中山間地域を守る生活者を支援",
+            "body": "山・川・海の循環モデルを確立"
+          },
+          {
+            "header": "4. 子どもの相対的貧困の解決",
+            "body": "宮崎の子どもたちを守る！"
+          }
+        ],
+        "manifesto": []
+      },
+      "web": {
+        "manifesto": [
+          {
+            "title": "ハイパー償却制度の導入",
+            "reason": "大胆な設備投資減税という新規の税制度を「導入」することを明示しており、法制化の有無で客観的な検証が可能であるため。",
+            "sources": "https://new-kokumin.jp/news/diet/20260313_2",
+            "quote_text": "大胆な設備投資減税を導入する「ハイパー償却制度」",
+            "policy_id": "policy_283"
+          },
+          {
+            "title": "自動車税、軽自動車税の環境性能割の廃止",
+            "reason": "既存の税制度を「廃止」するという明確な制度のステータス変更であり、法改正および廃止の有無で達成度が判定できるため。",
+            "sources": "https://new-kokumin.jp/news/diet/20260313_2",
+            "quote_text": "自動車税、軽自動車税の環境性能割の廃止。",
+            "policy_id": "policy_305"
+          },
+          {
+            "title": "電気・ガス・灯油等への補助金延長",
+            "reason": "3月末で終了する時限立法・補助金制度の期間延長を明確に打ち出しており、予算・制度の存続によって客観的な検証が可能であるため。",
+            "sources": "https://new-kokumin.jp/news/diet/20260313_2",
+            "quote_text": "①3月末で終了する電気（含む高圧、特別高圧）、ガス、灯油、重油、航空機燃料への補助延長",
+            "policy_id": "policy_305"
+          },
+          {
+            "title": "ガソリン・軽油・石油関連製品等への補助金導入",
+            "reason": "燃料価格激変緩和基金を活用した補助金を「導入」することを明示しており、制度創設の有無で達成度が判定できるため。",
+            "sources": "https://new-kokumin.jp/news/diet/20260313_2",
+            "quote_text": "②基金残高（燃料価格激変緩和基金）活用等によるガソリン（160円/Lを超えた分に対して補助）、軽油、石油関連製品（オイル、潤滑油等）、農業用肥料等への補助金導入",
+            "policy_id": "policy_305"
+          },
+          {
+            "title": "石炭火力発電の更なる活用",
+            "reason": "電気料金上昇の抑制のための具体的な政策選択であり、発電所の稼働状況という客観的な変数の変更を伴うため。",
+            "sources": "https://new-kokumin.jp/news/diet/20260313_2",
+            "quote_text": "③石炭火力発電の更なる活用",
+            "policy_id": "policy_305"
+          },
+          {
+            "title": "原子力発電所の早期再稼働",
+            "reason": "安全性が確認された原発の再稼働という具体的なステータス変更を明示しており、稼働数によって客観的に検証可能であるため。",
+            "sources": "https://new-kokumin.jp/news/diet/20260313_2",
+            "quote_text": "安全性が確認された原子力発電所の早期再稼働",
+            "policy_id": "policy_305"
+          },
+          {
+            "title": "国による原発定期検査の間隔の延長",
+            "reason": "規制機関による検査スパンの変更という具体的な制度変更を伴い、規則改定の有無で客観的な検証が可能であるため。",
+            "sources": "https://new-kokumin.jp/news/diet/20260313_2",
+            "quote_text": "国による定期検査の間隔の延長",
+            "policy_id": "policy_305"
+          },
+          {
+            "quote_text": "社会保障制度の問題解決および社会保険料への累進制の導入。",
+            "reason": "社会保険料制度に累進制を導入するという具体的な制度変更（ステータス変更）であり、法改正等によって客観的に達成状況を判定可能なため。",
+            "sources": "https://kokumin-kumamoto.jp/activities/3063/",
+            "title": "社会保険料への累進制の導入",
+            "policy_id": "policy_305"
+          },
+          {
+            "quote_text": "処遇改善加算の直接給付",
+            "reason": "「直接給付」という具体的な制度変更（ステータス変更）を指しており、法改正等によって客観的に実施の有無が判断可能であるため。",
+            "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+            "title": "処遇改善加算の直接給付",
+            "policy_id": "policy_305"
+          },
+          {
+            "quote_text": "所得税の最低金額引き上げ",
+            "reason": "「最低金額引き上げ」という具体的な数値・変数の変更を指しており、法改正によって客観的に実施の有無が判断可能であるため。",
+            "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+            "title": "所得税の最低金額引き上げ",
+            "policy_id": "policy_305"
+          },
+          {
+            "quote_text": "基礎控除の所得制限撤廃",
+            "reason": "「所得制限の撤廃」という制度の要件変更であり、法改正によって客観的に実施の有無が判断可能であるため。",
+            "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+            "title": "基礎控除の所得制限撤廃",
+            "policy_id": "policy_281"
+          },
+          {
+            "quote_text": "住民税控除額の引き上げ",
+            "reason": "「控除額の引き上げ」という具体的な数値目標の変更であり、条例や法改正によって客観的に実施の有無が判断可能であるため。",
+            "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+            "title": "住民税控除額の引き上げ",
+            "policy_id": "policy_302"
+          },
+          {
+            "quote_text": "単身赴任者向け非課税措置の拡充",
+            "reason": "「非課税措置の拡充」という税制上の具体的な要件変更を指しており、法改正によって客観的に実施の有無が判断可能であるため。",
+            "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+            "title": "単身赴任者向け非課税措置の拡充",
+            "policy_id": "policy_305"
+          },
+          {
+            "quote_text": "社会保険料還付制度の導入",
+            "reason": "「還付制度の導入」という新規制度の設立を明言しており、その存否によって実施の有無を明確に判定できるため。",
+            "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+            "title": "社会保険料還付制度の導入",
+            "policy_id": "policy_279"
+          },
+          {
+            "quote_text": "130万円の壁突破助成金の創設",
+            "reason": "「助成金の創設」という特定の新規制度の設立を明言しており、その存否によって客観的に判定可能であるため。",
+            "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+            "title": "130万円の壁突破助成金の創設",
+            "policy_id": "policy_305"
+          },
+          {
+            "quote_text": "第3号被保険者制度の廃止",
+            "reason": "「第3号被保険者制度の廃止」という既存制度のステータス変更を指しており、法改正の有無によって実施されたかが客観的に判断可能であるため。",
+            "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+            "title": "第3号被保険者制度の廃止",
+            "policy_id": "policy_305"
+          },
+          {
+            "quote_text": "子ども・子育て支援金の廃止",
+            "reason": "「子ども・子育て支援金の廃止」という既存制度のステータス変更を指しており、法改正の有無によって客観的に判断可能であるため。",
+            "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+            "title": "子ども・子育て支援金の廃止",
+            "policy_id": "policy_305"
+          },
+          {
+            "quote_text": "賃金上昇率が物価上昇率＋2％に達するまで一律5％へ減税",
+            "reason": "「一律5％へ減税」という具体的な税率（数値）の変更を明言しており、法改正の有無によって客観的に判断可能であるため。",
+            "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+            "title": "消費税減税（一律5％へ減税）",
+            "policy_id": "policy_028"
+          },
+          {
+            "quote_text": "インボイス制度の廃止",
+            "reason": "「インボイス制度の廃止」という制度的なステータス変更を指しており、法改正の有無によって客観的に判断可能であるため。",
+            "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+            "title": "インボイス制度の廃止",
+            "policy_id": "policy_029"
+          },
+          {
+            "quote_text": "中卒、高卒、高専卒への所得税減税",
+            "reason": "「中卒、高卒、高専卒への所得税減税」という税制上の具体的な対象とアクションを指しており、法改正の有無によって客観的に判断可能であるため。",
+            "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+            "title": "若者減税（中卒、高卒、高専卒への所得税減税）",
+            "policy_id": "policy_286"
+          },
+          {
+            "quote_text": "軽油引取税の暫定税率廃止",
+            "reason": "「暫定税率廃止」という具体的な税率のステータス変更を指しており、法改正の有無によって客観的に判断可能であるため。",
+            "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+            "title": "軽油引取税の暫定税率廃止",
+            "policy_id": "policy_161"
+          },
+          {
+            "quote_text": "再生可能エネルギー発電促進賦課金の廃止",
+            "reason": "「再生可能エネルギー発電促進賦課金の廃止」という制度的なステータス変更を指しており、法改正の有無によって客観的に判断可能であるため。",
+            "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+            "title": "再生可能エネルギー発電促進賦課金の廃止",
+            "policy_id": "policy_282"
+          }
+        ],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

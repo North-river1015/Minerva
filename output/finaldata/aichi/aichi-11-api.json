@@ -9,13 +9,15 @@
           "title": "障害者福祉および子育て支援にかかる所得制限の撤廃",
           "reason": "障害者福祉と子育て支援の両分野において所得制限の撤廃を掲げており、法制度の変更を通じて客観的に検証可能なため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51016",
-          "quote_text": "障害者福祉や子育て支援にかかる所得制限撤廃"
+          "quote_text": "障害者福祉や子育て支援にかかる所得制限撤廃",
+          "policy_id": "policy_066"
         },
         {
           "title": "消費税の5%への変更",
           "reason": "「5%」という具体的な数値目標を示した税率の変更であり、法改正の有無によって客観的に検証可能なため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51016",
-          "quote_text": "消費税5%"
+          "quote_text": "消費税5%",
+          "policy_id": "policy_028"
         }
       ],
       "not-manifesto": [

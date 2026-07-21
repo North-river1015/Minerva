@@ -9,145 +9,169 @@
           "title": "NISAなど資産運用限度額の拡大",
           "reason": "NISAという特定制度における「資産運用限度額」という具体的な変数の変更（上限引き上げ）を明示的に約束しており、制度改正の有無で客観的に検証可能であるため。",
           "sources": "https://go2senkyo.com/seijika/122044",
-          "quote_text": "NISAなど庶民の資産運用限度額を拡大します。"
+          "quote_text": "NISAなど庶民の資産運用限度額を拡大します。",
+          "policy_id": "policy_305"
         },
         {
           "title": "給食費の無償化",
           "reason": "「給食費」という具体的な費用の「無償化（自己負担額を0にするという条件変更）」を断定的に示しており、実施の有無が100%客観的に判定できるため。",
           "sources": "https://go2senkyo.com/seijika/122044",
-          "quote_text": "まずは給食費無償化を実現！"
+          "quote_text": "まずは給食費無償化を実現！",
+          "policy_id": "policy_205"
         },
         {
           "title": "食料品消費税の恒久的なゼロ税率化",
           "reason": "消費税率を0%にするという具体的な数値目標と法改正を伴う断定的なコミットメントであり、実施の有無が客観的に検証可能なため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51060",
-          "quote_text": "今秋から恒久的な「食料品消費税ゼロ」を実現する。"
+          "quote_text": "今秋から恒久的な「食料品消費税ゼロ」を実現する。",
+          "policy_id": "policy_305"
         },
         {
           "title": "消費税の5%への減税",
           "reason": "消費税率の数値を「5%」に変更するという具体的な数値の変更を伴う法改正が含まれており、実行されたかが客観的に判断可能なため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51060",
-          "quote_text": "緊急に５％に減税する。"
+          "quote_text": "緊急に５％に減税する。",
+          "policy_id": "policy_028"
         },
         {
           "title": "インボイス制度の廃止",
           "reason": "インボイス制度という既存制度の廃止（ステータスの変更）を断言しており、制度改廃の有無によって客観的に確認できるため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51060",
-          "quote_text": "インボイス制度を廃止する。"
+          "quote_text": "インボイス制度を廃止する。",
+          "policy_id": "policy_029"
         },
         {
           "title": "子どもの権利の法律への明記",
           "reason": "「法律に明記」という法の条文変更を具体的に指しており、法案化・法改正の実績によって第三者が客観的に達成を判断できるため。",
           "sources": "https://www.shoukasonjuku.com/post/the-constitutional-democratic-party-of-japan",
-          "quote_text": "子どもの権利を法律に明記し"
+          "quote_text": "子どもの権利を法律に明記し",
+          "policy_id": "policy_305"
         },
         {
           "title": "時限的な5％の消費税減税",
           "reason": "「消費税を5%へ減税」という具体的かつ観測可能な数値の変更をコミットしているため。",
           "sources": "https://izumi-kenta.net/policy2022/",
-          "quote_text": "時限的な5％の消費税減税。"
+          "quote_text": "時限的な5％の消費税減税。",
+          "policy_id": "policy_305"
         },
         {
           "title": "所得税の最高税率引上げ",
           "reason": "「所得税の最高税率」という客観的な変数の変更を断定的に明言しており、法改正の有無で検証可能であるため。",
           "sources": "https://izumi-kenta.net/policy2022/",
-          "quote_text": "所得税の最高税率引上げ"
+          "quote_text": "所得税の最高税率引上げ",
+          "policy_id": "policy_305"
         },
         {
           "title": "正社員を増やした中小企業の社会保険料負担減免",
           "reason": "「社会保険料の減免」という明確な条件付の税・保険料制度のパラメータ変更を含んでおり、実施の有無が判定可能であるため。",
           "sources": "https://izumi-kenta.net/policy2022/",
-          "quote_text": "正社員を増やした中小企業の社会保険料負担減免"
+          "quote_text": "正社員を増やした中小企業の社会保険料負担減免",
+          "policy_id": "policy_305"
         },
         {
           "title": "同一価値労働同一賃金の法制化",
           "reason": "「法制化」という特定の制度に対する法的拘束力を与えるステータス変更を指しており、立法の有無で客観的に判定できるため。",
           "sources": "https://izumi-kenta.net/policy2022/",
-          "quote_text": "「同一価値労働同一賃金」の法制化"
+          "quote_text": "「同一価値労働同一賃金」の法制化",
+          "policy_id": "policy_305"
         },
         {
           "title": "児童手当の高校卒業年次までの対象拡大",
           "reason": "児童手当の支給対象を「高校卒業年次まで」とする具体的な条件の変更であり、制度の変更が客観的に検証可能であるため。",
           "sources": "https://izumi-kenta.net/policy2022/",
-          "quote_text": "児童手当を高校卒業年次まで拡大"
+          "quote_text": "児童手当を高校卒業年次まで拡大",
+          "policy_id": "policy_305"
         },
         {
           "title": "全国民へのワクチン接種無料化",
           "reason": "「無料化」という自己負担割合を0にする制度のステータス変更を定めており、客観的に観測可能であるため。",
           "sources": "https://izumi-kenta.net/policy2020/",
-          "quote_text": "全国民へのワクチン接種無料化。"
+          "quote_text": "全国民へのワクチン接種無料化。",
+          "policy_id": "policy_305"
         },
         {
           "title": "消費税のゼロ％凍結",
           "reason": "「物価上昇率2％に至るまで」という条件と、「消費税をゼロ％」という具体的な税率数値を明言しており、法改正の実施有無が明確に判定できるため。",
           "sources": "https://izumi-kenta.net/policy2020/",
-          "quote_text": "物価上昇率２％に至るまで消費税をゼロ％に凍結。"
+          "quote_text": "物価上昇率２％に至るまで消費税をゼロ％に凍結。",
+          "policy_id": "policy_305"
         },
         {
           "title": "持続化給付金の再給付",
           "reason": "既存の特定の給付金制度の再実施を明言しており、予算確保と支給実績によってその実行の有無を客観的に判定できるため。",
           "sources": "https://izumi-kenta.net/policy2020/",
-          "quote_text": "事業者への持続化給付金の要件緩和と再給付。"
+          "quote_text": "事業者への持続化給付金の要件緩和と再給付。",
+          "policy_id": "policy_305"
         },
         {
           "title": "国会への財政推計機関の創設",
           "reason": "「財政推計機関」という特定の新規機関の設立を明言しており、法律や規則の改正による設置の有無が客観的に確認可能なため。",
           "sources": "https://izumi-kenta.net/policy2020/",
-          "quote_text": "長期的な財政を調査する財政推計機関を国会に創設。"
+          "quote_text": "長期的な財政を調査する財政推計機関を国会に創設。",
+          "policy_id": "policy_305"
         },
         {
           "title": "児童手当の支給対象年齢拡大および増額",
           "reason": "「18歳まで」「月額15000円」という具体的な年齢と支給額の変更を明示しており、制度変更として明確に観測可能なため。",
           "sources": "https://izumi-kenta.net/policy2020/",
-          "quote_text": "児童手当を18歳まで月額15000円に増額。"
+          "quote_text": "児童手当を18歳まで月額15000円に増額。",
+          "policy_id": "policy_305"
         },
         {
           "title": "最低賃金の全国一律化",
           "reason": "「全国一律化」という最低賃金法の算定基準に関する法制度の具体的なステータス変更を定めており、確認可能なため。",
           "sources": "https://izumi-kenta.net/policy2020/",
-          "quote_text": "最低賃金の引き上げと全国一律化。"
+          "quote_text": "最低賃金の引き上げと全国一律化。",
+          "policy_id": "policy_305"
         },
         {
           "title": "クオータ制の導入",
           "reason": "「クオータ制」という新規制度の導入を明言しており、法改正等の実施として客観的に確認可能なため。",
           "sources": "https://izumi-kenta.net/policy2020/",
-          "quote_text": "クオータ制、選択的夫婦別姓の導入。"
+          "quote_text": "クオータ制、選択的夫婦別姓の導入。",
+          "policy_id": "policy_305"
         },
         {
           "title": "選択的夫婦別姓の導入",
           "reason": "民法改正による「選択的夫婦別姓」という明確な制度変更を指しており、条文変更の有無で100%検証可能なため。",
           "sources": "https://izumi-kenta.net/policy2020/",
-          "quote_text": "クオータ制、選択的夫婦別姓の導入。"
+          "quote_text": "クオータ制、選択的夫婦別姓の導入。",
+          "policy_id": "policy_057"
         },
         {
           "title": "配偶者控除の廃止",
           "reason": "「配偶者控除」という既存の税制の廃止（ステータスの終了）を明確に宣言しており、法改正の有無で判断できるため。",
           "sources": "https://izumi-kenta.net/policy2020/",
-          "quote_text": "配偶者控除の廃止。"
+          "quote_text": "配偶者控除の廃止。",
+          "policy_id": "policy_305"
         },
         {
           "title": "女性差別撤廃条約選択議定書の批准",
           "reason": "「条約の批准」という国会による承認と法的手続きを伴う、具体的かつ明確なステータス変更であるため。",
           "sources": "https://izumi-kenta.net/policy2020/",
-          "quote_text": "女性差別撤廃条約選択議定書の批准。"
+          "quote_text": "女性差別撤廃条約選択議定書の批准。",
+          "policy_id": "policy_305"
         },
         {
           "title": "一括交付金制度の導入",
           "reason": "「一括交付金制度」という特定の財政・交付金制度の新規設立を指しており、法律の制定による実施を明確に検証できるため。",
           "sources": "https://izumi-kenta.net/policy2020/",
-          "quote_text": "地方への権限・財源移譲と一括交付金制度の導入"
+          "quote_text": "地方への権限・財源移譲と一括交付金制度の導入",
+          "policy_id": "policy_305"
         },
         {
           "title": "農業者戸別所得補償制度の復活",
           "reason": "「制度の復活」として法制度の明確な再設置を指しており、法改正の有無で観測可能なため。",
           "sources": "https://izumi-kenta.net/policy2020/",
-          "quote_text": "農業者戸別所得補償制度の復活。"
+          "quote_text": "農業者戸別所得補償制度の復活。",
+          "policy_id": "policy_311"
         },
         {
           "title": "主要農作物種子法の復活",
           "reason": "特定の法律（主要農作物種子法）の復活という、法改正に関する断定的なコミットメントであるため。",
           "sources": "https://izumi-kenta.net/policy2020/",
-          "quote_text": "主要農作物種子法の復活"
+          "quote_text": "主要農作物種子法の復活",
+          "policy_id": "policy_305"
         }
       ],
       "not-manifesto": [

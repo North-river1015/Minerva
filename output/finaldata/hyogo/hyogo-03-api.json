@@ -9,13 +9,15 @@
           "quote_text": "スパイ防止法も制定する",
           "reason": "「スパイ防止法」という新規法律の制定を明言しており、法律の存否によって客観的に実施の有非が判定可能な新規制度の設立であるため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51093",
-          "title": "スパイ防止法の制定"
+          "title": "スパイ防止法の制定",
+          "policy_id": "policy_045"
         },
         {
           "quote_text": "消費税は緊急に5%に減税し",
           "reason": "「消費税を5%に減税」という具体的な税率の変更を明示しており、税法の改正によって実施されたかが客観的に検証可能な数値・条件の変更であるため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51093",
-          "title": "消費税を5%に減税"
+          "title": "消費税を5%に減税",
+          "policy_id": "policy_028"
         }
       ],
       "not-manifesto": [

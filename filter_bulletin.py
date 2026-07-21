@@ -27,7 +27,7 @@ def safe_generate_content(client, model, contents, config):
 
     with OpenRouter(api_key=api_key_openrouter) as client:
         response = client.chat.send(
-            model="~google/gemini-pro-latest",
+            model="z-ai/glm-5.2",
             messages=[{"role": "user", "content": full_text}],
             response_format=config ,
             server_url=url,
@@ -44,19 +44,179 @@ def safe_generate_content(client, model, contents, config):
         return SimpleResponse(content)
 
 
-#まだ以下のはできてない。これで39個はできた。
+#まだ以下のはできてない。
 ALL_WINNERS = {
-
-    "miyazaki": {
-
+  
+    "hyogo": {
+        1: {
+            "name": "盛山正仁",
+            "official": "https://moriyama-hashiru.jp",
+            "party": "自由民主党"
+        },
+        2: {
+            "name": "阿部圭史",
+            "official": "https://abekeishi.com",
+            "party": "日本維新の会"
+        },
         3: {
-            "name": "古川禎久",
-            "official": "https://furukawa-yoshihisa.com",
+            "name": "関芳弘",
+            "official": "https://3ku-seki.com",
+            "party": "自由民主党"
+        },
+        4: {
+            "name": "藤井比早之",
+            "official": "https://fujiihisayuki.jp",
+            "party": "自由民主党"
+        },
+        5: {
+            "name": "谷公一",
+            "official": "https://tanikouichi.jp",
+            "party": "自由民主党"
+        },
+        6: {
+            "name": "大串正樹",
+            "official": "https://m-ogushi.com",
+            "party": "自由民主党"
+        },
+        7: {
+            "name": "山田賢司",
+            "official": "https://yamada-kenji.com",
+            "party": "自由民主党"
+        },
+        8: {
+            "name": "青山繁晴",
+            "official": "https://aoyama-shigeharu.jp",
+            "party": "自由民主党"
+        },
+        9: {
+            "name": "西村康稔",
+            "official": "https://www.yasutoshi.jp/",
+            "party": "自由民主党"
+        },
+        10: {
+            "name": "渡海紀三朗",
+            "official": "https://tokai-kisaburo.net/",
+            "party": "自由民主党"
+        },
+        11: {
+            "name": "山田基靖",
+            "official": "https://yamadamotoyasu.com/",
+            "party": "自由民主党"
+        },
+        12: {
+            "name": "山口壯",
+            "official": "https://mission21.gr.jp/",
+            "party": "自由民主党"
+        }
+    },
+     "nara": {
+        1: {
+            "name": "小林茂樹",
+            "official": "https://kobayashi-nara.com",
+            "party": "自由民主党"
+        },
+        2: {
+            "name": "高市早苗",
+            "official": "https://sanae.gr.jp",
+            "party": "自由民主党"
+        },
+        3: {
+            "name": "田野瀬太道",
+            "official": "http://tanose.com",
+            "party": "自由民主党"
+        }
+    },
+    "wakayama": {
+        1: {
+            "name": "山本大地",
+            "official": "https://d1-yamamoto.com/",
+            "party": "自由民主党"
+        },
+        2: {
+            "name": "世耕弘成",
+            "official": "https://sekohiroshige.jp/",
+            "party": "自由民主党"
+        }
+    },
+    "tottori": {
+        1: {
+            "name": "石破茂",
+            "official": "https://www.ishiba.com/",
+            "party": "自由民主党"
+        },
+        2: {
+            "name": "赤沢亮正",
+            "official": "https://www.ryosei-akazawa.com/",
+            "party": "自由民主党"
+        }
+    },
+    "nagano": {
+        1: {
+            "name": "若林健太",
+            "official": "http://wakabayashikenta.com/",
+            "party": "自由民主党"
+        },
+        2: {
+            "name": "藤田ひかる",
+            "official": "https://hikarufujita.com/",
+            "party": "自由民主党"
+        },
+        3: {
+            "name": "井出庸生",
+            "official": "https://yousei-ide.com/",
+            "party": "自由民主党"
+        },
+        4: {
+            "name": "後藤茂之",
+            "official": "https://www.510.to/",
+            "party": "自由民主党"
+        },
+        5: {
+            "name": "宮下一郎",
+            "official": "https://m-ichiro-blog.net/",
+            "party": "自由民主党"
+        }
+    },
+    "gifu": {
+        1: {
+            "name": "野田聖子",
+            "official": "https://www.noda-seiko.gr.jp/",
+            "party": "自由民主党"
+        },
+        2: {
+            "name": "棚橋泰文",
+            "official": "https://www.tanahashi-yasufumi.com/",
+            "party": "自由民主党"
+        },
+        3: {
+            "name": "武藤容治",
+            "official": "https://mutou-youji.jp/",
+            "party": "自由民主党"
+        },
+        4: {
+            "name": "加藤大博",
+            "official": "https://kato-tomohiro.com/",
+            "party": "自由民主党"
+        },
+        5: {
+            "name": "古屋圭司",
+            "official": "https://sites.google.com/view/furuya-keiji/",
+            "party": "自由民主党"
+        }
+    },
+    "wakayama": {
+        1: {
+            "name": "山本大地",
+            "official": "https://d1-yamamoto.com/",
+            "party": "自由民主党"
+        },
+        2: {
+            "name": "世耕弘成",
+            "official": "https://sekohiroshige.jp/",
             "party": "自由民主党"
         }
     }
-}
-
+    }
 
 
 '''

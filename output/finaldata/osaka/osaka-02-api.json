@@ -9,19 +9,22 @@
           "quote_text": "中小企業直接支援で全国一律最低賃金１５００円を実現し",
           "reason": "最低賃金の具体的な数値目標であり、実施されたかどうかが客観的に判断可能であるため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51070",
-          "title": "全国一律最低賃金1500円の実現"
+          "title": "全国一律最低賃金1500円の実現",
+          "policy_id": "policy_071"
         },
         {
           "quote_text": "国庫負担を５０％に引き上げ",
           "reason": "国保における国庫負担割合という明確な数値の変更であり、法改正の有無等で検証可能であるため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51070",
-          "title": "国保税の国庫負担割合を50%に引き上げ"
+          "title": "国保税の国庫負担割合を50%に引き上げ",
+          "policy_id": "policy_305"
         },
         {
           "quote_text": "家族が増えると保険料が上がる仕組みを止めて",
           "reason": "国保の保険料算定における被扶養者制度等の具体的な制度変更を指しており、制度改正の有無で検証可能であるため。",
           "sources": "https://shugiin.go2senkyo.com/51/senkyoku/51070",
-          "title": "家族が増えると国保税が上がる仕組みを廃止"
+          "title": "家族が増えると国保税が上がる仕組みを廃止",
+          "policy_id": "policy_305"
         }
       ],
       "not-manifesto": [

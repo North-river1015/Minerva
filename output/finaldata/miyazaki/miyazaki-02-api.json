@@ -1,0 +1,389 @@
+{
+  "district": "宮崎2区",
+  "candidates": [
+    {
+      "name": "長友慎治",
+      "party": "国民民主党",
+      "manifesto": [
+        {
+          "title": "ハイパー償却制度の導入",
+          "reason": "大胆な設備投資減税という新規の税制度を「導入」することを明示しており、法制化の有無で客観的な検証が可能であるため。",
+          "sources": "https://new-kokumin.jp/news/diet/20260313_2",
+          "quote_text": "大胆な設備投資減税を導入する「ハイパー償却制度」",
+          "policy_id": "policy_283"
+        },
+        {
+          "title": "自動車税、軽自動車税の環境性能割の廃止",
+          "reason": "既存の税制度を「廃止」するという明確な制度のステータス変更であり、法改正および廃止の有無で達成度が判定できるため。",
+          "sources": "https://new-kokumin.jp/news/diet/20260313_2",
+          "quote_text": "自動車税、軽自動車税の環境性能割の廃止。",
+          "policy_id": "policy_305"
+        },
+        {
+          "title": "電気・ガス・灯油等への補助金延長",
+          "reason": "3月末で終了する時限立法・補助金制度の期間延長を明確に打ち出しており、予算・制度の存続によって客観的な検証が可能であるため。",
+          "sources": "https://new-kokumin.jp/news/diet/20260313_2",
+          "quote_text": "①3月末で終了する電気（含む高圧、特別高圧）、ガス、灯油、重油、航空機燃料への補助延長",
+          "policy_id": "policy_305"
+        },
+        {
+          "title": "ガソリン・軽油・石油関連製品等への補助金導入",
+          "reason": "燃料価格激変緩和基金を活用した補助金を「導入」することを明示しており、制度創設の有無で達成度が判定できるため。",
+          "sources": "https://new-kokumin.jp/news/diet/20260313_2",
+          "quote_text": "②基金残高（燃料価格激変緩和基金）活用等によるガソリン（160円/Lを超えた分に対して補助）、軽油、石油関連製品（オイル、潤滑油等）、農業用肥料等への補助金導入",
+          "policy_id": "policy_305"
+        },
+        {
+          "title": "石炭火力発電の更なる活用",
+          "reason": "電気料金上昇の抑制のための具体的な政策選択であり、発電所の稼働状況という客観的な変数の変更を伴うため。",
+          "sources": "https://new-kokumin.jp/news/diet/20260313_2",
+          "quote_text": "③石炭火力発電の更なる活用",
+          "policy_id": "policy_305"
+        },
+        {
+          "title": "原子力発電所の早期再稼働",
+          "reason": "安全性が確認された原発の再稼働という具体的なステータス変更を明示しており、稼働数によって客観的に検証可能であるため。",
+          "sources": "https://new-kokumin.jp/news/diet/20260313_2",
+          "quote_text": "安全性が確認された原子力発電所の早期再稼働",
+          "policy_id": "policy_305"
+        },
+        {
+          "title": "国による原発定期検査の間隔の延長",
+          "reason": "規制機関による検査スパンの変更という具体的な制度変更を伴い、規則改定の有無で客観的な検証が可能であるため。",
+          "sources": "https://new-kokumin.jp/news/diet/20260313_2",
+          "quote_text": "国による定期検査の間隔の延長",
+          "policy_id": "policy_305"
+        },
+        {
+          "quote_text": "社会保障制度の問題解決および社会保険料への累進制の導入。",
+          "reason": "社会保険料制度に累進制を導入するという具体的な制度変更（ステータス変更）であり、法改正等によって客観的に達成状況を判定可能なため。",
+          "sources": "https://kokumin-kumamoto.jp/activities/3063/",
+          "title": "社会保険料への累進制の導入",
+          "policy_id": "policy_305"
+        },
+        {
+          "quote_text": "処遇改善加算の直接給付",
+          "reason": "「直接給付」という具体的な制度変更（ステータス変更）を指しており、法改正等によって客観的に実施の有無が判断可能であるため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "処遇改善加算の直接給付",
+          "policy_id": "policy_305"
+        },
+        {
+          "quote_text": "所得税の最低金額引き上げ",
+          "reason": "「最低金額引き上げ」という具体的な数値・変数の変更を指しており、法改正によって客観的に実施の有無が判断可能であるため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "所得税の最低金額引き上げ",
+          "policy_id": "policy_305"
+        },
+        {
+          "quote_text": "基礎控除の所得制限撤廃",
+          "reason": "「所得制限の撤廃」という制度の要件変更であり、法改正によって客観的に実施の有無が判断可能であるため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "基礎控除の所得制限撤廃",
+          "policy_id": "policy_281"
+        },
+        {
+          "quote_text": "住民税控除額の引き上げ",
+          "reason": "「控除額の引き上げ」という具体的な数値目標の変更であり、条例や法改正によって客観的に実施の有無が判断可能であるため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "住民税控除額の引き上げ",
+          "policy_id": "policy_302"
+        },
+        {
+          "quote_text": "単身赴任者向け非課税措置の拡充",
+          "reason": "「非課税措置の拡充」という税制上の具体的な要件変更を指しており、法改正によって客観的に実施の有無が判断可能であるため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "単身赴任者向け非課税措置の拡充",
+          "policy_id": "policy_305"
+        },
+        {
+          "quote_text": "社会保険料還付制度の導入",
+          "reason": "「還付制度の導入」という新規制度の設立を明言しており、その存否によって実施の有無を明確に判定できるため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "社会保険料還付制度の導入",
+          "policy_id": "policy_279"
+        },
+        {
+          "quote_text": "130万円の壁突破助成金の創設",
+          "reason": "「助成金の創設」という特定の新規制度の設立を明言しており、その存否によって客観的に判定可能であるため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "130万円の壁突破助成金の創設",
+          "policy_id": "policy_305"
+        },
+        {
+          "quote_text": "第3号被保険者制度の廃止",
+          "reason": "「第3号被保険者制度の廃止」という既存制度のステータス変更を指しており、法改正の有無によって実施されたかが客観的に判断可能であるため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "第3号被保険者制度の廃止",
+          "policy_id": "policy_305"
+        },
+        {
+          "quote_text": "子ども・子育て支援金の廃止",
+          "reason": "「子ども・子育て支援金の廃止」という既存制度のステータス変更を指しており、法改正の有無によって客観的に判断可能であるため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "子ども・子育て支援金の廃止",
+          "policy_id": "policy_305"
+        },
+        {
+          "quote_text": "賃金上昇率が物価上昇率＋2％に達するまで一律5％へ減税",
+          "reason": "「一律5％へ減税」という具体的な税率（数値）の変更を明言しており、法改正の有無によって客観的に判断可能であるため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "消費税減税（一律5％へ減税）",
+          "policy_id": "policy_028"
+        },
+        {
+          "quote_text": "インボイス制度の廃止",
+          "reason": "「インボイス制度の廃止」という制度的なステータス変更を指しており、法改正の有無によって客観的に判断可能であるため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "インボイス制度の廃止",
+          "policy_id": "policy_029"
+        },
+        {
+          "quote_text": "中卒、高卒、高専卒への所得税減税",
+          "reason": "「中卒、高卒、高専卒への所得税減税」という税制上の具体的な対象とアクションを指しており、法改正の有無によって客観的に判断可能であるため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "若者減税（中卒、高卒、高専卒への所得税減税）",
+          "policy_id": "policy_286"
+        },
+        {
+          "quote_text": "軽油引取税の暫定税率廃止",
+          "reason": "「暫定税率廃止」という具体的な税率のステータス変更を指しており、法改正の有無によって客観的に判断可能であるため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "軽油引取税の暫定税率廃止",
+          "policy_id": "policy_161"
+        },
+        {
+          "quote_text": "再生可能エネルギー発電促進賦課金の廃止",
+          "reason": "「再生可能エネルギー発電促進賦課金の廃止」という制度的なステータス変更を指しており、法改正の有無によって客観的に判断可能であるため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "再生可能エネルギー発電促進賦課金の廃止",
+          "policy_id": "policy_282"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "quote_text": "地元企業の売り上げを増やし従業員の賃金をアップし、地方で豊かに暮らせる環境を整え、東京の一極集中を改善します。情熱のあるリーダーが率いる、質の高い公的支援機関を全国に展開し、中小企業の課題解決に伴走します。",
+          "reason": "「環境を整え」「展開し」「伴走します」といった抽象的な表現や意欲表現であり、客観的に検証可能な法改正や数値目標などの変数が特定できないため。",
+          "sources": "https://go2senkyo.com/seijika/180531",
+          "title": "中小企業支援と地方創生"
+        },
+        {
+          "quote_text": "個人の責任ではなく、社会構造によって生み出される貧困の解決に国全体で取り組みます。",
+          "reason": "「取り組みます」という手続き・意欲表現であり、具体的な法改正や制度変更、数値目標が示されていないため。",
+          "sources": "https://go2senkyo.com/seijika/180531",
+          "title": "子どもの相対的貧困の解決への取り組み"
+        },
+        {
+          "quote_text": "私はこのSDGsを政治にも取り入れ、多様性が当たり前の社会を実現します。",
+          "reason": "「実現します」「取り入れ」という抽象的な目標および意欲表現であり、第三者が達成を客観的に判定できる変数が存在しないため。",
+          "sources": "https://go2senkyo.com/seijika/180531",
+          "title": "SDGs理念の政治導入と多様性社会の実現"
+        },
+        {
+          "quote_text": "それぞれの魅力的な営みを次世代に伝え、都市部の若者が一次産業に参入しやすい環境を整えます。マーケティングやブランディングに取り組む生産者を増やし、一次産業の世界にイノベーションを起こす",
+          "reason": "「環境を整えます」「イノベーションを起こす」などの曖昧な表現であり、何をどう変更するかの具体的な制度ステータス変更や数値目標が存在しないため。",
+          "sources": "https://go2senkyo.com/seijika/180531",
+          "title": "一次産業への若者参入環境整備とイノベーション"
+        },
+        {
+          "title": "課税最低限の引き上げ",
+          "reason": "引き上げ幅が具体的に示されておらず、どの変数をどの数値に変更するのかが不明確なため。",
+          "sources": "https://new-kokumin.jp/news/diet/20260313_2",
+          "quote_text": "課税最低限の引き上げ"
+        },
+        {
+          "title": "教育や子ども子育て予算の拡充",
+          "reason": "「拡充」の有無や水準が客観的に判断できず、具体的な予算規模や制度変更が示されていないため。",
+          "sources": "https://new-kokumin.jp/news/diet/20260313_2",
+          "quote_text": "教育や子ども子育て予算の拡充。"
+        },
+        {
+          "title": "保育士人材不足への対応",
+          "reason": "「対応」は抽象的な意欲表明であり、具体的な制度変更や数値目標が存在しないため。",
+          "sources": "https://new-kokumin.jp/news/diet/20260313_2",
+          "quote_text": "保育士人材不足への対応"
+        },
+        {
+          "title": "制度の狭間にある子どもや障がい児への支援",
+          "reason": "「支援」は対象や手段が曖昧であり、客観的な達成基準が設定できないため。",
+          "sources": "https://new-kokumin.jp/news/diet/20260313_2",
+          "quote_text": "制度の狭間にある子どもや障がい児への支援"
+        },
+        {
+          "title": "重層的支援体制の整備",
+          "reason": "「体制」の整備は中身が不透明であり、客観的な検証が不能であるため。",
+          "sources": "https://new-kokumin.jp/news/diet/20260313_2",
+          "quote_text": "重層的支援体制の整備"
+        },
+        {
+          "title": "ひとり親支援の強化",
+          "reason": "「強化」が含まれており、具体的な変数の変更が不明確なため。",
+          "sources": "https://new-kokumin.jp/news/diet/20260313_2",
+          "quote_text": "ひとり親支援の強化"
+        },
+        {
+          "title": "薬剤給付のあり方や応能負担の見直し",
+          "reason": "「見直し」が含まれており、具体的にどの変数を変更するのかが示されていないため。",
+          "sources": "https://new-kokumin.jp/news/diet/20260313_2",
+          "quote_text": "薬剤給付のあり方や応能負担の見直し"
+        },
+        {
+          "title": "薬価改定",
+          "reason": "薬価改定は既存の行政手続きの継続・再確認であり、新たな政治的コミットメントとはみなせないため。",
+          "sources": "https://new-kokumin.jp/news/diet/20260313_2",
+          "quote_text": "薬価改定"
+        },
+        {
+          "title": "高額療養費に関する給付と負担の抜本的な見直し",
+          "reason": "「見直し」が含まれており、具体的な負担割合や制度変更の変数が明示されていないため。",
+          "sources": "https://new-kokumin.jp/news/diet/20260313_2",
+          "quote_text": "高額療養費に関する給付と負担の抜本的な見直し"
+        },
+        {
+          "title": "医療費抑制改革の実施",
+          "reason": "「改革の実施」の内容が曖昧であり、どの制度をどう操作するのか具体的な変数が特定できないため。",
+          "sources": "https://new-kokumin.jp/news/diet/20260313_2",
+          "quote_text": "医療費抑制改革の実施"
+        },
+        {
+          "title": "「著しい便乗値上げ」、「恣意的な供給制限」等の監視体制強化",
+          "reason": "「体制強化」が含まれており、中身が不透明で客観的な検証が不能なため。",
+          "sources": "https://new-kokumin.jp/news/diet/20260313_2",
+          "quote_text": "④「著しい便乗値上げ」、「恣意的な供給制限」等の監視体制強化"
+        },
+        {
+          "title": "中小企業等への資金繰り支援",
+          "reason": "「支援」は具体的な制度変更や予算措置が不明確であり、客観的な達成基準が設定できないため。",
+          "sources": "https://new-kokumin.jp/news/diet/20260313_2",
+          "quote_text": "⑤中小企業等への資金繰り支援"
+        },
+        {
+          "quote_text": "物価高対策として、手取りを増やす公約の実現を目指す。",
+          "reason": "「目指す」という手続き・意欲表現が含まれており、具体的な数値目標や制度変更が示されていないため。",
+          "sources": "https://kokumin-kumamoto.jp/activities/3063/",
+          "title": "手取りを増やす公約の実現を目指す"
+        },
+        {
+          "quote_text": "人口減少への対応策の検討。",
+          "reason": "「検討」という手続き・意欲表現であり、具体的な政策の実施を伴わないため。",
+          "sources": "https://kokumin-kumamoto.jp/activities/3063/",
+          "title": "人口減少への対応策の検討"
+        },
+        {
+          "quote_text": "経営者の負担を軽減しつつ社員の給料を上げるための施策。",
+          "reason": "「施策」という言葉はあるものの、具体的な制度変更や数値目標が示されておらず、実施の有無を客観的に判断できないため。",
+          "sources": "https://kokumin-kumamoto.jp/activities/3063/",
+          "title": "経営者の負担軽減・社員の給料アップのための施策"
+        },
+        {
+          "quote_text": "社会保障制度の問題解決および社会保険料への累進制の導入。",
+          "reason": "「問題解決」が抽象的であり、どの制度をどのように変更するか具体的な変数が特定できないため。",
+          "sources": "https://kokumin-kumamoto.jp/activities/3063/",
+          "title": "社会保障制度の問題解決"
+        },
+        {
+          "quote_text": "スタートアップ事業の取り組み。",
+          "reason": "「取り組み」という曖昧な表現であり、具体的な新規制度設立や予算確保等の断定的なコミットメントがないため。",
+          "sources": "https://kokumin-kumamoto.jp/activities/3063/",
+          "title": "スタートアップ事業の取り組み"
+        },
+        {
+          "quote_text": "い草生産地等の地域産業の消滅危機に対する対策。",
+          "reason": "「対策」が抽象的であり、特定地域への利益誘導に該当する可能性が高く、公共性を伴う全国的な制度変更ではないため。",
+          "sources": "https://kokumin-kumamoto.jp/activities/3063/",
+          "title": "い草生産地等の地域産業の消滅危機に対する対策"
+        },
+        {
+          "quote_text": "「未来志向の積極財政」と金融緩和で消費や投資を拡大させるとともに適正に価格転嫁できる環境を整え、持続的に物価を上回る賃金アップを実現します。",
+          "reason": "「環境を整え」「実現します」という曖昧な意気込みや手続き表現であり、具体的な変数が特定できないため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "価格転嫁できる環境を整え、賃金アップを実現"
+        },
+        {
+          "quote_text": "ガソリン代・電気代値下げ等生活費の引き下げにより、「消費」を喚起します。",
+          "reason": "「値下げ」の具体的な制度操作が不明であり、「喚起します」も結果へのコミットではないため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "ガソリン代・電気代値下げ等生活費の引き下げ"
+        },
+        {
+          "quote_text": "成長分野への投資減税等を行い、「投資」を拡大し、日本経済を強くし、持続的な成長につなげます。",
+          "reason": "「等を行い」「拡大し」という曖昧な表現であり、どの制度をどう変更するか具体的な変数が特定できないため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "成長分野への投資減税等"
+        },
+        {
+          "quote_text": "介護職員、看護師、保育士等の給料倍増（10年で地域の実情を勘案しつつ給料を2倍にする",
+          "reason": "「10年で地域の実情を勘案しつつ」という長期かつ曖昧な目標であり、法改正等の変数が特定できず客観的な達成判定が困難なため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "介護職員等の給料倍増"
+        },
+        {
+          "quote_text": "地域手当の見直し",
+          "reason": "「見直し」という手続き表現が含まれており、どのように変更するか具体的な変数が特定できないため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "地域手当の見直し"
+        },
+        {
+          "quote_text": "初任給倍増",
+          "reason": "「倍増」という目標は掲げられているものの、どの法律や制度を改正して実現するかの変数が特定できず、客観的な達成判定が困難なため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "初任給倍増"
+        },
+        {
+          "quote_text": "ブラケット・クリープへの対応",
+          "reason": "「対応」という曖昧な表現であり、具体的にどの変数をどのように変更するかが示されていないため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "ブラケット・クリープへの対応"
+        },
+        {
+          "quote_text": "給与所得控除の見直し",
+          "reason": "「見直し」という手続き表現が含まれており、具体的な変数が特定できないため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "給与所得控除の見直し"
+        },
+        {
+          "quote_text": "自動車任意保険料の特定支出控除検討",
+          "reason": "「検討」という手続き表現が含まれており、政治的行動への断定的なコミットメントではないため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "自動車任意保険料の特定支出控除検討"
+        },
+        {
+          "quote_text": "年齢ではなく能力に応じた負担への移行",
+          "reason": "「能力に応じた負担」という概念が曖昧であり、何を指しているのか定義されておらず客観的に判断できないため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "年齢ではなく能力に応じた負担への移行"
+        },
+        {
+          "quote_text": "30歳までの経済的負担軽減",
+          "reason": "「軽減」という表現はあるが、どの制度をどう操作して実現するかが不明であり客観的な判定が困難なため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "30歳までの経済的負担軽減"
+        },
+        {
+          "quote_text": "クリーンエネルギー自動車購入促進補助金の補強",
+          "reason": "「補強」の有無や水準が不明であり、客観的に判断できないため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "クリーンエネルギー自動車購入促進補助金の補強"
+        },
+        {
+          "quote_text": "エネルギー関連補助金の拡充",
+          "reason": "「拡充」の有無や水準が不明であり、客観的に判断できないため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "エネルギー関連補助金の拡充"
+        },
+        {
+          "quote_text": "省エネ住宅支援の拡充",
+          "reason": "「拡充」の有無や水準が不明であり、客観的に判断できないため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "省エネ住宅支援の拡充"
+        },
+        {
+          "quote_text": "水道料金の減免",
+          "reason": "「減免」というアクションはあるものの、どの法律や制度を操作して実現するかの具体的な変数が不明であり、客観的な判定が困難なため。",
+          "sources": "https://election2026.new-kokumin.jp/policies/specifics/specifics1/",
+          "title": "水道料金の減免"
+        }
+      ]
+    }
+  ]
+}
