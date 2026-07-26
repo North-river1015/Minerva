@@ -16,13 +16,20 @@ LAYOUT_WEIRD = [
 
 
 ALL_WINNERS = {
-    "osaka": {
-        2: {
-            "name": "岡崎ふとし",
-            "official": "https://futoshi-ishin.com/",
-            "party": "日本維新の会"
+    "tokushima_kochi": {
+        1: {
+            "name": "広田一",
+            "official": "https://hirota1.jp",
+            "party": "無所属"
         }
-    }
+    },
+        "tottori_shimane": {
+        1: {
+            "name": "出川桃子",
+            "official": "https://degawa-momoko.jp",
+            "party": "自由民主党"
+        }
+    },
 }
 
 

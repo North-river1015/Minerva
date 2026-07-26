@@ -1,0 +1,144 @@
+{
+  "district": "大阪2区",
+  "candidates": [
+    {
+      "name": "岡崎ふとし",
+      "party": "日本維新の会",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "quote_text": "連立政権についての考え：支持者の利益を実現するために、政策や主張を大きく譲ってでも政権に加わるべきだ",
+          "reason": "具体的な政策の実施ではなく、政権参加に関する姿勢・考えの表明であるため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/270183/",
+          "title": "連立政権への参加姿勢"
+        },
+        {
+          "quote_text": "選択的夫婦別姓：反対",
+          "reason": "政策への賛否の表明であり、法改正等の断定的なコミットメントが含まれていないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/270183/",
+          "title": "選択的夫婦別姓への反対"
+        },
+        {
+          "quote_text": "選挙で政党の女性候補者の割合を一定以上にするよう法律で定めること：反対",
+          "reason": "政策への賛否の表明であり、具体的な法改正のコミットメントが含まれていないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/270183/",
+          "title": "女性候補者割合の法定化への反対"
+        },
+        {
+          "quote_text": "同性婚を法律に明記すること：反対",
+          "reason": "政策への賛否の表明であり、法改正の断定的な意思表示ではないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/270183/",
+          "title": "同性婚の法律明記への反対"
+        },
+        {
+          "quote_text": "女性が天皇になるのを認めること：反対",
+          "reason": "政策への賛否の表明であり、具体的な法改正等のコミットメントではないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/270183/",
+          "title": "女性天皇への反対"
+        },
+        {
+          "quote_text": "国内への外国人労働者受け入れ：今より受け入れを抑制するべきだ",
+          "reason": "「抑制するべきだ」という方向性の表明であり、具体的な法改正や数値目標の設定など、客観的に検証可能なコミットメントではないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/270183/",
+          "title": "外国人労働者受け入れの抑制"
+        },
+        {
+          "quote_text": "選挙のインターネット投票：反対",
+          "reason": "政策への賛否の表明であり、制度導入や廃止の断定的なコミットメントではないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/270183/",
+          "title": "インターネット投票への反対"
+        },
+        {
+          "quote_text": "食糧自給率を維持するために、食料品の価格が上がったとしても、生産者（農家）を保護すること：反対",
+          "reason": "政策への賛否の表明であり、具体的な制度変更のコミットメントではないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/270183/",
+          "title": "生産者保護のための食料品価格上昇容認への反対"
+        },
+        {
+          "quote_text": "エネルギー価格が高騰したときの政府の対応：財政負担が重くなるため、政府は電気代やガソリン代への補助をできるだけ行うべきではない",
+          "reason": "政府の対応に関する考えの表明であり、具体的な補助金制度の廃止等の法的なステータス変更ではないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/270183/",
+          "title": "エネルギー価格高騰時の補助抑制"
+        },
+        {
+          "quote_text": "物価高対策として消費税率を引き下げること：反対",
+          "reason": "政策への賛否の表明であり、消費税法の改正等の断定的な意思表示ではないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/270183/",
+          "title": "消費税率引き下げへの反対"
+        },
+        {
+          "quote_text": "少子化対策の財源：受益者負担として、現役世代に限定して負担を求めるべきだ",
+          "reason": "「負担を求めるべきだ」という方向性の表明であり、具体的な法改正や税率変更のコミットメントではないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/270183/",
+          "title": "少子化対策財源の現役世代負担"
+        },
+        {
+          "quote_text": "介護サービス利用者の自己負担額を増やすこと：反対",
+          "reason": "政策への賛否の表明であり、具体的な制度変更のコミットメントではないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/270183/",
+          "title": "介護サービス自己負担額増額への反対"
+        },
+        {
+          "quote_text": "年金や医療などの社会保障：給付などの水準を下げて、国民の負担を抑制すべきだ",
+          "reason": "「抑制すべきだ」という方向性の表明であり、具体的な法改正等の断定的なコミットメントではないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/270183/",
+          "title": "社会保障給付水準の引き下げ"
+        },
+        {
+          "quote_text": "後期高齢者の医療費の自己負担割合を増やすこと：反対",
+          "reason": "政策への賛否の表明であり、具体的な法改正のコミットメントではないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/270183/",
+          "title": "後期高齢者医療費自己負担割合増額への反対"
+        },
+        {
+          "quote_text": "「生成AI」についての考え：権利侵害や未知のリスクがあるため、開発や利用に規制を設けるべきだ",
+          "reason": "「規制を設けるべきだ」という方向性の表明であり、新法制定等の具体的なコミットメントではないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/270183/",
+          "title": "生成AIの開発・利用規制"
+        },
+        {
+          "quote_text": "SNSなどで偽情報や他人への誹謗中傷を流した人への罰則強化：反対",
+          "reason": "政策への賛否の表明であり、法改正のコミットメントではないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/270183/",
+          "title": "偽情報・誹謗中傷への罰則強化への反対"
+        },
+        {
+          "quote_text": "SNSを提供するプラットフォーマーの偽情報や誹謗中傷への対応：プラットフォーマーに対する規制や罰則を取り入れるべきだ",
+          "reason": "「取り入れるべきだ」という方向性の表明であり、具体的な法改正等の断定的なコミットメントではないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/270183/",
+          "title": "プラットフォーマーへの規制・罰則導入"
+        },
+        {
+          "quote_text": "選挙でのネット上の誹謗中傷や虚偽情報の拡散について：政治活動の自由や言論の自由を守る観点から、インターネット上の選挙に関する発信は必要以上に規制すべきではない",
+          "reason": "規制に対する考えの表明であり、具体的な法改正等のコミットメントではないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/270183/",
+          "title": "インターネット上の選挙発信への規制反対"
+        },
+        {
+          "quote_text": "今後の原子力発電政策：段階的に廃炉し、将来的に原発を全廃する",
+          "reason": "「将来的に」と時期が明確でなく、具体的な法律の改正や廃炉の時期限定等の客観的な検証可能な変数が設定されていないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/270183/",
+          "title": "原発の段階的廃炉と全廃"
+        },
+        {
+          "quote_text": "自衛隊の存在を憲法に明記すること：反対",
+          "reason": "政策への賛否の表明であり、憲法改正のコミットメントではないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/270183/",
+          "title": "憲法への自衛隊明記への反対"
+        },
+        {
+          "quote_text": "日本の防衛力をさらに強化すること：反対",
+          "reason": "政策への賛否の表明であり、具体的な制度変更のコミットメントではないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/270183/",
+          "title": "防衛力強化への反対"
+        },
+        {
+          "quote_text": "政治資金パーティー：制度として禁止すべき",
+          "reason": "「禁止すべき」という方向性の表明であり、政治資金規正法の改正等の断定的なコミットメントではないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/270183/",
+          "title": "政治資金パーティーの禁止"
+        }
+      ]
+    }
+  ]
+}
