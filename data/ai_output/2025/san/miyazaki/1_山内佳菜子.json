@@ -1,0 +1,12 @@
+{
+  "district": null,
+  "candidates": [
+    {
+      "name": "山内佳菜子",
+      "party": "立憲民主党",
+      "step1_ocr_raw_text": "立憲民主党 公認\n山内\nかなこ\n元新聞記者\n県議2期\n<プロフィール>",
+      "step2_selected_pledges": [],
+      "full_text": "立憲民主党 公認\n山内 かなこ\n元新聞記者\n県議2期\n"
+    }
+  ]
+}
