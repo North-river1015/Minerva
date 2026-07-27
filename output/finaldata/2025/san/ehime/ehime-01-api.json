@@ -1,0 +1,139 @@
+{
+  "district": "愛媛1区",
+  "candidates": [
+    {
+      "name": "永江孝子",
+      "party": "無所属",
+      "manifesto": [
+        {
+          "title": "同性婚の法律への明記",
+          "reason": "「法律に明記する」という法改正を伴う具体的かつ観測可能な制度のステータス変更を指しているため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
+          "quote_text": "同性婚を法律に明記すること：賛成"
+        },
+        {
+          "title": "政党の女性候補者割合に関する法律制定",
+          "reason": "「法律で定めること」という新規の法制定または法改正という具体的な政治的行動への意思を示しているため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
+          "quote_text": "選挙で政党の女性候補者の割合を一定以上にするよう法律で定めること：賛成"
+        },
+        {
+          "title": "消費税率の引き下げ",
+          "reason": "「消費税率を引き下げる」という税法上の具体的な数値（税率）の変更を指しており、法改正の有無で客観的に検証可能なため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
+          "quote_text": "物価高対策として消費税率を引き下げること：賛成"
+        },
+        {
+          "title": "憲法への自衛隊明記",
+          "reason": "「憲法に明記すること」という最高法規の条文変更という究極的に具体的かつ断定的な政治アクションを指しているため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
+          "quote_text": "自衛隊の存在を憲法に明記すること：賛成"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "title": "選択的夫婦別姓への賛成",
+          "reason": "「賛成」という立場の表明のみであり、法改正という具体的なアクションのコミットメントが明示されていないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
+          "quote_text": "選択的夫婦別姓：賛成"
+        },
+        {
+          "title": "女性天皇の認めることへの賛成",
+          "reason": "「認めること：賛成」という立場の表明のみであり、具体的な法改正の変数やステータス変更が明示されていないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
+          "quote_text": "女性が天皇になるのを認めること：賛成"
+        },
+        {
+          "title": "外国人労働者受け入れの抑制",
+          "reason": "「抑制するべきだ」という抽象的な目標表明であり、具体的な制度変更や数値目標が示されていないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
+          "quote_text": "国内への外国人労働者受け入れ：今より受け入れを抑制するべきだ"
+        },
+        {
+          "title": "選挙のインターネット投票への賛成",
+          "reason": "「賛成」という立場の表明のみであり、公職選挙法改正などの具体的なアクションのコミットメントが明示されていないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
+          "quote_text": "選挙のインターネット投票：賛成"
+        },
+        {
+          "title": "食料品価格上昇時の生産者保護",
+          "reason": "「保護すること：賛成」という立場の表明のみであり、具体的にどの制度を用いて保護するのかという変数が特定できないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
+          "quote_text": "食糧自給率を維持するために、食料品の価格が上がったとしても、生産者（農家）を保護すること：賛成"
+        },
+        {
+          "title": "電気代やガソリン代への補助",
+          "reason": "「補助を積極的に行うべきだ」という意欲表現であり、補助の金額や制度設計といった具体的な変数が特定されていないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
+          "quote_text": "エネルギー価格が高騰したときの政府の対応：個人や企業の負担を軽減するため、政府は電気代やガソリン代への補助を積極的に行うべきだ"
+        },
+        {
+          "title": "少子化対策財源における幅広い世代への負担要請",
+          "reason": "「負担を求めるべきだ」という抽象的な意欲表現であり、具体的な税制や社会保険料の変更という変数が特定されていないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
+          "quote_text": "少子化対策の財源：社会全体のため、高齢者を含む幅広い世代に負担を求めるべきだ"
+        },
+        {
+          "title": "介護サービス利用者の自己負担額増額への反対",
+          "reason": "「反対」という現状維持の立場表明のみであり、新たな政治的アクションを伴わないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
+          "quote_text": "介護サービス利用者の自己負担額を増やすこと：反対"
+        },
+        {
+          "title": "社会保障給付水準の維持",
+          "reason": "「維持すべきだ」という現状維持の立場表明であり、新たな制度変更や法改正のコミットメントではないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
+          "quote_text": "年金や医療などの社会保障：国民の負担を増やしても、給付などの水準を維持すべきだ"
+        },
+        {
+          "title": "後期高齢者医療費自己負担割合増額への反対",
+          "reason": "「反対」という現状維持の立場表明のみであり、新たな政治的アクションを伴わないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
+          "quote_text": "後期高齢者の医療費の自己負担割合を増やすこと：反対"
+        },
+        {
+          "title": "生成AIの規制を最小限にする",
+          "reason": "「最小限にすべきだ」という抽象的な立場表明であり、法的規制の導入や撤廃といった具体的な変数が特定されていないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
+          "quote_text": "「生成AI」についての考え：作業効率化やイノベーション創出につながるため、規制は最小限にすべきだ"
+        },
+        {
+          "title": "偽情報や誹謗中傷への罰則強化",
+          "reason": "「強化」という却下基準に該当する動詞が含まれており、具体的にどの条文をどのように変更するのかが不明なため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
+          "quote_text": "SNSなどで偽情報や他人への誹謗中傷を流した人への罰則強化：賛成"
+        },
+        {
+          "title": "プラットフォーマーの自助努力への委任",
+          "reason": "「任せるべきだ」という意欲表現・現状維持であり、具体的な制度変更や法的措置のコミットメントではないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
+          "quote_text": "SNSを提供するプラットフォーマーの偽情報や誹謗中傷への対応：最大限プラットフォーマーの自助努力に任せるべきだ"
+        },
+        {
+          "title": "ネット上の選挙発信の規制",
+          "reason": "「規制すべきだ」という抽象的な意欲表現であり、具体的な法改正の対象条文や制度設計が特定されていないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
+          "quote_text": "選挙でのネット上の誹謗中傷や虚偽情報の拡散について：政治活動の自由や言論の自由を多少制限してでも、インターネット上の選挙に関する発信を規制すべきだ"
+        },
+        {
+          "title": "原子力発電の活用",
+          "reason": "「活用する」という抽象的な立場表明であり、具体的な法律の制定や廃止といった変数が特定されていないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
+          "quote_text": "今後の原子力発電政策：新設や建て替え等を含め、今後も原発を活用する"
+        },
+        {
+          "title": "防衛力の強化",
+          "reason": "「強化」という却下基準に該当する動詞が含まれており、具体的な予算額の確保や法改正の変数が特定されていないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
+          "quote_text": "日本の防衛力をさらに強化すること：賛成"
+        },
+        {
+          "title": "政治資金パーティー制度の維持",
+          "reason": "「制度として残すべき」という現状維持の立場表明のみであり、新たな政治的アクションを伴わないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
+          "quote_text": "政治資金パーティー：制度として残すべき"
+        }
+      ]
+    }
+  ]
+}

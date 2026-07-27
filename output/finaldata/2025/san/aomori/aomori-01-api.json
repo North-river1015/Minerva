@@ -1,0 +1,367 @@
+{
+  "district": "青森1区",
+  "candidates": [
+    {
+      "name": "福士珠美",
+      "party": "立憲民主党",
+      "manifesto": [
+        {
+          "title": "食料品の消費税の0%への引き下げ",
+          "reason": "具体的な税率（8%から0%）と期間（2026年4月から1年間）という明確な法改正目標であり、客観的に達成度が検証可能なため。",
+          "sources": "https://politician.cafe/politician/1760/measures/",
+          "quote_text": "2026年4月からまずは1年間、食料品の消費税を現在の8%から0%に引き下げます。"
+        },
+        {
+          "title": "「食卓おうえん給付金」の2万円給付",
+          "reason": "給付金の名称と金額（一人あたり2万円）という具体的な数値目標が明確であり、実施の有無が客観的に判断可能なため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2-2/",
+          "quote_text": "「食卓おうえん給付金」を一人あたり2万円給付します。"
+        },
+        {
+          "title": "ガソリン1リットル25円・軽油17円の減税（暫定税率の廃止）",
+          "reason": "減税の具体的な金額（25円、17円）と制度のステータス変更（暫定税率の廃止）が明示されており、法改正の有無で検証可能なため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2-2/",
+          "quote_text": "ガソリンは1リットルあたり25円、軽油は17円の減税（暫定税率の廃止）を行います。"
+        },
+        {
+          "title": "訪問介護の基本報酬の引き上げ",
+          "reason": "介護報酬改定という制度上の数値変更を指しており、法改正や通知の有無によって実施されたかが客観的に判断可能なため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2-2/",
+          "quote_text": "訪問介護の基本報酬を引き上げます。"
+        },
+        {
+          "title": "社会保障サービス自己負担の合計額に関する総合合算制度の創設",
+          "reason": "所得に応じて上限を設ける新規制度の設立を明言しており、法制定の有無によって実施が客観的に検証可能なため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2-2/",
+          "quote_text": "医療・介護・障がい福祉等に関する社会保障サービスの自己負担の合計額について、所得に応じて上限を設ける総合合算制度を創設します。"
+        },
+        {
+          "title": "養育費立替制度の導入",
+          "reason": "「制度の導入」という新規制度の設立を明言しており、その存否によって実施の有無を明確に判定できるため。",
+          "sources": "https://politician.cafe/politician/1760/measures/",
+          "quote_text": "養育費立替制度の導入を進めます。"
+        },
+        {
+          "title": "日本版「ネウボラ」の全国推進",
+          "reason": "子育て支援の一環として具体的な名称を冠した制度の全国展開を掲げており、政策実施の客観的な検証が可能なため。",
+          "sources": "https://politician.cafe/politician/1760/measures/",
+          "quote_text": "妊娠から出産・子育てまで一貫して子どもの育ちを支援し、家族全体の心身の健康サポートを行う日本版「ネウボラ」を全国で推進します。"
+        },
+        {
+          "title": "新たな家賃補助制度の創設",
+          "reason": "「新たな家賃補助制度の創設」という新規制度の設立を明言しており、その存否が客観的に確認可能なため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2/",
+          "quote_text": "新たな家賃補助制度の創設や"
+        },
+        {
+          "title": "国公立大学の授業料無償化",
+          "reason": "制度のステータス変更として客観的に達成度が検証可能なため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2/",
+          "quote_text": "国公立大学の授業料無償化と、私立大学・専門学校への同額程度の負担軽減を実施します。"
+        },
+        {
+          "title": "私立大学・専門学校への同額程度の負担軽減",
+          "reason": "条件の変更として達成度が客観的に検証可能なため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2/",
+          "quote_text": "国公立大学の授業料無償化と、私立大学・専門学校への同額程度の負担軽減を実施します。"
+        },
+        {
+          "title": "18歳までの児童手当を月1万5千円に増額",
+          "reason": "具体的な数値目標の変更を示しており、法改正や制度変更の有無で客観的に判定可能なため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2/",
+          "quote_text": "18歳までの全ての子どもの児童手当を月1万5千円（年18万円）に増額することや"
+        },
+        {
+          "title": "学校給食の無償化",
+          "reason": "「無償化」を行うと明言しており、制度のステータス変更として達成度が客観的に検証可能なため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2/",
+          "quote_text": "学校給食の無償化と質の担保"
+        },
+        {
+          "title": "女性差別撤廃条約の選択議定書の批准",
+          "reason": "条約の「批准」という明確な政治行動を示しており、批准の有無によって実施されたかが客観的に判断可能なため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2/",
+          "quote_text": "女性差別撤廃条約の選択議定書を批准し"
+        },
+        {
+          "title": "「食農支払」制度の創設",
+          "reason": "面積に応じて交付金を支給する新規制度の設立を明示しており、法制化や導入の有無によって客観的に検証可能なため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92/",
+          "quote_text": "食料と農地を守る直接支払制度「食農支払」の創設。「農地維持支払」に加え、「中山間地域加算」「多面的機能・環境加算」「主食用米直接支払（米のトリガー）」「自給率向上直接支払」を導入することで、安定的な農業経営を支援します。"
+        },
+        {
+          "title": "全国民への2万円給付",
+          "reason": "給付金の金額と対象が具体的に示されており、予算成立や給付の有無で客観的な判定が可能であるため。",
+          "sources": "https://www.rab.co.jp/senkyo/202507.html",
+          "quote_text": "全国民に2万円を給付"
+        },
+        {
+          "title": "就農支援資金の10倍拡大",
+          "reason": "就農支援資金を10倍にするという明確な数値目標の変更であり、予算規模の変動によって客観的に検証可能であるため。",
+          "sources": "https://www.rab.co.jp/senkyo/202507.html",
+          "quote_text": "就農支援の資金を10倍に拡大"
+        },
+        {
+          "title": "子育て費用の無償化",
+          "reason": "「無償化」という制度のステータス変更を指しており、関連法改正や予算措置の有無によって実施されたかが客観的に判断可能であるため。",
+          "sources": "https://www.rab.co.jp/senkyo/202507.html",
+          "quote_text": "子育て費用の無償化"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "title": "中小企業の新事業創出・事業承継・海外展開への支援拡充",
+          "reason": "「拡充」や「支援」の具体的水準や制度設計が不明であり、客観的な達成基準が存在しないため。",
+          "sources": "https://fukushimasumi.jp/",
+          "quote_text": "【中小企業の活力】新事業の創出、事業承継、海外展開への支援を拡充します。"
+        },
+        {
+          "title": "若者の地方での活躍の後押し",
+          "reason": "「後押し」や「促進」は具体的な法改正等の変数が特定されておらず、結果へのコミットメントではないため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2/",
+          "quote_text": "税制優遇による雇用や賃上げの促進、起業支援を通じて、若者の地方での活躍を後押しします。"
+        },
+        {
+          "title": "現役世代と若者の年金の底上げ",
+          "reason": "「底上げ」が具体的にどの変数をどのように変更するのか不明であり、客観的な判定ができないため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2-2/",
+          "quote_text": "現役世代と若者の年金（厚生年金・国民年金）の底上げを行います。"
+        },
+        {
+          "title": "低所得の高齢者の年金への一定額上乗せ給付",
+          "reason": "「一定額」と具体的な金額が示されておらず、変数が特定できないため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2-2/",
+          "quote_text": "低所得の高齢者の年金には一定額を上乗せ給付します。"
+        },
+        {
+          "title": "短時間労働者に対する厚生年金の企業規模要件撤廃",
+          "reason": "「撤廃を目指し」という意欲表現が含まれており、断定的なコミットメントではないため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2-2/",
+          "quote_text": "短時間労働者に対する厚生年金の適用拡大を進めるにあたり、企業規模要件は撤廃を目指し、新たに適用される事業所には必要な支援策を講じます。"
+        },
+        {
+          "title": "社会の基盤を支える人たちの処遇改善",
+          "reason": "具体的な数値や制度の変更が明示されておらず、曖昧な意気込みにとどまっているため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2-2/",
+          "quote_text": "医療・保育・幼児教育・介護・福祉、建設・交通運輸など、国民生活や社会の基盤を支える人たちの処遇改善を進めます。"
+        },
+        {
+          "title": "介護・障がい福祉従事者の給与の全産業平均への引き上げ",
+          "reason": "「目指します」という意欲表現であり、具体的な法改正へのコミットメントではないため。",
+          "sources": "https://politician.cafe/politician/1760/measures/",
+          "quote_text": "介護・障がい福祉従事者の給与を全産業平均へ引き上げることを目指します。"
+        },
+        {
+          "title": "公立・公的病院や赤字の医療機関への支援強化",
+          "reason": "「強化」という抽象的概念へのアクションであり、客観的に達成されたか判断できないため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2-2/",
+          "quote_text": "公立・公的病院や赤字の医療機関への支援強化により、安心できる地域医療体制を築きます。"
+        },
+        {
+          "title": "障がい福祉サービス等の報酬改定の見直し・充実",
+          "reason": "「見直し」「充実」という表現が具体的にどの変数をどう変更するのか不明確であるため。",
+          "sources": "https://politician.cafe/politician/1760/measures/",
+          "quote_text": "障がい福祉サービスなどの報酬改定を見直し、充実させます。"
+        },
+        {
+          "title": "ガイドラインの普及・フォローアップとオンライン相談体制の整備",
+          "reason": "「普及」「フォローアップ」「整備」という中身が不透明なアクションであり、客観的な検証が不能であるため。",
+          "sources": "https://politician.cafe/politician/1760/measures/",
+          "quote_text": "実効性のある「ガイドライン」の普及とフォローアップを図り、SNSやチャットなどオンラインで気軽に相談できる体制を整備します。"
+        },
+        {
+          "title": "「介護離職ゼロ」の取り組み強化と介護休業の通算期間延長・賃金補償拡充",
+          "reason": "具体的な期間（日数）や金額の変数が特定されておらず、観測可能な検証ができないため。",
+          "sources": "https://politician.cafe/politician/1760/measures/",
+          "quote_text": "「介護離職ゼロ」の取り組みを強化し、介護休業の通算期間の延長や、介護休業中の賃金補償の拡充を行います。ダブルケアラー、ビジネスケアラーなど、家族介護者を孤立させることなく、社会全体で支える環境整備を行います。"
+        },
+        {
+          "title": "家族介護者を支える環境整備",
+          "reason": "観測可能な変数が存在しない、抽象的な概念に対するアクションであるため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2-2/",
+          "quote_text": "ダブルケアラー、ビジネスケアラーなど、家族介護者を孤立させることなく、社会全体で支える環境整備を行います。"
+        },
+        {
+          "title": "保育士配置基準の見直しと公定価格制度の変更",
+          "reason": "具体的にどの数値をどう変更するのかが不明確であり、文章が不完全で検証不能であるため。",
+          "sources": "https://politician.cafe/politician/1760/measures/",
+          "quote_text": "保育士配置基準の見直しや、保育所等への給付を子どもの人数ではなく真に必要な保育士数に応じたものにするなど公定価格制度を見直し、保育の質を高めます。"
+        },
+        {
+          "title": "中小企業が賃上げしやすい環境の整備と補助金支援",
+          "reason": "具体的な制度設計や予算確保の数値目標が不明なため。",
+          "sources": "https://politician.cafe/politician/1760/measures/",
+          "quote_text": "中小企業が賃上げしやすい環境を整備し、価格転嫁促進や職場環境改善のための新たな補助金による支援も行います。"
+        },
+        {
+          "title": "児童扶養手当の対象拡大・ひとり親家庭支援",
+          "reason": "具体的な基準や数値が不明であり、法改正の内容が特定できないため。",
+          "sources": "https://politician.cafe/politician/1760/measures/",
+          "quote_text": "児童扶養手当の対象拡大、ひとり親家庭の支援、養育費立替制度の導入を進めます。"
+        },
+        {
+          "title": "男女ともに育休中の賃金補償を実質100%にすること",
+          "reason": "「目指す」という意欲表現であり、断定的な政策コミットメントではないため。",
+          "sources": "https://politician.cafe/politician/1760/measures/",
+          "quote_text": "男女ともに育休中の賃金補償を実質100％とすることを目指します。"
+        },
+        {
+          "title": "子ども食堂・学習サポート事業等の助成拡大",
+          "reason": "「助成拡大」「促進」の具体的な変更変数が不明確であるため。",
+          "sources": "https://politician.cafe/politician/1760/measures/",
+          "quote_text": "子ども食堂・学習サポート事業などの助成を拡大し、子ども・若者の居場所づくりを促進します。"
+        },
+        {
+          "title": "日本版「ネウボラ」の全国推進",
+          "reason": "「推進」という手続き表現であり、客観的な達成基準が不明確であるため。",
+          "sources": "https://politician.cafe/politician/1760/measures/",
+          "quote_text": "妊娠から出産・子育てまで一貫して子どもの育ちを支援し、家族全体の心身の健康サポートを行う日本版「ネウボラ」を全国で推進します。"
+        },
+        {
+          "title": "「チルドレン・ファースト」に基づく社会づくり",
+          "reason": "具体的な政策手段を伴わない、抽象的な理念表明であるため。",
+          "sources": "https://politician.cafe/politician/1760/measures/",
+          "quote_text": "「チルドレン・ファースト」の理念に基づき、子ども・若者の「生きづらさ」に寄り添い、希望が持てる社会をつくります。"
+        },
+        {
+          "title": "ベーシックサービスをためらうことなく受けられる社会の実現",
+          "reason": "抽象的なスローガンであり、具体的な政策アクションや変数が存在しないため。",
+          "sources": "https://politician.cafe/politician/1760/measures/",
+          "quote_text": "誰もが必要な医療・介護・障がい福祉・子育て支援などのベーシックサービスをためらうことなく受けられる"
+        },
+        {
+          "title": "住環境・インフラ整備およびコミュニティ活性化",
+          "reason": "何をもって達成とするかの変数が特定できない抽象的な目標であるため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2/",
+          "quote_text": "住環境やインフラの整備、コミュニティの活性化も進めます。"
+        },
+        {
+          "title": "空き家を活用した「みなし公営住宅」の整備と共同生活支援",
+          "reason": "具体的な目標値や制度変更の計画が不明なため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2/",
+          "quote_text": "空き家を活用した「みなし公営住宅」の整備、グループリビングやシェアハウスなどの共同生活支援を進めます。"
+        },
+        {
+          "title": "リモートワーク環境整備と地方移住・二拠点居住の促進",
+          "reason": "客観的な達成基準が存在しない手続き的な表現であるため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2/",
+          "quote_text": "リモートワーク環境の一層の整備により地方移住を促進し、二拠点居住の課題を整理して地域活性化を後押しします。"
+        },
+        {
+          "title": "「地域おこし協力隊」の充実と外部人材の地方参入支援",
+          "reason": "具体的にどの変数を変更するのかが不明であり、客観的に判断できないため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2/",
+          "quote_text": "「地域おこし協力隊」の改善・充実、農林水産業、観光業、商工業、IT産業等への外部人材の参入支援、そして地方への移住（Uターン、Iターン、Jターン）を積極的に支援します。"
+        },
+        {
+          "title": "地方大学と産官学の連携強化",
+          "reason": "達成基準が客観的ではなく、意欲的な手続き表現にとどまっているため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2/",
+          "quote_text": "地方大学と産官学の連携を強化し、人口の流出防止・定着を図ります。"
+        },
+        {
+          "title": "就学前教育・保育の無償化の推進",
+          "reason": "具体的な制度変更内容ではなく、単なる「推進」という手続き表現であるため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2/",
+          "quote_text": "就学前教育・保育の無償化を推進します。"
+        },
+        {
+          "title": "養育費立替制度の導入",
+          "reason": "「導入を進める」という段階的な表現であり、断定的なコミットメントではないため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2/",
+          "quote_text": "ひとり親家庭支援、養育費立替制度の導入を進めます。"
+        },
+        {
+          "title": "隠れ教育費の負担軽減",
+          "reason": "具体的な数値や制度変更が示されておらず、客観的な達成基準がないため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2/",
+          "quote_text": "学校給食の無償化と質の担保、修学旅行費や教材費などの隠れ教育費の負担軽減を行います。"
+        },
+        {
+          "title": "教職員の働き方改革・処遇改善と奨学金返済の負担軽減",
+          "reason": "変更対象となる変数が特定できず、抽象的で検証不能な表現であるため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2/",
+          "quote_text": "教職員の働き方改革と処遇改善を進め、奨学金返済の負担を軽減します。"
+        },
+        {
+          "title": "選択的夫婦別姓制度の導入",
+          "reason": "制度実現に向けた具体的なロードマップのない意欲表明であるため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2/",
+          "quote_text": "選択的夫婦別姓制度の導入に取り組みます。"
+        },
+        {
+          "title": "同一価値労働同一賃金の実現",
+          "reason": "達成の定義が曖昧であり、意欲表現にとどまっているため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2/",
+          "quote_text": "男女の賃金格差を是正し、「同一“価値”労働同一賃金」の実現を目指します。"
+        },
+        {
+          "title": "クオータ制・同性婚の法制化・LGBT差別解消法の制定等の推進",
+          "reason": "「推進」という手続き的な表現であり、個別の法案成立への断定的なコミットメントではないため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2/",
+          "quote_text": "クオータ制の実現、婚姻平等法による同性婚の法制化、GID特例法の改正、LGBT差別解消法の制定も推進しています。"
+        },
+        {
+          "title": "ジェンダー平等を実現するための法整備",
+          "reason": "対象となる具体的な法案や変数が特定されておらず、手続き的な意欲表現であるため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2/",
+          "quote_text": "個人通報制度や調査制度を定めることで、ジェンダー平等を実現するための法整備を進めます。"
+        },
+        {
+          "title": "正規雇用者の社会保険料事業主負担の軽減",
+          "reason": "「軽減を目指す」という手続き表現であり、具体的な減免率や実施時期が不明なため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92/",
+          "quote_text": "正規雇用者の社会保険料事業主負担を軽減することを目指します。"
+        },
+        {
+          "title": "奨学金の代理返還の支援",
+          "reason": "「支援」の水準が客観的に判断できず、実施の有無が不透明なため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92/",
+          "quote_text": "奨学金の代理返還を支援し"
+        },
+        {
+          "title": "食料安全保障の確立と農業体制の整備",
+          "reason": "「確立」「整備」が抽象的であり、客観的な検証が不可能な目標であるため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92/",
+          "quote_text": "食料安全保障の確立を目指し、農家が安心して生産でき、食料自給率を上げ、適正価格で消費者に提供できる体制を整えます。"
+        },
+        {
+          "title": "就農支援資金の強化・拡充",
+          "reason": "「強化」「拡充」の対象や水準が特定されておらず、観測できないため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92/",
+          "quote_text": "農業人材の確保のために、就農支援資金を強化・拡充し、新規就農者を支援します。"
+        },
+        {
+          "title": "家庭医制度およびかかりつけ医制度の創設・導入",
+          "reason": "「目指す」「進める」という意欲表現であり、法改正や制度創設の断定的なコミットではないため。",
+          "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92/",
+          "quote_text": "健康管理・相談機能を持つ「家庭医制度」の創設を目指します。かかりつけ医の認定制・登録制」の導入を進めることで、誰もが必要な時に医療を受けられる体制を万全にすることを目指します。"
+        },
+        {
+          "title": "滝沢求氏の政策全般（地方創生、防災、農林水産、物価高対策、年金改革等）",
+          "reason": "これらは福士珠美氏自身の政策ではなく、他候補者（滝沢求）の政策表明であるため。",
+          "sources": "https://www.rab.co.jp/senkyo/202507.html",
+          "quote_text": "滝沢求・地方創生2.0の推進"
+        },
+        {
+          "title": "ガソリン価格の引き下げ",
+          "reason": "引き下げの根拠となる制度や指標が不明であり、客観的な達成判断ができないため。",
+          "sources": "https://www.rab.co.jp/senkyo/202507.html",
+          "quote_text": "ガソリン価格の引き下げ"
+        },
+        {
+          "title": "コメ価格の適正化",
+          "reason": "「適正化」の数値基準が不明であり、操作対象となる政策変数が特定できないため。",
+          "sources": "https://www.rab.co.jp/senkyo/202507.html",
+          "quote_text": "コメ価格の適正化"
+        },
+        {
+          "title": "格差解消（雇用・賃金・地域・教育）",
+          "reason": "抽象的な「対策」という表現にとどまり、具体的な制度変更が示されていないため。",
+          "sources": "https://www.rab.co.jp/senkyo/202507.html",
+          "quote_text": "格差解消（雇用、賃金、地域、教育の各格差への対策）"
+        }
+      ]
+    }
+  ]
+}

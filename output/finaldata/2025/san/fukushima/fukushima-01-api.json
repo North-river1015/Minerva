@@ -1,0 +1,85 @@
+{
+  "district": "福島1区",
+  "candidates": [
+    {
+      "name": "森まさこ",
+      "party": "自由民主党",
+      "manifesto": [
+        {
+          "title": "所得税減税",
+          "reason": "所得税減税は法改正の有無によって実行されたかが客観的に判断可能であるため。",
+          "sources": "https://www.seikeitohoku.com/house-of-councilors-member-masako-mori-2025/",
+          "quote_text": "所得税減税と給付を組み合わせた効果的な物価高対策を迅速に施す。"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "title": "ガソリン暫定税率廃止に向けた実務者協議",
+          "reason": "「〜に向けて」「進める」という手続き・意欲表現であり、断定的なコミットメントではないため。",
+          "sources": "https://www.seikeitohoku.com/house-of-councilors-member-masako-mori-2025/",
+          "quote_text": "ガソリン暫定税率廃止に向けては実務者協議が進んでおり、今後賃金を上げていくための取り組みも進める。"
+        },
+        {
+          "title": "中小企業への各種補助金による支援",
+          "reason": "「支援していく」という意欲表現であり、具体的な新制度の設立や変数の変更を示していないため。",
+          "sources": "https://www.seikeitohoku.com/house-of-councilors-member-masako-mori-2025/",
+          "quote_text": "中小企業が価格転嫁できるように各種補助金で支援していく。"
+        },
+        {
+          "title": "新しい法律・予算や制度の作成",
+          "reason": "どの法律や制度を作るか特定されておらず、変数が不明であるため。",
+          "sources": "https://www.seikeitohoku.com/house-of-councilors-member-masako-mori-2025/",
+          "quote_text": "震災・原発事故に対応すべく新しい法律・予算や制度を作り"
+        },
+        {
+          "title": "福島イノベーション・コースト構想の推進",
+          "reason": "「推進」という動詞が含まれており、手続き・意欲表現であるため。",
+          "sources": "https://www.seikeitohoku.com/house-of-councilors-member-masako-mori-2025/",
+          "quote_text": "廃炉や中間貯蔵施設、福島イノベーション・コースト構想の推進"
+        },
+        {
+          "title": "会津縦貫道路等の復興再生道路の完成",
+          "reason": "特定地域（道路）への利益還元であり、全国的な制度変更ではないため。",
+          "sources": "https://www.seikeitohoku.com/house-of-councilors-member-masako-mori-2025/",
+          "quote_text": "会津縦貫道路をはじめとしたふくしま復興再生道路の完成など、山積する課題を着実に進展させていく。"
+        },
+        {
+          "title": "国内外の誘客につなげる観光・地域交通の再生",
+          "reason": "「再生していく」という曖昧な意欲表現であり、客観的な達成基準が存在しないため。",
+          "sources": "https://www.seikeitohoku.com/house-of-councilors-member-masako-mori-2025/",
+          "quote_text": "大阪・関西万博やふくしまデスティネーションキャンペーンの機会を通して国内外の誘客につなげ、観光や地域交通を再生していく。"
+        },
+        {
+          "title": "農林畜水産業を持続可能な産業にする",
+          "reason": "「〜にする」という目標の表明であり、具体的な法改正や制度変更を示していないため。",
+          "sources": "https://www.seikeitohoku.com/house-of-councilors-member-masako-mori-2025/",
+          "quote_text": "自然災害に強い農林畜水産業を守り、後継者が安心して営める持続可能な産業にする。"
+        },
+        {
+          "title": "復興財源を活用したイノベーションと産業発展",
+          "reason": "具体的な変数がなく、「仕掛けを作る」「創出していく」という抽象的な意欲表現であるため。",
+          "sources": "https://www.seikeitohoku.com/house-of-councilors-member-masako-mori-2025/",
+          "quote_text": "復興財源を活用してイノベーションを起こし、産業を発展させ、新しい製品を生み出す仕掛けを作る。"
+        },
+        {
+          "title": "教育費や仕送り費用を軽減する仕組み作り",
+          "reason": "「仕組み作りにも取り組む」という意欲表現であり、具体的な制度変更が不明であるため。",
+          "sources": "https://www.seikeitohoku.com/house-of-councilors-member-masako-mori-2025/",
+          "quote_text": "そこにかかる教育費や仕送り費用を軽減する仕組み作りにも取り組む。"
+        },
+        {
+          "title": "デジタルやDXを利活用した地方での国のサービス提供",
+          "reason": "「〜できるようにしていく」という曖昧な目標であり、具体的な制度変更や達成基準が不明であるため。",
+          "sources": "https://www.seikeitohoku.com/house-of-councilors-member-masako-mori-2025/",
+          "quote_text": "デジタルやDXを利活用し、地方のどこにいても国のサービスを受けられ、豊かな生活を送れるようにしていく。"
+        },
+        {
+          "title": "政治資金の制度改革",
+          "reason": "「制度改革を断行していく」という意欲表現であり、対象となる具体的な法律や変数が特定されていないため。",
+          "sources": "https://www.seikeitohoku.com/house-of-councilors-member-masako-mori-2025/",
+          "quote_text": "政治資金の透明性について、制度改革を断行していく。"
+        }
+      ]
+    }
+  ]
+}
