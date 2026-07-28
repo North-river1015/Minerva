@@ -1,0 +1,136 @@
+{
+  "district": "京都1区",
+  "district_code": "2026-shu-kyoto-1",
+  "candidates": [
+    {
+      "name": "新実彰平",
+      "party": "日本維新の会",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "社会保険料を下げ、手取りを増やす",
+            "body": "年収350万円の方の年間社会保険料負担はおよそ50万円。重すぎる現役世代への負担が、非婚化や少子化の最大の原因です。現役世代の社会保険料負担を軽減します。"
+          }
+        ],
+        "manifesto": [
+          {
+            "title": "現役世代の社会保険料負担軽減",
+            "reason": "社会保険料の負担軽減という具体的な政策目標を示しているが、具体的な減税幅や制度変更が明示されていないため。",
+            "quote_text": "社会保険料を下げ、手取りを増やす\n現役世代の社会保険料負担を軽減します。",
+            "policy_id": "policy_518"
+          }
+        ]
+      },
+      "web": {
+        "manifesto": [
+          {
+            "title": "同性婚の法制化",
+            "reason": "同性婚という法制度のステータス変更を明示しており、法律の制定や改正の有無によって客観的に達成度を検証可能なため。",
+            "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+            "quote_text": "同性婚を法律に明記すること：賛成",
+            "policy_id": "policy_349"
+          },
+          {
+            "title": "消費税を5%に緊急減税",
+            "reason": "消費税率という明確な数値を変更する具体的な公約であり、税制改正の有無によって達成度が客観的に判定可能なため。",
+            "sources": "https://sangiin.go2senkyo.com/2025/prefecture/26",
+            "quote_text": "消費税の廃止をめざし、５％に緊急減税する。",
+            "policy_id": "policy_028"
+          },
+          {
+            "title": "マクロ経済スライドの廃止",
+            "reason": "マクロ経済スライドという現行制度の廃止を明言しており、法律改正の有無で実施の有無を客観的に判定可能なため。",
+            "sources": "https://sangiin.go2senkyo.com/2025/prefecture/26",
+            "quote_text": "マクロ経済スライドを廃止",
+            "policy_id": "policy_143"
+          },
+          {
+            "title": "企業団体献金の禁止",
+            "reason": "政治資金規正法等の法改正を伴う制度の変更であり、禁止措置の有無を客観的に検証可能なため。",
+            "sources": "https://say-g.com/interview-niimi-shohei-11482",
+            "quote_text": "企業団体献金の禁止",
+            "policy_id": "policy_101"
+          },
+          {
+            "title": "選択的夫婦別姓制度の導入",
+            "reason": "民法改正の有無によって制度が導入されたかを客観的に判断可能であるため。",
+            "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+            "quote_text": "選択的夫婦別姓：賛成",
+            "policy_id": "policy_057"
+          },
+          {
+            "title": "政党の女性候補者割合の法定化",
+            "reason": "法律で候補者割合を定めるという具体的アクションであり、関連法の制定・改正の有無で実施を判断可能なため。",
+            "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+            "quote_text": "選挙で政党の女性候補者の割合を一定以上にするよう法律で定めること：賛成",
+            "policy_id": "policy_354"
+          },
+          {
+            "title": "女性天皇の認可",
+            "reason": "皇室典範改正の有無によって女性天皇が認められたかが客観的に判断可能であるため。",
+            "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+            "quote_text": "女性が天皇になるのを認めること：賛成",
+            "policy_id": "policy_324"
+          },
+          {
+            "title": "選挙のインターネット投票の導入",
+            "reason": "公職選挙法等の改正の有無によってインターネット投票が導入されたかが客観的に判断可能であるため。",
+            "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+            "quote_text": "選挙のインターネット投票：賛成",
+            "policy_id": "policy_062"
+          },
+          {
+            "title": "介護サービス利用者の自己負担額の増額",
+            "reason": "介護保険法等の改正の有無によって自己負担割合が変更されたかが客観的に判断可能であるため。",
+            "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+            "quote_text": "介護サービス利用者の自己負担額を増やすこと：賛成",
+            "policy_id": "policy_371"
+          },
+          {
+            "title": "後期高齢者の医療費の自己負担割合の増額",
+            "reason": "健康保険法等の改正の有無によって自己負担割合が変更されたかが客観的に判断可能であるため。",
+            "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+            "quote_text": "後期高齢者の医療費の自己負担割合を増やすこと：賛成",
+            "policy_id": "policy_372"
+          },
+          {
+            "title": "生成AIの開発・利用に対する規制の設置",
+            "reason": "新法の制定や既存法の改正による規制設置の有無で実施が判断可能であるため。",
+            "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+            "quote_text": "「生成AI」についての考え：権利侵害や未知のリスクがあるため、開発や利用に規制を設けるべきだ",
+            "policy_id": "policy_352"
+          },
+          {
+            "title": "偽情報や誹謗中傷に対する罰則の強化",
+            "reason": "関連法の改正の有無によって偽情報や誹謗中傷への罰則が強化されたかが客観的に判断可能であるため。",
+            "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+            "quote_text": "SNSなどで偽情報や他人への誹謗中傷を流した人への罰則強化：賛成",
+            "policy_id": "policy_373"
+          },
+          {
+            "title": "プラットフォーマーに対する規制や罰則の導入",
+            "reason": "規制法の制定等の有無によってSNSプラットフォーマーへの規制や罰則が取り入れられたかが客観的に判断可能であるため。",
+            "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+            "quote_text": "SNSを提供するプラットフォーマーの偽情報や誹謗中傷への対応：プラットフォーマーに対する規制や罰則を取り入れるべきだ",
+            "policy_id": "policy_382"
+          },
+          {
+            "title": "憲法への自衛隊の明記",
+            "reason": "憲法改正という具体的かつ断定的な政治アクションであり、条文の変更によって実施の有無が明確であるため。",
+            "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+            "quote_text": "自衛隊の存在を憲法に明記すること：賛成",
+            "policy_id": "policy_015"
+          },
+          {
+            "title": "政治資金パーティーの制度としての禁止",
+            "reason": "政治資金規正法改正の有無によってパーティーが制度として禁止されたかが客観的に判断可能であるため。",
+            "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+            "quote_text": "政治資金パーティー：制度として禁止すべき",
+            "policy_id": "policy_351"
+          }
+        ],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

@@ -1854,5 +1854,1535 @@
     "status": "未確認",
     "last_updated": "2026-07-11",
     "evidence": ""
+  },
+  "policy_319": {
+    "title": "財務省設置法第3条の任務規定改正",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_320": {
+    "title": "財政法第4条・第5条の改正",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_321": {
+    "title": "プライマリーバランス黒字化目標の破棄",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_322": {
+    "title": "上場株式等の譲渡・配当利益の総合課税化",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_323": {
+    "title": "相続税の基礎控除引き上げ及び超富裕層への税率引き上げ",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_324": {
+    "title": "皇室典典の改正による女性天皇の認知",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_325": {
+    "title": "障害児福祉における所得制限の撤廃",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_326": {
+    "title": "いじめ対策における第三者機関・外部窓口の整備",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_327": {
+    "title": "消費税5%への時限的減税",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_328": {
+    "title": "インテリジェンス態勢整備推進法案の提出",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_329": {
+    "title": "再エネ賦課金3.98円／kWhの徴収一時停止",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_330": {
+    "title": "不妊治療の保険適用の回数緩和",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_331": {
+    "title": "0～2歳の保育無償化の所得制限撤廃",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_332": {
+    "title": "児童手当第一子第二子月額15,000円への拡充",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_333": {
+    "title": "ひとり親家庭にかかる所得制限の撤廃",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_334": {
+    "title": "エチレン、プロピレン等の特定重要物資指定",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_335": {
+    "title": "透析回路や麻酔薬等の特定重要物資指定",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_336": {
+    "title": "介護職員、看護師、保育士等の給料倍増",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_337": {
+    "title": "幼稚園・保育園から高校までの教育完全無償化",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_338": {
+    "title": "奨学金減税の導入",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_339": {
+    "title": "悪質な企業の社名公表制度の実現",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_340": {
+    "title": "健康保険証の存続",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_341": {
+    "title": "介護報酬の復元",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_342": {
+    "title": "奨学金返済額の所得税控除対象化",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_343": {
+    "title": "公務員介護士の復活",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_344": {
+    "title": "つわりに対する薬の公的保険適用",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_345": {
+    "title": "公的な人権機関の設置",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_346": {
+    "title": "風営法の改正",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_347": {
+    "title": "子ども用SOS番号の統一化",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_348": {
+    "title": "政策活動費のゼロ化および旧文通費の全面公開",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_349": {
+    "title": "同性婚の法律への明記",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_350": {
+    "title": "原子力発電の段階的廃炉と将来的全廃",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_351": {
+    "title": "政治資金パーティーの制度としての禁止",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_352": {
+    "title": "生成AIの開発・利用への規制導入",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_353": {
+    "title": "SNS関連の偽情報・誹謗中傷への対策強化",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_354": {
+    "title": "政党の女性候補者割合に関する法律制定",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_355": {
+    "title": "減税および積極財政の実施",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_356": {
+    "title": "大学までの教育費無償化",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_357": {
+    "title": "子育て減税の導入",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_358": {
+    "title": "資金透明化システムの導入",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_359": {
+    "title": "立法プラットフォームの設立",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_360": {
+    "title": "「103万円の壁」を解消し手取りを増やす施策",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_361": {
+    "title": "定期健康診断の廃止",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_362": {
+    "title": "健康診断書を必要提出書類から除外",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_363": {
+    "title": "国民皆歯科健診の閣議決定の取り消し",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_364": {
+    "title": "首相公選制の導入",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_365": {
+    "title": "国会議員の世襲制限",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_366": {
+    "title": "脱原発",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_367": {
+    "title": "国産の再生可能エネルギー導入",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_368": {
+    "title": "スマート林業の導入",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_369": {
+    "title": "外国人労働者受け入れの抑制",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_370": {
+    "title": "消費税率の引き下げ",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_371": {
+    "title": "介護サービス利用者の自己負担額の引き上げ",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_372": {
+    "title": "後期高齢者医療制度の自己負担割合の引き上げ",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_373": {
+    "title": "偽情報・誹謗中傷への罰則強化",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_374": {
+    "title": "原子力発電所の新設・建て替えを含む活用",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_375": {
+    "title": "防衛力の強化",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_376": {
+    "title": "各種税制およびインボイス制度の廃止",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_377": {
+    "title": "警察・消防・海保・自衛隊の給与引上げ",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_378": {
+    "title": "難民保護法の制定",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_379": {
+    "title": "包括的差別禁止法の策定およびヘイトスピーチ解消法の拡充",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_380": {
+    "title": "在留手数料の減額または免除",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_381": {
+    "title": "独立した人権救済機関の設置",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_382": {
+    "title": "プラットフォーマーに対する規制・罰則の導入",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_383": {
+    "title": "租税特別措置を受けている企業の名称公表",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_384": {
+    "title": "森友文書の公開",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_385": {
+    "title": "被選挙権年齢の引き下げ",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_386": {
+    "title": "同性パートナーへの事実婚と同様の社会保障の適用",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_387": {
+    "title": "政治資金規正法の再改正",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_388": {
+    "title": "旧文通費の全面公開",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_389": {
+    "title": "政策活動費の廃止",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_390": {
+    "title": "教育や奨学金などの所得制限の撤廃",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_391": {
+    "title": "主要農作物種子確保法案の提出",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_392": {
+    "title": "政治資金規正法改正案の提出",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_393": {
+    "title": "私立含む高校授業料無償化",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_394": {
+    "title": "農地に着目した新たな直接支払制度の創設",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_395": {
+    "title": "障害児・障害者医療における所得制限の撤廃",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_396": {
+    "title": "出入国管理における収容期間の上限設定",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_397": {
+    "title": "難民申請者の送還禁止（ノン・ルフールマン）",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_398": {
+    "title": "性的指向・性自認に基づく差別禁止の法制化",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_399": {
+    "title": "性別変更の手術要件の撤廃",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_400": {
+    "title": "学習指導要領への性的指向・性自認の多様性の盛り込み",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_401": {
+    "title": "企業に対する人権尊重を求める法整備",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_402": {
+    "title": "0、1、2歳児の保育料、出産費用、給食費の負担を0円にする",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_403": {
+    "title": "NHK受信料の廃止",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_404": {
+    "title": "外国人による日本国内の土地の取得停止",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_405": {
+    "title": "企業団体献金の廃止",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_406": {
+    "title": "核兵器禁止条約へのオブザーバー参加",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_407": {
+    "title": "国民投票における政党等の有料ネット広告の一律禁止",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_408": {
+    "title": "国民投票運動における支出上限の設定",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_409": {
+    "title": "政党等に対する詳細な収支報告の義務付け",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_410": {
+    "title": "第一次産業従事者の公務員化",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_411": {
+    "title": "完全米食化",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_412": {
+    "title": "直接支払いの制度改訂",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_413": {
+    "title": "建築基準法の改正（4号特例の審査対象縮小）",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_414": {
+    "title": "社会保障給付の水準引き下げ",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_415": {
+    "title": "防衛力のさらなる強化",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_416": {
+    "title": "少子化対策財源の現役世代限定負担",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_417": {
+    "title": "食料品価格上昇時の生産者（農家）保護",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_418": {
+    "title": "エネルギー価格高騰時の補助金不交付",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_419": {
+    "title": "インターネット上の選挙に関する発信の必要以上の規制の不在",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_420": {
+    "title": "備蓄米の供給",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_421": {
+    "title": "国内への設備投資の促進とあらゆる分野における賃金UP",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_422": {
+    "title": "科学技術振興への投資と制度構築",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_423": {
+    "title": "積極外交の展開と抑止力の強化",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_424": {
+    "title": "シッター制度の充実",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_425": {
+    "title": "診療報酬・介護報酬の引き上げ",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_426": {
+    "title": "基礎年金の引き上げ",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_427": {
+    "title": "国内投資の促進と各地域への産業集積を図り、魅力ある雇用の創出と物価上昇を上回る賃金上昇の継続により税収を伸ばし財源を確保し、その財源を暮らしの充実と次世代への投資に充てる健全な経済社会システムの構築",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_428": {
+    "title": "連立政権についての考え：支持者の利益を実現するために、政策や主張を大きく譲ってでも政権に加わるべきだ",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_429": {
+    "title": "分阶段将法人税率提高至40%",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_430": {
+    "title": "针对战略领域引入投资减税或即时损金计入",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_431": {
+    "title": "子ども手当の恒久化",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_432": {
+    "title": "ガソリン価格の1リットル当たり最大10円引き下げ補助の実施",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_433": {
+    "title": "外国人への補助金の全廃止および財源の組み替え",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_434": {
+    "title": "教育バウチャー（クーポン）制の導入",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_435": {
+    "title": "高校授業料無償化の所得制限撤廃",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_436": {
+    "title": "再審法改正による幅広い証拠開示の可能化",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_437": {
+    "title": "検察官による抗告の全面禁止または実効性のある制限",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_438": {
+    "title": "最低保障年金月10万円",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_439": {
+    "title": "あらゆる差別を禁止する法律の制定",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_440": {
+    "title": "実務直結型高等教育機関モデルの創設",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_441": {
+    "title": "子育て減税（1人産んだら親の所得税を-5%）",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_442": {
+    "title": "中山間地域等直接支払交付金の対象要件拡大",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_443": {
+    "title": "子供1人につき毎年10万円の支給",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_444": {
+    "title": "労働法制の整備によるものづくり産業の構築",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_445": {
+    "title": "地方への権限と財源の移譲による地域主権の確立",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_446": {
+    "title": "国による直接的ターゲット支援への移行",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_447": {
+    "title": "補正予算の予備費を活用した介護分野等への追加支援",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_448": {
+    "title": "NISAの対象商品への国債追加",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_449": {
+    "title": "日本版Iボンド（個人向け物価連動国債）の新設",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_450": {
+    "title": "ベーシックインカムの導入",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_451": {
+    "title": "実質減反政策の廃止",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_452": {
+    "title": "0〜15歳の子供への月10万円給付金の提供",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_453": {
+    "title": "少人数教育やフリースクール、ホームスクーリング、スクールチョイス制度の導入",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_454": {
+    "title": "消費税減税および段階的廃止",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_455": {
+    "title": "外国資本による土地や水源の買収対策の法整備",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_456": {
+    "title": "不適切なメガソーラー開発に対する法的規制の強化",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_457": {
+    "title": "再エネ賦課金の増加抑制",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_458": {
+    "title": "国民1人2万円、非課税世帯4万円の給付",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_459": {
+    "title": "外国人総合政策庁の創設",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_460": {
+    "title": "水素社会推進法の制定",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_461": {
+    "title": "安保法制の違憲部分を廃止",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_462": {
+    "title": "敵基地攻撃能力保有等の大軍拡への反対",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_463": {
+    "title": "消費税の緊急的な減税",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_464": {
+    "title": "衆議院議員、都道府県議会議員、市町村議会議員の被選挙権年齢を18歳以上へ引き下げる法案の提出",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_465": {
+    "title": "参議院議員、都道府県知事、市町村長の被選挙権年齢を23歳以上へ引き下げる法案の提出",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_466": {
+    "title": "1人2万円の給付",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_467": {
+    "title": "直接支払制度「食農支払」の創設",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_468": {
+    "title": "国民負担率の上限設定（35%）",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_469": {
+    "title": "現金給付の実施",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_470": {
+    "title": "難民認定に関する入管庁から独立した組織の整備",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_471": {
+    "title": "難民生活困窮防止のための公的な仕組みの設置",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_472": {
+    "title": "国内人権機関の設置",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_473": {
+    "title": "農家の戸別所得補償制度の復活",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_474": {
+    "title": "18歳までの医療費無償化",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_475": {
+    "title": "保育・教育の無償化",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_476": {
+    "title": "最低賃金引き上げ",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_477": {
+    "title": "日米地位協定の抜本改定",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_478": {
+    "title": "国内法の適用",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_479": {
+    "title": "有事避難をする国民保護法の見直し・廃止",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_480": {
+    "title": "県全体のバス運賃を１年間無料化する実証事業",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_481": {
+    "title": "コメの安定供給",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_482": {
+    "title": "那覇軍港の浦添移設や辺野古新基地建設への反対",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_483": {
+    "title": "離島のフェリー代や飛行機代の割引制度拡充",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_484": {
+    "title": "那覇軍港の浦添移設の推進、辺野古の新基地建設の容認",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_485": {
+    "title": "畜産農家向け直接補填制度の恒久制度化",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_486": {
+    "title": "ひとり親家庭の児童扶養手当支給年齢の引き上げ",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_487": {
+    "title": "ひとり親家庭の養育費確保支援・立替制度の創設",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_488": {
+    "title": "学校教育費（教材費・修学旅行費・部活動費等）の公費負担化",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_489": {
+    "title": "就学援助の国庫負担割合の復元",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_490": {
+    "title": "生活保護の就学援助認定基準の緩和（1.5倍まで）",
+    "status": "未確認",
+    "last_updated": "2026-05-05",
+    "evidence": ""
+  },
+  "policy_491": {
+    "title": "ガソリン減税および軽油引取税の課税停止",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_492": {
+    "title": "食卓おうえん給付金として一律2万円を給付",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_493": {
+    "title": "私立大学・専門学校の授業料を半額にする",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_494": {
+    "title": "奨学金返済の負担をゼロにする",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_495": {
+    "title": "幼児教育・保育の無償化の完全実施",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_496": {
+    "title": "コメ・農畜産品の価格安定制度を確立",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_497": {
+    "title": "家賃補助制度の創設",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_498": {
+    "title": "就学前教育・保育の無償化",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_499": {
+    "title": "食卓おうえん金の給付",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_500": {
+    "title": "消費税キャッシュバック制度の実現",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_501": {
+    "title": "児童手当の増額",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_502": {
+    "title": "生産者への直接支払制度の創設",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_503": {
+    "title": "家庭医制度の創設",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_504": {
+    "title": "ガソリン等の二重課税の廃止",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_505": {
+    "title": "社会保険料の減免",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_506": {
+    "title": "電気代の再エネ賦課金のカット",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_507": {
+    "title": "健康で医療費削減に協力した高齢者に国内旅行券を配布する",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_508": {
+    "title": "ゼロから憲法を創る",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_509": {
+    "title": "子どもの数に応じた納税負担軽減（N分N乗方式）の導入",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_510": {
+    "title": "男性育休取得時の給与の100%保障",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_511": {
+    "title": "大学等の授業料・入学金の無償化",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_512": {
+    "title": "児童手当の支給対象年齢の延長",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_513": {
+    "title": "児童手当の所得制限撤廃",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_514": {
+    "title": "育児・介護休業法の改正",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_515": {
+    "title": "次世代育成支援対策推進法の改正",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_516": {
+    "title": "新しい地方経済・生活環境創出交付金の創設",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_517": {
+    "title": "所得税・住民税減税",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_518": {
+    "title": "現役世代の社会保険料軽減",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_519": {
+    "title": "障がい児福祉およびひとり親家庭にかかる所得制限撤廃",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_520": {
+    "title": "奨学金の給付制への移行",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_521": {
+    "title": "農家への直接支払いの実施",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_522": {
+    "title": "動物の緊急一時保護の法制化",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_523": {
+    "title": "動物愛護宝くじの創設",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_524": {
+    "title": "式典での政治家あいさつの廃止",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_525": {
+    "title": "金融モラトリアム法の復活",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_526": {
+    "title": "ゼロゼロ融資の再開",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_527": {
+    "title": "基礎控除等の引上げと年少扶養控除の復活",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_528": {
+    "title": "消費税の一律減税とインボイスの廃止",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_529": {
+    "title": "ガソリン税の暫定税率廃止と二重課税の廃止",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_530": {
+    "title": "後期高齢者医療の窓口負担の見直し（原則2割負担化）",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_531": {
+    "title": "後期高齢者医療への公費投入増",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_532": {
+    "title": "外国人土地取引規制",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_533": {
+    "title": "河川・海岸整備の国庫補助事業化",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_534": {
+    "title": "給料の2/3は手取りで残す。",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_535": {
+    "title": "OTC医薬品の保険適用除外",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_536": {
+    "title": "社会保険料の年間6万円引き下げ",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_537": {
+    "title": "年金受給開始年齢選択制の導入",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_538": {
+    "title": "道州制の導入",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_539": {
+    "title": "農業への株式会社参入完全自由化",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_540": {
+    "title": "タクシー・運送業へのライドシェア参入解禁",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_541": {
+    "title": "電気・ガス料金への緊急支援措置の実施",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_542": {
+    "title": "食料品の税率を恒久的に引き下げる",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_543": {
+    "title": "2万〜4万円の給付実施",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_544": {
+    "title": "明石市の「子育て支援5つの無料化」の全国実施",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_545": {
+    "title": "50万トン規模のコメ増産の実行",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_546": {
+    "title": "所得税の課税最低限を103万円から160万円へ引き上げる減税",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_547": {
+    "title": "税収増分から国民一人あたり2万円の還元",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_548": {
+    "title": "介護従事者、保育士等の給与を全産業平均（38.6万円）まで引き上げ",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_549": {
+    "title": "認知症の検診制度の確立",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_550": {
+    "title": "政治資金寄付金等の口座振込み義務化",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_551": {
+    "title": "ガソリン税の25円引き下げ",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_552": {
+    "title": "憲法改正の早期実現",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_553": {
+    "title": "ガソリン税（トリガー条項1円/L）の廃止",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_554": {
+    "title": "肥料・飼料の輸入減反の廃止",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_555": {
+    "title": "子どもや住民税非課税世帯の大人に1人4万円、その他の方に1人2万円の給付",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_556": {
+    "title": "ひきこもり支援法の制定",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_557": {
+    "title": "総額1.2兆円の所得税減税",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_558": {
+    "title": "厚生年金の積立金を活用した基礎年金の支給額引上げ",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_559": {
+    "title": "短時間労働者の厚生年金適用における企業規模要件の撤廃",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_560": {
+    "title": "60歳以上就労者の年金支給停止基準額の引き上げ",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_561": {
+    "title": "児童手当の所得制限撤廃および高校生までの支給期間延長",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_562": {
+    "title": "第3子以降の児童手当を月額3万円に増額",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_563": {
+    "title": "妊婦に対する10万円の支援給付の創設",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_564": {
+    "title": "出生後の休業支援給付の創設および手取10割相当の給付",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_565": {
+    "title": "特別相談窓口を全国に1000か所設置",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_566": {
+    "title": "休暇中の職業訓練に対する給付の開始",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_567": {
+    "title": "給食費および高校大学の授業料無償化",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_568": {
+    "title": "最低賃金の段階的引き上げ",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_569": {
+    "title": "保育・教育費・学校給食費無償化",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_570": {
+    "title": "普天間基地閉鎖撤去",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_571": {
+    "title": "辺野古新基地建設断念",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_572": {
+    "title": "教育費・給食費の完全無償化",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
+  },
+  "policy_573": {
+    "title": "「チャレンジ夢基金」の創出",
+    "status": "未確認",
+    "last_updated": "2026-07-11",
+    "evidence": ""
   }
 }

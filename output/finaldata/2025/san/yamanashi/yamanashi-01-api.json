@@ -9,91 +9,106 @@
           "title": "所得税の減税（基礎控除を178万円に拡充）",
           "reason": "基礎控除の額という具体的な数値目標が示されており、法改正の有無によって達成されたかが客観的に検証可能であるため。",
           "sources": "https://go2senkyo.com/seijika/121906",
-          "quote_text": "所得税を減税(基礎控除を178万円に拡充)する。"
+          "quote_text": "所得税を減税(基礎控除を178万円に拡充)する。",
+          "policy_id": "policy_162"
         },
         {
           "title": "政治資金規正法の再改正",
           "reason": "「政治資金規正法の再改正」という具体的な法改正のアクションを明示しており、改正の有無で検証可能であるため。",
           "sources": "https://go2senkyo.com/seijika/121906",
-          "quote_text": "政治資金規正法の再改正で“裏金”を根絶する。"
+          "quote_text": "政治資金規正法の再改正で“裏金”を根絶する。",
+          "policy_id": "policy_387"
         },
         {
           "title": "旧文通費の全面公開",
           "reason": "「全面公開」という情報公開の制度ステータス変更を指しており、公開の有無で客観的に判定可能であるため。",
           "sources": "https://go2senkyo.com/seijika/121906",
-          "quote_text": "旧文通費を全面公開し"
+          "quote_text": "旧文通費を全面公開し",
+          "policy_id": "policy_388"
         },
         {
           "title": "政策活動費の廃止",
           "reason": "「廃止」という制度のステータス変更を指しており、当該予算や制度が廃止されたかどうかで検証可能であるため。",
           "sources": "https://go2senkyo.com/seijika/121906",
-          "quote_text": "政策活動費を廃止する。"
+          "quote_text": "政策活動費を廃止する。",
+          "policy_id": "policy_389"
         },
         {
           "title": "政治資金を監視する第三者機関の設置",
           "reason": "「第三者機関を設置」という新規制度の設立を指しており、その存否が客観的に確認可能であるため。",
           "sources": "https://go2senkyo.com/seijika/121906",
-          "quote_text": "第三者機関を設置して政治資金を監視する。"
+          "quote_text": "第三者機関を設置して政治資金を監視する。",
+          "policy_id": "policy_105"
         },
         {
           "title": "教育や奨学金などの所得制限の撤廃",
           "reason": "「所得制限を撤廃」という制度上の明確なステータス変更を指しており、法令や要件から撤廃されたかが検証可能であるため。",
           "sources": "https://go2senkyo.com/seijika/121906",
-          "quote_text": "教育や奨学金などの所得制限を撤廃し"
+          "quote_text": "教育や奨学金などの所得制限を撤廃し",
+          "policy_id": "policy_390"
         },
         {
           "title": "主要農作物種子確保法案の提出",
           "reason": "「法律案の提出」という具体的な立法行動を指しており、法案が提出されたかどうかで客観的に達成度が検証可能であるため。",
           "sources": "https://go510.jp/report/202060624-2/",
-          "quote_text": "主要農作物の優良な品種を確保するための公的新品種育成の促進等に関する法律案（通称：主要農作物種子確保法案）を提出。"
+          "quote_text": "主要農作物の優良な品種を確保するための公的新品種育成の促進等に関する法律案（通称：主要農作物種子確保法案）を提出。",
+          "policy_id": "policy_391"
         },
         {
           "title": "政治資金規正法改正案の提出",
           "reason": "「改正案の提出」という具体的な立法行動を指しており、法案が提出されたかどうかで客観的に達成度が検証可能であるため。",
           "sources": "https://go510.jp/report/202060624-2/",
-          "quote_text": "「政治資金規正法」改正案の提出。"
+          "quote_text": "「政治資金規正法」改正案の提出。",
+          "policy_id": "policy_392"
         },
         {
           "title": "消費税率引き下げ",
           "reason": "消費税法の改正による税率引き下げであり、法改正の有無によって実施の有無が客観的に判断可能なため。",
           "sources": "https://static.hokkaido-np.co.jp/files/senkyo/sanin2025/kyodo/enquete2025/contents/san_senkyoku_19.html",
-          "quote_text": "消費税率引き下げ ◎"
+          "quote_text": "消費税率引き下げ ◎",
+          "policy_id": "policy_370"
         },
         {
           "title": "私立含む高校授業料無償化",
           "reason": "高校無償化の対象を私立にまで拡大するという制度の適用範囲変更を指しており、法改正等により実施の有無が判断可能なため。",
           "sources": "https://static.hokkaido-np.co.jp/files/senkyo/sanin2025/kyodo/enquete2025/contents/san_senkyoku_19.html",
-          "quote_text": "私立含む高校授業料無償化 ◯"
+          "quote_text": "私立含む高校授業料無償化 ◯",
+          "policy_id": "policy_393"
         },
         {
           "title": "原発再稼働",
           "reason": "原発の運用ステータスの変更（再稼働）を明示しており、政治的意図に基づく具体的なアクションとして観測可能なため。",
           "sources": "https://static.hokkaido-np.co.jp/files/senkyo/sanin2025/kyodo/enquete2025/contents/san_senkyoku_19.html",
-          "quote_text": "原発再稼働 ◯"
+          "quote_text": "原発再稼働 ◯",
+          "policy_id": "policy_166"
         },
         {
           "title": "同性婚の法制化",
           "reason": "同性婚に関する法制度の制定・改正を指しており、明確な制度のステータス変更として実施の有無が客観的に判断可能なため。",
           "sources": "https://static.hokkaido-np.co.jp/files/senkyo/sanin2025/kyodo/enquete2025/contents/san_senkyoku_19.html",
-          "quote_text": "同性婚の法制化 ◎"
+          "quote_text": "同性婚の法制化 ◎",
+          "policy_id": "policy_349"
         },
         {
           "title": "企業・団体献金の廃止",
           "reason": "政治資金規正法の改正による企業・団体献金の禁止・廃止を指しており、法改正の有無により客観的に検証可能なため。",
           "sources": "https://static.hokkaido-np.co.jp/files/senkyo/sanin2025/kyodo/enquete2025/contents/san_senkyoku_19.html",
-          "quote_text": "企業・団体献金の廃止 ◎"
+          "quote_text": "企業・団体献金の廃止 ◎",
+          "policy_id": "policy_101"
         },
         {
           "title": "憲法改正",
           "reason": "最高法規の条文変更という具体的かつ断定的な政治アクションを指しており、発議や国民投票の実施等により客観的に判断可能なため。",
           "sources": "https://static.hokkaido-np.co.jp/files/senkyo/sanin2025/kyodo/enquete2025/contents/san_senkyoku_19.html",
-          "quote_text": "憲法改正 ◎"
+          "quote_text": "憲法改正 ◎",
+          "policy_id": "policy_039"
         },
         {
           "title": "防衛費GDP比2%への増額",
           "reason": "防衛費をGDP比2%とする具体的な数値目標を設定しており、予算規模の変更として客観的に達成度を検証可能なため。",
           "sources": "https://static.hokkaido-np.co.jp/files/senkyo/sanin2025/kyodo/enquete2025/contents/san_senkyoku_19.html",
-          "quote_text": "防衛費GDP比2%への増額 ◎"
+          "quote_text": "防衛費GDP比2%への増額 ◎",
+          "policy_id": "policy_195"
         }
       ],
       "not-manifesto": [

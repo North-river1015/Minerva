@@ -9,37 +9,43 @@
           "title": "食料品の消費税ゼロ",
           "reason": "消費税率を0%に減税するという具体的な数値目標であり、税法改正の有無によって客観的に検証可能なため。",
           "sources": "https://politician.cafe/politician/1460/",
-          "quote_text": "物価高騰対策として、期間を定めて食料品への消費税ゼロを実現します"
+          "quote_text": "物価高騰対策として、期間を定めて食料品への消費税ゼロを実現します",
+          "policy_id": "policy_003"
         },
         {
           "title": "ガソリン税の暫定税率の廃止",
           "reason": "ガソリン税の暫定税率という特定の制度の廃止を掲げており、法改正の有無によって達成の可否を客観的に判定できるため。",
           "sources": "https://politician.cafe/politician/1460/",
-          "quote_text": "ガソリン税の暫定税率を廃止します"
+          "quote_text": "ガソリン税の暫定税率を廃止します",
+          "policy_id": "policy_047"
         },
         {
           "title": "農家の戸別所得補償制度の復活",
           "reason": "戸別所得補償という具体的な制度の再導入を明示しており、制度運用が開始されたかによって検証可能なため。",
           "sources": "https://otsujitomomi.com/",
-          "quote_text": "農家の戸別所得補償制度を復活"
+          "quote_text": "農家の戸別所得補償制度を復活",
+          "policy_id": "policy_473"
         },
         {
           "title": "小・中学校の給食費の無償化",
           "reason": "給食費の無償化という具体的な制度のステータス変更を指しており、予算措置や制度化の有無で検証可能なため。",
           "sources": "https://otsujitomomi.com/policy",
-          "quote_text": "小・中学校の給食費の無償化を実現します"
+          "quote_text": "小・中学校の給食費の無償化を実現します",
+          "policy_id": "policy_260"
         },
         {
           "title": "最低賃金の1,500円への引き上げ",
           "reason": "最低賃金の具体的な数値目標（時給1,500円）の設定であり、法定最低賃金の改定により客観的に検証可能なため。",
           "sources": "https://otsujitomomi.com/",
-          "quote_text": "最低賃金を段階的に1,500円（時給）に引き上げをはかるとともに、中小企業への支援策を講じます"
+          "quote_text": "最低賃金を段階的に1,500円（時給）に引き上げをはかるとともに、中小企業への支援策を講じます",
+          "policy_id": "policy_071"
         },
         {
           "title": "選択的夫婦別姓の導入",
           "reason": "民法改正による制度導入という明確な立法目標であり、法案の可決および法律の施行によって客観的に判定可能なため。",
           "sources": "https://otsujitomomi.com/policy",
-          "quote_text": "選択的夫婦別姓の導入とジェンダー平等促進のため民法改正をはかります"
+          "quote_text": "選択的夫婦別姓の導入とジェンダー平等促進のため民法改正をはかります",
+          "policy_id": "policy_057"
         }
       ],
       "not-manifesto": [

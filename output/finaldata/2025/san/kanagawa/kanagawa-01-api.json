@@ -9,79 +9,92 @@
           "title": "消費税の廃止・減税",
           "reason": "食料品税率のゼロ化や消費税率の引き下げ・廃止といった税制の抜本的な見直しであり、法改正の有無により客観的に達成が判定可能なため。",
           "sources": "https://go2senkyo.com/articles/2025/07/17/117699.html",
-          "quote_text": "消費税の廃止はマストだ。"
+          "quote_text": "消費税の廃止はマストだ。",
+          "policy_id": "policy_068"
         },
         {
           "title": "ガソリン税の暫定税率の廃止",
           "reason": "暫定税率の廃止という具体的な税制上のステータス変更であり、法改正の有無によって客観的に判断可能なため。",
           "sources": "https://cdp-japan.jp/news/20250630_9440",
-          "quote_text": "ガソリン税の暫定税率を廃止し"
+          "quote_text": "ガソリン税の暫定税率を廃止し",
+          "policy_id": "policy_047"
         },
         {
           "title": "子ども用SOS番号の統一化",
           "reason": "複数の番号の統一という制度的なステータス変更を指しており、実施の有無が客観的に判断可能なため。",
           "sources": "https://www.townnews.co.jp/0206/2025/06/26/790520.html",
-          "quote_text": "子ども用SOS番号を統一化する。"
+          "quote_text": "子ども用SOS番号を統一化する。",
+          "policy_id": "policy_347"
         },
         {
           "title": "政策活動費のゼロ化および旧文通費の全面公開",
           "reason": "政策活動費のゼロ化という数値目標の設定、および旧文通費の全面公開という制度のステータス変更であり、法改正等の有無で客観的に判断可能なため。",
           "sources": "https://cdp-japan.jp/news/20250630_9440",
-          "quote_text": "政策活動費のゼロ化、および旧文通費の全面公開を実現する。"
+          "quote_text": "政策活動費のゼロ化、および旧文通費の全面公開を実現する。",
+          "policy_id": "policy_348"
         },
         {
           "title": "同性婚の法律への明記",
           "reason": "「法律に明記」という法改正の有無によって実施が客観的に判断可能なため。",
           "sources": "https://www.ntv.co.jp/election2025/research/candidate/140969/",
-          "quote_text": "同性婚を法律に明記すること：賛成"
+          "quote_text": "同性婚を法律に明記すること：賛成",
+          "policy_id": "policy_349"
         },
         {
           "title": "原子力発電の段階的廃炉と将来的全廃",
           "reason": "「段階的に廃炉し、将来的に原発を全廃する」という具体的な政策目標の達成（ステータス変更）であるため。",
           "sources": "https://www.ntv.co.jp/election2025/research/candidate/140969/",
-          "quote_text": "今後の原子力発電政策：段階的に廃炉し、将来的に原発を全廃する"
+          "quote_text": "今後の原子力発電政策：段階的に廃炉し、将来的に原発を全廃する",
+          "policy_id": "policy_350"
         },
         {
           "title": "政治資金パーティーの制度としての禁止",
           "reason": "政治資金規正法等の改正によりパーティー制度を「禁止」するという明確な制度変更（ステータス変更）を指しているため。",
           "sources": "https://www.ntv.co.jp/election2025/research/candidate/140969/",
-          "quote_text": "政治資金パーティー：制度として禁止すべき"
+          "quote_text": "政治資金パーティー：制度として禁止すべき",
+          "policy_id": "policy_351"
         },
         {
           "title": "生成AIの開発・利用への規制導入",
           "reason": "AI開発・利用に「規制を設ける」という新規制度・法的規制の導入を指しており、法整備の有無で客観的に判断可能なため。",
           "sources": "https://www.ntv.co.jp/election2025/research/candidate/140969/",
-          "quote_text": "「生成AI」についての考え：権利侵害や未知のリスクがあるため、開発や利用に規制を設けるべきだ"
+          "quote_text": "「生成AI」についての考え：権利侵害や未知のリスクがあるため、開発や利用に規制を設けるべきだ",
+          "policy_id": "policy_352"
         },
         {
           "title": "SNS関連の偽情報・誹謗中傷への対策強化",
           "reason": "SNS上での悪質な投稿に対する罰則強化や、プラットフォーマーへの法的規制導入という新規の法整備を指しており、実施の有無が客観的に判断可能なため。",
           "sources": "https://www.ntv.co.jp/election2025/research/candidate/140969/",
-          "quote_text": "SNSを提供するプラットフォーマーの偽情報や誹謗中傷への対応：プラットフォーマーに対する規制や罰則を取り入れるべきだ"
+          "quote_text": "SNSを提供するプラットフォーマーの偽情報や誹謗中傷への対応：プラットフォーマーに対する規制や罰則を取り入れるべきだ",
+          "policy_id": "policy_353"
         },
         {
           "title": "女性天皇の承認",
           "reason": "皇室典範の改正による「女性天皇になるのを認める」という制度のステータス変更を指しているため。",
           "sources": "https://www.ntv.co.jp/election2025/research/candidate/140969/",
-          "quote_text": "女性が天皇になるのを認めること：賛成"
+          "quote_text": "女性が天皇になるのを認めること：賛成",
+          "policy_id": "policy_324"
         },
         {
           "title": "選択的夫婦別姓の導入",
           "reason": "民法等の改正による「選択的夫婦別姓」の導入であり、法改正の有無で客観的に判断可能なため。",
           "sources": "https://www.ntv.co.jp/election2025/research/candidate/140969/",
-          "quote_text": "選択的夫婦別姓：賛成"
+          "quote_text": "選択的夫婦別姓：賛成",
+          "policy_id": "policy_057"
         },
         {
           "title": "政党の女性候補者割合に関する法律制定",
           "reason": "「法律で定める」という新規法制度の設立を指しており、法整備の有無で客観的に判断可能なため。",
           "sources": "https://www.ntv.co.jp/election2025/research/candidate/140969/",
-          "quote_text": "選挙で政党の女性候補者の割合を一定以上にするよう法律で定めること：賛成"
+          "quote_text": "選挙で政党の女性候補者の割合を一定以上にするよう法律で定めること：賛成",
+          "policy_id": "policy_354"
         },
         {
           "title": "選挙のインターネット投票の導入",
           "reason": "公職選挙法等の改正による「インターネット投票」の導入であり、法制度のステータス変更を指しているため。",
           "sources": "https://www.ntv.co.jp/election2025/research/candidate/140969/",
-          "quote_text": "選挙のインターネット投票：賛成"
+          "quote_text": "選挙のインターネット投票：賛成",
+          "policy_id": "policy_062"
         }
       ],
       "not-manifesto": [

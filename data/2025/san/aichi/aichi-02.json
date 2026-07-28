@@ -1,0 +1,258 @@
+{
+  "district": "愛知2区",
+  "district_code": "2026-shu-aichi-2",
+  "candidates": [
+    {
+      "name": "田島麻衣子",
+      "party": "立憲民主党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "立憲民主党は、財源を示して、",
+            "body": "時限的に食料品消費税ゼロを実現します。"
+          },
+          {
+            "header": "何度でも挑戦できる社会へ",
+            "body": "田島まいこの政治家の原動力は、国連職員としての経験です。アジアやアフリカで貧困により子ども達が疲弊する姿を目の当たりにし、「生まれた環境や貧富の差によらず、子ども達に持続可能な未来を手渡したい。」の思いが国政への挑戦に繋がっています。田島まいこは愛知の皆様の思いを忘れることなく、「貧しさをなくし、何度でも挑戦できる社会」を目指します。"
+          },
+          {
+            "header": "家計を助け食卓を豊かに！",
+            "body": ""
+          },
+          {
+            "header": "年を重ねても安心できる社会へ",
+            "body": ""
+          },
+          {
+            "header": "子ども・子育て未来を担う「人づくり」",
+            "body": ""
+          },
+          {
+            "header": "中小企業を元気に",
+            "body": ""
+          },
+          {
+            "header": "国会にひと突き！",
+            "body": "平和・女性・子どもを守り抜く"
+          }
+        ],
+        "manifesto": [
+          {
+            "quote_text": "時限的に食料品消費税ゼロを実現します。",
+            "reason": "「消費税ゼロ」という具体的な税率の変更を指しており、法改正の有無によって客観的に達成が検証可能なため。",
+            "title": "時限的な食料品消費税ゼロの実現",
+            "policy_id": "policy_309"
+          }
+        ]
+      },
+      "web": {
+        "manifesto": [
+          {
+            "quote_text": "出入国管理における収容の期間に上限を設ける",
+            "reason": "収容期間に上限を設けるという具体的な制度変更（法改正）を指しており、法律上の規定が設けられたかどうかで客観的に判断可能であるため。",
+            "sources": "https://amnesty-jpn.org/candidate2025/1288/",
+            "title": "出入国管理における収容期間の上限設定",
+            "policy_id": "policy_396"
+          },
+          {
+            "quote_text": "迫害を受けるおそれがある国に難民申請者を送還しない",
+            "reason": "送還しないという明確な運用ルール・法制化の変更を指しており、実際に送還されたかどうかで客観的に検証可能なステータス変更であるため。",
+            "sources": "https://amnesty-jpn.org/candidate2025/1288/",
+            "title": "難民申請者の送還禁止（ノン・ルフールマン）",
+            "policy_id": "policy_397"
+          },
+          {
+            "quote_text": "性的指向・性自認に基づく差別禁止を法制化する",
+            "reason": "差別禁止法制の制定という具体的な法整備を指しており、法律が制定されたかどうかで実施の有無を明確に判定できるため。",
+            "sources": "https://amnesty-jpn.org/candidate2025/1288/",
+            "title": "性的指向・性自認に基づく差別禁止の法制化",
+            "policy_id": "policy_398"
+          },
+          {
+            "quote_text": "日本でも同性婚を認める",
+            "reason": "同性婚を認めるための法改正または制度変更を指しており、制度的に認められたかどうかで客観的に判断可能なため。",
+            "sources": "https://amnesty-jpn.org/candidate2025/1288/",
+            "title": "同性婚の法制化",
+            "policy_id": "policy_349"
+          },
+          {
+            "quote_text": "最高裁判所で違憲と判断された性別変更の手術要件を撤廃する",
+            "reason": "性別変更における手術要件の撤廃という法改正を指しており、条文から要件が削除されたかどうかで検証可能であるため。",
+            "sources": "https://amnesty-jpn.org/candidate2025/1288/",
+            "title": "性別変更の手術要件の撤廃",
+            "policy_id": "policy_399"
+          },
+          {
+            "quote_text": "性的指向・性自認の多様性について、学習指導要領に盛り込み義務教育の中で子ども達に教育する",
+            "reason": "学習指導要領への盛り込みという、文部科学省が行う具体的な制度変更を指しており、指導要領の改訂内容によって客観的に確認可能であるため。",
+            "sources": "https://amnesty-jpn.org/candidate2025/1288/",
+            "title": "学習指導要領への性的指向・性自認の多様性の盛り込み",
+            "policy_id": "policy_400"
+          },
+          {
+            "quote_text": "難民保護に関する法律を整備する",
+            "reason": "法律の整備（制定・改正）を指しており、該当する法律が成立したかどうかで実施の有否を客観的に判定できるため。",
+            "sources": "https://amnesty-jpn.org/candidate2025/1288/",
+            "title": "難民保護に関する法律の整備",
+            "policy_id": "policy_378"
+          },
+          {
+            "quote_text": "企業に対して人権の尊重を求める法整備を行う",
+            "reason": "企業に人権尊重を求める新たな法律の制定または法改正を指しており、法整備が行われたかどうかで明確に検証可能であるため。",
+            "sources": "https://amnesty-jpn.org/candidate2025/1288/",
+            "title": "企業に対する人権尊重を求める法整備",
+            "policy_id": "policy_401"
+          },
+          {
+            "quote_text": "消費税の廃止。",
+            "reason": "消費税という具体的な税制度を廃止するという明確なステータス変更であり、法律の有無で客観的に検証可能であるため。",
+            "sources": "https://www.tokai-tv.com/tokainews/feature/article_20250704_41169",
+            "title": "消費税の廃止",
+            "policy_id": "policy_027"
+          },
+          {
+            "quote_text": "消費税5％減税",
+            "reason": "消費税率を5％減税するという具体的な数値目標の変更を示しており、法改正によって客観的に達成状況を検証可能であるため。",
+            "sources": "https://www.tokai-tv.com/tokainews/feature/article_20250704_41169",
+            "title": "消費税5％減税",
+            "policy_id": "policy_028"
+          },
+          {
+            "quote_text": "ガソリン税の暫定税率の廃止",
+            "reason": "暫定税率という特定の制度を廃止するという明確なステータス変更であり、法改正の有無によって客観的に判断可能であるため。",
+            "sources": "https://www.tokai-tv.com/tokainews/feature/article_20250704_41169",
+            "title": "ガソリン税の暫定税率の廃止",
+            "policy_id": "policy_047"
+          },
+          {
+            "quote_text": "0、1、2歳児の保育料、出産費用、給食費の負担を0円にする。",
+            "reason": "特定の対象費用の負担を0円にするという具体的な数値目標の設定であり、予算や制度上の変更として客観的に検証可能であるため。",
+            "sources": "https://www.tokai-tv.com/tokainews/feature/article_20250704_41169",
+            "title": "0、1、2歳児の保育料、出産費用、給食費の負担を0円にする",
+            "policy_id": "policy_402"
+          },
+          {
+            "quote_text": "NHK受信料の廃止",
+            "reason": "放送法における受信料制度を廃止するという明確なステータス変更であり、法改正の有無によって客観的に判断可能であるため。",
+            "sources": "https://www.tokai-tv.com/tokainews/feature/article_20250704_41169",
+            "title": "NHK受信料の廃止",
+            "policy_id": "policy_403"
+          },
+          {
+            "quote_text": "最低賃金を全国一律で1500円に引き上げる。",
+            "reason": "最低賃金を全国一律1500円という具体的な数値に変更するという明確な目標設定であり、法律や告示の変更で客観的に検証可能であるため。",
+            "sources": "https://www.tokai-tv.com/tokainews/feature/article_20250704_41169",
+            "title": "最低賃金を全国一律で1500円に引き上げる",
+            "policy_id": "policy_071"
+          },
+          {
+            "quote_text": "2年間の食料品の消費税ゼロ実現",
+            "reason": "食料品の消費税率を時限的に0%にするという具体的な税率（数値）の変更であり、法改正によって客観的に検証可能であるため。",
+            "sources": "https://www.tokai-tv.com/tokainews/feature/article_20250704_41169",
+            "title": "2年間の食料品の消費税ゼロ実現",
+            "policy_id": "policy_309"
+          },
+          {
+            "quote_text": "外国人による日本国内の土地の取得停止。",
+            "reason": "外国人の国内土地取得を停止（禁止）するという制度のステータス変更であり、関連法改正の有無で客観的に判断可能であるため。",
+            "sources": "https://www.tokai-tv.com/tokainews/feature/article_20250704_41169",
+            "title": "外国人による日本国内の土地の取得停止",
+            "policy_id": "policy_404"
+          },
+          {
+            "quote_text": "企業団体献金の廃止",
+            "reason": "企業・団体献金制度を廃止するという明確なステータス変更であり、政治資金規正法等の改正の有無によって客観的に判断可能であるため。",
+            "sources": "https://www.tokai-tv.com/tokainews/feature/article_20250704_41169",
+            "title": "企業団体献金の廃止",
+            "policy_id": "policy_405"
+          },
+          {
+            "quote_text": "食料品の消費税0％の実現（時限的な物価高対策）。",
+            "reason": "食料品の消費税率を0%にするという具体的な税率変更であり、法改正によって客観的に検証可能であるため。",
+            "sources": "https://www.tokai-tv.com/tokainews/feature/article_20250704_41169",
+            "title": "食料品の消費税0％の実現",
+            "policy_id": "policy_003"
+          },
+          {
+            "quote_text": "ガソリン暫定税率の廃止。",
+            "reason": "「暫定税率の廃止」という税制上の具体的なパラメータの変更を指しており、法改正の有無によって客観的に検証可能であるため。",
+            "sources": "https://go2senkyo.com/seijika/178558/posts/1146988",
+            "title": "ガソリン暫定税率の廃止",
+            "policy_id": "policy_047"
+          },
+          {
+            "quote_text": "高校授業料無償化",
+            "reason": "「無償化」という明確な制度ステータスの変更であり、法改正や予算措置の有無で客観的に達成が判定可能なため。",
+            "sources": "https://go2senkyo.com/seijika/178558/posts/1140509",
+            "title": "高校授業料無償化",
+            "policy_id": "policy_119"
+          },
+          {
+            "quote_text": "ガソリン暫定税率の廃止",
+            "reason": "「暫定税率の廃止」という具体的な税制上のステータス変更を指しており、法改正の有無で実行されたかが客観的に判断可能なため。",
+            "sources": "https://go2senkyo.com/seijika/178558/posts/1140509",
+            "title": "ガソリン暫定税率の廃止",
+            "policy_id": "policy_047"
+          },
+          {
+            "quote_text": "核兵器禁止条約へのオブザーバー参加",
+            "reason": "「オブザーバー参加」という具体的な行動の有無によって実施されたかが客観的に判断可能なため。",
+            "sources": "https://cdp-japan.jp/news/20260617_0338",
+            "title": "核兵器禁止条約へのオブザーバー参加",
+            "policy_id": "policy_406"
+          },
+          {
+            "quote_text": "憲法改正国民投票において、政党や政治団体による有料ネット広告を一律禁止し",
+            "reason": "「一律禁止」という明確な法的規制（ステータスの変更）であり、法改正によって実施されたか客観的に判断可能なため。",
+            "sources": "https://cdp-japan.jp/news/20260715_0423",
+            "title": "国民投票における政党等の有料ネット広告の一律禁止",
+            "policy_id": "policy_407"
+          },
+          {
+            "quote_text": "国民投票運動の支出上限の設定",
+            "reason": "「支出上限の設定」という新規ルールの導入であり、制度上の明確な変更として実施の有無が判断可能なため。",
+            "sources": "https://cdp-japan.jp/news/20260715_0423",
+            "title": "国民投票運動における支出上限の設定",
+            "policy_id": "policy_408"
+          },
+          {
+            "quote_text": "政党等に対する詳細な収支報告の義務付けを行う",
+            "reason": "「義務付け」という制度のステータス変更を明記しており、法律上の義務化がされたかによって客観的に検証可能なため。",
+            "sources": "https://cdp-japan.jp/news/20260715_0423",
+            "title": "政党等に対する詳細な収支報告の義務付け",
+            "policy_id": "policy_409"
+          },
+          {
+            "quote_text": "食料品の消費税ゼロ",
+            "reason": "税率を0%にするという数値の変更（法改正）であり、実施の有無が客観的に判断可能なため。",
+            "sources": "https://higashiaichi.jp/news/detail.php?id=25177",
+            "title": "食料品の消費税ゼロ化",
+            "policy_id": "policy_003"
+          },
+          {
+            "quote_text": "ガソリン暫定税率の廃止",
+            "reason": "暫定税率の廃止という制度のステータス変更（法改正）であり、実施の有無が客観的に判断可能なため。",
+            "sources": "https://higashiaichi.jp/news/detail.php?id=25177",
+            "title": "ガソリン暫定税率の廃止",
+            "policy_id": "policy_047"
+          },
+          {
+            "quote_text": "最低賃金を1500円まで引き上げる",
+            "reason": "「1500円」という具体的な数値目標の設定であり、最低賃金の改定によって実施されたかが客観的に判断可能なため。",
+            "sources": "https://higashiaichi.jp/news/detail.php?id=25177",
+            "title": "最低賃金の1500円への引き上げ",
+            "policy_id": "policy_071"
+          },
+          {
+            "quote_text": "家計負担の減少と消費喚起のために消費税をゼロにする。",
+            "reason": "消費税を0%にするという数値の変更（法改正）であり、実施の有無が客観的に判断可能なため。",
+            "sources": "https://higashiaichi.jp/news/detail.php?id=25177",
+            "title": "消費税のゼロ減税",
+            "policy_id": "policy_100"
+          }
+        ],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

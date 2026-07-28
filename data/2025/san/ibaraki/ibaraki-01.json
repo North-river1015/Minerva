@@ -1,0 +1,27 @@
+{
+  "district": "茨城1区",
+  "district_code": "2026-shu-ibaraki-1",
+  "candidates": [
+    {
+      "name": "上月良祐",
+      "party": "自由民主党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "茨城に、この力を!!",
+            "body": "茨城の未来のために! 日本の未来のために!"
+          },
+          {
+            "header": "政策項目",
+            "body": "・人がいきいきと暮らし、学び、働く環境づくり・子育て支援<br>・地域経済の活性化、雇用創出<br>・社会保障の安心確立<br>・強い農林水産業の確立<br>・安定的なエネルギー政策<br>・地方分権と行革の徹底<br>・交通・物流・交流ネットワーク強化<br>・防災・減災対策の推進"
+          }
+        ],
+        "manifesto": []
+      },
+      "web": {
+        "manifesto": [],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

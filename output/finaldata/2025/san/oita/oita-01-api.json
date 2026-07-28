@@ -9,37 +9,43 @@
           "title": "安保法制の違憲部分を廃止",
           "reason": "法改正や制度廃止という具体的な政治的アクションを伴い、条文の有無で客観的に達成度が検証可能であるため。",
           "sources": "https://politician.cafe/politician/2407/activity/8009/",
-          "quote_text": "安保法制の違憲部分を廃止する"
+          "quote_text": "安保法制の違憲部分を廃止する",
+          "policy_id": "policy_461"
         },
         {
           "title": "敵基地攻撃能力保有等の大軍拡への反対",
           "reason": "「大軍拡」への反対という明確な政治的スタンス表明であり、予算計上や関連法の整備を行わないという断定的な意思表示として客観的に検証可能であるため。",
           "sources": "https://politician.cafe/politician/2407/activity/8009/",
-          "quote_text": "憲法を守り、敵基地攻撃能力保有などの「大軍拡」に反対する"
+          "quote_text": "憲法を守り、敵基地攻撃能力保有などの「大軍拡」に反対する",
+          "policy_id": "policy_462"
         },
         {
           "title": "消費税の緊急的な減税",
           "reason": "消費税率という明確な数値目標（変数）を操作する具体的な税制変更であり、法改正の有無によって客観的に達成度が検証可能であるため。",
           "sources": "https://politician.cafe/politician/2407/activity/8009/",
-          "quote_text": "消費税の緊急的な減税を行う"
+          "quote_text": "消費税の緊急的な減税を行う",
+          "policy_id": "policy_463"
         },
         {
           "title": "企業・団体献金の禁止",
           "reason": "政治資金法の改正による献金禁止という制度のステータス変更であり、法改正の有無によって客観的に検証可能であるため。",
           "sources": "https://politician.cafe/politician/2407/activity/8009/",
-          "quote_text": "企業・団体献金を禁止し、政治とカネの改革を進める"
+          "quote_text": "企業・団体献金を禁止し、政治とカネの改革を進める",
+          "policy_id": "policy_101"
         },
         {
           "title": "食料品の消費税ゼロ",
           "reason": "「消費税をゼロにする」という数値目標・税率変更の明確なコミットメントであり、税法の改正有無によって客観的に判断可能であるため。",
           "sources": "https://cdp-japan.jp/news/20250713_9484",
-          "quote_text": "食料品の消費税をゼロにする。"
+          "quote_text": "食料品の消費税をゼロにする。",
+          "policy_id": "policy_003"
         },
         {
           "title": "ガソリン暫定税率の廃止",
           "reason": "「暫定税率を廃止する」という法改正の有無によって実行されたかが客観的に判断可能な具体的な制度変更であるため。",
           "sources": "https://cdp-japan.jp/news/20250713_9484",
-          "quote_text": "ガソリンの暫定税率を廃止する。"
+          "quote_text": "ガソリンの暫定税率を廃止する。",
+          "policy_id": "policy_207"
         }
       ],
       "not-manifesto": [

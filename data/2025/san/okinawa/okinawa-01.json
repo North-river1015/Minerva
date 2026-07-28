@@ -1,0 +1,220 @@
+{
+  "district": "沖縄1区",
+  "district_code": "2026-shu-okinawa-1",
+  "candidates": [
+    {
+      "name": "高良沙哉",
+      "party": "無所属",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "くらし・物価高対策",
+            "body": "日々のくらしを安心して生きるために<br>・消費税減税<br>・ガソリン値下げ"
+          },
+          {
+            "header": "福祉",
+            "body": "県民のくらし最優先に<br>・保育・教育費・学校給食費無償化<br>・給付型奨学金拡充<br>・年金の底上げ"
+          },
+          {
+            "header": "平和",
+            "body": "基地被害のない沖縄で平和に生きるために<br>・沖縄を二度と戦場にさせない<br>・対話による平和外交<br>・普天間基地閉鎖撤去<br>・辺野古新基地断念<br>・沖縄戦の実相 命どう宝を伝える"
+          },
+          {
+            "header": "ジェンダー平等",
+            "body": "多様性を認め、差別のない社会に生きるために<br>・選択的夫婦別姓・同性婚を実現"
+          }
+        ],
+        "manifesto": [
+          {
+            "quote_text": "消費税減税",
+            "reason": "法改正の有無によって実行されたかが客観的に判断可能。",
+            "title": "消費税減税",
+            "policy_id": "policy_188"
+          },
+          {
+            "quote_text": "保育・教育費・学校給食費無償化",
+            "reason": "制度のステータス変更であり、法改正や予算措置により客観的に検証可能。",
+            "title": "保育・教育費・学校給食費無償化",
+            "policy_id": "policy_569"
+          },
+          {
+            "quote_text": "普天間基地閉鎖撤去",
+            "reason": "基地の閉鎖・撤去という具体的なステータス変更を指しており、実施の有無が客観的に判定可能。",
+            "title": "普天間基地閉鎖撤去",
+            "policy_id": "policy_570"
+          },
+          {
+            "quote_text": "辺野古新基地断念",
+            "reason": "建設中止という明確なステータス変更であり、実施の有無が客観的に判定可能。",
+            "title": "辺野古新基地建設断念",
+            "policy_id": "policy_571"
+          },
+          {
+            "quote_text": "選択的夫婦別姓を実現",
+            "reason": "法改正の有無によって実行されたかが客観的に判断可能。",
+            "title": "選択的夫婦別姓の実現",
+            "policy_id": "policy_057"
+          },
+          {
+            "quote_text": "同性婚を実現",
+            "reason": "法改正の有無によって実行されたかが客観的に判断可能。",
+            "title": "同性婚の実現",
+            "policy_id": "policy_349"
+          }
+        ]
+      },
+      "web": {
+        "manifesto": [
+          {
+            "title": "同性婚の実現",
+            "reason": "婚姻制度の法制化（民法等の改正）という具体的な制度変更を伴うため、実施の有無が客観的に検証可能な公約である。",
+            "sources": "https://kokuminrengo.net/2025/05/29/post-9912/",
+            "quote_text": "同性婚の実現",
+            "policy_id": "policy_349"
+          },
+          {
+            "title": "選択的夫婦別姓の導入",
+            "reason": "民法の改正による新たな制度の導入であり、法制化の有無によって達成度が客観的に検証可能であるため。",
+            "sources": "https://www.jcp.or.jp/akahata/aik25/2025-07-21/2025072102_03_0.html",
+            "quote_text": "選択的夫婦別姓を実現する。",
+            "policy_id": "policy_057"
+          },
+          {
+            "title": "消費税の5%への減税",
+            "reason": "税率という具体的な数値目標の変更を伴う税制改正であり、法改正の有無によって客観的に実施が判断可能なため。",
+            "sources": "https://www.qab.co.jp/news/20250721259782.html",
+            "quote_text": "消費税の5％への減税",
+            "policy_id": "policy_028"
+          },
+          {
+            "title": "18歳までの医療費無償化",
+            "reason": "制度の対象年齢拡大という具体的なステータス変更であり、自治体の条例や制度の改定によって客観的に観測可能であるため。",
+            "sources": "https://go2senkyo.com/seijika/195791",
+            "quote_text": "18歳までの医療費無償化",
+            "policy_id": "policy_474"
+          },
+          {
+            "title": "保育・教育の無償化",
+            "reason": "制度の対象範囲拡大や無償化の対象変更という具体的な制度変更であり、実施の有無が客観的に判断可能なため。",
+            "sources": "https://go2senkyo.com/seijika/195791",
+            "quote_text": "保育・教育の無償化",
+            "policy_id": "policy_475"
+          },
+          {
+            "title": "最低賃金引き上げ",
+            "reason": "法改正や審議会の決定に基づく公定賃金の引き上げであり、数値の更新によって客観的に達成が確認可能なため。",
+            "sources": "https://go2senkyo.com/seijika/195791",
+            "quote_text": "最低賃金引き上げ",
+            "policy_id": "policy_476"
+          },
+          {
+            "title": "日米地位協定の抜本改定",
+            "reason": "条約の改正や再交渉という明確な外交・制度変更のコミットメントであり、事実上の変更の有無によって判断可能なため。",
+            "sources": "https://go2senkyo.com/seijika/195791",
+            "quote_text": "日米地位協定の抜本改定",
+            "policy_id": "policy_477"
+          },
+          {
+            "title": "国内法の適用",
+            "reason": "特定の対象に対する国内法の適用状況の変化であり、制度運用のステータス変更として観測可能なため。",
+            "sources": "https://go2senkyo.com/seijika/195791",
+            "quote_text": "国内法の適用",
+            "policy_id": "policy_478"
+          },
+          {
+            "title": "ガソリン暫定税率の廃止",
+            "reason": "特定の税制の「廃止」という明確な制度変更を指しており、法改正の有無によって客観的に判定可能なため。",
+            "sources": "https://takara-sachika.jp/vision/",
+            "quote_text": "ガソリン税暫定税率の廃止...に取り組み、高騰するガソリン価格の低減を図ります。",
+            "policy_id": "policy_047"
+          },
+          {
+            "title": "有事避難をする国民保護法の見直し・廃止",
+            "reason": "特定の法律の改廃を伴う制度変更であり、国会での法改正の有無によって客観的に実施を検証できるため。",
+            "sources": "https://www.qab.co.jp/news/20250721259782.html",
+            "quote_text": "有事避難をする国民保護法の見直し・廃止",
+            "policy_id": "policy_479"
+          },
+          {
+            "title": "県全体のバス運賃を１年間無料化する実証事業",
+            "reason": "無料化という具体的な数値目標と実施期間が明示された新規事業であり、実施の有無が客観的に判定可能なため。",
+            "sources": "https://www.qab.co.jp/news/20250627257260.html",
+            "quote_text": "県全体のバス運賃を１年間無料化する実証事業",
+            "policy_id": "policy_480"
+          },
+          {
+            "title": "コメの安定供給",
+            "reason": "食料安全保障政策の一つとして明示されており、政府の需給調整対策の有無によって判断可能な公約であるため。",
+            "sources": "https://www.qab.co.jp/news/20250627257260.html",
+            "quote_text": "コメの安定供給",
+            "policy_id": "policy_481"
+          },
+          {
+            "title": "那覇軍港の浦添移設や辺野古新基地建設への反対",
+            "reason": "基地建設に対する明確な反対方針の表明であり、政治的スタンスと行動として観測可能であるため。",
+            "sources": "https://www.qab.co.jp/news/20250627257260.html",
+            "quote_text": "那覇軍港の浦添移設や辺野古新基地建設への反対",
+            "policy_id": "policy_482"
+          },
+          {
+            "title": "離島のフェリー代や飛行機代の割引制度拡充",
+            "reason": "既存制度の拡充を掲げており、予算措置や割引率の変更を通じて実施の有無を検証可能であるため。",
+            "sources": "https://www.qab.co.jp/news/20250627257260.html",
+            "quote_text": "離島のフェリー代や飛行機代の割引制度拡充",
+            "policy_id": "policy_483"
+          },
+          {
+            "title": "那覇軍港の浦添移設の推進、辺野古の新基地建設の容認",
+            "reason": "特定のインフラ整備や基地建設に対する賛成・容認の政治的スタンスを示す政策として明示されているため。",
+            "sources": "https://www.qab.co.jp/news/20250627257260.html",
+            "quote_text": "那覇軍港の浦添移設の推進、辺野古の新基地建設の容認",
+            "policy_id": "policy_484"
+          },
+          {
+            "title": "畜産農家向け直接補填制度の恒久制度化",
+            "reason": "時限的な制度を恒久化するという具体的な制度変更であり、法改正の有無によって客観的に検証可能なため。",
+            "sources": "https://takara-sachika.jp/vision/",
+            "quote_text": "粗飼料等価格高騰分に対応した直接補填制度の恒久制度化...",
+            "policy_id": "policy_485"
+          },
+          {
+            "title": "ひとり親家庭の児童扶養手当支給年齢の引き上げ",
+            "reason": "支給年齢という具体的パラメータの変更を伴うため、制度改正の有無によって客観的に達成を検証可能であるため。",
+            "sources": "https://takara-sachika.jp/vision/",
+            "quote_text": "ひとり親家庭の児童扶養手当を18歳から20歳未満まで引き上げます。",
+            "policy_id": "policy_486"
+          },
+          {
+            "title": "ひとり親家庭の養育費確保支援・立替制度の創設",
+            "reason": "新規制度の創設という明確な政策方針であり、制度の存否によって実施の有無を判定可能なため。",
+            "sources": "https://takara-sachika.jp/vision/",
+            "quote_text": "ひとり親の困窮防止と経済的安定を図る養育費確保支援や立替制度等を創設し、子どもたちの成長を支えます。",
+            "policy_id": "policy_487"
+          },
+          {
+            "title": "学校教育費（教材費・修学旅行費・部活動費等）の公費負担化",
+            "reason": "負担主体の変更を伴う具体的な財政政策であり、予算・法改正によって実施の有無を客観的に判定できるため。",
+            "sources": "https://takara-sachika.jp/vision/",
+            "quote_text": "教材費や修学旅行費、部活動費などの学校教育に必要な費用は政府の公費負担にします。",
+            "policy_id": "policy_488"
+          },
+          {
+            "title": "就学援助の国庫負担割合の復元",
+            "reason": "財政上の負担割合という具体的な変数の変更であり、国の予算措置によって客観的に検証可能なため。",
+            "sources": "https://takara-sachika.jp/vision/",
+            "quote_text": "就学援助への国庫負担を元に戻し...",
+            "policy_id": "policy_489"
+          },
+          {
+            "title": "生活保護の就学援助認定基準の緩和（1.5倍まで）",
+            "reason": "具体的な数値基準（1.5倍）への変更を伴う公約であり、法改正や要綱の改定によって実施の有無を判定可能なため。",
+            "sources": "https://takara-sachika.jp/vision/",
+            "quote_text": "就学援助への国庫負担を元に戻し、生活保護基準の1.5倍まで認定基準を広げ、必要とする世帯に支援が届くように",
+            "policy_id": "policy_490"
+          }
+        ],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

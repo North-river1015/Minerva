@@ -5,7 +5,254 @@
       "name": "上月良祐",
       "party": "自由民主党",
       "manifesto": [],
-      "not-manifesto": []
+      "not-manifesto": [
+        {
+          "title": "日本経済の「稼ぎ」の創出",
+          "reason": "「稼ぎの創出」は抽象的なスローガンであり、具体的な制度変更や数値目標が存在しないため。",
+          "sources": "https://www.kouzuki-r.com/",
+          "quote_text": "日本経済の「稼ぎ」の創出"
+        },
+        {
+          "title": "地域経済の活性化",
+          "reason": "「活性化」は抽象的な目標であり、観測可能な変数が特定されていないため。",
+          "sources": "https://www.kouzuki-r.com/",
+          "quote_text": "地域経済の活性化"
+        },
+        {
+          "title": "賃上げと価格転嫁",
+          "reason": "数値目標や法改正の指定がなく、客観的な達成基準が存在しないため。",
+          "sources": "https://www.kouzuki-r.com/",
+          "quote_text": "賃上げと価格転嫁"
+        },
+        {
+          "title": "インバウンド、輸出促進などを「稼ぐ力」に",
+          "reason": "具体的な政策アクションを伴わない抽象的な意気込みに留まっているため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "インバウンド、輸出促進などを「稼ぐ力」に"
+        },
+        {
+          "title": "最先端科学技術の深化と、地域産業への展開",
+          "reason": "「深化」「展開」といった曖昧な表現であり、客観的な検証が不可能なため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "最先端科学技術の深化と、地域産業への展開"
+        },
+        {
+          "title": "商業、地場産業、伝統工芸の活性化",
+          "reason": "「活性化」は抽象的なスローガンであり、操作する具体的な変数が特定できないため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "商業、地場産業、伝統工芸の活性化"
+        },
+        {
+          "title": "スタートアップ支援",
+          "reason": "具体的な制度設計、予算規模、政策アクションが欠如しているため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "スタートアップ支援"
+        },
+        {
+          "title": "官公需の発注適正化",
+          "reason": "「適正化」が客観的に達成されたかを第三者が判定する基準が存在しないため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "官公需の発注適正化"
+        },
+        {
+          "title": "人手不足対策",
+          "reason": "「対策」という抽象的な表現に終始しており、具体的な政策行動が不明確なため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "人手不足対策"
+        },
+        {
+          "title": "交通・物流・交流ネットワークの強化",
+          "reason": "対象が抽象的であり、数値目標や制度変更が含まれていないため。",
+          "sources": "https://www.kouzuki-r.com/",
+          "quote_text": "交通・物流・交流ネットワークの強化"
+        },
+        {
+          "title": "安定的なエネルギー政策",
+          "reason": "理念の表明に留まり、新規の政治的アクションを示すものではないため。",
+          "sources": "https://www.kouzuki-r.com/",
+          "quote_text": "安定的なエネルギー政策"
+        },
+        {
+          "title": "高速道路、重要港湾、ネットワーク道路等の整備促進",
+          "reason": "特定地域への利益誘導の性質があり、政策としての客観的達成基準がないため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "高速道路、重要港湾、ネットワーク道路等の整備促進"
+        },
+        {
+          "title": "茨城を活かした首都圏の物流効率化",
+          "reason": "特定地域への利益誘導であり、制度的な変更も伴わないため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "茨城を活かした首都圏の物流効率化"
+        },
+        {
+          "title": "観光等の交流人口拡大",
+          "reason": "具体的な政策アクションを伴わない結果目標に過ぎないため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "観光等の交流人口拡大"
+        },
+        {
+          "title": "再生可能エネルギー、原子力などのベストミックス確立",
+          "reason": "具体的な数値目標や法改正の内容が示されておらず、基準が主観的であるため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "再生可能エネルギー、原子力などのベストミックス確立"
+        },
+        {
+          "title": "強い農林水産業の確立",
+          "reason": "「強い」「確立」といった抽象的なスローガンであり、達成基準が存在しないため。",
+          "sources": "https://www.kouzuki-r.com/",
+          "quote_text": "強い農林水産業の確立"
+        },
+        {
+          "title": "食料安全保障の確立",
+          "reason": "具体的な備蓄量目標や法改正の指定がなく、抽象概念への言及に留まるため。",
+          "sources": "https://www.kouzuki-r.com/",
+          "quote_text": "食料安全保障の確立"
+        },
+        {
+          "title": "コメの価格安定",
+          "reason": "価格を制御するための具体的な制度変更が明示されていないため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "コメの価格安定"
+        },
+        {
+          "title": "価格転嫁の促進",
+          "reason": "「促進」という手続き表現に留まり、客観的な達成判定が不可能なため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "価格転嫁の促進"
+        },
+        {
+          "title": "稼げる農林水産物輸出の促進",
+          "reason": "「促進」という手続き表現に留まり、具体的な政策指標が不明確なため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "稼げる農林水産物輸出の促進"
+        },
+        {
+          "title": "みどり戦略の推進",
+          "reason": "「推進」という努力目標に留まり、具体的な政策アクションがないため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "みどり戦略の推進"
+        },
+        {
+          "title": "循環型の林業振興",
+          "reason": "「振興」という抽象的な目標であり、具体的な法改正等のアクションがないため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "循環型の林業振興"
+        },
+        {
+          "title": "漁業、水産加工業と前浜の活性化",
+          "reason": "抽象的なスローガンであり、検証可能な変数が存在しないため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "漁業、水産加工業と前浜の活性化"
+        },
+        {
+          "title": "子育て支援の拡充",
+          "reason": "支援の対象や給付基準などが不明瞭であり、具体的な施策が特定できないため。",
+          "sources": "https://www.kouzuki-r.com/",
+          "quote_text": "子育て支援の拡充"
+        },
+        {
+          "title": "人が生き生きと暮らし、学び、働ける環境づくり",
+          "reason": "極めて抽象的な表現であり、客観的な達成基準が存在しないため。",
+          "sources": "https://www.kouzuki-r.com/",
+          "quote_text": "人が生き生きと暮らし、学び、働ける環境づくり"
+        },
+        {
+          "title": "子育て世帯への経済面を含めた支援",
+          "reason": "具体的な給付金額や制度変更が示されておらず、曖昧な意気込みであるため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "子育て世帯への経済面を含めた支援"
+        },
+        {
+          "title": "茨城を愛し、個性とたくましさを育む教育",
+          "reason": "情緒的な表現に留まり、制度的な変更を伴わないため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "茨城を愛し、個性とたくましさを育む教育"
+        },
+        {
+          "title": "女性の力を最大限に活かせる社会環境づくり",
+          "reason": "「環境づくり」という抽象的な表現に留まり、具体的なアクションがないため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "女性の力を最大限に活かせる社会環境づくり"
+        },
+        {
+          "title": "孤独孤立対策",
+          "reason": "「対策」という言葉のみで、具体的な制度設計が不明なため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "孤独孤立対策"
+        },
+        {
+          "title": "カーボンニュートラルな社会づくり",
+          "reason": "抽象的な概念であり、具体的な規制や目標数値がないため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "カーボンニュートラルな社会づくり"
+        },
+        {
+          "title": "霞ケ浦の水質浄化",
+          "reason": "特定地域への利益誘導であり、具体的手段や目標値が示されていないため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "霞ケ浦の水質浄化"
+        },
+        {
+          "title": "社会保障の安心確立",
+          "reason": "「安心確立」はスローガンであり、具体的な制度変更が示されていないため。",
+          "sources": "https://www.kouzuki-r.com/",
+          "quote_text": "社会保障の安心確立"
+        },
+        {
+          "title": "幸せな高齢社会づくり",
+          "reason": "「幸せ」という主観的かつ抽象的な概念であり、達成基準を設けることが困難なため。",
+          "sources": "https://www.kouzuki-r.com/",
+          "quote_text": "幸せな高齢社会づくり"
+        },
+        {
+          "title": "診療報酬、介護報酬等の十分な改定",
+          "reason": "「十分な」という主観的な基準は客観的な判定ができないため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "診療報酬、介護報酬等の十分な改定"
+        },
+        {
+          "title": "医療提供体制の整備",
+          "reason": "抽象的な概念への言及であり、具体的な制度設立や数値目標がないため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "医療提供体制の整備"
+        },
+        {
+          "title": "物価上昇下でも安心できる年金制度",
+          "reason": "具体的な年金法の改正内容が不明であり、抽象的な表現に留まるため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "物価上昇下でも安心できる年金制度"
+        },
+        {
+          "title": "困窮者を支える福祉の充実",
+          "reason": "「充実」という抽象的な目標であり、具体的な制度設計が示されていないため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "困窮者を支える福祉の充実"
+        },
+        {
+          "title": "医療、福祉現場の処遇改善と省力化対策",
+          "reason": "「改善」「対策」に終始しており、検証可能な具体的な制度変更が含まれていないため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "医療、福祉現場の処遇改善と省力化対策"
+        },
+        {
+          "title": "県民・国民の命と国土を守り抜く",
+          "reason": "抽象的かつ情緒的なスローガンであり、具体的な政策アクションがないため。",
+          "sources": "https://www.kouzuki-r.com/",
+          "quote_text": "県民・国民の命と国土を守り抜く"
+        },
+        {
+          "title": "防災・減災対策の推進、耐震化等インフラの強靭化、整備促進",
+          "reason": "「推進」「促進」「強靭化」といった手続き表現に留まり、具体的な数値目標や法改正がないため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "防災・減災対策の推進、耐震化等インフラの強靭化、整備促進"
+        },
+        {
+          "title": "避難計画の実装化等ソフト面の対応促進",
+          "reason": "「促進」という手続き表現に留まり、具体的なシステム導入等が明示されていないため。",
+          "sources": "https://www.kouzuki-r.com/policy/",
+          "quote_text": "避難計画の実装化等ソフト面の対応促進"
+        }
+      ]
     }
   ]
 }

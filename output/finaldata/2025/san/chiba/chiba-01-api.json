@@ -9,37 +9,43 @@
           "quote_text": "障害児支援における所得制限を撤廃する。",
           "reason": "所得制限の撤廃という制度のステータス変更を指しており、関連法令や制度規定の改正有無によって客観的に検証可能であるため。",
           "sources": "https://www.youtube.com/watch?v=v2rhnIMy1EM",
-          "title": "障害児支援における所得制限の撤廃"
+          "title": "障害児支援における所得制限の撤廃",
+          "policy_id": "policy_066"
         },
         {
           "quote_text": "設置にあたってのプライバシー配慮、情報管理、映像の保存期間、事案発生時の運用などを定めたガイドラインを策定すること。",
           "reason": "ガイドラインの「策定」という新規作成を指しており、その存否によって客観的に実施の有無を判定できるため。",
           "sources": "https://note.com/tamakitext/n/n497dab784c0a",
-          "title": "学校等での防犯カメラ設置に関するガイドライン策定"
+          "title": "学校等での防犯カメラ設置に関するガイドライン策定",
+          "policy_id": "policy_365"
         },
         {
           "quote_text": "年少扶養控除の復活",
           "reason": "税制上の控除の復活という具体的な制度変更を明示しており、法改正の有無によって客観的に実施の有無が判定可能であるため。",
           "sources": "https://go2senkyo.com/seijika/195528",
-          "title": "年少扶養控除の復活"
+          "title": "年少扶養控除の復活",
+          "policy_id": "policy_067"
         },
         {
           "quote_text": "住宅ローン減税の控除率拡充と減税期間の15年への延長",
           "reason": "税制上の具体的なパラメータ変更（特に15年への延長）を明示しており、法改正の有無によって検証が可能であるため。",
           "sources": "https://sayakakobayashi.com/",
-          "title": "住宅ローン減税の減税期間の15年への延長"
+          "title": "住宅ローン減税の減税期間の15年への延長",
+          "policy_id": "policy_366"
         },
         {
           "quote_text": "3歳からの通園義務化により、子育て負担の軽減と虐待の早期発見・未然防止を図る。",
           "reason": "「義務化」という制度のステータス変更を指しており、法改正の有無によって実施の有無を明確に判定できるため。",
           "sources": "https://sayakakobayashi.com/",
-          "title": "3歳からの通園義務化"
+          "title": "3歳からの通園義務化",
+          "policy_id": "policy_367"
         },
         {
           "quote_text": "ガソリン税の暫定税率廃",
           "reason": "「暫定税率の廃止」という税制上の明確なステータス変更を指しており、法改正の有無によって客観的に判定可能であるため。",
           "sources": "https://sayakakobayashi.com/",
-          "title": "ガソリン税の暫定税率廃止"
+          "title": "ガソリン税の暫定税率廃止",
+          "policy_id": "policy_047"
         }
       ],
       "not-manifesto": [

@@ -9,25 +9,29 @@
           "title": "同性婚の法律への明記",
           "reason": "「法律に明記する」という法改正を伴う具体的かつ観測可能な制度のステータス変更を指しているため。",
           "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
-          "quote_text": "同性婚を法律に明記すること：賛成"
+          "quote_text": "同性婚を法律に明記すること：賛成",
+          "policy_id": "policy_349"
         },
         {
           "title": "政党の女性候補者割合に関する法律制定",
           "reason": "「法律で定めること」という新規の法制定または法改正という具体的な政治的行動への意思を示しているため。",
           "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
-          "quote_text": "選挙で政党の女性候補者の割合を一定以上にするよう法律で定めること：賛成"
+          "quote_text": "選挙で政党の女性候補者の割合を一定以上にするよう法律で定めること：賛成",
+          "policy_id": "policy_354"
         },
         {
           "title": "消費税率の引き下げ",
           "reason": "「消費税率を引き下げる」という税法上の具体的な数値（税率）の変更を指しており、法改正の有無で客観的に検証可能なため。",
           "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
-          "quote_text": "物価高対策として消費税率を引き下げること：賛成"
+          "quote_text": "物価高対策として消費税率を引き下げること：賛成",
+          "policy_id": "policy_370"
         },
         {
           "title": "憲法への自衛隊明記",
           "reason": "「憲法に明記すること」という最高法規の条文変更という究極的に具体的かつ断定的な政治アクションを指しているため。",
           "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
-          "quote_text": "自衛隊の存在を憲法に明記すること：賛成"
+          "quote_text": "自衛隊の存在を憲法に明記すること：賛成",
+          "policy_id": "policy_015"
         }
       ],
       "not-manifesto": [

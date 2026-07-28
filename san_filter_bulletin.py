@@ -43,20 +43,7 @@ def safe_generate_content(client, model, contents, config):
                 self.text = text
         return SimpleResponse(content)
 ALL_WINNERS = {
-    "tokushima_kochi": {
-        1: {
-            "name": "広田一",
-            "official": "https://hirota1.jp",
-            "party": "無所属"
-        }
-    },
-        "tottori_shimane": {
-        1: {
-            "name": "出川桃子",
-            "official": "https://degawa-momoko.jp",
-            "party": "自由民主党"
-        }
-    }
+ "nagasaki": {1: {"name": "古賀友一郎", "official": "https://koga-yuichiro.jp", "party": "自由民主党"}},
 }
 
 
@@ -305,7 +292,7 @@ JSONとして正しい形で返してください。
     print(response)
     final_data=json.loads(response.text)
 
-    out_file = Path(f"output/manifesto/2025/shu/{district}/{district}-{num}.json")
+    out_file = Path(f"output/manifesto/2025/san/{district}/{district}-{num}.json")
     out_file.parent.mkdir(parents=True, exist_ok=True)
 
     with open(out_file, "w", encoding="utf-8") as f:

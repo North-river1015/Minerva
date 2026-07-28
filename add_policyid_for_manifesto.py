@@ -15,7 +15,7 @@ api_key_openrouter = os.environ.get('OPENROUTER')
 url = os.environ.get('URL')
 
 # 基本パスの設定
-BASE_INPUT_DIR = "output/manifesto/"  # 読み込み・書き込み元のルート
+BASE_INPUT_DIR = "output/manifesto/2025/san"  # 読み込み・書き込み元のルート
 OUTPUT_DIR = "data/"
 POLICIES_FILE = os.path.join(OUTPUT_DIR, "policies.json") # マスタデータ
 
@@ -173,7 +173,10 @@ if __name__ == "__main__":
     
     # =================【設定セクション】=================
 
-    TARGET_PREFECTURE = ["okayama"]
+    TARGET_PREFECTURE = [
+       "tokushima_kochi"
+    ]
+
 #"hokkaido","akita","aomori","chiba","fukushima","gunma","ibaraki","iwate","kanagawa","miyagi","saitama","tochigi","yamagata"
     # fukui gifu  ishikawa    nagano niigata  shiga  toyama  "fukui","gifu","ishikawa","nagano","niigata","toyama","shiga","kyoto","mie"
 
@@ -188,7 +191,7 @@ if __name__ == "__main__":
 
         for district_num in TARGET_DISTRICTS:
             # 例: tokyo-01.json
-            filename = f"{prefecture}-{district_num:02d}.json"
+            filename = f"{prefecture}-{district_num}.json"
             
             # ファイルを処理し、マスタデータを更新
             master_policies = process_single_file(prefecture, filename, master_policies)

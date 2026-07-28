@@ -9,13 +9,15 @@
           "title": "ガソリンの二重課税の廃止",
           "reason": "「二重課税の廃止」という制度のステータス変更（具体的な法改正）を明示しており、客観的に実施の有無が判断可能であるため。",
           "sources": "https://teratashizuka.com/",
-          "quote_text": "秋田にとっての必需品であるガソリンの二重課税の廃止"
+          "quote_text": "秋田にとっての必需品であるガソリンの二重課税の廃止",
+          "policy_id": "policy_350"
         },
         {
           "title": "生活必需品の消費税引き下げ",
           "reason": "「消費税引き下げ」という税率（変数）の変更を具体的に示しており、法改正の有無で実施を客観的に検証可能であるため。",
           "sources": "https://teratashizuka.com/",
-          "quote_text": "生活必需品の消費税引き下げを目指します。"
+          "quote_text": "生活必需品の消費税引き下げを目指します。",
+          "policy_id": "policy_351"
         }
       ],
       "not-manifesto": [

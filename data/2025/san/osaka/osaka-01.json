@@ -1,0 +1,39 @@
+{
+  "district": "大阪1区",
+  "district_code": "2026-shu-osaka-1",
+  "candidates": [
+    {
+      "name": "佐々木理江",
+      "party": "日本維新の会",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "維新ならできる！増税なしで改革、政策の実現を！",
+            "body": ""
+          },
+          {
+            "header": "維新が達成した公約の一部",
+            "body": ""
+          },
+          {
+            "header": "大阪市会議員10年",
+            "body": "市民の皆さまと歩んだ軌跡<br>佐々木りえの"
+          }
+        ],
+        "manifesto": []
+      },
+      "web": {
+        "manifesto": [
+          {
+            "quote_text": "高校授業料無償化の所得制限を撤廃し、すべての高校生（外国人労働者の子どもを含む）を対象とする。",
+            "reason": "「所得制限を撤廃」という具体的な変数の変更を示しており、法改正等によって実施されたかを客観的に判定可能なため。",
+            "sources": "https://sasaki-rie.jp/policies/",
+            "title": "高校授業料無償化の所得制限撤廃",
+            "policy_id": "policy_435"
+          }
+        ],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

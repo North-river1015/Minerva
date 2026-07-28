@@ -9,37 +9,43 @@
           "quote_text": "食料品の消費税をゼロにし",
           "reason": "消費税率を0%にするという具体的な数値目標・税率の変更であり、法改正の有無で客観的に判定可能なため。",
           "sources": "https://go2senkyo.com/articles/2025/07/18/116689.html",
-          "title": "食料品の消費税をゼロにする"
+          "title": "食料品の消費税をゼロにする",
+          "policy_id": "policy_003"
         },
         {
           "quote_text": "ガソリンの暫定税率も廃止させるべき",
           "reason": "ガソリン税の暫定税率を廃止するという具体的な制度のステータス変更（廃止）を示しており、法改正で検証可能なため。",
           "sources": "https://go2senkyo.com/articles/2025/07/18/116689.html",
-          "title": "ガソリンの暫定税率を廃止する"
+          "title": "ガソリンの暫定税率を廃止する",
+          "policy_id": "policy_047"
         },
         {
           "quote_text": "再エネ賦課金を廃止し安い電気を供給すべき",
           "reason": "再エネ賦課金の制度そのものを廃止するという明確なステータス変更を指しており、法改正の有無で客観的に判定可能なため。",
           "sources": "https://go2senkyo.com/articles/2025/07/18/116689.html",
-          "title": "再エネ賦課金を廃止する"
+          "title": "再エネ賦課金を廃止する",
+          "policy_id": "policy_282"
         },
         {
           "quote_text": "消費税を一律５％にすれば",
           "reason": "消費税率を5%に引き下げるという具体的な税率の変更を示しており、法改正で検証可能なため。",
           "sources": "https://go2senkyo.com/articles/2025/07/18/116689.html",
-          "title": "消費税を一律5%にする"
+          "title": "消費税を一律5%にする",
+          "policy_id": "policy_028"
         },
         {
           "quote_text": "インボイスも廃除できます",
           "reason": "インボイス制度を廃止するという具体的な制度のステータス変更を指しており、法改正の有無で客観的に判定可能なため。",
           "sources": "https://go2senkyo.com/articles/2025/07/18/116689.html",
-          "title": "インボイス制度を廃止する"
+          "title": "インボイス制度を廃止する",
+          "policy_id": "policy_029"
         },
         {
           "quote_text": "選択的夫婦別姓や同性婚の実現などジェンダー平等な日本になれば",
           "reason": "民法等の法改正を伴う選択的夫婦別姓および同性婚の制度導入（実現）を指しており、法改正の有無で客観的に判定可能なため。",
           "sources": "https://go2senkyo.com/articles/2025/07/18/116689.html",
-          "title": "選択的夫婦別姓と同性婚を実現する"
+          "title": "選択的夫婦別姓と同性婚を実現する",
+          "policy_id": "policy_319"
         }
       ],
       "not-manifesto": [

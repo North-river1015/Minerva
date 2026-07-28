@@ -1,0 +1,46 @@
+{
+  "district": "神奈川4区",
+  "district_code": "2026-shu-kanagawa-4",
+  "candidates": [
+    {
+      "name": "初鹿野裕樹",
+      "party": "参政党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "■1 日本人を豊かにするの柱 〜経済・産業・移民〜",
+            "body": ""
+          },
+          {
+            "header": "■2 日本人を守り抜くの柱 〜食と健康・一次産業〜",
+            "body": ""
+          },
+          {
+            "header": "■3 日本人を育むの柱 〜教育・人づくり〜",
+            "body": ""
+          }
+        ],
+        "manifesto": []
+      },
+      "web": {
+        "manifesto": [
+          {
+            "quote_text": "消費税廃止、インボイス制度廃止、再エネ賦課金廃止、ガソリン税廃止",
+            "reason": "消費税、インボイス制度、再エネ賦課金、ガソリン税といった特定の税制・制度の廃止を明言しており、法改正や制度の存廃によって達成度を客観的に検証可能であるため。",
+            "sources": "https://go2senkyo.com/seijika/188218",
+            "title": "各種税制およびインボイス制度の廃止",
+            "policy_id": "policy_376"
+          },
+          {
+            "quote_text": "警察・消防・海保・自衛隊の待遇改善、給与引上げ",
+            "reason": "「給与引上げ」という具体的なアクションを指しており、関連法改正（給与表の改定など）の有無によって客観的に判断可能であるため。",
+            "sources": "https://go2senkyo.com/seijika/188218",
+            "title": "警察・消防・海保・自衛隊の給与引上げ",
+            "policy_id": "policy_377"
+          }
+        ],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import google.genai as genai
 from pathlib import Path
 import fitz
 from dotenv import load_dotenv 
+from PIL import Image
 
 load_dotenv()
 
@@ -16,20 +17,7 @@ LAYOUT_WEIRD = [
 
 
 ALL_WINNERS = {
-    "tokushima_kochi": {
-        1: {
-            "name": "広田一",
-            "official": "https://hirota1.jp",
-            "party": "無所属"
-        }
-    },
-        "tottori_shimane": {
-        1: {
-            "name": "出川桃子",
-            "official": "https://degawa-momoko.jp",
-            "party": "自由民主党"
-        }
-    },
+    "iwate": {1: {"name": "横澤高徳", "official": "https://yokozawa-takanori.jp", "party": "立憲民主党"}},
 }
 
 
@@ -250,6 +238,7 @@ def process_all_japan():
             crop_path = crop_by_gemini_coords(target_pdf_path, target_page_num, find_result['coords'], winner_name, pref_name)
             crop_file = client.files.upload(file=crop_path)
 
+
             while client.files.get(name=crop_file.name).state.name != "ACTIVE":
                 time.sleep(1)
 
@@ -258,6 +247,8 @@ def process_all_japan():
                                    .replace("{winner_name}", winner_name) \
                                    .replace("pref_display", pref_name) \
                                    .replace("dist_num", str(winner_id))
+
+
 
             response = client.models.generate_content(
                 model='gemini-3.1-flash-lite-preview',

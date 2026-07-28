@@ -4,8 +4,277 @@
     {
       "name": "新実彰平",
       "party": "日本維新の会",
-      "manifesto": [],
-      "not-manifesto": []
+      "manifesto": [
+        {
+          "title": "同性婚の法制化",
+          "reason": "同性婚という法制度のステータス変更を明示しており、法律の制定や改正の有無によって客観的に達成度を検証可能なため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+          "quote_text": "同性婚を法律に明記すること：賛成",
+          "policy_id": "policy_349"
+        },
+        {
+          "title": "消費税を5%に緊急減税",
+          "reason": "消費税率という明確な数値を変更する具体的な公約であり、税制改正の有無によって達成度が客観的に判定可能なため。",
+          "sources": "https://sangiin.go2senkyo.com/2025/prefecture/26",
+          "quote_text": "消費税の廃止をめざし、５％に緊急減税する。",
+          "policy_id": "policy_028"
+        },
+        {
+          "title": "マクロ経済スライドの廃止",
+          "reason": "マクロ経済スライドという現行制度の廃止を明言しており、法律改正の有無で実施の有無を客観的に判定可能なため。",
+          "sources": "https://sangiin.go2senkyo.com/2025/prefecture/26",
+          "quote_text": "マクロ経済スライドを廃止",
+          "policy_id": "policy_143"
+        },
+        {
+          "title": "企業団体献金の禁止",
+          "reason": "政治資金規正法等の法改正を伴う制度の変更であり、禁止措置の有無を客観的に検証可能なため。",
+          "sources": "https://say-g.com/interview-niimi-shohei-11482",
+          "quote_text": "企業団体献金の禁止",
+          "policy_id": "policy_101"
+        },
+        {
+          "title": "選択的夫婦別姓制度の導入",
+          "reason": "民法改正の有無によって制度が導入されたかを客観的に判断可能であるため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+          "quote_text": "選択的夫婦別姓：賛成",
+          "policy_id": "policy_057"
+        },
+        {
+          "title": "政党の女性候補者割合の法定化",
+          "reason": "法律で候補者割合を定めるという具体的アクションであり、関連法の制定・改正の有無で実施を判断可能なため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+          "quote_text": "選挙で政党の女性候補者の割合を一定以上にするよう法律で定めること：賛成",
+          "policy_id": "policy_354"
+        },
+        {
+          "title": "女性天皇の認可",
+          "reason": "皇室典範改正の有無によって女性天皇が認められたかが客観的に判断可能であるため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+          "quote_text": "女性が天皇になるのを認めること：賛成",
+          "policy_id": "policy_324"
+        },
+        {
+          "title": "選挙のインターネット投票の導入",
+          "reason": "公職選挙法等の改正の有無によってインターネット投票が導入されたかが客観的に判断可能であるため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+          "quote_text": "選挙のインターネット投票：賛成",
+          "policy_id": "policy_062"
+        },
+        {
+          "title": "介護サービス利用者の自己負担額の増額",
+          "reason": "介護保険法等の改正の有無によって自己負担割合が変更されたかが客観的に判断可能であるため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+          "quote_text": "介護サービス利用者の自己負担額を増やすこと：賛成",
+          "policy_id": "policy_371"
+        },
+        {
+          "title": "後期高齢者の医療費の自己負担割合の増額",
+          "reason": "健康保険法等の改正の有無によって自己負担割合が変更されたかが客観的に判断可能であるため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+          "quote_text": "後期高齢者の医療費の自己負担割合を増やすこと：賛成",
+          "policy_id": "policy_372"
+        },
+        {
+          "title": "生成AIの開発・利用に対する規制の設置",
+          "reason": "新法の制定や既存法の改正による規制設置の有無で実施が判断可能であるため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+          "quote_text": "「生成AI」についての考え：権利侵害や未知のリスクがあるため、開発や利用に規制を設けるべきだ",
+          "policy_id": "policy_352"
+        },
+        {
+          "title": "偽情報や誹謗中傷に対する罰則の強化",
+          "reason": "関連法の改正の有無によって偽情報や誹謗中傷への罰則が強化されたかが客観的に判断可能であるため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+          "quote_text": "SNSなどで偽情報や他人への誹謗中傷を流した人への罰則強化：賛成",
+          "policy_id": "policy_373"
+        },
+        {
+          "title": "プラットフォーマーに対する規制や罰則の導入",
+          "reason": "規制法の制定等の有無によってSNSプラットフォーマーへの規制や罰則が取り入れられたかが客観的に判断可能であるため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+          "quote_text": "SNSを提供するプラットフォーマーの偽情報や誹謗中傷への対応：プラットフォーマーに対する規制や罰則を取り入れるべきだ",
+          "policy_id": "policy_382"
+        },
+        {
+          "title": "憲法への自衛隊の明記",
+          "reason": "憲法改正という具体的かつ断定的な政治アクションであり、条文の変更によって実施の有無が明確であるため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+          "quote_text": "自衛隊の存在を憲法に明記すること：賛成",
+          "policy_id": "policy_015"
+        },
+        {
+          "title": "政治資金パーティーの制度としての禁止",
+          "reason": "政治資金規正法改正の有無によってパーティーが制度として禁止されたかが客観的に判断可能であるため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+          "quote_text": "政治資金パーティー：制度として禁止すべき",
+          "policy_id": "policy_351"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "title": "社会保障制度の改革の訴え",
+          "reason": "「訴えていきたい」「問題意識を持っている」「削減の余地がある」という現状認識や意欲表現にとどまっており、具体的な法改正や制度変更のコミットメントがないため。",
+          "sources": "https://www.ryoutan.co.jp/articles/2025/07/97790/",
+          "quote_text": "社会保障制度を時代に合ったものに変えていく必要がある。高齢者の健康を損なわずに、削れる医療費があることに問題意識を持っている。社会保険料を下げるために、電子カルテの導入で残薬の投棄といった無駄をなくすなど、支出面で削減の余地がある。しがらみにとらわれる与党ではできない発想で抜本的な改革を訴えていきたい。"
+        },
+        {
+          "title": "若年世代の流出防止とフラッグシップ作成",
+          "reason": "「方法を考える」「空気を作り」「目指す」という手続き・意欲表現であり、「フラッグシップ」という抽象概念の実態が不明で、客観的な達成基準が存在しないため。",
+          "sources": "https://www.ryoutan.co.jp/articles/2025/07/97790/",
+          "quote_text": "若年世代の流出を前向きに食い止める方法を考える。Uターンが増えるようなフラッグシップになれるものを作り、「若いやつが政治をやってもいいんだ」という空気を地方議会も含めて作り、未来志向の若者の背中を押せる存在を目指す。"
+        },
+        {
+          "title": "年金は世代を超えて支えることで最低保障を担保",
+          "reason": "具体的な法改正や変数の操作が示されておらず、最低保障を担保するという目標のみが記載されているため客観的な達成判定が不可能。",
+          "sources": "https://sangiin.go2senkyo.com/2025/prefecture/26",
+          "quote_text": "年金は世代を超えて支えることで最低保障を担保。"
+        },
+        {
+          "title": "医療はデジタル化による重複処方、重複検査の解消などで支出を適正化",
+          "reason": "「適正化」が抽象的であり、どの制度や法規を変更するか具体的な変数が特定できないため。",
+          "sources": "https://sangiin.go2senkyo.com/2025/prefecture/26",
+          "quote_text": "医療はデジタル化による重複処方、重複検査の解消などで支出を適正化。"
+        },
+        {
+          "title": "現役世代の社会保険料を引き下げ",
+          "reason": "「引き下げ」の対象（厚生年金、健康保険等）や具体的な率の変更が不明確であり、客観的な達成判定ができないため。",
+          "sources": "https://sangiin.go2senkyo.com/2025/prefecture/26",
+          "quote_text": "現役世代の社会保険料を引き下げ、社会保障制度を持続可能とします。"
+        },
+        {
+          "title": "積極的な財政出動による地方経済を支える基盤の再構築",
+          "reason": "「再構築」「財政出動」が抽象的なスローガンであり、操作すべき具体的な変数や制度が示されていないため。",
+          "sources": "https://sangiin.go2senkyo.com/2025/prefecture/26",
+          "quote_text": "積極的な財政出動により、地方経済を支える基盤を再構築することが不可欠です。"
+        },
+        {
+          "title": "大胆な財政出動",
+          "reason": "「大胆な」「財政出動」という意気込みや方針の表明に過ぎず、具体的な予算規模や制度変更が示されていないため。",
+          "sources": "https://sangiin.go2senkyo.com/2025/prefecture/26",
+          "quote_text": "大胆な財政出動を行うことこそが、日本の未来を切り開く鍵になると確信しています。"
+        },
+        {
+          "title": "津波予防策、耐震性の高い道路・橋梁の整備、新幹線ネットワークの強化",
+          "reason": "「整備」「強化」が含まれており、具体的な対象法や予算、定量的な目標がなく客観的な達成判定ができないため。",
+          "sources": "https://sangiin.go2senkyo.com/2025/prefecture/26",
+          "quote_text": "津波予防策、耐震性の高い道路・橋梁の整備、新幹線ネットワークの強化が不可欠です。"
+        },
+        {
+          "title": "積極的な財政出動で災害対策を推し進める",
+          "reason": "「推し進める」という手続き・意欲表現が含まれており、具体的な政治的アクションの対象が特定されていないため。",
+          "sources": "https://sangiin.go2senkyo.com/2025/prefecture/26",
+          "quote_text": "積極的な財政出動で災害対策を推し進めるべきです。"
+        },
+        {
+          "title": "大企業・富裕層への減税・優遇をただすことを柱に財源を確保",
+          "reason": "「ただす」「確保」という表現は手続き的・抽象的であり、対象となる法律の改正や税率の変更など具体的な変数が不明確なため。",
+          "sources": "https://sangiin.go2senkyo.com/2025/prefecture/26",
+          "quote_text": "大企業・富裕層への減税・優遇をただすことを柱に財源を確保する。"
+        },
+        {
+          "title": "物価高騰を上回る賃上げの実現",
+          "reason": "「実現する」とあるが、法的規制や制度改正によって達成するのかが不明確であり、数値目標もないため客観的な判定が不可能。",
+          "sources": "https://sangiin.go2senkyo.com/2025/prefecture/26",
+          "quote_text": "物価高騰を上回る賃上げを政治の責任で実現する。"
+        },
+        {
+          "title": "社会保険料の減免や賃金助成などで中小企業の賃上げ支援",
+          "reason": "「減免」「助成」「支援」は手続き表現や現状維持の延長であり、対象となる制度の具体的なステータス変更や変数操作が示されていないため。",
+          "sources": "https://sangiin.go2senkyo.com/2025/prefecture/26",
+          "quote_text": "社会保険料の減免や賃金助成などで中小企業の賃上げ支援を行う。"
+        },
+        {
+          "title": "物価高にみあう年金引き上げ",
+          "reason": "「みあう」「引き上げ」という表現は抽象的であり、具体的な法改正や引き上げ率の変数が特定されていないため。",
+          "sources": "https://sangiin.go2senkyo.com/2025/prefecture/26",
+          "quote_text": "物価高にみあう年金引き上げ。"
+        },
+        {
+          "title": "国費の投入で医療崩壊、介護崩壊を防ぐ",
+          "reason": "「国費の投入」という抽象的な表現のみであり、対象となる制度や予算規模が特定されていないため客観的な判定が不可能。",
+          "sources": "https://sangiin.go2senkyo.com/2025/prefecture/26",
+          "quote_text": "国費の投入で医療崩壊、介護崩壊を"
+        },
+        {
+          "title": "社会保障制度の適正化",
+          "reason": "「削るべきところを削り」「適正化を図る」という曖昧な意欲表現であり、どの制度のどの変数を変更するか具体的ではなく客観的な検証が不可能なため。",
+          "sources": "https://say-g.com/interview-niimi-shohei-11482",
+          "quote_text": "少子高齢化が進む中で破綻が危惧される社会保障制度に対し、削るべきところを削り、適正化を図る。"
+        },
+        {
+          "title": "副首都構想の実現",
+          "reason": "「目指す」という手続き・意欲表現が含まれており、具体的な法改正等を伴う断定的なコミットメントではないため。",
+          "sources": "https://say-g.com/interview-niimi-shohei-11482",
+          "quote_text": "副首都の実現を目指す。"
+        },
+        {
+          "title": "企業団体献金の見直し",
+          "reason": "「見直し」という動詞が含まれており、結果への明確なコミットではなく客観的な検証が不可能なため。",
+          "sources": "https://say-g.com/interview-niimi-shohei-11482",
+          "quote_text": "企業団体献金の見直し"
+        },
+        {
+          "title": "社会保障の充実",
+          "reason": "抽象的なスローガンであり、具体的な変数が不明であるため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+          "quote_text": "社会保障の充実"
+        },
+        {
+          "title": "連立政権についての考え",
+          "reason": "連立政権への参加姿勢という政治的スタンスの表明であり、具体的な政策行動ではないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+          "quote_text": "連立政権についての考え：支持者の利益を実現するために、政策や主張を大きく譲ってでも政権に加わるべきだ"
+        },
+        {
+          "title": "外国人労働者受け入れの抑制",
+          "reason": "どの法律や制度をどう変更して抑制するかという具体的な変数が不明であるため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+          "quote_text": "国内への外国人労働者受け入れ：今より受け入れを抑制するべきだ"
+        },
+        {
+          "title": "食糧自給率維持のための生産者保護",
+          "reason": "「保護すること」が具体的な法改正や制度変更を指しておらず、実施の有無が客観的に判断できないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+          "quote_text": "食糧自給率を維持するために、食料品の価格が上がったとしても、生産者（農家）を保護すること：賛成"
+        },
+        {
+          "title": "エネルギー価格高騰時の補助抑制",
+          "reason": "消極的なスタンス表明であり、新たな法改正や制度変更を伴う公約ではないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+          "quote_text": "エネルギー価格が高騰したときの政府の対応：財政負担が重くなるため、政府は電気代やガソリン代への補助をできるだけ行うべきではない"
+        },
+        {
+          "title": "少子化対策の財源としての現役世代負担",
+          "reason": "どの法律や制度をどう変更して負担を求めるかという具体的な変数が不明であるため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+          "quote_text": "少子化対策の財源：受益者負担として、現役世代に限定して負担を求めるべきだ"
+        },
+        {
+          "title": "社会保障給付水準の引き下げによる負担抑制",
+          "reason": "どの給付の水準をどの程度下げるかという具体的な変数が不明であり、曖昧な目標であるため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+          "quote_text": "年金や医療などの社会保障：給付などの水準を下げて、国民の負担を抑制すべきだ"
+        },
+        {
+          "title": "ネット上の選挙発信に対する過度な規制の回避",
+          "reason": "現状維持の消極的スタンス表明であり、新規の政治的アクションではないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+          "quote_text": "選挙でのネット上の誹謗中傷や虚偽情報の拡散について：政治活動の自由や言論の自由を守る観点から、インターネット上の選挙に関する発信は必要以上に規制すべきではない"
+        },
+        {
+          "title": "段階的な原発廃炉と将来的な全廃",
+          "reason": "「将来的に」全廃するという時期が不明であり、新規の法制定等の変数が特定できないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+          "quote_text": "今後の原子力発電政策：段階的に廃炉し、将来的に原発を全廃する"
+        },
+        {
+          "title": "日本の防衛力の強化",
+          "reason": "「強化」が具体的な予算数値や法改正を指しておらず、曖昧で客観的に判断できないため。",
+          "sources": "https://www.ntv.co.jp/election2025/research/candidate/260083/",
+          "quote_text": "日本の防衛力をさらに強化すること：賛成"
+        }
+      ]
     }
   ]
 }

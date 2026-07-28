@@ -9,91 +9,106 @@
           "title": "国産の再生可能エネルギー導入",
           "reason": "「導入」というアクションがあり、導入量や制度のステータス変更として観測可能と判断。ただし、対象が「国産の再生可能エネルギー」とやや抽象的だが、導入の有無（法改正や制度変更）は確認可能。",
           "sources": "https://www.townnews.co.jp/0202/2025/06/27/790481.html",
-          "quote_text": "国産の再生可能エネルギー導入や農林水産業の強化"
+          "quote_text": "国産の再生可能エネルギー導入や農林水産業の強化",
+          "policy_id": "policy_367"
         },
         {
           "title": "スマート林業の導入",
           "reason": "「導入」という具体的な制度・技術の導入アクションを指しており、実施の有無が客観的に判断可能。",
           "sources": "https://www.townnews.co.jp/0202/2025/06/27/790481.html",
-          "quote_text": "スマート林業の導入や木質バイオマスの需要拡大など"
+          "quote_text": "スマート林業の導入や木質バイオマスの需要拡大など",
+          "policy_id": "policy_368"
         },
         {
           "title": "選択的夫婦別姓の法制化",
           "reason": "民法等の改正により選択的夫婦別姓制度を導入するという法的なステータス変更（制度導入）であり、法改正の有無で客観的に判定可能なため。",
           "sources": "https://www.ntv.co.jp/election2025/research/candidate/140172/",
-          "quote_text": "選択的夫婦別姓：賛成。"
+          "quote_text": "選択的夫婦別姓：賛成。",
+          "policy_id": "policy_057"
         },
         {
           "title": "政党の女性候補者割合の法定化",
           "reason": "新規の法律制定（または現行法の改正）により政党の女性候補者割合を一定以上にするよう義務付けるという制度設立であり、法整備の有無で判定可能なため。",
           "sources": "https://www.ntv.co.jp/election2025/research/candidate/140172/",
-          "quote_text": "選挙で政党の女性候補者の割合を一定以上にするよう法律で定めること：賛成。"
+          "quote_text": "選挙で政党の女性候補者の割合を一定以上にするよう法律で定めること：賛成。",
+          "policy_id": "policy_354"
         },
         {
           "title": "同性婚の法制化",
           "reason": "同性婚を法律に明記するという法改正（制度のステータス変更）であり、法整備の有無で客観的に判定可能なため。",
           "sources": "https://www.ntv.co.jp/election2025/research/candidate/140172/",
-          "quote_text": "同性婚を法律に明記すること：賛成。"
+          "quote_text": "同性婚を法律に明記すること：賛成。",
+          "policy_id": "policy_349"
         },
         {
           "title": "女性天皇の認容",
           "reason": "皇室典範の改正を前提とした制度的ステータス変更であり、法改正の有無で客観的に判定可能なため。",
           "sources": "https://www.ntv.co.jp/election2025/research/candidate/140172/",
-          "quote_text": "女性が天皇になるのを認めること：賛成。"
+          "quote_text": "女性が天皇になるのを認めること：賛成。",
+          "policy_id": "policy_324"
         },
         {
           "title": "外国人労働者受け入れの抑制",
           "reason": "「今より受け入れを抑制するべきだ」という制度のステータス変更（法改正や要件厳格化）を伴う方針転換であり、出入国管理及び難民認定法等の改正要件等で判定可能なため。",
           "sources": "https://www.ntv.co.jp/election2025/research/candidate/140172/",
-          "quote_text": "国内への外国人労働者受け入れ：今より受け入れを抑制するべきだ。"
+          "quote_text": "国内への外国人労働者受け入れ：今より受け入れを抑制するべきだ。",
+          "policy_id": "policy_369"
         },
         {
           "title": "インターネット投票制度の導入",
           "reason": "公職選挙法等の改正による制度の新規導入を指しており、法整備の有無で客観的に判定可能なため。",
           "sources": "https://www.ntv.co.jp/election2025/research/candidate/140172/",
-          "quote_text": "選挙のインターネット投票：賛成。"
+          "quote_text": "選挙のインターネット投票：賛成。",
+          "policy_id": "policy_062"
         },
         {
           "title": "消費税率の引き下げ",
           "reason": "「消費税率を引き下げる」という数値・条件の変更であり、消費税法の改正により実施の有無が客観的に判定可能なため。",
           "sources": "https://www.ntv.co.jp/election2025/research/candidate/140172/",
-          "quote_text": "物価高対策として消費税率を引き下げること：賛成。"
+          "quote_text": "物価高対策として消費税率を引き下げること：賛成。",
+          "policy_id": "policy_370"
         },
         {
           "title": "介護サービス利用者の自己負担額の引き上げ",
           "reason": "「自己負担額を増やす」という数値・条件の変更であり、介護保険法等の改正により実施の有無が客観的に判定可能なため。",
           "sources": "https://www.ntv.co.jp/election2025/research/candidate/140172/",
-          "quote_text": "介護サービス利用者の自己負担額を増やすこと：賛成。"
+          "quote_text": "介護サービス利用者の自己負担額を増やすこと：賛成。",
+          "policy_id": "policy_371"
         },
         {
           "title": "後期高齢者医療制度の自己負担割合の引き上げ",
           "reason": "「自己負担割合を増やす」という数値・条件の変更であり、健康保険法等の改正により客観的に判定可能なため。",
           "sources": "https://www.ntv.co.jp/election2025/research/candidate/140172/",
-          "quote_text": "後期高齢者の医療費の自己負担割合を増やすこと：賛成。"
+          "quote_text": "後期高齢者の医療費の自己負担割合を増やすこと：賛成。",
+          "policy_id": "policy_372"
         },
         {
           "title": "偽情報・誹謗中傷への罰則強化",
           "reason": "「罰則強化」という法改正（数値・条件の変更や新規設立）を指しており、刑法やプロバイダ責任制限法等の改正により判定可能なため。",
           "sources": "https://www.ntv.co.jp/election2025/research/candidate/140172/",
-          "quote_text": "SNSなどで偽情報や他人への誹謗中傷を流した人への罰則強化：賛成。"
+          "quote_text": "SNSなどで偽情報や他人への誹謗中傷を流した人への罰則強化：賛成。",
+          "policy_id": "policy_373"
         },
         {
           "title": "原子力発電所の新設・建て替えを含む活用",
           "reason": "新設や建て替えを含む原子力発電政策の転換は、関連法規の改正や規制基準の変更を伴う制度のステータス変更であり、具体的なアクションとして観測可能なため。",
           "sources": "https://www.ntv.co.jp/election2025/research/candidate/140172/",
-          "quote_text": "今後の原子力発電政策：新設や建て替え等を含め、今後も原発を活用する。"
+          "quote_text": "今後の原子力発電政策：新設や建て替え等を含め、今後も原発を活用する。",
+          "policy_id": "policy_374"
         },
         {
           "title": "憲法への自衛隊明記",
           "reason": "「憲法改正」という最高法規の条文変更という、究極的に具体的かつ断定的な政治アクションを指しているため。",
           "sources": "https://www.ntv.co.jp/election2025/research/candidate/140172/",
-          "quote_text": "自衛隊の存在を憲法に明記すること：賛成。"
+          "quote_text": "自衛隊の存在を憲法に明記すること：賛成。",
+          "policy_id": "policy_015"
         },
         {
           "title": "防衛力の強化",
           "reason": "防衛費の増額等を含む防衛政策の転換を示唆しており、予算規模や法制化により判定可能な側面を含むが、原則として「強化」は曖昧。しかし、具体的な法案提出や予算化などの行動に結びつく政府方針としてのステータス変更とみなせるため。",
           "sources": "https://www.ntv.co.jp/election2025/research/candidate/140172/",
-          "quote_text": "日本の防衛力をさらに強化すること：賛成。"
+          "quote_text": "日本の防衛力をさらに強化すること：賛成。",
+          "policy_id": "policy_375"
         }
       ],
       "not-manifesto": [

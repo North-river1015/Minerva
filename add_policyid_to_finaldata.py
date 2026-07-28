@@ -19,7 +19,7 @@ api_key_openrouter = os.environ.get('OPENROUTER')
 url = os.environ.get('URL')
 
 # ファイルパスの設定
-INPUT_DIR = "output/finaldata/"
+INPUT_DIR = "output/finaldata/2025/san"
 OUTPUT_DIR = "data/"
 POLICIES_FILE = os.path.join(OUTPUT_DIR, "policies.json")
 
@@ -150,8 +150,13 @@ def process_district_file(prefecture,filename, master_policies):
                 continue
                 
             if matched_id == "NEW":
-                new_number = len(master_policies) + 1
-                new_id = f"policy_{new_number:03}"
+                # 既存のIDから数値の最大値を抽出して+1する（存在しない場合は1）
+                existing_numbers = [
+                    int(m.group()) for k in master_policies.keys() 
+                    if (m := re.search(r'\d+', k))
+                ]
+                next_num = (max(existing_numbers) + 1) if existing_numbers else 1
+                new_id = f"policy_{next_num:03}"
                 
                 master_policies[new_id] = {
                     "title": title, 
@@ -180,7 +185,15 @@ if __name__ == "__main__":
     master_policies = load_json(POLICIES_FILE)
     
     # =================【設定エリア】=================
-    PREFECTURES = ["gifu"] 
+    PREFECTURES = [
+        "tokyo", "kanagawa",
+        "niigata", "toyama", "ishikawa", "fukui", "yamanashi", "nagano", "gifu",
+        "shizuoka", "aichi", "mie", "shiga", "kyoto", "osaka", "hyogo", "nara",
+        "wakayama", "tottori", "shimane", "okayama", "hiroshima", "yamaguchi",
+        "tokushima", "kagawa", "ehime", "kochi", "fukuoka", "saga", "nagasaki",
+        "kumamoto", "oita", "miyazaki", "kagoshima", "okinawa"
+    ]
+
 #gunma 3,5 まだ
 
     #"hokkaido","akita","aomori","chiba","fukushima","gunma","ibaraki","iwate","kanagawa","miyagi","saitama","tochigi","yamagata""fukui","gifu","ishikawa","nagano","niigata","toyama",

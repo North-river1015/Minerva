@@ -1,0 +1,69 @@
+{
+  "district": "愛媛1区",
+  "district_code": "2026-shu-ehime-1",
+  "candidates": [
+    {
+      "name": "永江孝子",
+      "party": "無所属",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "4つの約束",
+            "body": "・消費税の減税、食料品0％で暮らしを守ります。<br>・仕事と育児の両立サポートします。<br>・中小企業・農林漁業者を支援し愛媛を豊かにします。<br>・医療・介護・保育 現場の皆さんの給与をアップします。"
+          },
+          {
+            "header": "こんな政策が実現！",
+            "body": "・生活の足が無くて「買い物困難」な皆さんの支援<br>・シングルマザー支援<br>・災害時、家族であるペットと避難できるように<br>・中小企業の「個人保証」の負担軽減"
+          }
+        ],
+        "manifesto": [
+          {
+            "quote_text": "消費税の減税、食料品0％",
+            "reason": "「0％にする」という具体的な税率変更（数値目標）を示しており、税制改正の有無により客観的な検証が可能であるため。",
+            "title": "食料品税率を0％にする",
+            "policy_id": "policy_003"
+          },
+          {
+            "quote_text": "医療・介護・保育 現場の皆さんの給与をアップします",
+            "reason": "「給与をアップする」という処遇改善の明確なコミットメントであり、関連法改正や予算措置の有無により検証可能であるため。",
+            "title": "医療・介護・保育現場の給与アップ",
+            "policy_id": "policy_153"
+          }
+        ]
+      },
+      "web": {
+        "manifesto": [
+          {
+            "title": "同性婚の法律への明記",
+            "reason": "「法律に明記する」という法改正を伴う具体的かつ観測可能な制度のステータス変更を指しているため。",
+            "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
+            "quote_text": "同性婚を法律に明記すること：賛成",
+            "policy_id": "policy_349"
+          },
+          {
+            "title": "政党の女性候補者割合に関する法律制定",
+            "reason": "「法律で定めること」という新規の法制定または法改正という具体的な政治的行動への意思を示しているため。",
+            "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
+            "quote_text": "選挙で政党の女性候補者の割合を一定以上にするよう法律で定めること：賛成",
+            "policy_id": "policy_354"
+          },
+          {
+            "title": "消費税率の引き下げ",
+            "reason": "「消費税率を引き下げる」という税法上の具体的な数値（税率）の変更を指しており、法改正の有無で客観的に検証可能なため。",
+            "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
+            "quote_text": "物価高対策として消費税率を引き下げること：賛成",
+            "policy_id": "policy_370"
+          },
+          {
+            "title": "憲法への自衛隊明記",
+            "reason": "「憲法に明記すること」という最高法規の条文変更という究極的に具体的かつ断定的な政治アクションを指しているため。",
+            "sources": "https://www.ntv.co.jp/election2025/research/candidate/380250/",
+            "quote_text": "自衛隊の存在を憲法に明記すること：賛成",
+            "policy_id": "policy_015"
+          }
+        ],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

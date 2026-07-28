@@ -9,103 +9,120 @@
           "title": "食料品の消費税の0%への引き下げ",
           "reason": "具体的な税率（8%から0%）と期間（2026年4月から1年間）という明確な法改正目標であり、客観的に達成度が検証可能なため。",
           "sources": "https://politician.cafe/politician/1760/measures/",
-          "quote_text": "2026年4月からまずは1年間、食料品の消費税を現在の8%から0%に引き下げます。"
+          "quote_text": "2026年4月からまずは1年間、食料品の消費税を現在の8%から0%に引き下げます。",
+          "policy_id": "policy_003"
         },
         {
           "title": "「食卓おうえん給付金」の2万円給付",
           "reason": "給付金の名称と金額（一人あたり2万円）という具体的な数値目標が明確であり、実施の有無が客観的に判断可能なため。",
           "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2-2/",
-          "quote_text": "「食卓おうえん給付金」を一人あたり2万円給付します。"
+          "quote_text": "「食卓おうえん給付金」を一人あたり2万円給付します。",
+          "policy_id": "policy_330"
         },
         {
           "title": "ガソリン1リットル25円・軽油17円の減税（暫定税率の廃止）",
           "reason": "減税の具体的な金額（25円、17円）と制度のステータス変更（暫定税率の廃止）が明示されており、法改正の有無で検証可能なため。",
           "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2-2/",
-          "quote_text": "ガソリンは1リットルあたり25円、軽油は17円の減税（暫定税率の廃止）を行います。"
+          "quote_text": "ガソリンは1リットルあたり25円、軽油は17円の減税（暫定税率の廃止）を行います。",
+          "policy_id": "policy_331"
         },
         {
           "title": "訪問介護の基本報酬の引き上げ",
           "reason": "介護報酬改定という制度上の数値変更を指しており、法改正や通知の有無によって実施されたかが客観的に判断可能なため。",
           "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2-2/",
-          "quote_text": "訪問介護の基本報酬を引き上げます。"
+          "quote_text": "訪問介護の基本報酬を引き上げます。",
+          "policy_id": "policy_332"
         },
         {
           "title": "社会保障サービス自己負担の合計額に関する総合合算制度の創設",
           "reason": "所得に応じて上限を設ける新規制度の設立を明言しており、法制定の有無によって実施が客観的に検証可能なため。",
           "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2-2/",
-          "quote_text": "医療・介護・障がい福祉等に関する社会保障サービスの自己負担の合計額について、所得に応じて上限を設ける総合合算制度を創設します。"
+          "quote_text": "医療・介護・障がい福祉等に関する社会保障サービスの自己負担の合計額について、所得に応じて上限を設ける総合合算制度を創設します。",
+          "policy_id": "policy_333"
         },
         {
           "title": "養育費立替制度の導入",
           "reason": "「制度の導入」という新規制度の設立を明言しており、その存否によって実施の有無を明確に判定できるため。",
           "sources": "https://politician.cafe/politician/1760/measures/",
-          "quote_text": "養育費立替制度の導入を進めます。"
+          "quote_text": "養育費立替制度の導入を進めます。",
+          "policy_id": "policy_334"
         },
         {
           "title": "日本版「ネウボラ」の全国推進",
           "reason": "子育て支援の一環として具体的な名称を冠した制度の全国展開を掲げており、政策実施の客観的な検証が可能なため。",
           "sources": "https://politician.cafe/politician/1760/measures/",
-          "quote_text": "妊娠から出産・子育てまで一貫して子どもの育ちを支援し、家族全体の心身の健康サポートを行う日本版「ネウボラ」を全国で推進します。"
+          "quote_text": "妊娠から出産・子育てまで一貫して子どもの育ちを支援し、家族全体の心身の健康サポートを行う日本版「ネウボラ」を全国で推進します。",
+          "policy_id": "policy_132"
         },
         {
           "title": "新たな家賃補助制度の創設",
           "reason": "「新たな家賃補助制度の創設」という新規制度の設立を明言しており、その存否が客観的に確認可能なため。",
           "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2/",
-          "quote_text": "新たな家賃補助制度の創設や"
+          "quote_text": "新たな家賃補助制度の創設や",
+          "policy_id": "policy_335"
         },
         {
           "title": "国公立大学の授業料無償化",
           "reason": "制度のステータス変更として客観的に達成度が検証可能なため。",
           "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2/",
-          "quote_text": "国公立大学の授業料無償化と、私立大学・専門学校への同額程度の負担軽減を実施します。"
+          "quote_text": "国公立大学の授業料無償化と、私立大学・専門学校への同額程度の負担軽減を実施します。",
+          "policy_id": "policy_324"
         },
         {
           "title": "私立大学・専門学校への同額程度の負担軽減",
           "reason": "条件の変更として達成度が客観的に検証可能なため。",
           "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2/",
-          "quote_text": "国公立大学の授業料無償化と、私立大学・専門学校への同額程度の負担軽減を実施します。"
+          "quote_text": "国公立大学の授業料無償化と、私立大学・専門学校への同額程度の負担軽減を実施します。",
+          "policy_id": "policy_336"
         },
         {
           "title": "18歳までの児童手当を月1万5千円に増額",
           "reason": "具体的な数値目標の変更を示しており、法改正や制度変更の有無で客観的に判定可能なため。",
           "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2/",
-          "quote_text": "18歳までの全ての子どもの児童手当を月1万5千円（年18万円）に増額することや"
+          "quote_text": "18歳までの全ての子どもの児童手当を月1万5千円（年18万円）に増額することや",
+          "policy_id": "policy_337"
         },
         {
           "title": "学校給食の無償化",
           "reason": "「無償化」を行うと明言しており、制度のステータス変更として達成度が客観的に検証可能なため。",
           "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2/",
-          "quote_text": "学校給食の無償化と質の担保"
+          "quote_text": "学校給食の無償化と質の担保",
+          "policy_id": "policy_120"
         },
         {
           "title": "女性差別撤廃条約の選択議定書の批准",
           "reason": "条約の「批准」という明確な政治行動を示しており、批准の有無によって実施されたかが客観的に判断可能なため。",
           "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92-2/",
-          "quote_text": "女性差別撤廃条約の選択議定書を批准し"
+          "quote_text": "女性差別撤廃条約の選択議定書を批准し",
+          "policy_id": "policy_338"
         },
         {
           "title": "「食農支払」制度の創設",
           "reason": "面積に応じて交付金を支給する新規制度の設立を明示しており、法制化や導入の有無によって客観的に検証可能なため。",
           "sources": "https://fukushimasumi.jp/kihonseisaku/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%81%AE%E6%B4%BB%E5%8A%9B%E3%82%92/",
-          "quote_text": "食料と農地を守る直接支払制度「食農支払」の創設。「農地維持支払」に加え、「中山間地域加算」「多面的機能・環境加算」「主食用米直接支払（米のトリガー）」「自給率向上直接支払」を導入することで、安定的な農業経営を支援します。"
+          "quote_text": "食料と農地を守る直接支払制度「食農支払」の創設。「農地維持支払」に加え、「中山間地域加算」「多面的機能・環境加算」「主食用米直接支払（米のトリガー）」「自給率向上直接支払」を導入することで、安定的な農業経営を支援します。",
+          "policy_id": "policy_339"
         },
         {
           "title": "全国民への2万円給付",
           "reason": "給付金の金額と対象が具体的に示されており、予算成立や給付の有無で客観的な判定が可能であるため。",
           "sources": "https://www.rab.co.jp/senkyo/202507.html",
-          "quote_text": "全国民に2万円を給付"
+          "quote_text": "全国民に2万円を給付",
+          "policy_id": "policy_340"
         },
         {
           "title": "就農支援資金の10倍拡大",
           "reason": "就農支援資金を10倍にするという明確な数値目標の変更であり、予算規模の変動によって客観的に検証可能であるため。",
           "sources": "https://www.rab.co.jp/senkyo/202507.html",
-          "quote_text": "就農支援の資金を10倍に拡大"
+          "quote_text": "就農支援の資金を10倍に拡大",
+          "policy_id": "policy_341"
         },
         {
           "title": "子育て費用の無償化",
           "reason": "「無償化」という制度のステータス変更を指しており、関連法改正や予算措置の有無によって実施されたかが客観的に判断可能であるため。",
           "sources": "https://www.rab.co.jp/senkyo/202507.html",
-          "quote_text": "子育て費用の無償化"
+          "quote_text": "子育て費用の無償化",
+          "policy_id": "policy_342"
         }
       ],
       "not-manifesto": [
