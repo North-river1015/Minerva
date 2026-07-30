@@ -5,483 +5,485 @@ from pathlib import Path
 
 # --- パスの設定 ---
 # ウェブ公約のデータ (assign_ids.py で処理した後のデータ)
-WEB_DATA_DIR = Path("output/finaldata/2022/san")  # または output/finaldata
+WEB_DATA_DIR = Path("output/finaldata/2025/san")  # または output/finaldata
 # 選挙公報のテキストデータ
-BULLETIN_DATA_DIR = Path("data/ai_output/2022/san")
-BULLETIN_MANIFESTO_DIR = Path("output/manifesto/2022/san")  # 公約抽出後のデータ
+BULLETIN_DATA_DIR = Path("data/ai_output/2025/san")
+BULLETIN_MANIFESTO_DIR = Path("output/manifesto/2025/san")  # 公約抽出後のデータ
 # 統合後のJSONを保存するフォルダ (Hugoが読み込む場所)
-OUTPUT_DIR = Path("data/2022/san")
+OUTPUT_DIR = Path("data/2025/san")
 
 
 
 
 ALL_WINNERS = {
-    "tokyo": {
-        1: {
-            "name": "朝日健太郎",
-            "official": "https://asahikentaro.tokyo",
-            "party": "自由民主党"
-        },
-        2: {
-            "name": "竹谷とし子",
-            "official": "https://takeya-toshiko.jp",
-            "party": "公明党"
-        },
-        3: {
-            "name": "山添拓",
-            "official": "https://yamazoetaku.com",
-            "party": "日本共産党"
-        },
-        4: {
-            "name": "蓮舫",
-            "official": "https://renho.jp",
-            "party": "立憲民主党"
-        },
-        5: {
-            "name": "生稲晃子",
-            "official": "https://ikuina-akiko.com",
-            "party": "自由民主党"
-        },
-        6: {
-            "name": "山本太郎",
-            "official": "https://taro-yamamoto.jp",
-            "party": "れいわ新選組"
-        }
-    },
     "kanagawa": {
         1: {
-            "name": "三原じゅん子",
-            "official": "http://miharajunco.org",
-            "party": "自由民主党"
+            "name": "牧山ひろえ",
+            "official": "https://makiyama-hiroe.jp",
+            "party": "立憲民主党"
         },
         2: {
-            "name": "松沢成文",
-            "official": "https://www.matsuzawa.com/",
+            "name": "籠島彰宏",
+            "official": "https://akagoshima.jp",
+            "party": "国民民主党"
+        },
+        3: {
+            "name": "脇雅昭",
+            "official": "https://waki.link",
+            "party": "自由民主党"
+        },
+        4: {
+            "name": "初鹿野裕樹",
+            "official": "N/A",
+            "party": "参政党"
+        }
+    },
+    "aichi": {
+        1: {
+            "name": "水野孝一",
+            "official": "https://mizuno.ne.jp",
+            "party": "国民民主党"
+        },
+        2: {
+            "name": "田島麻衣子",
+            "official": "https://maiko-tajima.com",
+            "party": "立憲民主党"
+        },
+        3: {
+            "name": "杉本純子",
+            "official": "https://junkosugimoto.jp",
+            "party": "参政党"
+        },
+        4: {
+            "name": "酒井庸行",
+            "official": "https://www.sakai-yasuyuki.com/",
+            "party": "自由民主党"
+        }
+    },
+    "osaka": {
+        1: {
+            "name": "佐々木理江",
+            "official": "https://sasaki-rie.jp/",
+            "party": "日本維新の会"
+        },
+        2: {
+            "name": "岡崎ふとし",
+            "official": "https://futoshi-ishin.com/",
             "party": "日本維新の会"
         },
         3: {
-            "name": "三浦信祐",
-            "official": "https://miura-nobuhiro.com",
-            "party": "公明党"
+            "name": "宮出千慧",
+            "official": "https://miyade-chisato.hp.peraichi.com/",
+            "party": "参政党"
         },
         4: {
-            "name": "浅尾慶一郎",
-            "official": "https://asao.net",
+            "name": "杉久武",
+            "official": "https://sugi-hisatake.com/",
+            "party": "公明党"
+        }
+    },
+    "tokyo": {
+        1: {
+            "name": "鈴木大地",
+            "official": "https://daichi55.com",
             "party": "自由民主党"
         },
+        2: {
+            "name": "さや",
+            "official": "https://sayanokai.jp",
+            "party": "参政党"
+        },
+        3: {
+            "name": "牛田茉友",
+            "official": "https://ushidamayu.info",
+            "party": "国民民主党"
+        },
+        4: {
+            "name": "川村雄大",
+            "official": "https://kawamura-yudai.com/",
+            "party": "公明党"
+        },
         5: {
-            "name": "水野素子",
-            "official": "https://mizunomotoko.com/",
+            "name": "奥村祥大",
+            "official": "https://yoshihiro-okumura.com",
+            "party": "国民民主党"
+        },
+        6: {
+            "name": "吉良佳子",
+            "official": "https://kirayoshiko.com/",
+            "party": "日本共産党"
+        },
+        7: {
+            "name": "塩村文夏",
+            "official": "https://shiomura-ayaka.com",
             "party": "立憲民主党"
         }
     },
     "saitama": {
         1: {
-            "name": "関口昌一",
-            "official": "http://sekiguchi-masakazu.com",
+            "name": "古川俊治",
+            "official": "https://www.toshiharu-furukawa.jp/",
             "party": "自由民主党"
         },
         2: {
-            "name": "上田清司",
-            "official": "https://ueda-kiyoshi.com",
-            "party": "無所属"
-        },
-        3: {
-            "name": "西田実仁",
-            "official": "https://nishida-makoto.jp",
-            "party": "公明党"
-        },
-        4: {
-            "name": "高木真理",
-            "official": "https://marit.main.jp/",
-            "party": "立憲民主党"
-        }
-    },
-    "aichi": {
-        1: {
-            "name": "藤川政人",
-            "official": "https://fujikawa-masahito.com/",
-            "party": "自由民主党"
-        },
-        2: {
-            "name": "里見隆治",
-            "official": "https://satomi-ryuji.com/",
-            "party": "公明党"
-        },
-        3: {
-            "name": "斎藤嘉隆",
-            "official": "https://saitoyoshitaka.com/",
-            "party": "立憲民主党"
-        },
-        4: {
-            "name": "伊藤孝恵",
-            "official": "https://itoutakae.info/",
+            "name": "江原久美子",
+            "official": "https://www.eharakumiko.net/",
             "party": "国民民主党"
-        }
-    },
-    "osaka": {
-        1: {
-            "name": "高木佳保里",
-            "official": "https://kaori-takagi.com/",
-            "party": "日本維新の会"
-        },
-        2: {
-            "name": "松川るい",
-            "official": "https://www.matsukawa-rui.jp/",
-            "party": "自由民主党"
         },
         3: {
-            "name": "浅田均",
-            "official": "http://asd2a.com/",
-            "party": "日本維新の会"
+            "name": "熊谷裕人",
+            "official": "https://www.kumachan55.jp/",
+            "party": "立憲民主党"
         },
         4: {
-            "name": "石川博崇",
-            "official": "https://www.hiro-ishikawa.net/",
+            "name": "大津力",
+            "official": "https://ohtsu-tsutomu.com/",
+            "party": "参政党"
+        }
+    },
+    "hyogo": {
+        1: {
+            "name": "泉房穂",
+            "official": "https://izumi-fusaho.com",
+            "party": "立憲民主党"
+        },
+        2: {
+            "name": "高橋光男",
+            "official": "https://takahashi-mitsuo.com",
+            "party": "公明党"
+        },
+        3: {
+            "name": "加田裕之",
+            "official": "https://kadahiroyuki.com",
+            "party": "自由民主党"
+        }
+    },
+    "fukuoka": {
+        1: {
+            "name": "松山政司",
+            "official": "https://matsuyama-masaji.jp",
+            "party": "自由民主党"
+        },
+        2: {
+            "name": "中田優子",
+            "official": "https://nakadayuko.jp/",
+            "party": "参政党"
+        },
+        3: {
+            "name": "下野六太",
+            "official": "https://shimono-rokuta.jp/",
             "party": "公明党"
         }
     },
     "hokkaido": {
         1: {
-            "name": "長谷川岳",
-            "official": "https://hasegawagaku0216.com",
+            "name": "高橋はるみ",
+            "official": "https://haruchan.jp",
             "party": "自由民主党"
         },
         2: {
-            "name": "徳永エリ",
-            "official": "https://tokunaga-eri.jp",
+            "name": "勝部賢志",
+            "official": "https://katsube-kenji.jp/",
             "party": "立憲民主党"
         },
         3: {
-            "name": "船橋利実",
-            "official": "https://funahashi-toshimitsu.jp",
+            "name": "岩本剛人",
+            "official": "https://tsuyohito.jp",
             "party": "自由民主党"
         }
     },
     "chiba": {
         1: {
-            "name": "臼井正一",
-            "official": "https://shoichi.info",
-            "party": "自由民主党"
+            "name": "小林さやか",
+            "official": "https://sayakakobayashi.com",
+            "party": "国民民主党"
         },
         2: {
-            "name": "猪口邦子",
-            "official": "http://www.kunikoinoguchi.jp/",
-            "party": "自由民主党"
-        },
-        3: {
-            "name": "小西洋之",
-            "official": "https://konishi-hiroyuki.jp/",
-            "party": "立憲民主党"
-        }
-    },
-    "hyogo": {
-        1: {
-            "name": "片山大介",
-            "official": "http://www.katayama-daisuke.com/",
-            "party": "日本維新の会"
-        },
-        2: {
-            "name": "末松信介",
-            "official": "https://suematsu.org/",
-            "party": "自由民主党"
-        },
-        3: {
-            "name": "伊藤孝江",
-            "official": "https://ito-takae.com/",
-            "party": "公明党"
-        }
-    },
-    "fukuoka": {
-        1: {
-            "name": "大家敏志",
-            "official": "https://oie-satoshi.com/",
-            "party": "自由民主党"
-        },
-        2: {
-            "name": "古賀之士",
-            "official": "https://koga-yukihito.jp/",
+            "name": "長浜博行",
+            "official": "https://www.nagahamahiroyuki.com/",
             "party": "立憲民主党"
         },
         3: {
-            "name": "秋野公造",
-            "official": "https://akino-kozo.com/",
-            "party": "公明党"
+            "name": "石井準一",
+            "official": "http://www.ishii-junichi.com/",
+            "party": "自由民主党"
         }
     },
     "ibaraki": {
         1: {
-            "name": "加藤明良",
-            "official": "https://katoakiyoshi.jp",
+            "name": "上月良祐",
+            "official": "https://kouzuki-r.com",
             "party": "自由民主党"
         },
         2: {
-            "name": "堂込麻紀子",
-            "official": "https://dougomi.jp",
-            "party": "無所属"
+            "name": "櫻井祥子",
+            "official": "N/A",
+            "party": "参政党"
         }
     },
     "shizuoka": {
         1: {
-            "name": "若林洋平",
-            "official": "https://yohei-wakabayashi.com",
-            "party": "自由民主党"
+            "name": "榛葉賀津也",
+            "official": "https://k-shimba.com",
+            "party": "国民民主党"
         },
         2: {
-            "name": "平山佐知子",
-            "official": "https://hirayamasachiko.net",
-            "party": "無所属"
+            "name": "牧野京夫",
+            "official": "https://makino-net.com/",
+            "party": "自由民主党"
         }
     },
     "kyoto": {
         1: {
-            "name": "吉井章",
-            "official": "https://akira-yoshii.com/",
-            "party": "自由民主党"
+            "name": "新実彰平",
+            "official": "https://niimi-shohei.org/",
+            "party": "日本維新の会"
         },
         2: {
-            "name": "福山哲郎",
-            "official": "https://www.fukuyama.gr.jp/",
-            "party": "立憲民主党"
+            "name": "西田昌司",
+            "official": "https://www.showyou.jp/",
+            "party": "自由民主党"
         }
     },
     "hiroshima": {
         1: {
-            "name": "宮沢洋一",
-            "official": "https://www.miyazawa-yoichi.com/",
+            "name": "西田英範",
+            "official": "https://www.nishitahidenori.jp/",
             "party": "自由民主党"
         },
         2: {
-            "name": "三上絵里",
-            "official": "https://mikamieri.net/",
-            "party": "無所属"
+            "name": "森本真治",
+            "official": "https://morimori.net/",
+            "party": "立憲民主党"
         }
     },
     "aomori": {
         1: {
-            "name": "田名部匡代",
-            "official": "https://masayo.gr.jp",
+            "name": "福士珠美",
+            "official": "https://fukushimasumi.jp",
             "party": "立憲民主党"
         }
     },
     "iwate": {
         1: {
-            "name": "広瀬めぐみ",
-            "official": "N/A",
-            "party": "自由民主党"
+            "name": "横澤高徳",
+            "official": "https://yokozawa-takanori.jp",
+            "party": "立憲民主党"
         }
     },
     "miyagi": {
         1: {
-            "name": "桜井充",
-            "official": "https://dr-sakurai.jp",
-            "party": "自由民主党"
+            "name": "石垣のりこ",
+            "official": "https://noriko-ishigaki.jp",
+            "party": "立憲民主党"
         }
     },
     "akita": {
         1: {
-            "name": "石井浩郎",
-            "official": "https://ishii-hiroo.jp",
-            "party": "自由民主党"
+            "name": "寺田静",
+            "official": "https://teratashizuka.com/",
+            "party": "無所属"
         }
     },
     "yamagata": {
         1: {
-            "name": "舟山康江",
-            "official": "https://www.y-funayama.jp/",
-            "party": "国民民主党"
+            "name": "芳賀道也",
+            "official": "https://hagamichiya.com",
+            "party": "無所属"
         }
     },
     "fukushima": {
         1: {
-            "name": "星北斗",
-            "official": "https://hoshi-hokuto.jp",
+            "name": "森まさこ",
+            "official": "https://morimasako.com",
             "party": "自由民主党"
         }
     },
     "tochigi": {
         1: {
-            "name": "上野通子",
-            "official": "https://ueno-michiko.org/",
+            "name": "高橋克法",
+            "official": "https://takahashi-katsunori.jp",
             "party": "自由民主党"
         }
     },
     "gunma": {
         1: {
-            "name": "中曽根弘文",
-            "official": "https://hiro-nakasone.com/",
+            "name": "清水真人",
+            "official": "https://shimizu-masato.jp",
             "party": "自由民主党"
         }
     },
     "niigata": {
         1: {
-            "name": "小林一大",
-            "official": "https://kobayashikazuhiro.com",
-            "party": "自由民主党"
+            "name": "打越さく良",
+            "official": "https://uchikoshi-sakura.jp",
+            "party": "立憲民主党"
         }
     },
     "toyama": {
         1: {
-            "name": "野上浩太郎",
-            "official": "https://kotaro.net",
-            "party": "自由民主党"
+            "name": "庭田幸恵",
+            "official": "https://niwatayukie.jp",
+            "party": "国民民主党"
         }
     },
     "ishikawa": {
         1: {
-            "name": "岡田直樹",
-            "official": "https://okada-naoki.net/",
+            "name": "宮本周司",
+            "official": "https://miyamoto-shuji.jp",
             "party": "自由民主党"
         }
     },
     "fukui": {
         1: {
-            "name": "山崎正昭",
-            "official": "https://masaaki-yamazaki.com/",
+            "name": "滝波宏文",
+            "official": "https://takinami.info",
             "party": "自由民主党"
         }
     },
     "yamanashi": {
         1: {
-            "name": "永井学",
-            "official": "https://nagai-manabu.jp",
-            "party": "自由民主党"
+            "name": "後藤斎",
+            "official": "https://go510.jp/",
+            "party": "国民民主党"
         }
     },
     "nagano": {
         1: {
-            "name": "杉尾秀哉",
-            "official": "https://sugio.club/",
+            "name": "羽田次郎",
+            "official": "https://hatajiro.com",
             "party": "立憲民主党"
         }
     },
     "gifu": {
         1: {
-            "name": "渡辺猛之",
-            "official": "https://watanabetakeyuki.jp/",
+            "name": "若井敦子",
+            "official": "https://atsuko-wakai.com",
             "party": "自由民主党"
         }
     },
     "mie": {
         1: {
-            "name": "山本佐知子",
-            "official": "https://sachiko-yamamoto.jp",
-            "party": "自由民主党"
+            "name": "小島智子",
+            "official": "https://kojima-tomoko.jp",
+            "party": "立憲民主党"
         }
     },
     "shiga": {
         1: {
-            "name": "小鑓隆史",
-            "official": "https://koyaritakashi.net",
+            "name": "宮本和宏",
+            "official": "https://miyamoto-kazuhiro.jp",
             "party": "自由民主党"
         }
     },
     "nara": {
         1: {
-            "name": "佐藤啓",
-            "official": "https://sato-kei.jp",
+            "name": "堀井巌",
+            "official": "https://horii-iwao.jp",
             "party": "自由民主党"
         }
     },
     "wakayama": {
         1: {
-            "name": "鶴保庸介",
-            "official": "https://tsuruho.com",
-            "party": "自由民主党"
+            "name": "望月良男",
+            "official": "https://mochizukiyoshio.jp",
+            "party": "無所属"
         }
     },
     "tottori_shimane": {
         1: {
-            "name": "青木一彦",
-            "official": "https://www.aokikazuhiko.jp/",
+            "name": "出川桃子",
+            "official": "https://degawa-momoko.jp",
             "party": "自由民主党"
         }
     },
     "okayama": {
         1: {
-            "name": "小野田紀美",
-            "official": "https://onodakimi.com",
+            "name": "小林孝一郎",
+            "official": "https://koichiro-k.net",
             "party": "自由民主党"
         }
     },
     "yamaguchi": {
         1: {
-            "name": "江島潔",
-            "official": "https://kiyoshi-ejima.jp/",
+            "name": "北村経夫",
+            "official": "https://kitamura-tsuneo.jp",
             "party": "自由民主党"
         }
     },
     "kagawa": {
         1: {
-            "name": "磯崎仁彦",
-            "official": "https://isozaki-yoshihiko.com",
-            "party": "自由民主党"
+            "name": "原田秀一",
+            "official": "https://harada-hidekazu.jp",
+            "party": "国民民主党"
         }
     },
     "tokushima_kochi": {
         1: {
-            "name": "中西祐介",
-            "official": "https://yusuke-nakanishi.info",
-            "party": "自由民主党"
+            "name": "広田一",
+            "official": "https://hirota1.jp",
+            "party": "無所属"
         }
     },
     "ehime": {
         1: {
-            "name": "山本順三",
-            "official": "https://yamamoto-junzo.com",
-            "party": "自由民主党"
+            "name": "永江孝子",
+            "official": "https://nagae-takako.jp",
+            "party": "無所属"
         }
     },
     "saga": {
         1: {
-            "name": "福岡資麿",
-            "official": "https://www.takamaro.jp/",
+            "name": "山下雄平",
+            "official": "https://yamashita-yuhei.jp",
             "party": "自由民主党"
         }
     },
     "nagasaki": {
         1: {
-            "name": "山本啓介",
-            "official": "https://yamamotokeisuke.jp",
+            "name": "古賀友一郎",
+            "official": "https://koga-yuichiro.jp",
             "party": "自由民主党"
         }
     },
     "kumamoto": {
         1: {
-            "name": "松村祥史",
-            "official": "https://yoshifumi.net/",
+            "name": "馬場成志",
+            "official": "https://baba-seishi.jp",
             "party": "自由民主党"
         }
     },
     "oita": {
         1: {
-            "name": "古庄玄知",
-            "official": "https://koshou.net",
-            "party": "自由民主党"
+            "name": "吉田忠智",
+            "official": "https://yoshidatadatomo.jp",
+            "party": "立憲民主党"
         }
     },
     "miyazaki": {
         1: {
-            "name": "松下新平",
-            "official": "https://shinnpei.com/",
-            "party": "自由民主党"
+            "name": "山内佳菜子",
+            "official": "https://yamakana.net",
+            "party": "立憲民主党"
         }
     },
     "kagoshima": {
         1: {
-            "name": "野村哲郎",
-            "official": "https://nomura-tetsuro.com",
-            "party": "自由民主党"
+            "name": "尾辻朋実",
+            "official": "https://otsujitomomi.com/",
+            "party": "無所属"
         }
     },
     "okinawa": {
         1: {
-            "name": "伊波洋一",
-            "official": "https://ihayoichi.jp/",
+            "name": "高良沙哉",
+            "official": "https://takara-sachika.jp/",
             "party": "無所属"
         }
     }
 }
+
+
 
 
 
@@ -532,7 +534,7 @@ def merge_district_data(district, district_num):
         bulletin_data = load_json(BULLETIN_DATA_DIR / f"{district}/{district_num}_{name_of_winner}.json")
         print(web_data)
         print(bulletin_data)
-        print("本当はoutput/manifesto/2022/san/aichi/aichi-1.json")
+        print("本当はoutput/manifesto/2025/san/aichi/aichi-1.json")
 
         print(BULLETIN_DATA_DIR / f"{district}/{district_num}_{name_of_winner}.json")
         # 【修正】公約抽出済みの選挙公報JSON（output/manifesto/tokyo/tokyo-01.json）を読み込む
@@ -545,7 +547,7 @@ def merge_district_data(district, district_num):
         # 統合先の枠組みを作成
         merged = {
             "district": web_data.get("district", ""),
-            "district_code": f"2022-san-{district}-{district_num}",
+            "district_code": f"2025-san-{district}-{district_num}",
             "candidates": []
         }
 

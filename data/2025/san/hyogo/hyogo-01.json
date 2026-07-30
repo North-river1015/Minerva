@@ -1,6 +1,6 @@
 {
   "district": "兵庫1区",
-  "district_code": "2026-shu-hyogo-1",
+  "district_code": "2025-san-hyogo-1",
   "candidates": [
     {
       "name": "泉房穂",
@@ -44,14 +44,7 @@
             "body": "「みんな違って みんないい」と言い合える社会を"
           }
         ],
-        "manifesto": [
-          {
-            "quote_text": "明石市の「子育て支援5つの無料化」などを国でも",
-            "reason": "「子育て支援5つの無料化」という具体的な制度の導入（全国展開）を指しており、制度のステータス変更（無料化）に該当するため。",
-            "title": "明石市の「子育て支援5つの無料化」の全国実施",
-            "policy_id": "policy_544"
-          }
-        ]
+        "manifesto": []
       },
       "web": {
         "manifesto": [

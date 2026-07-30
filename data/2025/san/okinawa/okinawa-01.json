@@ -1,6 +1,6 @@
 {
   "district": "沖縄1区",
-  "district_code": "2026-shu-okinawa-1",
+  "district_code": "2025-san-okinawa-1",
   "candidates": [
     {
       "name": "高良沙哉",
@@ -24,44 +24,7 @@
             "body": "多様性を認め、差別のない社会に生きるために<br>・選択的夫婦別姓・同性婚を実現"
           }
         ],
-        "manifesto": [
-          {
-            "quote_text": "消費税減税",
-            "reason": "法改正の有無によって実行されたかが客観的に判断可能。",
-            "title": "消費税減税",
-            "policy_id": "policy_188"
-          },
-          {
-            "quote_text": "保育・教育費・学校給食費無償化",
-            "reason": "制度のステータス変更であり、法改正や予算措置により客観的に検証可能。",
-            "title": "保育・教育費・学校給食費無償化",
-            "policy_id": "policy_569"
-          },
-          {
-            "quote_text": "普天間基地閉鎖撤去",
-            "reason": "基地の閉鎖・撤去という具体的なステータス変更を指しており、実施の有無が客観的に判定可能。",
-            "title": "普天間基地閉鎖撤去",
-            "policy_id": "policy_570"
-          },
-          {
-            "quote_text": "辺野古新基地断念",
-            "reason": "建設中止という明確なステータス変更であり、実施の有無が客観的に判定可能。",
-            "title": "辺野古新基地建設断念",
-            "policy_id": "policy_571"
-          },
-          {
-            "quote_text": "選択的夫婦別姓を実現",
-            "reason": "法改正の有無によって実行されたかが客観的に判断可能。",
-            "title": "選択的夫婦別姓の実現",
-            "policy_id": "policy_057"
-          },
-          {
-            "quote_text": "同性婚を実現",
-            "reason": "法改正の有無によって実行されたかが客観的に判断可能。",
-            "title": "同性婚の実現",
-            "policy_id": "policy_349"
-          }
-        ]
+        "manifesto": []
       },
       "web": {
         "manifesto": [
