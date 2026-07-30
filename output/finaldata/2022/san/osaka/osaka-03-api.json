@@ -1,0 +1,32 @@
+{
+  "district": "大阪3区",
+  "candidates": [
+    {
+      "name": "浅田均",
+      "party": "日本維新の会",
+      "manifesto": [
+        {
+          "quote_text": "緊急事態条項の新設",
+          "reason": "憲法改正という具体的な条文変更を指しており、新設されたかどうかが客観的に判定可能な断定的なコミットメントであるため。",
+          "sources": "https://toyokeizai.net/articles/photo/676947",
+          "title": "緊急事態条項の新設",
+          "policy_id": "policy_053"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "quote_text": "防衛力強化の財源確保",
+          "reason": "「強化」や「財源確保」は具体的な法改正や数値目標が示されておらず、抽象的な概念や目標に留まっており、客観的に達成されたか判断できないため。",
+          "sources": "https://toyokeizai.net/articles/photo/676947",
+          "title": "防衛力強化の財源確保"
+        },
+        {
+          "quote_text": "政治・行政改革",
+          "reason": "「改革」という言葉は対象や手法が具体性を欠いており、抽象的なスローガンに過ぎないため。",
+          "sources": "https://toyokeizai.net/articles/photo/676947",
+          "title": "政治・行政改革"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "district": "兵庫3区",
+  "district_code": "2022-san-hyogo-3",
+  "candidates": [
+    {
+      "name": "伊藤孝江",
+      "party": "公明党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "01 安心の暮らし",
+            "body": "●物価高騰による公共料金、燃油、食料品等の値上げを抑え、生活負担を軽減。企業の賃上げも支援します<br>●日米同盟の抑止力の一層の向上と防衛力の着実な整備"
+          }
+        ],
+        "manifesto": []
+      },
+      "web": {
+        "manifesto": [
+          {
+            "title": "0歳から18歳までの教育費無償化および教育予算の倍増",
+            "reason": "教育予算の倍増という数値目標および0歳から18歳までの教育費無償化という具体的な制度のステータス変更を明示しており、予算規模や無償化の範囲によって客観的な達成状況の検証が可能なため。",
+            "sources": "https://itoutakae.info/seisaku/kyouiku/",
+            "quote_text": "教育予算を倍増させ、教育費を0歳から18歳まで無料にする。",
+            "policy_id": "policy_651"
+          },
+          {
+            "title": "出産育児一時金の50万円への引き上げ",
+            "reason": "現在の42万円という数値から50万円へという明確な数値目標の変更を示しており、客観的に達成状況が判断可能なため。",
+            "sources": "https://ito-takae.com/2022/06/15/%E3%80%90%E5%8F%82%E8%AD%B0%E9%99%A2%E3%83%BB%E5%85%B5%E5%BA%AB%E3%80%80%E4%BC%8A%E8%97%A4%E3%81%9F%E3%81%8B%E3%81%88%E3%80%91%E5%AD%90%E8%82%B2%E3%81%A6%E4%BA%88%E7%AE%97%E3%81%AE%E5%80%8D%E5%A2%97/",
+            "quote_text": "出産育児一時金を現在の42万円から50万円に引き上げる",
+            "policy_id": "policy_652"
+          },
+          {
+            "title": "出産費用の実質無償化",
+            "reason": "出産費用の無償化という具体的な政策目標であり、実施の有無が客観的に判断可能であるため。",
+            "sources": "https://ito-takae.com/vision/",
+            "quote_text": "出産費用の実質無償化",
+            "policy_id": "policy_174"
+          },
+          {
+            "title": "「働く場」における女性活躍のための助成制度の創設",
+            "reason": "助成制度の創設という新規制度の設立であり、実施の有無が客観的に判断可能であるため。",
+            "sources": "https://ito-takae.com/vision/",
+            "quote_text": "助成制度の創設",
+            "policy_id": "policy_653"
+          },
+          {
+            "title": "「働く場」における女性活躍のためのガイドラインの策定",
+            "reason": "ガイドラインの策定という具体的なアクションであり、実施の有無が客観的に判断可能であるため。",
+            "sources": "https://ito-takae.com/vision/",
+            "quote_text": "ガイドラインの策定",
+            "policy_id": "policy_654"
+          },
+          {
+            "title": "養育費の子どもの権利への位置付け",
+            "reason": "養育費を法制度上の権利として確立するという制度的な変更を意味しており、関連法規の改正を通じた達成状況の検証が可能なため。",
+            "sources": "https://www.komei.or.jp/komeinews/p510534/",
+            "quote_text": "養育費を子どもの権利に位置付け、離婚後の養育費不払いによって母子家庭が貧困に陥るなどの問題を防ぎ、子どもの健全な育成を保障する。",
+            "policy_id": "policy_655"
+          },
+          {
+            "title": "教育・子育て政策における所得制限の撤廃",
+            "reason": "児童手当や各種無償化措置における所得制限の撤廃という制度の要件変更を明示しており、法令や制度通達等で客観的に実施が確認可能であるため。",
+            "sources": "https://itoutakae.info/seisaku/kyouiku/",
+            "quote_text": "教育・子育て政策における所得制限（児童手当、保育無償化、高校無償化、給付型奨学金など）を撤廃する。",
+            "policy_id": "policy_066"
+          },
+          {
+            "title": "内密出産制度の整備",
+            "reason": "内密出産という具体的な制度の導入・整備を指しており、法的整備やガイドライン制定などで実施の有無を判断できるため。",
+            "sources": "https://itoutakae.info/seisaku/",
+            "quote_text": "内密出産",
+            "policy_id": "policy_638"
+          },
+          {
+            "title": "ヤングケアラー支援制度の整備",
+            "reason": "ヤングケアラー支援という具体的な制度の導入・整備を指しており、制度制定の有無で実施の有無を判断できるため。",
+            "sources": "https://itoutakae.info/seisaku/",
+            "quote_text": "ヤングケアラー支援",
+            "policy_id": "policy_640"
+          },
+          {
+            "title": "生理政策の導入",
+            "reason": "生理政策という具体的な政策の導入を指しており、制度制定の有無で実施の有無を判断できるため。",
+            "sources": "https://itoutakae.info/seisaku/",
+            "quote_text": "生理政策",
+            "policy_id": "policy_641"
+          },
+          {
+            "title": "更年期障害対策の実施",
+            "reason": "更年期障害対策という具体的な政策の導入・整備を指しており、制度制定の有無で実施の有無を判断できるため。",
+            "sources": "https://itoutakae.info/seisaku/",
+            "quote_text": "更年期障害対策",
+            "policy_id": "policy_642"
+          },
+          {
+            "title": "孤独・孤立対策の実施",
+            "reason": "孤独・孤立対策という具体的な政策の導入・整備を指しており、制度制定の有無で実施の有無を判断できるため。",
+            "sources": "https://itoutakae.info/seisaku/",
+            "quote_text": "孤独・孤立対策",
+            "policy_id": "policy_656"
+          }
+        ],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

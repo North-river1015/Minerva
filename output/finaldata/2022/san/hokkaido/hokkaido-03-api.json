@@ -1,0 +1,42 @@
+{
+  "district": "北海道3区",
+  "candidates": [
+    {
+      "name": "船橋利実",
+      "party": "自由民主党",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "quote_text": "コロナ対策、医療、防衛",
+          "reason": "具体的な政策や制度変更が含まれておらず、単なるテーマの羅列であるため。客観的な達成判定が不可能。",
+          "sources": "https://www.funahashi-toshimitsu.jp/",
+          "title": "コロナ対策、医療、防衛"
+        },
+        {
+          "quote_text": "教育、やりがい、北方領土",
+          "reason": "具体的な政策や制度変更が含まれておらず、単なるテーマの羅列であるため。客観的な達成判定が不可能。",
+          "sources": "https://www.funahashi-toshimitsu.jp/",
+          "title": "教育、やりがい、北方領土"
+        },
+        {
+          "quote_text": "経済、農水産業、食、観光",
+          "reason": "具体的な政策や制度変更が含まれておらず、単なるテーマの羅列であるため。客観的な達成判定が不可能。",
+          "sources": "https://www.funahashi-toshimitsu.jp/",
+          "title": "経済、農水産業、食、観光"
+        },
+        {
+          "quote_text": "社会インフラ、ゼロカーボン",
+          "reason": "具体的な政策や制度変更が含まれておらず、単なるテーマの羅列であるため。客観的な達成判定が不可能。",
+          "sources": "https://www.funahashi-toshimitsu.jp/",
+          "title": "社会インフラ、ゼロカーボン"
+        },
+        {
+          "quote_text": "デジタル社会、地方創生、ゼロカーボン",
+          "reason": "具体的な政策や制度変更が含まれておらず、単なるテーマの羅列であるため。客観的な達成判定が不可能。",
+          "sources": "https://www.funahashi-toshimitsu.jp/",
+          "title": "デジタル社会、地方創生、ゼロカーボン"
+        }
+      ]
+    }
+  ]
+}

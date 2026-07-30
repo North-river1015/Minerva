@@ -1,0 +1,23 @@
+{
+  "district": "京都2区",
+  "district_code": "2022-san-kyoto-2",
+  "candidates": [
+    {
+      "name": "福山哲郎",
+      "party": "立憲民主党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "参議院議員・元内閣官房副長官 ",
+            "body": "福山哲郎"
+          }
+        ],
+        "manifesto": []
+      },
+      "web": {
+        "manifesto": [],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

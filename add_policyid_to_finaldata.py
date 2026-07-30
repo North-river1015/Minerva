@@ -19,7 +19,7 @@ api_key_openrouter = os.environ.get('OPENROUTER')
 url = os.environ.get('URL')
 
 # ファイルパスの設定
-INPUT_DIR = "output/finaldata/2025/san"
+INPUT_DIR = "output/finaldata/2022/san"
 OUTPUT_DIR = "data/"
 POLICIES_FILE = os.path.join(OUTPUT_DIR, "policies.json")
 
@@ -191,7 +191,7 @@ if __name__ == "__main__":
         "shizuoka", "aichi", "mie", "shiga", "kyoto", "osaka", "hyogo", "nara",
         "wakayama", "tottori", "shimane", "okayama", "hiroshima", "yamaguchi",
         "tokushima", "kagawa", "ehime", "kochi", "fukuoka", "saga", "nagasaki",
-        "kumamoto", "oita", "miyazaki", "kagoshima", "okinawa"
+        "kumamoto", "oita", "miyazaki", "kagoshima", "okinawa","tokushima_kochi","tottori_shimane"
     ]
 
 #gunma 3,5 まだ

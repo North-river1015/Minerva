@@ -1,0 +1,588 @@
+{
+  "district": "東京6区",
+  "candidates": [
+    {
+      "name": "山本太郎",
+      "party": "れいわ新選組",
+      "manifesto": [
+        {
+          "quote_text": "消費税の廃止、およびそれが実施されるまでをつなぎの現金給付として実施する。",
+          "reason": "消費税廃止という法改正または税率0%の実現は、法律の有無によって達成されたかを客観的に判定可能な数値・条件の変更であるため。",
+          "sources": "https://www.taro-yamamoto.jp/national-diet/16106",
+          "title": "消費税の廃止",
+          "policy_id": "policy_027"
+        },
+        {
+          "quote_text": "最低賃金を全国一律で1500円に引き上げる",
+          "reason": "最低賃金法の改正により、全国一律で1500円という具体的な数値目標に変更されたかどうかを客観的に判定可能であるため。",
+          "sources": "https://senyou.the-issues.jp/blog/reiwa-yamamoto-kinyu-seisaku-kaisetsu",
+          "title": "全国一律最低賃金1,500円の実現",
+          "policy_id": "policy_071"
+        },
+        {
+          "quote_text": "奨学金徳政令",
+          "reason": "奨学金の返済免除という制度のステータス変更を指しており、関連法改正や制度改定の有無によって客観的に判定可能なため。",
+          "sources": "https://www.data-max.co.jp/article/28951",
+          "title": "奨学金徳政令（奨学金返済免除）",
+          "policy_id": "policy_608"
+        },
+        {
+          "quote_text": "辺野古新基地建設中止",
+          "reason": "辺野古新基地の建設中止という明確なプロジェクトのステータス変更であり、中止が実行されたかどうかを第三者が客観的に観測可能であるため。",
+          "sources": "https://www.data-max.co.jp/article/28951",
+          "title": "辺野古新基地建設中止",
+          "policy_id": "policy_571"
+        },
+        {
+          "quote_text": "原発即時停止",
+          "reason": "原発の運転即時停止という明確なステータス変更であり、運転状況によって達成されたかを客観的に観測可能であるため。",
+          "sources": "https://www.data-max.co.jp/article/28951",
+          "title": "原発即時停止",
+          "policy_id": "policy_609"
+        },
+        {
+          "quote_text": "災害救助事務取扱要領に、土砂撤去や障害物除去活動の対象として、コミュニティを守るための事例（保育園、集会所、家庭菜園など11の事例）を明確に記載し、重機や燃料代などが国の災害救助費から出される体制を全国で確立する。",
+          "reason": "「災害救助事務取扱要領への記載」という運用ルールの具体的な変更であり、文面に追加されたかどうかで客観的に判定可能であるため。",
+          "sources": "https://www.taro-yamamoto.jp/national-diet/16106",
+          "title": "災害救助事務取扱要領への土砂撤去等の対象事例記載と災害救助費支出の全国確立",
+          "policy_id": "policy_610"
+        },
+        {
+          "quote_text": "個人に対して現金給付を行う。",
+          "reason": "現金給付の実施という具体的な政策アクションを示しており、予算措置や実施の有無によって客観的に検証可能であるため。",
+          "sources": "https://withnews.jp/article/f0220305000qq000000000000000W0fp10301qq000024259A",
+          "title": "個人に対する現金給付",
+          "policy_id": "policy_069"
+        },
+        {
+          "quote_text": "主権者教育の推進や、教育・大学院の無償化、奨学金制度の負担軽減など、次世代への投資に予算を配分する。",
+          "reason": "授業料の無償化という制度のステータス変更を明示しており、関連法改正の有無によって達成されたかが判断可能であるため。",
+          "sources": "https://withnews.jp/article/f0220305000qq000000000000000W0fp10301qq000024259A",
+          "title": "教育・大学院の無償化",
+          "policy_id": "policy_219"
+        },
+        {
+          "quote_text": "ガソリン税の減税。ガソリン税をゼロにするなどの措置により、国民の負担を軽減する。",
+          "reason": "ガソリン税の税率を0%にするという数値目標の変更であり、法改正の有無によって実行されたかが客観的に判断可能なため。",
+          "sources": "https://www.chosyu-journal.jp/seijikeizai/23519",
+          "title": "ガソリン税をゼロに減税",
+          "policy_id": "policy_212"
+        },
+        {
+          "quote_text": "コロナ禍における徹底した生活支援として、感染を抑え込む間は1人当たり20万円の現金給付を行う“徹底補償付きステイホーム”の実施。",
+          "reason": "「1人当たり20万円の現金給付」という数値目標が明示されており、実施の有無が客観的に判定可能であるため。",
+          "sources": "https://times.abema.tv/articles/-/10003743",
+          "title": "1人当たり20万円の現金給付の実施",
+          "policy_id": "policy_611"
+        },
+        {
+          "quote_text": "コメ不足などの食料問題に対しては、生産コストに見合う価格での国による買い上げを実施し、",
+          "reason": "国による買い上げという新規の行政実施を指しており、その実施の有無が客観的に判定可能であるため。",
+          "sources": "https://www.chosyu-journal.jp/seijikeizai/35151",
+          "title": "国による生産コストに見合う価格でのコメ買い上げ実施",
+          "policy_id": "policy_612"
+        },
+        {
+          "quote_text": "農家の所得を国が補償する仕組みを構築する。",
+          "reason": "所得補償の仕組みという新規制度の設立を指しており、制度の存否によって実施の有無を判定可能であるため。",
+          "sources": "https://www.chosyu-journal.jp/seijikeizai/35151",
+          "title": "農家の所得補償仕組みの構築",
+          "policy_id": "policy_613"
+        },
+        {
+          "quote_text": "減反政策による生産抑制を改め、",
+          "reason": "減反政策という具体的な既存政策の撤廃・変更を指しており、政策実施の有無によって客観的に判定可能であるため。",
+          "sources": "https://www.chosyu-journal.jp/seijikeizai/35151",
+          "title": "減反政策による生産抑制の撤廃",
+          "policy_id": "policy_451"
+        },
+        {
+          "quote_text": "物価高対策として、減税と給付金をセットで実施し、事業者の存続と消費者の生活維持を支援する。",
+          "reason": "減税および給付金という客観的に検証可能なアクションの実施を明示しているため。",
+          "sources": "https://www.chosyu-journal.jp/seijikeizai/35151",
+          "title": "減税と給付金のセット実施",
+          "policy_id": "policy_614"
+        },
+        {
+          "quote_text": "代替財源として、法人税の増税",
+          "reason": "法人税率という具体的な変数の変更を指しており、税制改正の有無によって客観的に検証可能なため。",
+          "sources": "https://note.com/zeehaa/n/nec75752fb3da",
+          "title": "法人税の増税",
+          "policy_id": "policy_615"
+        },
+        {
+          "quote_text": "所得税の最高税率引き上げを掲げる。",
+          "reason": "所得税の最高税率という具体的な変数の変更を指しており、税制改正の有無によって客観的に検証可能なため。",
+          "sources": "https://note.com/zeehaa/n/nec75752fb3da",
+          "title": "所得税の最高税率引き上げ",
+          "policy_id": "policy_616"
+        },
+        {
+          "quote_text": "在日米軍に関するルールである日米地位協定を改定し",
+          "reason": "「日米地位協定の改定」という条約（制度）のステータス変更を指しており、協定改定の有無によって客観的に検証可能なため。",
+          "sources": "https://note.com/zeehaa/n/nec75752fb3da",
+          "title": "日米地位協定の改定",
+          "policy_id": "policy_477"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "quote_text": "TPP（環太平洋経済連携協定）協定、PFI法、改正水道法、改正入管法、種子法廃止など「トンデモ法」の一括見直し・廃止",
+          "reason": "「一括見直し」という曖昧な手続き表現が含まれており、対象法律ごとの具体的な変数の特定が不十分であるため。また「種子法廃止」はすでに廃止済みの現状認識にあたるため。",
+          "sources": "https://www.data-max.co.jp/article/28951",
+          "title": "「トンデモ法」の一括見直し・廃止"
+        },
+        {
+          "quote_text": "政治の空白期間における、消費税増税、社会保険料の値上げ、不安定雇用の加速、グローバル企業のための行きすぎた貿易の自由化、憲法の改悪、近隣諸国に対する好戦的外交、東アジアの不安定化といった政治の暴走を食い止める。",
+          "reason": "具体的な法改正や制度変更が示されておらず、「食い止める」という抽象的な意気込み・スローガンに過ぎないため。",
+          "sources": "https://ameblo.jp/yamamototaro1124/entry-12737565187.html",
+          "title": "政治の暴走を食い止める"
+        },
+        {
+          "quote_text": "永田町の空気を読まない勢力、同調圧力に屈しない勢力を最大化し、国会で行われる茶番に対して大きな声で人々に危機を伝え、行動する。",
+          "reason": "「最大化」「行動する」は第三者が客観的に達成度を検証できず、具体的な政策アクションを伴わない意気込みであるため。",
+          "sources": "https://ameblo.jp/yamamototaro1124/entry-12737565187.html",
+          "title": "勢力の最大化と行動"
+        },
+        {
+          "quote_text": "積極財政の実現を目指す。",
+          "reason": "「目指す」という手続き・意欲表現が含まれており、断定的な政治的コミットメントではないため。",
+          "sources": "https://ameblo.jp/yamamototaro1124/entry-12737565187.html",
+          "title": "積極財政の実現を目指す"
+        },
+        {
+          "title": "消費税ゼロ",
+          "reason": "「目指す」という手続き・意欲表現が含まれており、断定的なコミットメントではないため。",
+          "sources": "https://senyou.the-issues.jp/blog/reiwa-yamamoto-kinyu-seisaku-kaisetsu",
+          "quote_text": "消費税ゼロを目指す"
+        },
+        {
+          "title": "政府による大胆な財政出動",
+          "reason": "「大胆にお金を使う」という表現は抽象的であり、具体的な予算規模や制度変更が明示されていないため。",
+          "sources": "https://senyou.the-issues.jp/blog/reiwa-yamamoto-kinyu-seisaku-kaisetsu",
+          "quote_text": "政府が大胆にお金を使って経済を回すことで、消費税に頼らない財政運営を行う"
+        },
+        {
+          "title": "武力に頼らない平和維持",
+          "reason": "「目指す」「図る」という手続き表現が含まれており、具体的な制度変更や法改正が示されていないため。",
+          "sources": "https://senyou.the-issues.jp/blog/reiwa-yamamoto-kinyu-seisaku-kaisetsu",
+          "quote_text": "武力に頼らず、外交や国際協力を通じて平和を維持することを目指す"
+        },
+        {
+          "title": "教育費の無償化等の子育て支援",
+          "reason": "「教育費の無償化」などは対象範囲が曖昧であり、具体的にどの法改正や制度変更を指すかが明確ではない。また、「充実」などの抽象的な表現も含まれているため。",
+          "sources": "https://senyou.the-issues.jp/blog/reiwa-yamamoto-kinyu-seisaku-kaisetsu",
+          "quote_text": "教育費の無償化、給付型奨学金の充実、保育料の無料化などを実施することで"
+        },
+        {
+          "title": "企業が従業員に還元する仕組みの構築",
+          "reason": "「しっかりと還元する仕組み」という対象（名詞）が抽象的であり、具体的にどの制度や法改正を操作するかが不明確であるため。",
+          "sources": "https://senyou.the-issues.jp/blog/reiwa-yamamoto-kinyu-seisaku-kaisetsu",
+          "quote_text": "企業が従業員にしっかりと還元する仕組みを作る"
+        },
+        {
+          "title": "社会の不公平・理不尽に対する改革",
+          "reason": "「改革を進める」「解消し」といった抽象的な表現であり、具体的なアクションや観測可能な変数が示されていないため。",
+          "sources": "https://senyou.the-issues.jp/blog/reiwa-yamamoto-kinyu-seisaku-kaisetsu",
+          "quote_text": "社会のあらゆる不公平や理不尽に対して改革を進める"
+        },
+        {
+          "title": "積極財政の推進と生活支援",
+          "reason": "「推進」や「底上げ」といった抽象的な目標表現であり、具体的にどの制度や変数を操作するかが明示されていないため。",
+          "sources": "https://withnews.jp/article/f0220305000qq000000000000000W0fp10301qq000024259A",
+          "quote_text": "積極財政を推進し、一人ひとりが使えるお金を増やして生活の底上げを行う。減税、給付金、家賃補助など、生活の基礎に関わる部分への支援を行う。"
+        },
+        {
+          "title": "消費税を景気調整手段として捉える",
+          "reason": "税の捉え方に関する抽象的な方針表明であり、観測可能な制度変更や法的措置を示していないため。",
+          "sources": "https://withnews.jp/article/f0220305000qq000000000000000W0fp10301qq000024259A",
+          "quote_text": "税金を財源確保の手段ではなく、景気を調整する手段として捉え、デフレ脱却と経済の活性化を図る。"
+        },
+        {
+          "title": "現金給付による景気活性化",
+          "reason": "「促す」「つなげる」など結果への意気込みや期待効果の記述であり、独立した具体的な政治的コミットメントではないため。",
+          "sources": "https://withnews.jp/article/f0220305000qq000000000000000W0fp10301qq000024259A",
+          "quote_text": "社会にお金を回すことで企業の投資を促し、賃金上昇につなげることで景気を良くする。"
+        },
+        {
+          "title": "主権者教育の推進",
+          "reason": "「推進」という手続き・意欲表現が含まれており、具体的な法改正や制度のステータス変更を示していないため。",
+          "sources": "https://withnews.jp/article/f0220305000qq000000000000000W0fp10301qq000024259A",
+          "quote_text": "主権者教育の推進や、教育・大学院の無償化、奨学金制度の負担軽減など、次世代への投資に予算を配分する。"
+        },
+        {
+          "title": "奨学金制度の負担軽減",
+          "reason": "「軽減」という言葉はあるが、給付型への移行や利率変更など、具体的にどの変数を変更するのかが不明確であり検証不能であるため。",
+          "sources": "https://withnews.jp/article/f0220305000qq000000000000000W0fp10301qq000024259A",
+          "quote_text": "主権者教育の推進や、教育・大学院の無償化、奨学金制度の負担軽減など、次世代への投資に予算を配分する。"
+        },
+        {
+          "title": "セーフティネットの構築",
+          "reason": "「構築」という言葉を用いていても、対象が抽象的な概念であり、具体的な法改正や新規制度の設立を示していないため。",
+          "sources": "https://withnews.jp/article/f0220305000qq000000000000000W0fp10301qq000024259A",
+          "quote_text": "社会の安定と個人の生活の安定を確保するためのセーフティネットを構築する。"
+        },
+        {
+          "quote_text": "徹底した専守防衛と平和的な外交の推進。核配備、核共有、敵基地攻撃能力の保有などは、国連憲章の規定や日本の国際的な立場を鑑み、実現不可能かつ危険であるとして否定し、平和外交によって国を守る。",
+          "reason": "「徹底」「推進」という動詞が含まれており、客観的な数値目標や制度の変更が示されていないため。",
+          "sources": "https://www.chosyu-journal.jp/seijikeizai/23519",
+          "title": "徹底した専守防衛と平和的な外交の推進"
+        },
+        {
+          "quote_text": "国内の経済政策による安全保障の強化。格差拡大や生活困窮を解消するため、軍備増強よりも経済力の回復を優先し、生活の安定こそが真の国防であるとする。",
+          "reason": "「強化」が含まれており、具体的な制度変更や法改正の対象が特定されていない抽象的なスローガンであるため。",
+          "sources": "https://www.chosyu-journal.jp/seijikeizai/23519",
+          "title": "国内の経済政策による安全保障の強化"
+        },
+        {
+          "quote_text": "ロシア・ウクライナ情勢における停戦合意への関与。経済制裁による長期戦は双方の国民に負担を強いるため、日本政府は一刻も早い停戦合意をカードにするという意志を持ち、独自の立ち回りで交渉の役割を果たすべきである。",
+          "reason": "「関与」「役割を果たすべき」は外交上の意欲表明であり、第三者が数字や条文で客観的に判定できる変数を伴わないため。",
+          "sources": "https://www.chosyu-journal.jp/seijikeizai/23519",
+          "title": "ロシア・ウクライナ情勢における停戦合意への関与"
+        },
+        {
+          "quote_text": "憲法改正、特に緊急事態条項の新設への反対。緊急事態条項は内閣に法律と同等の権限を与え、三権分立を形骸化させる「独裁条項」になり得るため、これを阻止する。",
+          "reason": "「反対」「阻止する」は現状維持の方針表明であり、新たな制度の導入や法改正といった断定的なコミットメントではないため。",
+          "sources": "https://www.chosyu-journal.jp/seijikeizai/23519",
+          "title": "憲法改正、特に緊急事態条項の新設への反対"
+        },
+        {
+          "quote_text": "積極財政による経済対策と実体経済の底上げ。通貨発行権を活用し、社会にお金が回る仕組みを作ることで、円安対策、デフレ脱却、中小企業支援、生活困窮者の底上げを行う。",
+          "reason": "「底上げを行う」「仕組みを作る」など曖昧な表現であり、操作する具体的な変数（予算額や法律など）が特定されていないため。",
+          "sources": "https://www.chosyu-journal.jp/seijikeizai/23519",
+          "title": "積極財政による経済対策と実体経済の底上げ"
+        },
+        {
+          "quote_text": "低賃金問題および労働環境の改善。非正規雇用の拡大や労働環境の破壊を止め、国がしっかりと底支えを行うことで、働く人々が安定して生活できる社会を構築する。",
+          "reason": "「改善」「止め」「底支え」「構築する」といった曖昧な意気込みであり、客観的な制度のステータス変更が示されていないため。",
+          "sources": "https://www.chosyu-journal.jp/seijikeizai/23519",
+          "title": "低賃金問題および労働環境の改善"
+        },
+        {
+          "quote_text": "輸入物価上昇への対策。輸入物価の上昇に対し、消費税の減税や廃止によって国民の負担を相殺する。",
+          "reason": "「対策」という抽象的な枠組みであり、具体的な制度の変更としては別項の「消費税の廃止」に包含される独立した新規公約とみなせないため。",
+          "sources": "https://www.chosyu-journal.jp/seijikeizai/23519",
+          "title": "輸入物価上昇への対策"
+        },
+        {
+          "quote_text": "脱原発および再生可能エネルギーへの移行。脱原発を推進し、グリーン・ニューディール政策（大規模な公共投資による社会・経済システムの転換、気候変動対策、雇用創出、格差是正）に取り組む。",
+          "reason": "「移行」「推進」「取り組む」という手続き・意欲表現が含まれており、廃止対象の具体的な法律名や数値目標が特定されていないため。",
+          "sources": "https://www.chosyu-journal.jp/seijikeizai/23519",
+          "title": "脱原発および再生可能エネルギーへの移行"
+        },
+        {
+          "quote_text": "徹底した財政出動。",
+          "reason": "「徹底」が含まれており、どの変数をどれだけ変更するかという具体的な数値目標や制度変更が不明であり、客観的な検証が不能であるため。",
+          "sources": "https://times.abema.tv/articles/-/10003743",
+          "title": "徹底した財政出動"
+        },
+        {
+          "quote_text": "消費税廃止の財源として、富裕層への課税および国債発行を活用する。自国通貨建て国債の発行は、国家が社会にお金を供給する行為であり、インフレ率が供給能力の範囲内である限り、社会の底上げのために活用すべきである。",
+          "reason": "富裕層への課税の具体的な税率や条件が不明であり、国債発行の活用も現状の枠組み内で具体的な変数を変更するアクションが示されていないため。",
+          "sources": "https://www.chosyu-journal.jp/seijikeizai/35151",
+          "title": "富裕層への課税および国債発行の活用"
+        },
+        {
+          "quote_text": "生産量と供給能力を拡大させ、食料安全保障を強化する。",
+          "reason": "「拡大」「強化」という目標値が不明確であり、第三者が客観的に達成の有無を判定できないため。",
+          "sources": "https://www.chosyu-journal.jp/seijikeizai/35151",
+          "title": "生産量と供給能力の拡大および食料安全保障の強化"
+        },
+        {
+          "quote_text": "子ども手当、年金、減税など、あらゆる形で国民の購買力と生活力を最大限に底上げする。",
+          "reason": "「あらゆる形」「最大限に底上げする」という曖昧な表現であり、具体的な制度変更や数値目標が特定できないため。",
+          "sources": "https://www.chosyu-journal.jp/seijikeizai/35151",
+          "title": "子ども手当や年金、減税などによる国民の購買力と生活力の底上げ"
+        },
+        {
+          "quote_text": "介護士や保育士の給料水準アップ",
+          "reason": "「水準アップ」は結果の状態を示すのみであり、どの制度をどう操作して実現するのか（予算確保や法改正の対象など）が不明で客観的な検証が不能なため。",
+          "sources": "https://www.chosyu-journal.jp/seijikeizai/24081",
+          "title": "介護士や保育士の給料水準アップ"
+        },
+        {
+          "quote_text": "エネルギー問題への対応（節電・エネルギー問題の解決）",
+          "reason": "「対応」「解決」という抽象的なスローガンであり、具体的なアクションや操作する変数が一切示されていないため。",
+          "sources": "https://www.chosyu-journal.jp/seijikeizai/24081",
+          "title": "エネルギー問題への対応"
+        },
+        {
+          "quote_text": "東アジア情勢の緊迫に備えた外交による安全保障政策",
+          "reason": "外交・安全保障政策という枠組みの表現であり、具体的な法改正や条約の締結・破棄など、客観的に達成を判定できる変数がないため。",
+          "sources": "https://www.chosyu-journal.jp/seijikeizai/24081",
+          "title": "外交による安全保障政策"
+        },
+        {
+          "quote_text": "皆保険での歯科検診導入の推進",
+          "reason": "「推進」という手続き・意欲表現が含まれており、制度の導入自体を断言するコミットメントではないため。",
+          "sources": "https://www.chosyu-journal.jp/seijikeizai/24081",
+          "title": "歯科検診導入の推進"
+        },
+        {
+          "quote_text": "コロナ後遺症患者への救済制度の構築および補償",
+          "reason": "救済制度という抽象的な概念の「構築」であり、新法の制定や予算の創設など、どの制度をどう変更するのかが具体的でないため。",
+          "sources": "https://www.chosyu-journal.jp/seijikeizai/24081",
+          "title": "コロナ後遺症患者への救済制度の構築および補償"
+        },
+        {
+          "quote_text": "国内産業保護（政府調達への農産品など一次産業の包含）",
+          "reason": "「包含」という言葉が具体的にどの法律や制度を変更するのか（義務化や割合の設定など）を示しておらず、客観的な達成判定ができないため。",
+          "sources": "https://www.chosyu-journal.jp/seijikeizai/24081",
+          "title": "国内産業保護（政府調達への一次産業の包含）"
+        },
+        {
+          "quote_text": "感染症対策と社会・経済活動の両立で、“国民の命と暮らし”を守る。",
+          "reason": "抽象的なスローガンであり、具体的な数値目標や制度の変更が含まれていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "感染症対策と社会・経済活動の両立での国民の命と暮らしを守る"
+        },
+        {
+          "quote_text": "憲法を改正し、新しい“国のかたち”を創る。",
+          "reason": "「憲法を改正し」というアクションはあるが、どの条文をどのように改正するか（変数）が特定されておらず、「新しい国のかたち」は抽象的な概念であるため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "憲法を改正し新しい国のかたちを創る"
+        },
+        {
+          "quote_text": "強力で機動的な原油高・物価高対策を進める。",
+          "reason": "「強力で機動的な」という曖昧な形容詞と「進める」という手続き表現が含まれており、具体的な制度変更や変数が不明であるため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "強力で機動的な原油高・物価高対策を進める"
+        },
+        {
+          "quote_text": "「新しい資本主義」で、“強い経済”と“豊かさを実感できる社会”を創る。",
+          "reason": "抽象的なスローガンであり、観測可能な制度変更や数値目標が含まれていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "新しい資本主義で強い経済と豊かさを実感できる社会を創る"
+        },
+        {
+          "quote_text": "人材への投資を大胆に進める。",
+          "reason": "「大胆に進める」という意欲表現であり、対象となる予算や制度の具体的な変数が特定されていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "人材への投資を大胆に進める"
+        },
+        {
+          "quote_text": "科学技術立国を実現する。",
+          "reason": "抽象的なスローガンであり、具体的な法改正や制度設計のアクションが含まれていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "科学技術立国を実現する"
+        },
+        {
+          "quote_text": "事業のスタートアップを全力で応援する。",
+          "reason": "「全力で応援する」という曖昧な意気込みであり、客観的な検証が不可能なため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "事業のスタートアップを全力で応援する"
+        },
+        {
+          "quote_text": "充実した社会保障で、安心の土台を固める。",
+          "reason": "「充実した」「固める」という抽象的な表現であり、対象となる制度や変数が特定されていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "充実した社会保障で安心の土台を固める"
+        },
+        {
+          "quote_text": "手厚い少子化対策・子育て支援を実現する。",
+          "reason": "「実現する」とあるが、具体的にどの法律を改正し、どの予算を増額するかという変数が不明であるため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "手厚い少子化対策・子育て支援を実現する"
+        },
+        {
+          "quote_text": "女性がより輝ける社会を実現する。",
+          "reason": "抽象的なスローガンであり、観測可能な制度変更が含まれていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "女性がより輝ける社会を実現する"
+        },
+        {
+          "quote_text": "「デジタル田園都市国家構想」で、“全国どこでも便利な生活”を実現する。",
+          "reason": "抽象的なスローガンであり、具体的な法改正やシステム導入のアクションが特定されていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "デジタル田園都市国家構想で全国どこでも便利な生活を実現する"
+        },
+        {
+          "quote_text": "「農林水産業」を成長産業化し、食料安全保障を確立する。",
+          "reason": "「成長産業化」「確立する」という表現は抽象的であり、具体的な制度変更や変数が特定されていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "農林水産業を成長産業化し食料安全保障を確立する"
+        },
+        {
+          "quote_text": "毅然とした外交・安全保障で、“日本”を守る。",
+          "reason": "抽象的なスローガンであり、観測可能な制度変更やアクションが含まれていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "毅然とした外交・安全保障で日本を守る"
+        },
+        {
+          "quote_text": "国際社会の平和と安定を実現する。",
+          "reason": "抽象的なスローガンであり、国内法の改正や条約の締結など具体的なアクションが含まれていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "国際社会の平和と安定を実現する"
+        },
+        {
+          "quote_text": "国防力を抜本的に強化する。",
+          "reason": "「強化する」という動詞が含まれており、具体的な予算規模や制度の変更という変数が特定されていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "国防力を抜本的に強化する"
+        },
+        {
+          "quote_text": "海上保安体制を強化し、海洋秩序を保つ。",
+          "reason": "「強化し」という動詞が含まれており、人員増加や法改正などの具体的な変数が特定されていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "海上保安体制を強化し海洋秩序を保つ"
+        },
+        {
+          "quote_text": "徹底した災害対策で、“国民の生命・財産・暮らし”を守る。",
+          "reason": "「徹底した」という表現が含まれており、行政の当然の責務の再確認にとどまり、新規公約としての変数が不明であるため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "徹底した災害対策で国民の生命・財産・暮らしを守る"
+        },
+        {
+          "quote_text": "災害対策の充実・強化を進める。",
+          "reason": "「充実」「強化」「進める」という動詞が含まれており、具体的な制度変更が特定されていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "災害対策の充実・強化を進める"
+        },
+        {
+          "quote_text": "東日本大震災からの復興を一層加速化する。",
+          "reason": "「加速化する」という曖昧な目標であり、客観的な検証が可能な変数が特定されていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "東日本大震災からの復興を一層加速化する"
+        },
+        {
+          "quote_text": "思い切ったデジタル化で、成長力を強化する。",
+          "reason": "「強化する」という動詞が含まれており、具体的なシステム導入や法改正という変数が特定されていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "思い切ったデジタル化で成長力を強化する"
+        },
+        {
+          "quote_text": "絶えず国民目線で行政のあり方を見直す。",
+          "reason": "「見直す」という動詞が含まれており、対象となる具体的な制度や変数が特定されていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "絶えず国民目線で行政のあり方を見直す"
+        },
+        {
+          "quote_text": "“脱炭素”を成長の起爆剤にする。",
+          "reason": "抽象的なスローガンであり、観測可能な制度変更が含まれていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "脱炭素を成長の起爆剤にする"
+        },
+        {
+          "quote_text": "万全かつ適切な感染症対策で、社会・経済活動を拡大する。",
+          "reason": "「万全かつ適切な」という抽象的な形容詞であり、具体的な法改正や予算の変更が特定されていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "万全かつ適切な感染症対策で社会・経済活動を拡大する"
+        },
+        {
+          "quote_text": "憲法改正に正面から挑み、時代に適した「今の憲法」へ。",
+          "reason": "「挑み」という意欲表現であり、具体的な条文の変更（変数）が特定されていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "憲法改正に正面から挑み時代に適した今の憲法へ"
+        },
+        {
+          "quote_text": "歴史と伝統に根ざした皇室制度を守り、伝える。",
+          "reason": "「守り」「伝える」という曖昧な意気込みであり、具体的な法改正や制度変更が含まれていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "歴史と伝統に根ざした皇室制度を守り伝える"
+        },
+        {
+          "quote_text": "物価高と戦う。",
+          "reason": "抽象的なスローガンであり、具体的な政策手段や変数が特定されていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "物価高と戦う"
+        },
+        {
+          "quote_text": "円安放置の金融政策の見直し。",
+          "reason": "「見直し」という動詞が含まれており、金利操作や法改正など具体的な変数が特定されていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "円安放置の金融政策の見直し"
+        },
+        {
+          "quote_text": "ガソリン・小麦高騰対策の実施。",
+          "reason": "「実施」はあるが、補助金の拡充や税制の変更など具体的な制度変更や変数が特定されていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "ガソリン・小麦高騰対策の実施"
+        },
+        {
+          "quote_text": "「給料が上がる経済」を実現。",
+          "reason": "抽象的なスローガンであり、最低賃金の引上げ額など具体的な数値目標や変数が特定されていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "給料が上がる経済を実現"
+        },
+        {
+          "quote_text": "「人への投資」倍増で給料を上げる。",
+          "reason": "「倍増」という数値目標はあるが、どの予算や制度を倍増させるのかという具体的な変数が特定されていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "人への投資倍増で給料を上げる"
+        },
+        {
+          "quote_text": "デジタル化、カーボン・ニュートラル投資の加速。",
+          "reason": "「加速」という動詞が含まれており、具体的な制度変更が特定されていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "デジタル化、カーボン・ニュートラル投資の加速"
+        },
+        {
+          "quote_text": "中小企業支援の強化。",
+          "reason": "「強化」という動詞が含まれており、融資制度の変更や税制優遇など具体的な変数が特定されていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "中小企業支援の強化"
+        },
+        {
+          "quote_text": "「積極財政」に転換。",
+          "reason": "抽象的な目標であり、具体的な予算執行ルールの変更など変数が特定されていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "積極財政に転換"
+        },
+        {
+          "quote_text": "財源の多様化。",
+          "reason": "「多様化」という動詞が含まれており、具体的な税制改革や債権発行ルールの変更が特定されていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "財源の多様化"
+        },
+        {
+          "quote_text": "経済・産業・イノベーション。",
+          "reason": "名詞の羅列であり、抽象的な概念の提示にとどまっているため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "経済・産業・イノベーション"
+        },
+        {
+          "quote_text": "野心的な産業技術開発。",
+          "reason": "名詞の羅列であり、具体的な補助金制度の新設や変数が特定されていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "野心的な産業技術開発"
+        },
+        {
+          "quote_text": "国内産業の充実。",
+          "reason": "「充実」という動詞が含まれており、具体的な法改正や制度変更が特定されていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "国内産業の充実"
+        },
+        {
+          "quote_text": "高度な技能を持つ人材の育成。",
+          "reason": "名詞の羅列であり、教育制度の変更など具体的な変数が特定されていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "高度な技能を持つ人材の育成"
+        },
+        {
+          "quote_text": "「人への投資」を抜本的に強化し、持続的な賃金上昇を実現",
+          "reason": "「強化」「実現」という動詞が含まれており、具体的な制度変更や変数が特定されていないため。",
+          "sources": "https://seijiyama.jp/article/special2/saninsen2022/party-hikaku-saninsen2022.html",
+          "title": "人への投資を抜本的に強化し持続的な賃金上昇を実現"
+        },
+        {
+          "quote_text": "国が積極的にお金を使うことで、経済を活性化させる考え方。道路建設、介護の仕事の拡充、保育所の整備などを通じて雇用を創出し、賃金上昇を目指す。",
+          "reason": "政策の「考え方」の説明であり、「目指す」という手続き・意欲表現が含まれ、具体的な変数や法改正が特定できないため。",
+          "sources": "https://note.com/zeehaa/n/nec75752fb3da",
+          "title": "積極財政による雇用創出と賃金上昇"
+        },
+        {
+          "quote_text": "金融所得への課税強化",
+          "reason": "「課税強化」が具体的にどの変数（税率や課税方式など）をどう変更するのかが不明確であり、客観的に達成度を判定できないため。",
+          "sources": "https://note.com/zeehaa/n/nec75752fb3da",
+          "title": "金融所得への課税強化"
+        },
+        {
+          "quote_text": "外交による対話と緊張緩和を重視し、軍事力に頼りすぎない安全保障の在り方を模索する。",
+          "reason": "「重視し」「模索する」という手続き・意欲表現であり、具体的な制度の変更や法的措置が含まれていないため。",
+          "sources": "https://note.com/zeehaa/n/nec75752fb3da",
+          "title": "外交による対話と緊張緩和の重視"
+        }
+      ]
+    }
+  ]
+}

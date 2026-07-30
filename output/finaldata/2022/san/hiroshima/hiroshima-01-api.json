@@ -1,0 +1,42 @@
+{
+  "district": "広島1区",
+  "candidates": [
+    {
+      "name": "宮沢洋一",
+      "party": "自由民主党",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "quote_text": "新しい資本主義の実現",
+          "reason": "抽象的なスローガンであり、具体的な政策変数、法改正、制度変更が一切示されていないため。",
+          "sources": "https://politician.cafe/politician/1394/",
+          "title": "新しい資本主義の実現"
+        },
+        {
+          "quote_text": "的確な新型コロナ対策",
+          "reason": "抽象的なスローガンであり、どのような対策を実施するのか具体的な手段や制度変更が示されていないため。",
+          "sources": "https://politician.cafe/politician/1394/",
+          "title": "的確な新型コロナ対策"
+        },
+        {
+          "quote_text": "新たな安全保障体制の構築",
+          "reason": "「体制の構築」という抽象的な概念であり、何をどう変更するか具体的でなく、達成の有無を客観的に判定できないため。",
+          "sources": "https://politician.cafe/politician/1394/",
+          "title": "新たな安全保障体制の構築"
+        },
+        {
+          "quote_text": "ふるさと広島の躍進",
+          "reason": "抽象的なスローガンであり、具体的な政策アクションや変数が一切含まれていないため。",
+          "sources": "https://politician.cafe/politician/1394/",
+          "title": "ふるさと広島の躍進"
+        },
+        {
+          "quote_text": "地域を支える中小企業の活性化",
+          "reason": "「活性化」という曖昧な目標であり、どのような制度変更や法改正によって実現するかが示されておらず、達成の有無を客観的に判定できないため。",
+          "sources": "https://politician.cafe/politician/1394/",
+          "title": "地域を支える中小企業の活性化"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "district": "兵庫3区",
+  "candidates": [
+    {
+      "name": "伊藤孝江",
+      "party": "公明党",
+      "manifesto": [
+        {
+          "title": "0歳から18歳までの教育費無償化および教育予算の倍増",
+          "reason": "教育予算の倍増という数値目標および0歳から18歳までの教育費無償化という具体的な制度のステータス変更を明示しており、予算規模や無償化の範囲によって客観的な達成状況の検証が可能なため。",
+          "sources": "https://itoutakae.info/seisaku/kyouiku/",
+          "quote_text": "教育予算を倍増させ、教育費を0歳から18歳まで無料にする。",
+          "policy_id": "policy_651"
+        },
+        {
+          "title": "出産育児一時金の50万円への引き上げ",
+          "reason": "現在の42万円という数値から50万円へという明確な数値目標の変更を示しており、客観的に達成状況が判断可能なため。",
+          "sources": "https://ito-takae.com/2022/06/15/%E3%80%90%E5%8F%82%E8%AD%B0%E9%99%A2%E3%83%BB%E5%85%B5%E5%BA%AB%E3%80%80%E4%BC%8A%E8%97%A4%E3%81%9F%E3%81%8B%E3%81%88%E3%80%91%E5%AD%90%E8%82%B2%E3%81%A6%E4%BA%88%E7%AE%97%E3%81%AE%E5%80%8D%E5%A2%97/",
+          "quote_text": "出産育児一時金を現在の42万円から50万円に引き上げる",
+          "policy_id": "policy_652"
+        },
+        {
+          "title": "出産費用の実質無償化",
+          "reason": "出産費用の無償化という具体的な政策目標であり、実施の有無が客観的に判断可能であるため。",
+          "sources": "https://ito-takae.com/vision/",
+          "quote_text": "出産費用の実質無償化",
+          "policy_id": "policy_174"
+        },
+        {
+          "title": "「働く場」における女性活躍のための助成制度の創設",
+          "reason": "助成制度の創設という新規制度の設立であり、実施の有無が客観的に判断可能であるため。",
+          "sources": "https://ito-takae.com/vision/",
+          "quote_text": "助成制度の創設",
+          "policy_id": "policy_653"
+        },
+        {
+          "title": "「働く場」における女性活躍のためのガイドラインの策定",
+          "reason": "ガイドラインの策定という具体的なアクションであり、実施の有無が客観的に判断可能であるため。",
+          "sources": "https://ito-takae.com/vision/",
+          "quote_text": "ガイドラインの策定",
+          "policy_id": "policy_654"
+        },
+        {
+          "title": "養育費の子どもの権利への位置付け",
+          "reason": "養育費を法制度上の権利として確立するという制度的な変更を意味しており、関連法規の改正を通じた達成状況の検証が可能なため。",
+          "sources": "https://www.komei.or.jp/komeinews/p510534/",
+          "quote_text": "養育費を子どもの権利に位置付け、離婚後の養育費不払いによって母子家庭が貧困に陥るなどの問題を防ぎ、子どもの健全な育成を保障する。",
+          "policy_id": "policy_655"
+        },
+        {
+          "title": "教育・子育て政策における所得制限の撤廃",
+          "reason": "児童手当や各種無償化措置における所得制限の撤廃という制度の要件変更を明示しており、法令や制度通達等で客観的に実施が確認可能であるため。",
+          "sources": "https://itoutakae.info/seisaku/kyouiku/",
+          "quote_text": "教育・子育て政策における所得制限（児童手当、保育無償化、高校無償化、給付型奨学金など）を撤廃する。",
+          "policy_id": "policy_066"
+        },
+        {
+          "title": "内密出産制度の整備",
+          "reason": "内密出産という具体的な制度の導入・整備を指しており、法的整備やガイドライン制定などで実施の有無を判断できるため。",
+          "sources": "https://itoutakae.info/seisaku/",
+          "quote_text": "内密出産",
+          "policy_id": "policy_638"
+        },
+        {
+          "title": "ヤングケアラー支援制度の整備",
+          "reason": "ヤングケアラー支援という具体的な制度の導入・整備を指しており、制度制定の有無で実施の有無を判断できるため。",
+          "sources": "https://itoutakae.info/seisaku/",
+          "quote_text": "ヤングケアラー支援",
+          "policy_id": "policy_640"
+        },
+        {
+          "title": "生理政策の導入",
+          "reason": "生理政策という具体的な政策の導入を指しており、制度制定の有無で実施の有無を判断できるため。",
+          "sources": "https://itoutakae.info/seisaku/",
+          "quote_text": "生理政策",
+          "policy_id": "policy_641"
+        },
+        {
+          "title": "更年期障害対策の実施",
+          "reason": "更年期障害対策という具体的な政策の導入・整備を指しており、制度制定の有無で実施の有無を判断できるため。",
+          "sources": "https://itoutakae.info/seisaku/",
+          "quote_text": "更年期障害対策",
+          "policy_id": "policy_642"
+        },
+        {
+          "title": "孤独・孤立対策の実施",
+          "reason": "孤独・孤立対策という具体的な政策の導入・整備を指しており、制度制定の有無で実施の有無を判断できるため。",
+          "sources": "https://itoutakae.info/seisaku/",
+          "quote_text": "孤独・孤立対策",
+          "policy_id": "policy_656"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "title": "とにかく給料があがる国に！",
+          "reason": "「給料があがる国に」という抽象的なスローガンであり、具体的な政策手段や操作する変数が示されていないため。",
+          "sources": "https://itoutakae.info/seisaku/sitepolicy/",
+          "quote_text": "とにかく給料があがる国に！"
+        },
+        {
+          "title": "内密出産",
+          "reason": "単なるキーワードの羅列であり、具体的な法改正や制度導入といった断定的な意思表明が含まれていないため。",
+          "sources": "https://itoutakae.info/seisaku/sitepolicy/",
+          "quote_text": "内密出産"
+        },
+        {
+          "title": "ヤングケアラー支援",
+          "reason": "「支援」という曖昧な意気込みであり、具体的な法改正や制度導入といった断定的な意思表明が含まれていないため。",
+          "sources": "https://itoutakae.info/seisaku/sitepolicy/",
+          "quote_text": "ヤングケアラー支援"
+        },
+        {
+          "title": "生理政策",
+          "reason": "単なるキーワードの羅列であり、具体的な法改正や制度導入といった断定的な意思表明が含まれていないため。",
+          "sources": "https://itoutakae.info/seisaku/sitepolicy/",
+          "quote_text": "生理政策"
+        },
+        {
+          "title": "更年期障害対策",
+          "reason": "「対策」という曖昧な意気込みであり、具体的な法改正や制度導入といった断定的な意思表明が含まれていないため。",
+          "sources": "https://itoutakae.info/seisaku/sitepolicy/",
+          "quote_text": "更年期障害対策"
+        },
+        {
+          "title": "孤独・孤立対策",
+          "reason": "「対策」という曖昧な意気込みであり、具体的な法改正や制度導入といった断定的な意思表明が含まれていないため。",
+          "sources": "https://itoutakae.info/seisaku/sitepolicy/",
+          "quote_text": "孤独・孤立対策"
+        },
+        {
+          "title": "超党派ママパパ議員連盟",
+          "reason": "他者のコメントの引用や団体名の羅列であり、伊藤孝江自身の政策表明とみなせないため。",
+          "sources": "https://itoutakae.info/seisaku/sitepolicy/",
+          "quote_text": "超党派ママパパ議員連盟"
+        },
+        {
+          "title": "高校3年生までの医療費無償化",
+          "reason": "「目指す」という手続き・意欲表現が含まれており、具体的な法改正等のコミットメントではないため。",
+          "sources": "https://ito-takae.com/2022/06/15/%E3%80%90%E5%8F%82%E8%AD%B0%E9%99%A2%E3%83%BB%E5%85%B5%E5%BA%AB%E3%80%80%E4%BC%8A%E8%97%A4%E3%81%9F%E3%81%8B%E3%81%88%E3%80%91%E5%AD%90%E8%82%B2%E3%81%A6%E4%BA%88%E7%AE%97%E3%81%AE%E5%80%8D%E5%A2%97/",
+          "quote_text": "高校3年生までの医療費無償化を目指します。"
+        },
+        {
+          "title": "高等教育の給付型奨学金と授業料等減免措置の対象拡大",
+          "reason": "「目指す」という手続き・意欲表現が含まれており、具体的なコミットメントではないため。",
+          "sources": "https://ito-takae.com/2022/06/15/%E3%80%90%E5%8F%82%E8%AD%B0%E9%99%A2%E3%83%BB%E5%85%B5%E5%BA%AB%E3%80%80%E4%BC%8A%E8%97%A4%E3%81%9F%E3%81%8B%E3%81%88%E3%80%91%E5%AD%90%E8%82%B2%E3%81%A6%E4%BA%88%E7%AE%97%E3%81%AE%E5%80%8D%E5%A2%97/",
+          "quote_text": "高等教育における給付型奨学金と授業料等の減免措置を、中間所得世帯まで拡充することを目指します。"
+        },
+        {
+          "title": "物価高騰対策の強化",
+          "reason": "「強化」はどの変数を変更するのか不明であり、客観的に実施の有無を判断できないため。",
+          "sources": "https://ito-takae.com/vision/",
+          "quote_text": "食料品などの物価高騰対策の強化を図るとともに"
+        },
+        {
+          "title": "「重点支援地方交付金」の拡充",
+          "reason": "「拡充」の有無は客観的に判断できず、水準も不明であるため。",
+          "sources": "https://ito-takae.com/vision/",
+          "quote_text": "「重点支援地方交付金」を拡充し"
+        },
+        {
+          "title": "価格転嫁が難しい事業者等への支援",
+          "reason": "「支援を進めます」という意欲表明であり、具体的な変数が不明であるため。",
+          "sources": "https://ito-takae.com/vision/",
+          "quote_text": "地域の実情に応じて、価格転嫁が難しい事業者等への支援を進めます"
+        },
+        {
+          "title": "災害弱者も安心できる避難生活から生活再建まで切れ目のない支援",
+          "reason": "「支援を実現します」という意欲表明であり、具体的な変数が不明であるため。",
+          "sources": "https://ito-takae.com/vision/",
+          "quote_text": "女性、高齢者や障がい者など災害弱者も安心できる避難生活から生活再建まで切れ目のない支援を実現します"
+        },
+        {
+          "title": "こどもまんなか社会の実現",
+          "reason": "「目指します」という単なる意欲表現であり、具体的な政策アクションが含まれていないため。",
+          "sources": "https://ito-takae.com/vision/",
+          "quote_text": "こどもまんなか社会の実現を目指します"
+        },
+        {
+          "title": "幼児教育・保育の質の向上",
+          "reason": "「質の向上」は抽象的な概念であり、具体的にどの変数を変更するのかが不明であるため。",
+          "sources": "https://ito-takae.com/vision/",
+          "quote_text": "幼児教育・保育の質の向上など子育て支援を進めます"
+        },
+        {
+          "title": "子どもを守り、子どもの意思を尊重する取り組みの強化",
+          "reason": "「強化」という表現は客観的な判断が難しく、具体的な変数が不明であるため。",
+          "sources": "https://ito-takae.com/vision/",
+          "quote_text": "子どもを守り、子どもの意思を尊重する取り組みを強化します"
+        },
+        {
+          "title": "持続可能で安心できる公的年金制度の確立",
+          "reason": "「取り組みます」という意欲表明であり、「確立」の具体的な基準が不明であるため。",
+          "sources": "https://ito-takae.com/vision/",
+          "quote_text": "持続可能で安心できる公的年金制度の確立...に取り組みます"
+        },
+        {
+          "title": "単身者など家族の支援が受けられない方へのサポート事業の制度化",
+          "reason": "「取り組みます」という意欲表明であり、どの事業を制度化するのかが明示されていないため。",
+          "sources": "https://ito-takae.com/vision/",
+          "quote_text": "単身者など家族の支援が受けられない方へのサポート事業の制度化などに取り組みます"
+        },
+        {
+          "title": "「平和創出ビジョン」の取り組みの推進",
+          "reason": "「推進」という手続き表現であり、具体的な政策アクションが含まれていないため。",
+          "sources": "https://ito-takae.com/vision/",
+          "quote_text": "公明党が策定した「平和創出ビジョン」の取り組みを推進していきます"
+        },
+        {
+          "title": "道路ネットワーク構築の促進",
+          "reason": "「促進」という手続き表現であり、特定地域への利益誘導に該当する可能性があるため。",
+          "sources": "https://ito-takae.com/vision/",
+          "quote_text": "道路ネットワーク構築の促進などインフラ整備"
+        },
+        {
+          "title": "神戸港・姫路港などの国際競争力向上",
+          "reason": "「向上」は抽象的な目標であり、特定地域への利益誘導に該当するため。",
+          "sources": "https://ito-takae.com/vision/",
+          "quote_text": "神戸港・姫路港などの国際競争力向上"
+        },
+        {
+          "title": "伊丹・神戸など空港の更なる活用",
+          "reason": "特定地域（空港）への利益誘導に該当し、具体的な政策アクションが不明であるため。",
+          "sources": "https://ito-takae.com/vision/",
+          "quote_text": "伊丹・神戸など空港の更なる活用"
+        },
+        {
+          "title": "温泉、食、世界・日本遺産など兵庫の誇る観光資源を活かした観光施策の充実",
+          "reason": "「充実を目指します」という意欲表明であり、特定地域への利益誘導に該当するため。",
+          "sources": "https://ito-takae.com/vision/",
+          "quote_text": "温泉、食、世界・日本遺産など兵庫の誇る観光資源を活かして、観光施策の充実を目指します"
+        },
+        {
+          "title": "ひょうご五国の特徴ある農林水産業の維持・活性化",
+          "reason": "「維持・活性化」は抽象的な目標であり、特定地域への利益誘導に該当するため。",
+          "sources": "https://ito-takae.com/vision/",
+          "quote_text": "ひょうご五国の特徴ある農林水産業の維持・活性化や"
+        },
+        {
+          "title": "県産農林水産物のブランド化",
+          "reason": "「進め」という手続き表現であり、特定地域への利益誘導に該当するため。",
+          "sources": "https://ito-takae.com/vision/",
+          "quote_text": "県産農林水産物のブランド化などを進め"
+        },
+        {
+          "title": "担い手の支援と生活者の健康で豊かな暮らしの充実",
+          "reason": "「目指します」という意欲表明であり、具体的な政策アクションが含まれていないため。",
+          "sources": "https://ito-takae.com/vision/",
+          "quote_text": "担い手の支援と、生活者の健康で豊かな暮らしの充実を目指します"
+        },
+        {
+          "title": "女性の少ない業種・職種における職場環境の改善の促進",
+          "reason": "「促進」という手続き表現であり、具体的な変数が不明であるため。",
+          "sources": "https://ito-takae.com/vision/",
+          "quote_text": "女性の少ない業種・職種における職場環境の改善を促進できるよう"
+        },
+        {
+          "title": "不登校の児童生徒や障がい児への学びの支援",
+          "reason": "「支援」は具体的なアクションが不明であり、「目指します」という意欲表明であるため。",
+          "sources": "https://ito-takae.com/vision/",
+          "quote_text": "不登校の児童生徒や障がい児への学びの支援をはじめ、一人ひとりに光を当てた公教育の再生を目指します"
+        },
+        {
+          "title": "一人ひとりに光を当てた公教育の再生",
+          "reason": "「再生を目指します」という意欲表明であり、抽象的なスローガンに該当するため。",
+          "sources": "https://ito-takae.com/vision/",
+          "quote_text": "不登校の児童生徒や障がい児への学びの支援をはじめ、一人ひとりに光を当てた公教育の再生を目指します"
+        },
+        {
+          "title": "スマホの不適切な利用",
+          "reason": "文章が途切れており、具体的な政策アクションが不明であるため。",
+          "sources": "https://ito-takae.com/vision/",
+          "quote_text": "スマホの不適切な利用"
+        },
+        {
+          "title": "少子化対策の拡充",
+          "reason": "「拡充」「不安を解消」「政策を展開する」といった曖昧な表現であり、どの変数をどのように変更するかが具体的に示されていないため。",
+          "sources": "https://itoutakae.info/seisaku/kosodate/",
+          "quote_text": "少子化対策の拡充：不妊治療の保険適用に加え、お金、仕事との両立、ワンオペ育児などの不安を解消し、子育ての安心やワクワクを増やす政策を展開する。"
+        },
+        {
+          "title": "家計支援",
+          "reason": "「給料が上がる経済を実現し」「徹底的に家計を温める」という抽象的なスローガンであり、具体的な制度変更や数値目標が存在しないため。",
+          "sources": "https://itoutakae.info/seisaku/kosodate/",
+          "quote_text": "家計支援：給料が上がる経済を実現し、徹底的に家計を温める。"
+        },
+        {
+          "title": "内密出産への対応",
+          "reason": "「対応」という言葉のみであり、具体的にどのような法改正や制度変更を行うかが示されていないため。",
+          "sources": "https://itoutakae.info/seisaku/kosodate/",
+          "quote_text": "内密出産への対応"
+        },
+        {
+          "title": "ヤングケアラー支援",
+          "reason": "「支援」という言葉のみであり、具体的にどのような法改正や制度変更を行うかが示されていないため。",
+          "sources": "https://itoutakae.info/seisaku/kosodate/",
+          "quote_text": "ヤングケアラー支援"
+        },
+        {
+          "title": "生理政策",
+          "reason": "具体的な政策内容が示されておらず、どのような制度変更や法改正を行うかが不明なため。",
+          "sources": "https://itoutakae.info/seisaku/kosodate/",
+          "quote_text": "生理政策"
+        },
+        {
+          "title": "更年期障害対策",
+          "reason": "「対策」という言葉のみであり、具体的にどのような法改正や制度変更を行うかが示されていないため。",
+          "sources": "https://itoutakae.info/seisaku/kosodate/",
+          "quote_text": "更年期障害対策"
+        },
+        {
+          "title": "孤独・孤立対策",
+          "reason": "「支援を行う」という曖昧な意気込みであり、具体的にどのような法改正や制度変更を行うかが示されていないため。",
+          "sources": "https://itoutakae.info/seisaku/kosodate/",
+          "quote_text": "孤独・孤立対策：孤独な育児（孤育）を含め、社会全体で子どもの学びや育ちを守る支援を行う。"
+        },
+        {
+          "title": "給料が上がる国へ",
+          "reason": "「とにかく給料があがる国に！」という抽象的なスローガンであり、具体的にどの制度をどう変更するかが示されていないため。",
+          "sources": "https://itoutakae.info/seisaku/",
+          "quote_text": "とにかく給料があがる国に！徹底的に家計を温めます"
+        },
+        {
+          "title": "内密出産、ヤングケアラー支援、生理政策、更年期障害対策、孤独・孤立対策の推進",
+          "reason": "「推進」という手続き・意欲表現が含まれており、具体的なアクションや制度変更が明示されていないため。",
+          "sources": "https://itoutakae.info/seisaku/kyouiku/",
+          "quote_text": "内密出産、ヤングケアラー支援、生理政策、更年期障害対策、孤独・孤立対策の推進。"
+        },
+        {
+          "title": "所得制限を撤廃し、どんな世帯でも子育てを全力応援する",
+          "reason": "前文で既に公約として抽出済みの所得制限撤廃の繰り返しであり、「全力応援する」という抽象的な意気込みであるため。",
+          "sources": "https://itoutakae.info/seisaku/kyouiku/",
+          "quote_text": "所得制限を撤廃し、どんな世帯でも子育てを全力応援する。"
+        },
+        {
+          "title": "徹底的に家計を温め、とにかく給料があがる経済の実現",
+          "reason": "「徹底的に」「とにかく」という曖昧な表現であり、具体的な政策や操作する変数が示されていないため。",
+          "sources": "https://itoutakae.info/seisaku/kyouiku/",
+          "quote_text": "徹底的に家計を温め、とにかく給料があがる経済を実現する。"
+        },
+        {
+          "title": "",
+          "reason": "",
+          "sources": "https://note.com/polipoli_info/n/n37095d6d49d7",
+          "quote_text": ""
+        }
+      ]
+    }
+  ]
+}

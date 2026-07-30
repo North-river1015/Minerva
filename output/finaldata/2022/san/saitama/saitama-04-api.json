@@ -1,0 +1,313 @@
+{
+  "district": "埼玉4区",
+  "candidates": [
+    {
+      "name": "高木真理",
+      "party": "立憲民主党",
+      "manifesto": [
+        {
+          "title": "公的家賃補助制度の創設",
+          "reason": "新たな制度を「創設」すると明言しており、制度の存否によって実施の有無が客観的に判定可能であるため。",
+          "sources": "https://marit.main.jp/",
+          "quote_text": "「住まい」を支える公的家賃補助制度の創設。"
+        },
+        {
+          "title": "小中学校の給食費無償化",
+          "reason": "「無償化」という具体的な制度変更であり、実施の有無が明確に判定可能であるため。",
+          "sources": "https://marit.main.jp/",
+          "quote_text": "小中学校の給食費無償化"
+        },
+        {
+          "title": "選択的夫婦別姓の実現",
+          "reason": "法改正を伴う制度の変更であり、実施の有無が明確に判定可能であるため。",
+          "sources": "https://marit.main.jp/",
+          "quote_text": "選択的夫婦別姓の実現"
+        },
+        {
+          "title": "クオータ制の導入",
+          "reason": "「導入」という具体的な制度設立を指しており、法的な要件の有無によって実施されたか客観的に判定可能なため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "クオータ制の導入"
+        },
+        {
+          "title": "選択的夫婦別姓制度への賛成",
+          "reason": "民法等の改正という具体的かつ観測可能な法制度のステータス変更に対する断定的なコミットメントであるため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "選択的夫婦別姓制度...のすべてに賛成。"
+        },
+        {
+          "title": "女性差別撤廃条約選択議定書の批准",
+          "reason": "条約の批准という国際的な法的拘束力の発生という明確なステータス変更を指しているため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "女性差別撤廃条約選択議定書の批准...のすべてに賛成。"
+        },
+        {
+          "title": "強制性交等罪における暴行脅迫要件の撤廃",
+          "reason": "刑法における構成要件の撤廃という具体的な法改正であり、条文の有無によって客観的に検証可能なため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "強制性交等罪における暴行脅迫要件の撤廃...のすべてに賛成。"
+        },
+        {
+          "title": "人工妊娠中絶における配偶者同意の廃止",
+          "reason": "母体保護法における配偶者同意要件の廃止という明確な法改正であり、条文変更によって検証可能なため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "人工妊娠中絶における配偶者同意の廃止...のすべてに賛成。"
+        },
+        {
+          "title": "学習指導要領の改定（中学校性教育で性交について扱えるようにすること）",
+          "reason": "学習指導要領の改定という公教育制度の明確なステータス変更を指しており、改訂版の有無で客観的に判断できるため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "学習指導要領の改定（中学校性教育で性交について扱えるようにすること）...のすべてに賛成。"
+        },
+        {
+          "title": "同性婚を法律で認めること",
+          "reason": "法律による婚姻制度の対象拡大という明確な制度のステータス変更であり、法改正の有無で検証可能なため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "同性婚を法律で認めることのすべてに賛成。"
+        },
+        {
+          "title": "児童扶養手当の対象拡大と増額",
+          "reason": "手当の支給要件（対象拡大）と支給額（増額）という具体的な数値・条件の変更を指しており、法改正や予算措置で客観的に判断可能なため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "児童扶養手当の対象拡大と増額...のすべてに賛成。"
+        },
+        {
+          "title": "大学生への生活保護費受給拡大",
+          "reason": "生活保護法における受給要件の拡大という制度の条件変更を指しており、法改正や運用基準の改定で検証可能なため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "大学生への生活保護費受給拡大...のすべてに賛成。"
+        },
+        {
+          "title": "公的な児童養護施設の入所年齢の延長",
+          "reason": "入所年齢という明確な数値基準の変更を指しており、制度変更の有無で客観的に判定可能なため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "公的な児童養護施設の入所年齢の延長のすべてに賛成。"
+        },
+        {
+          "title": "最低賃金の平均1500円（時給）への引き上げ",
+          "reason": "「平均1500円」という明確な数値目標の設定を指しており、最低賃金法に基づく金額の改定により客観的に検証可能なため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "最低賃金の平均1500円（時給）への引き上げ。"
+        },
+        {
+          "title": "男性の育児休業取得率・期間の開示義務づけ",
+          "reason": "企業に対する情報開示の「義務づけ」という法的な制度ステータスの変更を指しており、法改正の有無で判定可能なため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "男性の育児休業取得率・期間の開示義務づけ"
+        },
+        {
+          "title": "出産費用の無償化",
+          "reason": "出産費用の公費負担（無償化）という条件の変更を指しており、制度の導入有無で客観的に判断可能なため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "出産費用の無償化"
+        },
+        {
+          "title": "学校給食の無償化",
+          "reason": "学校給食費の公費負担（無償化）という条件の変更を指しており、制度の導入有無で客観的に判断可能なため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "学校給食の無償化"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "quote_text": "教育費の無償化、人への投資、教育への投資を強化し、将来に向けて種をまき育てる政策に取り組む。",
+          "reason": "「強化」「取り組む」という曖昧な意欲表現や動詞が含まれており、対象も抽象的な概念であるため客観的な検証が不可能。",
+          "sources": "https://cdp-japan.jp/news/20220605_3792",
+          "title": "教育費の無償化・教育投資の強化"
+        },
+        {
+          "quote_text": "最低賃金を1500円まで引き上げることを目指し、経営者への支援を通じて賃金上昇を促す。",
+          "reason": "「目指す」「促す」という手続き・意欲表現が含まれており、断定的なコミットメントが存在しないため。",
+          "sources": "https://cdp-japan.jp/news/20220605_3792",
+          "title": "最低賃金の1500円への引き上げを目指す"
+        },
+        {
+          "quote_text": "教育費や介護の自己負担を減らし、生活コストを下げることで、暮らしを底支えする。",
+          "reason": "「減らす」「下げる」といってもどの法律を改正し、どの変数を操作するのかが不明であり、第三者が客観的に達成度を判定できないため。",
+          "sources": "https://cdp-japan.jp/news/20220605_3792",
+          "title": "教育費・介護の自己負担減少"
+        },
+        {
+          "quote_text": "障がい者だけでなく、すべての人々の安全を守るために、公共交通のバリアフリー化を強化する。",
+          "reason": "「強化」という動詞が含まれており、どの程度達成されたか客観的な基準（数字や条文の有無）で判定できないため。",
+          "sources": "https://cdp-japan.jp/news/20220605_3792",
+          "title": "公共交通のバリアフリー化の強化"
+        },
+        {
+          "title": "ベーシックサービスの質・量の充実、職員の待遇改善",
+          "reason": "「充実」「改善」の基準が不明確であり、客観的に達成されたか判断できないため。",
+          "sources": "https://marit.main.jp/",
+          "quote_text": "介護、医療、保育、放課後児童クラブ、障害福祉サービスなどのベーシックサービスの質・量の充実、従事する職員の待遇改善。"
+        },
+        {
+          "title": "ワークライフバランスの実現",
+          "reason": "抽象的なスローガンであり、具体的な制度変更や数値目標が示されていないため。",
+          "sources": "https://marit.main.jp/",
+          "quote_text": "誰もが必要に応じて育児休業や介護休業が取得でき、長時間労働が規制されるワークライフバランスの実現。"
+        },
+        {
+          "title": "教育分野への投資の大幅拡大",
+          "reason": "「大幅拡大」の具体的な数値目標が示されておらず、客観的に達成されたか判断できないため。",
+          "sources": "https://marit.main.jp/",
+          "quote_text": "教育分野への投資の大幅拡大"
+        },
+        {
+          "title": "子どもを産んでみたいと思える環境の整備",
+          "reason": "抽象的なスローガンであり、具体的な制度変更や数値目標が示されていないため。",
+          "sources": "https://marit.main.jp/",
+          "quote_text": "子どもを産んでみたいと思える環境の整備。"
+        },
+        {
+          "title": "脱炭素社会に向けた自然エネルギーや省エネ技術への投資拡大",
+          "reason": "「投資拡大」の具体的な数値目標が示されておらず、客観的に達成されたか判断できないため。",
+          "sources": "https://marit.main.jp/",
+          "quote_text": "脱炭素社会に向けた自然エネルギーや省エネ技術への投資拡大。"
+        },
+        {
+          "title": "次代を担う技術を創造する企業・研究機関、大学等の支援",
+          "reason": "「支援」の具体的な内容や数値目標が示されておらず、客観的に達成されたか判断できないため。",
+          "sources": "https://marit.main.jp/",
+          "quote_text": "次代を担う技術を創造する企業・研究機関、大学等の支援。"
+        },
+        {
+          "title": "中小企業の生産性向上に向けた取組みの支援",
+          "reason": "「支援」の具体的な内容や数値目標が示されておらず、客観的に達成されたか判断できないため。",
+          "sources": "https://marit.main.jp/",
+          "quote_text": "中小企業の生産性向上に向けた取組みの支援。"
+        },
+        {
+          "title": "地方自治体の政策自由度を高める財源配分の変更",
+          "reason": "「変更」はあるものの、どの制度をどう変更するか具体的な変数が不明確であり、達成されたか判断できないため。",
+          "sources": "https://marit.main.jp/",
+          "quote_text": "地方自治体の政策自由度を高める財源配分の変更。"
+        },
+        {
+          "title": "地域のニーズに基づく新たな取り組みの足かせになる国の規制の緩和",
+          "reason": "「規制の緩和」の具体的な対象や手続きが示されておらず、達成されたか判断できないため。",
+          "sources": "https://marit.main.jp/",
+          "quote_text": "地域のニーズに基づく新たな取り組みの足かせになる国の規制の緩和。"
+        },
+        {
+          "title": "埼玉県の医師不足、看護師不足、病床不足の解消",
+          "reason": "特定地域への利益誘導であり、また「解消」という具体的な数値目標や制度変更が示されていないため。",
+          "sources": "https://marit.main.jp/",
+          "quote_text": "埼玉県の医師不足、看護師不足、病床不足の解消。"
+        },
+        {
+          "title": "男女間賃金格差是正、LGBT差別解消",
+          "reason": "「是正」「解消」の具体的な手段や制度変更が示されておらず、達成されたか判断できないため。",
+          "sources": "https://marit.main.jp/",
+          "quote_text": "ジェンダー平等（男女間賃金格差是正、LGBT差別解消、選択的夫婦別姓の実現）。"
+        },
+        {
+          "title": "障害があっても、その人が望む暮らしができる社会に",
+          "reason": "抽象的なスローガンであり、具体的な制度変更や数値目標が示されていないため。",
+          "sources": "https://marit.main.jp/",
+          "quote_text": "障害があっても、その人が望む暮らしができる社会に。"
+        },
+        {
+          "title": "不平等が顕在化しない災害対策の点検",
+          "reason": "「点検」は単なる手続きであり、達成されたかを客観的に判断できないため。",
+          "sources": "https://marit.main.jp/",
+          "quote_text": "不平等が顕在化しない災害対策の点検。"
+        },
+        {
+          "title": "異次元緩和といった金融政策や財政出動に依存しない経済の構築",
+          "reason": "「構築」の対象が「経済」という抽象的な概念であり、具体的な制度変更が示されていないため。",
+          "sources": "https://marit.main.jp/",
+          "quote_text": "常態化している異次元緩和といった金融政策や財政出動に依存しない経済の構築。"
+        },
+        {
+          "title": "DXを進め、常に費用対効果を念頭に置き、事業の検証サイクルの実施",
+          "reason": "「進め」「実施」の具体的な内容や対象が抽象的であり、達成されたか判断できないため。",
+          "sources": "https://marit.main.jp/",
+          "quote_text": "DXを進め、常に費用対効果を念頭に置き、事業の検証サイクルの実施。"
+        },
+        {
+          "title": "大学生への給付型奨学金の大幅拡充",
+          "reason": "「大幅拡充」の具体的な数値目標が示されておらず、客観的に達成されたか判断できないため。",
+          "sources": "https://marit.main.jp/",
+          "quote_text": "大学生への給付型奨学金の大幅拡充"
+        },
+        {
+          "title": "男女の賃金格差を埋めること",
+          "reason": "「格差を埋める」という目標であり、どのような法制度や数値を操作して達成するかの変数が特定できず、客観的な検証が不可能なため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "男女の賃金格差を埋めること。"
+        },
+        {
+          "title": "養育費の確実な支払いの確保",
+          "reason": "「確保」という言葉は抽象的であり、どのような法制度を導入・改正するかが明示されていないため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "養育費の確実な支払いの確保...のすべてに賛成。"
+        },
+        {
+          "title": "女性や弱い立場の人々の現場の声をしっかり聞き政策にすること",
+          "reason": "「声を聞き政策にする」という意欲表現・手続き表現であり、具体的な制度変更や数値目標を伴わないため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "女性や弱い立場の人々の現場の声をしっかり聞き政策にすること。"
+        },
+        {
+          "title": "男女を問わず、非正規を減らすよう転換すべき",
+          "reason": "「減らす」「転換すべき」という曖昧な意気込みであり、具体的な変数や制度変更が特定できないため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "男女を問わず、非正規を減らすよう転換すべき。"
+        },
+        {
+          "title": "多様な世帯のあり方に対応する制度の構築",
+          "reason": "「制度の構築」という言葉が使われているが、対象が「多様な世帯のあり方に対応する」という抽象的な概念であり、具体的な法改正や新制度設立の有無が検証不能なため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "多様な世帯のあり方に対応する制度の構築。"
+        },
+        {
+          "title": "保育の質の向上",
+          "reason": "「質の向上」は主観的かつ定量的な基準がなく、何をもって向上としたか客観的に判断できないため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "保育の質の向上"
+        },
+        {
+          "title": "大学の学費値下げ",
+          "reason": "「値下げ」という目標は掲げられているが、授業料減免の拡大なのか国立大学の授業金減額なのか、具体的に操作する変数が不明なため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "大学の学費値下げ"
+        },
+        {
+          "title": "国民の所得の底上げ",
+          "reason": "「底上げ」という抽象的なスローガンであり、具体的な政策変数が全く特定できないため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "国民の所得の底上げ。"
+        },
+        {
+          "title": "すべての女性が輝き活躍できる社会を目指すという社会全体の機運を醸成すること",
+          "reason": "「社会を目指す」「機運を醸成する」という抽象的なスローガンおよび意欲表現であり、具体的な制度変更を伴わないため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "すべての女性が輝き活躍できる社会を目指すという社会全体の機運を醸成すること。"
+        },
+        {
+          "title": "クォーター制について議論を進め、政治参画における女性の参画を推進する",
+          "reason": "「議論を進め」「推進する」という手続き・意欲表現が含まれており、制度の導入などの断定的なコミットメントではないため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "クォーター制について議論を進め、政治参画における女性の参画を推進する。"
+        },
+        {
+          "title": "同性婚については反対",
+          "reason": "「反対」という意思表明は現状維持の姿勢を示すものであり、新たな制度の導入や法改正という具体的な政治的アクション（新規公約）ではないため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "同性婚については反対。"
+        },
+        {
+          "title": "企業における女性活躍の状況や男女間の賃金格差の実態の見える化",
+          "reason": "「見える化」という言葉は抽象的であり、開示義務化などの法的拘束力を伴う制度変更かどうかが不明で、客観的な検証が不能なため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "企業における女性活躍の状況や男女間の賃金格差の実態の見える化。"
+        },
+        {
+          "title": "被災者一人ひとりの状況",
+          "reason": "文脈が切れており、具体的な政策方針やアクションの表明として成立していないため。",
+          "sources": "https://genderequalitysaitama.jimdofree.com/open-letter2022sangiin-election/",
+          "quote_text": "被災者一人ひとりの状況"
+        }
+      ]
+    }
+  ]
+}

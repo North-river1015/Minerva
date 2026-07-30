@@ -1,0 +1,42 @@
+{
+  "district": "None1区",
+  "candidates": [
+    {
+      "name": "中西祐介",
+      "party": "自由民主党",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "title": "合区解消へ抜本改革・憲法改正議論加速化",
+          "reason": "「議論加速化」は手続き・意欲表現であり、具体的な法改正のコミットメントではない。",
+          "sources": "https://yusuke-nakanishi.info/",
+          "quote_text": "日本の力は地域から！合区解消へ抜本改革・憲法改正議論加速化"
+        },
+        {
+          "title": "南海トラフ大災害対策・事前防災減災対策の強力な推進",
+          "reason": "「強力な推進」という手続き・意欲表現であり、具体的な制度変更や予算確保のコミットメントではない。",
+          "sources": "https://yusuke-nakanishi.info/",
+          "quote_text": "万全な南海トラフ大災害対策・事前防災減災対策の強力な推進"
+        },
+        {
+          "title": "金融力・産業力で地方から全ての産業振興",
+          "reason": "「産業振興」という抽象的なスローガンであり、具体的な政策手段が示されていない。",
+          "sources": "https://yusuke-nakanishi.info/",
+          "quote_text": "金融力・産業力で地方から全ての産業振興を！"
+        },
+        {
+          "title": "全世代型社会保障の制度充実",
+          "reason": "「制度充実」という抽象的な表現であり、具体的にどの変数を変更するのかが不明。",
+          "sources": "https://yusuke-nakanishi.info/",
+          "quote_text": "全世代型社会保障の制度充実"
+        },
+        {
+          "title": "Society5.0新時代の社会像・経済・生活を切り拓く",
+          "reason": "「切り拓く」という曖昧な意気込み・スローガンであり、具体的な政策アクションが示されていない。",
+          "sources": "https://yusuke-nakanishi.info/",
+          "quote_text": "Society5.0新時代の社会像・経済・生活を切り拓く！"
+        }
+      ]
+    }
+  ]
+}

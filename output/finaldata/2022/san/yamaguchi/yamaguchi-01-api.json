@@ -1,0 +1,36 @@
+{
+  "district": "山口1区",
+  "candidates": [
+    {
+      "name": "江島潔",
+      "party": "自由民主党",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "title": "科学技術立国の推進",
+          "reason": "「推進」という手続き・意欲表現が含まれており、具体的な制度変更や数値目標が示されていないため。",
+          "sources": "https://www.jimin.jp/election/results/sen_san26/candidate/120928.html",
+          "quote_text": "「科学技術立国」を推進する。"
+        },
+        {
+          "title": "地方創生の推進と農林水産業や観光業の振興への取り組み",
+          "reason": "「推進」「振興に取り組む」という意欲表現であり、具体的なアクションや変数が特定されていないため。",
+          "sources": "https://www.jimin.jp/election/results/sen_san26/candidate/120928.html",
+          "quote_text": "「地方創生」の推進と農林水産業や観光業の振興に取り組む。"
+        },
+        {
+          "title": "コロナ禍からの経済復活と中小企業・小規模事業者の支援",
+          "reason": "「経済の立て直し」「挑戦を支援する」という抽象的な目標・意欲表現であり、具体的な施策や変数が示されていないため。",
+          "sources": "https://www.jimin.jp/election/results/sen_san26/candidate/120928.html",
+          "quote_text": "「コロナ禍からの経済の復活」経済の立て直しと中小企業・小規模事業者の挑戦を支援する。"
+        },
+        {
+          "title": "安全保障体制の強化",
+          "reason": "「強化」が含まれており、具体的な制度変更や数値目標が示されていないため。",
+          "sources": "https://www.jimin.jp/election/results/sen_san26/candidate/120928.html",
+          "quote_text": "「安全保障体制の強化」を図る。"
+        }
+      ]
+    }
+  ]
+}

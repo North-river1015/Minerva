@@ -1,0 +1,362 @@
+{
+  "district": "奈良1区",
+  "candidates": [
+    {
+      "name": "佐藤啓",
+      "party": "自由民主党",
+      "manifesto": [
+        {
+          "title": "労働安全衛生法に基づく健康診断の項目変更",
+          "reason": "法律改正や指針変更という客観的な確認が可能な制度のステータス変更であり、月経困難症等の項目追加の有無で判断可能であるため。",
+          "sources": "https://say-g.com/interview-social-security-6618",
+          "quote_text": "労働安全衛生法に基づく健康診断の項目を変更し、月経困難症や更年期などの女性特有の健康課題を把握できるようにする。",
+          "policy_id": "policy_657"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "title": "「攻めの予防医療」の推進と健康寿命の延伸",
+          "reason": "「推進」「図り」「目指す」といった意欲表現や手続き表現が含まれており、具体的な法改正や数値目標が存在しないため。",
+          "sources": "https://sato-kei.jp/blog/2271",
+          "quote_text": "「攻めの予防医療」を進め、病気の予防と健康づくりに取り組むことで、健康寿命の延伸を図り、全ての国民が元気に活躍できる社会を目指します。"
+        },
+        {
+          "title": "社会保障制度を含めた社会の支え手となることの推進",
+          "reason": "「推進します」という手続き・意欲表現であり、客観的に達成度が測れる具体的な制度変更や変数が示されていないため。",
+          "sources": "https://sato-kei.jp/blog/2271",
+          "quote_text": null
+        },
+        {
+          "title": "「明るい社会保障改革」の推進",
+          "reason": "「推進」という手続き・意欲表現であり、具体的な法改正や数値目標が存在しないため。",
+          "sources": "https://say-g.com/interview-social-security-6618",
+          "quote_text": "病気の予防と健康づくりに力を入れる「明るい社会保障改革」の推進。個人の健康、持続可能な社会保障、ヘルスケア分野のイノベーション促進の三方よしを目指す。"
+        },
+        {
+          "title": "女性の健康増進に向けた政策パッケージの推進",
+          "reason": "「推進」という手続き・意欲表現であり、具体的な法改正や数値目標が存在しないため。",
+          "sources": "https://say-g.com/interview-social-security-6618",
+          "quote_text": "女性の健康増進に向けた政策パッケージの推進。"
+        },
+        {
+          "title": "女性の健康に特化したナショナルセンターの創設",
+          "reason": "「創設を推進する」という意欲表現であり、新規制度設立に対する具体的な法改正等のコミットメントではないため。",
+          "sources": "https://say-g.com/interview-social-security-6618",
+          "quote_text": "研究機能だけでなく臨床機能も備えた、女性の健康に特化したナショナルセンターの創設を推進する。"
+        },
+        {
+          "title": "栄養政策の推進",
+          "reason": "「推進」「取り組む」という手続き・意欲表現であり、具体的な法改正や数値目標が存在しないため。",
+          "sources": "https://say-g.com/interview-social-security-6618",
+          "quote_text": "栄養政策の推進。特に、子どもの貧困等による栄養状態の悪化を防ぐため、こどもの栄養状態を保障する施策に取り組む。"
+        },
+        {
+          "title": "医療DXおよびデータ活用の推進",
+          "reason": "「推進」「無駄を削減する」という意欲表明であり、具体的な制度変更の手順や法的措置が明示されていないため。",
+          "sources": "https://say-g.com/interview-social-security-6618",
+          "quote_text": "医療DXおよびデータ活用の推進。マイナンバーカードに個人の健診結果、検査結果、投薬歴などの医療情報を紐づけ、診察や投薬の無駄を削減する。"
+        },
+        {
+          "title": "スマートウォッチ等の生体情報を医療現場で活用できる仕組みの検討",
+          "reason": "「検討」という手続き表現であり、具体的な制度設計や法改正のコミットメントではないため。",
+          "sources": "https://say-g.com/interview-social-security-6618",
+          "quote_text": "スマートウォッチ等の生体情報を医療現場で活用できる仕組みを検討する。"
+        },
+        {
+          "title": "睡眠に関するサイエンスの研究・政策推進",
+          "reason": "「推進」という手続き表現であり、具体的な変数の変更や制度の新設が示されていないため。",
+          "sources": "https://say-g.com/interview-social-security-6618",
+          "quote_text": "睡眠に関するサイエンスの研究・政策推進。"
+        },
+        {
+          "title": "公教育の充実",
+          "reason": "「整備する」「充実」という曖昧な意気込みであり、何をどのように変更するかという具体的な変数が存在しないため。",
+          "sources": "https://say-g.com/interview-social-security-6618",
+          "quote_text": "公教育の充実。家庭の経済状況や環境によらず、学力（認知能力）だけでなく、コミュニケーション能力ややり抜く力といった非認知能力を高めるための多様な体験ができるよう、教育環境を整備する。"
+        },
+        {
+          "title": "強い外交・防衛で国を守る",
+          "reason": "「取り組んでいます」という現状の活動報告であり、具体的な法改正や政策目標を含まないため。",
+          "sources": "https://sato-kei-voice.com/",
+          "quote_text": "強い外交・防衛で国を守る ～安全保障・国際協力・同盟強化～ 世界の不安定な情勢の中で、国民の生命と財産を守ることを最優先に。日米同盟を基軸に、台湾・インド太平洋諸国との協力を深め、現場視察を通じて防衛力の強化に取り組んでいます。"
+        },
+        {
+          "title": "成長を支えるデジタル・グリーン経済の推進",
+          "reason": "「支援」「築きます」という対象が抽象的な概念であり、具体的な制度変更や数値目標が存在しないため。",
+          "sources": "https://sato-kei-voice.com/",
+          "quote_text": "成長を支えるデジタル・グリーン経済の推進 ～半導体・再生可能エネルギー・デジタル化～ AI・半導体・カーボンニュートラル技術など、次世代の成長分野を国家戦略として支援。企業のデジタル化支援、グリーン技術開発を通じて、世界に誇れる産業基盤を築きます。"
+        },
+        {
+          "title": "すべての世代が安心して暮らせる社会へ",
+          "reason": "現状維持・継続的な取り組みの表明であり、具体的な法的措置や数値目標を含まないため。",
+          "sources": "https://sato-kei-voice.com/",
+          "quote_text": "すべての世代が安心して暮らせる社会へ ～医療・子育て・地方活性～ 病気の予防やオンライン診療、子育て支援、地域産業の振興など、誰もが安心して生活できる社会づくりを進めています。"
+        },
+        {
+          "title": "日米同盟の維持・強化",
+          "reason": "「維持・強化」という現状維持または意気込みであり、具体的な制度変更や法的措置を含まないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "日米同盟の維持・強化"
+        },
+        {
+          "title": "友好国との連携強化",
+          "reason": "「強化」という言葉が含まれており、客観的な達成基準や具体的な制度変更が示されていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "G7など価値観（自由・民主主義・法の支配）を共有する友好国との連携強化"
+        },
+        {
+          "title": "自由で開かれたインド太平洋戦略の推進",
+          "reason": "「推進」という手続き・意欲表現であり、具体的な法改正や制度変更が示されていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "自由で開かれたインド太平洋戦略の推進"
+        },
+        {
+          "title": "日米豪印による安全保障協力の推進",
+          "reason": "「推進」という手続き・意欲表現であり、具体的な法改正や制度変更が示されていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "日米豪印による安全保障協力の推進"
+        },
+        {
+          "title": "台湾、ベトナムとの幅広い分野での協力推進",
+          "reason": "「推進」という手続き・意欲表現であり、具体的な法改正や制度変更が示されていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "台湾、ベトナムとの幅広い分野での協力推進"
+        },
+        {
+          "title": "防衛力の抜本的強化",
+          "reason": "「強化」という言葉が含まれており、客観的な達成基準や具体的な数値目標が示されていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "防衛力の抜本的強化"
+        },
+        {
+          "title": "世界に見劣りしない防衛費の確保",
+          "reason": "「確保」の対象が主観的であり、具体的な予算数値の変更や法改正が明示されていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "世界に見劣りしない防衛費の確保"
+        },
+        {
+          "title": "国内防衛産業の保護・育成",
+          "reason": "「保護・育成」の具体的な制度設計や検証手段が不明確であるため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "国内防衛産業の保護・育成"
+        },
+        {
+          "title": "次期戦闘機（F2後継機）の国内開発支援",
+          "reason": "「支援」という手続き・意欲表現であり、具体的な予算確保や制度変更が示されていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "次期戦闘機（F2後継機）の国内開発支援"
+        },
+        {
+          "title": "同盟国や友好国への防衛装備の移転促進",
+          "reason": "「促進」という手続き・意欲表現であり、具体的な法改正や制度変更が示されていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "同盟国や友好国への防衛装備の移転促進"
+        },
+        {
+          "title": "デュアルユース技術研究の促進",
+          "reason": "「促進」という手続き・意欲表現であり、具体的な制度変更や研究開発の予算措置が明示されていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "デュアルユース技術研究の促進"
+        },
+        {
+          "title": "2050年カーボンニュートラルの実現",
+          "reason": "長期目標の表明にとどまり、達成のための具体的な法改正や変数操作が明示されていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "2050年カーボンニュートラル（CO2などの温室効果ガス排出実質ゼロ）の実現"
+        },
+        {
+          "title": "エネルギー活用の推進",
+          "reason": "「最大限活用」「推進」といった抽象的な表現であり、数値や具体的な制度変更が特定できないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "再生可能エネルギー（太陽光、水力、風力、洋上風力、バイオマス）を最大限活用した上で、原子力、LNG火力などバランスのとれたエネルギー活用を推進"
+        },
+        {
+          "title": "次世代原子力技術の開発促進",
+          "reason": "「促進」という手続き・意欲表現であり、具体的な予算措置や制度変更が明示されていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "次世代原子力技術の開発促進"
+        },
+        {
+          "title": "カギとなる技術開発で世界をリード",
+          "reason": "「世界をリード」という抽象的な目標であり、具体的な政治的アクションや制度変更が示されていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "水素、蓄電池、洋上風力、CCUS/カーボンリサイクルなどのカギとなる技術開発で世界をリード"
+        },
+        {
+          "title": "グリーンファイナンスの推進",
+          "reason": "「推進」という手続き表現であり、具体的な制度変更や法改正が明示されていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "グリーンファイナンスの推進"
+        },
+        {
+          "title": "ヘルスケア産業の育成",
+          "reason": "「育成」の具体的な制度設計や数値目標が不明確であり、客観的な検証ができないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "病気の予防を中核としたヘルスケア産業の育成"
+        },
+        {
+          "title": "エビデンスづくりを促進",
+          "reason": "「促進」という手続き表現であり、具体的な制度変更や法的措置が明示されていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "病気の予防に関するエビデンス（科学的根拠）づくりを促進"
+        },
+        {
+          "title": "データヘルス改革の推進",
+          "reason": "「推進」という手続き表現であり、具体的な制度変更やデータの取扱いに関する法的措置が明示されていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "病気の治療や予防・健康づくりにAIや健康・医療データを積極的に活用（データヘルス改革の推進）"
+        },
+        {
+          "title": "企業の健康経営を促進",
+          "reason": "「促進」という手続き表現であり、健康経営をどのような法的枠組みで実施するかが不明なため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "企業の健康経営を促進し、労働者の皆さんの健康を改善しながら企業業績を向上"
+        },
+        {
+          "title": "健康に貢献する住宅やオフィスの開発促進",
+          "reason": "「促進」という手続き表現であり、開発に対する具体的な補助制度や法的措置が明示されていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "健康に貢献する住宅やオフィスの開発促進"
+        },
+        {
+          "title": "認知症予防やフレイル予防の推進",
+          "reason": "「推進」という手続き表現であり、予防に関する具体的な制度変更や法改正が含まれていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "認知症予防やフレイル予防の推進"
+        },
+        {
+          "title": "高齢者の方々にも安心のモビリティーの普及促進",
+          "reason": "「普及促進」という手続き表現であり、具体的な交通インフラ整備や制度変更が示されていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "高齢者の方々にも安心のモビリティーの普及促進"
+        },
+        {
+          "title": "先端半導体の国際共同開発",
+          "reason": "具体的な法改正や予算措置が明示されておらず、単なる意欲表明であるため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "先端半導体の国際共同開発"
+        },
+        {
+          "title": "半導体製造装置や素材の国内開発",
+          "reason": "「国内開発」のための具体的な制度変更や予算措置が示されておらず、意欲表明にとどまるため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "半導体製造装置や素材の国内開発"
+        },
+        {
+          "title": "デジタルインフラの整備促進",
+          "reason": "「促進」という手続き表現であり、具体的なインフラ投資計画や制度変更が示されていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "デジタルインフラ（5Gやデータセンター）の整備促進"
+        },
+        {
+          "title": "デジタル産業の育成",
+          "reason": "「育成」の具体的な施策や予算が不明確であり、客観的な検証ができないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "デジタル産業（クラウド産業など）の育成"
+        },
+        {
+          "title": "行政手続のデジタル化推進",
+          "reason": "「推進」という手続き表現であり、具体的な行政法やシステム改修の計画が示されていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "行政手続のデジタル化推進"
+        },
+        {
+          "title": "企業のデジタルトランスフォーメーションの推進",
+          "reason": "「推進」という手続き表現であり、企業のDXをどう支援するかという法的な具体策が示されていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "企業のデジタルトランスフォーメーションの推進"
+        },
+        {
+          "title": "自動運転技術の社会実装の促進",
+          "reason": "「促進」という手続き表現であり、法改正の有無や時期が特定できないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "自動運転技術の社会実装の促進"
+        },
+        {
+          "title": "AIを活用",
+          "reason": "文脈が不完全であり、どのような政策アクションを指すか不明であるため。",
+          "sources": "https://sato-kei.jp/ideapolicy#fiscal",
+          "quote_text": "AIを活用"
+        },
+        {
+          "title": "技術開発で世界をリード",
+          "reason": "「世界をリード」という抽象的な目標であり、観測可能な変数が特定できないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#education",
+          "quote_text": "水素、蓄電池、洋上風力、CCUS/カーボンリサイクルなどのカギとなる技術開発で世界をリード"
+        },
+        {
+          "title": "健康経営の促進",
+          "reason": "「促進」という手続き・意欲表現であり、具体的な法改正や予算措置が含まれていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#education",
+          "quote_text": "企業の健康経営を促進し、労働者の皆さんの健康を改善しながら企業業績を向上"
+        },
+        {
+          "title": "住宅やオフィスの開発促進",
+          "reason": "「促進」という手続き・意欲表現であり、具体的な開発支援政策が不明なため。",
+          "sources": "https://sato-kei.jp/ideapolicy#education",
+          "quote_text": "健康に貢献する住宅やオフィスの開発促進"
+        },
+        {
+          "title": "モビリティーの普及促進",
+          "reason": "「普及促進」という手続き・意欲表現であり、法改正や制度変更が伴わないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#education",
+          "quote_text": "高齢者の方々にも安心のモビリティーの普及促進"
+        },
+        {
+          "title": "AIを活用したまちづくりの推進",
+          "reason": "「推進」という手続き・意欲表現であり、具体的な法改正や制度変更が示されていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#education",
+          "quote_text": "AIを活用したまちづくりの推進"
+        },
+        {
+          "title": "ブロックチェーン技術の活用",
+          "reason": "「活用」という抽象的な表現であり、具体的な政策的アクションが伴わないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#education",
+          "quote_text": "ブロックチェーン技術の活用"
+        },
+        {
+          "title": "先端技術の適切な輸出管理",
+          "reason": "「適切な輸出管理」という抽象的な行政責務の表明であり、新規の法規制強化等が不明なため。",
+          "sources": "https://sato-kei.jp/ideapolicy#education",
+          "quote_text": "半導体などの先端技術の適切な輸出管理"
+        },
+        {
+          "title": "機微技術の流出防止",
+          "reason": "「防止」という抽象的な目標であり、具体的な法改正や制度強化のアクションが示されていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#education",
+          "quote_text": "機微技術の流出防止"
+        },
+        {
+          "title": "サイバーセキュリティ体制",
+          "reason": "名詞止めであり、具体的な予算措置や制度変更のアクションが示されていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#education",
+          "quote_text": "サイバーセキュリティ体制"
+        },
+        {
+          "title": "米国をはじめ友好国との連携強化",
+          "reason": "「連携強化」という手続き・意欲表現であり、具体的な法改正が伴わないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#nara",
+          "quote_text": "米国をはじめ友好国との連携強化"
+        },
+        {
+          "title": "世界一の健康長寿社会",
+          "reason": "スローガンに過ぎず、具体的施策や数値目標が示されていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#nara",
+          "quote_text": "世界一の健康長寿社会"
+        },
+        {
+          "title": "世界最先端のデジタル社会",
+          "reason": "スローガンに過ぎず、具体的な政策や達成のための法改正が示されていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#nara",
+          "quote_text": "世界最先端のデジタル社会"
+        },
+        {
+          "title": "安心して経済活動ができる社会（経済安全保障の強化）",
+          "reason": "「強化」という抽象的な目標であり、具体的な法規制の改正案などが示されていないため。",
+          "sources": "https://sato-kei.jp/ideapolicy#nara",
+          "quote_text": "安心して経済活動ができる社会（経済安全保障の強化）"
+        }
+      ]
+    }
+  ]
+}

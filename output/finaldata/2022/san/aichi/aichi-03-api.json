@@ -1,0 +1,150 @@
+{
+  "district": "愛知3区",
+  "candidates": [
+    {
+      "name": "斎藤嘉隆",
+      "party": "立憲民主党",
+      "manifesto": [
+        {
+          "title": "高校・大学の授業料無償化",
+          "reason": "制度のステータス変更（無料化）であり、法改正や予算措置の有無で客観的に判断可能なため。",
+          "sources": "https://saitoyoshitaka.com/policy",
+          "quote_text": "高校・大学の授業料無償化",
+          "policy_id": "policy_643"
+        },
+        {
+          "title": "学校給食の無償化",
+          "reason": "制度のステータス変更（無料化）であり、実施の有無が客観的に判断可能なため。",
+          "sources": "https://saitoyoshitaka.com/policy",
+          "quote_text": "学校給食の無償化",
+          "policy_id": "policy_120"
+        },
+        {
+          "title": "児童手当の延長及び所得制限の撤廃",
+          "reason": "制度のステータス変更及びパラメータ変更であり、法改正の有無で客観的に判断可能なため。",
+          "sources": "https://saitoyoshitaka.com/policy",
+          "quote_text": "児童手当の延長及び所得制限の撤廃",
+          "policy_id": "policy_561"
+        },
+        {
+          "title": "消費税を時限的に5%への減税",
+          "reason": "数値目標の変更（5%への減税）であり、法改正の有無で客観的に判断可能なため。",
+          "sources": "https://saitoyoshitaka.com/policy",
+          "quote_text": "消費税を時限的に5％へ",
+          "policy_id": "policy_327"
+        },
+        {
+          "title": "最低賃金の段階的な1500円への引き上げ",
+          "reason": "数値目標の変更（1500円への引き上げ）であり、法令改正の有無で客観的に判断可能なため。",
+          "sources": "https://saitoyoshitaka.com/policy",
+          "quote_text": "最低賃金を段階的に1500円へ",
+          "policy_id": "policy_644"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "title": "教育・子育て環境を充実させる。",
+          "reason": "「充実」が何を指すか不明であり、具体的な数値や法改正の有無で客観的に判断できない。",
+          "sources": "https://saitoyoshitaka.com/",
+          "quote_text": "教育・子育て環境を充実させる。"
+        },
+        {
+          "title": "生きがいをもって働ける社会をつくる。",
+          "reason": "「生きがい」「社会をつくる」という抽象的なスローガンであり、観測可能な制度変更が含まれない。",
+          "sources": "https://saitoyoshitaka.com/",
+          "quote_text": "生きがいをもって働ける社会をつくる。"
+        },
+        {
+          "title": "健康に生きる環境を整える。",
+          "reason": "「環境を整える」という曖昧な意気込みであり、検証可能な変数が存在しない。",
+          "sources": "https://saitoyoshitaka.com/",
+          "quote_text": "健康に生きる環境を整える。"
+        },
+        {
+          "title": "センター・オブ・ジャパン愛知を伸ばす。",
+          "reason": "「伸ばす」という内容が抽象的かつ特定地域への利益誘導の含みがあり、第三者が客観的に判定できる変数が存在しない。",
+          "sources": "https://saitoyoshitaka.com/",
+          "quote_text": "センター・オブ・ジャパン愛知を伸ばす。"
+        },
+        {
+          "quote_text": "教育・子育て・女性の活躍：教育・子育て環境を充実させる",
+          "reason": "「充実させる」という曖昧な意気込みであり、具体的な制度変更や数値目標が含まれていないため。抽象的なスローガンに該当する。",
+          "sources": "https://saitoyoshitaka.com/blog/",
+          "title": "教育・子育て環境の充実"
+        },
+        {
+          "quote_text": "労働・格差是正：生きがいをもって働ける社会をつくる",
+          "reason": "「つくる」という曖昧な意気込みであり、具体的な法改正や制度のステータス変更が含まれていないため。抽象的なスローガンに該当する。",
+          "sources": "https://saitoyoshitaka.com/blog/",
+          "title": "生きがいをもって働ける社会の構築"
+        },
+        {
+          "quote_text": "医療・介護・環境・平和：健康に生きる環境を整える",
+          "reason": "「整える」という曖昧な意気込みであり、具体的な法改正や制度のステータス変更が含まれていないため。抽象的なスローガンに該当する。",
+          "sources": "https://saitoyoshitaka.com/blog/",
+          "title": "健康に生きる環境の整備"
+        },
+        {
+          "quote_text": "モノづくり・中小企業振興：センター・オブ・ジャパン愛知を伸ばす",
+          "reason": "「伸ばす」という曖昧な意気込みであり、具体的な制度変更や数値目標が含まれていないため。抽象的なスローガンに該当する。",
+          "sources": "https://saitoyoshitaka.com/blog/",
+          "title": "センター・オブ・ジャパン愛知の振興"
+        },
+        {
+          "title": "雇用の安定や処遇の改善",
+          "reason": "「安定」「改善」という言葉は具体的な数値や制度変更を示しておらず、客観的な達成基準が存在しないため。",
+          "sources": "https://saitoyoshitaka.com/policy",
+          "quote_text": "雇用の安定や処遇の改善"
+        },
+        {
+          "title": "急激な物価高への支援強化",
+          "reason": "「強化」の有無は客観的に判断できず、具体的な変数や制度の変更が示されていないため。",
+          "sources": "https://saitoyoshitaka.com/policy",
+          "quote_text": "急激な物価高への支援強化"
+        },
+        {
+          "title": "物価に負けない年金へ",
+          "reason": "「物価に負けない」という抽象的な目標であり、年金法等の具体的なパラメータ変更が示されていないため。",
+          "sources": "https://saitoyoshitaka.com/policy",
+          "quote_text": "物価に負けない年金へ"
+        },
+        {
+          "title": "未来指向の平和な社会の実現",
+          "reason": "抽象的なスローガンであり、具体的かつ観測可能な政治的アクションが存在しないため。",
+          "sources": "https://saitoyoshitaka.com/policy",
+          "quote_text": "未来指向の平和な社会の実現"
+        },
+        {
+          "title": "新型コロナ対策強化",
+          "reason": "「強化」の有無は客観的に判断できず、具体的な制度変更や数値目標が示されていないため。",
+          "sources": "https://saitoyoshitaka.com/policy",
+          "quote_text": "新型コロナ対策強化"
+        },
+        {
+          "title": "自動車や航空宇宙産業・地元農業の発展",
+          "reason": "「発展」という結果論であり、特定地域への利益誘導や具体的な制度変更が示されていないため。",
+          "sources": "https://saitoyoshitaka.com/policy",
+          "quote_text": "自動車や航空宇宙産業・地元農業の発展"
+        },
+        {
+          "title": "中小企業の支援強化",
+          "reason": "「強化」の有無は客観的に判断できず、具体的な制度変更や数値目標が示されていないため。",
+          "sources": "https://saitoyoshitaka.com/policy",
+          "quote_text": "中小企業の支援強化"
+        },
+        {
+          "title": "交通運輸産業・観光業への支援強化",
+          "reason": "「強化」の有無は客観的に判断できず、具体的な制度変更や数値目標が示されていないため。",
+          "sources": "https://saitoyoshitaka.com/policy",
+          "quote_text": "交通運輸産業・観光業への支援強化"
+        },
+        {
+          "title": "情報通信政策の推進",
+          "reason": "「推進」という手続き・意欲表現であり、具体的な制度変更が示されていないため。",
+          "sources": "https://saitoyoshitaka.com/policy",
+          "quote_text": "情報通信政策の推進"
+        }
+      ]
+    }
+  ]
+}

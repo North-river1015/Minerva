@@ -1,0 +1,12 @@
+{
+  "district": "山口県選挙区",
+  "candidates": [
+    {
+      "name": "江島潔",
+      "party": "自民党",
+      "step1_ocr_raw_text": "日本を、\n山口県を、\n一歩ずつ前へ。\n自民党\n江島潔\nこの間、\n副大臣・\nださった\nや観光\n捕鯨も\n口県の\n山口から\nイオ、\nして\n押し\n正し、\n金の",
+      "step2_selected_pledges": [],
+      "full_text": "日本を、山口県を、一歩ずつ前へ。\n\n自民党 江島潔"
+    }
+  ]
+}

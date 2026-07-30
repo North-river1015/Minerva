@@ -1,0 +1,143 @@
+{
+  "district": "東京6区",
+  "district_code": "2022-san-tokyo-6",
+  "candidates": [
+    {
+      "name": "山本太郎",
+      "party": "れいわ新選組",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "山本太郎",
+            "body": "ここまで来たらコイツしかいない<br>れいわ新選組"
+          }
+        ],
+        "manifesto": []
+      },
+      "web": {
+        "manifesto": [
+          {
+            "quote_text": "消費税の廃止、およびそれが実施されるまでをつなぎの現金給付として実施する。",
+            "reason": "消費税廃止という法改正または税率0%の実現は、法律の有無によって達成されたかを客観的に判定可能な数値・条件の変更であるため。",
+            "sources": "https://www.taro-yamamoto.jp/national-diet/16106",
+            "title": "消費税の廃止",
+            "policy_id": "policy_027"
+          },
+          {
+            "quote_text": "最低賃金を全国一律で1500円に引き上げる",
+            "reason": "最低賃金法の改正により、全国一律で1500円という具体的な数値目標に変更されたかどうかを客観的に判定可能であるため。",
+            "sources": "https://senyou.the-issues.jp/blog/reiwa-yamamoto-kinyu-seisaku-kaisetsu",
+            "title": "全国一律最低賃金1,500円の実現",
+            "policy_id": "policy_071"
+          },
+          {
+            "quote_text": "奨学金徳政令",
+            "reason": "奨学金の返済免除という制度のステータス変更を指しており、関連法改正や制度改定の有無によって客観的に判定可能なため。",
+            "sources": "https://www.data-max.co.jp/article/28951",
+            "title": "奨学金徳政令（奨学金返済免除）",
+            "policy_id": "policy_608"
+          },
+          {
+            "quote_text": "辺野古新基地建設中止",
+            "reason": "辺野古新基地の建設中止という明確なプロジェクトのステータス変更であり、中止が実行されたかどうかを第三者が客観的に観測可能であるため。",
+            "sources": "https://www.data-max.co.jp/article/28951",
+            "title": "辺野古新基地建設中止",
+            "policy_id": "policy_571"
+          },
+          {
+            "quote_text": "原発即時停止",
+            "reason": "原発の運転即時停止という明確なステータス変更であり、運転状況によって達成されたかを客観的に観測可能であるため。",
+            "sources": "https://www.data-max.co.jp/article/28951",
+            "title": "原発即時停止",
+            "policy_id": "policy_609"
+          },
+          {
+            "quote_text": "災害救助事務取扱要領に、土砂撤去や障害物除去活動の対象として、コミュニティを守るための事例（保育園、集会所、家庭菜園など11の事例）を明確に記載し、重機や燃料代などが国の災害救助費から出される体制を全国で確立する。",
+            "reason": "「災害救助事務取扱要領への記載」という運用ルールの具体的な変更であり、文面に追加されたかどうかで客観的に判定可能であるため。",
+            "sources": "https://www.taro-yamamoto.jp/national-diet/16106",
+            "title": "災害救助事務取扱要領への土砂撤去等の対象事例記載と災害救助費支出の全国確立",
+            "policy_id": "policy_610"
+          },
+          {
+            "quote_text": "個人に対して現金給付を行う。",
+            "reason": "現金給付の実施という具体的な政策アクションを示しており、予算措置や実施の有無によって客観的に検証可能であるため。",
+            "sources": "https://withnews.jp/article/f0220305000qq000000000000000W0fp10301qq000024259A",
+            "title": "個人に対する現金給付",
+            "policy_id": "policy_069"
+          },
+          {
+            "quote_text": "主権者教育の推進や、教育・大学院の無償化、奨学金制度の負担軽減など、次世代への投資に予算を配分する。",
+            "reason": "授業料の無償化という制度のステータス変更を明示しており、関連法改正の有無によって達成されたかが判断可能であるため。",
+            "sources": "https://withnews.jp/article/f0220305000qq000000000000000W0fp10301qq000024259A",
+            "title": "教育・大学院の無償化",
+            "policy_id": "policy_219"
+          },
+          {
+            "quote_text": "ガソリン税の減税。ガソリン税をゼロにするなどの措置により、国民の負担を軽減する。",
+            "reason": "ガソリン税の税率を0%にするという数値目標の変更であり、法改正の有無によって実行されたかが客観的に判断可能なため。",
+            "sources": "https://www.chosyu-journal.jp/seijikeizai/23519",
+            "title": "ガソリン税をゼロに減税",
+            "policy_id": "policy_212"
+          },
+          {
+            "quote_text": "コロナ禍における徹底した生活支援として、感染を抑え込む間は1人当たり20万円の現金給付を行う“徹底補償付きステイホーム”の実施。",
+            "reason": "「1人当たり20万円の現金給付」という数値目標が明示されており、実施の有無が客観的に判定可能であるため。",
+            "sources": "https://times.abema.tv/articles/-/10003743",
+            "title": "1人当たり20万円の現金給付の実施",
+            "policy_id": "policy_611"
+          },
+          {
+            "quote_text": "コメ不足などの食料問題に対しては、生産コストに見合う価格での国による買い上げを実施し、",
+            "reason": "国による買い上げという新規の行政実施を指しており、その実施の有無が客観的に判定可能であるため。",
+            "sources": "https://www.chosyu-journal.jp/seijikeizai/35151",
+            "title": "国による生産コストに見合う価格でのコメ買い上げ実施",
+            "policy_id": "policy_612"
+          },
+          {
+            "quote_text": "農家の所得を国が補償する仕組みを構築する。",
+            "reason": "所得補償の仕組みという新規制度の設立を指しており、制度の存否によって実施の有無を判定可能であるため。",
+            "sources": "https://www.chosyu-journal.jp/seijikeizai/35151",
+            "title": "農家の所得補償仕組みの構築",
+            "policy_id": "policy_613"
+          },
+          {
+            "quote_text": "減反政策による生産抑制を改め、",
+            "reason": "減反政策という具体的な既存政策の撤廃・変更を指しており、政策実施の有無によって客観的に判定可能であるため。",
+            "sources": "https://www.chosyu-journal.jp/seijikeizai/35151",
+            "title": "減反政策による生産抑制の撤廃",
+            "policy_id": "policy_451"
+          },
+          {
+            "quote_text": "物価高対策として、減税と給付金をセットで実施し、事業者の存続と消費者の生活維持を支援する。",
+            "reason": "減税および給付金という客観的に検証可能なアクションの実施を明示しているため。",
+            "sources": "https://www.chosyu-journal.jp/seijikeizai/35151",
+            "title": "減税と給付金のセット実施",
+            "policy_id": "policy_614"
+          },
+          {
+            "quote_text": "代替財源として、法人税の増税",
+            "reason": "法人税率という具体的な変数の変更を指しており、税制改正の有無によって客観的に検証可能なため。",
+            "sources": "https://note.com/zeehaa/n/nec75752fb3da",
+            "title": "法人税の増税",
+            "policy_id": "policy_615"
+          },
+          {
+            "quote_text": "所得税の最高税率引き上げを掲げる。",
+            "reason": "所得税の最高税率という具体的な変数の変更を指しており、税制改正の有無によって客観的に検証可能なため。",
+            "sources": "https://note.com/zeehaa/n/nec75752fb3da",
+            "title": "所得税の最高税率引き上げ",
+            "policy_id": "policy_616"
+          },
+          {
+            "quote_text": "在日米軍に関するルールである日米地位協定を改定し",
+            "reason": "「日米地位協定の改定」という条約（制度）のステータス変更を指しており、協定改定の有無によって客観的に検証可能なため。",
+            "sources": "https://note.com/zeehaa/n/nec75752fb3da",
+            "title": "日米地位協定の改定",
+            "policy_id": "policy_477"
+          }
+        ],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

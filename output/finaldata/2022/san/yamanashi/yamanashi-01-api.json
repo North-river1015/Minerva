@@ -1,0 +1,186 @@
+{
+  "district": "山梨1区",
+  "candidates": [
+    {
+      "name": "永井学",
+      "party": "自由民主党",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "quote_text": "産業人材などの人材育成",
+          "reason": "❌ 却下：具体的な数値目標や制度変更、法改正の言及がなく、達成度を客観的に検証できない抽象的なスローガンであるため。",
+          "sources": "https://www.jimin.jp/election/results/sen_san26/candidate/203206.html",
+          "title": "産業人材などの人材育成"
+        },
+        {
+          "quote_text": "コロナ後の経済活動を見据えたインフラ整備",
+          "reason": "❌ 却下：どのインフラに対してどのような整備を行うか具体的に示されておらず、変数が特定できない抽象的な意向表明であるため。",
+          "sources": "https://www.jimin.jp/election/results/sen_san26/candidate/203206.html",
+          "title": "コロナ後の経済活動を見据えたインフラ整備"
+        },
+        {
+          "quote_text": "強い外交と安全保障",
+          "reason": "❌ 却下：何をもって「強い」とするかの基準や、具体的な制度変更、法改正への言及が一切ない抽象的なスローガンであるため。",
+          "sources": "https://www.jimin.jp/election/results/sen_san26/candidate/203206.html",
+          "title": "強い外交と安全保障"
+        },
+        {
+          "quote_text": "人づくり（子育て支援、教育）",
+          "reason": "❌ 却下：具体的な政策手段（予算確保、法改正、制度導入など）が全く提示されておらず、達成の有無を第三者が判定できない抽象的な概念であるため。",
+          "sources": "https://www.jimin.jp/election/results/sen_san26/candidate/203206.html",
+          "title": "人づくり（子育て支援、教育）"
+        },
+        {
+          "quote_text": "山梨県が先進的に進める「25人学級」を全国的に拡充",
+          "reason": "「拡充」の有無は客観的に判断できず、何を変更するのかが不明であるため",
+          "sources": "https://nagai-manabu.jp/",
+          "title": "「25人学級」の全国的拡充"
+        },
+        {
+          "quote_text": "デジタル教育の充実（AI・プログラミング・リモート学習環境の整備）",
+          "reason": "「充実」「整備」は中身が不透明で検証不能であるため",
+          "sources": "https://nagai-manabu.jp/",
+          "title": "デジタル教育の充実"
+        },
+        {
+          "quote_text": "部活動の地域移行支援で、先生方の働き方改革を進めつつ、子どもに多様な体験機会を保障",
+          "reason": "「支援」「保障」は中身が不透明で検証不能であるため",
+          "sources": "https://nagai-manabu.jp/",
+          "title": "部活動の地域移行支援"
+        },
+        {
+          "quote_text": "幼児教育の充実。保・幼・小の連携強化",
+          "reason": "「充実」「強化」が含まれるため",
+          "sources": "https://nagai-manabu.jp/",
+          "title": "幼児教育の充実"
+        },
+        {
+          "quote_text": "挑戦と創造で未来を切り拓く力を育む「アントレプレナーシップ教育」の充実",
+          "reason": "「充実」が含まれるため",
+          "sources": "https://nagai-manabu.jp/",
+          "title": "アントレプレナーシップ教育の充実"
+        },
+        {
+          "quote_text": "妊娠・出産・子育てまで切れ目のないネウボラ的支援の拡充",
+          "reason": "「拡充」が含まれるため",
+          "sources": "https://nagai-manabu.jp/",
+          "title": "ネウボラ的支援の拡充"
+        },
+        {
+          "quote_text": "自然環境を活かした「自然保育」「里山保育」の全国モデル化",
+          "reason": "「モデル化」の具体的な制度変更や法改正の変数が示されていないため",
+          "sources": "https://nagai-manabu.jp/",
+          "title": "「自然保育」「里山保育」の全国モデル化"
+        },
+        {
+          "quote_text": "専門学校・大学の学費支援を強化し、資格取得や専門技術習得を後押し",
+          "reason": "「強化」「後押し」が含まれるため",
+          "sources": "https://nagai-manabu.jp/",
+          "title": "学費支援の強化と資格取得の後押し"
+        },
+        {
+          "quote_text": "地域企業とのインターンシップ推進による「学びと就職の接続」",
+          "reason": "「推進」が含まれるため",
+          "sources": "https://nagai-manabu.jp/",
+          "title": "インターンシップ推進"
+        },
+        {
+          "quote_text": "新新御坂トンネル、山梨環状道路、中部横断道北部区間の早期完成",
+          "reason": "特定地域への利益誘導に該当するため",
+          "sources": "https://nagai-manabu.jp/",
+          "title": "新新御坂トンネル等の早期完成"
+        },
+        {
+          "quote_text": "リニア中央新幹線の早期開業",
+          "reason": "特定地域への利益誘導に該当するため",
+          "sources": "https://nagai-manabu.jp/",
+          "title": "リニア中央新幹線の早期開業"
+        },
+        {
+          "quote_text": "鉄道の高速化（中央線の東京～甲府間短縮）",
+          "reason": "特定地域への利益誘導に該当するため",
+          "sources": "https://nagai-manabu.jp/",
+          "title": "鉄道の高速化"
+        },
+        {
+          "quote_text": "防災・減災の観点からの「無電柱化」推進",
+          "reason": "「推進」が含まれるため",
+          "sources": "https://nagai-manabu.jp/",
+          "title": "「無電柱化」推進"
+        },
+        {
+          "quote_text": "老朽化した道路、橋、トンネルなどの強靭化を推進",
+          "reason": "「推進」が含まれるため",
+          "sources": "https://nagai-manabu.jp/",
+          "title": "道路等の強靭化推進"
+        },
+        {
+          "quote_text": "エネルギー・原材料高騰への「価格転嫁支援」と補助制度の強化",
+          "reason": "「強化」が含まれるため",
+          "sources": "https://nagai-manabu.jp/",
+          "title": "価格転嫁支援と補助制度の強化"
+        },
+        {
+          "quote_text": "農産物の輸出促進（シャインマスカット・ワインなど）を支える「コールドチェーン物流」整備、販路拡大",
+          "reason": "「促進」が含まれるため",
+          "sources": "https://nagai-manabu.jp/",
+          "title": "農産物の輸出促進"
+        },
+        {
+          "quote_text": "富士山・温泉・ワインを組み合わせた「周遊型観光モデル」構築",
+          "reason": "「モデル構築」の対象が抽象的であり、検証可能な変数が示されていないため",
+          "sources": "https://nagai-manabu.jp/",
+          "title": "周遊型観光モデル構築"
+        },
+        {
+          "quote_text": "オーバーツーリズム、交通混雑、地域住民生活との摩擦、防災・危機対応など“受入れの質”を向上させるための「国際観光旅客税」の充実",
+          "reason": "「充実」が含まれ、具体的な税制改正の変数が示されていないため",
+          "sources": "https://nagai-manabu.jp/",
+          "title": "国際観光旅客税の充実"
+        },
+        {
+          "quote_text": "医師・看護師・薬剤師不足の解消",
+          "reason": "目標の表明であり、具体的な制度変更の変数が示されていないため",
+          "sources": "https://nagai-manabu.jp/",
+          "title": "医師等の不足解消"
+        },
+        {
+          "quote_text": "ICT・遠隔診療の普及",
+          "reason": "「普及」は中身が不透明で検証不能であるため",
+          "sources": "https://nagai-manabu.jp/",
+          "title": "ICT・遠隔診療の普及"
+        },
+        {
+          "quote_text": "高齢者や山間部の住民でもアクセス可能なオンライン診療の推進",
+          "reason": "「推進」が含まれるため",
+          "sources": "https://nagai-manabu.jp/",
+          "title": "オンライン診療の推進"
+        },
+        {
+          "quote_text": "総合診療医・かかりつけ医制度の拡充",
+          "reason": "「拡充」が含まれるため",
+          "sources": "https://nagai-manabu.jp/",
+          "title": "総合診療医・かかりつけ医制度の拡充"
+        },
+        {
+          "quote_text": "介護人材の処遇改善",
+          "reason": "「改善」の有無は客観的に判断できないため",
+          "sources": "https://nagai-manabu.jp/",
+          "title": "介護人材の処遇改善"
+        },
+        {
+          "quote_text": "地域包括ケアシステムの拡充",
+          "reason": "「拡充」が含まれるため",
+          "sources": "https://nagai-manabu.jp/",
+          "title": "地域包括ケアシステムの拡充"
+        },
+        {
+          "quote_text": "在宅医療・介護・",
+          "reason": "文が途切れており具体的なアクションが不明であるため",
+          "sources": "https://nagai-manabu.jp/",
+          "title": "在宅医療・介護"
+        }
+      ]
+    }
+  ]
+}

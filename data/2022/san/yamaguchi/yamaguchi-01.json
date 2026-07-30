@@ -1,0 +1,27 @@
+{
+  "district": "山口1区",
+  "district_code": "2022-san-yamaguchi-1",
+  "candidates": [
+    {
+      "name": "江島潔",
+      "party": "自由民主党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "日本を、山口県を、一歩ずつ前へ。",
+            "body": ""
+          },
+          {
+            "header": "自民党 江島潔",
+            "body": ""
+          }
+        ],
+        "manifesto": []
+      },
+      "web": {
+        "manifesto": [],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

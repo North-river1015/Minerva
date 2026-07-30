@@ -1,0 +1,31 @@
+{
+  "district": "宮崎1区",
+  "district_code": "2022-san-miyazaki-1",
+  "candidates": [
+    {
+      "name": "松下新平",
+      "party": "自由民主党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "【防災・減災、国土強靭化のための5か年加速化対策】",
+            "body": "・東九州自動車道（清武南IC～志布志）の早期完成。"
+          },
+          {
+            "header": "【こどもまんなか社会】",
+            "body": "・不妊治療への支援、放課後児童クラブの整備を強力に支援します。"
+          },
+          {
+            "header": "【食料安全保障の確立】",
+            "body": "・農業基盤の整備を確立する。"
+          }
+        ],
+        "manifesto": []
+      },
+      "web": {
+        "manifesto": [],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

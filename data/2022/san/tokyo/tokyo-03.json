@@ -1,0 +1,250 @@
+{
+  "district": "東京3区",
+  "district_code": "2022-san-tokyo-3",
+  "candidates": [
+    {
+      "name": "山添拓",
+      "party": "日本共産党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "給料あげよう。最低賃金時給1500円に",
+            "body": "大企業の内部留保に課税し、中小企業の賃上げ支援に。人間らしく働くルールを"
+          },
+          {
+            "header": "消費税5%減税。社会保障・教育の充実",
+            "body": "給食費は無償に。学費半額、入学金は廃止。年金は削減でなく増額を"
+          },
+          {
+            "header": "憲法9条いかした外交で平和なアジアを",
+            "body": "軍事費2倍化をやめ、くらし応援の予算に"
+          },
+          {
+            "header": "気候危機打開・再生可能エネルギーに転換",
+            "body": ""
+          },
+          {
+            "header": "ジェンダー平等。多様性を尊重する社会に",
+            "body": ""
+          }
+        ],
+        "manifesto": []
+      },
+      "web": {
+        "manifesto": [
+          {
+            "title": "選択的夫婦別姓の法制化",
+            "reason": "法改正による具体的な制度変更であり、法案成立の有無で実施の可否を明確に判定できるため。",
+            "sources": "https://www.yamazoetaku.com/policy",
+            "quote_text": "選択的夫婦別姓",
+            "policy_id": "policy_057"
+          },
+          {
+            "title": "同性婚の法制化",
+            "reason": "法改正による具体的な制度変更であり、法案成立の有無で実施の可否を明確に判定できるため。",
+            "sources": "https://www.yamazoetaku.com/policy",
+            "quote_text": "同性婚の実現へ。",
+            "policy_id": "policy_349"
+          },
+          {
+            "title": "消費税の5%への恒久的な一律減税",
+            "reason": "消費税の税率という数値目標の変更を明示しており、法改正の有無で客観的に判断可能であるため。",
+            "sources": "https://www.yamazoetaku.com/policy",
+            "quote_text": "消費税を5％に減税し",
+            "policy_id": "policy_225"
+          },
+          {
+            "title": "インボイス方式の導入中止",
+            "reason": "特定の税制の導入を中止するという明確な制度のステータス変更であり、法改正の有無によって客観的に検証可能であるため。",
+            "sources": "https://www.yamazoetaku.com/policy",
+            "quote_text": "インボイス制度の導入は中止する。",
+            "policy_id": "policy_029"
+          },
+          {
+            "title": "大企業の内部留保への課税と賃上げ支援",
+            "reason": "大企業への内部留保課税という新たな税制度の導入と、それによる中小企業の支援・最低賃金アップという数値目標の達成が、法改正によって客観的に検証可能なため。",
+            "sources": "https://www.yamazoetaku.com/policy",
+            "quote_text": "大企業の内部留保の一部を税金で還元して、中小企業の賃上げ支援にまわします。",
+            "policy_id": "policy_577"
+          },
+          {
+            "title": "原発および石炭火力発電のゼロ化",
+            "reason": "原発と石炭火力発電の廃止という制度のステータス変更を明示しており、運転状況によって客観的に検証可能であるため。",
+            "sources": "https://www.yamazoetaku.com/policy",
+            "quote_text": "原発ゼロと石炭火力廃止を政治決断する。",
+            "policy_id": "policy_578"
+          },
+          {
+            "title": "学費の半額化および入学金の廃止",
+            "reason": "学費という数値目標の変更と、入学金という制度のステータス変更を明示しており、法改正や予算措置の有無で客観的に判断可能であるため。",
+            "sources": "https://www.yamazoetaku.com/policy",
+            "quote_text": "大学の学費は半額にし、入学金は廃止する。",
+            "policy_id": "policy_072"
+          },
+          {
+            "title": "学校給食費の国責任による無料化",
+            "reason": "学校給食費の無料化という制度のステータス変更を明示しており、財政措置等の有無で客観的に判断可能であるため。",
+            "sources": "https://www.yamazoetaku.com/policy",
+            "quote_text": "給食費はゼロに。",
+            "policy_id": "policy_579"
+          },
+          {
+            "title": "18歳までの医療費無料化",
+            "reason": "18歳までの医療費を無料化という制度のステータス変更を明示しており、法改正の有無で客観的に判断可能であるため。",
+            "sources": "https://www.jcp.or.jp/akahata/aik22/2022-06-16/2022061603_01_0.html",
+            "quote_text": "18歳までの医療費無料化を実現する。",
+            "policy_id": "policy_474"
+          },
+          {
+            "title": "企業への男女賃金格差是正計画の策定・公表の義務付け",
+            "reason": "企業への情報公開や是正計画の策定という制度のステータス変更を明示しており、法改正の有無で客観的に判断可能であるため。",
+            "sources": "https://www.yamazoetaku.com/policy",
+            "quote_text": "企業に男女の賃金格差の是正計画の策定と公表を義務付ける。",
+            "policy_id": "policy_580"
+          },
+          {
+            "title": "日本銀行を使った円安政策の停止",
+            "reason": "金融政策という具体的な変数の操作の停止を明示しており、政策の変更で客観的に判断可能であるため。",
+            "sources": "https://www.jcp.or.jp/akahata/aik22/2022-06-16/2022061603_01_0.html",
+            "quote_text": "日本銀行を使った円安政策をストップさせる。",
+            "policy_id": "policy_581"
+          },
+          {
+            "title": "立候補年齢を18歳に引き下げ、未成年者の選挙運動禁止規定を撤廃",
+            "reason": "公職選挙法という具体的な法改正を指しており、条文の有無によって客観的に達成が検証可能なため。",
+            "sources": "https://www.jcp.or.jp/akahata/aik26/2026-07-24/2026072404_02_0.php",
+            "quote_text": "選挙に立候補できる年齢を18歳に引き下げ、公職選挙法の“未成年者の選挙運動を禁じる規定”を撤廃する。",
+            "policy_id": "policy_582"
+          },
+          {
+            "title": "奨学金の無利子化および給付型への転換",
+            "reason": "奨学金制度の具体的なステータス変更を指しており、制度の仕様変更として客観的な検証が可能なため。",
+            "sources": "https://www.jcp.or.jp/akahata/aik26/2026-07-24/2026072404_02_0.php",
+            "quote_text": "奨学金を無利子にし、給付型が中心の制度に転換することで、奨学金の重い負担を軽減する。",
+            "policy_id": "policy_583"
+          },
+          {
+            "title": "大学生等を対象とする家賃補助制度の創設と減税",
+            "reason": "家賃補助制度の創設および所得制限に基づく減税という新規制度の設立を指しており、その存否や法改正が客観的に確認可能なため。",
+            "sources": "https://www.jcp.or.jp/akahata/aik26/2026-07-24/2026072404_02_0.php",
+            "quote_text": "大学生などが利用できる家賃補助制度を創設し、家賃が所得の2割を超える人を減税の対象とする",
+            "policy_id": "policy_584"
+          },
+          {
+            "title": "法人税率のアベノミクス以前の水準への復元",
+            "reason": "法人税率を具体的な基準時点へ変更するという法的な措置を明示しており、法改正によって判定可能なため。",
+            "sources": "https://say-g.com/yamazoe-taku-11108",
+            "quote_text": "減税の財源としては、法人税率を下げたアベノミクス以降の水準に戻し",
+            "policy_id": "policy_585"
+          },
+          {
+            "title": "所得1億円超の富裕層への課税強化",
+            "reason": "所得1億円を超える層に対する税率等の変更を明示しており、税法改正の有無によって客観的に判定可能なため。",
+            "sources": "https://say-g.com/yamazoe-taku-11108",
+            "quote_text": "所得1億円を超える富裕層への課税を強化する。",
+            "policy_id": "policy_586"
+          },
+          {
+            "title": "大学や公的研究機関への予算増額",
+            "reason": "予算の増額という具体的なアクションを伴い、予算成立状況によって客観的に判定可能なため。",
+            "sources": "https://say-g.com/yamazoe-taku-11108",
+            "quote_text": "大学や公的研究機関への予算を増やし",
+            "policy_id": "policy_587"
+          },
+          {
+            "title": "データセンターの環境影響評価（アセス法）の対象化",
+            "reason": "法律の対象範囲という変数が客観的に変更されたかで検証可能なため。",
+            "sources": "https://www.yamazoetaku.com/kokkai/10500",
+            "quote_text": "データセンターを環境影響評価法（アセス法）の対象事業として組み込むべきである。",
+            "policy_id": "policy_588"
+          },
+          {
+            "title": "全国10ブロックの比例代表選挙制度の提案",
+            "reason": "比例代表選挙制度の枠組みを全国10ブロックに変更するという法改正による制度変更であり、客観的に検証可能なため。",
+            "sources": "https://www.jcp-tokyo.net/2023/1116/88436",
+            "quote_text": "多様な民意を議席へ正確に反映するため、全国10ブロックの比例代表選挙制度を提案する。",
+            "policy_id": "policy_589"
+          },
+          {
+            "title": "最低賃金時給1500円の実現",
+            "reason": "最低賃金という具体的な数値目標の設定であり、最低賃金法の改定により実施の有無が客観的に判定可能なため。",
+            "sources": "https://www.yamazoetaku.com/policy",
+            "quote_text": "中小企業支援とセットで最低賃金を時給1500円に。",
+            "policy_id": "policy_071"
+          },
+          {
+            "title": "憲法9条改憲への反対",
+            "reason": "憲法改正という政治行動に対する意思表明であり、議会での採決などで客観的に観測可能なため。",
+            "sources": "https://www.jcp.or.jp/akahata/aik22/2022-06-05/2022060505_05_0.html",
+            "quote_text": "際限なき軍拡を進める政権に対し、軍事力ではなく知恵を尽くした平和外交を推進し、憲法9条改憲に反対する。",
+            "policy_id": "policy_590"
+          },
+          {
+            "title": "非正規雇用から正規雇用への転換促進に関する法改正",
+            "reason": "法改正の有無により実行されたか否かを客観的に判断可能なため。",
+            "sources": "https://www.yamazoetaku.com/policy",
+            "quote_text": "非正規から正規への流れをつくる法改正",
+            "policy_id": "policy_591"
+          },
+          {
+            "title": "残業時間の上限規制の導入",
+            "reason": "労働基準法等の改正による具体的な規制の有無で判断可能であるため。",
+            "sources": "https://www.yamazoetaku.com/policy",
+            "quote_text": "残業時間の上限を「週15時間、月45時間、年間360時間」に規制する。",
+            "policy_id": "policy_592"
+          },
+          {
+            "title": "75歳以上の医療費2割負担化および年金削減計画の中止・撤回",
+            "reason": "既存の制度変更計画の中止・撤回という具体的なアクションであり、法改正等の有無で判断可能であるため。",
+            "sources": "https://www.yamazoetaku.com/policy",
+            "quote_text": "75歳以上の医療費2倍化や年金削減計画を中止・撤回し",
+            "policy_id": "policy_593"
+          },
+          {
+            "title": "刑法「不同意性交罪」の創設および「自己堕胎罪」の廃止",
+            "reason": "刑法の条文変更・新設・削除という法的措置であり、法改正の有無により客観的に判断可能であるため。",
+            "sources": "https://www.yamazoetaku.com/policy",
+            "quote_text": "刑法「不同意性交罪」の創設などをすすめ、刑法「自己堕胎罪」の廃止をはじめ",
+            "policy_id": "policy_594"
+          },
+          {
+            "title": "2030年までにCO2排出量を最大60%削減（2010年度比）",
+            "reason": "数値目標の設定であり、削減されたか否かは数値により客観的に判断可能であるため。",
+            "sources": "https://www.yamazoetaku.com/policy",
+            "quote_text": "2030年までにCO2を最大60％削減する（2010年度比）。",
+            "policy_id": "policy_595"
+          },
+          {
+            "title": "核兵器禁止条約への参加",
+            "reason": "条約への加盟・参加という具体的な外交行動であり、実施の有無が客観的に判断可能であるため。",
+            "sources": "https://www.yamazoetaku.com/policy",
+            "quote_text": "核兵器禁止条約に参加する。",
+            "policy_id": "policy_596"
+          },
+          {
+            "title": "沖縄・辺野古新基地建設の中止",
+            "reason": "公共事業の中止という明確なアクションであり、実施の有無が客観的に判断可能であるため。",
+            "sources": "https://www.yamazoetaku.com/policy",
+            "quote_text": "沖縄・辺野古新基地建設を中止し",
+            "policy_id": "policy_571"
+          },
+          {
+            "title": "日米地位協定の抜本改定",
+            "reason": "国際条約の改定という法的措置であり、改定の有無により客観的に判断可能であるため。",
+            "sources": "https://www.yamazoetaku.com/policy",
+            "quote_text": "日米地位協定を抜本改定する。",
+            "policy_id": "policy_477"
+          },
+          {
+            "title": "フリーランスを保護する法整備",
+            "reason": "労働関連法の保護対象拡大を伴う法改正であり、客観的に判断可能であるため。",
+            "sources": "https://www.yamazoetaku.com/policy",
+            "quote_text": "フリーランスも広く労働者としての保護を。",
+            "policy_id": "policy_597"
+          }
+        ],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

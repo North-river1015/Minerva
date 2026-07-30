@@ -1,0 +1,36 @@
+{
+  "district": "岩手1区",
+  "candidates": [
+    {
+      "name": "広瀬めぐみ",
+      "party": "自由民主党",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "title": "人口減少を解消し、たくさんの子供たち、女性、若い人たちが幸せに暮らせるような岩手県にしていく",
+          "reason": "抽象的なスローガンであり、客観的な検証が不可能であるため。",
+          "sources": "https://www.jimin.jp/news/information/203840.html",
+          "quote_text": "人口減少を解消し、たくさんの子供たち、女性、若い人たちが幸せに暮らせるような岩手県にしていく。"
+        },
+        {
+          "title": "虐待やいじめをなくしたい",
+          "reason": "「なくしたい」という曖昧な意気込みであり、具体的な制度変更や数値目標が示されていないため。",
+          "sources": "https://www.jimin.jp/news/information/203840.html",
+          "quote_text": "虐待やいじめをなくしたい。"
+        },
+        {
+          "title": "若い人が活躍する社会を女性の視点で作る",
+          "reason": "抽象的なスローガンであり、どのような変数を操作するかが不明であるため。",
+          "sources": "https://www.jimin.jp/news/information/203840.html",
+          "quote_text": "若い人が活躍する社会を女性の視点で作る。"
+        },
+        {
+          "title": "もっとたくさんの方々の命や生活を守る法律を作りたい",
+          "reason": "「作りたい」という意欲表明であり、対象となる具体的な法律名が特定されていないため。",
+          "sources": "https://www.jimin.jp/news/information/203840.html",
+          "quote_text": "もっとたくさんの方々の命や生活を守る法律を作りたい。"
+        }
+      ]
+    }
+  ]
+}

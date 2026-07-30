@@ -1,0 +1,31 @@
+{
+  "district": "京都1区",
+  "district_code": "2022-san-kyoto-1",
+  "candidates": [
+    {
+      "name": "吉井章",
+      "party": "自由民主党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "【地方議員15年 確かな決断と実現力】",
+            "body": "地方議員4期15年の経験を生かし、府内全域の安心・安全の構築、秩序ある資本主義社会の"
+          }
+        ],
+        "manifesto": []
+      },
+      "web": {
+        "manifesto": [
+          {
+            "title": "消費税率の時限的な5%への引き下げ",
+            "reason": "「消費税率の5%への引き下げ」という具体的な数値目標の変更を指しており、法改正の有無によって客観的に実施が検証可能であるため。",
+            "sources": "https://sangiin.go2senkyo.com/2022/prefecture/26",
+            "quote_text": "消費税率の３～５年の時電的な５％への引き下げ",
+            "policy_id": "policy_327"
+          }
+        ],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "district": "北海道1区",
+  "candidates": [
+    {
+      "name": "長谷川岳",
+      "party": "自由民主党",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "quote_text": "道内での実証実験の後押しを行います。",
+          "reason": "「後押し」の有無や程度が客観的に判断できず、具体的な制度変更を示していないため。",
+          "sources": "https://ameblo.jp/hasegawa-gaku/entry-12884441539.html",
+          "title": "道内での実証実験の後押し"
+        },
+        {
+          "quote_text": "実験を進める上で、妨げとなる規制の緩和を国に働きかけます。",
+          "reason": "「国に働きかけ」という手続き・要望表現であり、具体的な法改正への断定的なコミットメントではないため。",
+          "sources": "https://ameblo.jp/hasegawa-gaku/entry-12884441539.html",
+          "title": "規制緩和への国への働きかけ"
+        },
+        {
+          "quote_text": "自動運転の技術開発のために公道での実走を認めてもらうなど",
+          "reason": "「認めてもらう」という他者の判断に委ねる表現であり、自ら行う法的・制度的な措置の新規導入や改正ではないため。",
+          "sources": "https://ameblo.jp/hasegawa-gaku/entry-12884441539.html",
+          "title": "公道での自動運転実走の許可要請"
+        },
+        {
+          "quote_text": "高度な実験が可能な環境を整えることで、スタートアップ（新興企業）や工場の誘致につなげ",
+          "reason": "「環境を整える」という対象が抽象的であり、どの制度や数値を変更するかが明示されておらず検証不能であるため。",
+          "sources": "https://ameblo.jp/hasegawa-gaku/entry-12884441539.html",
+          "title": "高度な実験が可能な環境整備"
+        },
+        {
+          "quote_text": "道内全域が活性化する新しいチャンスとなるよう、スピード感を持って取り組んでいきます。",
+          "reason": "「スピード感を持って取り組む」という曖昧な意欲表現であり、観測可能な具体的な行動や制度変更ではないため。",
+          "sources": "https://ameblo.jp/hasegawa-gaku/entry-12884441539.html",
+          "title": "道内活性化に向けた取り組み"
+        }
+      ]
+    }
+  ]
+}

@@ -39,7 +39,7 @@ load_dotenv()
 #manifesto, not-manifestoそれぞれでAIに重複を確認させています
 def overlapping (district, num):
     
-    manifesto_file = Path(f"output/finaldata/2025/san/{district}/{district}-{num:02d}-api.json")
+    manifesto_file = Path(f"output/finaldata/2022/san/{district}/{district}-{num:02d}-api.json")
     print("overlapping start", manifesto_file.exists())
     with open(manifesto_file, "r", encoding="utf-8") as f:
         try:
@@ -166,7 +166,7 @@ def overlapping (district, num):
             
 
 
-            OUT_DIR = Path(f"output/finaldata/2025/san/{district}")
+            OUT_DIR = Path(f"output/finaldata/2022/san/{district}")
             OUT_DIR.mkdir(parents=True, exist_ok=True)
             out_file = OUT_DIR / f"{district}-{num:02d}-api.json"
             
@@ -296,7 +296,7 @@ def overlapping (district, num):
             
 
 
-            OUT_DIR = Path(f"output/finaldata/2025/san/{district}")
+            OUT_DIR = Path(f"output/finaldata/2022/san/{district}")
             OUT_DIR.mkdir(parents=True, exist_ok=True)
             out_file = OUT_DIR / f"{district}-{num:02d}-api.json"
             
@@ -424,37 +424,26 @@ def save_append_data(out_file, district, num, winner, new_manifesto, new_not_man
     
         with open(out_file, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
-
 ALL_WINNERS = {
+    "miyazaki": {
+        1: {
+            "name": "松下新平",
+            "official": "https://shinnpei.com/",
+            "party": "自由民主党"
+        }
+    },
+    "kagoshima": {
+        1: {
+            "name": "野村哲郎",
+            "official": "https://nomura-tetsuro.com",
+            "party": "自由民主党"
+        }
+    },
     "okinawa": {
         1: {
-            "name": "高良沙哉",
-            "official": "https://takara-sachika.jp/",
+            "name": "伊波洋一",
+            "official": "https://ihayoichi.jp/",
             "party": "無所属"
-        }
-    },
-    "ibaraki": {
-        1: {
-            "name": "上月良祐",
-            "official": "https://kouzuki-r.com",
-            "party": "自由民主党"
-        },
-        2: {
-            "name": "櫻井祥子",
-            "official": "N/A",
-            "party": "参政党"
-        }
-    },
-    "kyoto": {
-        1: {
-            "name": "新実彰平",
-            "official": "https://niimi-shohei.org/",
-            "party": "日本維新の会"
-        },
-        2: {
-            "name": "西田昌司",
-            "official": "https://www.showyou.jp/",
-            "party": "自由民主党"
         }
     }
 }
@@ -502,12 +491,12 @@ def research1(district,winner,num,official):
     
     2. 以下のクエリを一つずつGoogle search groundingを使用し検索すること。その上で、見つけたページに政策が含まれている場合はURLを保存すること。
 
-    経済・税制・物価高 after:2025-03-30 site:{official}
-    外交・安保・憲法 after:2025-03-30 site:{official}
-    教育・子育て・デジタル after:2025-03-30 site:{official}
-    厚生労働・医療・地域課題 after:2025-03-30 site:{official}
-    - "{winner} 政策 after:2025-03-30 site:{official}"
-    - "{winner} 公約 after:2025-03-30 site:{official}"
+    経済・税制・物価高 after:2022-03-30 site:{official}
+    外交・安保・憲法 after:2022-03-30 site:{official}
+    教育・子育て・デジタル after:2022-03-30 site:{official}
+    厚生労働・医療・地域課題 after:2022-03-30 site:{official}
+    - "{winner} 政策 after:2022-03-30 site:{official}"
+    - "{winner} 公約 after:2022-03-30 site:{official}"
     - "{winner} マニフェスト site:{official}"
     - "site:{official} 政策"
     - "site:{official} 公約"
@@ -526,7 +515,7 @@ def research1(district,winner,num,official):
     
 # Target
     対象議員：{winner}
-    対象期間：2026年2月の衆議院選挙に際して、{winner}が{official}に発表したもののリンクを検索してください。
+    対象期間：2022年の参議院選挙に際して、{winner}が{official}に発表したもののリンクを検索してください。
     
 
 
@@ -573,7 +562,7 @@ JSONとして正しい形で返してください。
         print(f"JSON parse error: {e}")
         new_urls = []
 
-    OUT_DIR = Path(f"output/draftresearch/2025/san/{district}")
+    OUT_DIR = Path(f"output/draftresearch/2022/san/{district}")
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     out_file = OUT_DIR / f"{district}-{num:02d}-final.json"
 
@@ -619,19 +608,19 @@ def research2(district,winner,num):
    
     # Task
     1. Google Search Groundingを使用し、対象者の政策や公約が記載されている可能性のあるページを**全て**クロールしてください。
-    なお、{winner}のNote.comをafter:2025-03-30で検索した際に、対象者のNoteアカウントが見つかった場合は、Note.comも同様に分析してください。
-    また、{winner}のブログをafter:2025-03-30で検索した際に、対象者のブログが見つかった場合は、ブログも同様に分析してください。
+    なお、{winner}のNote.comをafter:2022-03-30で検索した際に、対象者のNoteアカウントが見つかった場合は、Note.comも同様に分析してください。
+    また、{winner}のブログをafter:2022-03-30で検索した際に、対象者のブログが見つかった場合は、ブログも同様に分析してください。
 
     対象者の公式ウェブサイトは確認しないでください。
     
     2. 検索クエリを20個以上作ってください。その際、以下のクエリを必ず含めること。
 
-    経済・税制・物価高 after:2025-03-30
-    外交・安保・憲法 after:2025-03-30
-    教育・子育て・デジタル after:2025-03-30
-    厚生労働・医療・地域課題 after:2025-03-30
-    - "{winner} 政策 after:2025-03-30"
-    - "{winner} 公約 after:2025-03-30"
+    経済・税制・物価高 after:2022-03-30
+    外交・安保・憲法 after:2022-03-30
+    教育・子育て・デジタル after:2022-03-30
+    厚生労働・医療・地域課題 after:2022-03-30
+    - "{winner} 政策 after:2022-03-30"
+    - "{winner} 公約 after:2022-03-30"
     - "{winner} マニフェスト"
     - "{winner} ブログ 政策"
     - "{winner} note 政策"
@@ -651,7 +640,7 @@ def research2(district,winner,num):
     
 # Target
     対象議員：{winner}
-    対象期間：2026年2月の衆議院選挙に際して、{winner}が発表した政策内容をソースとしてください。
+    対象期間：2022年の参議院選挙に際して、{winner}が発表した政策内容をソースとしてください。
     
 
 
@@ -688,7 +677,7 @@ JSONとして正しい形で返してください。
     interaction_id = interaction.id
     final_result= wait_for_research(client,interaction_id)
 
-    OUT_DIR = Path(f"output/draftresearch/2025/san/{district}")
+    OUT_DIR = Path(f"output/draftresearch/2022/san/{district}")
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     out_file = OUT_DIR / f"{district}-{num:02d}-final.json"
             
@@ -721,7 +710,7 @@ JSONとして正しい形で返してください。
 
 
 def get_manifesto(district,winner,num,party):
-    out_file = Path(f"output/finaldata/2025/san/{district}/{district}-{num:02d}-api.json")
+    out_file = Path(f"output/finaldata/2022/san/{district}/{district}-{num:02d}-api.json")
     out_file.parent.mkdir(parents=True, exist_ok=True)
     
     mapping = {
@@ -757,7 +746,7 @@ def get_manifesto(district,winner,num,party):
         print(f"初期ファイルを作成しました: {out_file}")
 
 
-    input_file = f"output/draftresearch/2025/san/{district}/{district}-{num:02d}-final.json"
+    input_file = f"output/draftresearch/2022/san/{district}/{district}-{num:02d}-final.json"
     try:
         with open(input_file, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -815,7 +804,7 @@ def get_manifesto(district,winner,num,party):
         if date is not None:
             year = int(str(date)[:4])
 
-            if year < 2025:
+            if year < 2022:
                 print(f"  -> スキップ（{year}年のページ）: {url}")
                 return
         
@@ -1226,11 +1215,11 @@ JSONとして正しい形で返してください。
 
 
 def process(district,winner,num,official,party):
-  #  with concurrent.futures.ThreadPoolExecutor(max_workers=30) as executor:
-   #     future1 = executor.submit(research1, district, winner, num, official)
-    #    future2 = executor.submit(research2, district, winner, num)
-     #   concurrent.futures.wait([future1, future2])
-      #  print(f"{district, num} research finished")
+ # with concurrent.futures.ThreadPoolExecutor(max_workers=30) as executor:
+  #      future1 = executor.submit(research1, district, winner, num, official)
+   #     future2 = executor.submit(research2, district, winner, num)
+    #    concurrent.futures.wait([future1, future2])
+     #   print(f"{district, num} research finished")
 
     get_manifesto(district, winner, num,party)
     overlapping(district, num)

@@ -1,0 +1,103 @@
+{
+  "district": "愛知4区",
+  "district_code": "2022-san-aichi-4",
+  "candidates": [
+    {
+      "name": "伊藤孝恵",
+      "party": "国民民主党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "これまでの活動",
+            "body": ""
+          },
+          {
+            "header": "孤独対策",
+            "body": "2019年3月提案⇒2021年2月、コロナ禍で深刻化した孤独・孤立に対応する為、担当大臣および対策担当室が新設される 実現"
+          },
+          {
+            "header": "ヤングケアラー支援",
+            "body": "2019年5月提案⇒19回にわたる国会質疑により初の全国調査実施⇒2021年6月、政府の「骨太の方針」に対策が明記⇒2022年4月、法制化に向けた検討がスタート 実現"
+          },
+          {
+            "header": "生理政策",
+            "body": "2020年8月提案⇒生理の貧困対策として2021年3月、生理用品の無償配布実施および政府の「骨太の方針」に盛り込まれる 実現"
+          },
+          {
+            "header": "政策一覧",
+            "body": "政策1 給料があがる経済の実現<br>政策2 ものづくり愛知の産業政策<br>政策3 徹底的な子ども子育て支援<br>政策4 現実的な安全保障政策<br>政策5 対決より解決の行政監視<br>政策6 次世代に贈る政治"
+          }
+        ],
+        "manifesto": []
+      },
+      "web": {
+        "manifesto": [
+          {
+            "title": "0歳から18歳までの教育費無料化",
+            "reason": "教育費の無料化という制度のステータス変更を明示しており、法改正や予算措置の有無によって客観的に達成度が検証可能なため。",
+            "sources": "https://itoutakae.info/seisaku/kyouiku/",
+            "quote_text": "教育費を0歳から18歳まで無料にする。",
+            "policy_id": "policy_636"
+          },
+          {
+            "title": "子育て・教育政策における所得制限の撤廃",
+            "reason": "各種子育て給付における所得制限の撤廃という制度的な要件変更を掲げており、法改正や運用変更によって客観的に検証可能なため。",
+            "sources": "https://itoutakae.info/seisaku/kyouiku/",
+            "quote_text": "児童手当、保育無償化、高校無償化、給付型奨学金など、教育・子育て政策における所得制限を撤廃する。",
+            "policy_id": "policy_066"
+          },
+          {
+            "title": "教育予算の倍増",
+            "reason": "予算規模の倍増という数値目標を掲げており、予算額の推移により客観的に達成度が検証可能なため。",
+            "sources": "https://itoutakae.info/seisaku/kyouiku/",
+            "quote_text": "法改正により教育科学技術予算を倍増させる。",
+            "policy_id": "policy_218"
+          },
+          {
+            "title": "学校給食費・教材費・修学旅行費の無償化",
+            "reason": "無償化の対象を具体的に列挙しており、法改正や制度改正の有無によって客観的に検証可能な制度的変更のため。",
+            "sources": "https://itoutakae.info/seisaku/kyouiku/",
+            "quote_text": "教育費だけでなく学校給食費・教材費・修学旅行費を無償化し、子育て世帯の負担をゼロにする。",
+            "policy_id": "policy_637"
+          },
+          {
+            "title": "内密出産の法整備",
+            "reason": "匿名での出産を可能にするための法制度構築を提言しており、法律の制定・改正が実施されたかによって客観的に検証可能なため。",
+            "sources": "https://itoutakae.info/seisaku/naimitsusyussan/",
+            "quote_text": "匿名での出産を希望する母親が、特定の人物にのみ身元を明かして出産できる制度を構築し、母体には医療的介助を伴う安全な出産を、生まれた赤ちゃんには無条件に守られる環境を保障する。",
+            "policy_id": "policy_638"
+          },
+          {
+            "title": "18歳までの児童手当拡充",
+            "reason": "児童手当の支給対象年齢の引き上げという明確なパラメータ変更を提示しており、制度改定の有無により客観的に検証可能なため。",
+            "sources": "https://itoutakae.info/seisaku/kosodate/",
+            "quote_text": "年収にかかわらず、18歳まで児童手当を拡充する",
+            "policy_id": "policy_639"
+          },
+          {
+            "title": "ヤングケアラー支援",
+            "reason": "支援策の導入を掲げており、具体的な支援プログラムや制度の設立・運用状況によって客観的に検証可能なため。",
+            "sources": "https://itoutakae.info/seisaku/kosodate/",
+            "quote_text": "ヤングケアラー支援",
+            "policy_id": "policy_640"
+          },
+          {
+            "title": "生理政策",
+            "reason": "生理に関連する支援策や制度導入を掲げており、政策の実施内容や予算措置によって客観的に検証可能なため。",
+            "sources": "https://itoutakae.info/seisaku/kosodate/",
+            "quote_text": "生理政策",
+            "policy_id": "policy_641"
+          },
+          {
+            "title": "更年期障害対策",
+            "reason": "更年期障害に対する支援や対策を掲げており、医療的あるいは社会的な支援制度の整備状況により客観的に検証可能なため。",
+            "sources": "https://itoutakae.info/seisaku/kosodate/",
+            "quote_text": "更年期障害対策",
+            "policy_id": "policy_642"
+          }
+        ],
+        "not_manifesto": []
+      }
+    }
+  ]
+}

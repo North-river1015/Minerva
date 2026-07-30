@@ -1,0 +1,190 @@
+{
+  "district": "静岡1区",
+  "candidates": [
+    {
+      "name": "若林洋平",
+      "party": "自由民主党",
+      "manifesto": [
+        {
+          "quote_text": "静岡県の豊かな自然環境を守るために、不法盛土や環境破壊メガソーラーは絶対に許さない法規制を実現する",
+          "reason": "不法盛土や環境破壊メガソーラーに対する法規制の実現という新法制定または既存法の改正を明確に示しており、法文の有無によって達成されたかが客観的に判断可能なため。",
+          "sources": "https://kominamiyasuha.jp/wakabayashiyohei-hyoban/",
+          "title": "不法盛土や環境破壊メガソーラーに対する法規制の実現",
+          "policy_id": "policy_635"
+        },
+        {
+          "quote_text": "憲法改正に賛成し、自衛隊の存在を明記すべきだと考える",
+          "reason": "憲法改正という最高法規の条文変更を伴う自衛隊の明記を指しており、改正の有無によって客観的に検証可能な断定的な政治的アクションであるため。",
+          "sources": "https://kominamiyasuha.jp/wakabayashiyohei-hyoban/",
+          "title": "憲法への自衛隊の明記",
+          "policy_id": "policy_015"
+        },
+        {
+          "quote_text": "同性婚を可能とする法改正に賛成すると考える",
+          "reason": "同性婚を可能とする法改正という具体的な制度のステータス変更を指しており、法改正の有無や法案に対する態度によって客観的に検証可能であるため。",
+          "sources": "https://kominamiyasuha.jp/wakabayashiyohei-hyoban/",
+          "title": "同性婚を可能とする法改正への賛成",
+          "policy_id": "policy_349"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "quote_text": "「退職自衛官・家族支援庁（仮称）」創設の検討を進め",
+          "reason": "「検討」が含まれており手続き表現であるため、制度創設への断定的なコミットメントではない。",
+          "sources": "https://yohei-wakabayashi.com/2026/06/19/%E3%80%8C%E9%80%80%E8%81%B7%E8%87%AA%E8%A1%9B%E5%AE%98%E3%83%BB%E5%AE%B6%E6%97%8F%E6%94%AF%E6%8F%B4%E5%BA%81%EF%BC%88%E4%BB%AE%E7%A7%B0%EF%BC%89%E3%80%8D%E5%89%B5%E8%A8%AD%E3%81%AE%E6%A4%9C%E8%A8%8E/",
+          "title": "退職自衛官・家族支援庁（仮称）創設の検討を進める"
+        },
+        {
+          "quote_text": "退職後のサポート体制を強化します",
+          "reason": "「強化」が含まれており、対象も「体制」という抽象的な概念であるため、客観的な達成判定が不可能である。",
+          "sources": "https://yohei-wakabayashi.com/2026/06/19/%E3%80%8C%E9%80%80%E8%81%B7%E8%87%AA%E8%A1%9B%E5%AE%98%E3%83%BB%E5%AE%B6%E6%97%8F%E6%94%AF%E6%8F%B4%E5%BA%81%EF%BC%88%E4%BB%AE%E7%A7%B0%EF%BC%89%E3%80%8D%E5%89%B5%E8%A8%AD%E3%81%AE%E6%A4%9C%E8%A8%8E/",
+          "title": "退職後のサポート体制を強化する"
+        },
+        {
+          "quote_text": "司令塔組織の構築や予算要求に向けた検討会を立ち上げ",
+          "reason": "「構築」の対象が抽象的な組織・体制であり、「検討会を立ち上げ」は最終的な制度変更を意味しない手続きに過ぎないため。",
+          "sources": "https://yohei-wakabayashi.com/2026/06/19/%E3%80%8C%E9%80%80%E8%81%B7%E8%87%AA%E8%A1%9B%E5%AE%98%E3%83%BB%E5%AE%B6%E6%97%8F%E6%94%AF%E6%8F%B4%E5%BA%81%EF%BC%88%E4%BB%AE%E7%A7%B0%EF%BC%89%E3%80%8D%E5%89%B5%E8%A8%AD%E3%81%AE%E6%A4%9C%E8%A8%8E/",
+          "title": "司令塔組織の構築や予算要求に向けた検討会を立ち上げる"
+        },
+        {
+          "quote_text": "退職自衛官の処遇改善および留守家族支援",
+          "reason": "「改善」「支援」という目標が示されているのみで、具体的にどの変数や法律を変更するかが明示されていないため。",
+          "sources": "https://yohei-wakabayashi.com/2026/06/19/%E3%80%8C%E9%80%80%E8%81%B7%E8%87%AA%E8%A1%9B%E5%AE%98%E3%83%BB%E5%AE%B6%E6%97%8F%E6%94%AF%E6%8F%B4%E5%BA%81%EF%BC%88%E4%BB%AE%E7%A7%B0%EF%BC%89%E3%80%8D%E5%89%B5%E8%A8%AD%E3%81%AE%E6%A4%9C%E8%A8%8E/",
+          "title": "退職自衛官の処遇改善および留守家族支援を行う"
+        },
+        {
+          "quote_text": "隊員が敬意と感謝と誇りを持てる環境づくりに尽力します",
+          "reason": "「環境づくり」「尽力します」という曖昧な意欲表現であり、達成の有無を客観的に検証できないため。",
+          "sources": "https://yohei-wakabayashi.com/2026/06/19/%E3%80%8C%E9%80%80%E8%81%B7%E8%87%AA%E8%A1%9B%E5%AE%98%E3%83%BB%E5%AE%B6%E6%97%8F%E6%94%AF%E6%8F%B4%E5%BA%81%EF%BC%88%E4%BB%AE%E7%A7%B0%EF%BC%89%E3%80%8D%E5%89%B5%E8%A8%AD%E3%81%AE%E6%A4%9C%E8%A8%8E/",
+          "title": "隊員が敬意と感謝と誇りを持てる環境づくりに尽力する"
+        },
+        {
+          "quote_text": "新型コロナと新たなパンデミックを見据え、地域の病院を強固な「命を守る砦」にする為、研修制度の見直し、科の偏在の是正を国として行う。",
+          "reason": "「見直し」「是正」が何を具体的に変更するか不明であり、客観的な達成基準が存在しないため。",
+          "sources": "https://yohei-wakabayashi.com/policy/",
+          "title": "研修制度の見直し・科の偏在の是正"
+        },
+        {
+          "quote_text": "高齢者の皆様が豊かな生活を送る為に、高齢者雇用環境改善と社会保障改革を断行する。",
+          "reason": "「雇用環境改善」「社会保障改革」は抽象的な概念であり、具体的な変数の変更が不明なため。",
+          "sources": "https://yohei-wakabayashi.com/policy/",
+          "title": "高齢者雇用環境改善と社会保障改革の断行"
+        },
+        {
+          "quote_text": "地震・津波・噴火・風水害に対し、県・市町との連携を更に深め、各自治体が現実的かつ積極的に対策がとれるよう支援していく。",
+          "reason": "「連携を深め」「支援していく」は意欲表現であり、具体的な制度変更や数値目標を含まないため。",
+          "sources": "https://yohei-wakabayashi.com/policy/",
+          "title": "災害対策のための自治体支援"
+        },
+        {
+          "quote_text": "毅然とした外交と防衛力の充実で、新たな脅威から国民を守り抜く。",
+          "reason": "「防衛力の充実」「守り抜く」は抽象的なスローガンであり、客観的な達成指標が存在しないため。",
+          "sources": "https://yohei-wakabayashi.com/policy/",
+          "title": "外交と防衛力の充実"
+        },
+        {
+          "quote_text": "子供は未来を担う日本の宝であり希望として、教育現場を守ると同時に、幅広い少子化対策を徹底的に行う。",
+          "reason": "「徹底的に行う」は手続き・意欲表現であり、具体的な政策手段が示されていないため。",
+          "sources": "https://yohei-wakabayashi.com/policy/",
+          "title": "幅広い少子化対策の徹底"
+        },
+        {
+          "quote_text": "農林水産業を守る為に、自給率・自給力を上げる。",
+          "reason": "「上げる」という目標のみで、具体的な数値目標や法改正等の手段が示されていないため。",
+          "sources": "https://yohei-wakabayashi.com/policy/",
+          "title": "自給率・自給力の向上"
+        },
+        {
+          "quote_text": "農林水産業への国のあり方を根本から見直し、消費者への意識改革のための情報発信を行う。",
+          "reason": "「見直し」「情報発信を行う」は手続き表現であり、客観的な達成基準が存在しないため。",
+          "sources": "https://yohei-wakabayashi.com/policy/",
+          "title": "農林水産業への国のあり方の見直し"
+        },
+        {
+          "quote_text": "定年後の農業に対する取り組みやすさの充実を図る。",
+          "reason": "「充実を図る」は意欲表現であり、具体的にどの制度を変更するのかが不明なため。",
+          "sources": "https://yohei-wakabayashi.com/policy/",
+          "title": "定年後の農業の取り組みやすさの充実"
+        },
+        {
+          "quote_text": "静岡県の港湾・道路鉄道網を高度に連携させた「ロジスティクス産業集積県構想」を構築する。",
+          "reason": "特定地域（静岡県）への利益誘導であり、「構想の構築」は抽象的で検証不能なため。",
+          "sources": "https://yohei-wakabayashi.com/policy/",
+          "title": "静岡県ロジスティクス産業集積県構想の構築"
+        },
+        {
+          "quote_text": "富士山、伊豆半島、日本平、浜名湖など観光資源を更に活かし、新しい形の「観光宿泊ハブ県」を目指す。",
+          "reason": "「目指す」は手続き・意欲表現であり、特定地域への利益誘導であるため。",
+          "sources": "https://yohei-wakabayashi.com/policy/",
+          "title": "観光宿泊ハブ県の目標"
+        },
+        {
+          "quote_text": "IoT、AI、ビッグデータを駆使して静岡県のモノづくり産業、一次産業をレベルアップさせる。",
+          "reason": "「レベルアップさせる」は抽象的な目標であり、特定地域への利益誘導であるため。",
+          "sources": "https://yohei-wakabayashi.com/policy/",
+          "title": "静岡県産業のレベルアップ"
+        },
+        {
+          "quote_text": "大井川の命の水と、富士川など静岡県の清流を取り戻す。",
+          "reason": "「取り戻す」は抽象的なスローガンであり、特定地域への利益誘導であるため。",
+          "sources": "https://yohei-wakabayashi.com/policy/",
+          "title": "静岡県の清流の回復"
+        },
+        {
+          "quote_text": "環境省を静岡県に誘致し、日本一の環境県静岡を実現することで産業にも好影響を与える。",
+          "reason": "特定地域（静岡県）への利益誘導（行政機関の誘致）に該当するため。",
+          "sources": "https://yohei-wakabayashi.com/policy/",
+          "title": "環境省の静岡県への誘致"
+        },
+        {
+          "quote_text": "遠州灘、駿河湾、相模湾など静岡県の海の恵みを次世代へつなぐ。",
+          "reason": "抽象的なスローガンであり、具体的な制度変更や数値目標を含まない特定地域の利益誘導であるため。",
+          "sources": "https://yohei-wakabayashi.com/policy/",
+          "title": "静岡県の海の恵みの次世代継承"
+        },
+        {
+          "quote_text": "厳しい時こそ積極財政により経済回復に努めるとともに、いち早い国土強靭化と環境保全を行う。",
+          "reason": "「努める」「行う」は意欲表現・手続きであり、「積極財政」「国土強靭化」「環境保全」は抽象的な概念であるため。",
+          "sources": "https://yohei-wakabayashi.com/policy/",
+          "title": "積極財政・国土強靭化・環境保全の実施"
+        },
+        {
+          "quote_text": "新型コロナと新たなパンデミックを見据え、地域の病院を強固な「命を守る砦」にするため、研修制度の見直し、科の偏在の是正を国として行う",
+          "reason": "「見直し」という手続き表現が含まれており、具体的な変数の変更が不明で客観的に判定できないため。",
+          "sources": "https://kominamiyasuha.jp/wakabayashiyohei-hyoban/",
+          "title": "研修制度の見直しと科の偏在の是正"
+        },
+        {
+          "quote_text": "今まで支えてきていただいた高齢者の皆様が豊かな生活を送るために、高齢者雇用環境改善と社会保障改革を断行する",
+          "reason": "「環境改善」「改革」という対象が抽象的な概念であり、具体的にどの変数（数値や法律）を変更するのかが不明であるため。",
+          "sources": "https://kominamiyasuha.jp/wakabayashiyohei-hyoban/",
+          "title": "高齢者雇用環境改善と社会保障改革の断行"
+        },
+        {
+          "quote_text": "静岡県の活力ある地域経済を守るために、農業・漁業・林業の振興や観光・交流人口の拡大に取り組む",
+          "reason": "「取り組む」「振興」「拡大」が単なる手続き・意欲表現であり、具体的な数値目標や制度変更がないため。",
+          "sources": "https://kominamiyasuha.jp/wakabayashiyohei-hyoban/",
+          "title": "農林水産業の振興や観光交流人口の拡大への取り組み"
+        },
+        {
+          "quote_text": "静岡県の安全と安心を守るために、災害対策や防犯・防災の強化に努める",
+          "reason": "「強化」と「努める」という言葉が含まれており、客観的に判定可能な具体的な行動や変数の特定ができないため。",
+          "sources": "https://kominamiyasuha.jp/wakabayashiyohei-hyoban/",
+          "title": "災害対策や防犯・防災の強化への努力"
+        },
+        {
+          "quote_text": "敵基地攻撃能力を持つことにどちらかと言えば賛成し、ロシアに対する制裁をさらに強めるべきだと考える",
+          "reason": "「どちらかと言えば賛成」という曖昧な態度表明であり断定的なコミットメントではないこと、「強める」という客観的に判定できない表現を含むため。",
+          "sources": "https://kominamiyasuha.jp/wakabayashiyohei-hyoban/",
+          "title": "敵基地攻撃能力の保有への賛成と対露制裁の強化"
+        },
+        {
+          "quote_text": "選択的夫婦別姓制度の導入に反対し",
+          "reason": "「反対」という消極的な意思表明であり、新たな制度の導入や法改正という前向きな政治的アクションを伴うコミットメントではない（現状維持の表明）ため。",
+          "sources": "https://kominamiyasuha.jp/wakabayashiyohei-hyoban/",
+          "title": "選択的夫婦別姓制度の導入への反対"
+        }
+      ]
+    }
+  ]
+}

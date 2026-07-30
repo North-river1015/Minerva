@@ -5,9 +5,9 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
 # --- 設定 ---
-BASE_URL = "https://go2senkyo.com"
+BASE_URL = "https://sangiin.go2senkyo.com"
 # 保存先のベースパス
-BASE_SAVE_PATH = "data/raw_pdf/2026/san"
+BASE_SAVE_PATH = "data/raw_pdf/2022/san"
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
@@ -29,7 +29,7 @@ def get_all_japan_pdf():
     # 1番(北海道)から47番(沖縄)までループ
     for i, pref_name in enumerate(PREFECTURES, 1):
         pref_id = i  # JISコード
-        pref_url = f"{BASE_URL}/sangiin/20376/prefecture/{pref_id}"
+        pref_url = f"{BASE_URL}/2022/prefecture/{pref_id}"
         save_dir = os.path.join(BASE_SAVE_PATH, pref_name)
         
         # フォルダ作成

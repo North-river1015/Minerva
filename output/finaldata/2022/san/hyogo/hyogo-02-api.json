@@ -1,0 +1,174 @@
+{
+  "district": "兵庫2区",
+  "candidates": [
+    {
+      "name": "末松信介",
+      "party": "自由民主党",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "quote_text": "新型コロナウイルス感染症から、県民の皆様の命と暮らしを守ります。",
+          "reason": "抽象的なスローガンであり、具体的な政策行動が示されていないため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "新型コロナから県民の命と暮らしを守る"
+        },
+        {
+          "quote_text": "3回目のワクチン追加接種を推進するとともに",
+          "reason": "「推進」という手続き表現が含まれており、変数が明確でないため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "3回目のワクチン追加接種の推進"
+        },
+        {
+          "quote_text": "飲み薬も含め治療薬の迅速な承認と確保",
+          "reason": "「迅速な」という主観的表現であり、具体的な基準や制度変更が示されていないため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "治療薬の迅速な承認と確保"
+        },
+        {
+          "quote_text": "国産ワクチンや治療薬の開発を進めます",
+          "reason": "「進めます」という手続き・意欲表現であり、客観的な達成基準がないため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "国産ワクチンや治療薬の開発の推進"
+        },
+        {
+          "quote_text": "地方創生臨時交付金等により地方自治体や感染症対応医療機関への財政支援を強化し",
+          "reason": "「強化」という言葉が含まれており、どの程度の拡充か変数が特定できないため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "地方創生臨時交付金等による財政支援の強化"
+        },
+        {
+          "quote_text": "病床や人材確保に全力で取り組みます",
+          "reason": "「全力で取り組みます」という曖昧な意気込みであり、検証可能な数値目標がないため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "病床や人材確保への全力での取り組み"
+        },
+        {
+          "quote_text": "コロナ禍にも負けない経済、まちづくりを応援します",
+          "reason": "「応援します」という抽象的な意気込みであり、具体的アクションが不明なため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "コロナ禍にも負けない経済、まちづくりを応援"
+        },
+        {
+          "quote_text": "雇用調整助成金など各種支援施策により、飲食、観光、航空、文化芸術など、あるいは非正規雇用者、女性、子育て世帯、学生など、コロナに苦しむ事業者や個人・家庭を支えます",
+          "reason": "既存の制度の活用であり、新たな変数の変更や制度設立が示されていないため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "雇用調整助成金等による各種支援施策の実施"
+        },
+        {
+          "quote_text": "落ち込んだ経済の再生に全力を尽くします",
+          "reason": "「全力を尽くします」という意気込みであり、具体的な手段や達成基準がないため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "経済の再生に全力を尽くす"
+        },
+        {
+          "quote_text": "子供たちが夢と希望を持てる環境づくりの実現",
+          "reason": "「環境づくり」という抽象的な概念であり、観測可能な変数がないため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "子供が夢と希望を持てる環境づくりの実現"
+        },
+        {
+          "quote_text": "小中だけでなく高校も含めた１人１台端末の環境を整備するGIGAスクール構想",
+          "reason": "既存の制度（GIGAスクール構想）の整備・継続であり、新規の公約ではないため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "小中高における1人1台端末環境の整備（GIGAスクール構想）"
+        },
+        {
+          "quote_text": "インクルーシブ教育等を進めることで",
+          "reason": "「進める」という手続き表現であり、変数が明確でないため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "インクルーシブ教育等の推進"
+        },
+        {
+          "quote_text": "全ての子供たちの可能性を引き出す「個別最適な学び」と「協働的な学び」を目指します",
+          "reason": "「目指します」という手続き表現であり、制度変更が明示されていないため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "個別最適な学びと協働的な学びを目指す"
+        },
+        {
+          "quote_text": "海外との研究環境の格差を改善し",
+          "reason": "「改善し」という曖昧な表現であり、どの変数をどう変更するかが不明なため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "海外との研究環境の格差改善"
+        },
+        {
+          "quote_text": "研究力向上の鍵である若手研究者への支援の強化など",
+          "reason": "「強化」という言葉が含まれており、変数が明確でないため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "若手研究者への支援の強化"
+        },
+        {
+          "quote_text": "科学技術・イノベーションへの力強い支援を行います",
+          "reason": "「支援を行います」という抽象的表現であり、具体策がないため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "科学技術・イノベーションへの支援"
+        },
+        {
+          "quote_text": "スポーツ、芸術、文化の振興を図ってまいります",
+          "reason": "「図ってまいります」という手続き表現であり、変数が特定できないため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "スポーツ、芸術、文化の振興"
+        },
+        {
+          "quote_text": "基幹道路ネットワークを整備し",
+          "reason": "「整備し」という表現であり、利益誘導の可能性が高く、また全国制度の変更ではないため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "基幹道路ネットワークの整備"
+        },
+        {
+          "quote_text": "デジタル化を推進しICTを活用することで",
+          "reason": "「推進し」という手続き表現が含まれているため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "デジタル化とICT活用の推進"
+        },
+        {
+          "quote_text": "日本をリードする「兵庫」の経済の活性化を図ります",
+          "reason": "「図ります」という曖昧な表現であり、客観的な達成基準がないため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "兵庫の経済の活性化"
+        },
+        {
+          "quote_text": "地方の創意工夫を活かした地方創生を推進し",
+          "reason": "「推進し」という手続き表現が含まれているため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "地方創生の推進"
+        },
+        {
+          "quote_text": "どこからでもビジネスを興し、日本全国、あるいは世界へ羽ばたけるような環境をつくります",
+          "reason": "「環境をつくります」という抽象的な概念へのアクションであり、変数が特定できないため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "ビジネス環境の構築"
+        },
+        {
+          "quote_text": "「成長と分配の好循環」により、生産性の向上や成長力の底上げ、所得の向上を目指します",
+          "reason": "「目指します」という手続き表現であり、数値目標や制度変更が不明なため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "成長と分配の好循環による生産性等の向上を目指す"
+        },
+        {
+          "quote_text": "中小企業・小規模事業者の成長を支援し",
+          "reason": "「支援し」という抽象的なアクションであり、変数が特定できないため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "中小企業・小規模事業者の成長支援"
+        },
+        {
+          "quote_text": "事業承継の改善等を図ります",
+          "reason": "「図ります」という曖昧な表現であり、何を変更するかが不明なため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "事業承継の改善"
+        },
+        {
+          "quote_text": "「長生きして良かった」と実感できる社会を目指す",
+          "reason": "抽象的なスローガンであり、具体的な政策手段がないため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "「長生きして良かった」と実感できる社会を目指す"
+        },
+        {
+          "quote_text": "医療、介護、年金、少子化対策等の充実を更に進め",
+          "reason": "「充実を更に進め」という手続き表現であり、変数が特定できないため。",
+          "sources": "https://suematsu.org/policy/",
+          "title": "医療・介護・年金・少子化対策等の充実"
+        }
+      ]
+    }
+  ]
+}

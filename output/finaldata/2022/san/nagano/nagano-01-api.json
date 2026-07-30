@@ -1,0 +1,294 @@
+{
+  "district": "長野1区",
+  "candidates": [
+    {
+      "name": "杉尾秀哉",
+      "party": "立憲民主党",
+      "manifesto": [
+        {
+          "quote_text": "核兵器禁止条約を批准し",
+          "reason": "条約の批准は国会承認という具体的な手続きであり、その有無で客観的に判断可能な制度ステータスの変更であるため。",
+          "sources": "http://r-nagano.com/2022/03/25/%E6%9D%89%E5%B0%BE%E7%A7%80%E5%93%89%E3%83%BB%E5%8F%82%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E3%81%A8%E7%9C%8C%E5%8A%B4%E7%B5%84%E4%BC%9A%E8%AD%B0%E3%81%8C%E6%84%8F%E8%A6%8B%E4%BA%A4%E6%8F%9B/",
+          "title": "核兵器禁止条約の批准",
+          "policy_id": "policy_627"
+        },
+        {
+          "quote_text": "法人税の累進税率を導入、",
+          "reason": "税制の具体的なパラメータ（税率制度）の導入を指しており、法改正の有無によって実施されたかが客観的に判断可能であるため。",
+          "sources": "http://r-nagano.com/2022/03/25/%E6%9D%89%E5%B0%BE%E7%A7%80%E5%93%89%E3%83%BB%E5%8F%82%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E3%81%A8%E7%9C%8C%E5%8A%B4%E7%B5%84%E4%BC%9A%E8%AD%B0%E3%81%8C%E6%84%8F%E8%A6%8B%E4%BA%A4%E6%8F%9B/",
+          "title": "法人税の累進税率の導入",
+          "policy_id": "policy_628"
+        },
+        {
+          "quote_text": "所得税の最高税率を引き上げ、",
+          "reason": "税率という具体的な数値の引き上げを指しており、法改正の有無によって実施されたかが客観的に判断可能であるため。",
+          "sources": "http://r-nagano.com/2022/03/25/%E6%9D%89%E5%B0%BE%E7%A7%80%E5%93%89%E3%83%BB%E5%8F%82%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E3%81%A8%E7%9C%8C%E5%8A%B4%E7%B5%84%E4%BC%9A%E8%AD%B0%E3%81%8C%E6%84%8F%E8%A6%8B%E4%BA%A4%E6%8F%9B/",
+          "title": "所得税の最高税率の引き上げ",
+          "policy_id": "policy_616"
+        },
+        {
+          "quote_text": "金融所得への総合課税化など",
+          "reason": "課税制度のステータス変更を指しており、法改正の有無によって実施されたかが客観的に判断可能であるため。",
+          "sources": "http://r-nagano.com/2022/03/25/%E6%9D%89%E5%B0%BE%E7%A7%80%E5%93%89%E3%83%BB%E5%8F%82%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E3%81%A8%E7%9C%8C%E5%8A%B4%E7%B5%84%E4%BC%9A%E8%AD%B0%E3%81%8C%E6%84%8F%E8%A6%8B%E4%BA%A4%E6%8F%9B/",
+          "title": "金融所得への総合課税化",
+          "policy_id": "policy_629"
+        },
+        {
+          "quote_text": "消費税率の10％から5％への暫定的引き下げ",
+          "reason": "消費税率という明確な数値の変更（10%から5%へ）であり、法改正の有無で客観的に判定可能なため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "消費税率の10％から5％への暫定的引き下げ",
+          "policy_id": "policy_630"
+        },
+        {
+          "quote_text": "こども手当復活",
+          "reason": "廃止された制度の復活という明確な制度のステータス変更であり、法改正や予算成立の有無で判定可能なため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "こども手当の復活",
+          "policy_id": "policy_631"
+        },
+        {
+          "quote_text": "高校授業料や学校給食費等の完全無償化実現",
+          "reason": "「完全無償化」という明確な制度ステータスの変更であり、実施されたかどうかが客観的に判定可能なため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "高校授業料や学校給食費等の完全無償化",
+          "policy_id": "policy_632"
+        },
+        {
+          "quote_text": "出産無償化",
+          "reason": "出産費用の無償化という明確な制度ステータスの変更であり、新制度設立や法改正の有無で判定可能なため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "出産無償化",
+          "policy_id": "policy_174"
+        },
+        {
+          "quote_text": "農業者個別所得補償制度の復活",
+          "reason": "廃止された制度の復活という明確な制度ステータスの変更であり、法改正の有無で判定可能なため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "農業者個別所得補償制度の復活",
+          "policy_id": "policy_473"
+        },
+        {
+          "quote_text": "新たな過疎地交付金制度の創設",
+          "reason": "特定の新規制度の設立を明言しており、その存否が客観的に確認可能なため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "新たな過疎地交付金制度の創設",
+          "policy_id": "policy_633"
+        },
+        {
+          "quote_text": "正規雇用を雇用の原則と位置づけ直す",
+          "reason": "労働法改正等により「正規雇用を原則とする」という法的位置づけの変更（制度ステータスの変更）を指しており、法改正の有無で客観的に判定可能なため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "正規雇用を雇用の原則と位置づけ直す",
+          "policy_id": "policy_634"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "quote_text": "立憲主義に基づき、憲法９条の改悪に反対し、基本的人権の尊重、平和主義、国民主権を掲げる日本国憲法の原則を徹底して守ります。",
+          "reason": "「徹底して守る」は既存の制度の維持を再確認するにとどまっており、新たな政治的アクションや変数の変更を伴わないため。",
+          "sources": "http://r-nagano.com/2022/03/25/%E6%9D%89%E5%B0%BE%E7%A7%80%E5%93%89%E3%83%BB%E5%8F%82%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E3%81%A8%E7%9C%8C%E5%8A%B4%E7%B5%84%E4%BC%9A%E8%AD%B0%E3%81%8C%E6%84%8F%E8%A6%8B%E4%BA%A4%E6%8F%9B/",
+          "title": "憲法9条の改悪反対と原則の徹底"
+        },
+        {
+          "quote_text": "沖縄県の米軍辺野古基地建設に反対し、日米地位協定の改定を求めます。",
+          "reason": "「求めます」という意欲表現・手続き表現であり、具体的な法改正の実施を断言したコミットメントではないため。",
+          "sources": "http://r-nagano.com/2022/03/25/%E6%9D%89%E5%B0%BE%E7%A7%80%E5%93%89%E3%83%BB%E5%8F%82%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E3%81%A8%E7%9C%8C%E5%8A%B4%E7%B5%84%E4%BC%9A%E8%AD%B0%E3%81%8C%E6%84%8F%E8%A6%8B%E4%BA%A4%E6%8F%9B/",
+          "title": "日米地位協定の改定要求"
+        },
+        {
+          "quote_text": "労働基本権を擁護し、労働者全体の賃金引き上げと労働者保護ルールの堅持、官民の非正規雇用の待遇改善を図り、正規雇用化をめざします。",
+          "reason": "「図り」「めざします」という手続き・意欲表現が含まれており、具体的な制度変更や法改正の有無で客観的に判断できないため。",
+          "sources": "http://r-nagano.com/2022/03/25/%E6%9D%89%E5%B0%BE%E7%A7%80%E5%93%89%E3%83%BB%E5%8F%82%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E3%81%A8%E7%9C%8C%E5%8A%B4%E7%B5%84%E4%BC%9A%E8%AD%B0%E3%81%8C%E6%84%8F%E8%A6%8B%E4%BA%A4%E6%8F%9B/",
+          "title": "非正規雇用の待遇改善と正規雇用化"
+        },
+        {
+          "quote_text": "男女の賃金格差、雇用格差をなくし、女性が安心して働き続けられる権利確立に取り組みます。また、ＬＧＢＴｓなどすべての差別の解消に取り組みます。",
+          "reason": "「取り組みます」という手続き表現であり、どの法律を改正して実施するか等の変数が特定されていないため。",
+          "sources": "http://r-nagano.com/2022/03/25/%E6%9D%89%E5%B0%BE%E7%A7%80%E5%93%89%E3%83%BB%E5%8F%82%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E3%81%A8%E7%9C%8C%E5%8A%B4%E7%B5%84%E4%BC%9A%E8%AD%B0%E3%81%8C%E6%84%8F%E8%A6%8B%E4%BA%A4%E6%8F%9B/",
+          "title": "賃金・雇用格差の解消と差別解消"
+        },
+        {
+          "quote_text": "規制緩和とコロナ禍の直撃を受けている地域公共交通の維持、活性化対策を強化します。",
+          "reason": "「強化」という動詞が含まれており、何をどれだけ強化するかの変数が不明で客観的な検証が不可能であるため。",
+          "sources": "http://r-nagano.com/2022/03/25/%E6%9D%89%E5%B0%BE%E7%A7%80%E5%93%89%E3%83%BB%E5%8F%82%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E3%81%A8%E7%9C%8C%E5%8A%B4%E7%B5%84%E4%BC%9A%E8%AD%B0%E3%81%8C%E6%84%8F%E8%A6%8B%E4%BA%A4%E6%8F%9B/",
+          "title": "地域公共交通の維持・活性化対策の強化"
+        },
+        {
+          "quote_text": "保育、学校教育にかかる総ての費用の無償化を進め、子どもたちの学ぶ権利を等しく保障します。",
+          "reason": "「総ての費用の無償化」は対象範囲が抽象的であり、「進め」という手続き表現を用いているため、実施の有無を100%客観的に判定できないため。",
+          "sources": "http://r-nagano.com/2022/03/25/%E6%9D%89%E5%B0%BE%E7%A7%80%E5%93%89%E3%83%BB%E5%8F%82%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E3%81%A8%E7%9C%8C%E5%8A%B4%E7%B5%84%E4%BC%9A%E8%AD%B0%E3%81%8C%E6%84%8F%E8%A6%8B%E4%BA%A4%E6%8F%9B/",
+          "title": "保育・学校教育の無償化推進"
+        },
+        {
+          "quote_text": "所得の再分配政策を強化します。",
+          "reason": "「強化」という動詞が含まれており、具体的な制度変更や数値目標が示されておらず、客観的な検証が不可能であるため。",
+          "sources": "http://r-nagano.com/2022/03/25/%E6%9D%89%E5%B0%BE%E7%A7%80%E5%93%89%E3%83%BB%E5%8F%82%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E3%81%A8%E7%9C%8C%E5%8A%B4%E7%B5%84%E4%BC%9A%E8%AD%B0%E3%81%8C%E6%84%8F%E8%A6%8B%E4%BA%A4%E6%8F%9B/",
+          "title": "所得の再分配政策の強化"
+        },
+        {
+          "quote_text": "コロナ禍の1日も早い克服",
+          "reason": "「克服」が抽象的であり、達成基準や具体的な法的措置が不明であるため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "コロナ禍の克服"
+        },
+        {
+          "quote_text": "とりわけ厳しい立場の人達の生活や事業支援等の充実",
+          "reason": "「充実」の基準が曖昧であり、客観的に達成されたかを数値等で判定できないため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "厳しい立場の人達の生活や事業支援等の充実"
+        },
+        {
+          "quote_text": "円安・物価高を招いた「アベノミクス」からの脱却",
+          "reason": "「脱却」が抽象的な目標であり、具体的な変数の変更や制度の廃止が明示されていないため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "アベノミクスからの脱却"
+        },
+        {
+          "quote_text": "防災・減災対策の加速化",
+          "reason": "「加速化」が曖昧な手続き表現であり、具体的な制度変更や数値目標が示されていないため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "防災・減災対策の加速化"
+        },
+        {
+          "quote_text": "被災者生活再建支援金制度等の充実",
+          "reason": "「充実」が曖昧であり、どの変数（支給額、対象者など）を変更するか不明であるため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "被災者生活再建支援金制度等の充実"
+        },
+        {
+          "quote_text": "住民の「いのちと暮らし」を守るために必要な行政サービスの充実",
+          "reason": "抽象的なスローガンであり、「充実」の基準が客観的に判定できないため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "行政サービスの充実"
+        },
+        {
+          "quote_text": "いわゆる「小さな政府論」からの脱却",
+          "reason": "抽象的な概念からの脱却であり、法的措置や具体的な変数の変更が示されていないため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "小さな政府論からの脱却"
+        },
+        {
+          "quote_text": "「人への投資」予算の倍増",
+          "reason": "「人への投資」という予算の対象範囲が定義されておらず、倍増の達成を第三者が客観的に判定できないため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "「人への投資」予算の倍増"
+        },
+        {
+          "quote_text": "子育て政策の充実",
+          "reason": "「充実」が曖昧であり、具体的な制度変更や数値目標が示されていないため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "子育て政策の充実"
+        },
+        {
+          "quote_text": "大学等授業料を引き下げ",
+          "reason": "引き下げ幅や対象が不明確であり、実施されたかどうかの客観的な基準が設定できないため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "大学等授業料の引き下げ"
+        },
+        {
+          "quote_text": "将来の無償化を目指す",
+          "reason": "「目指す」という単なる意欲表現であり、断定的なコミットメントではないため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "大学等授業料の将来の無償化"
+        },
+        {
+          "quote_text": "保育士等の処遇改善",
+          "reason": "「処遇改善」の具体的な中身（賃金引き上げ額など）が不明であり、客観的な達成基準がないため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "保育士等の処遇改善"
+        },
+        {
+          "quote_text": "不妊治療の保険適用拡大",
+          "reason": "「拡大」の範囲や対象が不明確であり、どこまで拡大すれば達成と言えるかの基準がないため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "不妊治療の保険適用拡大"
+        },
+        {
+          "quote_text": "行政コスト削減",
+          "reason": "削減目標の数値や対象が不明確であり、客観的な判定ができないため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "行政コスト削減"
+        },
+        {
+          "quote_text": "「無駄使い」の撲滅",
+          "reason": "「無駄使い」の定義が曖昧であり、達成基準が客観的に判定できないため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "「無駄使い」の撲滅"
+        },
+        {
+          "quote_text": "農業・林業を再生させる「一次産業ルネサンス」",
+          "reason": "抽象的なスローガンであり、具体的な制度変更や数値目標が示されていないため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "一次産業ルネサンス"
+        },
+        {
+          "quote_text": "農業者個別所得補償制度の拡充",
+          "reason": "「拡充」の具体的な水準が不明であり、実施の有無が客観的に判定できないため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "農業者個別所得補償制度の拡充"
+        },
+        {
+          "quote_text": "木材の安定供給・国産材の利活用推進",
+          "reason": "「推進」という手続き表現であり、断定的なコミットメントや具体的な制度変更がないため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "木材の安定供給・国産材の利活用推進"
+        },
+        {
+          "quote_text": "森林環境譲与税の配分見直し",
+          "reason": "「見直し」が何を意味するのか不明であり、結果へのコミットメントではないため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "森林環境譲与税の配分見直し"
+        },
+        {
+          "quote_text": "豪雪地での雪害対策強化",
+          "reason": "「強化」は曖昧であり、また特定地域（豪雪地）への利益誘導の側面があり、全国的な制度変更ではないため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "豪雪地での雪害対策強化"
+        },
+        {
+          "quote_text": "大学等教育機関の地方分散を含めた「郷学郷就」政策の推進",
+          "reason": "「推進」という手続き表現であり、具体的な制度変更が明示されていないため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "「郷学郷就」政策の推進"
+        },
+        {
+          "quote_text": "苦境にある公共交通を守る",
+          "reason": "「守る」の具体的な手段や法的措置が不明であり、客観的な達成基準がないため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "公共交通を守る"
+        },
+        {
+          "quote_text": "消費税率や金融所得課税など「直間比率」を含めた税体系の抜本的見直し",
+          "reason": "「抜本的見直し」が具体的にどの変数をどう変更するのか不明であり、結果へのコミットメントではないため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "税体系の抜本的見直し"
+        },
+        {
+          "quote_text": "支払い能力に応じた「応能負担原則」の徹底",
+          "reason": "「徹底」は行政の当然の責務の再確認であり、具体的な新規アクションや制度変更が不明なため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "応能負担原則の徹底"
+        },
+        {
+          "quote_text": "公平・公正な社会負担による適正な所得再分配で格差是正を図る",
+          "reason": "「格差是正を図る」は抽象的な目標であり、具体的な制度変更が示されていないため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "格差是正"
+        },
+        {
+          "quote_text": "財政の健全化を両立させる",
+          "reason": "抽象的な目標であり、具体的な数値目標や法改正が示されていないため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "財政の健全化"
+        },
+        {
+          "quote_text": "実質賃金（＝自由に使えるお金）の底上げ政策",
+          "reason": "「底上げ政策」が具体的にどの制度をどう変更するのか不明であり、客観的な達成基準がないため。",
+          "sources": "https://sugio.club/policy.html",
+          "title": "実質賃金の底上げ政策"
+        }
+      ]
+    }
+  ]
+}

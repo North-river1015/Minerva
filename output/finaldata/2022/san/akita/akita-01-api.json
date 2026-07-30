@@ -1,0 +1,54 @@
+{
+  "district": "秋田1区",
+  "candidates": [
+    {
+      "name": "石井浩郎",
+      "party": "自由民主党",
+      "manifesto": [],
+      "not-manifesto": [
+        {
+          "title": "農林産業を成長産業にする",
+          "reason": "「成長産業にする」という目標は抽象的であり、具体的な制度変更や数値目標が示されていないため。",
+          "sources": "https://nihon1.jp/22sanin.html",
+          "quote_text": "農林産業を成長産業にする。"
+        },
+        {
+          "title": "地方経済の元気を取り戻す",
+          "reason": "「元気を取り戻す」という抽象的なスローガンであり、客観的な達成基準が存在しないため。",
+          "sources": "https://nihon1.jp/22sanin.html",
+          "quote_text": "地方経済の元気を取り戻す。"
+        },
+        {
+          "title": "命と健康を守る",
+          "reason": "「守る」という意気込みの表明であり、具体的な政策や制度変更が含まれていないため。",
+          "sources": "https://nihon1.jp/22sanin.html",
+          "quote_text": "命と健康を守る。"
+        },
+        {
+          "title": "教育の充実とスポーツを通じた健康で豊かな地域社会の実現",
+          "reason": "「充実」「実現する」という曖昧な意気込みであり、観測可能な具体的施策や制度変更が示されていないため。",
+          "sources": "https://nihon1.jp/22sanin.html",
+          "quote_text": "未来の投資として「教育」の充実、およびスポーツを通じた健康で豊かな地域社会を実現する。"
+        },
+        {
+          "title": "国県市町村の連携による秋田県の諸課題への挑戦",
+          "reason": "特定地域（秋田県）への利益誘導の可能性があり、かつ「連携し」「挑戦していく」という手続き・意欲表現に過ぎないため。",
+          "sources": "https://nihon1.jp/22sanin.html",
+          "quote_text": "国、県、市町村がしっかり連携し、秋田県の諸課題に挑戦していく。"
+        },
+        {
+          "title": "農林水産業の発展",
+          "reason": "抽象的なスローガンであり、具体的な政策や制度変更が示されていないため。",
+          "sources": "https://www.jimin.jp/election/results/sen_san26/candidate/100472.html",
+          "quote_text": "農林水産業の発展"
+        },
+        {
+          "title": "地方経済を元気に",
+          "reason": "抽象的なスローガンであり、具体的な政策や制度変更が示されていないため。",
+          "sources": "https://www.jimin.jp/election/results/sen_san26/candidate/100472.html",
+          "quote_text": "農林水産業の発展\n\n地方経済を元気に\n\n命と暮らしを守る\n\n教育の充実、スポーツの発展\n\n女性が活躍できる社会\n\n外交と憲法改正"
+        }
+      ]
+    }
+  ]
+}

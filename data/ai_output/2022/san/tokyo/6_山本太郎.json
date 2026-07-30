@@ -1,0 +1,12 @@
+{
+  "district": null,
+  "candidates": [
+    {
+      "name": "山本太郎",
+      "party": "れいわ新選組",
+      "step1_ocr_raw_text": "山本太郎\nここまで来たらコイツしかいない\nれいわ新選組",
+      "step2_selected_pledges": [],
+      "full_text": "山本太郎\nここまで来たらコイツしかいない\nれいわ新選組"
+    }
+  ]
+}

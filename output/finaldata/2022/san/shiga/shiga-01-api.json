@@ -1,0 +1,261 @@
+{
+  "district": "滋賀1区",
+  "candidates": [
+    {
+      "name": "小鑓隆史",
+      "party": "自由民主党",
+      "manifesto": [
+        {
+          "quote_text": "感染症法等の改正を行い",
+          "reason": "「感染症法等の改正」という具体的な法改正の有無によって実施されたかが客観的に判断可能であるため。",
+          "sources": "https://www.koyaritakashi.net/policy/",
+          "title": "感染症法等の改正",
+          "policy_id": "policy_645"
+        },
+        {
+          "quote_text": "「こども家庭庁」を創設し",
+          "reason": "「こども家庭庁の創設」という特定の新規制度の設立を指しており、その存否によって実施の有無を明確に判定できるため。",
+          "sources": "https://www.koyaritakashi.net/policy/",
+          "title": "こども家庭庁の創設",
+          "policy_id": "policy_646"
+        }
+      ],
+      "not-manifesto": [
+        {
+          "quote_text": "新型コロナ対策と経済の関係：経済を回すことを重視すべきだ",
+          "reason": "抽象的なスローガン・意見表明であり、具体的な法改正や制度変更の変数が特定できないため。",
+          "sources": "https://www.ntv.co.jp/election2022/research/candidate/?id=250003",
+          "title": "新型コロナ対策と経済の関係"
+        },
+        {
+          "quote_text": "「脱マスク」：慎重に進めるべきだ",
+          "reason": "「慎重に進める」という手続き・意欲表現であり、観測可能な変数が存在しないため。",
+          "sources": "https://www.ntv.co.jp/election2022/research/candidate/?id=250003",
+          "title": "「脱マスク」"
+        },
+        {
+          "quote_text": "新型コロナの感染症法上の扱い：5類にすべき",
+          "reason": "「〜すべき」という他者への提言・意見表明であり、自身の断定的な政治的コミットメントではないため。",
+          "sources": "https://www.ntv.co.jp/election2022/research/candidate/?id=250003",
+          "title": "新型コロナの感染症法上の扱い"
+        },
+        {
+          "quote_text": "濃厚接触者の待機期間短縮：やや反対",
+          "reason": "特定の政策に対するスタンス表明であり、自身が行う具体的な政治アクションの表明ではないため。",
+          "sources": "https://www.ntv.co.jp/election2022/research/candidate/?id=250003",
+          "title": "濃厚接触者の待機期間短縮"
+        },
+        {
+          "quote_text": "選択的夫婦別姓制度：やや反対",
+          "reason": "法案に対するスタンス表明であり、自らが改正を行うという断定的なコミットメントではないため。",
+          "sources": "https://www.ntv.co.jp/election2022/research/candidate/?id=250003",
+          "title": "選択的夫婦別姓制度"
+        },
+        {
+          "quote_text": "緊急避妊薬（アフターピル）を、薬局で処方箋をなしで販売するなど、入手しやすくすること：やや反対",
+          "reason": "制度導入に対するスタンス表明であり、具体的な政治的行動への意思表明ではないため。",
+          "sources": "https://www.ntv.co.jp/election2022/research/candidate/?id=250003",
+          "title": "緊急避妊薬の処方箋なし販売"
+        },
+        {
+          "quote_text": "同性婚を法律に明記すること：やや反対",
+          "reason": "法案に対するスタンス表明であり、断定的な政治的コミットメントではないため。",
+          "sources": "https://www.ntv.co.jp/election2022/research/candidate/?id=250003",
+          "title": "同性婚の法律明記"
+        },
+        {
+          "quote_text": "選挙で政党の女性候補者の割合を一定以上にするよう法律で定めること：やや反対",
+          "reason": "法案に対するスタンス表明であり、具体的な法改正のコミットメントではないため。",
+          "sources": "https://www.ntv.co.jp/election2022/research/candidate/?id=250003",
+          "title": "政党の女性候補者割合の法定化"
+        },
+        {
+          "quote_text": "選挙のインターネット投票：やや反対",
+          "reason": "制度導入に対するスタンス表明であり、断定的な政治的行動への意思ではないため。",
+          "sources": "https://www.ntv.co.jp/election2022/research/candidate/?id=250003",
+          "title": "選挙のインターネット投票"
+        },
+        {
+          "quote_text": "海外からの難民受け入れ：現状と同程度を維持すべきだ",
+          "reason": "「現状維持」であり、新たな政治的アクションを伴う公約ではないため。",
+          "sources": "https://www.ntv.co.jp/election2022/research/candidate/?id=250003",
+          "title": "海外からの難民受け入れ"
+        },
+        {
+          "quote_text": "出産費補助の出産育児一時金について：現状の補助で、不足分は自己負担とすべき",
+          "reason": "「〜すべき」という意見表明であり、具体的な法改正や予算変更の断定的なコミットメントではないため。",
+          "sources": "https://www.ntv.co.jp/election2022/research/candidate/?id=250003",
+          "title": "出産育児一時金の制度"
+        },
+        {
+          "quote_text": "男性の育児休暇取得を雇用主に義務付けること：やや反対",
+          "reason": "法案に対するスタンス表明であり、自身が行う具体的な政策の実施ではないため。",
+          "sources": "https://www.ntv.co.jp/election2022/research/candidate/?id=250003",
+          "title": "男性の育児休暇取得義務付け"
+        },
+        {
+          "quote_text": "生理用品を消費税の軽減税率の対象とすること：やや反対",
+          "reason": "税制改正に対するスタンス表明であり、断定的な政治的アクションではないため。",
+          "sources": "https://www.ntv.co.jp/election2022/research/candidate/?id=250003",
+          "title": "生理用品の消費税軽減税率化"
+        },
+        {
+          "quote_text": "おむつを消費税の軽減税率の対象とすること：やや反対",
+          "reason": "税制改正に対するスタンス表明であり、断定的な政治的アクションではないため。",
+          "sources": "https://www.ntv.co.jp/election2022/research/candidate/?id=250003",
+          "title": "おむつの消費税軽減税率化"
+        },
+        {
+          "quote_text": "企業などでの雇用形態：「流動性」より「安定性」を重視すべきだ",
+          "reason": "抽象的な意見表明であり、操作する具体的な変数が特定できないため。",
+          "sources": "https://www.ntv.co.jp/election2022/research/candidate/?id=250003",
+          "title": "企業の雇用形態"
+        },
+        {
+          "quote_text": "年金や医療などの社会保障：給付などの水準を下げて、国民の負担を抑制すべきだ",
+          "reason": "「〜すべき」という抽象的な意見表明であり、具体的な法改正の有無を客観的に判断できないため。",
+          "sources": "https://www.ntv.co.jp/election2022/research/candidate/?id=250003",
+          "title": "社会保障の給付水準"
+        },
+        {
+          "quote_text": "石油元売りへの補助金や、ガソリン税の引き下げによるガソリン価格高騰対策：やや反対",
+          "reason": "政策に対するスタンス表明であり、断定的な政治的アクションではないため。",
+          "sources": "https://www.ntv.co.jp/election2022/research/candidate/?id=250003",
+          "title": "ガソリン価格高騰対策"
+        },
+        {
+          "quote_text": "日本銀行による大規模金融緩和継続の方針：やや反対",
+          "reason": "日銀政策に対するスタンス表明であり、自らの政治的コミットメントではないため。",
+          "sources": "https://www.ntv.co.jp/election2022/research/candidate/?id=250003",
+          "title": "大規模金融緩和の継続"
+        },
+        {
+          "quote_text": "新規制基準を満たした原発の再稼働：やや反対",
+          "reason": "政策に対するスタンス表明であり、断定的な政治的アクションではないため。",
+          "sources": "https://www.ntv.co.jp/election2022/research/candidate/?id=250003",
+          "title": "原発の再稼働"
+        },
+        {
+          "quote_text": "自衛隊の存在を憲法に明記すること：やや反対",
+          "reason": "憲法改正に対するスタンス表明であり、自身が改正を行うという断定的なコミットメントではないため。",
+          "sources": "https://www.ntv.co.jp/election2022/research/candidate/?id=250003",
+          "title": "憲法への自衛隊明記"
+        },
+        {
+          "quote_text": "日本の防衛力をさらに強化すること：やや反対",
+          "reason": "「強化」という抽象的表現へのスタンス表明であり、客観的に検証可能な変数が特定できないため。",
+          "sources": "https://www.ntv.co.jp/election2022/research/candidate/?id=250003",
+          "title": "防衛力の強化"
+        },
+        {
+          "quote_text": "攻撃される前に相手国のミサイル発射基地などを破壊する「敵基地攻撃能力（反撃能力）」：やや反対",
+          "reason": "能力導入に対するスタンス表明であり、断定的な政治的アクションではないため。",
+          "sources": "https://www.ntv.co.jp/election2022/research/candidate/?id=250003",
+          "title": "敵基地攻撃能力"
+        },
+        {
+          "quote_text": "米軍の核兵器を国内に配備して共同運用する「核シェアリング」：やや反対",
+          "reason": "政策に対するスタンス表明であり、断定的な政治的アクションではないため。",
+          "sources": "https://www.ntv.co.jp/election2022/research/candidate/?id=250003",
+          "title": "核シェアリング"
+        },
+        {
+          "quote_text": "ロシアの経済制裁：日本経済に悪影響が出るのであれば、ゆるめるべき",
+          "reason": "「〜すべき」という提言・意見表明であり、具体的な法改正等の断定的なコミットメントではないため。",
+          "sources": "https://www.ntv.co.jp/election2022/research/candidate/?id=250003",
+          "title": "ロシアの経済制裁"
+        },
+        {
+          "quote_text": "フェイクニュースや偽情報への対策：発信者への罰則や規制は慎重にすべき",
+          "reason": "「慎重にすべき」という手続き・意欲表現であり、具体的な法案提出等の観測可能な変数が存在しないため。",
+          "sources": "https://www.ntv.co.jp/election2022/research/candidate/?id=250003",
+          "title": "フェイクニュースへの対策"
+        },
+        {
+          "quote_text": "女性が天皇になるのを認めること：やや反対",
+          "reason": "皇位継承制度改革に対するスタンス表明であり、断定的な政治的アクションではないため。",
+          "sources": "https://www.ntv.co.jp/election2022/research/candidate/?id=250003",
+          "title": "女性天皇の認めること"
+        },
+        {
+          "quote_text": "今後も起こりうる感染症危機に備えて、危機に即応できる感染症対応体制の強化を図ります。",
+          "reason": "「強化を図ります」という手続き・意欲表現であり、客観的な達成基準や変数が不明確であるため。",
+          "sources": "https://www.koyaritakashi.net/policy/",
+          "title": "感染症対応体制の強化"
+        },
+        {
+          "quote_text": "安全性の確認を前提としつつ、国内外の感染状況を踏まえて迅速に医薬品等を開発・導入できる薬事承認の仕組みを作ります。",
+          "reason": "「仕組みを作る」とあるが、どの法律を改正し、どのような変数を変更するかが具体的に示されていないため。",
+          "sources": "https://www.koyaritakashi.net/policy/",
+          "title": "薬事承認の仕組みの創設"
+        },
+        {
+          "quote_text": "危機に備え国内産のワクチンや治療薬等が確保できるよう、国からの開発投資の強化、治験や評価の仕組みの見直しなど国内開発環境を整備します。",
+          "reason": "「強化」「見直し」「整備」という動詞が含まれ、具体的な数値目標や法的措置が明示されていないため。",
+          "sources": "https://www.koyaritakashi.net/policy/",
+          "title": "開発投資の強化や国内開発環境の整備"
+        },
+        {
+          "quote_text": "医療・福祉や年金など持続可能な全世代型社会保障制度への改善の歩みを続けます。",
+          "reason": "「改善の歩みを続けます」という曖昧な意気込みであり、達成度を客観的に検証できないため。",
+          "sources": "https://www.koyaritakashi.net/policy/",
+          "title": "持続可能な全世代型社会保障制度への改善"
+        },
+        {
+          "quote_text": "医療、介護、看護、福祉など地域の力を結集し、面で支え合う地域包括ケアシステムの構築を進めます。",
+          "reason": "「構築を進めます」という手続き表現であり、具体的な制度変更や変数の操作が示されていないため。",
+          "sources": "https://www.koyaritakashi.net/policy/",
+          "title": "地域包括ケアシステムの構築"
+        },
+        {
+          "quote_text": "口腔ケア等歯科検診の充実、保険組合等の検診DBを活用した予防医療の強化等による健康寿命延伸に向けた仕組みづくりに加え",
+          "reason": "「充実」「強化」「仕組みづくり」といった抽象的な概念であり、実施の有無が客観的に判断できないため。",
+          "sources": "https://www.koyaritakashi.net/policy/",
+          "title": "健康寿命延伸に向けた仕組みづくり"
+        },
+        {
+          "quote_text": "難病法改正を含め難病で苦しむ患者等への支援充実など、必要な方に必要な医療を提供する視野の広い医療提供体制の構築を進めます。",
+          "reason": "難病法改正を含め〜支援充実など、体制構築を進めます、とあり、法改正を断言するものではなく支援充実のための手段の一つとして挙げられているに過ぎないため。",
+          "sources": "https://www.koyaritakashi.net/policy/",
+          "title": "難病患者等への支援充実"
+        },
+        {
+          "quote_text": "新たな支え手の加入促進など制度の改善を進めます。",
+          "reason": "「促進」「進めます」という手続き・意欲表現が含まれるため。",
+          "sources": "https://www.koyaritakashi.net/policy/",
+          "title": "新たな支え手の加入促進"
+        },
+        {
+          "quote_text": "児童虐待を防止し、子育て・教育環境の質の向上を図ります。",
+          "reason": "「向上を図ります」という手続き・意欲表現が含まれているため。",
+          "sources": "https://www.koyaritakashi.net/policy/",
+          "title": "子育て・教育環境の質の向上"
+        },
+        {
+          "quote_text": "孤独や孤立に苦しむ方々に寄り添い、支えるための国、自治体、NPO等の支援連携体制を強化するとともに、児童福祉法改正による児童虐待防止対策の強化、民生委員やソーシャルワーカー等の支援者が活動しやすい環境づくりを進めます。",
+          "reason": "「体制を強化」「対策の強化」「環境づくりを進めます」という手続き・意欲表現であり、法改正も強化のための手段として述べられているに過ぎないため。",
+          "sources": "https://www.koyaritakashi.net/policy/",
+          "title": "児童虐待防止対策の強化や支援環境の整備"
+        },
+        {
+          "quote_text": "EdTechやGIGAスクール構想など新時代に対応",
+          "reason": "文章が途切れており、具体的な政治的アクションや断定的な意思表明が含まれていないため。",
+          "sources": "https://www.koyaritakashi.net/policy/",
+          "title": "EdTechやGIGAスクール構想等への対応"
+        },
+        {
+          "quote_text": "感染症法等の改正を行い、司令塔機能の強化や国と地方の役割分担の見直しなど、より迅速・適確な意思決定を可能とする体制を構築します。",
+          "reason": "「体制の構築」「強化」「見直し」が含まれており、法改正と言ってもどの条文をどう変更するかという具体的な変数が不明確であるため。",
+          "sources": "https://www.koyaritakashi.net/category/policy/",
+          "title": "感染症法等の改正と体制構築"
+        },
+        {
+          "quote_text": "こども家庭庁の創設と体制構築",
+          "reason": "「体制を構築します」という意欲表現が主であり、「こども家庭庁」の創設は既存の政府方針の再確認または体制構築のための手段であり、新規の政治的コミットメントとしての変数が明確でないため。",
+          "sources": "https://www.koyaritakashi.net/category/policy/",
+          "title": "こども家庭庁の創設と体制構築"
+        }
+      ]
+    }
+  ]
+}

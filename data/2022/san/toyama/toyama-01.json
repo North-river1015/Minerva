@@ -1,0 +1,23 @@
+{
+  "district": "富山1区",
+  "district_code": "2022-san-toyama-1",
+  "candidates": [
+    {
+      "name": "野上浩太郎",
+      "party": "自由民主党",
+      "bulletin": {
+        "full_text_blocks": [
+          {
+            "header": "自民党公認",
+            "body": "野上浩太郎"
+          }
+        ],
+        "manifesto": []
+      },
+      "web": {
+        "manifesto": [],
+        "not_manifesto": []
+      }
+    }
+  ]
+}
