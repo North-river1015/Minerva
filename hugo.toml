@@ -128,3 +128,16 @@ pagination.pagerSize = 2000
 [params]
   defaultTheme = "light"
   disableThemeToggle = true
+
+[params.author]
+  name = "Minerva"
+
+  [security.exec]
+  allow = [
+    '^(dart-)?sass$',
+    '^go$',
+    '^git$',
+    '^node$',
+    '^postcss$',
+    '^tailwindcss$'
+  ]

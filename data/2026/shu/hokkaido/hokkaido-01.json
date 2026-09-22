@@ -31,15 +31,7 @@
         "manifesto": []
       },
       "web": {
-        "manifesto": [
-          {
-            "title": "社会保険料の引き下げ",
-            "reason": "保険料率の改定という制度上の具体的なパラメータの変更を伴い、実施の有無が客観的に検証可能であるため。",
-            "sources": "https://www.uhb.jp/news/single.html?id=57225",
-            "quote_text": "社会保険料の引き下げ",
-            "policy_id": "policy_096"
-          }
-        ],
+        "manifesto": [        ],
         "not_manifesto": []
       }
     }
